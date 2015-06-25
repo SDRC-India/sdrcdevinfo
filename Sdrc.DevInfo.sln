@@ -9,7 +9,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DIWeb(1)", "http://localhos
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		ProjectReferences = "{cfe13ae7-9e5f-4226-9243-aa7e88662d37}|SvgToPng.dll;"
+		ProjectReferences = ""
 		Debug.AspNetCompiler.VirtualPath = "/localhost_1890"
 		Debug.AspNetCompiler.PhysicalPath = "Sdrc.DevInfo\DIWeb\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1890\"
@@ -52,8 +52,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDMXApi_2_1", "Sdrc.DevInfo\SDMXApi_2_1\SDMXApi_2_1.csproj", "{61AA937A-492F-4C45-A55C-DD7D4859CB52}"
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{0FAAA76A-430F-4607-9DDE-DDA648E108DA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgToPng", "Sdrc.DevInfo\SvgToPng\SvgToPng.csproj", "{CFE13AE7-9E5F-4226-9243-AA7E88662D37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -175,16 +173,6 @@ Global
 		{0FAAA76A-430F-4607-9DDE-DDA648E108DA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{0FAAA76A-430F-4607-9DDE-DDA648E108DA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{0FAAA76A-430F-4607-9DDE-DDA648E108DA}.Release|x86.ActiveCfg = Release|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{CFE13AE7-9E5F-4226-9243-AA7E88662D37}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

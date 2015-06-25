@@ -1,0 +1,445 @@
+﻿/* Start for DIVC (Visulization Component) classes */
+.di_clear{
+	clear:both;
+}
+.di_gui_vccontainer{
+	border:1px solid #d3d3d3;
+	border-radius:10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px;
+    -moz-box-shadow: 0 0 20px #000000;
+	-webkit-box-shadow: 0 0 20px #000000;
+	box-shadow: 0px 0px 20px #000;
+    background: none repeat scroll 0 0 #FFFFFF;
+    font-size: 1.2em;
+    z-index: 1600;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+/* For close button ...starts*/
+.di_vcbtn_close {
+	overflow:visible;
+	position:relative;
+	float: right;	
+	margin: -18px -29px 0 0;
+	cursor:pointer;
+}
+/* For close button ...ends*/
+
+/* start for tab menu */
+.di_gui_vctabcontainer {
+	position:relative;
+	float:left;
+	width:100%;
+	padding:0 0 0 0;
+	margin:0px 0px 0px 0px;
+	list-style:none;
+	line-height:1em;
+	padding-left:10px;
+	/*padding-bottom:2px;*/
+}
+.di_gui_vctabcontainerli {
+	float:left;
+	margin:0px 0px 0px 0px;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.di_gui_vctabcontainerlia {
+	/*display:block;
+	color:#444;
+	text-decoration:none;
+	font-weight:bold;
+	background-image: url(../../images/tab_bg.jpg);
+	background-repeat:repeat-x;
+	background-color:#d9d9d9;
+	margin:0;
+	padding:5px 8px;
+	border-left:1px solid #d9d9d9;
+	border-top:1px solid #d9d9d9;
+	border-right:1px solid #aaa;*/
+	display:block; text-align:center; width:90px; height:25px; 
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font-size:12px;	color:#FFFFFF; line-height:22px; margin-right:3px;
+	/* For Gradient Effect ...starts*/
+	   /* fallback/image non-cover color */
+	   background-color: #de1818;
+	   /* fallback image */
+	   background-image: url(../../images/tab_bg_red.gif);
+	   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#de1818), to(#711313));
+	   background-image: -webkit-linear-gradient(top, #de1818, #711313); 
+	   background-image: -moz-linear-gradient(top, #de1818, #711313);
+	   background-image: -ms-linear-gradient(top, #de1818, #711313);
+	   background-image: -o-linear-gradient(top, #de1818, #711313);
+	/* For Gradient Effect ...ends*/	
+		  -moz-border-radius-topright: 9px;
+		  border-top-right-radius: 9px;
+		  -moz-border-radius-topleft: 9px;
+		  border-top-left-radius: 9px;
+		  -webkit-top-left-radius: 9px;
+		  -webkit-top-right-radius: 9px;
+		  border-top: solid 1px #711313; border-left:solid 1px #711313; border-right:solid 1px #711313;
+		  text-decoration:none;
+}
+.di_gui_vctabcontainerlia:hover{
+	/*background:#fafafa;
+	font-weight:bold;	
+	color:#444;*/
+	color:#FFFFFF;
+	text-decoration:none;
+	/* For Gradient Effect ...starts*/
+	   /* fallback/image non-cover color */
+	   background-color: #711313;
+	   /* fallback image */
+	   background-image: url(../../images/tab_bg_red_hover.gif);
+	   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#711313), to(#de1818));
+	   background-image: -webkit-linear-gradient(top, #711313, #de1818); 
+	   background-image: -moz-linear-gradient(top, #711313, #de1818);
+	   background-image: -ms-linear-gradient(top, #711313, #de1818);
+	   background-image: -o-linear-gradient(top, #711313, #de1818);
+	/* For Gradient Effect ...ends*/	          
+		  display:block; height:25px; 
+		  -moz-border-radius-topright: 9px;
+		  border-top-right-radius: 9px;
+		  -moz-border-radius-topleft: 9px;
+		  border-top-left-radius: 9px;
+		  -webkit-top-left-radius: 9px;
+		  -webkit-top-right-radius: 9px	
+}
+.di_gui_activeTab{
+	/*background:#fafafa;*/
+	/* For Gradient Effect ...starts*/
+	   /* fallback/image non-cover color */
+	   color:#FFFFFF;
+	   background-color: #396cdc;
+	   /* fallback image */
+	   background-image: url(../../images/tab_bg_blue.gif);
+	   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#396cdc), to(#002984));
+	   background-image: -webkit-linear-gradient(top, #396cdc, #002984); 
+	   background-image: -moz-linear-gradient(top, #396cdc, #002984);
+	   background-image: -ms-linear-gradient(top, #396cdc, #002984);
+	   background-image: -o-linear-gradient(top, #396cdc, #002984);
+	/* For Gradient Effect ...ends*/	
+}
+/* end for tab menu */
+
+/* start for sub menu */
+.di_gui_navsubmenu {
+	background:#fafafa;
+	font-size:12px;
+	padding:0px;
+	margin-top:0px;
+	height:127px;
+	border-top:0;
+	border-left:1px solid #bbb;
+	border-right:1px solid #bbb;
+	border-bottom:1px solid #bbb;			
+	position:relative;
+}
+.di_gui_subm_box{
+	font-size:12px;
+	height:116px;
+	border:0px solid #bbb;
+	background:#fff;
+	padding:5px;
+	/*width:100%;*/
+}
+/* end for sub menu */
+
+/* Box Sets ...starts */
+#main_box{
+	width:100%;
+}
+
+/* For midium BOX of submenu */
+.di_vcsec_box{
+	font-size:10px;
+	margin:1px 0px 0px 1px;
+	border:1px solid #d3d3d3;
+	padding:3px 0px 0px 0px;
+	width:225px;
+	/*background-color:#ffffff;*/
+	float:left;
+	height:120px; 
+	position:relative;	
+	/* For Gradient Effect ...starts*/
+	   /* fallback/image non-cover color */
+	   background-color: #dbdbdb;
+	   /* fallback image */
+	   background-image: url(../../images/fallback-cont_box_bg.jpg);
+	   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e9e9e9), to(#d7d7d7));
+	   background-image: -webkit-linear-gradient(top, #e9e9e9, #d7d7d7); 
+	   background-image: -moz-linear-gradient(top, #e9e9e9, #d7d7d7);
+	   background-image: -ms-linear-gradient(top, #e9e9e9, #d7d7d7);
+	   background-image: -o-linear-gradient(top, #e9e9e9, #d7d7d7);
+	/* For Gradient Effect ...ends*/	
+		border-radius:5px; 
+	-moz-border-radius:5px; 
+	-webkit-box-radius:5px;		
+}
+.di_vcsec_box p{
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	padding:0px 0px 1px 5px; 
+	margin:0px;
+}
+.di_vcsec_box_bttmtxt{
+	background-color:#b8b8b8;
+	border-top:1px solid #ffffff;
+	/*padding:5px;*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	height:20px;
+	text-align:center;
+	font-weight:bold;
+	border-left:2px solid #b8b8b8; border-right:2px solid #b8b8b8; 		
+	border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;		
+}
+
+/* For Large BOX of submenu */
+.di_vcsec_box2{
+	font-size:10px;
+	margin:1px 0px 0px 1px;
+	border:1px solid #d3d3d3;			
+	padding:3px 0px 0px 0px;
+	width:544px;
+	/*background-color:#ffffff;*/
+	float:left;
+	height:120px; 
+	position:relative;	
+	/* For Gradient Effect ...starts*/
+	   /* fallback/image non-cover color */
+	   background-color: #dbdbdb;
+	   /* fallback image */
+	   background-image: url(../../images/fallback-cont_box_bg.jpg);
+	   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e9e9e9), to(#d7d7d7));
+	   background-image: -webkit-linear-gradient(top, #e9e9e9, #d7d7d7); 
+	   background-image: -moz-linear-gradient(top, #e9e9e9, #d7d7d7);
+	   background-image: -ms-linear-gradient(top, #e9e9e9, #d7d7d7);
+	   background-image: -o-linear-gradient(top, #e9e9e9, #d7d7d7);
+	/* For Gradient Effect ...ends*/
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-webkit-box-radius:5px; 
+}
+
+.di_vcsec_box2 p{
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	padding:0px 0px 1px 5px; 
+	margin:0px;
+}
+.di_vcsec_box2_bttm_txt{
+	background-color:#DFDFDF;
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute; 
+	bottom:0px; 
+	width:539px;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	height:20px;
+	padding-top:3px;
+}
+/* For small BOX of submenu */
+.di_vcsec_box3{
+	margin:1px 0px 0px 1px;
+	border:1px solid #d3d3d3;
+	padding:3px 0px 0px 0px;
+	width:135px;
+	/*background-color:#ffffff;*/
+	float:left;
+	height:120px; 
+	position:relative;
+	/* For Gradient Effect ...starts*/
+	   /* fallback/image non-cover color */
+	   background-color: #dbdbdb;
+	   /* fallback image */
+	   background-image: url(../../images/fallback-cont_box_bg.jpg);
+	   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e9e9e9), to(#d7d7d7));
+	   background-image: -webkit-linear-gradient(top, #e9e9e9, #d7d7d7); 
+	   background-image: -moz-linear-gradient(top, #e9e9e9, #d7d7d7);
+	   background-image: -ms-linear-gradient(top, #e9e9e9, #d7d7d7);
+	   background-image: -o-linear-gradient(top, #e9e9e9, #d7d7d7);
+	/* For Gradient Effect ...ends*/
+		border-radius:5px; 
+	-moz-border-radius:5px; 
+	-webkit-box-radius:5px; 		
+}
+.di_vcsec_box3 p{
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	padding:0px 0px 1px 5px; 
+	margin:0px;
+}
+.di_vcsec_box3 ul.img_pointr
+{
+	list-style-type:none;
+	margin:5px 0px 0px 0px; padding:5px;
+}
+.di_vcsec_box3 ul
+{
+	margin:5px 0px 0px 15px; padding:5px;
+}
+.di_vcsec_box3_bttm_txt{
+	background-color:#DFDFDF;
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute; 
+	bottom:0px; 
+	width:134px;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	height:20px;
+	padding-top:3px;
+}
+/* drop down menu box */
+.di_vcdrop_box{
+	 border:1px solid #999; 
+	 width:200px; 
+	 margin-right:2px;
+	 font-size:11px;
+	 height:19px
+}
+/* drop down menu box2 */
+.di_vcdrop_box70{
+	 border:1px solid #999; 
+	 width:70px; 
+	 margin-right:2px;
+	 font-size:11px;
+	 height:19px
+}
+
+/* drop down menu box */
+.di_vcsmalldrop_box{
+	 border:1px solid #999; 
+	 width:40px; 
+	 margin-right:2px;
+	 font-size:12px;
+	 height:21px;
+}
+/* running process style */
+.di_gui_proc_deactive{
+	font-family:Arial;
+	COLOR: #808080;
+    font-size: 11px;
+	padding:1px;
+	font-weight:normal;
+}
+.di_gui_proc_active{
+	font-family:Arial;
+	COLOR: #000000;
+    font-size: 11px;
+	padding:1px;
+	font-weight:normal;
+	text-decoration: blink;
+}
+/* end running process style */
+
+/* click button style */
+.di_vcclickbttn {
+	font-size:11px; 
+	background-image:url(../../images/submit_but_bg.gif); 
+	color:#666; border:1px solid #ccc; 
+	height:25px; 
+	line-height:25px; 
+	font-weight:bold; 
+	cursor:pointer; 
+	margin:0; 
+	padding:0; 
+	padding-left:5px; 
+	padding-right:5px;
+}
+.di_vcclickbttn:hover {
+	font-size:11px; 
+	background-image:url(../../images/submit_but_bg.gif); 
+	color:#000; 
+	border:1px solid #ccc; 
+	font-weight:bold; 
+	cursor:pointer; 
+	height:25px; 
+	line-height:25px;  
+	margin:0; 
+	padding:0; 
+	padding-left:5px; 
+	padding-right:5px;
+}
+/* click link style */
+.di_vcclicklink {
+	color: #5C86AD;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+	text-decoration:none;
+}
+.di_vcclicklink:hover {
+	color: #5C86AD;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+	text-decoration:underline;
+}
+
+/* click link style */
+.di_vctogglediv {
+	color: #5C86AD;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+	position:absolute;
+	border:1px solid #b8b8b8;
+	background-color:#dfdfdf;
+	width:300px;
+	height:240px;
+	top:35px;
+	left:30px;
+	z-index:1;
+	padding:10px;
+}
+
+/* start style related */
+.di_vc_icon { display: block; /*text-indent: -99999px;*/ overflow: hidden; background-repeat: no-repeat;cursor:pointer; }
+.di_vc_icon { height: 22px; background-image: url(../../images/font_style_img.jpg); }
+.di_vc_icon_fontbig{ background-position: 0 0; width: 23px;} 
+.di_vc_icon_fontsmall{ background-position: -23px 0; width: 23px; }
+.di_vc_icon_bold{ background-position: -46px 0; width: 22px; }
+.di_vc_icon_italic{ background-position: -67px 0; width: 23px;}
+.di_vc_icon_underline{ background-position: -90px 0; width:33px;}
+.di_vc_icon_color{ background-position: -122px 0; width:33px;} 
+ 
+.di_vc_lblicon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat;cursor:pointer; }
+.di_vc_lblicon { height: 23px; background-image: url(../../images/icon_axislabels.jpg); }
+.di_vc_lblicon_1{ background-position: 0 0; width: 24px; } .di_vc_lblicon_1:hover{opacity:0.6;}
+.di_vc_lblicon_2{ background-position: -24px 0; width: 22px; } .di_vc_lblicon_2:hover{opacity:0.6;}
+.di_vc_lblicon_3{ background-position: -70px 0; width: 22px; } .di_vc_lblicon_3:hover{opacity:0.6;}
+.di_vc_lblicon_4{ background-position: -93px 0; width: 22px; } .di_vc_lblicon_4:hover{opacity:0.6;}
+.di_vc_lblicon_5{ background-position: -136px 0; width: 24px; } .di_vc_lblicon_5:hover{opacity:0.6;}
+
+.di_vc_sricon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat;cursor:pointer; }
+.di_vc_sricon { width: 24px; height: 23px; background-image: url(../../images/icon_seriessetting.png); }
+.di_vc_sricon_1{ background-position: 0 0; }
+.di_vc_sricon_2{ background-position: -24px 0; }
+.di_vc_sricon_3{ background-position: -48px 0; }
+.di_vc_sricon_4{ background-position: -72px 0; }
+
+.di_vc_sformaticon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat;cursor:pointer; }
+.di_vc_sformaticon { height: 47px; background-image: url(../../images/sformat.gif); }
+.di_vc_sformaticon_1{ background-position: 0 0; width: 71px;}
+.di_vc_sformaticon_2{ background-position: -72px 0; width: 71px; }
+.di_vc_sformaticon_3{ background-position: -143px 0; width: 71px; }
+
+/* for selected icon */
+.di_vc_selicon{
+	opacity:1;
+}
+
+/* end style related */

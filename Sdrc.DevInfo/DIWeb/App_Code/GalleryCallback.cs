@@ -16,7 +16,6 @@ using System.Diagnostics;
 using SpreadsheetGear;
 using System.Drawing.Imaging;
 using System.Net;
-using SvgToPngLibrary;
 using Svg;
 //using Microsoft.Office.Interop.Excel; 
 
