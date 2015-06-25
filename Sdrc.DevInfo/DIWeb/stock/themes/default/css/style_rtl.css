@@ -1,0 +1,1404 @@
+@charset "utf-8";
+body{
+	/*font-size:13px; */
+	font-size:10pt; 
+	font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif;
+	direction:rtl;
+	unicode-bidi:embed;
+}
+.flt_lft{ float:right /*rtl*/ }
+.flt_rgt{ float:left /*rtl*/ }
+.dirc_ltr{ direction:ltr }
+
+/* .bg_image_src{ background:url(../images/ar/toppanel_background.jpg) no-repeat; /* rtl-o
+background-size: 100%; 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ar/toppanel_background.jpg',sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/ar/toppanel_background.jpg',sizingMethod='scale')";
+} */ 
+
+
+/* Home Video Panel ...starts*/
+.hm_vid_pnl_contnr{ right:0 !important }
+/*.hm_vid_pnl{ float:left;/* rtl*** right:34px; /* rtl *** }
+.hm_vid_pnl h1{ padding:5px 7px 23px 0 !important /* rtl *** }
+:root .hm_vid_pnl h1{ margin-left:7px \0/IE9; } /* IE9 SPECIFIC PROPERTY ***
+.hm_vid_pnl p.hm_vid_pnl_mr{ padding:0 0 0 7px;/* rtl *** text-align:left/* rtl ***}
+:root .hm_vid_pnl p.hm_vid_pnl_mr{ margin-right:7px \0/IE9; } /* IE9 SPECIFIC PROPERTY */
+/* Home Video Panel ...ends*/
+
+/* Home Slider Expand/Collapse ...starts */
+.panel_table_hm_sldr{
+	margin-left: 0; /* rtl */margin-right:1%;
+}
+
+/* Slider ...starts */
+/* Navigation Links */
+div.anythingSlider-metallic .anythingControls {
+	/*right:75%;width:105px;  IE7&8 too */ /* rtl */
+	/*right:62%;  IE7 too */ /* rtl */
+	right:0;
+	width:85%; /* IE7&8 too */ /* rtl SPECIFIC */
+	/**left:2.5%;  rtl */
+}
+div.anythingSlider-metallic .anythingControls ul li {
+	float: right; /* rtl */
+}
+
+/* Autoplay Start/Stop button */
+div.anythingSlider-metallic .start-stop {
+	/*float: right;  rtl */
+	left: 35%;
+	background:url(../images/rtl/ar/home_slider/hm_slder_play_bttn.png) no-repeat 2px 2px;
+	/*left:-66%  RESOLUTION & RTL SPECIFIC */
+}
+
+div.anythingSlider-metallic .start-stop.playing {
+	background:url(../images/rtl/ar/home_slider/hm_slder_play_bttn.png) no-repeat 2px 2px; 
+}
+div.anythingSlider-metallic .start-stop:hover, div.anythingSlider-metallic .start-stop.hover {
+	background:url(../images/rtl/ar/home_slider/hm_slder_play_bttn.png) no-repeat 2px 2px; 
+}
+
+/* For ONLY Play Button Positioning Corection in IE7 ...starts*/
+div.anythingSlider-metallic .start-stop {
+	*background:url(../images/rtl/ar/home_slider/hm_slder_play_bttn.png) no-repeat -1px 0px; 
+}
+div.anythingSlider-metallic .start-stop.playing {
+	*background:url(../images/rtl/ar/home_slider/hm_slder_play_bttn.png) no-repeat -1px 0px; 
+}
+div.anythingSlider-metallic .start-stop:hover, div.anythingSlider-metallic .start-stop.hover {
+	*background:url(../images/rtl/ar/home_slider/hm_slder_play_bttn.png) no-repeat -1px 0px; 
+}
+/* For ONLY Play Button Positioning Corection in IE7 ...ends*/
+/*
+#slider { right: 47px !important } /* IE9 too ***
+:root #slider { right: 39px \0/IE9 !important }*/
+
+.li_img_pos{ padding-left: 0; margin-right: -1%;/* rtl*/*margin-right: -3%;margin-right: -1.6%\9; } /* IE7, IE8 & IE9 too */
+:root .li_img_pos{ position:relative; left: -1% \0/IE9 }
+/*.anythingBase .panel{ margin:0 0 0 1px; *margin:0 1px 0 0; margin:0 1px 0 0\9 }  rtl SPECIFIC */
+div.anythingSlider .anythingControls ul{ *position:relative; *right:86% !important }
+:root div.anythingSlider-metallic .forward { right:-22px \0/IE9; /* rtl IE9 only SPECIFIC*/ }
+:root div.anythingSlider-metallic .back { left:-34px \0/IE9; /* rtl IE9 only SPECIFIC*/ }
+
+/* Home Slider - rtl specific ...starts */
+/***********************
+  COMMON SLIDER STYLING (home_slider.css)
+ ***********************/
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {
+	left:4px; /* rtl */
+}
+/* Home Slider - rtl specific ...ends */
+
+/* Home Slider Expand/Collapse ...starts */
+#hm_main_exp_colp{
+float:left; /* rtl */
+right:-8%; /* rtl */
+}
+:root #hm_main_exp_colp{
+	right:-8% \0/IE9; /* IE9 */
+}
+.hm_main_exp_colp_mid{
+*padding:3px 0px 0 20px;/* IE7 only for rtl issue */
+}
+.hm_main_exp_colp_mid a{ font-size:13px/* rtl */; line-height: 13px; /* rtl SPECIFIC*/}
+#but_sh_img_colp_up, #but_sh_img_exp_down 
+{
+	float:right; /* rtl */
+	padding:4px 0 0 5px
+}
+/* Home Slider Expand/Collapse ...ends */
+
+/* Slider ...ends */
+
+/* Logo Area ...starts*/
+.main_logo{
+	float:right; /* rtl */
+}
+/* Logo Area ...ends*/
+
+/* Top Links ...starts*/
+.headerlink1{
+	text-align:right; /* rtl */
+}
+.headerlink1 li{
+	text-align:left /* rtl */
+}
+.headerlink1 li a{
+	font-size:13px; /* rtl */
+}
+.di_ww_icn{ padding-right:0;/* rtl */float:right /* rtl */}
+.top_hdr_sec{ *width:100% }
+.expntry_main_dv_spc{ padding-right:0; padding-left:40px;  } /* rtl */
+.expntry_main_dv_nws_spc{ padding-right:0; padding-left:38px } /* rtl */
+#aGlobalNewsDesc{ padding-left:0 !important }  /* rtl SPECIFIC */
+.expntry_main_nws_txt{ width:52px }/* rtl */
+.expntry_main_dv{ padding-right:0; } /* rtl */
+.expntry_sub_ww_txt{ width:170px } /* rtl */
+#divCountryMenu div.expntry_txt{ padding-right:0;/* rtl */padding-left:15px;font-size:13px }
+/* Top Links ...ends*/
+
+/* For Admin Page only ...starts*/
+.headerlink1_adm{
+	float:left; /* rtl */
+	/*width:86px;  rtl (After Arabic changed value)
+	width:76px;*/
+}
+.headerlink1_adm li{
+	float:right; /* rtl */
+	padding-left:0;
+	padding-right:5px; /* rtl */
+}
+.headerlink1_adm li a{
+	font-size:13px; /* rtl */
+}
+.headerlink1_adm_logstat{
+	float:left; /* rtl */
+	clear:left /* rtl */
+}
+/* For Admin Page only ...ends*/
+
+
+/* Navigation Links ...starts*/
+#top_menu_link2{
+	float:left; /* rtl */
+	margin-right:0;
+	margin-left:0;
+	/*width:867px;  REMOVE *****/
+}
+#top_menu_link2 li{
+	float:right; /* rtl */
+	/*width:142px;  REMOVE *****/
+}
+.glb_lnk_txt{ right: auto !important; left: 2px; left: 0px\9; *left: 0px; /* rtl */ } /* IE & Moz too */
+:root .glb_lnk_txt{ left: 0px \0/IE9 }
+/* Navigation Links ...ends*/
+
+/* For QDS & DBS Search Boxes Container ...starts*/
+
+.or_txt, .or_txt_ta{ padding: 0 5px 0 0; /* rtl */}
+#dbs_qds_main_hm{ left: auto;/* rtl */right:-8px}
+:root #dbs_qds_main_hm{ right:13px \0/IE9 }
+/* For Quick Data Search Box ...starts*/
+#qds_cont{
+	float:right; /*rtl*/
+}
+/* For Quick Data Search Box ...ends*/
+
+/* For QDS Homepage content ...starts */
+.qds_result_cont{ float: right; /* rtl */ }
+.qds_result_lft_contnt{ float: right; /* rtl*/ }
+.qds_result_rgt_grph{ float: left; /* rtl*/}
+/* For QDS Homepage content ...ends */
+
+/* For DBS Boxes Section ...starts */
+#pnlDSBY_pg{ float: left }
+h1#langBrowseF_D_B{
+	margin-left:0;/* rtl */
+	margin-right:5px;
+}
+/* For DBS Boxes Section ...ends */
+/* For QDS & DBS Search Boxes Container ...ends*/
+
+/* Split Grdnt Buttn ...starts*/
+.bttn_splt_grd_mid a{ font-size:13px;  } /* rtl */
+/* Split Grdnt Buttn ...ends*/
+
+.adv_search_btn_pos{ right:55%; *right:0 }/* rtl *//* IE 7 too */
+
+.tab_panel_pg
+{
+    	float:right; /* rtl */
+	    margin:0 6px 0 0; /* rtl */    	
+}
+
+
+/* Visualization Images ...starts*/
+ul.flt_lt li{
+	float:right; /*rtl*/
+	margin:18px 0 0 34px; /*rtl*/
+}
+ul.flt_lt li li{
+	float:right; /*rtl*/
+	margin:18px 45px 0 0; /*rtl*/
+}
+.vislz_img_map
+{
+	background:url(../images/map.gif) no-repeat right top;
+}
+/* Visualization Images ...ends*/
+
+/* All DI Info Section ...starts*/
+.di_info_sec{
+	float:right; /*rtl*/
+}
+.di_info_mont, .di_info_prof, .di_info_vid, .di_info_book, .di_info_sms, .di_info_emg, .di_info_dbrd, .di_info_gal{
+	margin-right:0;
+	margin-left:8px; /*rtl*/ 
+	float:right /*rtl*/
+}
+/*
+.di_info_prof{
+	margin-right:0;
+	margin-left:8px; /*rtl 
+	float:right /*rtl
+}
+.di_info_vid{
+	margin-right:0;
+	margin-left:8px; /*rtl
+	float:right /*rtl
+}
+.di_info_book{
+	margin-right:0;
+	margin-left:8px; /*rtl 
+	float:right /*rtl
+}
+.di_info_sms{
+	margin-right:0;
+	margin-left:8px; /*rtl 
+	float:right /*rtl
+}
+.di_info_emg{
+	margin-right:0;
+	margin-left:8px; /*rtl 
+	float:right /*rtl
+}
+.di_info_dbrd{
+	margin-right:0;
+	margin-left:8px; /*rtl 
+	float:right /*rtl
+}
+.di_info_gal{
+	margin-right:0;
+	margin-left:8px; /*rtl
+	float:right /*rtl
+}
+*/
+/* All DI Info Section ...ends*/
+.content_rgt_pad{
+	padding:7px 0 16px 30px; /*rtl*/ /* IE9 too */
+	font-size:13px;
+}
+
+a.adv_search, a:hover.adv_search
+{
+	font-size:13px; /* rtl-o */		
+	/* position:absolute; right:0; CHANGE 'float:left;' BACK TO THIS WHEN REMOVING RTL */
+	/*position:relative;
+	float:left; /* rtl */
+	right:auto;
+	left:14px; bottom:-2px;	/* Moz & IE too */
+}
+
+:root a.adv_search, a:hover.adv_search { bottom: -1px \0/IE9; }
+a.adv_search, a:hover.adv_search { /*padding-top:3px\9;*/ *bottom: -1px }
+
+.tab_panel{
+	float: right; /* rtl */
+	margin:0 0 0 6px; /* rtl */
+	padding:0 0 10px 0; /* rtl */
+	/*height:74px;  rtl */ /* IE too */
+}
+.tab_panel_selected{
+	float:right; /* rtl */
+	margin:0 0 0 6px; /* rtl */
+	padding:0 0 10px 0; /* rtl */	
+	/*height:74px;  rtl */ /* IE too */
+}
+
+/*Topic Tab Content Section ...starts*/
+.tab_topc_icn{
+	float:right; /* rtl */
+}
+.tab_global_icn{
+	float:right; /* rtl */
+}
+.tab_topc_sec_contnt
+{
+    margin-top:-4px /* rtl SPECIFIC + Moz too */
+}
+.tab_topc_sec h3
+{
+	padding-left:0;
+	padding-right:51px /* rtl */
+}
+.tab_topc_sec p
+{
+	font-size:12px; /* rtl */	
+	padding:0 51px 0 5px /* rtl */ /* IE9 too */
+}
+.tab_topc_sec_pg h3{
+	padding-left:0; /* rtl-o */
+	padding-right:5px;
+}
+.tab_topc_sec_pg p{
+	font-size:12px; /* rtl */
+	line-height:12px; /* rtl SPECIFIC */
+}
+/*Topic Tab Content Section ...ends*/
+
+/*Area Tab Content Section ...starts*/
+.tab_ar_sec, .tab_ar_sec_pg{
+	margin:6px 9px 5px 5px /*rtl*/
+}
+.tab_ar_icn{
+	float:right; /* rtl */
+}
+.tab_ar_sec_contnt
+{
+     margin-top:-4px /*rtl SPECIFIC + Moz too  */
+}
+.tab_ar_sec h3
+{
+	padding-left:0;
+	padding-right:51px /* rtl */
+}
+.tab_ar_sec p
+{
+	font-size:12px; /* rtl */
+	padding:0px 51px 0px 5px /* rtl */ /* IE9 too */
+}
+.tab_ar_sec_pg h3{
+	padding-left:0; /* rtl */
+	padding-right:5px
+}
+.tab_ar_sec_pg p{
+	font-size:12px; /* rtl */
+	line-height:12px; /* rtl SPECIFIC */
+}
+.tab_country_icn{
+	float:right; /* rtl */
+}
+/*Area Tab Content Section ...ends*/
+
+/* Component Box Border ...starts*/
+.comp_box_brd, .comp_box_brd_ppup{ 
+	border-top-left-radius:5px; /* SPECIFIC rtl */
+	-moz-border-radius-topleft:5px; /* SPECIFIC rtl */
+	-webkit-border-top-left-radius:5px; /* SPECIFIC rtl */
+	border-top-right-radius:0; /* rtl */
+	-moz-border-radius-topright:0; /* rtl */
+	-webkit-border-top-right-radius:0; /* rtl */	
+	/*margin-top:88px;  rtl *//* IE too 
+	*margin-top:95px;*/ 
+}
+.comp_box_brd_ar, .comp_box_brd_ar_ppup{ 
+	border-top-left-radius:5px; /* SPECIFIC rtl */
+	-moz-border-radius-topleft:5px; /* SPECIFIC rtl */
+	-webkit-border-top-left-radius:5px; /* SPECIFIC rtl */
+	border-top-right-radius:0; /* rtl-o */
+	-moz-border-radius-topright:0; /* rtl-o */
+	-webkit-border-top-right-radius:0; /* rtl-o */	
+}
+.comp_box_brd_ar_ppup{ padding:0; /* rtl-o for comp_box_brd_ar_ppup - Moz & IE too */ *padding:12px; padding:12px\9;  }
+
+.comp_box_brd_ppup2
+{
+    border-top-left-radius:5px; /* SPECIFIC rtl */
+	-moz-border-radius-topleft:5px; /* SPECIFIC rtl */
+	-webkit-border-top-left-radius:5px; /* SPECIFIC rtl */
+	border-top-right-radius:0; /* rtl-o */
+	-moz-border-radius-topright:0; /* rtl-o */
+	-webkit-border-top-right-radius:0; /* rtl-o */	
+}
+/* Component Box Border ...ends*/
+
+/* Component Bottom Text and Buttons Area ...starts*/
+#lf_cbt_sec{
+	float:right; /*rtl*/
+}
+#rt_cba_sec{
+	float:left; /*rtl*/
+}
+
+/* Component - Button View Data ...starts*/
+#butViewData{
+float:left; /* rtl */
+}
+.cmp_bviewd_lft{
+float:right; /* rtl */
+margin-left:0;
+margin-right:5px; /* rtl SPECIFIC */
+background:url(../images/rtl/ar/home-sprite.png) no-repeat 0px -192px; /* rtl */
+}
+
+.cmp_bviewd_mid{
+float:right; /* rtl */
+}
+
+.cmp_bviewd_rgt{
+float:right; /* rtl */
+background:url(../images/rtl/ar/but_dv_right.png) no-repeat; /* rtl */
+}
+/* Component - Button View Data ...ends*/
+
+/* Component - Button Search Data ...starts*/
+#bttn_hide{
+float:left; /* rtl */
+/* width:132px; IE7 rtl-SPECIFIC */
+}
+.cmp_bsrchd_lft{
+float:right; /* rtl */
+background:url(../images/rtl/ar/home-sprite.png) no-repeat -44px -192px; /* rtl */
+}
+
+.cmp_bsrchd_mid{
+float:right; /* rtl */
+}
+
+.cmp_bsrchd_rgt
+{
+background:url(../images/rtl/ar/but_search_right.png) no-repeat; /* rtl-o */
+margin-right:0 /* rtl ---- for rtl purpose replaced value from 5px to 0px */
+}
+/* Component - Button Search Data ...ends*/
+
+/* Component - Button Select Area ...starts*/
+#butSelectAreas{
+float:left; /* rtl */
+/* width:131px; IE7 rtl-SPECIFIC */
+}
+.cmp_bslctar_lft{
+float:right; /* rtl */
+background:url(../images/rtl/ar/home-sprite.png) no-repeat -132px -192px; /* rtl */
+}
+.cmp_bslctar_mid{
+float:right; /* rtl */
+}
+.cmp_bslctar_mid_lng_txt{
+float:right; /* rtl */
+}
+.cmp_bslctar_rgt{
+float:right; /* rtl */
+background:url(../images/rtl/ar/but_sa_right.png) no-repeat; /* rtl */
+}
+/* Component - Button Select Area ...ends*/
+
+/* Component - Button Select Indicator ...starts*/
+#butSelectIndicators{
+float:left; /* rtl */
+/* width:131px; IE7 rtl-SPECIFIC */
+}
+.cmp_bslctind_lft{
+float:right; /* rtl */
+background:url(../images/rtl/ar/home-sprite.png) no-repeat -89px -192px; /* rtl CHANGE IT TO 88px LATER */
+}
+.cmp_bslctind_mid{
+float:right; /* rtl */
+}
+
+.cmp_bslctind_mid_lng_txt{
+float:right; /* rtl */
+}
+
+.cmp_bslctind_rgt{
+float:right; /* rtl */
+background:url(../images/rtl/ar/but_st_right.png) no-repeat; /* rtl */
+}
+/* Component - Button Select Indicator ...ends*/
+
+/* Component Bottom Text and Buttons Area ...ends*/
+
+/* DevInfo Logo and follow icons ...starts*/
+#logo_lt_dvinf{
+	float:right; /* rtl */
+}
+#icons_rt_fllw{
+	float:left; /* rtl */
+	font-size:13px; /* rtl */
+}
+#icons_rt_fllw img{
+	padding-left:4px /* rtl */
+}
+/* DevInfo Logo and follow icons ...ends*/
+
+/*--------footer-----------*/
+.footer_links{
+float:right; /* rtl */
+}
+.footer_links li a, .footer_links li a:hover, .footer_links2 li a, .footer_links2 li a:hover
+{
+	font-size:13px;
+}
+.footer_links2{
+float:left; /* rtl */
+}
+.disclaimer{
+width:250px; /* rtl */
+}
+.disclaimer a
+{
+	font-size:13px;
+}
+.disclm_cpyr_txt
+{
+	float:right; /* rtl */
+	width:170px; /* rtl */	
+}
+.disclm_pipe
+{
+	float:right; /* rtl */
+}
+.disclm_txt
+{
+	float:right; /* rtl */
+}
+/*--------footer end -----------*/
+
+/* For Registry page ...starts*/
+/*###### Being used in MyData Page too ######*/
+
+/* Registry Navigation Tab ...starts */
+ul#reg_nav_tab li
+{
+	float:right; /* rtl */
+	margin-right:0; /* rtl */
+	margin-left:3px;
+	*margin-left:0;
+	*padding:0 5px 0 5px;	
+}
+ul#reg_nav_tab li a{
+	*padding:4px 4px 5px 4px; /* IE7 rtl SPECIFIC */ 
+}
+/* Registry Navigation Tab ...ends */
+
+/* Registy Main container ...starts */
+#reg_content_containers h2{
+	padding:0 11px 0 0 /* rtl */
+}
+#reg_content_containers h5
+{
+    	font-size:12px; /* rtl */
+		padding:0 11px 3px 0; /* rtl */
+	}
+/* Registy Main container ...ends */
+
+/* Registy Main container Left Section ...starts*/
+#reg_lft_sec
+{
+    /* width:auto;   rtl (For now specific to Mydata page)  */
+    padding-left:0;
+    padding-right:11px;
+    float:right;  /* rtl */
+}
+#reg_lft_sec h4
+{
+	/*font-size:12px;  rtl */
+}
+#reg_lft_sec ul
+{
+	padding:0 39px 12px 0; /* rtl */
+}
+:root #reg_lft_sec ul li
+{
+	margin-left:39px \0/IE9; /* rtl IE9 only SPECIFIC */
+}
+/* Specific to Login page ...starts*/
+.confg_frm_txt_lgin
+	{
+		float:right; /* rtl */
+	}
+.adm_upd_bttn_lgin, .adm_upd_bttn_lginpg{
+	float:right; /* rtl */
+	margin-left:0; /* rtl */
+	margin-right:230px;
+}	
+/* Specific to Login page ...ends*/
+
+/* Registy Main container Left Section ...ends*/
+
+/* Registy Main container Full Wide Section (No column split) ...starts*/
+#reg_wide_sec, #reg_wide_sec_ppup{
+padding-left:0; /* rtl */
+padding-right:11px;
+float:right; /* rtl */
+}
+/* Registy Main container Full Wide Section (No column split) ...ends*/
+
+/* Registy Main container Right Section ...starts*/
+#reg_rgt_sec{
+float:left /* rtl */
+}
+
+/* For right side download button ...starts*/
+.reg_dwnld_bttn_main
+{
+	float:left; /* rtl */
+}
+.reg_dwnld_bttn_main p
+{
+	background:url(../images/download_icon.png) no-repeat right 2px;  /* rtl */
+	padding-left:0; /* rtl */
+	padding-right:25px;
+}
+:root .reg_dwnld_bttn_main p a
+{
+    margin-right:20px \0/IE9; /* rtl IE9 only SPECIFIC */
+}
+/* For right side download button ...ends*/
+
+/* Registy Main container Right Section ...ends*/
+
+/* For Reg Input Boxes ..starts */
+.confg_frm_inp_bx_txt_reg{
+	margin-right:0;
+}
+/* For Reg Input Boxes ..ends */
+
+/* For Registry page ...ends*/
+
+/* Admin Page Css ...starts */
+.confg_frm_inp_bx_chkbx_lgn{
+	float:right; /* rtl */
+}
+
+/* For Default Area page ...starts */	
+.co_hdin_txt{ padding-left:0; /* rtl */padding-right:18px }
+.sel_ind_ar_box ul{ padding:10px 30px 0 0 /* rtl */ }
+/* For Default Area page ...ends */	
+
+/* Admin Page Css ...ends */
+
+/* For Registry Data Query page ...starts*/
+.spanSelected_itlc_txt{ padding-left:0;/* rtl */padding-right:10px; float:right /* rtl SPECIFIC */ }
+#selectSDMXFormat{ margin-left:0; /* rtl */margin-right:3px }
+.selectOr{ padding:0 170px 0 0 /* rtl */ }
+
+/* Request Response Section ...starts*/
+.req_lft_sec{ float:right; /* rtl */ }
+/* Request Response Section ...ends*/
+
+/* For Response Section ...starts*/
+.res_lft_sec{ float:right; /* rtl */ margin:20px 20px 0 0  /* rtl */ }
+/* For Response Section ...ends*/
+
+/* For Registry Data Query page ...ends*/
+
+/************ Gallery Page CSS ...starts ************/
+.spanTimeCounter_pos
+{
+	*margin-right:1px; /* rtl IE7 only SPECIFIC */	
+	text-align:right; /* rtl */
+}
+/* Used on Homepage for Multiple Databases options ...starts*/
+#spanAddAllToCartMain, #spanRemoveAllFromCartMain, #spanMultipleDbSearchMain{ margin-left: 0; margin-right: 10px; padding-left: 0; padding-right: 25px } /* rtl */
+#spanAddAllToCartMain{ margin-right: 50px }
+#spanAddAllToCart, #spanRemoveAllFromCart, #spanMultipleDbSearch{ float:left; padding-left:0; padding-right:4px } /* rtl */
+/* Used on Homepage for Multiple Databases options ...ends*/
+#spanLoading
+{
+	padding-right:5px; /* rtl SPECIFIC */
+}
+#tblQDSResults
+{
+	float:right; /* rtl SPECIFIC */
+	*float:left; /* rtl SPECIFIC */
+}
+ul.glry_nav_list li
+{
+	float:right; /* rtl */
+	padding-right:0; 
+	padding-left:10px; /* rtl */
+}
+#divCallout
+{
+	 right:1%; /* rtl SPECIFIC */
+}
+/* images class on Gallery - start */
+.thmb_pos
+{
+	float:right; /* rtl */
+}
+.gallimgBox_titl
+{
+	margin-left:0;
+	margin-right:10px; /* rtl */
+	text-align:right; /* rtl */
+}
+.gall_bttn_lft_sec
+{
+	float:right; /* rtl */
+}
+.gall_bttn_rgt_sec
+{
+	float:right; /* rtl */ 
+	text-align:left; /* rtl SPECIFIC */ 
+}
+/* images class on Gallery - end */
+/************ Gallery Page CSS ...ends ************/
+
+/************ QDS Page CSS ...starts ************/
+/* Used on QDSCallback.cs - STARTS*/
+#tblViewData
+{ 
+	right:0; /* rtl */ 
+	left:-67%; /* rtl */
+	*right:72%; /* rtl */
+	*left:0%; /* rtl */
+}
+/*
+:root #tblViewData
+{
+	right:72% \0/IE9; /* rtl 
+}*/
+.datacrt_bttn_dv_lft
+{
+	background:url(../images/but_dv_left.png) /* rtl-o */
+}
+.datacrt_bttn_dv_rgt
+{
+	background:url(../images/but_dv_right.png) /* rtl-o */
+}
+/* Used on QDSCallback.cs - ENDS*/
+/************ QDS Page CSS ...ends ************/
+
+/************ Admin Page Css ...starts ************/
+	/* Left Sec Admin ...starts*/
+	#lft_sec_adm{
+		padding-left:0;
+		padding-right:6px; /* rtl */
+		margin-right:0;
+		margin-left:20px; /* rtl */
+		border-right:0;
+		border-left:1px solid #dadada; /* rtl */
+		float:right /* rtl */
+	}
+	#lft_sec_adm ul li a
+	{
+		right:0; /* rtl */
+		font-size:16px; /* rtl */
+		padding:2px 17px 6px 0px /* rtl */
+	}	
+	#lft_sec_adm ul li a.adm_lft_nav_seld
+	{
+		background:url(../images/rtl/ar/adm_lft_nav_arrw.png) no-repeat right top; /* rtl */ 
+	}	
+	#lft_sec_adm ul li a:hover{
+		background:url(../images/rtl/ar/adm_lft_nav_arrw.png) no-repeat right top; /* rtl */ 
+	}		
+	/* Left Sec Admin ...ends*/
+	
+	/* Right Sec Admin ...starts*/
+	#rgt_sec_adm
+	{
+	    font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif; /* rtl */
+		margin:35px 10px 0 0; /* rtl */
+		float:right /* rtl */
+	}	
+	#rgt_sec_adm h1{
+		padding:0 23px 0 0 /* rtl */
+	}	
+	#rgt_sec_adm h2
+	{
+		font-size:20px; /* rtl */ 
+		padding:20px 43px 0 0 /* rtl */
+	}		
+	#rgt_sec_adm h4
+	{
+		font-size:14px; /* rtl */ 
+		padding:12px 23px 5px 0; /* rtl */
+	}		
+	.confg_frm_txt{
+		float:right; /* rtl */
+		/*font-size:16px;  rtl */
+		padding-left:0;
+		padding-right:53px; /* rtl */				
+	}
+	.confg_frm_txt_sml, .confg_frm_inp_bx{
+		float:right; /* rtl */
+	}	
+/* For Admin Catalog Page ...starts*/
+.confg_frm_inp_rgt_sp{ padding-right:0;/* rtl */padding-left:15px }
+.confg_frm_inp_txt_algn{ padding-right:0;/* rtl */padding-left:5px }
+.confg_frm_inp_sub_cont{ float:right;/* rtl */ padding-right:0;/* rtl */padding-left:25px }	
+.confg_frm_inp_sub_bx_txt{ float:right; /* rtl */ }
+/* For Admin Catalog Page ...ends*/	
+	
+/* For Registry Data Query page ...starts */	
+	.confg_frm_inp_bx_wide, .confg_frm_inp_bx_txtonly{
+		float:right; /* rtl */
+	}	
+	.confg_frm_inp_bx_txtonly a{ float:right } /* rtl SPECIFIC */	
+/* For Registry Data Query page ...ends */			
+	.confg_frm_inp_bx_radbtn, .confg_frm_inp_bx_big{
+		float:right; /* rtl */
+	}	
+	.confg_frm_undr_data{
+		float:right; /* rtl */
+		padding-left:0;
+		padding-right:133px; /* rtl */			
+	}	
+	/* Right Sec Admin ...ends*/
+	.adm_upd_bttn{
+		float:right; /* rtl */
+		margin-left:0;
+		margin-right:278px; /* IE7 too */ /* rtl */
+		*margin-right:139px; /* rtl */		
+	}
+	.adm_upd-rgt_bttn{
+		float:right; /* rtl */ 
+		margin-left:0;		
+		margin-right:278px; /* IE7 same now */ /* rtl */	
+	}	
+	.adm_upd-rgt_bttn ul li
+	{
+		float:right; /* rtl */
+	}	
+	.adm_nav_opt
+	{
+		padding:3px 45px 25px 0; /* rtl */
+	}	
+	.adm_nav_opt li{
+		float:right; /* rtl */
+		padding-right:0;
+		padding-left:5px /* rtl */	
+	}	
+	/* For Language page ...starts*/	
+	.adm_inp_trg_lng_pos
+	{
+		margin-left:0;
+		margin-right:2px /* rtl */
+	}
+	/* For Language page ...ends*/		
+	/* For OptimizeDB page - text specific only ...starts*/
+	.adm_db_flt_lft
+	{
+		float:right; /* rtl */ 
+		padding-left:0;
+		padding-right:43px; /* rtl */		
+	}	
+	.adm_db_opt_chk
+	{
+		float:right; /* rtl */
+	}	
+	.adm_o_db_txt, .adm_o_db_subtxt
+	{
+		clear:left; /* rtl */
+		padding:2px 63px 0 0; /* rtl */
+	}
+	/* For OptimizeDB page - text specific only ...ends*/	
+	
+/************ Admin Page Css ...ends ************/
+
+/* For MyData Page ...starts*/
+
+/* Upload/Visualization/Share section ...starts*/
+.upld_vis_shr_main{ margin:0 12px 52px 0 /* rtl*/; } /* IE9 SPECIFIC too */
+:root .upld_vis_shr_main{ min-width:885px\0/IE9 }
+.upld_vis_shr_main p{ padding:0 85px 0 0; /* rtl*/font:15px Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl*/ line-height: 25px}/* IE9 too */
+                      
+.md_uvs_arrw{ background:url("../images/rtl/ar/home-sprite.png") -240px -244px no-repeat;/* rtl*/ }
+
+.md_upld_main{ padding:9px 17px 5px 0; /* rtl*/ } /* IE9 too */
+:root .md_upld_main{ width:auto\0/IE9 }
+
+.md_upload_sec{ float:right;/* rtl*/ background:url("../images/rtl/ar/home-sprite.png") 0 -244px no-repeat; } /* IE9 too */
+.md_viz_sec{ float:right;/* rtl*/background:url("../images/rtl/ar/home-sprite.png") -78px -244px no-repeat; }/* IE9 too */
+.md_shr_sec{ float:right;/* rtl*/ background:url("../images/rtl/ar/home-sprite.png") -154px -244px no-repeat }/* IE9 too */
+
+:root .md_upload_sec, :root .md_viz_sec, :root .md_shr_sec{ position:relative\0/IE9; right:-10px\0/IE9; }
+
+.md_viz_spc{ padding: 5px 17px 3px 0/* rtl*/ }
+.md_shr_spc{ padding: 12px 17px 3px 0/* rtl*/ }
+
+/* Upload/Visualization/Share section ...ends*/
+
+.ques_icn{ background:url("../images/rtl/ar/home-sprite.png") 0 0 no-repeat; left:auto; right:5px/* rtl*/ }
+
+#cyvContainer{ padding-left:0; /*rtl*/padding-right:50px }
+#mydata_step1{ *width:800px }
+#clearFreeTxt{ text-align:left; /*rtl*/ font-size:12px; /*rtl SPECIFIC*/   }
+#freeTxtData{ /*margin-right:-19px /* IE7 rtl SPECIFIC*/ }
+.mydata_bttns{ padding-left:0;padding-right:10px;float:right /* rtl */ }
+/* For MyData Page ...ends*/
+
+/* Popup for Select Area Component ...starts*/
+#AreaOuterBox
+{
+	/*width:729px;  rtl + Moz & IE too */
+	width:769px;
+	/* *width:702px;
+	width:702px\9; */
+}
+/*:root #AreaOuterBox{  width:702px \0/IE9; }*/
+.di_gui_searchbox_defaulttext{ font-size:15px !important}
+/* Popup for Select Area Component ...ends*/
+
+/*--------(Database selection component)/Popups start-----------*/
+.di_gui_button_pos
+{
+	text-align:left /* rtl */
+}
+.di_gui_popup_clos_compt
+{
+	/*text-align:left;  rtl */
+	margin:-30px 0 0 -30px; /* rtl */
+	left:0 /* rtl */
+}
+
+h1.popup_wid_subhdn{ padding:0 10px 0 0 !important; /* rtl */}
+h2.popup_subhdin{ font-size:13px; padding:0 10px 3px 0 } /* rtl */
+
+/* Input Details pages for Popups ...starts */ 
+.confg_frm_txt_lgin_ppup{ float:right; /* rtl */ }
+.adm_upd_bttn_lgin_ppup{
+	float:right; /* rtl */
+	margin-left:0; /* IE7 too */ /* rtl */
+	margin-right:180px;
+}	
+/* Input Details pages for Popups ...ends */ 
+
+/*Popup for metadata(used in XSLT) ...starts */
+.HeaderItems, .LeftPanelItems, .RightPanelItems
+{
+	text-align:right /* rtl */
+}
+
+/*Popup for metadata(used in XSLT) ...ends */
+
+/*Popup for Default Areas Selected List ...starts*/
+img.btn_close{
+	float: left; /* rtl */	
+	margin: -30px 0 0 -30px; /* rtl */
+}
+#popup_sel_areas
+{
+	direction:rtl; /* rtl SPECIFIC */
+}
+#popup_sel_areas_count
+{
+	padding:0 5px 5px 0 /* rtl */
+}
+#popup_sel_areas_names
+{
+	padding-left:0;
+	padding-right:5px; /* rtl */
+}
+
+/* Share Popup on homemaster page (temp css creation as in tables) ...starts */
+.shr_popup_lft_spcin
+{
+	padding-left:5px; /* rtl - Same used for rtl too */
+	padding-right:5px; /* rtl */
+}
+.shr_popup_rgt_bttn
+{
+	float:left; /* rtl */
+}
+.shr_popup_rgt_cncl_bttn
+{
+	margin-left:10px;
+	margin-right:10px; /* rtl */
+	*margin-left:5px;
+	*margin-right:5px; /* rtl */
+}
+/* Share Popup on homemaster page (temp css creation as in tables) ...ends */
+
+/*Popup for Registration StructuralMD(view) ...starts*/
+.reg_strct_ppup_clmn_frst{ float:right; /* rtl */ }
+.reg_strct_ppup_clmn_scnd{ float:right; /* rtl */ margin-right:0; /* rtl */ margin-left:1px; }
+.reg_strct_ppup_clmn_thrd{ float:right; /* rtl */ }
+/*Popup for Registration StructuralMD(view) ...ends*/
+
+/*Popup for MyData Note ...starts*/
+.info_i_icn{ margin-right:0; margin-left:20px /* rtl */ }
+#myDataNote p{ font-size:13px }/* rtl SPECIFIC */
+/*Popup for MyData Note ...ends*/
+
+/*--------(Database selection component)/Popups end-----------*/
+
+/* For OAT Grid ...starts*/
+#divGridContainer
+{
+	float:right; /* rtl */
+	padding-left:0; /* rtl */ 
+	padding-right:20px;
+}
+/* For OAT Grid ...ends*/
+
+
+/* Start - HTMLGenerator */
+.HeaderRowStyle
+{	
+	text-align:right; /* rtl */	
+}
+.HeaderColumnStyle
+{	
+	padding:4px 0px 4px 4px; /* rtl */
+}
+/* End - HTMLGenerator */
+
+/* For CATALOG Page ...starts*/
+/* Side Filters ...starts */
+.cata_side_fltr{ float:right; /* rtl */ }
+.cata_side_fltr_inp_bx_sec{ margin: 3px 3px 0 0; /* rtl-o */  } /* IE7 too */
+:root .cata_side_fltr_inp_bx_sec{  margin: 3px 4px 0 0 \0/IE9; }
+/* Side Filters ...ends */
+
+/* Right Section ...starts */
+#global_div{ float:left;/* rtl*/ border-left:none; border-right:1px solid #ccccc9/* rtl*/ }
+.cata_inpt{ float:right; /* rtl */ margin-right:0; /* rtl */margin-left:5px }
+.cata_img_frame{ padding:0; /* rtl */ float:right /* rtl */; }
+.cata_img_thumb{ float:right /*rtl*/ }
+.ovrlap_ver_img{ right:auto; left:-15px /* rtl */ }
+.global_heading{ float:right; /*rtl*/}
+.cata_i_icon{ margin-left:0; /*rtl*/ margin-right:10px}
+.cat_hdin_main{ padding: 10px 15px 10px 0 /* rtl */}
+
+/* Search Data (background bg) ...starts*/
+.cata_sd_lft_sec{ float:right;/*rtl*/ }
+.cata_sd_rgt_sec{ float:left;/*rtl*/ border-left:none;/*rtl*/border-right:1px dotted #fff; }
+/* Search Data (background bg) ...ends*/
+
+/* Callout Inside content ...starts*/
+#divCallout_cata li li.divCallout_icn_tck, #divCallout_cata li li.divCallout_icn_crss{ background: url(../images/cata_img_sprite.png) right -17px no-repeat; /* rtl */ padding:7px 22px 3px 0; /* rtl */ }
+#divCallout_cata li li.divCallout_icn_crss{ background: url(../images/cata_img_sprite.png) right -42px no-repeat; /* rtl */ }
+.ulAdaptationVersions{ margin-left:0 !important; /* rtl */ margin-right:90px !important }
+/* Callout Inside content ...ends*/
+
+/* Right Section ...ends */
+/* For CATALOG Page ...ends*/
+
+/* *********************** For Dataview page ...starts *********************** */
+
+/* *********************** Content Panel Section Below Tab Area Starts ************************************ */
+.dv_contnt_panel_wrapr{ border-right:0;/* rtl */border-left:solid 1px #ccccc9; float:right/* rtl */ }
+/* *********************** Content Panel Section Below Tab Area Ends ************************************ */
+
+/* *********************************************************************************** */
+/* DATA VIEW -- TOP TOOLBAR STARTS
+/* *********************************************************************************** */
+ul.blue li{ float:right;/* rtl */margin-right:0;/* rtl */margin-left:3px;}
+ul.blue li a{ font-size:15px;font-family: Tahoma, Arial, Helvetica /* rtl SPECIFIC */} 
+
+/****** Bottom Tab ***************/
+ul.blueBottm li a{ font-size:15px;font-family: Tahoma, Arial, Helvetica /* rtl SPECIFIC */} 
+
+#visul_section1, #visul_section2, #visul_section3, #visul_section4, #visul_section5, #visul_section6, #visul_section7, #visul_section8, #visul_section9, #visul_section10, #visul_section11, #visul_section12{ float:right; /* rtl */ background:url(../images/dataview/separator_dv.gif) no-repeat left; /* rtl */  }
+
+.visul_section1_bottom{ font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */ font-size:13px;/* rtl */ margin-top: -1px;/* rtl SPECIFIC & Moz too */}
+
+.visul_section1{ float:right/* rtl */}
+.visual_icon-2, .visual_icon-3, .visual_icon-4, .visual_icon-5, .visual_icon-7{ float:right;/* rtl */ margin: 20px 25% 0 0; /* rtl */  }
+
+.visual_icon_tristate img{ margin: 2px 25% 0 0;/* rtl*/ }
+
+.tristate_icon_line0{ margin:5px 26% 0 auto /* rtl */ }
+.tristate_icon_line1, .tristate_icon_line2{ margin:7px 26% 0 auto /* rtl */ }
+.tristate_icon_line0 img:hover, .tristate_icon_line1 img:hover, .tristate_icon_line2 img:hover{ margin:-4px -5px 0 auto;/* rtl*/ }
+
+.tristate_icon_column0{ margin:5px 26% 0 auto /* rtl */ }
+.tristate_icon_column1, .tristate_icon_column2{ margin:7px 26% 0 auto;/* rtl*/ }
+.tristate_icon_column0 img:hover, .tristate_icon_column1 img:hover, .tristate_icon_column2 img:hover{ margin:-4px -5px 0 auto;/* rtl*/ }
+
+.tristate_icon_bar0{ margin:5px 26% 0 auto;/* rtl*/ }
+.tristate_icon_bar1, .tristate_icon_bar2{ margin:7px 26% 0 auto;/* rtl*/ }
+.tristate_icon_bar0 img:hover, .tristate_icon_bar1 img:hover, .tristate_icon_bar2 img:hover{ margin:-4px -5px 0 auto;/* rtl*/ }
+
+.tristate_icon_area0{ margin:5px 26% 0 auto;/* rtl*/ }
+.tristate_icon_area1, .tristate_icon_area2{ margin:7px 26% 0 auto;/* rtl*/ }
+.tristate_icon_area0 img:hover, .tristate_icon_area1 img:hover, .tristate_icon_area2 img:hover{ margin:-4px -5px 0 auto;/* rtl*/ }
+
+.tristate_icon_map3{ margin:7px 26% 0 auto;/* rtl*/ }
+.tristate_icon_map0, .tristate_icon_map1, .tristate_icon_map2{ margin:5px 26% 0 auto;/* rtl*/ }
+.tristate_icon_map0 img:hover, .tristate_icon_map3 img:hover{ margin:-4px -3px 0 auto;/* rtl*/ }
+.tristate_icon_map1 img:hover, .tristate_icon_map2 img:hover{ margin:-4px -5px 0 auto;/* rtl*/ }
+
+#settings_section1, #settings_section2, #settings_section3{ float:right;/* rtl*/ background:url(../images/dataview/separator_dv.gif) no-repeat left;/* rtl*/}
+#settings_section4{ float:right;/* rtl*/ }
+.settings_section1_lft_sec{ float:right;/* rtl*/ }
+.settings_section1_rgt_sec{ float:right;/* rtl*/ }
+.settings_section1_bottom{ float:right;/* rtl*/font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl*/ font-size:13px;/* rtl*/ }
+
+#inp_dicolor8{right: 2px;}/* rtl SPECIFIC */
+
+.corner{ float:right;/* rtl*/ margin:6px 0 0 1px;/* rtl*/ }
+.corner_diable{ float:right;/* rtl*/ margin:4px 0 0 1px;/* rtl*/}
+
+#map_section1, #map_section2{ float:right;/* rtl */ background:url(../images/dataview/separator_dv.gif) no-repeat left;/* rtl-o*/}
+#map_section3{ float:right;/* rtl */}
+
+.MapTheme_contnr{padding-right:0;/* rtl*/padding-left:7px;width:248px;/* rtl SPECIFIC */}
+.mapThemeType{padding-left:0;/* rtl*/padding-right:2px}
+
+.map_section1, .map_section2, .map_section3{ float:right;/* rtl*/ }
+.map_section1_bottom, .map_section2_bottom, .map_section3_bottom{ float:right;/* rtl*/font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl-o*/ font-size:13px;/* rtl*/margin-top: -1px;/* rtl SPECIFIC & Moz too */ } 
+
+/* *********************************************************************************** */
+/* DATA VIEW -- SIDE FILTERS STARTS
+/* *********************************************************************************** */
+#example5{float:right;/* rtl */}
+.example_menu li{ font:16px Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */}
+.example_menu li li{ font:13px Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */ }
+.example_menu a.expanded{background: url(../images/dataview/collapse.gif) no-repeat 140px;/* rtl */padding-left:0;/* rtl */padding-right:18px; font:16px Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */}
+.example_menu a.collapsed{background: url(../images/dataview/expand.gif) no-repeat 140px;/* rtl */padding-left:0;/* rtl */padding-right:18px; font:16px Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */}
+:root .example_menu a.expanded{ background: url(../images/dataview/collapse.gif) no-repeat 0 \0/IE9; }
+:root .example_menu a.collapsed{ background: url(../images/dataview/expand.gif) no-repeat 0 \0/IE9; }
+/* *********************************************************************************** */
+/* DATA VIEW -- FILTER COLLAPSE STARTS
+/* *********************************************************************************** */
+.dv_filter_collapse_main{float:right;/* rtl */ border-left:0;/* rtl */ border-right:1px solid #ccccc9;}
+.dv_filter_colp_img{ background: url(../images/rtl/ar/dataview/arrow_collapse.png) no-repeat !important;/* rtl */ }
+.dv_filter_expd_img{ background: url(../images/rtl/ar/dataview/arrow_expand.png) no-repeat !important;/* rtl */ }
+/************** MIDDLE CHART -- AREA Starts **************/
+.vcContainer{ float:right;/* rtl */}
+
+/*Data Grid starts*/
+#gridData{padding:10px 10px 0 0;/* rtl */}
+/*Data Grid ends*/
+
+/************** MIDDLE CHART -- AREA Ends **************/
+
+/****************/
+.panesInner p{
+	font-family: Tahoma, Arial, Helvetica;/* rtl */
+	font-size: 13px;/* rtl */
+}
+.vcInputSelBox{
+	font-size:13px;/* rtl */
+}
+.vcInputTxtBox{
+	font-size:13px;/* rtl */
+}
+.vcInputTxtBox_pos{ padding-left:0;/* rtl */padding-right:10px;}
+.normalText {
+	font-family: Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */
+	font-size: 13px;/* rtl */
+}
+
+
+/* *********************************************************************************** */
+/* DATA VIEW -- POP UP STARTS
+/* *********************************************************************************** */
+
+#dv_container_popup, #dv_container_popup_m{ font-family: Tahoma, Arial, Helvetica, Geneva, sans-serif/* rtl */ }
+
+/* *********************** Heading Area CSS Starts *********************************** */
+#dv_sec_pop, #dv_sec_pop_m	{font-family: Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */}
+#dv_sec_pop h1{ padding:0 15px 2px 0;/* rtl */}
+#dv_sec_pop h4{ font-size:15px;/* rtl */padding:0 15px 0 0;/* rtl */}
+#dv_sec_pop_m h4{font-size:15px;/* rtl */ }
+/* *********************** Heading Area CSS Ends ************************************ */
+
+#dv_sec_left, #dv_sec_left_m{ float:right/* rtl */}
+#dv_sec_right, #dv_sec_right_m{ border-left:0;/* rtl */border-right: 1px solid #aeb3b9; float:right/* rtl */}
+.dv_sec_right_ppup_hdn_pos{ padding:10px 20px 0 0;/* rtl */ }
+.dv_ppup_bttn_sec{ float:left;/* rtl */ text-align:left/* rtl */ }
+ul.left_button{*margin-left:0;*margin-right:0 !important;/* rtl */}
+ul.left_button li{font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */ }
+ul.left_button li a{ padding-left:0;/* rtl */padding-right:15px;font-size:13px;/* rtl */} 
+ul.left_button li a:hover, ul.left_button li a.selected{background:url(../images/rtl/ar/dataview/dv_arrow_left.png) no-repeat right;/* rtl */font-size:13px;/* rtl */ } 
+
+.dv_button{ font-size:12pt;/* rtl */}
+.popupContainer{font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */}
+.popupContainer p{font-size:13px;/* rtl */line-height:15px /*rtl SPECIFIC*/}
+.panelContainer{ padding-left:0;/* rtl */padding-right:20px;font-size:13px;/* rtl */ }
+.fieldset{font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */ font-size:14px;/* rtl */}
+
+/* *********************************************************************************** */
+/* DATA VIEW -- POP UP ENDS
+/* *********************************************************************************** */
+
+/* *********************** dataview full view icons ************************************ */
+.fullViewContainer 
+{
+    float:left; /* rtl */
+    margin-left: -1px; /* rtl SPECIFIC */
+    /**margin-left: 50px;  rtl SPECIFIC */
+}
+.fullViewIcon { float:right /*rtl*/ }
+.fullViewContainer2 { right:82.9%; /*rtl left:5%;*/ /* *right:0 !important;*left:0 !important;*/}
+.fullViewContainer2 p{ padding-left:0; /*rtl*/padding-right:5px; }
+.fullViewContainer2 p a{font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif; /*rtl SPECIFIC*/ font-size:13px /*rtl SPECIFIC*/}
+/* *************** SCROLLBAR ********************* */
+#Scrollbar-Container {
+    left: 56px;/* rtl */
+}
+#scrollContainer {
+  padding-left:0;/* rtl */padding-right:10px;
+}
+
+
+.dv_mapButton, .dv_mapButton_disabled{width:57px;/* rtl */ font:13px Tahoma, Arial, Helvetica, Geneva, sans-serif;/* rtl */}
+
+/* for map Hatch patern */
+.mapchartdicolor{float:right;/* rtl */}
+.mapThTypeColorHatch_contnr{padding-left:0;padding-right:7px;/* rtl */border-left:0;/* rtl */border-right:1px solid #d3d3d3;}
+/* end for Hatch patern */
+
+.editableTxtBox{
+	font-size:13px; /* rtl */
+	font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif; /*rtl SPECIFIC*/
+}
+.legendCellText{
+	font-family: Tahoma, Arial, Helvetica, Geneva, sans-serif; /* rtl */
+	font-size: 13px; /* rtl */
+}
+/* *********************** FOR WEB SERVICES *********************** */
+/* For Slider Under series popup ...starts*/
+.ui-slider-horizontal .ui-slider-handle{ right:0; /* (di.ar.ui.custom.css) - rtl SPECIFIC*/ }
+
+/* (di.jq.colorpicker.css) ...starts*/
+/*.colorTab
+{
+    margin-right: 5px; /* rtl 
+    margin-left: 4px; /* rtl 
+}
+ul.colorblue li
+{
+    float: right !important; /* rtl 
+    margin-right:0 !important; /* rtl 
+    margin-left:3px !important;
+}
+.colorpicker{
+	background:url(../../images/jqcp/ar/custom_background.png) !important;/* rtl
+}
+.colorpicker_color {
+	left:0 !important; /* rtl
+	right: 14px !important; 
+}
+.colorpicker_hue {
+	left:0 !important; /* rtl
+	right: 171px !important;
+}
+.colorpicker_new_color {
+	left: 0 !important;/* rtl
+	right: 213px !important;
+}
+.colorpicker_current_color {
+	left:0 !important;/* rtl
+	right: 283px !important;
+}
+.colorpicker_rgb_r, .colorpicker_rgb_g, .colorpicker_rgb_b, .colorpicker_hex{
+	left: 0 !important; /* rtl 
+	right: 212px !important;
+}
+.colorpicker_hsb_h, .colorpicker_hsb_s, .colorpicker_hsb_b{
+	left: 0 !important; /* rtl 
+	right: 282px !important;
+}
+.colorpicker_submit
+{
+	left: 0 !important; /* rtl 
+	right: 317px !important;    
+}*/
+/* (di.jq.colorpicker.css) ...ends*/
+
+/* *********************** For Dataview page ...ends *********************** */
+
+/************ For Gecko Browsers ...starts************/
+    .win.gecko #top_menu_link2 li{ line-height:61px } /* rtl */
+    .win.gecko .glb_lnk_txt{ left:0px /* rtl */ }  
+    .win.gecko a.adv_search, .win.gecko a:hover.adv_search{ bottom: 0 }      
+    .win.gecko .tab_ar_sec_contnt{ margin-top:-8px /*rtl */}
+    .win.gecko .tab_topc_sec_contnt{ margin-top:-8px /* rtl */}    
+    /*.win.gecko #AreaOuterBox{ width:702px;  rtl }*/
+    .win.gecko .di_gui_searchleft_box{ padding-right:0; background-position:6px 4px !important; /* rtl */}
+    .win.gecko .comp_box_brd_ar_ppup{ padding:12px /* rtl for comp_box_brd_ar_ppup */ }
+    .win.gecko .map_section1_bottom, .map_section2_bottom, .map_section3_bottom{ margin-top: -2px;/* rtl SPECIFIC */ }
+    .win.gecko .visul_section1_bottom{ margin-top: -2px;/* rtl SPECIFIC */}
+/************ For Gecko Browsers ...ends************/
+
+/************ FOR diuilibcommon under dgps2 stocks ...starts************/
+.di_gui_button{ font-size: 11pt; /* rtl */ margin-left:0;/* rtl */ margin-right:5px;}
+.di_gui_button_disabled { font-size: 11pt; /* rtl */}
+/************ FOR diuilibcommon under dgps2 stocks ...ends************/
+
+
+/************ FOR WEB SERVICES ...starts************/
+/* For Database Search Box ...starts */
+.di_dbs_details_cmpt
+{
+	float:left; /* rtl */
+}
+/* For Database Search Box ...ends */
+
+/* For QDS Search Box ...starts*/
+/*.di_qds_srch_img
+{
+	border-right:1px LightGray solid; /* rtl 
+}*/
+.di_qds_box_side_strp
+{
+	border-left:0; 
+	border-right:1px solid #d3d3d3; /* rtl */
+}
+#tdIndTBQDS
+{
+	padding-left:3px; /* rtl */
+}
+#tdAreaTBQDS
+{
+	padding-left:3px /* rtl */
+}
+/* For QDS Search Box ...ends*/
+
+/* For Indicator(Topic) Component on Homepage ...starts */
+.ui-widget-daredevel-checkboxTree li span
+{
+	right:-30px; /* rtl */
+	*right:-64px; /* rtl */
+}
+.ui-icon-triangle-1-e {
+background-position:-92px -16px;
+}
+.ui-icon-triangle-1-se
+{
+background-position:-78px -16px;	
+}
+#ind_txtSearch, .di_gui_seld_txt, .di_gui_link3, .di_gui_lists_specialoption, .di_gui_link2, .di_gui_leafnode_label
+{
+	font-size:13px;
+	font-family:Tahoma, Arial, Helvetica, Geneva, sans-serif;
+}
+.di_gui_searchbox di_gui_searchbox_defaulttext
+{
+	font-size:13px;
+}
+
+/* For Indicator(Topic) Component on Homepage ...ends */
+
+/* For Area Component Popup on homepage ...starts*/
+.di_gui_label_indent
+{
+    margin-left:0;
+    margin-right:-20px
+}
+/* For Area Component Popup on homepage ...ends*/
+
+/* Css class for gradient panel box used such as Indicator classification menu*/
+.di_gui_gradient_panel_box
+{
+	padding-left:3px; /* rtl */
+}
+/* Css class for gradient panel box used such as view selections*/
+
+/* For SearchBox used in the component ...starts*/
+.di_gui_searchpanel {
+	margin:6px 0 2px 4px !important; /* rtl */
+}
+.di_gui_searchleft_box
+{
+    background-position:0 4px !important; /* rtl + Moz & IE too */
+	padding-right:9px; /* rtl SPECIFIC + Moz & IE too */
+	*padding-right:0;
+	*background-position:6px 4px !important;
+	padding-right:0\9;
+	background-position:6px 4px\9 !important;
+}
+:root .di_gui_searchleft_box{ padding-right:0 \0/IE9;
+                              background-position:6px 4px \0/IE9 !important; }
+.di_gui_searchmiddle_box
+{
+     padding-right:2px /*rtl SPECIFIC */
+}
+/* For SearchBox used in the component ...ends*/
+
+/* class is for mode view box such as Tree | List */
+.di_gui_modeview_box {
+	padding-right:5px; /* rtl-o changed for Advanced search popup */
+}
+
+/************ FOR WEB SERVICES ...ends************/
+

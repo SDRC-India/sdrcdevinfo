@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Bochaha" nID="2850" aID="REG005014002" isGlobal="F" parentID="REG005014" parentName="Muzaffarpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="459" />
+  <area name="Gaighat" nID="2851" aID="REG005014003" isGlobal="F" parentID="REG005014" parentName="Muzaffarpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="459" />
+  <area name="Kanti" nID="2849" aID="REG005014001" isGlobal="F" parentID="REG005014" parentName="Muzaffarpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="459" />
+  <area name="Sakra" nID="2852" aID="REG005014004" isGlobal="F" parentID="REG005014" parentName="Muzaffarpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="459" />
+</AreaList>

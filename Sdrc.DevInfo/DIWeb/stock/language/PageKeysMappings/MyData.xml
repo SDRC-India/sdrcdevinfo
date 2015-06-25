@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+    <!ELEMENT root ANY>
+    <!ELEMENT Associate ANY>
+    <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+    <!ATTLIST Associate ElementID ID #REQUIRED >
+    <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+    <Associate MasterKey="Back" ElementID="BackBttn" ElementProperty="value" />
+    <Associate MasterKey="Next" ElementID="NextBttn" ElementProperty="value" />
+    <Associate MasterKey="SelectArea" ElementID="langSelectArea" ElementProperty="innerHTML" />
+    <Associate MasterKey="Create_YOV" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+    <Associate MasterKey="Create_YOV" ElementID="pPageDescription" ElementProperty="innerHTML" />
+    <Associate MasterKey="Upload_DFF" ElementID="lang_Upload_DFF" ElementProperty="innerHTML" />
+    <Associate MasterKey="Upload_DFile_Formats" ElementID="step1Description" ElementProperty="innerHTML" />
+    <Associate MasterKey="CopyP_TData_BB" ElementID="lang_CopyP_TData_BB" ElementProperty="innerHTML" />
+    <Associate MasterKey="Clear" ElementID="clearFreeTxt" ElementProperty="innerHTML" />
+    <Associate MasterKey="Identify_AID_Aname" ElementID="lang_Identify_AID_Aname" ElementProperty="innerHTML" />
+    <Associate MasterKey="Create_Map_LngDscption" ElementID="step2Description" ElementProperty="innerHTML" />
+    <Associate MasterKey="DDataColumn_HCT" ElementID="lang_DDataColumn_HCT" ElementProperty="innerHTML" />
+    <Associate MasterKey="UseMapServer" ElementID="lang_ShowMapServerDiv" ElementProperty="innerHTML" />
+    <Associate MasterKey="Matching_Area_Names" ElementID="lang_Matching_Area_Names" ElementProperty="innerHTML" />
+    <Associate MasterKey="SAreaIDs_AreaNames_LngDscption" ElementID="step3Description" ElementProperty="innerHTML" />
+    <Associate MasterKey="All_Area_matched" ElementID="step3DescriptionMatch" ElementProperty="innerHTML" />   
+    <Associate MasterKey="MyData_Info" ElementID="mydata_info_btn" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Upload" ElementID="lang_Upload" ElementProperty="innerHTML"/>
+    <Associate MasterKey="the_data_from_file" ElementID="lang_the_data_from_file" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Create_your_own" ElementID="lang_Create_your_own" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Visualization" ElementID="lang_Visualization" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Share" ElementID="lang_Share" ElementProperty="innerHTML"/>
+    <Associate MasterKey="it_with_the_community" ElementID="lang_it_with_the_community" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Next" ElementID="langHiddenNext" ElementProperty="value"/>
+    <Associate MasterKey="Back" ElementID="langHiddenBack" ElementProperty="value"/>
+    <Associate MasterKey="Dataview" ElementID="langHiddenDataview" ElementProperty="value"/>
+    <Associate MasterKey="Note" ElementID="lang_Note" ElementProperty="innerHTML"/>
+    <Associate MasterKey="CSI_CSVf" ElementID="lang_CSI_CSVf" ElementProperty="innerHTML"/>
+    <Associate MasterKey="IOUD_string" ElementID="lang_IOUD_string" ElementProperty="innerHTML"/>
+    <Associate MasterKey="FEDE_string" ElementID="lang_FEDE_string" ElementProperty="innerHTML"/>
+    <Associate MasterKey="TClickon" ElementID="lang_TClickon" ElementProperty="innerHTML"/>
+    <Associate MasterKey="SaveAs" ElementID="lang_SaveAs" ElementProperty="innerHTML"/>
+    <Associate MasterKey="ASCSV_string" ElementID="lanf_ASCSV_string" ElementProperty="innerHTML"/>
+    <Associate MasterKey="MapServerToolTip" ElementID="MapServerToolTip" ElementProperty="value"/>
+    <Associate MasterKey="MapSHeading" ElementID="MapSHeading" ElementProperty="innerHTML"/>
+    <Associate MasterKey="MapSDesc1" ElementID="MapSDesc1" ElementProperty="innerHTML"/>
+    <Associate MasterKey="MapSDesc2" ElementID="MapSDesc2" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Yes" ElementID="useMapServerBtn" ElementProperty="value"/>
+    <Associate MasterKey="No" ElementID="DontUseMapServerBtn" ElementProperty="value"/>
+  <Associate MasterKey="Mydata_LangAreaName" ElementID="Mydata_LangAreaName" ElementProperty="value"/>
+  <Associate MasterKey="Mydata_LangTimePeriod" ElementID="Mydata_LangTimePeriod" ElementProperty="value"/>
+  <Associate MasterKey="Mydata_LangAreaId" ElementID="Mydata_LangAreaId" ElementProperty="value"/>
+  <Associate MasterKey="Select" ElementID="Select_MyData" ElementProperty="value"/>
+  
+</root>

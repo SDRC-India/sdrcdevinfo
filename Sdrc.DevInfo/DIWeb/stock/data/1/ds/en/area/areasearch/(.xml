@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Benipur (Bahera)" id="IND010003013003" l="3" nid="2619" pnid="2527" dataexists="T" isblock="F" lnid="192" />
+  <a n="Benipur (Bahera)" id="REG005013003" l="4" nid="2837" pnid="2755" dataexists="T" isblock="F" lnid="458" />
+  <a n="Danapur (Khagaul)" id="IND010008028003" l="3" nid="2671" pnid="2527" dataexists="T" isblock="F" lnid="366" />
+  <a n="Danapur (Khagaul)" id="REG005028003" l="4" nid="2912" pnid="2774" dataexists="T" isblock="F" lnid="475" />
+</AreaList>

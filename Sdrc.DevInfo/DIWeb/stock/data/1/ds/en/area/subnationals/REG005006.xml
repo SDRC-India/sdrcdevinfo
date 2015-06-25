@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Raghopur" nID="2780" aID="REG005006003" isGlobal="F" parentID="REG005006" parentName="Supaul" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="451" />
+  <area name="Saraigarh Bhaptiyahi" nID="2781" aID="REG005006004" isGlobal="F" parentID="REG005006" parentName="Supaul" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="451" />
+  <area name="Supaul Sadar" nID="2782" aID="REG005006012" isGlobal="F" parentID="REG005006" parentName="Supaul" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="451" />
+</AreaList>

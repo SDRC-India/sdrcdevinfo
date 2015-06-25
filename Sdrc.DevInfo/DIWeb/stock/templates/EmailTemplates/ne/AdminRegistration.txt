@@ -1,0 +1,46 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - Admin Registration[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Dear [****]USER_NAME[****],
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    You have been successfully registered as Admin on [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Please note your data provider ID and Maintenance Agency ID in the details below:
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    User Id: <a href="mailto:[****]USER_EMAILID[****]">[****]USER_EMAILID[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    User Name: [****]USER_NAME[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Data Provider ID: [****]DATA_PROVIDER_ID[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>Please note:</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    You may now use these details to start registering data using the SDMX registry services on [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Maintenance Agency ID: [****]AGENCY_ID[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>Please note:</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    You may now use these details for generating,uploading and managing SDMX artifacts on [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    If you have any questions regarding your account or the web application, please contact us directly at <a href="mailto:[****]EMAILID_DB_ADMIN[****]">[****]EMAILID_DB_ADMIN[****]</a>
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Regards,
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Webmaster - [****]ADAPTATION_NAME[****]
+</p>
+</p>

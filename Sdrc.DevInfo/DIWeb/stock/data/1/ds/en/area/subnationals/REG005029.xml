@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Ara Sadar" nID="2920" aID="REG005029004" isGlobal="F" parentID="REG005029" parentName="Bhojpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="476" />
+  <area name="Charpokhari" nID="2918" aID="REG005029002" isGlobal="F" parentID="REG005029" parentName="Bhojpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="476" />
+  <area name="Udwantnagar" nID="2919" aID="REG005029003" isGlobal="F" parentID="REG005029" parentName="Bhojpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="476" />
+</AreaList>

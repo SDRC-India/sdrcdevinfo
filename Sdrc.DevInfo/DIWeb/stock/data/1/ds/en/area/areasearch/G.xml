@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Gandhibari " id="IND018025001" l="3" nid="3034" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Garubhasa SD" id="IND018021002" l="3" nid="3069" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Goalpara" id="IND018003" l="3" nid="3003" pnid="2998" dataexists="T" isblock="F" lnid="574" />
+  <a n="Goalpara" id="RVS_003" l="3" nid="3066" pnid="2997" dataexists="T" isblock="F" lnid="570" />
+  <a n="Golaghat" id="IND018014" l="3" nid="3014" pnid="2998" dataexists="T" isblock="F" lnid="584" />
+  <a n="Gunjung BPHC" id="IND018016002" l="3" nid="3047" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="SVS Guwahati" id="IND018" l="3" nid="3000" pnid="2996" dataexists="T" isblock="F" lnid="568" />
+</AreaList>

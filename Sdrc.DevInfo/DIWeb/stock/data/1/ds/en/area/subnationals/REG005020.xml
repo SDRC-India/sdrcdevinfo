@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Balia" nID="2897" aID="REG005020003" isGlobal="F" parentID="REG005020" parentName="Begusarai" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="467" />
+  <area name="Barauni" nID="2898" aID="REG005020004" isGlobal="F" parentID="REG005020" parentName="Begusarai" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="467" />
+  <area name="Matihani" nID="2895" aID="REG005020001" isGlobal="F" parentID="REG005020" parentName="Begusarai" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="467" />
+  <area name="Sahebpur Kamal" nID="2896" aID="REG005020002" isGlobal="F" parentID="REG005020" parentName="Begusarai" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="467" />
+</AreaList>

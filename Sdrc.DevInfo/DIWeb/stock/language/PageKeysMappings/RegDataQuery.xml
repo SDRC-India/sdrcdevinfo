@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="both" ElementID="langHiddenBoth" ElementProperty="value" />
+  <Associate MasterKey="Tree" ElementID="langHiddenTree" ElementProperty="value" />
+  <Associate MasterKey="ListAtoZ" ElementID="langHiddenAtoZ" ElementProperty="value" />
+  <Associate MasterKey="ListAlphabetically" ElementID="langHiddenAlphabetically" ElementProperty="value" />
+  <Associate MasterKey="Search" ElementID="langHiddenSearch" ElementProperty="value" />
+  <Associate MasterKey="ViewSelections" ElementID="langHiddenViewselections" ElementProperty="value" />
+  <Associate MasterKey="Sector" ElementID="langHiddenSector" ElementProperty="value" />
+  <Associate MasterKey="Goal" ElementID="langHiddenGoal" ElementProperty="value" />
+  <Associate MasterKey="SOURCE" ElementID="langHiddenSource" ElementProperty="value" />
+  <Associate MasterKey="Institution" ElementID="langHiddenInstitution" ElementProperty="value" />
+  <Associate MasterKey="Theme" ElementID="langHiddenTheme" ElementProperty="value" />
+  <Associate MasterKey="Convention" ElementID="langHiddenConvention" ElementProperty="value" />
+  <Associate MasterKey="Conceptual_Framework" ElementID="langHiddenConceptualFramework" ElementProperty="value" />
+  <Associate MasterKey="SelectSubgroup" ElementID="langHiddenselectsubgroup" ElementProperty="value" />
+  <Associate MasterKey="SelectAll" ElementID="langHiddenSelectAll" ElementProperty="value" />
+  <Associate MasterKey="ShowWhereDataExist" ElementID="langHiddenShowwheredataexist" ElementProperty="value" />
+  <Associate MasterKey="OK" ElementID="langHiddenOK" ElementProperty="value" />
+  <Associate MasterKey="Clear" ElementID="langHiddenClear" ElementProperty="value" />
+  <Associate MasterKey="Close" ElementID="langHiddenClose" ElementProperty="value" />
+  <Associate MasterKey="SubgroupDimensions" ElementID="langHiddenSubgroupDimensions" ElementProperty="value" />
+  <Associate MasterKey="More" ElementID="langHiddenMore" ElementProperty="value" />
+  <Associate MasterKey="Metadata" ElementID="langHiddenMetadata" ElementProperty="value" />
+  <Associate MasterKey="SelectTopic" ElementID="langSelectTopic" ElementProperty="innerHTML" />
+  <Associate MasterKey="OK" ElementID="indOk" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="indCancel" ElementProperty="value" />
+
+  <Associate MasterKey="Query_Data" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Make_queries_RDVF" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Language_coln" ElementID="spanLanguage" ElementProperty="innerHTML" />
+  <Associate MasterKey="Indicator_coln" ElementID="spanIndicator" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectIndicator" ElementID="aIndicator" ElementProperty="innerHTML" />
+  <Associate MasterKey="Area_coln" ElementID="spanArea" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectArea" ElementID="aArea" ElementProperty="innerHTML" />
+  <Associate MasterKey="Most_Recent_Data_coln" ElementID="selectMRD" ElementProperty="innerHTML" />
+  <Associate MasterKey="OR" ElementID="selectOr" ElementProperty="innerHTML" />
+  <Associate MasterKey="Time_coln" ElementID="spanTimeRange" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectTime" ElementID="aTimeRange" ElementProperty="innerHTML" />
+  <Associate MasterKey="Source" ElementID="spanSource" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectSource" ElementID="aSource" ElementProperty="innerHTML" />
+  <Associate MasterKey="RequestFormat_coln" ElementID="spanRequestFormat" ElementProperty="innerHTML" />
+  <Associate MasterKey="SOAP" ElementID="lang_SOAP" ElementProperty="innerHTML" />
+  <Associate MasterKey="REST" ElementID="lang_REST" ElementProperty="innerHTML" />
+  <Associate MasterKey="HTTP" ElementID="lang_HTTP" ElementProperty="innerHTML" />
+  <Associate MasterKey="ResponseFormat_coln" ElementID="spanResponseFormat" ElementProperty="innerHTML" />
+  <Associate MasterKey="SDMX" ElementID="lang_SDMX" ElementProperty="innerHTML" />
+  <Associate MasterKey="JSON" ElementID="lang_JSON" ElementProperty="innerHTML" />
+  <Associate MasterKey="XML" ElementID="lang_XML" ElementProperty="innerHTML" />
+  <Associate MasterKey="Generic" ElementID="lang_Generic" ElementProperty="innerHTML" />
+  <Associate MasterKey="Generic_Time_Series" ElementID="lang_Generic_Time_Series" ElementProperty="innerHTML" />
+  <Associate MasterKey="Structure_Specific" ElementID="lang_Structure_Specific" ElementProperty="innerHTML" />
+  <Associate MasterKey="Structure_Specific_TS" ElementID="lang_Structure_Specific_TS" ElementProperty="innerHTML" />
+  <Associate MasterKey="Generate_API_Call" ElementID="btnGetQueryAndResponse" ElementProperty="value" />
+  <Associate MasterKey="APIURL_coln" ElementID="spanAPIURL" ElementProperty="innerHTML" />
+  <Associate MasterKey="SoapMethod_coln" ElementID="spanSoapMethod" ElementProperty="innerHTML" />
+  <Associate MasterKey="Request" ElementID="spanRequest" ElementProperty="innerHTML" />
+  <Associate MasterKey="Response" ElementID="spanResponse" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download" ElementID="aDownloadRequest" ElementProperty="innerHTML" />
+  <Associate MasterKey="Copy" ElementID="aCopyRequest" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download" ElementID="aDownloadResponse" ElementProperty="innerHTML" />
+  <Associate MasterKey="Copy" ElementID="aCopyResponse" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectIndicator" ElementID="lang_SelectIndicator" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectArea" ElementID="lang_SelectArea" ElementProperty="innerHTML" />
+  <Associate MasterKey="OK" ElementID="areaOk" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="areaCancel" ElementProperty="value" />
+  <Associate MasterKey="SelectTime" ElementID="lang_SelectTime" ElementProperty="innerHTML" />
+  <Associate MasterKey="OK" ElementID="tpOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="tpCancel" ElementProperty="value" />
+  <Associate MasterKey="SelectSource" ElementID="lang_SelectSource" ElementProperty="innerHTML" />
+  <Associate MasterKey="OK" ElementID="sourceOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="sourceCancel" ElementProperty="value" />
+  <Associate MasterKey="TABLE" ElementID="lng_Table" ElementProperty="innerHTML" />
+  
+</root>

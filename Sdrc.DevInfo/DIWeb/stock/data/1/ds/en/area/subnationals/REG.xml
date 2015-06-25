@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="DVS" nID="2998" aID="REG003" isGlobal="F" parentID="REG" parentName="Assam" lvl="2" dataexists="T" subNational="T" isblock="F" lnid="0" />
+  <area name="Health Facility" nID="2999" aID="REG004" isGlobal="F" parentID="REG" parentName="Assam" lvl="2" dataexists="T" subNational="T" isblock="F" lnid="0" />
+  <area name="RVS" nID="2997" aID="REG002" isGlobal="F" parentID="REG" parentName="Assam" lvl="2" dataexists="T" subNational="T" isblock="F" lnid="0" />
+  <area name="SVS" nID="2996" aID="REG001" isGlobal="F" parentID="REG" parentName="Assam" lvl="2" dataexists="T" subNational="T" isblock="F" lnid="0" />
+</AreaList>

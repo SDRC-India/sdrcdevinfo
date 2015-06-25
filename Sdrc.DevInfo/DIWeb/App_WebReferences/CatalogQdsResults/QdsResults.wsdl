@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getQdsResults">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchIndicators" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SearchAreas" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LanguageCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsBlockResultsNeeded" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getQdsResultsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getQdsResultsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getShareCatalogResults">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="requestParam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getShareCatalogResultsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getShareCatalogResultsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getQdsResultsSoapIn">
+    <wsdl:part name="parameters" element="tns:getQdsResults" />
+  </wsdl:message>
+  <wsdl:message name="getQdsResultsSoapOut">
+    <wsdl:part name="parameters" element="tns:getQdsResultsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getShareCatalogResultsSoapIn">
+    <wsdl:part name="parameters" element="tns:getShareCatalogResults" />
+  </wsdl:message>
+  <wsdl:message name="getShareCatalogResultsSoapOut">
+    <wsdl:part name="parameters" element="tns:getShareCatalogResultsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getQdsResultsHttpGetIn">
+    <wsdl:part name="SearchIndicators" type="s:string" />
+    <wsdl:part name="SearchAreas" type="s:string" />
+    <wsdl:part name="LanguageCode" type="s:string" />
+    <wsdl:part name="IsBlockResultsNeeded" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getQdsResultsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getShareCatalogResultsHttpGetIn">
+    <wsdl:part name="requestParam" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getShareCatalogResultsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getQdsResultsHttpPostIn">
+    <wsdl:part name="SearchIndicators" type="s:string" />
+    <wsdl:part name="SearchAreas" type="s:string" />
+    <wsdl:part name="LanguageCode" type="s:string" />
+    <wsdl:part name="IsBlockResultsNeeded" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getQdsResultsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getShareCatalogResultsHttpPostIn">
+    <wsdl:part name="requestParam" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getShareCatalogResultsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="QdsResultsSoap">
+    <wsdl:operation name="getQdsResults">
+      <wsdl:input message="tns:getQdsResultsSoapIn" />
+      <wsdl:output message="tns:getQdsResultsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getShareCatalogResults">
+      <wsdl:input message="tns:getShareCatalogResultsSoapIn" />
+      <wsdl:output message="tns:getShareCatalogResultsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="QdsResultsHttpGet">
+    <wsdl:operation name="getQdsResults">
+      <wsdl:input message="tns:getQdsResultsHttpGetIn" />
+      <wsdl:output message="tns:getQdsResultsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getShareCatalogResults">
+      <wsdl:input message="tns:getShareCatalogResultsHttpGetIn" />
+      <wsdl:output message="tns:getShareCatalogResultsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="QdsResultsHttpPost">
+    <wsdl:operation name="getQdsResults">
+      <wsdl:input message="tns:getQdsResultsHttpPostIn" />
+      <wsdl:output message="tns:getQdsResultsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getShareCatalogResults">
+      <wsdl:input message="tns:getShareCatalogResultsHttpPostIn" />
+      <wsdl:output message="tns:getShareCatalogResultsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="QdsResultsSoap" type="tns:QdsResultsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getQdsResults">
+      <soap:operation soapAction="http://tempuri.org/getQdsResults" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getShareCatalogResults">
+      <soap:operation soapAction="http://tempuri.org/getShareCatalogResults" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="QdsResultsSoap12" type="tns:QdsResultsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getQdsResults">
+      <soap12:operation soapAction="http://tempuri.org/getQdsResults" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getShareCatalogResults">
+      <soap12:operation soapAction="http://tempuri.org/getShareCatalogResults" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="QdsResultsHttpGet" type="tns:QdsResultsHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="getQdsResults">
+      <http:operation location="/getQdsResults" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getShareCatalogResults">
+      <http:operation location="/getShareCatalogResults" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="QdsResultsHttpPost" type="tns:QdsResultsHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getQdsResults">
+      <http:operation location="/getQdsResults" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getShareCatalogResults">
+      <http:operation location="/getShareCatalogResults" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="QdsResults">
+    <wsdl:port name="QdsResultsSoap" binding="tns:QdsResultsSoap">
+      <soap:address location="http://localhost:1890/libraries/ws/QdsResults.asmx" />
+    </wsdl:port>
+    <wsdl:port name="QdsResultsSoap12" binding="tns:QdsResultsSoap12">
+      <soap12:address location="http://localhost:1890/libraries/ws/QdsResults.asmx" />
+    </wsdl:port>
+    <wsdl:port name="QdsResultsHttpGet" binding="tns:QdsResultsHttpGet">
+      <http:address location="http://localhost:1890/libraries/ws/QdsResults.asmx" />
+    </wsdl:port>
+    <wsdl:port name="QdsResultsHttpPost" binding="tns:QdsResultsHttpPost">
+      <http:address location="http://localhost:1890/libraries/ws/QdsResults.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

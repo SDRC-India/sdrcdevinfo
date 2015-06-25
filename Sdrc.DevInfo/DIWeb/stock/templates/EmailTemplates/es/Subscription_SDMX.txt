@@ -1,0 +1,22 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - Subscription Successfull[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;10px 0 20px;font-family:Arial;">
+    Dear [****]USER_NAME[****],
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    You have successfully subscribed at [****]ADAPTATION_NAME[****] - <a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a> with following details:
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Registry URN: [****]REGISTRY_URN[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    If you have any questions regarding your account or the web application, please contact us directly at  <a href="mailto:[****]EMAILID_DB_ADMIN[****]">[****]EMAILID_DB_ADMIN[****]</a>
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Regards,
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Web Administrator - [****]ADAPTATION_NAME[****]
+</p>
+</p>

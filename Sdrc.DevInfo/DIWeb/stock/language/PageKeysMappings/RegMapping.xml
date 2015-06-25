@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="Mapping_Page_Title" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Mapping_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Codelist" ElementID="aCodelist" ElementProperty="innerHTML" />
+  <Associate MasterKey="IUS" ElementID="aIUS" ElementProperty="innerHTML" />
+  <Associate MasterKey="Metadata" ElementID="aMetadata" ElementProperty="innerHTML" />
+  <Associate MasterKey="Mapping_Of_DevInfo_And_UNSD_Codelists" ElementID="lang_Mapping_Of_DevInfo_And_UNSD_Codelists" ElementProperty="innerHTML" />
+  <Associate MasterKey="Mapping_Of_DevInfo_And_UNSD_Codelists_Desc" ElementID="lang_Mapping_Of_DevInfo_And_UNSD_Codelists_Desc" ElementProperty="innerHTML" />
+  <Associate MasterKey="IndicatorMapping" ElementID="lang_IndicatorMapping" ElementProperty="innerHTML" />
+  <Associate MasterKey="UnitMapping" ElementID="lang_UnitMapping" ElementProperty="innerHTML" />
+  <Associate MasterKey="AgeMapping" ElementID="lang_AgeMapping" ElementProperty="innerHTML" />
+  <Associate MasterKey="SexMapping" ElementID="lang_SexMapping" ElementProperty="innerHTML" />
+  <Associate MasterKey="LocationMapping" ElementID="lang_LocationMapping" ElementProperty="innerHTML" />
+  <Associate MasterKey="Mapping_Of_DevInfo_And_UNSD_IUS" ElementID="lang_Mapping_Of_DevInfo_And_UNSD_IUS" ElementProperty="innerHTML" />
+  <Associate MasterKey="Mapping_Of_DevInfo_And_UNSD_IUS_Desc" ElementID="lang_Mapping_Of_DevInfo_And_UNSD_IUS_Desc" ElementProperty="innerHTML" />
+  <Associate MasterKey="IUS_Mapping" ElementID="lang_IUS_Mapping" ElementProperty="innerHTML" />
+  <Associate MasterKey="Mapping_Of_DevInfo_And_UNSD_Metadata" ElementID="lang_Mapping_Of_DevInfo_And_UNSD_Metadata" ElementProperty="innerHTML" />
+  <Associate MasterKey="Mapping_Of_DevInfo_And_UNSD_Metadata_Desc" ElementID="lang_Mapping_Of_DevInfo_And_UNSD_Metadata_Desc" ElementProperty="innerHTML" />
+  <Associate MasterKey="Metadata_Mapping" ElementID="lang_Metadata_Mapping" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="Show_All" ElementID="hShowAll" ElementProperty="value" />
+  <Associate MasterKey="Mapped" ElementID="hMapped" ElementProperty="value" />
+  <Associate MasterKey="UnMapped" ElementID="hUnMapped" ElementProperty="value" />
+  <Associate MasterKey="UnSaved" ElementID="hUnSaved" ElementProperty="value" />
+
+  <Associate MasterKey="DevInfo_Indicator" ElementID="hDevInfoIndicator" ElementProperty="value" />
+  <Associate MasterKey="Indicator_GIds" ElementID="hIndicatorGIds" ElementProperty="value" />
+  <Associate MasterKey="UNSD_Indicator" ElementID="hUNSDIndicator" ElementProperty="value" />
+  <Associate MasterKey="Indicator_Ids" ElementID="hIndicatorIds" ElementProperty="value" />
+  <Associate MasterKey="Search_Indicator" ElementID="hSearchIndicator" ElementProperty="value" />
+  <Associate MasterKey="Filter_Indicator_Lists" ElementID="hFilterIndicatorLists" ElementProperty="value" />
+
+  <Associate MasterKey="DevInfo_Unit" ElementID="hDevInfoUnit" ElementProperty="value" />
+  <Associate MasterKey="Unit_GIds" ElementID="hUnitGIds" ElementProperty="value" />
+  <Associate MasterKey="UNSD_Unit" ElementID="hUNSDUnit" ElementProperty="value" />
+  <Associate MasterKey="Unit_Ids" ElementID="hUnitIds" ElementProperty="value" />
+  <Associate MasterKey="Search_Unit" ElementID="hSearchUnit" ElementProperty="value" />
+  <Associate MasterKey="Filter_Unit_Lists" ElementID="hFilterUnitLists" ElementProperty="value" />
+
+  <Associate MasterKey="DevInfo_Age" ElementID="hDevInfoAge" ElementProperty="value" />
+  <Associate MasterKey="Age_GIds" ElementID="hAgeGIds" ElementProperty="value" />
+  <Associate MasterKey="UNSD_Age" ElementID="hUNSDAge" ElementProperty="value" />
+  <Associate MasterKey="Age_Ids" ElementID="hAgeIds" ElementProperty="value" />
+  <Associate MasterKey="Search_Age" ElementID="hSearchAge" ElementProperty="value" />
+  <Associate MasterKey="Filter_Age_Lists" ElementID="hFilterAgeLists" ElementProperty="value" />
+
+  <Associate MasterKey="DevInfo_Sex" ElementID="hDevInfoSex" ElementProperty="value" />
+  <Associate MasterKey="Sex_GIds" ElementID="hSexGIds" ElementProperty="value" />
+  <Associate MasterKey="UNSD_Sex" ElementID="hUNSDSex" ElementProperty="value" />
+  <Associate MasterKey="Sex_Ids" ElementID="hSexIds" ElementProperty="value" />
+  <Associate MasterKey="Search_Sex" ElementID="hSearchSex" ElementProperty="value" />
+  <Associate MasterKey="Filter_Sex_Lists" ElementID="hFilterSexLists" ElementProperty="value" />
+
+  <Associate MasterKey="DevInfo_Location" ElementID="hDevInfoLocation" ElementProperty="value" />
+  <Associate MasterKey="Location_GIds" ElementID="hLocationGIds" ElementProperty="value" />
+  <Associate MasterKey="UNSD_Location" ElementID="hUNSDLocation" ElementProperty="value" />
+  <Associate MasterKey="Location_Ids" ElementID="hLocationIds" ElementProperty="value" />
+  <Associate MasterKey="Search_Location" ElementID="hSearchLocation" ElementProperty="value" />
+  <Associate MasterKey="Filter_Location_Lists" ElementID="hFilterLocationLists" ElementProperty="value" />
+
+  <Associate MasterKey="Search_IUS" ElementID="hSearchIUS" ElementProperty="value" />
+  <Associate MasterKey="Indicator" ElementID="hIndicator" ElementProperty="value" />
+  <Associate MasterKey="Unit" ElementID="hUnit" ElementProperty="value" />
+  <Associate MasterKey="Subgroup" ElementID="hSubgroup" ElementProperty="value" />
+  <Associate MasterKey="Map" ElementID="hMap" ElementProperty="value" />
+  <Associate MasterKey="Age" ElementID="hAge" ElementProperty="value" />
+  <Associate MasterKey="Sex" ElementID="hSex" ElementProperty="value" />
+  <Associate MasterKey="Location" ElementID="hLocation" ElementProperty="value" />
+  <Associate MasterKey="Frequency" ElementID="hFrequency" ElementProperty="value" />
+  <Associate MasterKey="Source_Type" ElementID="hSourceType" ElementProperty="value" />
+  <Associate MasterKey="Nature" ElementID="hNature" ElementProperty="value" />
+  <Associate MasterKey="Unit_Multiplier" ElementID="hUnitMultiplier" ElementProperty="value" />
+
+  <Associate MasterKey="DevInfo_Metadata" ElementID="hDevInfoMetadata" ElementProperty="value" />
+  <Associate MasterKey="Category_GIds" ElementID="hCategoryGIds" ElementProperty="value" />
+  <Associate MasterKey="UNSD_Metadata" ElementID="hUNSDMetadata" ElementProperty="value" />
+  <Associate MasterKey="Concept_Ids" ElementID="hConceptIds" ElementProperty="value" />
+  <Associate MasterKey="Search_Metadata" ElementID="hSearchMetadata" ElementProperty="value" />
+  <Associate MasterKey="Filter_Metadata_Lists" ElementID="hFilterMetadataLists" ElementProperty="value" />
+
+  <Associate MasterKey="Save" ElementID="btnGenerateCodelistsMappingFile" ElementProperty="value" />
+  <Associate MasterKey="Save" ElementID="btnGenerateIUSMappingFile" ElementProperty="value" />
+  <Associate MasterKey="Save" ElementID="btnGenerateMetadataMappingFile" ElementProperty="value" />
+
+  <Associate MasterKey="Select" ElementID="hSelect" ElementProperty="value" />
+
+  <Associate MasterKey="SelectLocationCodeList" ElementID="aAgeCodelistSelect" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clear" ElementID="aAgeCodelistClear" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectLocationCodeList" ElementID="aSexCodelistSelect" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clear" ElementID="aSexCodelistClear" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectLocationCodeList" ElementID="aLocationCodelistSelect" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clear" ElementID="aLocationCodelistClear" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectCodeList" ElementID="lang_SelectCodelist" ElementProperty="innerHTML" />
+  <Associate MasterKey="OK" ElementID="btnCodelistOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnCodelistCancel" ElementProperty="value" />
+
+  <Associate MasterKey="Id" ElementID="hCodelistId" ElementProperty="value" />
+  <Associate MasterKey="AgencyId" ElementID="hCodelistAgencyId" ElementProperty="value" />
+  <Associate MasterKey="Version" ElementID="hCodelistVersion" ElementProperty="value" />
+  <Associate MasterKey="Name" ElementID="hCodelistName" ElementProperty="value" />
+  
+  <Associate MasterKey="DevInfo_Area" ElementID="hDevInfoArea" ElementProperty="value" />
+  <Associate MasterKey="Area_GIds" ElementID="hAreaGIds" ElementProperty="value" />
+  <Associate MasterKey="UNSD_Area" ElementID="hUNSDArea" ElementProperty="value" />
+  <Associate MasterKey="Area_Ids" ElementID="hAreaIds" ElementProperty="value" />
+  <Associate MasterKey="Search_Area" ElementID="hSearchArea" ElementProperty="value" />
+  <Associate MasterKey="Filter_Area_Lists" ElementID="hFilterAreaLists" ElementProperty="value" />
+  <Associate MasterKey="AreaMapping" ElementID="lang_AreaMapping" ElementProperty="innerHTML" />
+  <Associate MasterKey="lnkExportMapExcel" ElementID="lnkExportMapExcel" ElementProperty="innerHTML" />
+  <Associate MasterKey="lnkImportMapExcel" ElementID="lnkImportMapExcel" ElementProperty="innerHTML" />
+  <Associate MasterKey="lang_Upload_Excel_file" ElementID="lang_Upload_Excel_file" ElementProperty="innerHTML" />
+  <Associate MasterKey="Upload" ElementID="btnUploadExcelForImport" ElementProperty="value" />
+  <Associate MasterKey="Lang_SelectExeclFileToUpload"  ElementID="Lang_SelectExeclFileToUpload" ElementProperty="innerHTML" />
+  <Associate MasterKey="Lang_ImportSuccess"  ElementID="Lang_ImportSuccess" ElementProperty="innerHTML" />
+  <Associate MasterKey="Lang_ImportFaliure"  ElementID="Lang_ImportFaliure" ElementProperty="innerHTML" />
+  <Associate MasterKey="Lang_InvalidFileExtension"  ElementID="Lang_InvalidFileExtension" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="lang_SelectOneOption" ElementID="hSelectOneOption" ElementProperty="value" />
+  <Associate MasterKey="lang_MappingFileGenerateStatus" ElementID="hMappingFileGenerateStatus" ElementProperty="value" />
+  <Associate MasterKey="lang_MapOneCode" ElementID="hMapOneCode" ElementProperty="value" />
+  <Associate MasterKey="lang_MapOneConcept" ElementID="hMapOneConcept" ElementProperty="value" />
+  <Associate MasterKey="lang_AlreadyMappedConcept"  ElementID="hAlreadyMappedConcept" ElementProperty="value" />
+  <Associate MasterKey="lang_SelectAllDropdowns"  ElementID="hSelectAllDropdowns" ElementProperty="value" />
+  <Associate MasterKey="lang_SelectOneMappedRow"  ElementID="hSelectOneMappedRow" ElementProperty="value" />
+  <Associate MasterKey="lang_PreviousMappingsRemoved"  ElementID="hPreviousMappingsRemoved" ElementProperty="value" />
+
+
+</root>

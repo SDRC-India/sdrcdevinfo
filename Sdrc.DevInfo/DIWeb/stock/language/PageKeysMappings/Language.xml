@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="LanguageSettings" ElementID="langLanguageSettings" ElementProperty="innerHTML" />
+  <Associate MasterKey="LanguageTranslation" ElementID="langLanguageTranslation" ElementProperty="innerHTML" />
+  <Associate MasterKey="SourceLanguage" ElementID="langSourceLanguage" ElementProperty="innerHTML" />
+  <Associate MasterKey="TargetLanguage" ElementID="langTargetLanguage" ElementProperty="innerHTML" />
+  <Associate MasterKey="Save" ElementID="langSave" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="langCancel" ElementProperty="value" />
+  <Associate MasterKey="Back" ElementID="btnlangBack" ElementProperty="value" />
+  <Associate MasterKey="ImportXML" ElementID="lang_lm_ImportXML" ElementProperty="value"/>
+  <Associate MasterKey="ExportXML" ElementID="lang_lm_ExportXML" ElementProperty="value"/> 
+  <Associate MasterKey="lang_BtnUploadXLS" ElementID="ContentPlaceHolder1_BtnUploadXLS" ElementProperty="value"/>
+   </root>

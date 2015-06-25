@@ -1,0 +1,853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{46EF94D2-8741-4AD0-A0EF-137DA0019CC8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevInfo.Lib.DI_LibBAL</RootNamespace>
+    <AssemblyName>DI7_LibBAL</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DI5_INIFile, Version=6.1.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\DI5_INIFile.dll</HintPath>
+    </Reference>
+    <Reference Include="DI7_LibExcel, Version=7.1.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>X:\-- Projects --\DevInfo 7.0\binaries\di - Components\DI7_LibExcel\DI7_LibExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="DI_LibDataCapture, Version=6.1.0.2, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\DI_LibDataCapture.dll</HintPath>
+    </Reference>
+    <Reference Include="DI_LibSDMX, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\DI_LibSDMX.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>X:\-- Projects --\DevInfo 7.0\binaries\di - Components\DI7_LibExcel\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ADOX, Version=2.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>X:\-- Projects --\DevInfo 7.0\binaries\DI7 Data Admin\Interop.ADOX.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.JRO, Version=2.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\Interop.JRO.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.VBIDE, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>X:\-- Projects --\DevInfo 7.0\binaries\di - Components\DI7_CommonControl\Interop.VBIDE.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>X:\-- Projects --\DevInfo 7.0\binaries\di - Components\DI7_CommonControl\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Mht, Version=2.0.2497.20724, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Devinfo 6.0\User Interface - Web\DI5_WEB\bin\Mht.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=5.1.2.2, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ThirdParty\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SDMXApi_2_1, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\SDMXApi_2_1.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear, Version=5.0.3.118, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\SpreadsheetGear.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="XMLGenerator_LibBAL, Version=1.0.0.4, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\XMLGenerator_LibBAL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\DimensionsSelectionControlBAL\DimensionsSelection.cs" />
+    <Compile Include="Controls\DISelectionBAL\BaseSelectionSource.cs" />
+    <Compile Include="Controls\DISelectionBAL\DISelectionFactory.cs" />
+    <Compile Include="Controls\DISelectionBAL\DISelectionType.cs" />
+    <Compile Include="Controls\DISelectionBAL\IUSSelectionSource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\DISelectionBAL\SubgroupValSelectionSource.cs" />
+    <Compile Include="Controls\DISelectionBAL\UnitSelectionSource.cs" />
+    <Compile Include="Controls\DISelectionBAL\TimeperiodSelectionSource.cs" />
+    <Compile Include="Controls\DIWizardBAL\ImageFileName1.cs" />
+    <Compile Include="Controls\DXCrossTabMappingBAL\CrossTabInputFileInfo.cs" />
+    <Compile Include="Controls\DXCrossTabMappingBAL\CrossTabMapping.cs" />
+    <Compile Include="Controls\DXCrossTabMappingBAL\CrossTabTableInfo.cs" />
+    <Compile Include="Controls\DXCrossTabMappingBAL\CrossTabTableSource.cs" />
+    <Compile Include="Controls\DXCrossTabMappingBAL\DenominatorColumns.cs" />
+    <Compile Include="Controls\DXCrossTabMappingBAL\DXMFileConverter.cs" />
+    <Compile Include="Controls\DXCrossTabMappingBAL\TablesName.cs" />
+    <Compile Include="Controls\DXCrossTabMappingBAL\Utility.cs" />
+    <Compile Include="Controls\ImageTrayControl\ImagesNVideo.cs" />
+    <Compile Include="Controls\ImageTrayControl\ImageTraySource.cs" />
+    <Compile Include="Controls\ImageTrayControl\ImageTraySourceFactory.cs" />
+    <Compile Include="Controls\ImageTrayControl\ImageTrayType.cs" />
+    <Compile Include="Controls\ImageTrayControl\NormalImagesSource.cs" />
+    <Compile Include="Controls\ListViewBAL\ICListViewSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\FootnoteLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\MetaDataCategoryAreaLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\MetaDataCategorySourceLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\MetaDataCategoryIndicatorLookInSource.cs" />
+    <Compile Include="Controls\MappingControlsBAL\Database.cs" />
+    <Compile Include="Controls\MappingControlsBAL\DICellMapping.cs" />
+    <Compile Include="Controls\MappingControlsBAL\DIExcelCellMapping.cs" />
+    <Compile Include="Controls\MappingControlsBAL\MappingConstants.cs" />
+    <Compile Include="Controls\MappingControlsBAL\Mapping.cs" />
+    <Compile Include="Controls\MappingControlsBAL\MappingType.cs" />
+    <Compile Include="Controls\MappingControlsBAL\MappingUtility.cs" />
+    <Compile Include="Controls\MetadataEditorBAL\AreaMetadataEditorSource.cs" />
+    <Compile Include="Controls\MetadataEditorBAL\ICMetadataEditorSource.cs" />
+    <Compile Include="Controls\MetadataEditorBAL\DISourceMetadataEditorSource.cs" />
+    <Compile Include="Controls\MetadataEditorBAL\IndicatorMetadataEditorSource.cs" />
+    <Compile Include="Controls\MetadataEditorBAL\MetadataEditor.cs" />
+    <Compile Include="Controls\MetadataEditorBAL\MetadataEditorSource.cs" />
+    <Compile Include="Controls\MetadataEditorBAL\MetadataEditorSourceFactory.cs" />
+    <Compile Include="Controls\RecommendedSourcesBAL\RecommendedSourceArea.cs" />
+    <Compile Include="Controls\RecommendedSourcesBAL\RecommendedSourceBase.cs" />
+    <Compile Include="Controls\RecommendedSourcesBAL\RecommendedSourceCntrlFactory.cs" />
+    <Compile Include="Controls\RecommendedSourcesBAL\RecommendedSourceIUS.cs" />
+    <Compile Include="Controls\RecommendedSourcesBAL\RecommendedSourceTimeperiod.cs" />
+    <Compile Include="Controls\RecommendedSourcesBAL\RecommendedSourceViewType.cs" />
+    <Compile Include="Controls\RegistrySearchControlBAL\SearchBase.cs" />
+    <Compile Include="Controls\RegistrySearchControlBAL\SearchFactory.cs" />
+    <Compile Include="Controls\RegistrySearchControlBAL\SearchIndicators.cs" />
+    <Compile Include="Controls\RegistrySearchControlBAL\SearchSubgroups.cs" />
+    <Compile Include="Controls\RegistrySearchControlBAL\SearchUnits.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\ApplicationType.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\AreasSource.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\ICSource.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\IndicatorSource.cs" />
+    <Compile Include="Controls\TreeSelectionBAL\AreaTreeSortType.cs" />
+    <Compile Include="Controls\TreeSelectionBAL\TreeSelectionConstant.cs" />
+    <Compile Include="Controls\VideoFrameBAL\Audio.cs" />
+    <Compile Include="Controls\VideoFrameBAL\AudioCollection.cs" />
+    <Compile Include="Converter\Database\DBConverterLog.cs" />
+    <Compile Include="Converter\Database\DI7ToDI6Converter.cs" />
+    <Compile Include="Converter\Database\DI7_0_0_0DBConverter.cs" />
+    <Compile Include="Converter\Database\DI6_0_0_4DBConverter.cs" />
+    <Compile Include="Converter\Database\DI6_0_0_3DBConverter.cs" />
+    <Compile Include="Converter\Database\DI6_0_0_5DBConverter.cs" />
+    <Compile Include="Converter\Database\DI7_0_0_1DBConverter.cs" />
+    <Compile Include="DatabaseIncrement\Constants.cs" />
+    <Compile Include="DatabaseIncrement\DatabaseIncrement.cs" />
+    <Compile Include="DatabaseIncrement\DatabaseIncrementBuilder.cs" />
+    <Compile Include="DA\DML\BaseSDMXHelper.cs" />
+    <Compile Include="DA\DML\CategoryInfo.cs" />
+    <Compile Include="DA\DML\DI7MetadataCategoryInfo.cs" />
+    <Compile Include="DA\DML\DI7MetadataCategoryBuilder.cs" />
+    <Compile Include="DA\DML\DI7MetaDataBuilder.cs" />
+    <Compile Include="DA\DML\DI6SubgroupSelectionManager.cs" />
+    <Compile Include="DA\DML\DIDataValueHelper.cs" />
+    <Compile Include="DA\DML\DSDHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DA\DML\ICLevelsNIUSViewer.cs" />
+    <Compile Include="DA\DML\MetadataCategoryBuilder.cs" />
+    <Compile Include="DA\DML\MetadataCategoryInfo.cs" />
+    <Compile Include="DA\DML\MetadataInfo.cs" />
+    <Compile Include="DA\DML\MetadataManager.cs" />
+    <Compile Include="DA\DML\MetadataManagerConstants.cs" />
+    <Compile Include="DA\DML\RecommendedSourcesBuilder.cs" />
+    <Compile Include="DA\DML\SDMXHelper.cs" />
+    <Compile Include="DA\DML\SenderBuilder.cs" />
+    <Compile Include="DA\DML\SenderInfo.cs" />
+    <Compile Include="DA\DML\WebServiceInvoker.cs" />
+    <Compile Include="Export\ExportOnlineDatabase.cs" />
+    <Compile Include="Export\ExportOnlineDatabaseCRING.cs" />
+    <Compile Include="Export\IUSSheetExporter.cs" />
+    <Compile Include="Export\Utility.cs" />
+    <Compile Include="Import\DAImport\CSV\CSVImporter.cs" />
+    <Compile Include="Import\DAImport\Database\RecommendedSourceQueries.cs" />
+    <Compile Include="Import\DAImport\Database\RecommededSourceImporter.cs" />
+    <Compile Include="MergeTemplate\MergetTemplateConstants.cs" />
+    <Compile Include="MergeTemplate\DIMergeTemplate.cs" />
+    <Compile Include="MergeTemplate\Enums.cs" />
+    <Compile Include="MergeTemplate\MappedRowInfo.cs" />
+    <Compile Include="MergeTemplate\MappedTableInfo.cs" />
+    <Compile Include="MergeTemplate\MergeTableInfo.cs" />
+    <Compile Include="MergeTemplate\MergeTemplateQueries.cs" />
+    <Compile Include="MergeTemplate\MergeTemplateTableQueries.cs" />
+    <Compile Include="MergeTemplate\ElementMapper.cs" />
+    <Compile Include="MergeTemplate\ProcessMatchedElements.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\TemplateSourceFactory.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\SubgroupDimensionsSource.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\SubgroupsDimensionValuesSource.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\SubgroupValsSource.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\TemplateMergingControlSource.cs" />
+    <Compile Include="Controls\TemplateMergeBAL\UnitSource.cs" />
+    <Compile Include="Controls\TreeSelectionBAL\SelectedNodeInfo.cs" />
+    <Compile Include="Controls\VideoFrameBAL\DIVideoSource.cs" />
+    <Compile Include="Controls\VideoFrameBAL\FrameEffect.cs" />
+    <Compile Include="Controls\VideoFrameBAL\ImageFileNames.cs" />
+    <Compile Include="Controls\VideoFrameBAL\VideoFrame.cs" />
+    <Compile Include="Controls\VideoFrameBAL\VideoFrameCollection.cs" />
+    <Compile Include="Converter\Database\DI6_0_0_2DBConverter.cs" />
+    <Compile Include="Converter\Database\DI6ToDI5Converter.cs" />
+    <Compile Include="DA\DML\NotesProfilesInfo.cs" />
+    <Compile Include="DA\DML\NotesBuilder.cs" />
+    <Compile Include="DA\DML\NotesClassificationBuilder.cs" />
+    <Compile Include="DA\DML\NotesClassificationInfo.cs" />
+    <Compile Include="DA\DML\NotesDataBuilder.cs" />
+    <Compile Include="DA\DML\NotesDataInfo.cs" />
+    <Compile Include="DA\DML\NotesInfo.cs" />
+    <Compile Include="DA\DML\NotesProfileBuilder.cs" />
+    <Compile Include="DA\DML\DBMetadataTableBuilder.cs" />
+    <Compile Include="DA\DML\DBVersionBuilder.cs" />
+    <Compile Include="DA\DML\MapBuilder.cs" />
+    <Compile Include="DA\DML\MapInfo.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\AreaSheetSource.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\ComparisonReportQuery.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\Constants.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\DataBaseComparisonReportGenerator.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\DataSheetSource.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\ICSheetSource.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\IndicatorSheetSource.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\IUSSheetSource.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\SheetGenerator.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\SheetSource.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\SheetSourceFactory.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\SheetType.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\SubgroupSheetSource.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\TimeperiodSheetSource.cs" />
+    <Compile Include="DA\Reports\ComparisonReport\UnitSheetSource.cs" />
+    <Compile Include="DA\SystemFiles\DAAdaptation.cs" />
+    <Compile Include="DES\DataEntrySpreadsheet.cs" />
+    <Compile Include="DES\DESGenerator.cs" />
+    <Compile Include="DIBook\Constants.cs" />
+    <Compile Include="DIBook\DIBookInfo.cs" />
+    <Compile Include="DIBook\DIBookSource.cs" />
+    <Compile Include="Import\DAImport\DES\DataEntrySpreadsheets.cs" />
+    <Compile Include="Import\DAImport\Log\HTMLLog .cs" />
+    <Compile Include="Import\DAImport\Log\SDMXLog.cs" />
+    <Compile Include="LogFiles\Constants.cs" />
+    <Compile Include="LogFiles\CrossTabLogFile.cs" />
+    <Compile Include="LogFiles\DXLogFile.cs" />
+    <Compile Include="LogFiles\FreeFormatLogFile.cs" />
+    <Compile Include="LogFiles\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LogFiles\UnmatchedSeriesInfo.cs" />
+    <Compile Include="LogFiles\UnMappedCellInfo.cs" />
+    <Compile Include="LogFiles\UnMatchedAreaInfo.cs" />
+    <Compile Include="LogFiles\UnMatchedElementInfo.cs" />
+    <Compile Include="LogFiles\WDILogFile.cs" />
+    <Compile Include="Metadata\DefaultAreaMaskValues.cs" />
+    <Compile Include="Metadata\DefaultIndicatorMaskValues.cs" />
+    <Compile Include="Metadata\DefaultSourceMaskValues.cs" />
+    <Compile Include="Metadata\DI7MetadataConverter.cs" />
+    <Compile Include="Metadata\MaskFileInfo.cs" />
+    <Compile Include="Metadata\MetaDataConstants.cs" />
+    <Compile Include="Metadata\MetadataConverter.cs" />
+    <Compile Include="Metadata\MetadataMaskInfoReader.cs" />
+    <Compile Include="PDFGenerator\PDFExporter.cs" />
+    <Compile Include="PDFGenerator\PDFImporter.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Publish\StagingDBPublisher.cs" />
+    <Compile Include="QDS\DI7CacheNSP\CacheGenerator.cs" />
+    <Compile Include="QDS\DI7CacheNSP\CacheUtility.cs" />
+    <Compile Include="QDS\DI7CacheNSP\DI7OfflineSPHelper.cs" />
+    <Compile Include="QDS\QDSConstants.cs" />
+    <Compile Include="QDS\UI\Databases\UIDatabaseDetails.cs" />
+    <Compile Include="QDS\UI\Databases\UIDatabaseHelper.cs" />
+    <Compile Include="QDS\UI\Databases\UIDatabaseInfo.cs" />
+    <Compile Include="QDS\Utility\QdsUtility.cs" />
+    <Compile Include="QDS\XMLGenerator.cs" />
+    <Compile Include="SerializeClasses\Class1.cs" />
+    <Compile Include="UI\Presentations\Common\StyleTemplateSetting.cs" />
+    <Compile Include="Common\CommonDelegates.cs" />
+    <Compile Include="Controls\BottomPanelBAL\BottomPanel.cs" />
+    <Compile Include="Controls\DIWizardBAL\CacheInfo.cs" />
+    <Compile Include="Controls\DIWizardBAL\Constants.cs" />
+    <Compile Include="Controls\DIWizardBAL\ImageFileName.cs" />
+    <Compile Include="Controls\ListViewBAL\AreaListViewSource.cs" />
+    <Compile Include="Controls\ListViewBAL\BaseListViewSource.cs" />
+    <Compile Include="Controls\ListViewBAL\ColumnInfo.cs" />
+    <Compile Include="Controls\ListViewBAL\SubgroupValListViewSource.cs" />
+    <Compile Include="Controls\ListViewBAL\UnitListViewSource.cs" />
+    <Compile Include="Controls\ListViewBAL\DISourceListViewSource.cs" />
+    <Compile Include="Controls\ListViewBAL\IndicatorListViewSource.cs" />
+    <Compile Include="Controls\ListViewBAL\ListViewSortType.cs" />
+    <Compile Include="Controls\ListViewBAL\ListViewSourceFactory.cs" />
+    <Compile Include="Controls\ListViewBAL\ListViewType.cs" />
+    <Compile Include="Controls\ListViewBAL\TimeperiodListViewSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\AreaLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\BaseLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\Constants.cs" />
+    <Compile Include="Controls\LookInWindowBAL\DataSourceType.cs" />
+    <Compile Include="Controls\LookInWindowBAL\DISourceLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\DISubgroupLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\DISubgroupTypeLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\ElementImportType.cs" />
+    <Compile Include="Controls\LookInWindowBAL\ICLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\IndicatorLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\IUSLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\ListViewFactory.cs" />
+    <Compile Include="Controls\LookInWindowBAL\MetaDataICLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\MetaDataIndicatorLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\MetaDataMapLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\SubgroupAgeLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\SubgroupLocationLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\SubgroupOthersLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\SubgroupSexLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\SubgroupValLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\TimeperiodLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\UnitLookInSource.cs" />
+    <Compile Include="Controls\LookInWindowBAL\Utility.cs" />
+    <Compile Include="Controls\NamespaceDoc.cs" />
+    <Compile Include="Controls\TopPanelBAL\TopPanel.cs" />
+    <Compile Include="Controls\TreeFilterBAL\TreeFilter.cs" />
+    <Compile Include="Controls\TreeSelectionBAL\AreaSelectionSource.cs" />
+    <Compile Include="Controls\TreeSelectionBAL\BaseSelectionSource.cs" />
+    <Compile Include="Controls\TreeSelectionBAL\IndicatorSelectionSource.cs" />
+    <Compile Include="Controls\TreeSelectionBAL\ICSelectionSource.cs" />
+    <Compile Include="Controls\TimeperiodBAL\TimePeriodFacade.cs" />
+    <Compile Include="Controls\TimeperiodBAL\TimeperiodInfo.cs" />
+    <Compile Include="Controls\TimeperiodBAL\TimePeriodsFormatCollection.cs" />
+    <Compile Include="Converter\Database\Constants.cs" />
+    <Compile Include="Converter\DataCaptureToExcel\Constants.cs" />
+    <Compile Include="Converter\DataCaptureToExcel\ExcelGenerator.cs" />
+    <Compile Include="Converter\Database\DBConverter.cs" />
+    <Compile Include="Converter\Database\DBConverterDecorator.cs" />
+    <Compile Include="Converter\Database\DI5SP2DBConverter.cs" />
+    <Compile Include="Converter\Database\DI6DBConverter.cs" />
+    <Compile Include="DA\DML\AreaBuilder.cs" />
+    <Compile Include="DA\DML\AreaInfo.cs" />
+    <Compile Include="DA\DML\CommonInfo.cs" />
+    <Compile Include="DA\DML\Constants.cs" />
+    <Compile Include="DA\DML\DI6SubgroupTypeBuilder.cs" />
+    <Compile Include="DA\DML\DI6SubgroupTypeInfo.cs" />
+    <Compile Include="DA\DML\DI6SubgroupBuilder.cs" />
+    <Compile Include="DA\DML\DI6SubgroupInfo.cs" />
+    <Compile Include="DA\DML\DI6SubgroupValBuilder.cs" />
+    <Compile Include="DA\DML\DI6SubgroupValInfo.cs" />
+    <Compile Include="DA\DML\Delegates.cs" />
+    <Compile Include="DA\DML\DIDatabase.cs" />
+    <Compile Include="DA\DML\DIICons.cs" />
+    <Compile Include="DA\DML\FootnoteBuilder.cs" />
+    <Compile Include="DA\DML\FootnoteInfo.cs" />
+    <Compile Include="DA\DML\IIndicatorInfo.cs" />
+    <Compile Include="DA\DML\IndicatorBuilder.cs" />
+    <Compile Include="DA\DML\IndicatorClassificationBuilder.cs" />
+    <Compile Include="DA\DML\IndicatorClassificationInfo.cs" />
+    <Compile Include="DA\DML\IndicatorInfo.cs" />
+    <Compile Include="DA\DML\Interfaces\IAreaInfo.cs" />
+    <Compile Include="DA\DML\Interfaces\IDIDatabase.cs" />
+    <Compile Include="DA\DML\Interfaces\IIndicatorClassificationInfo.cs" />
+    <Compile Include="DA\DML\Interfaces\IIUSInfo.cs" />
+    <Compile Include="DA\DML\Interfaces\ISourceInfo.cs" />
+    <Compile Include="DA\DML\Interfaces\ISubgroupInfo.cs" />
+    <Compile Include="DA\DML\Interfaces\ISubgroupValInfo.cs" />
+    <Compile Include="DA\DML\Interfaces\ITimeperiodInfo .cs" />
+    <Compile Include="DA\DML\IUSBuilder.cs" />
+    <Compile Include="DA\DML\IUSInfo.cs" />
+    <Compile Include="DA\DML\LangaugeTableInfo.cs" />
+    <Compile Include="DA\DML\LanguageBuilder.cs" />
+    <Compile Include="DA\DML\MetaDataBuilder.cs" />
+    <Compile Include="DA\DML\ProcessEventCreator.cs" />
+    <Compile Include="DA\DML\SourceBuilder.cs" />
+    <Compile Include="DA\DML\SourceInfo.cs" />
+    <Compile Include="DA\DML\SubgroupBuilder.cs" />
+    <Compile Include="DA\DML\SubgroupInfo.cs" />
+    <Compile Include="DA\DML\SubgroupValBuilder.cs" />
+    <Compile Include="DA\DML\SubgroupValInfo.cs" />
+    <Compile Include="DA\DML\TimeperiodBuilder.cs" />
+    <Compile Include="DA\DML\TimeperiodInfo.cs" />
+    <Compile Include="DA\DML\UnitBuilder.cs" />
+    <Compile Include="DA\DML\UnitInfo.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\AreaSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\AreaWithoutDataSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\ClassificationMissingIUSSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\CommentsSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\Constants.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\ConventionSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\DataBaseLogSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\DatabaseSummaryReportGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\DuplicateDataSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\FootNotesSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\FrameworkSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\GoalSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\ICSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\IndicatorSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\InstitutionSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\IUSLinkedClassesSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\IUSMissingClassesSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\IUSSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\IUSWithoutDataSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\SectorSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\SheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\SheetSource.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\SourceSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\SourcesWithoutDataSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\SubgroupSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\SummarySheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\TemplateLogSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\ThemeSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\TimeperiodSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\TimeperiodWithoutDataSheetGenerator.cs" />
+    <Compile Include="DA\Reports\DatabaseSummaryReport\UnitSheetGenerator.cs" />
+    <Compile Include="DA\Reports\RangeCheckReport\DRCColumnsHeader.cs" />
+    <Compile Include="DA\Reports\RangeCheckReport\RangeCheckCustomizationInfo.cs" />
+    <Compile Include="DA\Reports\RangeCheckReport\RangeCheckFileRowsInfo.cs" />
+    <Compile Include="DA\Reports\RangeCheckReport\RangeCheckReportGenerator.cs" />
+    <Compile Include="ExceptionHandler\ExceptionFacade.cs" />
+    <Compile Include="Export\Constants.cs" />
+    <Compile Include="Export\DIExport.cs" />
+    <Compile Include="Export\Enum.cs" />
+    <Compile Include="Export\ExportCSV.cs" />
+    <Compile Include="Export\ExportDatabase.cs" />
+    <Compile Include="Export\ExportDES.cs" />
+    <Compile Include="Export\ExportHTML.cs" />
+    <Compile Include="Export\ExportPDF.cs" />
+    <Compile Include="Export\ExportR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExportR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Import\DAImport\Common1\Constants.cs" />
+    <Compile Include="Import\DAImport\Common1\DIImportFileType.cs" />
+    <Compile Include="Import\DAImport\Common1\ImportQueries.cs" />
+    <Compile Include="Import\DAImport\Common1\IUpdateQuery.cs" />
+    <Compile Include="Import\DAImport\Common1\MappedElementInfo.cs" />
+    <Compile Include="Import\DAImport\Common1\RequiredDIElementsType.cs" />
+    <Compile Include="Import\DAImport\Common1\SqlServerUpdateQuery.cs" />
+    <Compile Include="Import\DAImport\Common1\TraditionalUpdateQuery.cs" />
+    <Compile Include="Import\DAImport\Common1\UnmatchedElementsInfo.cs" />
+    <Compile Include="Import\DAImport\Database\AssistantImporter.cs" />
+    <Compile Include="Import\DAImport\Database\AssistantQueries.cs" />
+    <Compile Include="Import\DAImport\Database\Database.cs" />
+    <Compile Include="Import\DAImport\Database\NotesImporter.cs" />
+    <Compile Include="Import\DAImport\Database\NotesQueries.cs" />
+    <Compile Include="Import\DAImport\DES\DESCellAddress.cs" />
+    <Compile Include="Import\DAImport\DIData.cs" />
+    <Compile Include="Import\DAImport\DIDataFactory.cs" />
+    <Compile Include="Import\DAImport\MappedInfoGenerator.cs" />
+    <Compile Include="Import\DAImport\SDMX\SDMXColumnNames.cs" />
+    <Compile Include="Import\DAImport\SDMX\SDMXTableNames.cs" />
+    <Compile Include="Import\DAImport\SDMX\SDMXXml.cs" />
+    <Compile Include="Import\DataCapture\Constants.cs" />
+    <Compile Include="Import\DataCapture\EIQuery.cs" />
+    <Compile Include="Import\DataCapture\ElXmlImporter.cs" />
+    <Compile Include="Import\DataCapture\ElXmlProcessor.cs" />
+    <Compile Include="Import\DataCapture\Utility.cs" />
+    <Compile Include="Import\Template\DITemplate.cs" />
+    <Compile Include="Import\Utility.cs" />
+    <Compile Include="NamingConvention\DIFileNameChecker.cs" />
+    <Compile Include="NamingConvention\TimeperiodChecker.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AutoSelect\AutoSelectArea.cs" />
+    <Compile Include="UI\Calculates\Calculates.cs" />
+    <Compile Include="UI\DataViewPage\DataView.cs" />
+    <Compile Include="Controls\MetadataBAL\Metadata.cs" />
+    <Compile Include="Controls\DIWizardBAL\DIWizard.cs" />
+    <Compile Include="Controls\DIWizardBAL\DIWizardPanel.cs" />
+    <Compile Include="Controls\DIWizardBAL\DIWizardPanels.cs" />
+    <Compile Include="UI\Presentations\DynamicReport\DynamicReport.cs" />
+    <Compile Include="UI\Presentations\Gallery\diGallery.cs" />
+    <Compile Include="UI\Presentations\Gallery\Search\DBBuild\GalleryDBBuild.cs" />
+    <Compile Include="UI\Presentations\Gallery\Search\Search\GallerySearch.cs" />
+    <Compile Include="UI\Presentations\Graph\Enums.cs" />
+    <Compile Include="UI\Presentations\Graph\GraphPresentation.cs" />
+    <Compile Include="UI\Presentations\Graph\PyramidChart.cs" />
+    <Compile Include="UI\Presentations\Map\DIBLayers.cs" />
+    <Compile Include="UI\Presentations\Map\DIBShapes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DIBShapes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Presentations\Presentation.cs" />
+    <Compile Include="UI\Presentations\Common\AreaLevelFormat.cs" />
+    <Compile Include="UI\Presentations\Table\ReportLayout.cs" />
+    <Compile Include="UI\Presentations\Table\TableReportInfo.cs" />
+    <Compile Include="UI\UserPreference\Adaptation.cs" />
+    <Compile Include="UI\UserPreference\IndicatorClassificationSelections.cs" />
+    <Compile Include="UI\UserPreference\MetadataFields.cs" />
+    <Compile Include="UI\UserPreference\UserPreference.cs" />
+    <Compile Include="Utility\DIAdaptation.cs" />
+    <Compile Include="Utility\DIAdaptations.cs" />
+    <Compile Include="Utility\CommandLineArguments.cs" />
+    <Compile Include="Utility\DICulture.cs" />
+    <Compile Include="Utility\DIHelp.cs" />
+    <Compile Include="Utility\DILiveUpdate.cs" />
+    <Compile Include="Utility\DIMapServer.cs" />
+    <Compile Include="Utility\DIWorldwide.cs" />
+    <Compile Include="Utility\GenericCollection.cs" />
+    <Compile Include="Utility\Encryption.cs" />
+    <Compile Include="Utility\HashtableSerializationProxy.cs" />
+    <Compile Include="Utility\IndicatorClassification\IndicatorClassificationCollection.cs" />
+    <Compile Include="Utility\IndicatorClassification\IndicatorClassificationFacade.cs" />
+    <Compile Include="Utility\IndicatorClassification\IndicatorClassificationInfo.cs" />
+    <Compile Include="Utility\IRightToLeft.cs" />
+    <Compile Include="Utility\ScreenCapture.cs" />
+    <Compile Include="Utility\Search\FreeText.cs" />
+    <Compile Include="Utility\MRU\MRUFile.cs" />
+    <Compile Include="Utility\MRU\MRUConstants.cs" />
+    <Compile Include="Utility\MRU\MRUKey.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Presentations\DIExcelWrapper\DIExcel.cs" />
+    <Compile Include="UI\Presentations\DIExcelWrapper\ExcelHelper.cs" />
+    <Compile Include="UI\Presentations\Map\Animator\Slide.cs" />
+    <Compile Include="UI\Presentations\Common\Enums.cs" />
+    <Compile Include="UI\Presentations\Common\FontSetting.cs" />
+    <Compile Include="UI\Presentations\Common\TableGraph\Field.cs" />
+    <Compile Include="UI\Presentations\Common\TableGraph\Fields.cs" />
+    <Compile Include="UI\Presentations\Common\TableMap\Legend.cs" />
+    <Compile Include="UI\Presentations\Common\TableMap\Legends.cs" />
+    <Compile Include="UI\Presentations\Map\CustomFeature.cs" />
+    <Compile Include="UI\Presentations\Map\CustomLabel.cs" />
+    <Compile Include="UI\Presentations\Map\Enums.cs" />
+    <Compile Include="UI\Presentations\Map\Inset.cs" />
+    <Compile Include="UI\Presentations\Map\Insets.cs" />
+    <Compile Include="UI\Presentations\Map\Layer.cs" />
+    <Compile Include="UI\Presentations\Map\Layers.cs" />
+    <Compile Include="UI\Presentations\Map\Legend.cs" />
+    <Compile Include="UI\Presentations\Map\Legends.cs" />
+    <Compile Include="UI\Presentations\Map\Map.cs" />
+    <Compile Include="UI\Presentations\Map\Shape.cs" />
+    <Compile Include="UI\Presentations\Map\ShapeFileReader.cs" />
+    <Compile Include="UI\Presentations\Map\ShapeInfo.cs" />
+    <Compile Include="UI\Presentations\Map\Structure.cs" />
+    <Compile Include="UI\Presentations\Map\Theme.cs" />
+    <Compile Include="UI\Presentations\Map\Themes.cs" />
+    <Compile Include="UI\Presentations\Table\Enums.cs" />
+    <Compile Include="UI\Presentations\Table\FieldsCollection.cs" />
+    <Compile Include="UI\Presentations\Common\StyleTemplate.cs" />
+    <Compile Include="UI\Presentations\Table\TablePresentation.cs" />
+    <Compile Include="UI\Presentations\Common\TableMap\Theme.cs" />
+    <Compile Include="UI\Presentations\Common\TableMap\Themes.cs" />
+    <Compile Include="Utility\DataAdmin.cs" />
+    <Compile Include="Utility\DataExchange.cs" />
+    <Compile Include="Utility\DICommon.cs" />
+    <Compile Include="Utility\DILanguage.cs" />
+    <Compile Include="Utility\DIPrefFile.cs" />
+    <Compile Include="Utility\FTPClient.cs" />
+    <Compile Include="Utility\Generic.cs" />
+    <Compile Include="Utility\ILanguage.cs" />
+    <Compile Include="Utility\SubApplicationInfo.cs" />
+    <Compile Include="Utility\Timeperiod\TimePeriodFacade.cs" />
+    <Compile Include="Utility\Timeperiod\TimeperiodInfo.cs" />
+    <Compile Include="Utility\Timeperiod\TimePeriodsFormatCollection.cs" />
+    <Compile Include="Utility\UnZipFilesManager.cs" />
+    <Compile Include="Utility\ZipFileManager.cs" />
+    <Compile Include="Web References\DIMapServerWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DIWWSRegistration\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DIWWSStatus\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DIWWSUtility\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SDMXRegistry\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yes.jpg" />
+    <None Include="Resources\DIBDefault.xml" />
+    <None Include="Resources\DIBCurrent.xml" />
+    <None Include="Resources\XSLTFile2.xslt" />
+    <None Include="Resources\DefaultIndMask.xml" />
+    <None Include="Resources\DefaultMapMask.xml" />
+    <None Include="Resources\DefaultSrcMask.xml" />
+    <Content Include="Resources\XSLT_DI6.xml" />
+    <Content Include="UI\Presentations\DynamicReport\Readme.txt" />
+    <None Include="Web References\SDMXRegistry\Registryservice.disco" />
+    <None Include="Web References\DIMapServerWS\Utility.disco" />
+    <None Include="Web References\DIWWSUtility\Utility.disco" />
+    <None Include="Web References\DIWWSStatus\UserOnlineStatus.disco" />
+    <None Include="Web References\DIWWSRegistration\UserRegistration.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Aspose.Flash.lic" />
+    <EmbeddedResource Include="Export\ExportR.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExportR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogFiles\Resource1.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Presentations\Map\DIBShapes.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DIBShapes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Controls\MetadataEditorBAL\MetadataEditor.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Area.xls" />
+    <None Include="Resources\dib_afr_Egypt polygon.DBF" />
+    <None Include="Resources\dib_afr_Egypt polygon.SHP" />
+    <None Include="Resources\dib_afr_Egypt polygon.SHX" />
+    <None Include="Resources\dib_afr_Egypt Sudan line.DBF" />
+    <None Include="Resources\dib_afr_Egypt Sudan line.SHP" />
+    <None Include="Resources\dib_afr_Egypt Sudan line.SHX" />
+    <None Include="Resources\dib_afr_Kenya Sudan line.DBF" />
+    <None Include="Resources\dib_afr_Kenya Sudan line.SHP" />
+    <None Include="Resources\dib_afr_Kenya Sudan line.SHX" />
+    <None Include="Resources\dib_afr_Sudan polygon.DBF" />
+    <None Include="Resources\dib_afr_Sudan polygon.SHP" />
+    <None Include="Resources\dib_afr_Sudan polygon.SHX" />
+    <None Include="Resources\dib_asi kashmir_polygon.dbf" />
+    <None Include="Resources\dib_asi kashmir_polygon.shp" />
+    <None Include="Resources\dib_asi kashmir_polygon.shx" />
+    <None Include="Resources\dib_asi_ind_chn_polygon.dbf" />
+    <None Include="Resources\dib_asi_ind_chn_polygon.shp" />
+    <None Include="Resources\dib_asi_ind_chn_polygon.shx" />
+    <None Include="Resources\dib_asi_ind_pak_loc line.dbf" />
+    <None Include="Resources\dib_asi_ind_pak_loc line.shp" />
+    <None Include="Resources\dib_asi_ind_pak_loc line.shx" />
+    <None Include="Resources\dib_asi_Korea armistice line.DBF" />
+    <None Include="Resources\dib_asi_Korea armistice line.SHP" />
+    <None Include="Resources\dib_asi_Korea armistice line.SHX" />
+    <None Include="Resources\dib_asi_PSE line.DBF" />
+    <None Include="Resources\dib_asi_PSE line.SHP" />
+    <None Include="Resources\dib_asi_PSE line.SHX" />
+    <None Include="Resources\dib_asi_PSE_line_dbf" />
+    <None Include="Resources\dib_asi_PSE_line_shp" />
+    <None Include="Resources\dib_asi_PSE_line_shx" />
+    <None Include="Resources\MICS Compiler - Template 1.xls" />
+    <None Include="UI\Presentations\Graph\ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Import\DAImport\DAImporClassDiagram.cd" />
+    <None Include="UI\Presentations\Graph\UnitTestCases\Unit Test Cases - Graph wizard.xls" />
+    <None Include="Web References\DIMapServerWS\DbDetailsReturnObject.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DIMapServerWS\FTPReturnObject.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DIMapServerWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DIMapServerWS\Utility.wsdl" />
+    <None Include="Web References\DIWWSRegistration\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DIWWSRegistration\UserRegistration.wsdl" />
+    <None Include="Web References\DIWWSStatus\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DIWWSStatus\UserOnlineStatus.wsdl" />
+    <None Include="Web References\DIWWSUtility\DbDetailsReturnObject.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DIWWSUtility\FTPReturnObject.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DIWWSUtility\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DIWWSUtility\Utility.wsdl" />
+    <None Include="Web References\SDMXRegistry\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SDMXRegistry\Registryservice.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{00000205-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.devinfo.info/DI6WorldWideWebService/UserOnlineStatus.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DIWWSStatus\</RelPath>
+      <UpdateFromURL>http://www.devinfo.info/DI6WorldWideWebService/UserOnlineStatus.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DI_LibBAL_DIWWSStatus_UserOnlineStatus</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.devinfo.info/DI6WorldWideWebService/UserRegistration.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DIWWSRegistration\</RelPath>
+      <UpdateFromURL>http://www.devinfo.info/DI6WorldWideWebService/UserRegistration.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DI_LibBAL_DIWWSRegistration_UserRegistration</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.devinfo.info/DI6WorldWideWebService/Utility.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DIWWSUtility\</RelPath>
+      <UpdateFromURL>http://www.devinfo.info/DI6WorldWideWebService/Utility.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DI_LibBAL_DIWWSUtility_Utility</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.devinfo.org/libraries/ws/Registryservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SDMXRegistry\</RelPath>
+      <UpdateFromURL>http://www.devinfo.org/libraries/ws/Registryservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DI7_LibBAL_SDMXRegistry_RegistryService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.devinfo.org/di7webservices/Utility.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DIMapServerWS\</RelPath>
+      <UpdateFromURL>http://www.devinfo.org/di7webservices/Utility.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DI7_LibBAL_DIMapServerWS_Utility</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DI7_LibDAL\DI7_LibDAL.csproj">
+      <Project>{FC707D2F-2E19-4F14-A0F7-D615D12BBFD5}</Project>
+      <Name>DI7_LibDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

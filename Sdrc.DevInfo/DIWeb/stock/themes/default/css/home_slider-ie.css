@@ -1,0 +1,74 @@
+/* AnythingSlider IE7 and older stylesheet - included !important flag in case the theme is loaded after page load */
+
+/* Navigation Arrows */
+div.anythingSlider .arrow {
+	top: 35% !important;
+}
+div.anythingSlider-metallic .arrow {
+	top: 40% !important;
+}
+div.anythingSlider-construction .arrow {
+	top: 14% !important;
+}
+div.anythingSlider-minimalist-round .arrow , div.anythingSlider-minimalist-square .arrow {
+	top: 45% !important;
+}
+div.anythingSlider-cs-portfolio .arrow {
+	bottom: -24px !important;
+}
+
+div.anythingSlider .arrow a,
+div.anythingSlider-metallic .arrow a,
+div.anythingSlider-minimalist-square .arrow a,
+div.anythingSlider-construction .arrow a,
+div.anythingSlider-minimalist-round .arrow a {
+	margin: 0 !important;
+}
+
+/* When using the navigationSize option, the side margins need to be zero
+   None of the navigation panels look good in IE7 now =( */
+div.anythingSlider .anythingControls ul.thumbNav a {
+	margin: 0;
+	padding:0 0 1px 7px;
+	/*padding-bottom:2px\9; /* IE8 */	
+}
+div.anythingSlider .anythingControls .anythingNavWindow li {
+	padding: 3px 0 0 0;
+}
+div.anythingSlider-cs-portfolio .anythingControls .anythingNavWindow {
+	margin: 18px 0 0 0;
+}
+div.anythingSlider-metallic .anythingControls,
+div.anythingSlider-minimalist-square .anythingControls,
+div.anythingSlider-construction .anythingControls,
+div.anythingSlider-minimalist-round .anythingControls {
+	/*width: 70%; /* arbitrary percentage, adjust to fit your slider in IE7 */
+	/* *width: 11.5%; /* arbitrary percentage, adjust to fit your slider in IE7 */
+	/**width: 21.5%;  arbitrary percentage, adjust to fit your slider in IE7 */
+	margin-top: 3px;
+}
+
+/* For Play Pause Button Positioning Corection in IE7 ...starts*/
+div.anythingSlider-metallic .start-stop {
+	*background:url(../images/home_slider/hm_slder_play_bttn.png) no-repeat -1px 0px; 
+}
+div.anythingSlider-metallic .start-stop.playing {
+	*background:url(../images/home_slider/hm_slder_play_bttn.png) no-repeat -1px 0px; 
+}
+div.anythingSlider-metallic .start-stop:hover, div.anythingSlider-metallic .start-stop.hover {
+	*background:url(../images/home_slider/hm_slder_play_bttn.png) no-repeat -1px 0px; 
+}
+div.anythingSlider-metallic.activeSlider .start-stop.playing {
+	*background:url(../images/home_slider/hm_slder_pause_bttn.png) no-repeat -1px 0px; 
+}
+/* For Play Pause Button Positioning Corection in IE7 ...ends*/
+
+/* Navigation Links */
+div.anythingSlider-metallic .anythingControls {
+	/**right: 2.5%;  rtl-o */
+}
+
+div.anythingSlider-metallic .anythingControls ul a {
+	*height: 10px;
+	*width: 10px;
+}

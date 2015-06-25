@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<appsettings>
+  <item n="adaptation_name" v="DEVINFO" />
+  <item n="adapted_for" v="sub-national" />
+  <item n="area_nid" v="64" />
+  <item n="sub_nation" v="Odisha" />
+  <item n="default_lng" v="en" />
+  <item n="app_version" v="1" />
+  <item n="diuilib_version" v="1.9" />
+  <!--<item v="http://localhost:8433/DI7UILibServices/diuilib/" n="diuilib_url" />
+  <item v="http://localhost:1890/Di7web/stock/themes/default/css/diuilibcommon.css" n="diuilib_theme_css" />-->
+  <item v="http://localhost/DI7UILibServices/diuilib/" n="diuilib_url" />
+  <item v="http://localhost:1890/stock/themes/default/css/diuilibcommon.css" n="diuilib_theme_css" />
+  <item n="fbAppID" v="471712316246597" />
+  <item n="fbAppSecret" v="f2c05e80d5ddfd102fc171fa8b797ca7" />
+  <item n="twAppID" v="mUY6N88BEkkxfrYbnYSCFg" />
+  <item n="twAppSecret" v="nrhyD7d1mD7LbJgXbJ0q8BwEtjOi37XWephm9JdC4N4" />
+  <item n="show_sliders" v="true" />
+  <item n="dvMrdThreshold" v="500" />
+  <item n="dvHideSource" v="true" />
+  <item n="enableQDSGallery" v="false" />
+  <item n="googleapikey" v="ABQIAAAAtIfAxjNwUTlYuC9Jbz8hLxT0GwCmyEu22tnOuXN__4GBYGcNLhRD86Mzzf9AuX1jccu_gES84jYv5Q" />
+  <item n="isQdsGeneratedForDensedQS_Areas" v="true" />
+  <item n="enableDSDSelection" v="true" />
+  <item n="showdisputed" v="false" />
+  <item n="standalone_registry" v="false" />
+  <item n="registryAreaLevel" v="2" />
+  <item n="registryMSDAreaId" v="LAO" />
+  <item n="registryNotifyViaEmail" v="true" />
+  <item n="visible_sliders_count" v="5" />
+  <item n="contact_db_adm_name" v="Administrator" />
+  <item n="contact_db_adm_institution" v="SDRC Pvt Ltd" />
+  <item n="contact_db_adm_email" v="support@sdrc.co.in" />
+  <item n="adaptation_year" v="2013" />
+  <item n="unicef_region" v="South Asia" />
+  <item n="is_desktop_version_available" v="false" />
+  <item n="registryMappingAgeDefaultValue" v="000_099_Y" />
+  <item n="registryMappingSexDefaultValue" v="T" />
+  <item n="registryMappingLocationDefaultValue" v="T" />
+  <item n="registryMappingFrequencyDefaultValue" v="A" />
+  <item n="registryMappingSourceTypeDefaultValue" v="NA" />
+  <item n="registryMappingNatureDefaultValue" v="C" />
+  <item n="registryMappingUnitMultDefaultValue" v="0" />
+  <item n="show_cloud" v="false" />
+  <item v="false" n="isInnovationsMenuVisible" />
+  <item v="false" n="isNewsMenuVisible" />
+  <item v="true" n="isContactUsMenuVisible" />
+  <item v="true" n="isSupportMenuVisible" />
+  <item v="15" n="AdapUserPageSize" />
+  <item v="false" n="isWorkingOnIP" />
+  <item n="js_version" v="2" />
+  <item v="false" n="isDownloadsLinkVisible" />
+  <item v="false" n="isTrainingLinkVisible" />
+  <item v="false" n="isMapLibraryLinkVisible" />
+  <item v="false" n="isRSSFeedsLinkVisible" />
+  <item n="Country" v="India" />
+  <item n="gaUniqueID" v="fd" />
+  <item v="10" n="GalleryPageSize" />
+  <item v="GENERAL" n="customParams" />
+  <item n="registryPagingRows" v="10" />
+  <item n="sliders_list" v="01,02" />
+  <item n="SliderAnimationSpeed" v="5" />
+  <item n="CategoryScheme" v="SC" />
+  <!--3b242777-0178-477a-a3e0-305e5e162adf-->
+  <item n="GUID" v="3b242777-0178-477a-a3e0-305e5e162adf" />
+  <item n="isShowMapServer" v="false" />
+  <item n="islangFAQVisible" v="true" />
+  <item n="HowToVideoData" v="{'en':[{'HomeVisible':'true','VisualizerVisible':'true','Homelink':'http://www.youtube.com/embed/videoseries?list=PL7VkqbinyXOcLCKcnexCbhOev7SKfakRM&amp;showinfo=1','Visualizerlink':'http://www.youtube.com/embed/videoseries?list=PL7VkqbinyXOcLCKcnexCbhOev7SKfakRM&amp;showinfo=1'}],'fr':[{'HomeVisible':'true','VisualizerVisible':'true','Homelink':'http://youtube.googleapis.com/v/Ighgl7aQYxk?fs=1&amp;hl=en_US&amp;rel=0','Visualizerlink':'http://youtube.googleapis.com/v/OtZtR9BKDYk?fs=1&amp;hl=en_US&amp;rel=0'}],'es':[{'HomeVisible':'true','VisualizerVisible':'true','Homelink':'http://www.youtube.com/v/KStDRQcV-Nc?fs=1&amp;hl=en_US&amp;rel=0','Visualizerlink':'http://youtube.googleapis.com/v/KStDRQcV-Nc?fs=1&amp;hl=en_US&amp;rel=0'}],'zh':[{'HomeVisible':'true','VisualizerVisible':'true','Homelink':'http://www.youtube.com/v/KStDRQcV-Nc?fs=1&amp;hl=en_US&amp;rel=0','Visualizerlink':'http://youtube.googleapis.com/v/Ighgl7aQYxk?fs=1&amp;hl=en_US&amp;rel=0'}],'ru':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'http://youtube.googleapis.com/v/o0gBoV0ygJc?fs=1&amp;hl=en_US&amp;rel=0','Visualizerlink':'http://youtube.googleapis.com/v/dVUU3p5iHMA?fs=1&amp;hl=en_US&amp;rel=0'}],'la':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'http://youtube.googleapis.com/v/OtZtR9BKDYk?fs=1&amp;hl=en_US&amp;rel=0','Visualizerlink':'http://youtube.googleapis.com/v/dVUU3p5iHMA'}],'ar':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'http://youtube.googleapis.com/v/U8NNHmV3QPw?fs=1&amp;hl=en_US&amp;rel=0','Visualizerlink':'http://youtube.googleapis.com/v/mmyZr-ksCDw?fs=1&amp;hl=en_US&amp;rel=0'}],'ne':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'http://youtube.googleapis.com/v/HIXcq_UPFKc?fs=1&amp;hl=en_US&amp;rel=0','Visualizerlink':'http://youtube.googleapis.com/v/mmyZr-ksCDw?fs=1&amp;hl=en_US&amp;rel=0'}]}" />
+  <item n="isHowToVideoVisible" v="true" />
+  <item n="isSitemapVisible" v="false" />
+  <item n="CmsDbCreationFile" v="stock\data\CmsDbCreation.sql" />
+  <item n="CmsTableDefinition" v="stock\data\CmsTableDefinition.sql" />
+  <item n="DropNCreateSitemapURLTable" v="stock\data\DropNCreateSitemapURLTable.sql" />
+  <item n="CmsDataBasePath" v="E:\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA" />
+  <item n="MaxArticlesCount" v="10" />
+  <item v="false" n="isDiWorldWideLinkVisible" />
+  <item n="MetaTag_Desc" v="test" />
+  <item n="MetaTag_Kw" v="" />
+  <item n="islangKBVisible" v="false" />
+  <item n="IsSDMXHeaderCreated" v="true" />
+  <item n="IsSDMXDataPublished" v="false" />
+  <item n="IsSDMXDataPublishedCountryData" v="false" />
+  <item n="ShowWebmasterAccount" v="false" />
+</appsettings>

@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Save_In_User_Table">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserEmailId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserFirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserLastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserCountryNid" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsUserProvider" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsUserAdmin" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="Send_Updates" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptationGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Save_In_User_TableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Save_In_User_TableResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EmailId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsAdmin" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptationGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Is_Existing_User">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EmailId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Is_Existing_UserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Is_Existing_UserResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserDetailsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_UserName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EmailId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_UserNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_UserNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllUsersGridHTML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptationGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllUsersGridHTMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllUsersGridHTMLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsUserDataProvider">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsUserDataProviderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsUserDataProviderResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsUserAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsUserAdminResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsUserAdminResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsMasterAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsMasterAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsMasterAccountResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserNid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EmailId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsAdmin" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserNidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserNidResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_In_User_Table">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EmailId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsDataProvider" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsAdmin" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="Send_Updates" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_In_User_TableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_In_User_TableResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserEmailId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserEmailIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserEmailIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsValidUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsValidUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsValidUserResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsAdminRegistered">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="adaptaionUrl" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptationName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DbAdmName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DbAdmInstitution" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DbAdmEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptedFor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Subnational" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AreaNId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CatalogImage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Version" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsAdminRegisteredResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IsAdminRegisteredResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMasterAccountDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptaionGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMasterAccountDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMasterAccountDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreasName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AreaNids" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreasNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAreasNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdminNid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdminNidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAdminNidResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllDataProviders">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptationGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllDataProvidersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllDataProvidersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Password">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EmailId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_PasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_PasswordResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Save_In_TokenInformation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsRegistration" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="isDataview" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Save_In_TokenInformationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Save_In_TokenInformationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsAccountActive">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsAccountActiveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IsAccountActiveResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDeactivatedAccountInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDeactivatedAccountInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDeactivatedAccountInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ActivateAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EmailId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TokenKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isRegistration" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ActivateAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ActivateAccountResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangePassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncryptedPassword" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsRegistration" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangePasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChangePasswordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_UserNid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EmailId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_UserNidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_UserNidResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsMatchOldPassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EncrytOldPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsMatchOldPasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsMatchOldPasswordResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMasterAccountEmailPassword">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMasterAccountEmailPasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMasterAccountEmailPasswordResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Save_In_User_TableSoapIn">
+    <wsdl:part name="parameters" element="tns:Save_In_User_Table" />
+  </wsdl:message>
+  <wsdl:message name="Save_In_User_TableSoapOut">
+    <wsdl:part name="parameters" element="tns:Save_In_User_TableResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserSoapIn">
+    <wsdl:part name="parameters" element="tns:LoginUser" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Is_Existing_UserSoapIn">
+    <wsdl:part name="parameters" element="tns:Is_Existing_User" />
+  </wsdl:message>
+  <wsdl:message name="Is_Existing_UserSoapOut">
+    <wsdl:part name="parameters" element="tns:Is_Existing_UserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetUserDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_UserNameSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_UserName" />
+  </wsdl:message>
+  <wsdl:message name="Get_UserNameSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_UserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllUsersGridHTMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllUsersGridHTML" />
+  </wsdl:message>
+  <wsdl:message name="GetAllUsersGridHTMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllUsersGridHTMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsUserDataProviderSoapIn">
+    <wsdl:part name="parameters" element="tns:IsUserDataProvider" />
+  </wsdl:message>
+  <wsdl:message name="IsUserDataProviderSoapOut">
+    <wsdl:part name="parameters" element="tns:IsUserDataProviderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsUserAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:IsUserAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IsUserAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:IsUserAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsMasterAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:IsMasterAccount" />
+  </wsdl:message>
+  <wsdl:message name="IsMasterAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:IsMasterAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserNidSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserNid" />
+  </wsdl:message>
+  <wsdl:message name="GetUserNidSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserNidResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_In_User_TableSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_In_User_Table" />
+  </wsdl:message>
+  <wsdl:message name="Update_In_User_TableSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_In_User_TableResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserEmailIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserEmailId" />
+  </wsdl:message>
+  <wsdl:message name="GetUserEmailIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserEmailIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsValidUserSoapIn">
+    <wsdl:part name="parameters" element="tns:IsValidUser" />
+  </wsdl:message>
+  <wsdl:message name="IsValidUserSoapOut">
+    <wsdl:part name="parameters" element="tns:IsValidUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsAdminRegisteredSoapIn">
+    <wsdl:part name="parameters" element="tns:IsAdminRegistered" />
+  </wsdl:message>
+  <wsdl:message name="IsAdminRegisteredSoapOut">
+    <wsdl:part name="parameters" element="tns:IsAdminRegisteredResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterAccountDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMasterAccountDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterAccountDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMasterAccountDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAreasNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAreasName" />
+  </wsdl:message>
+  <wsdl:message name="GetAreasNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAreasNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAdminNidSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAdminNid" />
+  </wsdl:message>
+  <wsdl:message name="GetAdminNidSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAdminNidResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDataProvidersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllDataProviders" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDataProvidersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllDataProvidersResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_PasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Password" />
+  </wsdl:message>
+  <wsdl:message name="Update_PasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_PasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="Save_In_TokenInformationSoapIn">
+    <wsdl:part name="parameters" element="tns:Save_In_TokenInformation" />
+  </wsdl:message>
+  <wsdl:message name="Save_In_TokenInformationSoapOut">
+    <wsdl:part name="parameters" element="tns:Save_In_TokenInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsAccountActiveSoapIn">
+    <wsdl:part name="parameters" element="tns:IsAccountActive" />
+  </wsdl:message>
+  <wsdl:message name="IsAccountActiveSoapOut">
+    <wsdl:part name="parameters" element="tns:IsAccountActiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDeactivatedAccountInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDeactivatedAccountInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetDeactivatedAccountInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDeactivatedAccountInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ActivateAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:ActivateAccount" />
+  </wsdl:message>
+  <wsdl:message name="ActivateAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:ActivateAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChangePasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:ChangePassword" />
+  </wsdl:message>
+  <wsdl:message name="ChangePasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:ChangePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_UserNidSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_UserNid" />
+  </wsdl:message>
+  <wsdl:message name="Get_UserNidSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_UserNidResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsMatchOldPasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:IsMatchOldPassword" />
+  </wsdl:message>
+  <wsdl:message name="IsMatchOldPasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:IsMatchOldPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterAccountEmailPasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMasterAccountEmailPassword" />
+  </wsdl:message>
+  <wsdl:message name="GetMasterAccountEmailPasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMasterAccountEmailPasswordResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UserLoginInformationSoap">
+    <wsdl:operation name="Save_In_User_Table">
+      <wsdl:input message="tns:Save_In_User_TableSoapIn" />
+      <wsdl:output message="tns:Save_In_User_TableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <wsdl:input message="tns:LoginUserSoapIn" />
+      <wsdl:output message="tns:LoginUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Is_Existing_User">
+      <wsdl:input message="tns:Is_Existing_UserSoapIn" />
+      <wsdl:output message="tns:Is_Existing_UserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDetails">
+      <wsdl:input message="tns:GetUserDetailsSoapIn" />
+      <wsdl:output message="tns:GetUserDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_UserName">
+      <wsdl:input message="tns:Get_UserNameSoapIn" />
+      <wsdl:output message="tns:Get_UserNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllUsersGridHTML">
+      <wsdl:input message="tns:GetAllUsersGridHTMLSoapIn" />
+      <wsdl:output message="tns:GetAllUsersGridHTMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUserDataProvider">
+      <wsdl:input message="tns:IsUserDataProviderSoapIn" />
+      <wsdl:output message="tns:IsUserDataProviderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUserAdmin">
+      <wsdl:input message="tns:IsUserAdminSoapIn" />
+      <wsdl:output message="tns:IsUserAdminSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsMasterAccount">
+      <wsdl:input message="tns:IsMasterAccountSoapIn" />
+      <wsdl:output message="tns:IsMasterAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserNid">
+      <wsdl:input message="tns:GetUserNidSoapIn" />
+      <wsdl:output message="tns:GetUserNidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_In_User_Table">
+      <wsdl:input message="tns:Update_In_User_TableSoapIn" />
+      <wsdl:output message="tns:Update_In_User_TableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserEmailId">
+      <wsdl:input message="tns:GetUserEmailIdSoapIn" />
+      <wsdl:output message="tns:GetUserEmailIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsValidUser">
+      <wsdl:input message="tns:IsValidUserSoapIn" />
+      <wsdl:output message="tns:IsValidUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAdminRegistered">
+      <wsdl:input message="tns:IsAdminRegisteredSoapIn" />
+      <wsdl:output message="tns:IsAdminRegisteredSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterAccountDetail">
+      <wsdl:input message="tns:GetMasterAccountDetailSoapIn" />
+      <wsdl:output message="tns:GetMasterAccountDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAreasName">
+      <wsdl:input message="tns:GetAreasNameSoapIn" />
+      <wsdl:output message="tns:GetAreasNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdminNid">
+      <wsdl:input message="tns:GetAdminNidSoapIn" />
+      <wsdl:output message="tns:GetAdminNidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDataProviders">
+      <wsdl:input message="tns:GetAllDataProvidersSoapIn" />
+      <wsdl:output message="tns:GetAllDataProvidersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Password">
+      <wsdl:input message="tns:Update_PasswordSoapIn" />
+      <wsdl:output message="tns:Update_PasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Save_In_TokenInformation">
+      <wsdl:input message="tns:Save_In_TokenInformationSoapIn" />
+      <wsdl:output message="tns:Save_In_TokenInformationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAccountActive">
+      <wsdl:input message="tns:IsAccountActiveSoapIn" />
+      <wsdl:output message="tns:IsAccountActiveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeactivatedAccountInfo">
+      <wsdl:input message="tns:GetDeactivatedAccountInfoSoapIn" />
+      <wsdl:output message="tns:GetDeactivatedAccountInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateAccount">
+      <wsdl:input message="tns:ActivateAccountSoapIn" />
+      <wsdl:output message="tns:ActivateAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <wsdl:input message="tns:ChangePasswordSoapIn" />
+      <wsdl:output message="tns:ChangePasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_UserNid">
+      <wsdl:input message="tns:Get_UserNidSoapIn" />
+      <wsdl:output message="tns:Get_UserNidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsMatchOldPassword">
+      <wsdl:input message="tns:IsMatchOldPasswordSoapIn" />
+      <wsdl:output message="tns:IsMatchOldPasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterAccountEmailPassword">
+      <wsdl:input message="tns:GetMasterAccountEmailPasswordSoapIn" />
+      <wsdl:output message="tns:GetMasterAccountEmailPasswordSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UserLoginInformationSoap" type="tns:UserLoginInformationSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Save_In_User_Table">
+      <soap:operation soapAction="http://tempuri.org/Save_In_User_Table" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <soap:operation soapAction="http://tempuri.org/LoginUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Is_Existing_User">
+      <soap:operation soapAction="http://tempuri.org/Is_Existing_User" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDetails">
+      <soap:operation soapAction="http://tempuri.org/GetUserDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_UserName">
+      <soap:operation soapAction="http://tempuri.org/Get_UserName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllUsersGridHTML">
+      <soap:operation soapAction="http://tempuri.org/GetAllUsersGridHTML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUserDataProvider">
+      <soap:operation soapAction="http://tempuri.org/IsUserDataProvider" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUserAdmin">
+      <soap:operation soapAction="http://tempuri.org/IsUserAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsMasterAccount">
+      <soap:operation soapAction="http://tempuri.org/IsMasterAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserNid">
+      <soap:operation soapAction="http://tempuri.org/GetUserNid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_In_User_Table">
+      <soap:operation soapAction="http://tempuri.org/Update_In_User_Table" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserEmailId">
+      <soap:operation soapAction="http://tempuri.org/GetUserEmailId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsValidUser">
+      <soap:operation soapAction="http://tempuri.org/IsValidUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAdminRegistered">
+      <soap:operation soapAction="http://tempuri.org/IsAdminRegistered" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterAccountDetail">
+      <soap:operation soapAction="http://tempuri.org/GetMasterAccountDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreasName">
+      <soap:operation soapAction="http://tempuri.org/GetAreasName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdminNid">
+      <soap:operation soapAction="http://tempuri.org/GetAdminNid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDataProviders">
+      <soap:operation soapAction="http://tempuri.org/GetAllDataProviders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Password">
+      <soap:operation soapAction="http://tempuri.org/Update_Password" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Save_In_TokenInformation">
+      <soap:operation soapAction="http://tempuri.org/Save_In_TokenInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAccountActive">
+      <soap:operation soapAction="http://tempuri.org/IsAccountActive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeactivatedAccountInfo">
+      <soap:operation soapAction="http://tempuri.org/GetDeactivatedAccountInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateAccount">
+      <soap:operation soapAction="http://tempuri.org/ActivateAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <soap:operation soapAction="http://tempuri.org/ChangePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_UserNid">
+      <soap:operation soapAction="http://tempuri.org/Get_UserNid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsMatchOldPassword">
+      <soap:operation soapAction="http://tempuri.org/IsMatchOldPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterAccountEmailPassword">
+      <soap:operation soapAction="http://tempuri.org/GetMasterAccountEmailPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UserLoginInformationSoap12" type="tns:UserLoginInformationSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Save_In_User_Table">
+      <soap12:operation soapAction="http://tempuri.org/Save_In_User_Table" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <soap12:operation soapAction="http://tempuri.org/LoginUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Is_Existing_User">
+      <soap12:operation soapAction="http://tempuri.org/Is_Existing_User" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDetails">
+      <soap12:operation soapAction="http://tempuri.org/GetUserDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_UserName">
+      <soap12:operation soapAction="http://tempuri.org/Get_UserName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllUsersGridHTML">
+      <soap12:operation soapAction="http://tempuri.org/GetAllUsersGridHTML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUserDataProvider">
+      <soap12:operation soapAction="http://tempuri.org/IsUserDataProvider" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUserAdmin">
+      <soap12:operation soapAction="http://tempuri.org/IsUserAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsMasterAccount">
+      <soap12:operation soapAction="http://tempuri.org/IsMasterAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserNid">
+      <soap12:operation soapAction="http://tempuri.org/GetUserNid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_In_User_Table">
+      <soap12:operation soapAction="http://tempuri.org/Update_In_User_Table" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserEmailId">
+      <soap12:operation soapAction="http://tempuri.org/GetUserEmailId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsValidUser">
+      <soap12:operation soapAction="http://tempuri.org/IsValidUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAdminRegistered">
+      <soap12:operation soapAction="http://tempuri.org/IsAdminRegistered" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterAccountDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetMasterAccountDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreasName">
+      <soap12:operation soapAction="http://tempuri.org/GetAreasName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdminNid">
+      <soap12:operation soapAction="http://tempuri.org/GetAdminNid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDataProviders">
+      <soap12:operation soapAction="http://tempuri.org/GetAllDataProviders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Password">
+      <soap12:operation soapAction="http://tempuri.org/Update_Password" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Save_In_TokenInformation">
+      <soap12:operation soapAction="http://tempuri.org/Save_In_TokenInformation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAccountActive">
+      <soap12:operation soapAction="http://tempuri.org/IsAccountActive" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeactivatedAccountInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetDeactivatedAccountInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateAccount">
+      <soap12:operation soapAction="http://tempuri.org/ActivateAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <soap12:operation soapAction="http://tempuri.org/ChangePassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_UserNid">
+      <soap12:operation soapAction="http://tempuri.org/Get_UserNid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsMatchOldPassword">
+      <soap12:operation soapAction="http://tempuri.org/IsMatchOldPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterAccountEmailPassword">
+      <soap12:operation soapAction="http://tempuri.org/GetMasterAccountEmailPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserLoginInformation">
+    <wsdl:port name="UserLoginInformationSoap" binding="tns:UserLoginInformationSoap">
+      <soap:address location="http://localhost:9990/UserLoginInformation.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UserLoginInformationSoap12" binding="tns:UserLoginInformationSoap12">
+      <soap12:address location="http://localhost:9990/UserLoginInformation.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

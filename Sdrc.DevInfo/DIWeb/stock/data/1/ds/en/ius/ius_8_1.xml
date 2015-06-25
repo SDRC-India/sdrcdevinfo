@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<iu>
+  <iu in="E8 : Vaccine management" inid="8" md="F" un="Percent" unid="1" defiusnid="8">
+    <st n="Location" nid="2">
+      <stv n="Total" nid="1" />
+    </st>
+    <sv n="Subgroup Values">
+      <ius n="Total" nid="1" iusnid="8" sisG="F" dataexists="T" />
+    </sv>
+  </iu>
+</iu>

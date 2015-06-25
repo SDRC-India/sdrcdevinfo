@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Row ANY>
+  <!ATTLIST Row key ID #REQUIRED>
+  <!ATTLIST Row value CDATA #REQUIRED>
+]>
+<root></root>

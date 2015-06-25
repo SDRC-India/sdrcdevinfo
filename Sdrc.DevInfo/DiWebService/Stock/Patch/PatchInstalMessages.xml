@@ -1,0 +1,42 @@
+﻿<root>
+  <Row key ="LangLeftLnkInstPatch" value ="Install Patch."/>
+  <Row key ="lang_db_PatchMainHeading" value ="Patch Installation."/>
+  <Row key ="lang_db_Patch_subHead" value ="Install all patches."/>
+  <Row key ="langInstallingPatch" value ="Install patch."/>
+  <Row key ="langUpdLanguage_Patch" value ="Updating Language."/>
+  <Row key ="langUpdatingAppSet_Patch" value ="Updating App Setting Keys."/>
+  <Row key ="BtnInstall_Patch" value ="Click here to install patch."/>
+  <Row key ="LangPatchInstSuccess" value ="Patch intallation success full."/>
+  <Row key="LangPatchInstFailed" value="Error found in installing patch."/>
+  <Row key="GenPagXMlFail" value="Generate Page XML failed for language: {0} ."/>
+  <Row key="GenPagXMlPassed" value="Generate Page XML succeed for language: {0} ."/>
+
+  <Row key="AddKeyInLangXMlFail" value="Adding Keys in language XML failed for language: {0}."/>
+  <Row key="AddKeyInLangXMlPassed" value="Adding Keys in language XML succeed for language: {0}."/>
+  <Row key="AddKeysToAppsetPassed" value="Adding Keys in AppSetting File Passed."/>
+  <Row key="AddKeysToAppsetFailed" value="Adding Keys in  AppSetting File Failed."/>
+
+  <Row key="CMSDBCreationPassed" value="Cms Database created, database name is: {0}."/>
+  <Row key="CMSDBCreationFailed" value="Cms Database creation Failed."/>
+
+
+  <Row key="GetCatalog" value="Update procedure sp_get_catalog Installing - Patch 7.0.0.7"/>
+  <Row key="ChangeProcForGuid" value="Update procedure {0} for GUID - Patch 7.0.0.4"/>
+  <Row key="GetAdaptationAreas" value="Update procedure sp_Get_Adaptation_Areas - Patch 7.0.0.7"/>
+  <Row key="RemoveExtraTables" value="Removing unwanted tables from database"/>
+  <Row key="RollBack" value="Error Found - {0}  - Code Rollback for Patch {1}"/>
+
+  <Row key="GUIDColCreation" value="GUID Column Creation"/>
+  <Row key="GUIDProcChanges" value="Procedured Creation/Updation for GUID Changes"/>
+
+  <Row key="StatusFail" value="Failed"/>
+  <Row key="StatusPassed" value="Passed"/>
+  <Row key="OpenDatabaseConnection" value="Error occured in opening database connection for Patch {1}"/>
+  <Row key="GetDatabaseConnection" value="Error occured in GetDbConnection database connection for Patch {1}"/>
+  <Row key="ReadConnectionString" value="Get connection string"/>
+  <Row key="aLogFile" value="Log File"/>
+  <Row key="LogFileMsg" value=" Patch installation is not complete."/>
+
+  
+
+</root>

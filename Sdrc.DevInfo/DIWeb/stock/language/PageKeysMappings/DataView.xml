@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="HIDECOLUMN" ElementID="langHideColumn" ElementProperty="innerHTML"/>
+  <Associate MasterKey="AREA" ElementID="langArea" ElementProperty="value"/>
+  <Associate MasterKey="TOPIC" ElementID="langTopic" ElementProperty="value"/>
+  <Associate MasterKey="TIMEPERIOD" ElementID="langTimePeriod" ElementProperty="innerHTML"/>
+  <Associate MasterKey="MOSTRECENT" ElementID="langMostRecent" ElementProperty="innerHTML"/>
+  <Associate MasterKey="SOURCE" ElementID="langSource" ElementProperty="innerHTML"/>
+  <Associate MasterKey="DATAFILTER" ElementID="langDataFilter" ElementProperty="innerHTML"/>
+  <Associate MasterKey="SORTORDER" ElementID="langSortOrder" ElementProperty="innerHTML"/>
+  <Associate MasterKey="DATAFILTER" ElementID="langDataFilterHead" ElementProperty="innerHTML"/>
+  <Associate MasterKey="FROM" ElementID="langFrom" ElementProperty="innerHTML"/>
+  <Associate MasterKey="TO" ElementID="langTo" ElementProperty="innerHTML"/>
+  <Associate MasterKey="TABLE" ElementID="langTable" ElementProperty="innerHTML"/>
+  <Associate MasterKey="LINE" ElementID="langLine" ElementProperty="innerHTML"/>
+  <Associate MasterKey="COLUMN" ElementID="langColumn" ElementProperty="innerHTML"/>
+  <Associate MasterKey="BAR" ElementID="langBar" ElementProperty="innerHTML"/>
+  <Associate MasterKey="AREA" ElementID="langAreaBar" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Pie" ElementID="langPie" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Radar" ElementID="langRadar" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Map" ElementID="langMap" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Scatter" ElementID="langScatter" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Pyramid" ElementID="langPyramid" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Treemap" ElementID="langTreemap" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Cloud" ElementID="langCloud" ElementProperty="innerHTML"/>
+  <Associate MasterKey="both" ElementID="langHiddenBoth" ElementProperty="value"/>
+  <Associate MasterKey="Tree" ElementID="langHiddenTree" ElementProperty="value"/>
+  <Associate MasterKey="ListAtoZ" ElementID="langHiddenAtoZ" ElementProperty="value"/>
+  <Associate MasterKey="ListAtoZ" ElementID="langHiddenListAtoZ" ElementProperty="value" />
+  <Associate MasterKey="ListAlphabetically" ElementID="langHiddenAlphabetically" ElementProperty="value"/>
+  <Associate MasterKey="Search" ElementID="langHiddenSearch" ElementProperty="value"/>
+  <Associate MasterKey="ViewSelections" ElementID="langHiddenViewselections" ElementProperty="value"/>
+  <Associate MasterKey="Sector" ElementID="langHiddenSector" ElementProperty="value"/>
+  <Associate MasterKey="Goal" ElementID="langHiddenGoal" ElementProperty="value"/>
+  <Associate MasterKey="SOURCE" ElementID="langHiddenSource" ElementProperty="value"/>
+  <Associate MasterKey="Institution" ElementID="langHiddenInstitution" ElementProperty="value"/>
+  <Associate MasterKey="Theme" ElementID="langHiddenTheme" ElementProperty="value"/>
+  <Associate MasterKey="Convention" ElementID="langHiddenConvention" ElementProperty="value"/>
+  <Associate MasterKey="SelectSubgroup" ElementID="langHiddenselectsubgroup" ElementProperty="value"/>
+  <Associate MasterKey="SelectAll" ElementID="langHiddenSelectAll" ElementProperty="value"/>
+  <Associate MasterKey="ShowWhereDataExist" ElementID="langHiddenShowwheredataexist" ElementProperty="value"/>
+  <Associate MasterKey="OK" ElementID="langHiddenOK" ElementProperty="value"/>
+  <Associate MasterKey="Clear" ElementID="langHiddenClear" ElementProperty="value"/>
+  <Associate MasterKey="Close" ElementID="langHiddenClose" ElementProperty="value"/>
+  <Associate MasterKey="SubgroupDimensions" ElementID="langHiddenSubgroupDimensions" ElementProperty="value"/>
+  <Associate MasterKey="More" ElementID="langHiddenMore" ElementProperty="value"/>
+  <Associate MasterKey="Metadata" ElementID="langHiddenMetadata" ElementProperty="value"/>
+  <Associate MasterKey="SelectTopic" ElementID="langSelectTopic" ElementProperty="innerHTML"/>
+  <Associate MasterKey="OK" ElementID="indOk" ElementProperty="value"/>
+  <Associate MasterKey="Cancel" ElementID="indCancel" ElementProperty="value"/>
+  <Associate MasterKey="Data" ElementID="aDS" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Gallery" ElementID="aGalleries" ElementProperty="innerHTML"/>
+  <Associate MasterKey="News" ElementID="aNews" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Mydata" ElementID="aMydata" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Catalog" ElementID="aCatalog" ElementProperty="innerHTML"/>
+
+  <Associate MasterKey="Loading_Data" ElementID="divShowLoadingText" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Callout_text" ElementID="divCalloutText" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Download_PNG" ElementID="lang_Download_PNG" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Download_SVG" ElementID="lang_Download_SVG" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Download_XLS" ElementID="lang_Download_XLS" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Download_XLS" ElementID="lang_tbl_Download_XLS" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Download_Image" ElementID="lang_Download_Image" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Download_XLS" ElementID="lang_map_Download_XLS" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Download_KML" ElementID="lang_Download_KML" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Visualization" ElementID="lang_Visualization" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Settings" ElementID="lang_Settings" ElementProperty="innerHTML"/>
+  <Associate MasterKey="TABLE" ElementID="lang_Table" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Line" ElementID="lang_Line" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Line" ElementID="lang_Line_di" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Column" ElementID="lang_Column" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Column" ElementID="lang_Column_di" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Bar" ElementID="lang_Bar" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Bar" ElementID="lang_Bar_di" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Area" ElementID="lang_Area" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Area" ElementID="lang_Area_di" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Pie" ElementID="lang_Pie" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Map" ElementID="lang_Map" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Map" ElementID="lang_Map_di" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Pyramid" ElementID="lang_Pyramid" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Treemap" ElementID="lang_Treemap" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Radar" ElementID="lang_Radar" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Show_Border" ElementID="langVcShowBdr" ElementProperty="innerHTML"/>
+  <Associate MasterKey="GridLnX" ElementID="langVcGridLnX" ElementProperty="innerHTML"/>
+  <Associate MasterKey="GridLnY" ElementID="langVcGridLnY" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Data_Labels" ElementID="langVcDataLbl" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Legend" ElementID="langVcLegend" ElementProperty="innerHTML"/>
+  <Associate MasterKey="General" ElementID="lang_General" ElementProperty="innerHTML"/>
+  <Associate MasterKey="XPos" ElementID="lang_XPos" ElementProperty="innerHTML"/>
+  <Associate MasterKey="YPos" ElementID="lang_YPos" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Show" ElementID="lang_Show" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Decimals" ElementID="lang_Decimals" ElementProperty="innerHTML"/>
+  <Associate MasterKey="U_1000separator" ElementID="lang_U_1000separator" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Titles_Labels" ElementID="lang_Titles_Labels" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Series" ElementID="lang_Series" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Data_Labels" ElementID="lang_Data_Labels" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Borders" ElementID="lang_Borders" ElementProperty="innerHTML"/>
+  <Associate MasterKey="North_symbol" ElementID="lang_North_symbol" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Scale" ElementID="lang_Scale" ElementProperty="innerHTML"/>
+  <Associate MasterKey="General" ElementID="lang_map_General" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Title" ElementID="lang_Title" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Data_Label" ElementID="lang_Data_Label" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Legend_Title" ElementID="lang_Legend_Title" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Legend_Body" ElementID="lang_Legend_Body" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Disclaimer" ElementID="lang_Disclaimer" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Titles_Labels" ElementID="lang_map_Titles_Labels" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Theme" ElementID="mapTxtSelTheme" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Select_Series" ElementID="mapTxtSelSeries" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Show_Theme" ElementID="mapTxtShowTh" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Break_Type" ElementID="lang_Break_Type" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Equal_Count" ElementID="lang_Equal_Count" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Equal_Size" ElementID="lang_Equal_Size" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Continuous" ElementID="lang_Continuous" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Discontinuous" ElementID="lang_Discontinuous" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Break_Count" ElementID="lang_Break_Count" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Width" ElementID="lang_Width" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Height" ElementID="lang_Height" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Marker_Style" ElementID="lang_Marker_Style" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Marker_Size" ElementID="lang_Marker_Size" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Marker_Color" ElementID="lang_Marker_Color" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Marker_Value" ElementID="lang_Marker_Value" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Theme" ElementID="lang_Theme" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Pivoting" ElementID="lang_Pivoting" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Select_Area" ElementID="lang_Select_Area" ElementProperty="innerHTML"/>
+  <Associate MasterKey="OK" ElementID="areaOk" ElementProperty="value"/>
+  <Associate MasterKey="Cancel" ElementID="areaCancel" ElementProperty="value"/>
+  <Associate MasterKey="Show_keywords_here" ElementID="tab-ksection" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Visualization" ElementID="tab-v" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Data" ElementID="tab-d" ElementProperty="innerHTML"/>
+  <Associate MasterKey="SOURCE" ElementID="tab-s" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Keywords" ElementID="tab-k" ElementProperty="innerHTML"/>
+  <Associate MasterKey="General" ElementID="lang_Map_General" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Modify_YSH" ElementID="lang_Modify_YSH" ElementProperty="innerHTML"/>
+  <Associate MasterKey="OK" ElementID="lang_ppup_OK" ElementProperty="value"/>
+  <Associate MasterKey="Cancel" ElementID="lang_ppup_Cancel" ElementProperty="value"/>
+  <Associate MasterKey="Apply" ElementID="lang_ppup_Apply" ElementProperty="value"/>
+  <Associate MasterKey="Symbol" ElementID="lang_Symbol" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Modify_YSH" ElementID="lang_Map_Modify_YSH" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Marker_Font" ElementID="lang_Marker_Font" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Color" ElementID="lang_Color" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Size" ElementID="lang_Size" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Opacity" ElementID="lang_Opacity" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Webdings" ElementID="lang_Webdings" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Wingdings" ElementID="lang_Wingdings" ElementProperty="innerHTML"/>
+  <Associate MasterKey="OK" ElementID="lang_Map_OK" ElementProperty="value"/>
+  <Associate MasterKey="Cancel" ElementID="lang_Map_Cancel" ElementProperty="value"/>
+  <Associate MasterKey="Image_Settings" ElementID="lang_Image_Settings" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Modify_YSH" ElementID="lang_Map_ppup_Modify_YSH" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Show_Legend" ElementID="lang_Show_Legend" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Width" ElementID="lang_ppup_Width" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Height" ElementID="lang_ppup_Heigth" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Image_Format" ElementID="lang_ppup_Image_Format" ElementProperty="innerHTML"/>
+  <Associate MasterKey="PNG" ElementID="lang_PNG" ElementProperty="innerHTML"/>
+  <Associate MasterKey="JPG" ElementID="lang_JPG" ElementProperty="innerHTML"/>
+  <Associate MasterKey="GIF" ElementID="lang_GIF" ElementProperty="innerHTML"/>
+  <Associate MasterKey="OK" ElementID="lang_ppup_Map_OK" ElementProperty="value"/>
+  <Associate MasterKey="Cancel" ElementID="lang_ppup_Map_Cancel" ElementProperty="value"/>
+  <Associate MasterKey="Gallery" ElementID="lang_ppup_Gallery" ElementProperty="value"/>
+  <Associate MasterKey="Save_Presentation" ElementID="lang_ppup_SavePres" ElementProperty="value"/>
+  <Associate MasterKey="Save_Presentation_Desc" ElementID="lang_ppup_SavePresDesc" ElementProperty="value"/>
+  <Associate MasterKey="Name" ElementID="lang_ppup_Name" ElementProperty="value"/>
+  <Associate MasterKey="Keywords" ElementID="lang_ppup_Keywords" ElementProperty="value"/>
+  <Associate MasterKey="Description" ElementID="lang_ppup_Desc" ElementProperty="value"/>
+  <Associate MasterKey="OK" ElementID="lang_ppup_OkEle" ElementProperty="value"/>
+  <Associate MasterKey="Cancel" ElementID="lang_ppup_CancelEle" ElementProperty="value"/>
+  <Associate MasterKey="Apply" ElementID="btnApply" ElementProperty="value"/>
+  <Associate MasterKey="Area" ElementID="langAreaText" ElementProperty="value"/>
+  <Associate MasterKey="Indicator" ElementID="langIndicatorText" ElementProperty="value"/>
+  <Associate MasterKey="Scatter" ElementID="lang_Scatter_di" ElementProperty="innerHTML"/>
+  <Associate MasterKey="TIMEPERIOD" ElementID="langTimePeriodText" ElementProperty="value"/>
+  <Associate MasterKey="ARRANGE" ElementID="langArrange" ElementProperty="innerHTML"/>
+  <Associate MasterKey="PIVOT" ElementID="langPivot" ElementProperty="innerHTML"/>
+  <Associate MasterKey="SWAP" ElementID="langSwap" ElementProperty="innerHTML"/>
+  <Associate MasterKey="GOTOPARENT" ElementID="lngGoToParent" ElementProperty="value"/>
+
+  <Associate MasterKey="General" ElementID="lngMapPopGeneral" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Modify_YSH" ElementID="lngMapPopModifySetting" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Data_Labels" ElementID="lngMapPopLabel" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Border" ElementID="lngMapPopBorder" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Layer" ElementID="lngMapPopLayer" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Label_On" ElementID="lngMapPopLblOn" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Area_Id" ElementID="lngMapPopAreaid" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Area_Name" ElementID="lngMapPopAreaNm" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Data_Value" ElementID="lngMapPopDataValue" ElementProperty="innerHTML"/>
+  <Associate MasterKey="TIMEPERIOD" ElementID="lngMapPopTmPeriod" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Multi-row" ElementID="lngMapPopMultiRow" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Indented" ElementID="lngMapPopIndented" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Show_w_data_exists" ElementID="lngMapPopSwde" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Effects" ElementID="lngMapPopEffects" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Effect_Type" ElementID="lngMapPopEffectTp" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Depth" ElementID="lngMapPopDepth" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Shadow" ElementID="lngMapPopShadow" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Embossed" ElementID="lngMapPopEmbossed" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Block" ElementID="lngMapPopBlock" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Gradient" ElementID="lngMapPopGradient" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Reflect" ElementID="lngMapPopReflect" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Show_Border" ElementID="lngMapPopShowBorder" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Width" ElementID="lngMapPopWidth" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Color" ElementID="lngMapPopColor" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Style" ElementID="lngMapPopStyle" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Base" ElementID="lngMapPopTBase" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Feature" ElementID="lngMapPopTFeature" ElementProperty="innerHTML"/>
+  <Associate MasterKey="First" ElementID="lngMapPopIcnFirst" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Last" ElementID="lngMapPopIcnLast" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Up" ElementID="lngMapPopIcnUp" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Down" ElementID="lngMapPopIcnDown" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Disputed_Boundries" ElementID="lngMapPopDisputedBdr" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Themes" ElementID="lngMapPopThemes" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Theme" ElementID="lngMapPopTheme" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Legend" ElementID="lngMapPopLegend" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Chart_Settings" ElementID="lngMapPopChartSetting" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Theme_Name" ElementID="lngMapPopThemeName" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Theme_Type" ElementID="lngMapPopThemeType" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Series" ElementID="lngMapPopThemeSeries" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Chart_Type" ElementID="lngMapPopThChatType" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Column" ElementID="lngMapPopThChatColumn" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Pie" ElementID="lngMapPopThChatPie" ElementProperty="innerHTML"/>
+  <Associate MasterKey="LINE" ElementID="lngMapPopThChatLine" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Color" ElementID="lngMapPopThColor" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Hatch" ElementID="lngMapPopThHatch" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Dot_Density" ElementID="lngMapPopThDotden" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Chart" ElementID="lngMapPopThChart" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Symbol" ElementID="lngMapPopThSymbol" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Break_Count" ElementID="lngMapPopBrkCount" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Break_Type" ElementID="lngMapPopBrkType" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Equal_Count" ElementID="lngMapPopBrkEqCount" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Equal_Size" ElementID="lngMapPopBrkEqSize" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Continuous" ElementID="lngMapPopBrkCont" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Discontinuous" ElementID="lngMapPopBrkDiscont" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Min" ElementID="lngMapPopLgMin" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Max" ElementID="lngMapPopLgMax" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Decimals" ElementID="lngMapPopLgDecimals" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Upload_Settings" ElementID="lngMapPopUploadSetting" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Smooth" ElementID="lngMapPopLgSmooth" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Download_Settings" ElementID="lngMapPopDwnSetting" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Marker_Style" ElementID="lngMapPopMarStyle" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Marker_Size" ElementID="lngMapPopMarSize" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Marker_Color" ElementID="lngMapPopMarColor" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Marker_Value" ElementID="lngMapPopMarValue" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Opacity" ElementID="lngMapPopMarOpacity" ElementProperty="innerHTML"/>
+  <Associate MasterKey="View_Data_Value" ElementID="lngMapPopCSViewDtVal" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Decimals" ElementID="lngMapPopCSDecimals" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Width" ElementID="lngMapPopCSWidth" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Height" ElementID="lngMapPopCSHeight" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Time_Series" ElementID="lngMapPopCSTimeSeries" ElementProperty="innerHTML"/>
+  <Associate MasterKey="MOSTRECENT" ElementID="lngMapPopCSMostRecent" ElementProperty="innerHTML"/>
+  <Associate MasterKey="SelectAll" ElementID="lngSelectall" ElementProperty="value"/>
+  <Associate MasterKey="Clearall" ElementID="lngClearall" ElementProperty="value"/>
+  <Associate MasterKey="More" ElementID="lngMore" ElementProperty="value"/>
+  <Associate MasterKey="Sorting" ElementID="lngSorting" ElementProperty="value"/>
+  <Associate MasterKey="Hide_Col" ElementID="lngHideCol" ElementProperty="value"/>
+  <Associate MasterKey="Most_Recent_Data_coln" ElementID="lngMRD" ElementProperty="value"/>
+
+  <Associate MasterKey="Gridlines" ElementID="lngGridlineTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Chart_Area" ElementID="lngChartAreaTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Plot_Area" ElementID="lngPlotAreaTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Radius" ElementID="lngRadiusTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Sel_Gridl_Axis" ElementID="lngSelGLAxisTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="X_Axis" ElementID="lngXAxisTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Y_Axis" ElementID="lngYAxisTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Maj_Gridlines" ElementID="lngMajorGLTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Min_Gridlines" ElementID="lngMinorGLTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Background_Color" ElementID="lngBgColorTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="No_Fill" ElementID="lngNoFillTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Solid_Fill" ElementID="lngSolidFillTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Gradient_Fill" ElementID="lngGradientFillTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Fill_Color" ElementID="lngFillColorTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Color_1" ElementID="lngColor1Txt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Color_2" ElementID="lngColor2Txt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Show_Legend" ElementID="lngShowLegendTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Border_Width" ElementID="lngBdrWidthTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Border_Color" ElementID="lngBdrColorTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Border_Radius" ElementID="lngBdrRadiusTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Font_Size" ElementID="lngFontSizeTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Position" ElementID="lngPositionTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Floating" ElementID="lngFloatingTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="XPos" ElementID="lngXPosTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="YPos" ElementID="lngYPosTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Fixed" ElementID="lngFixedTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Legend_Width" ElementID="lngLengendWidthTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Auto" ElementID="lngAutoTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Option" ElementID="lngOptionTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Series_Type" ElementID="lngSeriesTypeTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="LINE" ElementID="lngLineTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="COLUMN" ElementID="lngColumnTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Radial_Axis" ElementID="lngRadialAxisTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Horizontal" ElementID="lngHorizontalTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Vertical" ElementID="lngVerticalTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="both" ElementID="lngBothTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="None" ElementID="lngNoneTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Forms" ElementID="lngFormsTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Segment" ElementID="lngSegmentTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Curve" ElementID="lngCurveTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Chart_Type" ElementID="lngCharTypeTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Circular" ElementID="lngCircularTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Polygonal" ElementID="lngPolygonalTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Left" ElementID="lngLeftTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Right" ElementID="lngRightTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Top" ElementID="lngTopTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Bottom" ElementID="lngBottomTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Series_Option" ElementID="lngSeriesOptionTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Fill" ElementID="lngFillTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Overlap" ElementID="lngOverlapTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Gap" ElementID="lngGapTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="SelectIndicator" ElementID="lngMapSingleThemeSelectIndTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Select_Series" ElementID="lngMapSingleThemeSelectSrTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Add_Theme" ElementID="lngMapAddTheme" ElementProperty="innerHTML"/>
+
+
+  <Associate MasterKey="Select_Style" ElementID="lngSelectStyleTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Solid" ElementID="lngSolidTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="ShortDash" ElementID="lngShortDashTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="ShortDot" ElementID="lngShortDotTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="ShortDashDot" ElementID="lngShortDashDotTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="ShortDashDotDot" ElementID="lngShortDashDotDotTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Dot" ElementID="lngDotTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Dash" ElementID="lngDashTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="LongDash" ElementID="lngLongDashTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="DashDot" ElementID="lngDashDotTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="LongDashDot" ElementID="lngLongDashDotTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="LongDashDotDot" ElementID="lngLongDashDotDotTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Left_Top" ElementID="lngLeftTopTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Left_Middle" ElementID="lngLeftMiddleTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Left_Bottom" ElementID="lngLeftBottomTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Right_Top" ElementID="lngRightTopTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Right_Middle" ElementID="lngRightMiddleTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Right_Bottom" ElementID="lngRightBottomTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Select" ElementID="lngSelectTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Top_To_Bottom" ElementID="lngTopToBottomTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Bottom_To_Top" ElementID="lngBottomToTopTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Left_To_Right" ElementID="lngLeftToRightTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Right_To_Left" ElementID="lngRightToLeftTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Chart" ElementID="langVcBgChart" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Plot_Area" ElementID="langVcBgPArea" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Share" ElementID="langShare" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Download" ElementID="clickDownloadLabel" ElementProperty="innerHTML"/>
+  <Associate MasterKey="SaveAs" ElementID="langSaveAs" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Fill_Color" ElementID="cafillcolorpt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Fill_Color" ElementID="pafillcolorpt" ElementProperty="innerHTML"/>
+
+  <Associate MasterKey="Chart_Title" ElementID="lngChartTitleTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Chart_Subtitle" ElementID="lngChartSubtitleTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="X_Axis_Title" ElementID="lngXAxisTitleTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="X_Axis_Label" ElementID="lngXAxisLabelTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Y_Axis_Title" ElementID="lngYAxisTitleTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Y_Axis_Label" ElementID="lngYAxisLabelTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="DataLabels" ElementID="lngDataLabelsTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Note" ElementID="lngNoteTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="SOURCE" ElementID="lngSourceTxt" ElementProperty="innerHTML"/>
+  <Associate MasterKey="GridLnX" ElementID="langGLTemp" ElementProperty="innerHTML"/>
+  <Associate MasterKey="NameNotBlank" ElementID="langNameMandatory" ElementProperty="innerHTML"/>
+
+  <Associate MasterKey="LineChartHelpText" ElementID="lngLineChartHelpText" ElementProperty="value"/>
+  <Associate MasterKey="Label_Row_2" ElementID="lang_Data_Label2" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Leader_Line" ElementID="lngMapPopLeaderLine" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Straight_line" ElementID="lngMapPopStraightLine" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Fields" ElementID="lngMapPopFields" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Data_Label" ElementID="lngMapPopLblRow1" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Label_Row_2" ElementID="lngMapPopLblRow2" ElementProperty="innerHTML"/>
+  <Associate MasterKey="General" ElementID="lang_General_tab4" ElementProperty="innerHTML"/>
+
+  <Associate MasterKey="DVTotalRecords" ElementID="langDVTotalRecords" ElementProperty="value"/>
+  <Associate MasterKey="DVSource" ElementID="langDVSource" ElementProperty="value"/>
+  <Associate MasterKey="SaveGalleryPopUp" ElementID="langSavingGallery" ElementProperty="value"/>
+  <Associate MasterKey="LoadGalleryPopUp" ElementID="langLoadingGallery" ElementProperty="value"/>
+  <Associate MasterKey="LoadVisualization" ElementID="langLoadingVisualization" ElementProperty="value"/>
+  <Associate MasterKey="LoadData" ElementID="langLoadingData" ElementProperty="value"/>
+
+  <Associate MasterKey="DVLine" ElementID="DVLine" ElementProperty="title"/>
+  <Associate MasterKey="DVStackLine" ElementID="DVStackLine" ElementProperty="title"/>
+  <Associate MasterKey="DVStackLine100" ElementID="DVStackLine100" ElementProperty="title"/>
+  <Associate MasterKey="DVColumn" ElementID="DVColumn" ElementProperty="title"/>
+  <Associate MasterKey="DVStackColumn" ElementID="DVStackColumn" ElementProperty="title"/>
+  <Associate MasterKey="DVStackColumn100" ElementID="DVStackColumn100" ElementProperty="title"/>
+  <Associate MasterKey="DVBar" ElementID="DVBar" ElementProperty="title"/>
+  <Associate MasterKey="DVStackBar" ElementID="DVStackBar" ElementProperty="title"/>
+  <Associate MasterKey="DVStackBar100" ElementID="DVStackBar100" ElementProperty="title"/>
+  <Associate MasterKey="DVArea" ElementID="DVArea" ElementProperty="title"/>
+  <Associate MasterKey="DVStackArea" ElementID="DVStackArea" ElementProperty="title"/>
+  <Associate MasterKey="DVStackArea100" ElementID="DVStackArea100" ElementProperty="title"/>
+  <Associate MasterKey="DVSingleThemeMap" ElementID="DVSingleTheme" ElementProperty="title"/>
+  <Associate MasterKey="DVMultipleThemeMap" ElementID="DVMultipleTheme" ElementProperty="title"/>
+  <Associate MasterKey="DVGoogleMap2d" ElementID="DVGoogleMap2dTheme" ElementProperty="title"/>
+  <Associate MasterKey="DVGoogleMap3d" ElementID="DVGoogleMap3dTheme" ElementProperty="title"/>
+
+  <Associate MasterKey="DVmapNull" ElementID="mapNull" ElementProperty="title"/>
+  <Associate MasterKey="DVmapFull" ElementID="mapFull" ElementProperty="title"/>
+  <Associate MasterKey="DVmapZext" ElementID="mapZext" ElementProperty="title"/>
+  <Associate MasterKey="DVmapZin" ElementID="mapZin" ElementProperty="title"/>
+  <Associate MasterKey="DVmapZout" ElementID="mapZout" ElementProperty="title"/>
+  <Associate MasterKey="DVmapPan" ElementID="mapPan" ElementProperty="title"/>
+  <Associate MasterKey="DVmapNud" ElementID="mapNud" ElementProperty="title"/>
+
+
+  <Associate MasterKey="LineChartDisabled" ElementID="LineChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="ColumnChartDisabled" ElementID="ColumnChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="BarChartDisabled" ElementID="BarChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="AreaChartDisabled" ElementID="AreaChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="PieChartDisabled" ElementID="PieChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="MapChartDisabled" ElementID="MapChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="PyramidChartDisabled" ElementID="PyramidChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="TreeMapChartDisabled" ElementID="TreeMapChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="RadarChartDisabled" ElementID="RadarChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="ScatterChartDisabled" ElementID="ScatterChartDisabled" ElementProperty="value"/>
+  <Associate MasterKey="DefaultDisabled" ElementID="DefaultDisabled" ElementProperty="value"/>
+  <Associate MasterKey="PleaseSelect" ElementID="langPleaseSelect" ElementProperty="value"/>
+  <Associate MasterKey="NDFFCS" ElementID="langNDFFCS" ElementProperty="value"/>
+  <Associate MasterKey="SWWS" ElementID="langSWWS" ElementProperty="value"/>
+
+  <Associate MasterKey="LangToolTipBold" ElementID="ToolTipBold" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipItalic" ElementID="ToolTipItalic" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipUnderline" ElementID="ToolTipUnderline" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipIncreaseFontSize" ElementID="ToolTipIncreaseFontSize" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipDecreaseFontSize" ElementID="ToolTipDecreaseFontSize" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipFontColor" ElementID="ToolTipFontColor" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipFillColor" ElementID="ToolTipFillColor" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipBarsBorderColor" ElementID="ToolTipBarsBorderColor" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipBarBorderLineWidth" ElementID="ToolTipBarBorderLineWidth" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipDashType" ElementID="ToolTipDashType" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipNoBorderIcon" ElementID="ToolTipNoBorderIcon" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipFillColor1" ElementID="ToolTipFillColor1" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipChangeSeriesColor" ElementID="ToolTipChangeSeriesColor" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipChangeThemeColor" ElementID="ToolTipChangeThemeColor" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipCustomTextDirection45Text" ElementID="ToolTipCustomTextDirection45Text" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipCustomTextDirectionMinus45Text" ElementID="ToolTipCustomTextDirectionMinus45Text" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipCustomTextDirection90Text" ElementID="ToolTipCustomTextDirection90Text" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipCustomTextDirectionMinus90Text" ElementID="ToolTipCustomTextDirectionMinus90Text" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipCustomTextHorizontal" ElementID="ToolTipCustomTextHorizontal" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipHideSettingBar" ElementID="ToolTipHideSettingBar" ElementProperty="value" />ToolTipShow
+  <Associate MasterKey="LangToolTipShowSettingBar" ElementID="ToolTipShowSettingBar" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipHideFilterpanel" ElementID="ToolTipHideFilterpanel" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipShowFilterPanel" ElementID="ToolTipShowFilterPanel" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipSortAtoZ" ElementID="ToolTipSortAtoZ" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipSortZtoA" ElementID="ToolTipSortZtoA" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipExpandGeneralSetting" ElementID="ToolTipExpandGeneralSetting" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipExpandFormatSetting" ElementID="ToolTipExpandFormatSetting" ElementProperty="value" />
+  <Associate MasterKey="LangToolTipToolTipExpandSeriesSetting" ElementID="ToolTipExpandSeriesSetting" ElementProperty="value" />
+  <Associate MasterKey="Area_Id" ElementID="langDVAreaID" ElementProperty="value"/>
+  <Associate MasterKey="timeLineChkBoxValue" ElementID="timeLineChkBoxValue" ElementProperty="value" />
+  <Associate MasterKey="disabledTimelineChkBoxTitle" ElementID="disabledTimelineChkBoxTitle" ElementProperty="value" />
+  <Associate MasterKey="enabledTimelineChkBoxTitle" ElementID="enabledTimelineChkBoxTitle" ElementProperty="value" />
+  <Associate MasterKey="playAnimatorBtnTitle" ElementID="playAnimatorBtnTitle" ElementProperty="value" />
+  <Associate MasterKey="stopAnimatorBtnTitle" ElementID="stopAnimatorBtnTitle" ElementProperty="value" />
+</root>

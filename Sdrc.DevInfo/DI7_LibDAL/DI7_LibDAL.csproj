@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC707D2F-2E19-4F14-A0F7-D615D12BBFD5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevInfo.Lib.DI_LibDAL</RootNamespace>
+    <AssemblyName>DI7_LibDAL</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.1.2.2, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\..\ThirdParty\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.OracleClient">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.XML">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connection\DIConnectionDetails.cs" />
+    <Compile Include="Connection\DIServerType.cs" />
+    <Compile Include="Connection\DIConnection.cs" />
+    <Compile Include="Connection\NamespaceDoc.cs" />
+    <Compile Include="ExceptionHandler\ExceptionFacade.cs" />
+    <Compile Include="Queries\Area\Delete.cs" />
+    <Compile Include="Queries\Area\Insert.cs" />
+    <Compile Include="Queries\Area\Select.cs" />
+    <Compile Include="Queries\Area\Update.cs" />
+    <Compile Include="Queries\Assistant\Delete.cs" />
+    <Compile Include="Queries\Assistant\Insert.cs" />
+    <Compile Include="Queries\Assistant\Select.cs" />
+    <Compile Include="Queries\Assistant\Update.cs" />
+    <Compile Include="Queries\AutoFill\Select.cs" />
+    <Compile Include="Queries\Calculates\Select.cs" />
+    <Compile Include="Queries\AgePeriod\Delete.cs" />
+    <Compile Include="Queries\AgePeriod\Insert.cs" />
+    <Compile Include="Queries\AgePeriod\Select.cs" />
+    <Compile Include="Queries\AgePeriod\Update.cs" />
+    <Compile Include="Queries\DatabaseIncrement\Create.cs" />
+    <Compile Include="Queries\DatabaseIncrement\Delete.cs" />
+    <Compile Include="Queries\DatabaseIncrement\Insert.cs" />
+    <Compile Include="Queries\DatabaseIncrement\Select.cs" />
+    <Compile Include="Queries\DatabaseIncrement\Update.cs" />
+    <Compile Include="Queries\MetadataReport\Delete.cs" />
+    <Compile Include="Queries\MetadataReport\Insert.cs" />
+    <Compile Include="Queries\MetadataReport\Select.cs" />
+    <Compile Include="Queries\MetadataReport\Update.cs" />
+    <Compile Include="Queries\DIDocument\Delete.cs" />
+    <Compile Include="Queries\DIDocument\Insert.cs" />
+    <Compile Include="Queries\DIDocument\Select.cs" />
+    <Compile Include="Queries\DIDocument\Update.cs" />
+    <Compile Include="Queries\MetadataCategory\Delete.cs" />
+    <Compile Include="Queries\MetadataCategory\Insert.cs" />
+    <Compile Include="Queries\MetadataCategory\Select.cs" />
+    <Compile Include="Queries\MetadataCategory\Update.cs" />
+    <Compile Include="Queries\RecommendedSources\Delete.cs" />
+    <Compile Include="Queries\RecommendedSources\Insert.cs" />
+    <Compile Include="Queries\RecommendedSources\Select.cs" />
+    <Compile Include="Queries\RecommendedSources\Update.cs" />
+    <Compile Include="Queries\DBMetadata\Delete.cs" />
+    <Compile Include="Queries\DBMetadata\Insert.cs" />
+    <Compile Include="Queries\DBMetadata\Select.cs" />
+    <Compile Include="Queries\DBMetadata\Update.cs" />
+    <Compile Include="Queries\DBUsers\Delete.cs" />
+    <Compile Include="Queries\DBUsers\Insert.cs" />
+    <Compile Include="Queries\DBUsers\Select.cs" />
+    <Compile Include="Queries\DBUsers\Update.cs" />
+    <Compile Include="Queries\DatabaseLog\Delete.cs" />
+    <Compile Include="Queries\DatabaseLog\Insert.cs" />
+    <Compile Include="Queries\DatabaseLog\Select.cs" />
+    <Compile Include="Queries\DatabaseLog\Update.cs" />
+    <Compile Include="Queries\SDMXUser\Delete.cs" />
+    <Compile Include="Queries\SDMXUser\Insert.cs" />
+    <Compile Include="Queries\SDMXUser\Select.cs" />
+    <Compile Include="Queries\SDMXUser\Update.cs" />
+    <Compile Include="Queries\SubgroupVal\Select .cs" />
+    <Compile Include="Queries\TemplateLog\Delete.cs" />
+    <Compile Include="Queries\TemplateLog\Insert.cs" />
+    <Compile Include="Queries\TemplateLog\Select.cs" />
+    <Compile Include="Queries\TemplateLog\Update.cs" />
+    <Compile Include="Queries\SubgroupVal\Delete.cs" />
+    <Compile Include="Queries\SubgroupVal\Insert.cs" />
+    <Compile Include="Queries\SubgroupVal\Update.cs" />
+    <Compile Include="Queries\SubgroupType\Delete.cs" />
+    <Compile Include="Queries\SubgroupType\Insert.cs" />
+    <Compile Include="Queries\SubgroupType\Select.cs" />
+    <Compile Include="Queries\SubgroupType\Update.cs" />
+    <Compile Include="Queries\SubgroupValSubgroup\Delete.cs" />
+    <Compile Include="Queries\SubgroupValSubgroup\Insert.cs" />
+    <Compile Include="Queries\SubgroupValSubgroup\Select.cs" />
+    <Compile Include="Queries\SubgroupValSubgroup\Update.cs" />
+    <Compile Include="Queries\Version\Delete.cs" />
+    <Compile Include="Queries\Version\Insert.cs" />
+    <Compile Include="Queries\Version\Select.cs" />
+    <Compile Include="Queries\Version\Update.cs" />
+    <Compile Include="Queries\Footnote\Delete.cs" />
+    <Compile Include="Queries\Footnote\Insert.cs" />
+    <Compile Include="Queries\Footnote\Select.cs" />
+    <Compile Include="Queries\Footnote\Update.cs" />
+    <Compile Include="Queries\DIColumns.cs" />
+    <Compile Include="Queries\Data\Delete.cs" />
+    <Compile Include="Queries\Data\Insert.cs" />
+    <Compile Include="Queries\Data\Select.cs" />
+    <Compile Include="Queries\Data\Update.cs" />
+    <Compile Include="Queries\DITables.cs" />
+    <Compile Include="Queries\Enum.cs" />
+    <Compile Include="Queries\Icon\Delete.cs" />
+    <Compile Include="Queries\Icon\Insert.cs" />
+    <Compile Include="Queries\Icon\Select.cs" />
+    <Compile Include="Queries\Icon\Update.cs" />
+    <Compile Include="Queries\IndicatorClassification\Delete.cs" />
+    <Compile Include="Queries\IndicatorClassification\Insert.cs" />
+    <Compile Include="Queries\IndicatorClassification\Select.cs" />
+    <Compile Include="Queries\IndicatorClassification\Update.cs" />
+    <Compile Include="Queries\Indicator\Delete.cs" />
+    <Compile Include="Queries\Indicator\Insert.cs" />
+    <Compile Include="Queries\Indicator\Select.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\Indicator\Update.cs" />
+    <Compile Include="Queries\IUS\Delete.cs" />
+    <Compile Include="Queries\IUS\Insert.cs" />
+    <Compile Include="Queries\IUS\Select.cs" />
+    <Compile Include="Queries\IUS\Update.cs" />
+    <Compile Include="Queries\DIQueries.cs" />
+    <Compile Include="Queries\Timeperiod\Delete.cs" />
+    <Compile Include="Queries\Timeperiod\Insert.cs" />
+    <Compile Include="Queries\Timeperiod\Select.cs" />
+    <Compile Include="Queries\Timeperiod\Update.cs" />
+    <Compile Include="Queries\Notes\Delete.cs" />
+    <Compile Include="Queries\Notes\Insert.cs" />
+    <Compile Include="Queries\Notes\Select.cs" />
+    <Compile Include="Queries\Notes\Update.cs" />
+    <Compile Include="Queries\Source\Delete.cs" />
+    <Compile Include="Queries\Source\Insert.cs" />
+    <Compile Include="Queries\Source\Select.cs" />
+    <Compile Include="Queries\Source\Update.cs" />
+    <Compile Include="Queries\Subgroup\Delete.cs" />
+    <Compile Include="Queries\Subgroup\Insert.cs" />
+    <Compile Include="Queries\Subgroup\Select.cs" />
+    <Compile Include="Queries\Subgroup\Update.cs" />
+    <Compile Include="Queries\Unit\Delete.cs" />
+    <Compile Include="Queries\Unit\Insert.cs" />
+    <Compile Include="Queries\Unit\Select.cs" />
+    <Compile Include="Queries\Unit\Update.cs" />
+    <Compile Include="Queries\Xslt\Delete.cs" />
+    <Compile Include="Queries\Xslt\Insert.cs" />
+    <Compile Include="Queries\Xslt\Select.cs" />
+    <Compile Include="Queries\Xslt\Update.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Resource.cs" />
+    <Compile Include="Schema\DBColumnInfo.cs" />
+    <Compile Include="Schema\DBColumnInfoFactory.cs" />
+    <Compile Include="UserSelection\UltraWinGridAutoFilters.cs" />
+    <Compile Include="UserSelection\UltraWinGridAutoFilter.cs" />
+    <Compile Include="UserSelection\DataValueFilter.cs" />
+    <Compile Include="UserSelection\Enum.cs" />
+    <Compile Include="UserSelection\DataViewFilters.cs" />
+    <Compile Include="UserSelection\IndicatorDataValueFilter.cs" />
+    <Compile Include="UserSelection\IndicatorDataValueFilters.cs" />
+    <Compile Include="UserSelection\UserSelection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource1.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Resources\New Template.tpl" />
+    <None Include="Resources\XSLT_DI6.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

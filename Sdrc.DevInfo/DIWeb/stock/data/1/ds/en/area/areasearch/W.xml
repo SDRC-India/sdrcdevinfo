@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Champaran West" id="IND010005001" l="3" nid="2556" pnid="2526" dataexists="T" isblock="F" lnid="38" />
+  <a n="Champaran West" id="REG005001" l="3" nid="2760" pnid="2741" dataexists="T" isblock="F" lnid="486" />
+  <a n="Champaran West - Level 4" id="QS_REG005001_L4" l="4" nid="QS_REG005001_L4" pnid="2760" dataexists="F" isblock="F" lnid="0" />
+  <a n="Warsaliganj" id="IND010008035004" l="3" nid="2694" pnid="2527" dataexists="T" isblock="F" lnid="295" />
+  <a n="Warsaliganj" id="REG005035004" l="4" nid="2949" pnid="2778" dataexists="T" isblock="F" lnid="482" />
+  <a n="Wazirganj" id="IND010008034022" l="3" nid="2722" pnid="2527" dataexists="T" isblock="F" lnid="443" />
+  <a n="Wazirganj" id="REG005034022" l="4" nid="2938" pnid="2777" dataexists="T" isblock="F" lnid="481" />
+</AreaList>

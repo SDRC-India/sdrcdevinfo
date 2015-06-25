@@ -1,0 +1,765 @@
+Get map Object-> 11:29:54
+Get series Info-> 11:29:54
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 11:29:54
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 11:29:54
+Start Get Source Info-> 11:29:54
+End Get Source Info-> 11:29:54
+Template Style Loading.. -> 11:29:54
+GetNSet language string -> 11:29:54
+Set Map layers-> 11:29:54
+  Starts Creating Connection-> 11:29:54
+  Ends Creating Connection-> 11:29:54
+  Starts getting records from Map Server database-> 11:29:54
+  Ends getting records from Map Server database-> 11:29:54
+  Starts adding layers-> 11:29:55
+  Ends adding layers-> 11:29:55
+Get series Data-> 11:29:55
+Create Theme-> 11:29:55
+Set session variable-> 11:29:55
+Start Saving Map into file named-> aenfwiwpvhwq1gg5k0mltdlf Time:11:29:55
+Get Map Image Starts-> 11:29:55
+Get Map Image Ends-> 11:34:34
+---------------------Date: 22 June 2015    Time: 11:35:48--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 11:35:48
+Get series Info-> 11:35:48
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 11:35:48
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 11:35:48
+Start Get Source Info-> 11:35:48
+End Get Source Info-> 11:35:48
+Template Style Loading.. -> 11:35:48
+GetNSet language string -> 11:35:48
+Set Map layers-> 11:35:48
+  Starts Creating Connection-> 11:35:48
+  Ends Creating Connection-> 11:35:48
+  Starts getting records from Map Server database-> 11:35:48
+  Ends getting records from Map Server database-> 11:35:48
+  Starts adding layers-> 11:35:48
+  Ends adding layers-> 11:35:48
+Get series Data-> 11:35:48
+Create Theme-> 11:35:48
+Set session variable-> 11:35:48
+Start Saving Map into file named-> 3yusb1fubthub11c4l1yic1h Time:11:35:48
+Get Map Image Starts-> 11:35:48
+Get Map Image Ends-> 11:36:28
+---------------------Date: 22 June 2015    Time: 11:37:39--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 11:37:39
+Get series Info-> 11:37:39
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 11:37:39
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 11:37:39
+Start Get Source Info-> 11:37:39
+End Get Source Info-> 11:37:39
+Template Style Loading.. -> 11:37:39
+GetNSet language string -> 11:37:39
+Set Map layers-> 11:37:39
+  Starts Creating Connection-> 11:37:39
+  Ends Creating Connection-> 11:37:39
+  Starts getting records from Map Server database-> 11:37:39
+  Ends getting records from Map Server database-> 11:37:39
+  Starts adding layers-> 11:37:39
+  Ends adding layers-> 11:37:39
+Get series Data-> 11:37:39
+Create Theme-> 11:37:39
+Set session variable-> 11:37:39
+Start Saving Map into file named-> m2qmza0fm2f0txuc1vjrqhnf Time:11:37:39
+Get Map Image Starts-> 11:37:40
+Get Map Image Ends-> 11:39:22
+---------------------Date: 22 June 2015    Time: 11:46:39--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 11:46:39
+Get series Info-> 11:46:39
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 11:46:39
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 11:46:39
+Start Get Source Info-> 11:46:39
+End Get Source Info-> 11:46:39
+Template Style Loading.. -> 11:46:39
+GetNSet language string -> 11:46:39
+Set Map layers-> 11:46:39
+  Starts Creating Connection-> 11:46:39
+  Ends Creating Connection-> 11:46:39
+  Starts getting records from Map Server database-> 11:46:39
+  Ends getting records from Map Server database-> 11:46:39
+  Starts adding layers-> 11:46:39
+  Ends adding layers-> 11:46:39
+Get series Data-> 11:46:39
+Create Theme-> 11:46:39
+Set session variable-> 11:46:40
+Start Saving Map into file named-> ai3y1qi4knixz3ul4ofize2l Time:11:46:40
+Get Map Image Starts-> 11:46:40
+Get Map Image Ends-> 12:01:32
+---------------------Date: 22 June 2015    Time: 12:08:39--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:08:39
+Get series Info-> 12:08:39
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:08:39
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:08:39
+Start Get Source Info-> 12:08:39
+End Get Source Info-> 12:08:39
+Template Style Loading.. -> 12:08:39
+GetNSet language string -> 12:08:39
+Set Map layers-> 12:08:39
+  Starts Creating Connection-> 12:08:39
+  Ends Creating Connection-> 12:08:39
+  Starts getting records from Map Server database-> 12:08:39
+  Ends getting records from Map Server database-> 12:08:40
+  Starts adding layers-> 12:08:40
+  Ends adding layers-> 12:08:40
+Get series Data-> 12:08:40
+Create Theme-> 12:08:40
+Set session variable-> 12:08:40
+Start Saving Map into file named-> wnhnrcgecj1kw11pvqtqji3i Time:12:08:40
+Get Map Image Starts-> 12:08:40
+Get Map Image Ends-> 12:17:20
+---------------------Date: 22 June 2015    Time: 12:17:53--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:17:53
+Get series Info-> 12:17:53
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:17:53
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:17:53
+Start Get Source Info-> 12:17:53
+End Get Source Info-> 12:17:53
+Template Style Loading.. -> 12:17:53
+GetNSet language string -> 12:17:53
+Set Map layers-> 12:17:53
+  Starts Creating Connection-> 12:17:53
+  Ends Creating Connection-> 12:17:53
+  Starts getting records from Map Server database-> 12:17:53
+  Ends getting records from Map Server database-> 12:17:53
+  Starts adding layers-> 12:17:53
+  Ends adding layers-> 12:17:53
+Get series Data-> 12:17:53
+Create Theme-> 12:17:53
+Set session variable-> 12:17:53
+Start Saving Map into file named-> mm2j5tfml4lcalkuh11amyg3 Time:12:17:53
+Get Map Image Starts-> 12:17:54
+Get Map Image Ends-> 12:18:58
+---------------------Date: 22 June 2015    Time: 12:19:19--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:19:19
+Get series Info-> 12:19:19
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:19:19
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:19:19
+Start Get Source Info-> 12:19:19
+End Get Source Info-> 12:19:19
+Template Style Loading.. -> 12:19:19
+GetNSet language string -> 12:19:19
+Set Map layers-> 12:19:19
+  Starts Creating Connection-> 12:19:19
+  Ends Creating Connection-> 12:19:19
+  Starts getting records from Map Server database-> 12:19:19
+  Ends getting records from Map Server database-> 12:19:19
+  Starts adding layers-> 12:19:19
+  Ends adding layers-> 12:19:19
+Get series Data-> 12:19:19
+Create Theme-> 12:19:19
+Set session variable-> 12:19:19
+Start Saving Map into file named-> 5zxqfaaefhe0fv5l5yce2rky Time:12:19:19
+Get Map Image Starts-> 12:19:20
+Get Map Image Ends-> 12:21:55
+---------------------Date: 22 June 2015    Time: 12:24:04--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:24:04
+Get series Info-> 12:24:04
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:24:04
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:24:04
+Start Get Source Info-> 12:24:04
+End Get Source Info-> 12:24:04
+Template Style Loading.. -> 12:24:04
+GetNSet language string -> 12:24:04
+Set Map layers-> 12:24:04
+  Starts Creating Connection-> 12:24:04
+  Ends Creating Connection-> 12:24:04
+  Starts getting records from Map Server database-> 12:24:04
+  Ends getting records from Map Server database-> 12:24:05
+  Starts adding layers-> 12:24:05
+  Ends adding layers-> 12:24:05
+Get series Data-> 12:24:05
+Create Theme-> 12:24:05
+Set session variable-> 12:24:05
+Start Saving Map into file named-> voz4mtde3deoset3myqnhlld Time:12:24:05
+Get Map Image Starts-> 12:24:05
+Get Map Image Ends-> 12:26:03
+---------------------Date: 22 June 2015    Time: 12:28:19--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:29:07
+Get series Info-> 12:30:56
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:30:56
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:30:56
+Start Get Source Info-> 12:30:56
+End Get Source Info-> 12:30:56
+Template Style Loading.. -> 12:30:56
+GetNSet language string -> 12:30:57
+Set Map layers-> 12:30:57
+  Starts Creating Connection-> 12:30:57
+  Ends Creating Connection-> 12:30:57
+  Starts getting records from Map Server database-> 12:30:57
+  Ends getting records from Map Server database-> 12:30:57
+  Starts adding layers-> 12:30:57
+  Ends adding layers-> 12:30:57
+Get series Data-> 12:30:57
+Create Theme-> 12:30:57
+Set session variable-> 12:30:57
+Start Saving Map into file named-> rnafd5uh4crgtn4xv3jjx010 Time:12:30:57
+Get Map Image Starts-> 12:30:57
+Get Map Image Ends-> 12:30:57
+---------------------Date: 22 June 2015    Time: 12:37:19--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:37:36
+Get series Info-> 12:37:36
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:37:36
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:37:36
+Start Get Source Info-> 12:37:36
+End Get Source Info-> 12:37:36
+Template Style Loading.. -> 12:37:36
+GetNSet language string -> 12:37:36
+Set Map layers-> 12:37:36
+  Starts Creating Connection-> 12:37:36
+  Ends Creating Connection-> 12:37:36
+  Starts getting records from Map Server database-> 12:37:36
+  Ends getting records from Map Server database-> 12:37:36
+  Starts adding layers-> 12:37:36
+  Ends adding layers-> 12:37:36
+Get series Data-> 12:37:36
+Create Theme-> 12:37:36
+Set session variable-> 12:37:36
+Start Saving Map into file named-> p0truqfwylfd2skur2zj2t1h Time:12:37:36
+Get Map Image Starts-> 12:37:36
+Get Map Image Ends-> 12:37:39
+---------------------Date: 22 June 2015    Time: 12:40:40--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:40:43
+Get series Info-> 12:40:43
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:40:43
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:40:43
+Start Get Source Info-> 12:40:43
+End Get Source Info-> 12:40:43
+Template Style Loading.. -> 12:40:43
+GetNSet language string -> 12:40:43
+Set Map layers-> 12:40:43
+  Starts Creating Connection-> 12:40:43
+  Ends Creating Connection-> 12:40:43
+  Starts getting records from Map Server database-> 12:40:43
+  Ends getting records from Map Server database-> 12:40:43
+  Starts adding layers-> 12:40:43
+  Ends adding layers-> 12:40:44
+Get series Data-> 12:40:44
+Create Theme-> 12:40:44
+Set session variable-> 12:40:44
+Start Saving Map into file named-> eki5b54xwkv4qn5j5rpej322 Time:12:40:44
+Get Map Image Starts-> 12:40:44
+Get Map Image Ends-> 12:40:45
+---------------------Date: 22 June 2015    Time: 12:42:09--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:42:10
+Get series Info-> 12:42:10
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:42:10
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:42:10
+Start Get Source Info-> 12:42:10
+End Get Source Info-> 12:42:11
+Template Style Loading.. -> 12:42:11
+GetNSet language string -> 12:42:11
+Set Map layers-> 12:42:11
+  Starts Creating Connection-> 12:42:11
+  Ends Creating Connection-> 12:42:11
+  Starts getting records from Map Server database-> 12:42:11
+  Ends getting records from Map Server database-> 12:42:11
+  Starts adding layers-> 12:42:11
+  Ends adding layers-> 12:42:11
+Get series Data-> 12:42:11
+Create Theme-> 12:42:11
+Set session variable-> 12:42:11
+Start Saving Map into file named-> wv2tpsvn0jjovjwvun1uzt1v Time:12:42:11
+Get Map Image Starts-> 12:42:11
+Get Map Image Ends-> 12:42:12
+---------------------Date: 22 June 2015    Time: 12:47:52--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:48:05
+Get series Info-> 12:50:11
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:50:11
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:50:11
+Start Get Source Info-> 12:50:11
+End Get Source Info-> 12:50:11
+Template Style Loading.. -> 12:50:11
+GetNSet language string -> 12:50:12
+Set Map layers-> 12:50:12
+  Starts Creating Connection-> 12:50:12
+  Ends Creating Connection-> 12:50:12
+  Starts getting records from Map Server database-> 12:50:12
+  Ends getting records from Map Server database-> 12:50:12
+  Starts adding layers-> 12:50:12
+  Ends adding layers-> 12:50:12
+Get series Data-> 12:50:12
+Create Theme-> 12:50:12
+Set session variable-> 12:50:12
+Start Saving Map into file named-> vodow3conuc4wmsqpuk4mckd Time:12:50:12
+Get Map Image Starts-> 12:50:12
+Get Map Image Ends-> 12:50:14
+---------------------Date: 22 June 2015    Time: 12:52:56--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:53:03
+Get series Info-> 12:53:03
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:53:03
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 12:53:03
+Start Get Source Info-> 12:53:03
+End Get Source Info-> 12:53:03
+Template Style Loading.. -> 12:53:03
+GetNSet language string -> 12:53:03
+Set Map layers-> 12:53:03
+  Starts Creating Connection-> 12:53:03
+  Ends Creating Connection-> 12:53:03
+  Starts getting records from Map Server database-> 12:53:03
+  Ends getting records from Map Server database-> 12:53:03
+  Starts adding layers-> 12:53:04
+  Ends adding layers-> 12:53:04
+Get series Data-> 12:53:04
+Create Theme-> 12:53:04
+Set session variable-> 12:53:04
+Start Saving Map into file named-> o4z0nr31m3apzp3r1c2xgo5s Time:12:53:04
+Get Map Image Starts-> 12:53:04
+Get Map Image Ends-> 12:53:04
+---------------------Date: 22 June 2015    Time: 12:59:33--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 12:59:53
+Get series Info-> 13:00:24
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:00:24
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:00:24
+Start Get Source Info-> 13:00:24
+End Get Source Info-> 13:00:24
+Template Style Loading.. -> 13:00:24
+GetNSet language string -> 13:00:24
+Set Map layers-> 13:00:24
+  Starts Creating Connection-> 13:00:24
+  Ends Creating Connection-> 13:00:24
+  Starts getting records from Map Server database-> 13:00:24
+  Ends getting records from Map Server database-> 13:00:24
+  Starts adding layers-> 13:00:24
+  Ends adding layers-> 13:00:24
+Get series Data-> 13:00:24
+Create Theme-> 13:00:24
+Set session variable-> 13:00:24
+Start Saving Map into file named-> ds1apx5pll3gsbxsmtuhuw4e Time:13:00:24
+Get Map Image Starts-> 13:00:24
+Get Map Image Ends-> 13:00:24
+---------------------Date: 22 June 2015    Time: 13:01:24--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 13:01:26
+Get series Info-> 13:01:26
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:01:26
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:01:26
+Start Get Source Info-> 13:01:26
+End Get Source Info-> 13:01:26
+Template Style Loading.. -> 13:01:26
+GetNSet language string -> 13:01:26
+Set Map layers-> 13:01:26
+  Starts Creating Connection-> 13:01:26
+  Ends Creating Connection-> 13:01:26
+  Starts getting records from Map Server database-> 13:01:26
+  Ends getting records from Map Server database-> 13:01:26
+  Starts adding layers-> 13:01:26
+  Ends adding layers-> 13:01:26
+Get series Data-> 13:01:26
+Create Theme-> 13:01:26
+Set session variable-> 13:01:26
+Start Saving Map into file named-> sldnsgzlfviry3uqp2i2ww1h Time:13:01:26
+Get Map Image Starts-> 13:01:26
+Get Map Image Ends-> 13:01:28
+---------------------Date: 22 June 2015    Time: 13:02:44--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 13:02:46
+Get series Info-> 13:02:46
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:02:46
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:02:46
+Start Get Source Info-> 13:02:46
+End Get Source Info-> 13:02:46
+Template Style Loading.. -> 13:02:46
+GetNSet language string -> 13:02:46
+Set Map layers-> 13:02:46
+  Starts Creating Connection-> 13:02:46
+  Ends Creating Connection-> 13:02:46
+  Starts getting records from Map Server database-> 13:02:46
+  Ends getting records from Map Server database-> 13:02:46
+  Starts adding layers-> 13:02:47
+  Ends adding layers-> 13:02:47
+Get series Data-> 13:02:47
+Create Theme-> 13:02:47
+Set session variable-> 13:02:47
+Start Saving Map into file named-> pkeccx30zva5fotihs0lqduv Time:13:02:47
+Get Map Image Starts-> 13:02:47
+Get Map Image Ends-> 13:02:48
+---------------------Date: 22 June 2015    Time: 13:05:06--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 13:05:08
+Get series Info-> 13:05:08
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:05:08
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:05:08
+Start Get Source Info-> 13:05:08
+End Get Source Info-> 13:05:08
+Template Style Loading.. -> 13:05:08
+GetNSet language string -> 13:05:08
+Set Map layers-> 13:05:08
+  Starts Creating Connection-> 13:05:08
+  Ends Creating Connection-> 13:05:08
+  Starts getting records from Map Server database-> 13:05:08
+  Ends getting records from Map Server database-> 13:05:08
+  Starts adding layers-> 13:05:08
+  Ends adding layers-> 13:05:08
+Get series Data-> 13:05:08
+Create Theme-> 13:05:08
+Set session variable-> 13:05:09
+Start Saving Map into file named-> tyf1wgbhoz34htucfobyjtxj Time:13:05:09
+Get Map Image Starts-> 13:05:09
+Get Map Image Ends-> 13:05:10
+---------------------Date: 22 June 2015    Time: 13:08:48--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 13:08:57
+Get series Info-> 13:08:57
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:08:57
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:08:57
+Start Get Source Info-> 13:08:57
+End Get Source Info-> 13:08:57
+Template Style Loading.. -> 13:08:57
+GetNSet language string -> 13:08:57
+Set Map layers-> 13:08:57
+  Starts Creating Connection-> 13:08:57
+  Ends Creating Connection-> 13:08:57
+  Starts getting records from Map Server database-> 13:08:57
+  Ends getting records from Map Server database-> 13:08:57
+  Starts adding layers-> 13:08:57
+  Ends adding layers-> 13:08:57
+Get series Data-> 13:08:57
+Create Theme-> 13:08:57
+Set session variable-> 13:08:57
+Start Saving Map into file named-> tyf1wgbhoz34htucfobyjtxj Time:13:08:57
+Get Map Image Starts-> 13:08:57
+Get Map Image Ends-> 13:08:57
+---------------------Date: 22 June 2015    Time: 13:11:25--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 13:11:35
+Get series Info-> 13:11:35
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:11:35
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:11:35
+Start Get Source Info-> 13:11:35
+End Get Source Info-> 13:11:35
+Template Style Loading.. -> 13:11:35
+GetNSet language string -> 13:11:35
+Set Map layers-> 13:11:35
+  Starts Creating Connection-> 13:11:35
+  Ends Creating Connection-> 13:11:35
+  Starts getting records from Map Server database-> 13:11:35
+  Ends getting records from Map Server database-> 13:11:35
+  Starts adding layers-> 13:11:35
+  Ends adding layers-> 13:11:35
+Get series Data-> 13:11:35
+Create Theme-> 13:11:35
+Set session variable-> 13:11:35
+Start Saving Map into file named-> 2bwawyauzkcf3rekvvxwbisc Time:13:11:35
+Get Map Image Starts-> 13:11:35
+Get Map Image Ends-> 13:11:38
+---------------------Date: 22 June 2015    Time: 13:15:21--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 13:15:33
+Get series Info-> 13:15:50
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:15:50
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:15:50
+Start Get Source Info-> 13:15:50
+End Get Source Info-> 13:15:50
+Template Style Loading.. -> 13:15:50
+GetNSet language string -> 13:15:50
+Set Map layers-> 13:15:50
+  Starts Creating Connection-> 13:15:50
+  Ends Creating Connection-> 13:15:50
+  Starts getting records from Map Server database-> 13:15:50
+  Ends getting records from Map Server database-> 13:15:50
+  Starts adding layers-> 13:15:50
+  Ends adding layers-> 13:15:50
+Get series Data-> 13:15:50
+Create Theme-> 13:15:50
+Set session variable-> 13:15:51
+Start Saving Map into file named-> knxi1ncruabimro10swkcqbs Time:13:15:51
+Get Map Image Starts-> 13:15:51
+Get Map Image Ends-> 13:15:52
+---------------------Date: 22 June 2015    Time: 13:55:54--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 13:56:43
+Get series Info-> 13:56:43
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:56:43
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 13:56:43
+Start Get Source Info-> 13:56:43
+End Get Source Info-> 13:56:43
+Template Style Loading.. -> 13:56:43
+GetNSet language string -> 13:56:44
+Set Map layers-> 13:56:44
+  Starts Creating Connection-> 13:56:44
+  Ends Creating Connection-> 13:56:44
+  Starts getting records from Map Server database-> 13:56:44
+  Ends getting records from Map Server database-> 13:56:44
+  Starts adding layers-> 13:56:44
+  Ends adding layers-> 13:56:44
+Get series Data-> 13:56:44
+Create Theme-> 13:56:44
+Set session variable-> 13:56:44
+Start Saving Map into file named-> xaaphnglenk3h3mdfa22da1t Time:13:56:44
+Get Map Image Starts-> 13:56:44
+Get Map Image Ends-> 13:56:46
+---------------------Date: 22 June 2015    Time: 14:02:41--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 14:02:44
+Get series Info-> 14:02:44
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:02:44
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:02:44
+Start Get Source Info-> 14:02:44
+End Get Source Info-> 14:02:44
+Template Style Loading.. -> 14:02:44
+GetNSet language string -> 14:02:44
+Set Map layers-> 14:02:44
+  Starts Creating Connection-> 14:02:44
+  Ends Creating Connection-> 14:02:44
+  Starts getting records from Map Server database-> 14:02:44
+  Ends getting records from Map Server database-> 14:02:44
+  Starts adding layers-> 14:02:44
+  Ends adding layers-> 14:02:44
+Get series Data-> 14:02:44
+Create Theme-> 14:02:44
+Set session variable-> 14:02:44
+Start Saving Map into file named-> z3krx1neler4ceozmqmnuibr Time:14:02:44
+Get Map Image Starts-> 14:02:44
+Get Map Image Ends-> 14:02:52
+---------------------Date: 22 June 2015    Time: 14:11:10--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 14:11:28
+Get series Info-> 14:11:30
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:11:30
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:11:30
+Start Get Source Info-> 14:11:31
+End Get Source Info-> 14:11:32
+Template Style Loading.. -> 14:11:40
+GetNSet language string -> 14:11:41
+Set Map layers-> 14:11:42
+  Starts Creating Connection-> 14:11:42
+  Ends Creating Connection-> 14:11:42
+  Starts getting records from Map Server database-> 14:11:42
+  Ends getting records from Map Server database-> 14:11:42
+  Starts adding layers-> 14:11:43
+  Ends adding layers-> 14:11:43
+Get series Data-> 14:11:43
+Create Theme-> 14:11:44
+Set session variable-> 14:12:02
+Start Saving Map into file named-> zuktgzzuefktezejdbhsbre4 Time:14:12:04
+Get Map Image Starts-> 14:12:08
+Get Map Image Ends-> 14:12:09
+---------------------Date: 22 June 2015    Time: 14:23:08--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 14:23:23
+Get series Info-> 14:23:25
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:23:26
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:23:26
+Start Get Source Info-> 14:23:28
+End Get Source Info-> 14:23:28
+Template Style Loading.. -> 14:24:36
+GetNSet language string -> 14:24:52
+Set Map layers-> 14:24:54
+  Starts Creating Connection-> 14:24:54
+  Ends Creating Connection-> 14:24:55
+  Starts getting records from Map Server database-> 14:24:55
+  Ends getting records from Map Server database-> 14:24:55
+  Starts adding layers-> 14:24:55
+  Ends adding layers-> 14:24:55
+Get series Data-> 14:25:14
+Create Theme-> 14:25:17
+Set session variable-> 14:25:55
+Start Saving Map into file named-> fqcmdcwjm0ocuvucswxrz314 Time:14:26:33
+Get Map Image Starts-> 14:27:35
+Get Map Image Ends-> 14:27:35
+---------------------Date: 22 June 2015    Time: 14:31:18--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 14:31:28
+Get series Info-> 14:31:30
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:31:30
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:31:30
+Start Get Source Info-> 14:31:31
+End Get Source Info-> 14:31:31
+Template Style Loading.. -> 14:31:36
+GetNSet language string -> 14:31:37
+Set Map layers-> 14:31:37
+  Starts Creating Connection-> 14:31:37
+  Ends Creating Connection-> 14:31:37
+  Starts getting records from Map Server database-> 14:31:37
+  Ends getting records from Map Server database-> 14:31:37
+  Starts adding layers-> 14:31:38
+  Ends adding layers-> 14:31:38
+Get series Data-> 14:31:38
+Create Theme-> 14:31:39
+Set session variable-> 14:31:43
+Start Saving Map into file named-> jvnz3mb5uosntqdzyim4zifr Time:14:31:47
+Get Map Image Starts-> 14:31:49
+Get Map Image Ends-> 14:32:56
+---------------------Date: 22 June 2015    Time: 14:33:47--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 14:33:58
+Get series Info-> 14:33:59
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:33:59
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:33:59
+Start Get Source Info-> 14:34:00
+End Get Source Info-> 14:34:00
+Template Style Loading.. -> 14:34:04
+GetNSet language string -> 14:34:05
+Set Map layers-> 14:34:05
+  Starts Creating Connection-> 14:34:05
+  Ends Creating Connection-> 14:34:05
+  Starts getting records from Map Server database-> 14:34:05
+  Ends getting records from Map Server database-> 14:34:05
+  Starts adding layers-> 14:34:05
+  Ends adding layers-> 14:34:05
+Get series Data-> 14:34:06
+Create Theme-> 14:34:06
+Set session variable-> 14:34:09
+Start Saving Map into file named-> gurupcxcwvdc4olj2ge14xus Time:14:34:11
+Get Map Image Starts-> 14:34:14
+Get Map Image Ends-> 14:34:20
+---------------------Date: 22 June 2015    Time: 14:44:24--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 14:44:24
+Get series Info-> 14:44:24
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:44:24
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:44:24
+Start Get Source Info-> 14:44:24
+End Get Source Info-> 14:44:24
+Template Style Loading.. -> 14:44:24
+GetNSet language string -> 14:44:25
+Set Map layers-> 14:44:25
+  Starts Creating Connection-> 14:44:25
+  Ends Creating Connection-> 14:44:25
+  Starts getting records from Map Server database-> 14:44:25
+  Ends getting records from Map Server database-> 14:44:25
+  Starts adding layers-> 14:44:25
+  Ends adding layers-> 14:44:25
+Get series Data-> 14:44:25
+Create Theme-> 14:44:25
+Set session variable-> 14:44:25
+Start Saving Map into file named-> nd01o55cljb1ysa5ok1x23jn Time:14:44:25
+Get Map Image Starts-> 14:44:25
+Get Map Image Ends-> 14:44:25
+---------------------Date: 22 June 2015    Time: 14:55:41--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 14:55:41
+Get series Info-> 14:55:41
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:55:41
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 14:55:41
+Start Get Source Info-> 14:55:41
+End Get Source Info-> 14:55:41
+Template Style Loading.. -> 14:55:41
+GetNSet language string -> 14:55:41
+Set Map layers-> 14:55:41
+  Starts Creating Connection-> 14:55:41
+  Ends Creating Connection-> 14:55:41
+  Starts getting records from Map Server database-> 14:55:41
+  Ends getting records from Map Server database-> 14:55:41
+  Starts adding layers-> 14:55:41
+  Ends adding layers-> 14:55:41
+Get series Data-> 14:55:41
+Create Theme-> 14:55:41
+Set session variable-> 14:55:41
+Start Saving Map into file named-> wqccpsnvwyucourz3vxsp1mo Time:14:55:41
+Get Map Image Starts-> 14:55:41
+Get Map Image Ends-> 14:55:41
+---------------------Date: 22 June 2015    Time: 15:11:00--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 15:11:00
+Get series Info-> 15:11:00
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 15:11:00
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 15:11:00
+Start Get Source Info-> 15:11:00
+End Get Source Info-> 15:11:00
+Template Style Loading.. -> 15:11:00
+GetNSet language string -> 15:11:00
+Set Map layers-> 15:11:00
+  Starts Creating Connection-> 15:11:00
+  Ends Creating Connection-> 15:11:00
+  Starts getting records from Map Server database-> 15:11:00
+  Ends getting records from Map Server database-> 15:11:00
+  Starts adding layers-> 15:11:00
+  Ends adding layers-> 15:11:00
+Get series Data-> 15:11:00
+Create Theme-> 15:11:00
+Set session variable-> 15:11:00
+Start Saving Map into file named-> i4fbgkpvwv3wn3rgvy02mgvp Time:15:11:00
+Get Map Image Starts-> 15:11:00
+Get Map Image Ends-> 15:11:00
+---------------------Date: 22 June 2015    Time: 17:29:00--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 17:29:00
+Get series Info-> 17:29:00
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 17:29:00
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 17:29:00
+Start Get Source Info-> 17:29:00
+End Get Source Info-> 17:29:00
+Template Style Loading.. -> 17:29:00
+GetNSet language string -> 17:29:00
+Set Map layers-> 17:29:00
+  Starts Creating Connection-> 17:29:00
+  Ends Creating Connection-> 17:29:00
+  Starts getting records from Map Server database-> 17:29:00
+  Ends getting records from Map Server database-> 17:29:00
+  Starts adding layers-> 17:29:01
+  Ends adding layers-> 17:29:01
+Get series Data-> 17:29:01
+Create Theme-> 17:29:01
+Set session variable-> 17:29:01
+Start Saving Map into file named-> i4fbgkpvwv3wn3rgvy02mgvp Time:17:29:01
+Get Map Image Starts-> 17:29:01
+Get Map Image Ends-> 17:29:01
+---------------------Date: 23 June 2015    Time: 10:51:31--------------------
+Starts Deleting files
+Starts InitiaizeMap
+Get map Object-> 10:51:33
+Get series Info-> 10:51:34
+Start getting IUSs Nmaes from Procedure sp_getIUSNames_-> 10:51:34
+Ends getting IUSs Nmaes from Procedure sp_getIUSNames_-> 10:51:34
+Start Get Source Info-> 10:51:34
+End Get Source Info-> 10:51:34
+Template Style Loading.. -> 10:51:35
+GetNSet language string -> 10:51:36
+Set Map layers-> 10:51:36
+  Starts Creating Connection-> 10:51:36
+  Ends Creating Connection-> 10:51:36
+  Starts getting records from Map Server database-> 10:51:36
+  Ends getting records from Map Server database-> 10:51:36
+  Starts adding layers-> 10:51:40
+  Ends adding layers-> 10:51:40
+Get series Data-> 10:51:41
+Create Theme-> 10:51:41
+Set session variable-> 10:51:41
+Start Saving Map into file named-> nfwf5humet5psqytxuzix0da Time:10:51:41
+Get Map Image Starts-> 10:51:42
+Get Map Image Ends-> 10:51:43

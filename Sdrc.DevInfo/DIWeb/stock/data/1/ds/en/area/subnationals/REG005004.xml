@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Dumra" nID="2845" aID="REG005004001" isGlobal="F" parentID="REG005004" parentName="Sitamarhi" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="449" />
+  <area name="Majorganj" nID="2846" aID="REG005004002" isGlobal="F" parentID="REG005004" parentName="Sitamarhi" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="449" />
+  <area name="Parsauni" nID="2848" aID="REG005004004" isGlobal="F" parentID="REG005004" parentName="Sitamarhi" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="449" />
+  <area name="Rega" nID="2847" aID="REG005004003" isGlobal="F" parentID="REG005004" parentName="Sitamarhi" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="449" />
+</AreaList>

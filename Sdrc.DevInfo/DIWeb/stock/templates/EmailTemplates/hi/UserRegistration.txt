@@ -1,0 +1,37 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - खाते की आवश्यकता सक्रियण[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    प्रिय [****]USER_NAME[****],
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    आपने सफलतापूर्वक करने के लिए पंजीकृत किया गया है [****]ADAPTATION_NAME[****] - <a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a> निम्नलिखित विवरण के साथ:
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    प्रयोक्ता आईडी: <a href="mailto:[****]USER_EMAILID[****]">[****]USER_EMAILID[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    रजिस्ट्री उपयोगकर्ता भूमिकाएँ: डाटा उपभोक्ता
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+   डाटा उपभोक्ता आईडी: [****]DATA_CONSUMER_ID[****] <i><font color="7F7F7F">(नोट: SDMX रजिस्ट्री सेवाओं का उपयोग करने के लिए इस आईडी का उपयोग करें)</font></i>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>खाता सक्रियण</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   कृपया अपना खाता सक्रिय करने के लिए नीचे दिए गए लिंक पर क्लिक करें
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    <a href="[****]ACTIVATION_URL[****]">[****]ACTIVATION_URL[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    यदि आप किसी भी अपने खाते या वेब अनुप्रयोग के बारे में प्रश्न है, तो कृपया हमसे सीधे संपर्क करें <a href="mailto:[****]EMAILID_DB_ADMIN[****]">[****]EMAILID_DB_ADMIN[****]</a>
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    सादर,
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Webmaster - [****]ADAPTATION_NAME[****]
+</p>
+</p>

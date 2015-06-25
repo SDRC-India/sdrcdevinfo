@@ -1,0 +1,875 @@
+<?xml version="1.0"?>
+<SessionDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CurrentSelectedAreaNids>2995,QS_REG_L2</CurrentSelectedAreaNids>
+  <IsMyData>false</IsMyData>
+  <DataViewNonQDS>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="sessionData" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="sessionData">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="IUNID" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Data_Value" msdata:ReadOnly="true" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2147483647" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IUSNID" type="xs:int" minOccurs="0" />
+                  <xs:element name="AREA_NID" type="xs:int" minOccurs="0" />
+                  <xs:element name="SUBGROUP_VAL_NID" type="xs:int" minOccurs="0" />
+                  <xs:element name="IC_NID" type="xs:int" minOccurs="0" />
+                  <xs:element name="FOOTNOTE_NID" type="xs:int" minOccurs="0" />
+                  <xs:element name="TIMEPERIOD" msdata:ReadOnly="true" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AREA_ID" msdata:ReadOnly="true" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="isMRD" type="xs:boolean" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+      <DocumentElement>
+        <sessionData diffgr:id="sessionData1" msdata:rowOrder="0">
+          <IUNID>1_1</IUNID>
+          <Data_Value>21</Data_Value>
+          <IUSNID>1</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData2" msdata:rowOrder="1">
+          <IUNID>2_1</IUNID>
+          <Data_Value>60</Data_Value>
+          <IUSNID>2</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData3" msdata:rowOrder="2">
+          <IUNID>2_1</IUNID>
+          <Data_Value>36</Data_Value>
+          <IUSNID>2</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData4" msdata:rowOrder="3">
+          <IUNID>2_1</IUNID>
+          <Data_Value>80</Data_Value>
+          <IUSNID>2</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData5" msdata:rowOrder="4">
+          <IUNID>2_1</IUNID>
+          <Data_Value>67</Data_Value>
+          <IUSNID>2</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData6" msdata:rowOrder="5">
+          <IUNID>3_1</IUNID>
+          <Data_Value>85</Data_Value>
+          <IUSNID>3</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData7" msdata:rowOrder="6">
+          <IUNID>3_1</IUNID>
+          <Data_Value>53</Data_Value>
+          <IUSNID>3</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData8" msdata:rowOrder="7">
+          <IUNID>3_1</IUNID>
+          <Data_Value>77</Data_Value>
+          <IUSNID>3</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData9" msdata:rowOrder="8">
+          <IUNID>3_1</IUNID>
+          <Data_Value>82</Data_Value>
+          <IUSNID>3</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData10" msdata:rowOrder="9">
+          <IUNID>4_1</IUNID>
+          <Data_Value>46</Data_Value>
+          <IUSNID>4</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData11" msdata:rowOrder="10">
+          <IUNID>4_1</IUNID>
+          <Data_Value>34</Data_Value>
+          <IUSNID>4</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData12" msdata:rowOrder="11">
+          <IUNID>4_1</IUNID>
+          <Data_Value>77</Data_Value>
+          <IUSNID>4</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData13" msdata:rowOrder="12">
+          <IUNID>4_1</IUNID>
+          <Data_Value>75</Data_Value>
+          <IUSNID>4</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData14" msdata:rowOrder="13">
+          <IUNID>5_1</IUNID>
+          <Data_Value>60</Data_Value>
+          <IUSNID>5</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData15" msdata:rowOrder="14">
+          <IUNID>5_1</IUNID>
+          <Data_Value>30</Data_Value>
+          <IUSNID>5</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData16" msdata:rowOrder="15">
+          <IUNID>5_1</IUNID>
+          <Data_Value>51</Data_Value>
+          <IUSNID>5</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData17" msdata:rowOrder="16">
+          <IUNID>5_1</IUNID>
+          <Data_Value>48</Data_Value>
+          <IUSNID>5</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData18" msdata:rowOrder="17">
+          <IUNID>6_1</IUNID>
+          <Data_Value>78</Data_Value>
+          <IUSNID>6</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData19" msdata:rowOrder="18">
+          <IUNID>6_1</IUNID>
+          <Data_Value>36</Data_Value>
+          <IUSNID>6</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData20" msdata:rowOrder="19">
+          <IUNID>6_1</IUNID>
+          <Data_Value>61</Data_Value>
+          <IUSNID>6</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData21" msdata:rowOrder="20">
+          <IUNID>6_1</IUNID>
+          <Data_Value>44</Data_Value>
+          <IUSNID>6</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData22" msdata:rowOrder="21">
+          <IUNID>7_1</IUNID>
+          <Data_Value>75</Data_Value>
+          <IUSNID>7</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData23" msdata:rowOrder="22">
+          <IUNID>7_1</IUNID>
+          <Data_Value>33</Data_Value>
+          <IUSNID>7</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData24" msdata:rowOrder="23">
+          <IUNID>7_1</IUNID>
+          <Data_Value>58</Data_Value>
+          <IUSNID>7</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData25" msdata:rowOrder="24">
+          <IUNID>7_1</IUNID>
+          <Data_Value>52</Data_Value>
+          <IUSNID>7</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData26" msdata:rowOrder="25">
+          <IUNID>8_1</IUNID>
+          <Data_Value>96</Data_Value>
+          <IUSNID>8</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData27" msdata:rowOrder="26">
+          <IUNID>8_1</IUNID>
+          <Data_Value>38</Data_Value>
+          <IUSNID>8</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData28" msdata:rowOrder="27">
+          <IUNID>8_1</IUNID>
+          <Data_Value>68</Data_Value>
+          <IUSNID>8</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData29" msdata:rowOrder="28">
+          <IUNID>8_1</IUNID>
+          <Data_Value>67</Data_Value>
+          <IUSNID>8</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData30" msdata:rowOrder="29">
+          <IUNID>9_1</IUNID>
+          <Data_Value>77</Data_Value>
+          <IUSNID>9</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData31" msdata:rowOrder="30">
+          <IUNID>9_1</IUNID>
+          <Data_Value>31</Data_Value>
+          <IUSNID>9</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData32" msdata:rowOrder="31">
+          <IUNID>9_1</IUNID>
+          <Data_Value>54</Data_Value>
+          <IUSNID>9</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData33" msdata:rowOrder="32">
+          <IUNID>9_1</IUNID>
+          <Data_Value>42</Data_Value>
+          <IUSNID>9</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData34" msdata:rowOrder="33">
+          <IUNID>10_1</IUNID>
+          <Data_Value>63</Data_Value>
+          <IUSNID>10</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData35" msdata:rowOrder="34">
+          <IUNID>10_1</IUNID>
+          <Data_Value>35</Data_Value>
+          <IUSNID>10</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData36" msdata:rowOrder="35">
+          <IUNID>10_1</IUNID>
+          <Data_Value>70</Data_Value>
+          <IUSNID>10</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData37" msdata:rowOrder="36">
+          <IUNID>10_1</IUNID>
+          <Data_Value>82</Data_Value>
+          <IUSNID>10</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData38" msdata:rowOrder="37">
+          <IUNID>11_1</IUNID>
+          <Data_Value>82</Data_Value>
+          <IUSNID>11</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData39" msdata:rowOrder="38">
+          <IUNID>11_1</IUNID>
+          <Data_Value>58</Data_Value>
+          <IUSNID>11</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData40" msdata:rowOrder="39">
+          <IUNID>11_1</IUNID>
+          <Data_Value>81</Data_Value>
+          <IUSNID>11</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData41" msdata:rowOrder="40">
+          <IUNID>11_1</IUNID>
+          <Data_Value>95</Data_Value>
+          <IUSNID>11</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData42" msdata:rowOrder="41">
+          <IUNID>12_1</IUNID>
+          <Data_Value>40</Data_Value>
+          <IUSNID>12</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData43" msdata:rowOrder="42">
+          <IUNID>12_1</IUNID>
+          <Data_Value>33</Data_Value>
+          <IUSNID>12</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData44" msdata:rowOrder="43">
+          <IUNID>12_1</IUNID>
+          <Data_Value>81</Data_Value>
+          <IUSNID>12</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData45" msdata:rowOrder="44">
+          <IUNID>12_1</IUNID>
+          <Data_Value>73</Data_Value>
+          <IUSNID>12</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData46" msdata:rowOrder="45">
+          <IUNID>13_1</IUNID>
+          <Data_Value>64</Data_Value>
+          <IUSNID>13</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData47" msdata:rowOrder="46">
+          <IUNID>13_1</IUNID>
+          <Data_Value>33</Data_Value>
+          <IUSNID>13</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData48" msdata:rowOrder="47">
+          <IUNID>13_1</IUNID>
+          <Data_Value>58</Data_Value>
+          <IUSNID>13</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData49" msdata:rowOrder="48">
+          <IUNID>13_1</IUNID>
+          <Data_Value>45</Data_Value>
+          <IUSNID>13</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData50" msdata:rowOrder="49">
+          <IUNID>14_1</IUNID>
+          <Data_Value>60</Data_Value>
+          <IUSNID>14</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData51" msdata:rowOrder="50">
+          <IUNID>14_1</IUNID>
+          <Data_Value>30</Data_Value>
+          <IUSNID>14</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData52" msdata:rowOrder="51">
+          <IUNID>14_1</IUNID>
+          <Data_Value>51</Data_Value>
+          <IUSNID>14</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData53" msdata:rowOrder="52">
+          <IUNID>14_1</IUNID>
+          <Data_Value>48</Data_Value>
+          <IUSNID>14</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData54" msdata:rowOrder="53">
+          <IUNID>15_1</IUNID>
+          <Data_Value>97</Data_Value>
+          <IUSNID>15</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData55" msdata:rowOrder="54">
+          <IUNID>15_1</IUNID>
+          <Data_Value>46</Data_Value>
+          <IUSNID>15</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData56" msdata:rowOrder="55">
+          <IUNID>15_1</IUNID>
+          <Data_Value>87</Data_Value>
+          <IUSNID>15</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData57" msdata:rowOrder="56">
+          <IUNID>15_1</IUNID>
+          <Data_Value>79</Data_Value>
+          <IUSNID>15</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData58" msdata:rowOrder="57">
+          <IUNID>16_1</IUNID>
+          <Data_Value>44</Data_Value>
+          <IUSNID>16</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData59" msdata:rowOrder="58">
+          <IUNID>16_1</IUNID>
+          <Data_Value>69</Data_Value>
+          <IUSNID>16</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData60" msdata:rowOrder="59">
+          <IUNID>16_1</IUNID>
+          <Data_Value>0</Data_Value>
+          <IUSNID>16</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData61" msdata:rowOrder="60">
+          <IUNID>17_1</IUNID>
+          <Data_Value>66</Data_Value>
+          <IUSNID>17</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData62" msdata:rowOrder="61">
+          <IUNID>17_1</IUNID>
+          <Data_Value>32</Data_Value>
+          <IUSNID>17</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData63" msdata:rowOrder="62">
+          <IUNID>17_1</IUNID>
+          <Data_Value>66</Data_Value>
+          <IUSNID>17</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData64" msdata:rowOrder="63">
+          <IUNID>17_1</IUNID>
+          <Data_Value>60</Data_Value>
+          <IUSNID>17</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData65" msdata:rowOrder="64">
+          <IUNID>18_1</IUNID>
+          <Data_Value>58</Data_Value>
+          <IUSNID>18</IUSNID>
+          <AREA_NID>2996</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG001</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData66" msdata:rowOrder="65">
+          <IUNID>18_1</IUNID>
+          <Data_Value>40</Data_Value>
+          <IUSNID>18</IUSNID>
+          <AREA_NID>2997</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG002</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData67" msdata:rowOrder="66">
+          <IUNID>18_1</IUNID>
+          <Data_Value>71</Data_Value>
+          <IUSNID>18</IUSNID>
+          <AREA_NID>2998</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG003</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+        <sessionData diffgr:id="sessionData68" msdata:rowOrder="67">
+          <IUNID>18_1</IUNID>
+          <Data_Value>70</Data_Value>
+          <IUSNID>18</IUSNID>
+          <AREA_NID>2999</AREA_NID>
+          <SUBGROUP_VAL_NID>1</SUBGROUP_VAL_NID>
+          <IC_NID>34</IC_NID>
+          <FOOTNOTE_NID>-1</FOOTNOTE_NID>
+          <TIMEPERIOD>2014.12</TIMEPERIOD>
+          <AREA_ID>REG004</AREA_ID>
+          <isMRD>true</isMRD>
+        </sessionData>
+      </DocumentElement>
+    </diffgr:diffgram>
+  </DataViewNonQDS>
+</SessionDetails>

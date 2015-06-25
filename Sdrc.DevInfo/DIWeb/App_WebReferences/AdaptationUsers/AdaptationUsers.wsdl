@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetAllAdaptations">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllAdaptationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllAdaptationsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUsersByAdaptationURL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptationGUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowMasterAccount" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUsersByAdaptationURLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUsersByAdaptationURLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetUserAsAdmin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserNId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptationGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetUserAsAdminResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetUserAsAdminResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGlobalUsers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Adaptation_NId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGlobalUsersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGlobalUsersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUserPassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserNId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CryptedPasswod" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUserPasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateUserPasswordResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreaFromAreaNId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Area_NId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreaFromAreaNIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAreaFromAreaNIdResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreaForUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="User_NId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAreaForUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAreaForUserResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAllAdaptationsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllAdaptations" />
+  </wsdl:message>
+  <wsdl:message name="GetAllAdaptationsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllAdaptationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUsersByAdaptationURLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUsersByAdaptationURL" />
+  </wsdl:message>
+  <wsdl:message name="GetUsersByAdaptationURLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUsersByAdaptationURLResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetUserAsAdminSoapIn">
+    <wsdl:part name="parameters" element="tns:SetUserAsAdmin" />
+  </wsdl:message>
+  <wsdl:message name="SetUserAsAdminSoapOut">
+    <wsdl:part name="parameters" element="tns:SetUserAsAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGlobalUsersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGlobalUsers" />
+  </wsdl:message>
+  <wsdl:message name="GetGlobalUsersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGlobalUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserPasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateUserPassword" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserPasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateUserPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAreaFromAreaNIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAreaFromAreaNId" />
+  </wsdl:message>
+  <wsdl:message name="GetAreaFromAreaNIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAreaFromAreaNIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAreaForUserSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAreaForUser" />
+  </wsdl:message>
+  <wsdl:message name="GetAreaForUserSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAreaForUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AdaptationUsersSoap">
+    <wsdl:operation name="GetAllAdaptations">
+      <wsdl:input message="tns:GetAllAdaptationsSoapIn" />
+      <wsdl:output message="tns:GetAllAdaptationsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersByAdaptationURL">
+      <wsdl:input message="tns:GetUsersByAdaptationURLSoapIn" />
+      <wsdl:output message="tns:GetUsersByAdaptationURLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetUserAsAdmin">
+      <wsdl:input message="tns:SetUserAsAdminSoapIn" />
+      <wsdl:output message="tns:SetUserAsAdminSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGlobalUsers">
+      <wsdl:input message="tns:GetGlobalUsersSoapIn" />
+      <wsdl:output message="tns:GetGlobalUsersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserPassword">
+      <wsdl:input message="tns:UpdateUserPasswordSoapIn" />
+      <wsdl:output message="tns:UpdateUserPasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaFromAreaNId">
+      <wsdl:input message="tns:GetAreaFromAreaNIdSoapIn" />
+      <wsdl:output message="tns:GetAreaFromAreaNIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaForUser">
+      <wsdl:input message="tns:GetAreaForUserSoapIn" />
+      <wsdl:output message="tns:GetAreaForUserSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AdaptationUsersSoap" type="tns:AdaptationUsersSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllAdaptations">
+      <soap:operation soapAction="http://tempuri.org/GetAllAdaptations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersByAdaptationURL">
+      <soap:operation soapAction="http://tempuri.org/GetUsersByAdaptationURL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUserAsAdmin">
+      <soap:operation soapAction="http://tempuri.org/SetUserAsAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGlobalUsers">
+      <soap:operation soapAction="http://tempuri.org/GetGlobalUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserPassword">
+      <soap:operation soapAction="http://tempuri.org/UpdateUserPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaFromAreaNId">
+      <soap:operation soapAction="http://tempuri.org/GetAreaFromAreaNId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaForUser">
+      <soap:operation soapAction="http://tempuri.org/GetAreaForUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AdaptationUsersSoap12" type="tns:AdaptationUsersSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllAdaptations">
+      <soap12:operation soapAction="http://tempuri.org/GetAllAdaptations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersByAdaptationURL">
+      <soap12:operation soapAction="http://tempuri.org/GetUsersByAdaptationURL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUserAsAdmin">
+      <soap12:operation soapAction="http://tempuri.org/SetUserAsAdmin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGlobalUsers">
+      <soap12:operation soapAction="http://tempuri.org/GetGlobalUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserPassword">
+      <soap12:operation soapAction="http://tempuri.org/UpdateUserPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaFromAreaNId">
+      <soap12:operation soapAction="http://tempuri.org/GetAreaFromAreaNId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAreaForUser">
+      <soap12:operation soapAction="http://tempuri.org/GetAreaForUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AdaptationUsers">
+    <wsdl:port name="AdaptationUsersSoap" binding="tns:AdaptationUsersSoap">
+      <soap:address location="http://localhost:9990/AdaptationUsers.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AdaptationUsersSoap12" binding="tns:AdaptationUsersSoap12">
+      <soap12:address location="http://localhost:9990/AdaptationUsers.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

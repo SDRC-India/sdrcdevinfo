@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Ariari" nID="2903" aID="REG005026001" isGlobal="F" parentID="REG005026" parentName="Sheikhpura" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="473" />
+  <area name="Chewara" nID="2904" aID="REG005026002" isGlobal="F" parentID="REG005026" parentName="Sheikhpura" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="473" />
+  <area name="Sheikhpura Sadar" nID="2905" aID="REG005026006" isGlobal="F" parentID="REG005026" parentName="Sheikhpura" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="473" />
+</AreaList>

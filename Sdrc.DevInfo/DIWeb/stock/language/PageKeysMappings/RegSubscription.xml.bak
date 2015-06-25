@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  
+  <Associate MasterKey="Subscribe_Page_Title" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Subscribe_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Add_New_Subscription" ElementID="btnAddNew" ElementProperty="value" />
+  <Associate MasterKey="List_of_Subscriptions" ElementID="lang_List_of_Subscriptions" ElementProperty="innerHTML" />
+  <Associate MasterKey="Subscription_Details" ElementID="lang_Subscription_Details" ElementProperty="innerHTML" />
+  <Associate MasterKey="Notification_Mail" ElementID="lang_Notification_Mail" ElementProperty="innerHTML" />
+  <Associate MasterKey="SOAP_Protocol" ElementID="lang_SOAP_Protocol" ElementProperty="innerHTML" />
+  <Associate MasterKey="Notification_HTTP" ElementID="lang_Notification_HTTP" ElementProperty="innerHTML" />
+  <Associate MasterKey="Validity_Period" ElementID="lang_Validity_Period" ElementProperty="innerHTML" />
+  <Associate MasterKey="Start_Date" ElementID="lang_Start_Date" ElementProperty="innerHTML" />
+  <Associate MasterKey="End_Date" ElementID="lang_End_Date" ElementProperty="innerHTML" />
+  <Associate MasterKey="Event_Selector" ElementID="lang_Event_Selector" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data_Registration" ElementID="lang_Data_Registration" ElementProperty="innerHTML" />
+  <Associate MasterKey="Metadata_Registration" ElementID="lang_Metadata_Registration" ElementProperty="innerHTML" />
+  <Associate MasterKey="Structural_Metadata_Registration" ElementID="lang_Structural_Metadata_Registration" ElementProperty="innerHTML" />
+  <Associate MasterKey="Category" ElementID="lang_Category" ElementProperty="innerHTML" />
+  <Associate MasterKey="Metadata_Flows" ElementID="lang_Metadata_Flows" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_MFD" ElementID="lang_Select_MFD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Add" ElementID="btnAddSubscription" ElementProperty="value" />
+  <Associate MasterKey="Update" ElementID="btnUpdateSubscription" ElementProperty="value" />
+  <Associate MasterKey="Delete_Subscription" ElementID="btnDeleteSubscription" ElementProperty="value" />
+
+  <Associate MasterKey="Help_Add_Subscription_Title" ElementID="span_Help_Add_Subscription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Add_Subscription_Desc" ElementID="i_Help_Add_Subscription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Subscription_Title" ElementID="span_Help_Subscription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Subscription_Desc" ElementID="i_Help_Subscription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Notification_Mail_Title" ElementID="span_Help_Notification_Mail" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Notification_Mail_Desc" ElementID="i_Help_Notification_Mail" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Notification_HTTP_Title" ElementID="span_Help_Notification_HTTP" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Notification_HTTP_Desc" ElementID="i_Help_Notification_HTTP" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_SOAP_Protocol_Subscription_Title" ElementID="span_Help_SOAP_Protocol_Subscription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_SOAP_Protocol_Subscription_Desc" ElementID="i_Help_SOAP_Protocol_Subscription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Event_Selector_Title" ElementID="span_Help_Event_Selector" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Event_Selector_Desc" ElementID="i_Help_Event_Selector" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="Help_Lang_Pref_Title" ElementID="span_Help_Lang_Pref" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Lang_Pref_Desc" ElementID="i_Help_Lang_Pref" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="lang_Subscription" ElementID="hSubscription" ElementProperty="value" />
+  <Associate MasterKey="lang_Email" ElementID="hEmail" ElementProperty="value" />
+  <Associate MasterKey="lang_Web_Service_Address" ElementID="hWebServiceAddress" ElementProperty="value" />
+  <Associate MasterKey="Start_Date" ElementID="hStartDate" ElementProperty="value" />
+  <Associate MasterKey="End_Date" ElementID="hEndDate" ElementProperty="value" />
+  <Associate MasterKey="Event_Type" ElementID="hEventType" ElementProperty="value" />
+  <Associate MasterKey="lang_Action" ElementID="hAction" ElementProperty="value" />
+  
+  <Associate MasterKey="View" ElementID="hView" ElementProperty="value" />
+  <Associate MasterKey="Edit" ElementID="hEdit" ElementProperty="value" />
+  <Associate MasterKey="Delete" ElementID="hDelete" ElementProperty="value" />
+
+  <Associate MasterKey="lang_Message" ElementID="hMessage" ElementProperty="value" />
+  <Associate MasterKey="lang_Error_Occurred" ElementID="hErrorOccurred" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Registry_URN" ElementID="hMsgRegistryURN" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_NotificationMail_HTTP" ElementID="hMsgNotificationMailHTTP" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Subscriber_Assigned_Id" ElementID="hMsgSubscriberAssignedId" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Start_Date" ElementID="hMsgStartDate" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_End_Date" ElementID="hMsgEndDate" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Invalid_Email" ElementID="hMsgInvalidEmail" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Category" ElementID="hMsgCategory" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_MFD" ElementID="hMsgMFD" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Subcription_Details_Cannot_Be_Retrieved" ElementID="hMsgSubcriptionDetailsNotRetrieved" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Delete_Subscription" ElementID="hMsgDeleteSubscription" ElementProperty="value" />
+  <Associate MasterKey="Lang_preference" ElementID="lang_preference" ElementProperty="innerHTML" />
+  <Associate MasterKey="Lang_preference" ElementID="hLangPref" ElementProperty="value" />
+</root>

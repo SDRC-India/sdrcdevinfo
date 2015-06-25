@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Bhagwanpur" nID="2893" aID="REG005018005" isGlobal="F" parentID="REG005018" parentName="Vaishali" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="465" />
+  <area name="Bidupur" nID="2891" aID="REG005018003" isGlobal="F" parentID="REG005018" parentName="Vaishali" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="465" />
+  <area name="Goraul" nID="2892" aID="REG005018004" isGlobal="F" parentID="REG005018" parentName="Vaishali" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="465" />
+  <area name="Hajipur Urban" nID="2894" aID="REG005018007" isGlobal="F" parentID="REG005018" parentName="Vaishali" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="465" />
+  <area name="Mahnar" nID="2890" aID="REG005018002" isGlobal="F" parentID="REG005018" parentName="Vaishali" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="465" />
+</AreaList>

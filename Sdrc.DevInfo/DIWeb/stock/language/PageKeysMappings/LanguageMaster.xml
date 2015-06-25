@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="LanguageSettings" ElementID="lang_lm_LanguageSettings" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Configure_Site_MLang" ElementID="langConfigure_Site_MLang" ElementProperty="innerHTML" />
+  <Associate MasterKey="AvailableLanguages" ElementID="langAvailableLanguages" ElementProperty="innerHTML" />
+  <Associate MasterKey="New" ElementID="lang_lm_New" ElementProperty="innerHTML" />
+  <Associate MasterKey="Edit" ElementID="lang_lm_Edit" ElementProperty="innerHTML" />
+  <Associate MasterKey="Delete" ElementID="lang_lm_Delete" ElementProperty="innerHTML" />  
+  <Associate MasterKey="GeneratePageXMLs" ElementID="langGeneratePageXMLs" ElementProperty="value" />
+
+  <Associate MasterKey="Language" ElementID="lang_Language" ElementProperty="innerHTML" />
+  <Associate MasterKey="Language_Name" ElementID="lang_Language_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Language_Code" ElementID="lang_Language_Code" ElementProperty="innerHTML" />
+  <Associate MasterKey="Right-to-Left" ElementID="lang_Right-to-Left" ElementProperty="innerHTML" />
+  <Associate MasterKey="Save" ElementID="btnSave" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnCancel" ElementProperty="value" />
+
+  <Associate MasterKey="ImportXML" ElementID="lang_lm_ImportXML" ElementProperty="innerHTML"/>
+  <Associate MasterKey="ExportXML" ElementID="lang_lm_ExportXML" ElementProperty="innerHTML"/>
+  
+</root>
+

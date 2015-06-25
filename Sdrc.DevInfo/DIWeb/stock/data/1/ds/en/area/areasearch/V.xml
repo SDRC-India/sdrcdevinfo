@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Vaishali" id="IND010008018" l="3" nid="2572" pnid="2526" dataexists="T" isblock="F" lnid="56" />
+  <a n="Vaishali" id="REG005018" l="3" nid="2769" pnid="2741" dataexists="T" isblock="F" lnid="541" />
+  <a n="Vaishali - Level 4" id="QS_REG005018_L4" l="4" nid="QS_REG005018_L4" pnid="2769" dataexists="F" isblock="F" lnid="0" />
+</AreaList>

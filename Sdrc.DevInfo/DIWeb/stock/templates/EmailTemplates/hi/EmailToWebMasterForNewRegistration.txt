@@ -1,0 +1,34 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - डेटा प्रदाता अनुरोध[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    व्यवस्थापक प्रिय,
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    आप निम्नलिखित विवरण के साथ डेटा प्रदाता अधिकारों के लिए एक अनुरोध प्राप्त हुआ है:
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    प्रयोक्ता आईडी: <a href="mailto:[****]USER_EMAILID[****]">[****]USER_EMAILID[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    प्रयोक्ता नाम:[****]USER_NAME[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    देश: [****]COUNTRY[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>कृपया ध्यान दें:</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   आदेश में उपयोगकर्ता के लिए डेटा प्रदाता अधिकार देने के लिए, पर व्यवस्थापक के रूप में लॉगिन करें [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    रजिस्ट्री इंटरफ़ेस का उपयोग करने के लिए सभी पंजीकृत उपयोगकर्ताओं की सूची का उपयोग करने के लिए और उन्हें डेटा प्रदाता के लिए अधिकार प्रदान करने के लिए.
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   सादर,
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Webmaster - [****]ADAPTATION_NAME[****]
+</p>
+</p>

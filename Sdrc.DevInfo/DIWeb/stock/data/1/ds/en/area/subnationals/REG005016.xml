@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Daraunda " nID="2868" aID="REG005016002" isGlobal="F" parentID="REG005016" parentName="Siwan" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="462" />
+  <area name="Jeeradei" nID="2867" aID="REG005016001" isGlobal="F" parentID="REG005016" parentName="Siwan" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="462" />
+  <area name="Pachrukhi" nID="2869" aID="REG005016003" isGlobal="F" parentID="REG005016" parentName="Siwan" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="462" />
+</AreaList>

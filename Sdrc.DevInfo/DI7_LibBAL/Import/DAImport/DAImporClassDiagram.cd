@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.DIData">
+    <Position X="0.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\DIData.cs</FileName>
+      <HashCode>a4IBSKXQDCnIIgUiIkQAAAMgMlJAAFQRoSIiJGgkxQA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.DIData.IncrementProgressBar" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Import\DAImport\DIData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.DIData.InitializeProgressBar" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Import\DAImport\DIData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.DIData.CloseProgressBar" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Import\DAImport\DIData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.DIDataFactory">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\DIDataFactory.cs</FileName>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.MappedInfoGenerator">
+    <Position X="10.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\MappedInfoGenerator.cs</FileName>
+      <HashCode>ABADAAQAAAAAAAAAIIAAiAAAEAAgAAEBDAYEgAACQIA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.MappedInfoGenerator.Constants" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Import\DAImport\MappedInfoGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Log.HTMLLog">
+    <Position X="3.25" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Log\HTMLLog.cs</FileName>
+      <HashCode>AgQDAgABAAkEAAEAIAAAAgABIAIAAEAAAEDCgAAAMAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.DES.DataEntrySpreadsheets">
+    <Position X="3.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\DES\DataEntrySpreadsheet.cs</FileName>
+      <HashCode>AIAAAAAAACCACAAAAIAAAAAAAAAAAAAAAAQBEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.DES.DESCellAddress">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\DES\DESCellAddress.cs</FileName>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAEEAAAAAAAIAAAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Database.AssistantImporter">
+    <Position X="5.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Database\AssistantImporter.cs</FileName>
+      <HashCode>AEAAAAAA5AEAAAABAAAAgAEAAAAAAAAAAQAAAAgAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Database.AssistantQueries" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Database\AssistantQueries.cs</FileName>
+      <HashCode>ACBAAAAAAAAAAAAAIAAAAAAAAAAAAAACBAAAABAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Database.Database">
+    <Position X="3.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Database\Database.cs</FileName>
+      <HashCode>AIAAAAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Database.NotesImporter">
+    <Position X="8" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Database\NotesImporter.cs</FileName>
+      <HashCode>AEAMAAgAQgFAAAAARAQCAAAAAAAQAAgEAQABAAogAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Database.NotesQueries" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Database\NotesQueries.cs</FileName>
+      <HashCode>AhAABEEABEgJCIAAgCAYCAhQUBJgAAAIggACAABEAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Common.UnmatchedElementsInfo">
+    <Position X="5.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Common1\UnmatchedElementsInfo.cs</FileName>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAIAIEAAAACAAgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Common.MappedElementInfo">
+    <Position X="8" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Common1\MappedElementInfo.cs</FileName>
+      <HashCode>AAAAEAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Common.Constants" Collapsed="true">
+    <Position X="10.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Common1\Constants.cs</FileName>
+      <HashCode>AAAAAAAAAAAAASABAAAIBRABAAAAAAAAAAAAAEAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Common.ImportQueries" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Common1\ImportQueries.cs</FileName>
+      <HashCode>gAAgASHAIAAEAwKIEiCgABYIEAJAEBIAiAAATAAISCE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Common.RequiredDIElementsType">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Common1\RequiredDIElementsType.cs</FileName>
+      <HashCode>AAAAQAAAAAAAAAAAIAAAAAAAABAAAAAAABAAAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DevInfo.Lib.DI_LibBAL.Import.DAImport.Common.DIImportFileType">
+    <Position X="10.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Import\DAImport\Common1\DIImportFileType.cs</FileName>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

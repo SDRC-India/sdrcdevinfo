@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Pattarghat" id="IND010001012002" nid="2589" pnid="2527" dataexists="T" lnid="140" />
+  <a n="Piprarhi" id="IND010004003001" nid="2633" pnid="2527" dataexists="T" lnid="200" />
+  <a n="Pothia" id="IND010001008003" nid="2584" pnid="2527" dataexists="T" lnid="94" />
+  <a n="Punpun" id="IND010008028001" nid="2669" pnid="2527" dataexists="T" lnid="359" />
+  <a n="Purnahiya" id="IND010004003003" nid="2635" pnid="2527" dataexists="T" lnid="204" />
+  <a n="Purnea East" id="IND010001009004" nid="2578" pnid="2527" dataexists="T" lnid="112" />
+  <a n="Purnia" id="IND010001009" nid="2537" pnid="2526" dataexists="T" lnid="8" />
+  <a n="Purnia" id="REG005009" nid="2745" pnid="2741" dataexists="T" lnid="531" />
+  <a n="R.K. Nagar PHC" id="IND018018002" nid="3043" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Raghopur" id="IND010001006003" nid="2597" pnid="2527" dataexists="T" lnid="78" />
+  <a n="Rahui" id="IND010008027001" nid="2687" pnid="2527" dataexists="T" lnid="324" />
+  <a n="Rainadabari MPHC" id="IND018001002" nid="3039" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Rajaun" id="IND010002023001" nid="2604" pnid="2527" dataexists="T" lnid="157" />
+  <a n="Rajpur" id="IND010008030003" nid="2716" pnid="2527" dataexists="T" lnid="299" />
+  <a n="Ramgarh Chowk" id="IND010002025003" nid="2615" pnid="2527" dataexists="T" lnid="171" />
+  <a n="Raniganj" id="IND010001007003" nid="2580" pnid="2527" dataexists="T" lnid="86" />
+  <a n="Rega" id="IND010004004003" nid="2631" pnid="2527" dataexists="T" lnid="210" />
+  <a n="Revelganj" id="IND010006017003" nid="2645" pnid="2527" dataexists="T" lnid="256" />
+  <a n="Roh" id="IND010008035001" nid="2691" pnid="2527" dataexists="T" lnid="289" />
+  <a n="Rohtas" id="IND010007032" nid="2561" pnid="2526" dataexists="T" lnid="50" />
+  <a n="Rohtas" id="REG005032" nid="2766" pnid="2741" dataexists="T" lnid="555" />
+  <a n="Rongmongwe PHC" id="IND018015001" nid="3062" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Rupauli" id="IND010001009012" nid="2718" pnid="2527" dataexists="T" lnid="427" />
+  <a n="RVS Aurangabad" id="IND010007" nid="2535" pnid="2525" dataexists="T" lnid="510" />
+  <a n="RVS Bhagalpur" id="IND010002" nid="2530" pnid="2525" dataexists="T" lnid="513" />
+  <a n="RVS Darbhanga" id="IND010003" nid="2531" pnid="2525" dataexists="T" lnid="514" />
+  <a n="RVS E.Champaran" id="IND010005" nid="2533" pnid="2525" dataexists="T" lnid="0" />
+  <a n="RVS Muzaffarpur" id="IND010004" nid="2532" pnid="2525" dataexists="T" lnid="507" />
+  <a n="RVS Purnia" id="IND010001" nid="2529" pnid="2525" dataexists="T" lnid="512" />
+  <a n="RVS Saran" id="IND010006" nid="2534" pnid="2525" dataexists="T" lnid="509" />
+  <a n="Sabour" id="IND010002022001" nid="2600" pnid="2527" dataexists="T" lnid="147" />
+  <a n="Sadar Arwal" id="IND010007038001" nid="2666" pnid="2527" dataexists="T" lnid="332" />
+  <a n="Saharsa" id="IND010001012" nid="2541" pnid="2526" dataexists="T" lnid="14" />
+  <a n="Saharsa" id="REG005012" nid="2748" pnid="2741" dataexists="T" lnid="535" />
+  <a n="Sahebpur Kamal" id="IND010008020002" nid="2681" pnid="2527" dataexists="T" lnid="352" />
+  <a n="Sakra" id="IND010004014004" nid="2628" pnid="2527" dataexists="T" lnid="220" />
+  <a n="Samastipur" id="IND010003019" nid="2551" pnid="2526" dataexists="T" lnid="30" />
+  <a n="Samastipur" id="REG005019" nid="2756" pnid="2741" dataexists="T" lnid="542" />
+  <a n="Saraigarh Bhaptiyahi" id="IND010001006004" nid="2598" pnid="2527" dataexists="T" lnid="81" />
+  <a n="Sarairanjan" id="IND010003019003" nid="2624" pnid="2527" dataexists="T" lnid="198" />
+  <a n="Saran" id="IND010006017" nid="2557" pnid="2526" dataexists="T" lnid="46" />
+  <a n="Saran" id="REG005017" nid="2764" pnid="2741" dataexists="T" lnid="540" />
+  <a n="Sasaram Rural" id="IND010007032005" nid="2659" pnid="2527" dataexists="T" lnid="272" />
+  <a n="Shambhuganj" id="IND010002023002" nid="2605" pnid="2527" dataexists="T" lnid="159" />
+  <a n="Sheikhpura" id="IND010008026" nid="2567" pnid="2526" dataexists="T" lnid="62" />
+  <a n="Sheikhpura" id="REG005026" nid="2772" pnid="2741" dataexists="T" lnid="549" />
+  <a n="Sheikhpura Sadar" id="IND010008026006" nid="2686" pnid="2527" dataexists="T" lnid="321" />
+  <a n="Sheohar" id="IND010004003" nid="2554" pnid="2526" dataexists="T" lnid="32" />
+  <a n="Sheohar" id="IND010004003002" nid="2634" pnid="2527" dataexists="T" lnid="202" />
+  <a n="Sheohar" id="REG005003" nid="2757" pnid="2741" dataexists="T" lnid="488" />
+  <a n="Sheosagar" id="IND010007032001" nid="2657" pnid="2527" dataexists="T" lnid="268" />
+  <a n="Sherghati" id="IND010008034006" nid="2703" pnid="2527" dataexists="T" lnid="418" />
+  <a n="Sikandra" id="IND010002036004" nid="2613" pnid="2527" dataexists="T" lnid="181" />
+  <a n="Singheshwar" id="IND010001011004" nid="2595" pnid="2527" dataexists="T" lnid="136" />
+  <a n="Sissia Bokulani SD" id="IND018011002" nid="3084" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Sitamarhi" id="IND010004004" nid="2553" pnid="2526" dataexists="T" lnid="34" />
+  <a n="Sitamarhi" id="REG005004" nid="2758" pnid="2741" dataexists="T" lnid="489" />
+  <a n="Sivasagar" id="IND018012" nid="3012" pnid="2998" dataexists="T" lnid="582" />
+  <a n="Siwan" id="IND010006016" nid="2558" pnid="2526" dataexists="T" lnid="44" />
+  <a n="Siwan" id="REG005016" nid="2763" pnid="2741" dataexists="T" lnid="539" />
+  <a n="Solmora BPHC" id="IND018013002" nid="3075" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Sonbarsa" id="IND010001012004" nid="2591" pnid="2527" dataexists="T" lnid="145" />
+  <a n="Sonitpur" id="IND018007" nid="3007" pnid="2998" dataexists="T" lnid="578" />
+  <a n="Sonitpur" id="RVS_004" nid="3067" pnid="2997" dataexists="T" lnid="571" />
+  <a n="Sono" id="IND010002036002" nid="2611" pnid="2527" dataexists="T" lnid="177" />
+  <a n="Sour Bazar" id="IND010001012003" nid="2590" pnid="2527" dataexists="T" lnid="144" />
+  <a n="Sultanganj" id="IND010002022004" nid="2603" pnid="2527" dataexists="T" lnid="155" />
+  <a n="Supaul" id="IND010001006" nid="2543" pnid="2526" dataexists="T" lnid="2" />
+  <a n="Supaul" id="REG005006" nid="2742" pnid="2741" dataexists="T" lnid="528" />
+  <a n="Supaul Sadar" id="IND010001006012" nid="2599" pnid="2527" dataexists="T" lnid="82" />
+  <a n="SVS Guwahati" id="IND018" nid="3000" pnid="2996" dataexists="T" lnid="568" />
+  <a n="SVS Patna" id="IND010" nid="2528" pnid="2524" dataexists="T" lnid="0" />
+  <a n="Tankuppa" id="IND010008034004" nid="2701" pnid="2527" dataexists="T" lnid="414" />
+  <a n="Tekari" id="IND010008034008" nid="2705" pnid="2527" dataexists="T" lnid="422" />
+  <a n="Thave" id="IND010006015001" nid="2649" pnid="2527" dataexists="T" lnid="239" />
+  <a n="Tilouthu" id="IND010007032004" nid="2658" pnid="2527" dataexists="T" lnid="270" />
+  <a n="Tinsukia" id="IND018010" nid="3010" pnid="2998" dataexists="T" lnid="0" />
+  <a n="Udakishunganj" id="IND010001011002" nid="2593" pnid="2527" dataexists="T" lnid="132" />
+  <a n="Udalguri" id="IND018027" nid="3027" pnid="2998" dataexists="T" lnid="597" />
+  <a n="Udwantnagar" id="IND010008029003" nid="2713" pnid="2527" dataexists="T" lnid="306" />
+  <a n="Vaishali" id="IND010008018" nid="2572" pnid="2526" dataexists="T" lnid="56" />
+  <a n="Vaishali" id="REG005018" nid="2769" pnid="2741" dataexists="T" lnid="541" />
+  <a n="Warsaliganj" id="IND010008035004" nid="2694" pnid="2527" dataexists="T" lnid="295" />
+  <a n="Wazirganj" id="IND010008034022" nid="2722" pnid="2527" dataexists="T" lnid="443" />
+</AreaList>

@@ -1,0 +1,172 @@
+/*
+	AnythingSlider v1.5.10 Metallic Theme
+	By Rob Garrison
+*/
+
+/****** SET COLORS HERE *******/
+/* Default State */
+div.anythingSlider-metallic .anythingWindow {
+	/*border-top: 3px solid #333;
+	border-bottom: 3px solid #333;*/
+	border:2px solid #bfbfbf;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-webkit-box-radius:5px; 	
+}
+div.anythingSlider-metallic .anythingControls ul a {
+	/*border: 1px solid #000;*/
+}
+div.anythingSlider-metallic .start-stop {
+	/*border: 1px solid #000;*/
+	background:url(../images/home_slider/hm_slder_play_bttn.png) no-repeat 2px 2px; /*IE7 & rtl too */
+}
+div.anythingSlider-metallic .start-stop.playing {
+	/*background-color: #300;*/
+	background:url(../images/home_slider/hm_slder_play_bttn.png) no-repeat 2px 2px; /*IE7 & rtl too */
+}
+div.anythingSlider-metallic .start-stop:hover, div.anythingSlider-metallic .start-stop.hover {
+	/*color: #ddd;*/
+	background:url(../images/home_slider/hm_slder_play_bttn.png) no-repeat 2px 2px; /*IE7 & rtl too */
+}
+
+/* Active State */
+div.anythingSlider-metallic.activeSlider .anythingWindow {
+	/*border-color: #0355a3;*/
+	border-color: #bfbfbf;
+}
+div.anythingSlider-metallic.activeSlider .anythingControls ul a {
+	/*background-color: transparent;
+	background-position: -68px -40px;*/
+	background:url(../images/home_slider/slidebttn.png) no-repeat;	
+}
+div.anythingSlider-metallic.activeSlider .anythingControls ul a:hover, div.anythingSlider-metallic.activeSlider .anythingControls ul a.cur {
+
+	background:url(../images/home_slider/slidebttn_selected.png) no-repeat;	
+	/*background:#8a8a8a;*/
+}
+div.anythingSlider-metallic.activeSlider .start-stop.playing {
+	/*background-color: #f00;*/
+	background:url(../images/home_slider/hm_slder_pause_bttn.png) no-repeat 2px 2px; /*IE7 too */
+}
+div.anythingSlider-metallic .start-stop:hover, div.anythingSlider-metallic .start-stop.hover {
+	color: #fff;
+}
+
+/* Navigation Arrows */
+div.anythingSlider-metallic .arrow {
+	/*top: 50%;*/
+	top: 56%;
+	position: absolute;
+	display: block;
+	z-index: 100;
+}
+div.anythingSlider-metallic .arrow a {
+	display: block;
+	height: 43px;
+	margin-top: -47px; /* half height of image */
+	/*margin-top: -47px; /* half height of image 
+	height: 91px;width: 45px; */
+	width: 24px;
+	outline: 0;
+	background: url(../images/home_slider/arrows-metallic.png) no-repeat;
+}
+
+/*div.anythingSlider-metallic .forward { right: 0; }
+div.anythingSlider-metallic .back { left: 0; }*/
+div.anythingSlider-metallic .forward { /*right:-29px;right:-7px;*/right:-30px; }
+div.anythingSlider-metallic .back { /*left:-25px;left:-3px;*/left:-26px; }
+/*:root div.anythingSlider-metallic .forward { right:-29px; } rtl SPECIFIC */
+/*:root div.anythingSlider-metallic .back { left:-40px; } rtl SPECIFIC */
+div.anythingSlider-metallic .forward a { background-position: right bottom; }
+div.anythingSlider-metallic .back a { background-position: left bottom; }
+div.anythingSlider-metallic .forward a:hover, div.anythingSlider-metallic .forward a.hover { background-position: right top; }
+div.anythingSlider-metallic .back a:hover, div.anythingSlider-metallic .back a.hover { background-position: left top; }
+
+/* Navigation Links */
+div.anythingSlider-metallic .anythingControls {
+	float: right;
+	position: absolute;
+	bottom: 0;
+	/* right: 17%; /* IE7 too */ /* rtl-o */
+	right: 15%; /* IE7 too */ /* rtl-o */
+	z-index: 100;
+	opacity: 0.90;
+	filter: alpha(opacity=90);
+}
+div.anythingSlider-metallic .anythingControls ul {
+	margin: 0;
+	z-index: 100;
+}
+div.anythingSlider-metallic .anythingControls ul li {
+	display: block;
+	float: left; /* rtl-o */
+}
+div.anythingSlider-metallic .anythingControls ul a {
+	display: block;
+	background: transparent url(../images/home_slider/arrows-metallic.png) -68px -136px no-repeat;
+	height: 11px; /* IE7 too */
+	width: 11px; /* IE7 too */
+	margin: 3px;
+	padding: 0;
+	outline: 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.anythingSlider-metallic .anythingControls ul a:hover, div.anythingSlider-metallic .anythingControls ul a.cur {
+	background: transparent url(../images/home_slider/arrows-metallic.png) -76px -57px no-repeat;
+}
+
+/* Navigation size window arrows */
+div.anythingSlider-metallic .anythingControls li.next a span, div.anythingSlider-metallic .anythingControls li.prev a span {
+	text-indent: 1px;
+	margin-top: 3px;
+}
+div.anythingSlider-metallic .anythingControls li.prev a, div.anythingSlider-metallic .anythingControls li.next a {
+	color: #ddd;
+}
+div.anythingSlider-metallic .anythingControls li.next a:hover, div.anythingSlider-metallic .anythingControls li.prev a:hover {
+	color: #000;
+}
+
+/* slider autoplay right-to-left, reverse order of nav links to look better */
+div.anythingSlider-metallic.rtl .anythingControls ul a { float: right; } /* reverse order of nav links */
+div.anythingSlider-metallic.rtl .anythingControls ul { float: left; }    /* move nav link group to left */
+/* div.anythingSlider-metallic.rtl .start-stop { float: right; } */ /* move start/stop button - in case you want to switch sides */
+
+/* Autoplay Start/Stop button */
+div.anythingSlider-metallic .start-stop {
+	margin: 3px;
+	padding: 0;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	position: relative;
+	bottom: 2px;
+	left: 0;
+	z-index: 100;
+	float: left; /* rtl-o */
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+/* Extra - replace defaults */
+div.anythingSlider-metallic {
+	/*padding: 6px 23px;
+	padding: 0 23px 6px 23px;*/
+}
+
+div.anythingSlider-metallic .anythingControls{
+/*bottom:-19px;*/
+bottom:-24px;
+}
+
+/* text indent moved to span inside "a", for IE7; apparently, a negative text-indent on an "a" link moves the link as well as the text */
+div.anythingSlider-metallic .arrow a span, div.anythingSlider-metallic .anythingControls ul a span, div.anythingSlider-metallic .start-stop span {
+	display: block;
+	line-height: 1px; /* needed for IE7 */
+	text-indent: -9999px;
+}
+

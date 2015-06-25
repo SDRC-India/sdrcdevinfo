@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Barhat" nID="2829" aID="REG005036001" isGlobal="F" parentID="REG005036" parentName="Jamui" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="483" />
+  <area name="Gidhour" nID="2831" aID="REG005036003" isGlobal="F" parentID="REG005036" parentName="Jamui" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="483" />
+  <area name="Sikandra" nID="2832" aID="REG005036004" isGlobal="F" parentID="REG005036" parentName="Jamui" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="483" />
+  <area name="Sono" nID="2830" aID="REG005036002" isGlobal="F" parentID="REG005036" parentName="Jamui" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="483" />
+</AreaList>

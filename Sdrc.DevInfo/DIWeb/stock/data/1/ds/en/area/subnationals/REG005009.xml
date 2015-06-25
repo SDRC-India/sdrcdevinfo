@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Amour" nID="2797" aID="REG005009005" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Baisa" nID="2798" aID="REG005009006" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Banmanki" nID="2799" aID="REG005009007" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Barahara Kothi" nID="2800" aID="REG005009008" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Bhawanipur" nID="2794" aID="REG005009002" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Dagaruwa" nID="2790" aID="REG005009001" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Dhamdaha" nID="2795" aID="REG005009003" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Jalagarh" nID="2801" aID="REG005009009" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Kasba" nID="2791" aID="REG005009010" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Krityanand Nagar" nID="2792" aID="REG005009011" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Purnea East" nID="2796" aID="REG005009004" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+  <area name="Rupauli" nID="2793" aID="REG005009012" isGlobal="F" parentID="REG005009" parentName="Purnia" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="454" />
+</AreaList>

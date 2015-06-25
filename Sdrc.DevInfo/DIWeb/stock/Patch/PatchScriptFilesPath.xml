@@ -1,0 +1,5 @@
+<?xml version="1.0" standalone="yes"?>
+<root>
+  <Row key="Upd_GET_SITEMAP_DATA" value="Upd_GET_SITEMAP_DATA.sql" />  
+  <Row key ="Upd_SelectMultipleData_en" value ="Upd_SelectMultipleData_XX.sql"/>
+</root>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<message:GenericMetadata xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:query="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/query" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:structurespecific="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:registry="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message">
+  <message:Header>
+    <message:ID>Header_Id</message:ID>
+    <message:Test>true</message:Test>
+    <message:Prepared>2015-06-23T01:00:33+05:30</message:Prepared>
+    <message:Sender id="Sender_Id">
+      <common:Name xml:lang="en">Sender_Name</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en">Sender</common:Name>
+        <message:Department xml:lang="en">Sender_Department</message:Department>
+        <message:Role xml:lang="en">Sender_Role</message:Role>
+        <message:Telephone>Sender_Telephone</message:Telephone>
+        <message:Email>Sender_Email</message:Email>
+        <message:Fax>Sender_Fax</message:Fax>
+      </message:Contact>
+    </message:Sender>
+    <message:Receiver id="Receiver_Id">
+      <common:Name xml:lang="en">Receiver_Name</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en">Receiver</common:Name>
+        <message:Department xml:lang="en">Receiver_Department</message:Department>
+        <message:Role xml:lang="en">Receiver_Role</message:Role>
+        <message:Telephone>Receiver_Telephone</message:Telephone>
+        <message:Email>Receiver_Email</message:Email>
+        <message:Fax>Receiver_Fax</message:Fax>
+      </message:Contact>
+    </message:Receiver>
+    <message:Structure structureID="MSD_Indicator_DevInfo">
+      <common:Structure xsi:type="common:MetadataStructureReferenceType">
+        <Ref xsi:type="common:MetadataStructureRefType" agencyID="MDAgency" id="MSD_Indicator_DevInfo" version="7.0" local="false" class="MetadataStructure" package="metadatastructure" />
+      </common:Structure>
+    </message:Structure>
+  </message:Header>
+  <message:MetadataSet structureRef="MSD_Indicator_DevInfo">
+    <Report id="RS_Indicator" xmlns="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic">
+      <Target id="Target_Indicator">
+        <ReferenceValue id="IO_Target_Indicator">
+          <ObjectReference>
+            <Ref xsi:type="common:ObjectRefType" agencyID="MDAgency" maintainableParentID="CL_INDICATOR" maintainableParentVersion="7.0" id="e3c11164-3d5b-4912-8d19-a9bfb82d36f8" class="Code" package="codelist" xmlns="" />
+          </ObjectReference>
+        </ReferenceValue>
+      </Target>
+      <AttributeSet>
+        <ReportedAttribute id="DEFINITION_1" name="Definition" />
+        <ReportedAttribute id="METHOD_OF_COMPUTATION_2" name="Method of Computation" />
+        <ReportedAttribute id="OVERVIEW_3" name="Overview" />
+        <ReportedAttribute id="COMMENTS_AND_LIMITATIONS_4" name="Comments and Limitations" />
+        <ReportedAttribute id="DATA_COLLECTION_FOR_GLOBAL_MONITORING_5" name="Data Collection for Global Monitoring" />
+        <ReportedAttribute id="OBTAINING_DATA_6" name="Obtaining Data" />
+        <ReportedAttribute id="DATA_AVAILABILITY_7" name="Data Availability" />
+        <ReportedAttribute id="TREATMENT_OF_MISSING_VALUES_8" name="Treatment of Missing Values" />
+        <ReportedAttribute id="REGIONAL_AND_GLOBAL_ESTIMATES_9" name="Regional and Global Estimates" />
+      </AttributeSet>
+    </Report>
+  </message:MetadataSet>
+</message:GenericMetadata>

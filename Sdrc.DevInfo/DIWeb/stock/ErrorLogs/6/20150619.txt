@@ -1,0 +1,1125 @@
+ 19-06-2015 10:00:11 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 10:00:11
+=====================================================================================================================================================
+
+19-06-2015 10:00:11 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 10:00:11
+
+=====================================================================================================================================================
+
+19-06-2015 10:00:11 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 10:00:11
+=====================================================================================================================================================
+
+19-06-2015 10:00:11 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 10:00:11
+
+=====================================================================================================================================================
+
+19-06-2015 10:00:31 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: Cannot find table 0.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Callback.EntryIntoGlobalCatalog(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\HomeCallback.cs:line 278
+   at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 1112
+[****]Exception Time: 19-06-2015 10:00:31
+=====================================================================================================================================================
+
+19-06-2015 10:01:11 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 10:01:11
+=====================================================================================================================================================
+
+19-06-2015 10:01:11 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 10:01:11
+
+=====================================================================================================================================================
+
+19-06-2015 10:01:18 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 10:01:18
+=====================================================================================================================================================
+
+19-06-2015 10:01:18 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 10:01:18
+
+=====================================================================================================================================================
+
+19-06-2015 10:01:33 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: Cannot find table 0.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Callback.EntryIntoGlobalCatalog(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\HomeCallback.cs:line 278
+   at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 1112
+[****]Exception Time: 19-06-2015 10:01:33
+=====================================================================================================================================================
+
+19-06-2015 10:02:00 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 10:02:00
+=====================================================================================================================================================
+
+19-06-2015 10:02:00 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 10:02:00
+
+=====================================================================================================================================================
+
+19-06-2015 10:02:00 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.7ays_wzw
+[****]Stacktrace:    at Callback.GetQDSResultsTable(Int32 DBNId, String SearchIndicators, String SearchICs, String SearchAreas, String SearchLanguage, Boolean isBlockResults) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\QDSCallback.cs:line 733
+[****]Exception Time: 19-06-2015 10:02:00
+=====================================================================================================================================================
+
+19-06-2015 10:02:00 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.7ays_wzw
+[****]Stacktrace:    at Callback.GetQDSResultsTable(Int32 DBNId, String SearchIndicators, String SearchICs, String SearchAreas, String SearchLanguage, Boolean isBlockResults) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\QDSCallback.cs:line 762
+   at Callback.GetQDSResults(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\QDSCallback.cs:line 1793
+[****]Exception Time: 19-06-2015 10:02:00
+=====================================================================================================================================================
+
+19-06-2015 10:23:27 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: Incorrect syntax near ')'.
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.ExecuteDataTable(String sqlQuery)
+   at Callback.getDistinctNames(DataTable DistinctNids, String TargetDbTable, String TargetField) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\DataViewCallback.cs:line 1172
+[****]Exception Time: 19-06-2015 10:23:27
+=====================================================================================================================================================
+
+19-06-2015 10:23:27 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: Incorrect syntax near ')'.
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.DoExecuteReader(DbCommand command, CommandBehavior cmdBehavior)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.ExecuteDataTable(String sqlQuery)
+   at Callback.getDistinctNames(DataTable DistinctNids, String TargetDbTable, String TargetField) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\DataViewCallback.cs:line 1172
+[****]Exception Time: 19-06-2015 10:23:27
+=====================================================================================================================================================
+
+19-06-2015 10:23:27 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: There is no row at position 0.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Callback.PrepareDataViewString(DataTable dtDataviewWithoutDataValueFilter, String Language, Int32 filterIUS_NId, Int32 filterDvStart, Int32 filterDvEnd, String optionalSelectedDimension, List`1 DefaultSubGroups) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\DataViewCallback.cs:line 717
+[****]Exception Time: 19-06-2015 10:23:27
+=====================================================================================================================================================
+
+19-06-2015 10:34:03 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: Index was outside the bounds of the array.
+[****]Source: App_Code.7ays_wzw
+[****]Stacktrace:    at Callback.GetDataView(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\DataViewCallback.cs:line 75
+   at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 388
+[****]Exception Time: 19-06-2015 10:34:03
+=====================================================================================================================================================
+
+19-06-2015 11:17:43 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 11:17:43
+=====================================================================================================================================================
+
+19-06-2015 11:17:43 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 11:17:43
+
+=====================================================================================================================================================
+
+19-06-2015 11:17:43 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 11:17:43
+=====================================================================================================================================================
+
+19-06-2015 11:17:43 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 11:17:43
+
+=====================================================================================================================================================
+
+19-06-2015 11:18:05 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: Cannot find table 0.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Callback.EntryIntoGlobalCatalog(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\HomeCallback.cs:line 278
+   at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 1112
+[****]Exception Time: 19-06-2015 11:18:05
+=====================================================================================================================================================
+
+19-06-2015 11:18:47 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 11:18:47
+=====================================================================================================================================================
+
+19-06-2015 11:18:47 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 11:18:47
+
+=====================================================================================================================================================
+
+19-06-2015 11:18:50 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 11:18:50
+=====================================================================================================================================================
+
+19-06-2015 11:18:50 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 11:18:50
+
+=====================================================================================================================================================
+
+19-06-2015 11:19:19 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 11:19:19
+=====================================================================================================================================================
+
+19-06-2015 11:19:19 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 11:19:19
+
+=====================================================================================================================================================
+
+19-06-2015 11:19:21 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: Cannot find table 0.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Callback.EntryIntoGlobalCatalog(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\HomeCallback.cs:line 278
+   at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 1112
+[****]Exception Time: 19-06-2015 11:19:21
+=====================================================================================================================================================
+
+19-06-2015 11:19:28 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 11:19:28
+=====================================================================================================================================================
+
+19-06-2015 11:19:28 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 11:19:28
+
+=====================================================================================================================================================
+
+19-06-2015 11:19:31 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 11:19:31
+=====================================================================================================================================================
+
+19-06-2015 11:19:31 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 11:19:31
+
+=====================================================================================================================================================
+
+19-06-2015 11:19:35 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The network location cannot be reached. For information about network troubleshooting, see Windows Help
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 19-06-2015 11:19:35
+=====================================================================================================================================================
+
+19-06-2015 11:19:35 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 19-06-2015 11:19:35
+
+=====================================================================================================================================================
+
+19-06-2015 11:19:35 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.plxhehpb
+[****]Stacktrace:    at Callback.GetQDSResultsTable(Int32 DBNId, String SearchIndicators, String SearchICs, String SearchAreas, String SearchLanguage, Boolean isBlockResults) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\QDSCallback.cs:line 733
+[****]Exception Time: 19-06-2015 11:19:35
+=====================================================================================================================================================
+
+19-06-2015 11:19:35 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.plxhehpb
+[****]Stacktrace:    at Callback.GetQDSResultsTable(Int32 DBNId, String SearchIndicators, String SearchICs, String SearchAreas, String SearchLanguage, Boolean isBlockResults) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\QDSCallback.cs:line 762
+   at Callback.GetQDSResults(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\QDSCallback.cs:line 1793
+[****]Exception Time: 19-06-2015 11:19:35
+=====================================================================================================================================================
+
+19-06-2015 11:37:04 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetDisclaimerText() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1186
+   at libraries_aspx_HomeMaster.GetDisclaimerText() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 27
+[****]Exception Time: 19-06-2015 11:37:04
+=====================================================================================================================================================
+
+19-06-2015 11:37:05 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Web_42oflfsc
+[****]Stacktrace:    at libraries_aspx_HomeMaster.SetDisclaimerValues() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 49
+[****]Exception Time: 19-06-2015 11:37:05
+=====================================================================================================================================================
+
+19-06-2015 11:37:05 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at libraries_aspx_HomeMaster.SetMasterSiteUrl() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 69
+[****]Exception Time: 19-06-2015 11:37:05
+=====================================================================================================================================================
+
+19-06-2015 11:37:05 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsGlobalAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1224
+   at Global.CheckIsGlobalAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2190
+[****]Exception Time: 19-06-2015 11:37:05
+=====================================================================================================================================================
+
+19-06-2015 11:37:05 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CatalogExists(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 466
+   at Callback.EntryIntoGlobalCatalog(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\HomeCallback.cs:line 277
+   at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 1112
+[****]Exception Time: 19-06-2015 11:37:05
+=====================================================================================================================================================
+
+19-06-2015 11:37:06 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsDI7ORGAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1388
+   at Global.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2235
+[****]Exception Time: 19-06-2015 11:37:06
+=====================================================================================================================================================
+
+19-06-2015 11:37:06 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at Callback.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\CatalogCallback.cs:line 311
+[****]Exception Time: 19-06-2015 11:37:06
+=====================================================================================================================================================
+
+19-06-2015 11:37:23 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetDisclaimerText() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1186
+   at libraries_aspx_HomeMaster.GetDisclaimerText() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 27
+[****]Exception Time: 19-06-2015 11:37:23
+=====================================================================================================================================================
+
+19-06-2015 11:37:23 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Web_42oflfsc
+[****]Stacktrace:    at libraries_aspx_HomeMaster.SetDisclaimerValues() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 49
+[****]Exception Time: 19-06-2015 11:37:23
+=====================================================================================================================================================
+
+19-06-2015 11:37:23 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at libraries_aspx_HomeMaster.SetMasterSiteUrl() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 69
+[****]Exception Time: 19-06-2015 11:37:23
+=====================================================================================================================================================
+
+19-06-2015 11:37:23 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsGlobalAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1224
+   at Global.CheckIsGlobalAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2190
+[****]Exception Time: 19-06-2015 11:37:23
+=====================================================================================================================================================
+
+19-06-2015 11:37:24 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsDI7ORGAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1388
+   at Global.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2235
+[****]Exception Time: 19-06-2015 11:37:24
+=====================================================================================================================================================
+
+19-06-2015 11:37:24 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at Callback.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\CatalogCallback.cs:line 311
+[****]Exception Time: 19-06-2015 11:37:24
+=====================================================================================================================================================
+
+19-06-2015 11:37:31 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetDisclaimerText() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1186
+   at libraries_aspx_HomeMaster.GetDisclaimerText() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 27
+[****]Exception Time: 19-06-2015 11:37:31
+=====================================================================================================================================================
+
+19-06-2015 11:37:31 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Web_42oflfsc
+[****]Stacktrace:    at libraries_aspx_HomeMaster.SetDisclaimerValues() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 49
+[****]Exception Time: 19-06-2015 11:37:31
+=====================================================================================================================================================
+
+19-06-2015 11:37:32 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at libraries_aspx_HomeMaster.SetMasterSiteUrl() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 69
+[****]Exception Time: 19-06-2015 11:37:32
+=====================================================================================================================================================
+
+19-06-2015 11:37:32 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsGlobalAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1224
+   at Global.CheckIsGlobalAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2190
+[****]Exception Time: 19-06-2015 11:37:32
+=====================================================================================================================================================
+
+19-06-2015 11:37:32 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CatalogExists(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 466
+   at Callback.EntryIntoGlobalCatalog(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\HomeCallback.cs:line 277
+   at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 1112
+[****]Exception Time: 19-06-2015 11:37:32
+=====================================================================================================================================================
+
+19-06-2015 11:37:32 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsDI7ORGAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1388
+   at Global.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2235
+[****]Exception Time: 19-06-2015 11:37:32
+=====================================================================================================================================================
+
+19-06-2015 11:37:32 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at Callback.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\CatalogCallback.cs:line 311
+[****]Exception Time: 19-06-2015 11:37:32
+=====================================================================================================================================================
+
+19-06-2015 11:37:39 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetDisclaimerText() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1186
+   at libraries_aspx_HomeMaster.GetDisclaimerText() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 27
+[****]Exception Time: 19-06-2015 11:37:39
+=====================================================================================================================================================
+
+19-06-2015 11:37:39 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Web_42oflfsc
+[****]Stacktrace:    at libraries_aspx_HomeMaster.SetDisclaimerValues() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 49
+[****]Exception Time: 19-06-2015 11:37:39
+=====================================================================================================================================================
+
+19-06-2015 11:37:39 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at libraries_aspx_HomeMaster.SetMasterSiteUrl() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 69
+[****]Exception Time: 19-06-2015 11:37:39
+=====================================================================================================================================================
+
+19-06-2015 11:37:39 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsGlobalAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1224
+   at Global.CheckIsGlobalAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2190
+[****]Exception Time: 19-06-2015 11:37:39
+=====================================================================================================================================================
+
+19-06-2015 11:37:40 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsDI7ORGAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1388
+   at Global.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2235
+[****]Exception Time: 19-06-2015 11:37:40
+=====================================================================================================================================================
+
+19-06-2015 11:37:40 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at Callback.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\CatalogCallback.cs:line 311
+[****]Exception Time: 19-06-2015 11:37:40
+=====================================================================================================================================================
+
+19-06-2015 11:37:45 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetDisclaimerText() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1186
+   at libraries_aspx_HomeMaster.GetDisclaimerText() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 27
+[****]Exception Time: 19-06-2015 11:37:45
+=====================================================================================================================================================
+
+19-06-2015 11:37:45 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Web_42oflfsc
+[****]Stacktrace:    at libraries_aspx_HomeMaster.SetDisclaimerValues() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 49
+[****]Exception Time: 19-06-2015 11:37:45
+=====================================================================================================================================================
+
+19-06-2015 11:37:45 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at libraries_aspx_HomeMaster.SetMasterSiteUrl() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\HomeMaster.master.cs:line 69
+[****]Exception Time: 19-06-2015 11:37:45
+=====================================================================================================================================================
+
+19-06-2015 11:37:45 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsGlobalAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1224
+   at Global.CheckIsGlobalAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2190
+[****]Exception Time: 19-06-2015 11:37:45
+=====================================================================================================================================================
+
+19-06-2015 11:37:45 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetJsonM49CountriesFile() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 931
+   at Callback.GetJsonM49CountriesFile() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\CatalogCallback.cs:line 27
+[****]Exception Time: 19-06-2015 11:37:45
+=====================================================================================================================================================
+
+19-06-2015 11:37:45 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.CheckIsDI7ORGAdaptation(String gUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1388
+   at Global.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2235
+[****]Exception Time: 19-06-2015 11:37:45
+=====================================================================================================================================================
+
+19-06-2015 11:37:45 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at DIWorldwide.Catalog.GetGlobalMasterWebUrl() in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.3.cs:line 1429
+   at Callback.CheckIsDI7ORGAdaptation() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\CatalogCallback.cs:line 311
+[****]Exception Time: 19-06-2015 11:37:45
+=====================================================================================================================================================
+
+19-06-2015 11:37:58 >> Exception Found:
+[****]Type: System.Net.WebException
+[****]Message: The request failed with HTTP status 404: Not Found.
+[****]Source: System.Web.Services
+[****]Stacktrace:    at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at diworldwide_userinfo.UserLoginInformation.Get_UserNid(String EmailId, String AdapGUID) in c:\Users\SDRC_DEV\AppData\Local\Temp\Temporary ASP.NET Files\vs\28322a1e\a9ac47b9\App_WebReferences.wi_mhl7y.4.cs:line 1299
+   at Callback.LoginUser(String requestParam, Boolean isAdmin) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\LoginCallback.cs:line 1511
+[****]Exception Time: 19-06-2015 11:37:58
+=====================================================================================================================================================
+
+19-06-2015 13:45:15 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 13:45:15
+=====================================================================================================================================================
+
+19-06-2015 13:45:15 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 13:45:15
+=====================================================================================================================================================
+
+19-06-2015 15:24:33 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 15:24:33
+=====================================================================================================================================================
+
+19-06-2015 15:24:33 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 15:24:33
+=====================================================================================================================================================
+
+19-06-2015 15:30:33 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 15:30:33
+=====================================================================================================================================================
+
+19-06-2015 15:30:33 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 15:30:33
+=====================================================================================================================================================
+
+19-06-2015 15:39:56 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 15:39:56
+=====================================================================================================================================================
+
+19-06-2015 15:39:56 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 15:39:56
+=====================================================================================================================================================
+
+19-06-2015 15:59:36 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 15:59:36
+=====================================================================================================================================================
+
+19-06-2015 15:59:36 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 15:59:36
+=====================================================================================================================================================
+
+19-06-2015 16:16:00 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 16:16:00
+=====================================================================================================================================================
+
+19-06-2015 16:16:00 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 16:16:00
+=====================================================================================================================================================
+
+19-06-2015 16:49:58 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 16:49:58
+=====================================================================================================================================================
+
+19-06-2015 16:49:58 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 16:49:58
+=====================================================================================================================================================
+
+19-06-2015 17:29:19 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 17:29:19
+=====================================================================================================================================================
+
+19-06-2015 17:29:19 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 17:29:19
+=====================================================================================================================================================
+
+19-06-2015 18:37:51 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 18:37:51
+=====================================================================================================================================================
+
+19-06-2015 18:37:51 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 18:37:51
+=====================================================================================================================================================
+
+19-06-2015 18:41:22 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 18:41:22
+=====================================================================================================================================================
+
+19-06-2015 18:41:22 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 18:41:22
+=====================================================================================================================================================
+
+19-06-2015 18:57:16 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 18:57:16
+=====================================================================================================================================================
+
+19-06-2015 18:57:16 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 18:57:16
+=====================================================================================================================================================
+
+19-06-2015 19:05:54 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.fek7nr8r
+[****]Stacktrace:    at Callback.EditThemeInfo(String ThemeID, String SeriesIDs, String breakType, String breakCount, String themeType, String chartType) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 2835
+[****]Exception Time: 19-06-2015 19:05:54
+=====================================================================================================================================================
+
+19-06-2015 19:05:55 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.fek7nr8r
+[****]Stacktrace:    at Callback.GetThemeInfo(String ThemeID) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 3024
+[****]Exception Time: 19-06-2015 19:05:55
+=====================================================================================================================================================
+
+19-06-2015 19:05:55 >> Application_Error
+=====================================================================================================================================================
+
+19-06-2015 19:05:58 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.fek7nr8r
+[****]Stacktrace:    at Callback.EditThemeInfo(String ThemeID, String SeriesIDs, String breakType, String breakCount, String themeType, String chartType) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 2835
+[****]Exception Time: 19-06-2015 19:05:58
+=====================================================================================================================================================
+
+19-06-2015 19:05:58 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.fek7nr8r
+[****]Stacktrace:    at Callback.GetThemeInfo(String ThemeID) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 3024
+[****]Exception Time: 19-06-2015 19:05:58
+=====================================================================================================================================================
+
+19-06-2015 19:05:58 >> Application_Error
+=====================================================================================================================================================
+
+19-06-2015 19:15:23 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 19:15:23
+=====================================================================================================================================================
+
+19-06-2015 19:15:23 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 19:15:23
+=====================================================================================================================================================
+
+19-06-2015 19:22:23 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 19-06-2015 19:22:23
+=====================================================================================================================================================
+
+19-06-2015 19:22:23 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 19-06-2015 19:22:23
+=====================================================================================================================================================
+

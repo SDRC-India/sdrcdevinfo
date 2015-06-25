@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Barun" nID="2883" aID="REG005033001" isGlobal="F" parentID="REG005033" parentName="Aurangaabad" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="480" />
+  <area name="Deo" nID="2885" aID="REG005033003" isGlobal="F" parentID="REG005033" parentName="Aurangaabad" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="480" />
+  <area name="Madanpur" nID="2884" aID="REG005033002" isGlobal="F" parentID="REG005033" parentName="Aurangaabad" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="480" />
+  <area name="Obra" nID="2886" aID="REG005033004" isGlobal="F" parentID="REG005033" parentName="Aurangaabad" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="480" />
+</AreaList>

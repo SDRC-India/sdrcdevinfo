@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="RegData_Page_Title" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Discover_Registrations_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="View_Registrations_by" ElementID="lang_View_Registrations_By" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data_Flow_Definition" ElementID="lang_Data_Flow_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Metadata_Flow_Definition" ElementID="lang_Metadata_Flow_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Provision_Agreement" ElementID="lang_Provision_Agreement" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data_Provider" ElementID="lang_Data_Provider" ElementProperty="innerHTML" />
+  <Associate MasterKey="View" ElementID="hView" ElementProperty="value" />
+  <Associate MasterKey="Download" ElementID="hDownload" ElementProperty="value" />
+  <Associate MasterKey="langReg_Id" ElementID="hId" ElementProperty="value" />
+  <Associate MasterKey="lang_Queryable_Data" ElementID="hQueryableData" ElementProperty="value" />
+  <Associate MasterKey="lang_WADL" ElementID="hWADL" ElementProperty="value" />
+  <Associate MasterKey="lang_WSDL" ElementID="hWSDL" ElementProperty="value" />
+  <Associate MasterKey="lang_Simple_Data" ElementID="hSimpleData" ElementProperty="value" />
+  <Associate MasterKey="lang_Data" ElementID="hData" ElementProperty="value" />
+  <Associate MasterKey="lang_Metadata" ElementID="hMetadata" ElementProperty="value" />
+  <Associate MasterKey="lang_Constraints" ElementID="hConstraints" ElementProperty="value" />
+  <Associate MasterKey="lang_Provision_Agreement" ElementID="hProvisionAgreement" ElementProperty="value" />
+  <Associate MasterKey="lang_Data_Provider" ElementID="hDataProvider" ElementProperty="value" />
+  <Associate MasterKey="lang_DFD_MFD" ElementID="hDFDMFD" ElementProperty="value" />
+  <Associate MasterKey="lang_DFD_MFD_Short_Form" ElementID="hDFDMFDShortForm" ElementProperty="value" />
+  <Associate MasterKey="lang_Provider" ElementID="hProvider" ElementProperty="value" />
+  <Associate MasterKey="lang_No_Registration_Found" ElementID="hNoRegistrationFound" ElementProperty="value" />
+  <Associate MasterKey="lang_data_Registration" ElementID="hDataRegistration" ElementProperty="value" />
+  <Associate MasterKey="lang_metadata_Registration" ElementID="hMetadataRegistration" ElementProperty="value" />
+  <Associate MasterKey="lang_metadata_Registration_Area" ElementID="hMetadataRegistrationArea" ElementProperty="value" />
+  <Associate MasterKey="lang_metadata_Registration_Indicator" ElementID="hMetadataRegistrationIndicator" ElementProperty="value" />
+  <Associate MasterKey="lang_metadata_Registration_Source" ElementID="hMetadataRegistrationSource" ElementProperty="value" />
+  
+  
+</root>

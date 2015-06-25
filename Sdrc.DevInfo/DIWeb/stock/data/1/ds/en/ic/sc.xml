@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ic>
+  <c n="DVS" nid="7" isG="False">
+    <c n="Category Scores" nid="9" isG="False" />
+    <c n="Criteria Scores" nid="8" isG="False" />
+  </c>
+  <c n="Health facility" nid="10" isG="False">
+    <c n="Category Scores" nid="12" isG="False" />
+    <c n="Criteria Scores" nid="11" isG="False" />
+  </c>
+  <c n="RVS" nid="4" isG="False">
+    <c n="Category Scores" nid="6" isG="False" />
+    <c n="Criteria Scores" nid="5" isG="False" />
+  </c>
+  <c n="SVS" nid="1" isG="False">
+    <c n="Category Scores" nid="3" isG="False" />
+    <c n="Criteria Scores" nid="2" isG="False" />
+  </c>
+</ic>

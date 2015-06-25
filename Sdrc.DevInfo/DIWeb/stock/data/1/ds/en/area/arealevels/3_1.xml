@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Ahatguri SHC" id="IND018005001" nid="3028" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Ambagan SHC" id="IND018006001" nid="3036" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Baksa" id="IND018025" nid="3025" pnid="2998" dataexists="T" lnid="595" />
+  <a n="Barbang MPHC" id="IND018004001" nid="3048" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Barpeta" id="IND018004" nid="3004" pnid="2998" dataexists="T" lnid="575" />
+  <a n="Bezera CHC" id="IND018022001" nid="3032" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Bhogamukh BPHC" id="IND018013001" nid="3074" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Bijan SD" id="IND018021001" nid="3068" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Bikali MPHC" id="IND018003001" nid="3076" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Bilasipara SHC" id="IND018002001" nid="3040" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Bongaigaon" id="IND018020" nid="3020" pnid="2998" dataexists="T" lnid="590" />
+  <a n="Bongaigaon PHC" id="IND018020002" nid="3071" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Cachar" id="IND018017" nid="3017" pnid="2998" dataexists="T" lnid="587" />
+  <a n="Cachar" id="RVS_001" nid="3064" pnid="2997" dataexists="T" lnid="567" />
+  <a n="Chamuapara MPHC" id="IND018026001" nid="3052" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Charingia" id="IND018014001" nid="3060" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Chirang" id="IND018021" nid="3021" pnid="2998" dataexists="T" lnid="591" />
+  <a n="Daboka BPHC" id="IND018006002" nid="3037" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Darrang" id="IND018026" nid="3026" pnid="2998" dataexists="T" lnid="596" />
+  <a n="Dekapam MPHC" id="IND018009001" nid="3058" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Dentaghat CHC" id="IND018015002" nid="3063" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Deomornai CHC" id="IND018026002" nid="3053" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Dharmasala " id="IND018002002" nid="3041" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Dhekiajuli BPHC" id="IND018007001" nid="3077" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Dhemaji" id="IND018009" nid="3009" pnid="2998" dataexists="T" lnid="580" />
+  <a n="Dhubri" id="IND018002" nid="3002" pnid="2998" dataexists="T" lnid="573" />
+  <a n="Dibrugarh" id="IND018011" nid="3011" pnid="2998" dataexists="T" lnid="581" />
+  <a n="Dibrugarh" id="RVS_002" nid="3065" pnid="2997" dataexists="T" lnid="569" />
+  <a n="Dima Hasao" id="IND018016" nid="3016" pnid="2998" dataexists="T" lnid="586" />
+  <a n="Fulbari MPHC" id="IND018017001" nid="3078" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Gandhibari " id="IND018025001" nid="3034" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Garubhasa SD" id="IND018021002" nid="3069" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Goalpara" id="IND018003" nid="3003" pnid="2998" dataexists="T" lnid="574" />
+  <a n="Goalpara" id="RVS_003" nid="3066" pnid="2997" dataexists="T" lnid="570" />
+  <a n="Golaghat" id="IND018014" nid="3014" pnid="2998" dataexists="T" lnid="584" />
+  <a n="Gunjung BPHC" id="IND018016002" nid="3047" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Hailakandi" id="IND018019" nid="3019" pnid="2998" dataexists="T" lnid="589" />
+  <a n="Harangajao MPHC" id="IND018016001" nid="3046" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Hassak" id="IND018010002" nid="3055" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Hatinamati SD" id="IND018024001" nid="3050" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Jonai BPHC" id="IND018009002" nid="3059" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Jorhat" id="IND018013" nid="3013" pnid="2998" dataexists="T" lnid="583" />
+  <a n="Kachugaon  BPHC" id="IND018001001" nid="3038" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Kalaigaon SD" id="IND018027001" nid="3079" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Kalain CHC" id="IND018017002" nid="3080" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Kalinagar BPHC" id="IND018019001" nid="3044" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Kamalpur PHC" id="IND018022002" nid="3033" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Kamargaon SD" id="IND018004002" nid="3049" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Kamrup metropolitan" id="IND018023" nid="3023" pnid="2998" dataexists="T" lnid="593" />
+  <a n="Kamrup-Rural" id="IND018022" nid="3022" pnid="2998" dataexists="T" lnid="592" />
+  <a n="Karbi Anglong" id="IND018015" nid="3015" pnid="2998" dataexists="T" lnid="585" />
+  <a n="Karia MPHC" id="IND018024002" nid="3051" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Karimganj" id="IND018018" nid="3018" pnid="2998" dataexists="T" lnid="588" />
+  <a n="Katlicherra BPHC" id="IND018019002" nid="3045" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Kauripathar SD" id="IND018007002" nid="3081" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Khakandaguri MPHC" id="IND018014002" nid="3061" pnid="2999" dataexists="T" lnid="0" />
+  <a n="KHS SDH Nazira" id="IND018012002" nid="3073" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Kokrajhar" id="IND018001" nid="3001" pnid="2998" dataexists="T" lnid="572" />
+  <a n="Kothalguri" id="IND018010001" nid="3054" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Krishnai MPHC" id="IND018003002" nid="3085" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Lahorighat BPHC" id="IND018005002" nid="3029" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Lakhimpur" id="IND018008" nid="3008" pnid="2998" dataexists="T" lnid="579" />
+  <a n="Laluk MPHC" id="IND018008002" nid="3057" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Lokhara SD" id="IND018023001" nid="3030" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Manikpur BPHC" id="IND018020001" nid="3070" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Mathurapur MPHC" id="IND018012001" nid="3072" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Morigaon" id="IND018005" nid="3005" pnid="2998" dataexists="T" lnid="576" />
+  <a n="Nagaon" id="IND018006" nid="3006" pnid="2998" dataexists="T" lnid="577" />
+  <a n="Naharkatia PHC" id="IND018011001" nid="3082" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Nalbari" id="IND018024" nid="3024" pnid="2998" dataexists="T" lnid="594" />
+  <a n="Naokata MPHC" id="IND018025002" nid="3035" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Nilambazar BPHC " id="IND018018001" nid="3042" pnid="2999" dataexists="T" lnid="0" />
+  <a n="North Lakhimpur CH" id="IND018008001" nid="3056" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Orang PHC" id="IND018027002" nid="3083" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Pandu PHC" id="IND018023002" nid="3031" pnid="2999" dataexists="T" lnid="0" />
+  <a n="R.K. Nagar PHC" id="IND018018002" nid="3043" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Rainadabari MPHC" id="IND018001002" nid="3039" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Rongmongwe PHC" id="IND018015001" nid="3062" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Sissia Bokulani SD" id="IND018011002" nid="3084" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Sivasagar" id="IND018012" nid="3012" pnid="2998" dataexists="T" lnid="582" />
+  <a n="Solmora BPHC" id="IND018013002" nid="3075" pnid="2999" dataexists="T" lnid="0" />
+  <a n="Sonitpur" id="IND018007" nid="3007" pnid="2998" dataexists="T" lnid="578" />
+  <a n="Sonitpur" id="RVS_004" nid="3067" pnid="2997" dataexists="T" lnid="571" />
+  <a n="SVS Guwahati" id="IND018" nid="3000" pnid="2996" dataexists="T" lnid="568" />
+  <a n="Tinsukia" id="IND018010" nid="3010" pnid="2998" dataexists="T" lnid="600" />
+  <a n="Udalguri" id="IND018027" nid="3027" pnid="2998" dataexists="T" lnid="597" />
+</AreaList>

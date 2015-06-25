@@ -1,0 +1,34 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] -数据供应商要求[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    亲爱的管理，
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+   您已收到一个请求数据提供者的权利，详情如下：
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   用户名：<a href="mailto:[****]USER_EMAILID[****]">[****]USER_EMAILID[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    用户名： [****]USER_NAME[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+   国家： [****]COUNTRY[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>请注意：</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    为了给予用户数据提供者的权利，请登录的管理员 [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    使用注册表接口来访问列表中的所有注册用户和数据提供商分配给他们的权利。
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    的问候，
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Webmaster - [****]ADAPTATION_NAME[****]
+</p>
+</p>

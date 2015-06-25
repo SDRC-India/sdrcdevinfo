@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Fulbari MPHC" id="IND018017001" l="3" nid="3078" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Health Facility" id="REG004" l="2" nid="2999" pnid="2995" dataexists="T" isblock="F" lnid="0" />
+  <a n="Health Facility - Level 3" id="QS_REG004_L3" l="3" nid="QS_REG004_L3" pnid="2999" dataexists="F" isblock="F" lnid="0" />
+</AreaList>

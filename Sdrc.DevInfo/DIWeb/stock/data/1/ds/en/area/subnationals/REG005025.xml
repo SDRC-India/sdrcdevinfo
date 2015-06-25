@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Halsi" nID="2826" aID="REG005025002" isGlobal="F" parentID="REG005025" parentName="Lakhisarai" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="472" />
+  <area name="Lakhisarai Sadar" nID="2828" aID="REG005025004" isGlobal="F" parentID="REG005025" parentName="Lakhisarai" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="472" />
+  <area name="Ramgarh Chowk" nID="2827" aID="REG005025003" isGlobal="F" parentID="REG005025" parentName="Lakhisarai" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="472" />
+</AreaList>

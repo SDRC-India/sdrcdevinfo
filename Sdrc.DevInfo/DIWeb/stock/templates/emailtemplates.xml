@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<email_templates>
+	<share_module>
+		<subject>$APP_NAME - Link shared</subject>
+		<email_body>
+			 <![CDATA[
+				<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+				<HTML>
+				 <HEAD>
+				  <TITLE>$APP_NAME</TITLE>
+				  <META NAME="Author" CONTENT="$APP_NAME">
+				  <META NAME="Keywords" CONTENT="$APP_NAME, Powered by DevInfo">
+				  <META NAME="Description" CONTENT="$APP_NAME, Powered by DevInfo">
+				 </HEAD>
+
+				 <BODY>
+					<font style="font-family:arial;font-size:14px;color:#b5b5b5"><strong>$APP_NAME</strong></font>
+					<hr><br>
+					<font style="font-family:arial;font-size:12px;color:#000000">Someone wanted to share this link with you from $APP_NAME:<br>
+					<a href="$SHARE_LINK">$SHARE_LINK</a>
+
+					<br><br><br>
+					$APP_NAME<br></font>
+					<font style="font-family:arial;font-size:9px;color:#b5b5b5"><a target="_blank" href="http://www.devinfo.org">Powered by DevInfo</a></font>
+				 </BODY>
+				</HTML>
+			 
+			 ]]>
+		</email_body>
+	</share_module>
+</email_templates>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Help>
+  <DataStructureDefinition>
+    <div>
+      <span class="heading2">Data Structure Definition:</span>
+      <br />
+      <i class="content">Data Structure Definition(DSD) defines the dimensions,measures and attributes of a dataset and their valid value set.</i>
+    </div>
+  </DataStructureDefinition>
+  <DataFlowDefinition>
+    <div>
+      <span class="heading2">DataFlow Definition:</span>
+      <br />
+      <i class="content">DataFlow Definition(DFD) is a subset or view of a DSD which allows some restriction of content.</i>
+    </div>
+  </DataFlowDefinition>
+  <ConceptScheme>
+    <div>
+      <span class="heading2">Concept Scheme:</span>
+      <br />
+      <i class="content">Concept Scheme is the descriptive information for an arrangement or division of concepts into groups based on characteristics, which the objects have in common.</i>
+    </div>
+  </ConceptScheme>
+  <Codelist>
+    <div>
+      <span class="heading2">Codelist:</span>
+      <br />
+      <i class="content">Codelist is a list from which some statistical concepts (coded concepts) take their values.</i>
+    </div>
+  </Codelist>
+  <MetadataStructureDefinition>
+    <div>
+      <span class="heading2">Metadata Structure Definition:</span>
+      <br />
+      <i class="content">Metadata Structure Definition defines the attributes and presentational arrangement of a metadataset  and their valid values and content.</i>
+    </div>
+  </MetadataStructureDefinition>
+  <MetadataFlowDefinition>
+    <div>
+      <span class="heading2">MetadataFlow Definition:</span>
+      <br />
+      <i class="content">MetadataFlow Definition is a subset or view of a MSD which allows some restriction of content.</i>
+    </div>
+  </MetadataFlowDefinition>
+  <DataProviderScheme>
+    <div>
+      <span class="heading2">Data Provider Scheme:</span>
+      <br />
+      <i class="content">A maintained collection of Data Providers.</i>
+    </div>
+  </DataProviderScheme>
+  <MaintenanceAgencyScheme>
+    <div>
+      <span class="heading2">Maintenance Agency Scheme:</span>
+      <br />
+      <i class="content">Maintenance Agency Scheme is a collection of maintenance agencies which is a responsible agency for maintaining artefacts such as statistical classifications, glossaries, structural metadata such as Data and Metadata Structure Definitions, Concepts and Code lists.</i>
+    </div>
+  </MaintenanceAgencyScheme>
+  <ProvidersAndPA>
+    <div>
+      <span class="heading2">Provider:</span>
+      <br />
+      <i class="content">An organisation that produces data or reference metadata.
+      </i>
+    </div>
+    <div>
+      <span class="heading2">Provision Agreement:</span>
+      <br />
+      <i class="content">Provision Agreement links the Data Provider to the relevant Structure
+        Usage (e.g. Dataflow Definition or Metadataflow Definition) for which the provider supplies data or metadata The agreement may constrain the scope of the data or metadata that can be provided, by means of a Constraint.
+      </i>
+    </div>
+  </ProvidersAndPA>
+  <Subscription>
+    <div>
+      <span class="heading2">Subscription:</span>
+      <br />
+      <i class="content">Subscription is an activity by which a user can submit a subscription in the registry that defines which events are of interest, and either an email and/or an HTTP address to which a notification of qualifying events will be delivered.
+      </i>
+    </div>    
+  </Subscription>
+  <NotificationMail>
+    <div>
+      <span class="heading2">Notification Mail:</span>
+      <br />
+      <i class="content">Notification Mail is email address specified by the subscribed user to recieve notification for data/metadata registration by a data provider.
+      </i>
+    </div>
+  </NotificationMail>
+  <NotificationHTTP>
+    <div>
+      <span class="heading2">Notification HTTP:</span>
+      <br />
+      <i class="content">An HTTP Post Notification will be sent to subscribed users at a specified HTTP address announcing all published data that meets the criteria contained in the subscription request.
+      </i>
+    </div>
+  </NotificationHTTP>
+  <SOAPProtocolSubscription>
+    <div>
+      <span class="heading2">SOAP Protocol:</span>
+      <br />
+      <i class="content">If Subsciption is done with SOAP protocol then the subscribed users receive Notifications wrapped in SOAP Envelopes.
+      </i>
+    </div>
+  </SOAPProtocolSubscription>
+  <EventSelector>
+    <div>
+      <span class="heading2">Event Selector:</span>
+      <br />
+      <i class="content">An Event Selector specifies which type of events are of interest for subscription.There are four types of events for which a user can subscribe.
+        Structural Repository Event - A change in Maintainable artefacts in the Structural Meatadata Repository.
+        Data Registration Event - Whenever a published dataset is registered. This can be either a SDMXML  data file or an SDMX conformant database.
+        Metadata Registration Event - Whenever a published metadataset is registered. This can be either a SDMXML reference metadata file or an SDMX conformant database.
+        All Event - All events of the specified EventType.
+      </i>
+    </div>
+  </EventSelector>
+  <RegistrationAndConstraint>
+    <div>
+      <span class="heading2">Registration:</span>
+      <br />
+      <i class="content">
+        Registration is an activity by which a data Provider publishes a new dataset conforming to an existing Dataflow Definition(and hence Data Structure Definition).
+        Similarly data provider can also publish his metadataset conforming to existing MetadataFlow Definition.
+      </i>
+    </div>
+    <div>
+      <span class="heading2">Constraint:</span>
+      <br />
+      <i class="content">Constraint specifies a sub set of the definition of the allowable or actual content of a data or metadata source that can be derived from the Structure that defines code lists and other valid content.</i>
+    </div>
+  </RegistrationAndConstraint>
+  <WebServiceURL>
+    <div>
+      <span class="heading2">Web Service URL:</span>
+      <br />
+      <i class="content">This is the URL of the queryable datasource i.e. SDMX compliant Web Service - hosted by the data provider - whither data and metadata can be queried.</i>
+    </div>
+  </WebServiceURL>
+  <RestProtocol>
+    <div>
+      <span class="heading2">Rest Protocol :</span>
+      <br />
+      <i class="content">The Rest Protocol attribute indicates, if true, that the queryable data source is accessible via the REST protocol.</i>
+    </div>
+  </RestProtocol>
+  <WADLURL>
+    <div>
+      <span class="heading2">WADL URL:</span>
+      <br />
+      <i class="content">WADL URL provides the location of a WADL instance on the internet which describes the REST protocol of the queryable data source.</i>
+    </div>
+  </WADLURL>
+  <SOAPProtocolRegistration>
+    <div>
+      <span class="heading2">SOAP Protocol:</span>
+      <br />
+      <i class="content">The SOAP Protocol attribute indicates, if true, that the queryable data source is accessible via the SOAP protocol.</i>
+    </div>
+  </SOAPProtocolRegistration>
+  <WSDLURL>
+    <div>
+      <span class="heading2">WSDL URL:</span>
+      <br />
+      <i class="content">WSDL URL provides the location of a WSDL instance on the internet which describes the queryable data source.</i>
+    </div>
+  </WSDLURL>
+  <QueryableDataRepository>
+    <div>
+      <span class="heading2">Queryable Data Repository:</span>
+      <br />
+      <i class="content">Queryable Data Repository describes a data source that must be able to accept an SDMX-ML Query Message, and respond appropriately.</i>
+    </div>
+  </QueryableDataRepository>
+  <SimpleDataMetadataRepository>
+    <div>
+      <span class="heading2">Simple Data/Metadata Repository:</span>
+      <br />
+      <i class="content">Simple Data/Metadata Repository describes a data source that is an SDMX-ML data or metadata message. It requires only the URL of the data.</i>
+    </div>
+  </SimpleDataMetadataRepository>
+</Help>

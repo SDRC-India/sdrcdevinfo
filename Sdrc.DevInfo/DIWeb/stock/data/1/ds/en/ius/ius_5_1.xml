@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<iu>
+  <iu in="E5 : Maintenance" inid="5" md="F" un="Percent" unid="1" defiusnid="5">
+    <st n="Location" nid="2">
+      <stv n="Total" nid="1" />
+    </st>
+    <sv n="Subgroup Values">
+      <ius n="Total" nid="1" iusnid="5" sisG="F" dataexists="T" />
+    </sv>
+  </iu>
+</iu>

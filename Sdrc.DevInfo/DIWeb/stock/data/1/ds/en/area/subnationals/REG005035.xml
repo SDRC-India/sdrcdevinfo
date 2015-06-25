@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Hisua" nID="2947" aID="REG005035002" isGlobal="F" parentID="REG005035" parentName="Nawada" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="482" />
+  <area name="Nardiganj" nID="2948" aID="REG005035003" isGlobal="F" parentID="REG005035" parentName="Nawada" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="482" />
+  <area name="Roh" nID="2946" aID="REG005035001" isGlobal="F" parentID="REG005035" parentName="Nawada" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="482" />
+  <area name="Warsaliganj" nID="2949" aID="REG005035004" isGlobal="F" parentID="REG005035" parentName="Nawada" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="482" />
+</AreaList>

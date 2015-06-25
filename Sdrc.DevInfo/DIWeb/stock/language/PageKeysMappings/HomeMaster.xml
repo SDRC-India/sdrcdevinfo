@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+    <!ELEMENT root ANY>
+    <!ELEMENT Associate ANY>
+    <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+    <!ATTLIST Associate ElementID ID #REQUIRED >
+    <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+    <Associate MasterKey="SearchSite" ElementID="langSearchSite" ElementProperty="innerHTML" />
+    <Associate MasterKey="Login" ElementID="aLogin" ElementProperty="innerHTML" />
+    <Associate MasterKey="Logout" ElementID="aLogout" ElementProperty="innerHTML" />
+    <Associate MasterKey="Support" ElementID="LangSupport" ElementProperty="innerHTML" />
+    <Associate MasterKey="ContactUs" ElementID="LangContactUs" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="Home" ElementID="aHome" ElementProperty="innerHTML" />
+    <Associate MasterKey="Gallery" ElementID="aGalleries" ElementProperty="innerHTML" />
+    <Associate MasterKey="News" ElementID="aNews" ElementProperty="innerHTML" />
+    <Associate MasterKey="Innovations" ElementID="aInnovations" ElementProperty="innerHTML" />
+    <Associate MasterKey="Mydata" ElementID="aMydata" ElementProperty="innerHTML" />
+    <Associate MasterKey="Catalog" ElementID="aCatalog" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="FollowUsOn" ElementID="lang_FUO" ElementProperty="innerHTML" />
+    <Associate MasterKey="DevInfo" ElementID="langDevInfo" ElementProperty="innerHTML" />
+    <Associate MasterKey="WI_DevInfo" ElementID="langWI_DevInfo" ElementProperty="innerHTML" />
+    <Associate MasterKey="DI7Features" ElementID="langDI7Features" ElementProperty="innerHTML" />
+    <Associate MasterKey="DataSearch" ElementID="langDataSearch" ElementProperty="innerHTML" />
+    <Associate MasterKey="ByKTGA" ElementID="langByKTGA" ElementProperty="innerHTML" />
+    <Associate MasterKey="Catalog" ElementID="langCatalog" ElementProperty="innerHTML" />
+    <Associate MasterKey="Registry" ElementID="langRegistry" ElementProperty="innerHTML" />
+    <Associate MasterKey="News" ElementID="langNews" ElementProperty="innerHTML" />
+    <Associate MasterKey="diNews" ElementID="langdiNews" ElementProperty="innerHTML" />
+    <Associate MasterKey="diShowcase" ElementID="langdiShowcase" ElementProperty="innerHTML" />
+    <Associate MasterKey="diGallery" ElementID="langdiGallery" ElementProperty="innerHTML" />
+    <Associate MasterKey="FactOTWeek" ElementID="langFactOTWeek" ElementProperty="innerHTML" />
+    <Associate MasterKey="DevInfoinAction" ElementID="langDevInfoinAction" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="Innovations" ElementID="langInnovation" ElementProperty="innerHTML" />
+    <Associate MasterKey="DataQueryService" ElementID="langDataQueryService" ElementProperty="innerHTML" />
+    <Associate MasterKey="diMonitoring" ElementID="langdiMonitoring" ElementProperty="innerHTML" />
+    <Associate MasterKey="diProfile" ElementID="langdiProfile" ElementProperty="innerHTML" />
+    <Associate MasterKey="diGameworks" ElementID="langdiGameworks" ElementProperty="innerHTML" />
+    <Associate MasterKey="diDashboard" ElementID="langdiDashboard" ElementProperty="innerHTML" />
+    <Associate MasterKey="Subscribe" ElementID="NewsletterSubmitLink" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="AboutUs" ElementID="langAboutUs" ElementProperty="innerHTML" />
+    <Associate MasterKey="DevInfoTeam" ElementID="langDevInfoTeam" ElementProperty="innerHTML" />
+    <Associate MasterKey="Awards" ElementID="langAwards" ElementProperty="innerHTML" />
+    <Associate MasterKey="Partnerships" ElementID="langPartnerships" ElementProperty="innerHTML" />
+    <Associate MasterKey="Careers" ElementID="langCareers" ElementProperty="innerHTML" />
+    <Associate MasterKey="ContactUs" ElementID="langContactUs" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="Share" ElementID="langShare" ElementProperty="innerHTML" />
+    <Associate MasterKey="Emailto" ElementID="langEmailto" ElementProperty="innerHTML" />
+    <Associate MasterKey="UCTSMEmailids" ElementID="langUCTSMEmailids" ElementProperty="innerHTML" />
+    <Associate MasterKey="Email" ElementID="langEmail" ElementProperty="value" />
+    <Associate MasterKey="ShareonTwitter" ElementID="langShareonTwitter" ElementProperty="innerHTML" />
+    <Associate MasterKey="Tweet" ElementID="langTweet" ElementProperty="value" />
+    <Associate MasterKey="ShareonFacebook" ElementID="langShareonFacebook" ElementProperty="innerHTML" />
+    <Associate MasterKey="WallPost" ElementID="langWallPost" ElementProperty="value" />
+    <Associate MasterKey="Embedd_oy_page" ElementID="langEmbedd_oy_page" ElementProperty="innerHTML" />
+    <Associate MasterKey="Cancel" ElementID="langCancel" ElementProperty="value" />
+    <Associate MasterKey="EmailSent" ElementID="lblEmailSent" ElementProperty="innerHTML" />
+    <Associate MasterKey="ShareYSCTO" ElementID="langShareYSCTO" ElementProperty="value" />
+    <Associate MasterKey="ShareDevinfo" ElementID="langShareDevinfo" ElementProperty="value" />
+    <Associate MasterKey="MenuHomeToolTip" ElementID="langMenuHomeToolTip" ElementProperty="value" />
+    <Associate MasterKey="MenuGalleryToolTip" ElementID="langMenuGalleryToolTip" ElementProperty="value" />
+    <Associate MasterKey="MenuNewsToolTip" ElementID="langMenuNewsToolTip" ElementProperty="value" />
+    <Associate MasterKey="MenuMyDataToolTip" ElementID="langMenuMyDataToolTip" ElementProperty="value" />
+    <Associate MasterKey="MenuCatalogToolTip" ElementID="langMenuCatalogToolTip" ElementProperty="value" />
+    <Associate MasterKey="MenuInnovationsToolTip" ElementID="langMenuInnovationsToolTip" ElementProperty="value" />
+    <Associate MasterKey="URL_Share" ElementID="langURL" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="langCountryMenuDevinfo" ElementID="langCountryMenuDevinfo" ElementProperty="innerHTML" />
+    <Associate MasterKey="langCountryMenuWorldWide" ElementID="langCountryMenuWorldWide" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="DI7Downloads" ElementID="langDIDownloads" ElementProperty="innerHTML" />
+    <Associate MasterKey="DI7Training" ElementID="langDITraining" ElementProperty="innerHTML" />
+    <Associate MasterKey="DI7MapLibrary" ElementID="langDIMapLibrary" ElementProperty="innerHTML" />
+    <Associate MasterKey="FAQ" ElementID="langFAQ" ElementProperty="innerHTML" />
+    <Associate MasterKey="DI7Worldiwide" ElementID="langDIWorldWide" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="langAboutInfo" ElementID="langAboutInfo" ElementProperty="innerHTML"/>
+    <Associate MasterKey="langAboutInfoFeatures" ElementID="langAboutInfoFeatures" ElementProperty="innerHTML"/>
+    <Associate MasterKey="LangTooltipRSS" ElementID="ToolTipRSS" ElementProperty="innerHTML" />
+    <Associate MasterKey="Lang_HddEdit" ElementID="Lang_HddEdit" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_HddAdd" ElementID="Lang_HddAdd" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuCategory" ElementID="Lang_SpnMenuCategory" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuLinkText" ElementID="Lang_SpnMenuLinkText" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuHeader" ElementID="Lang_SpnMenuHeader" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuHeaderDesc" ElementID="Lang_SpnMenuHeaderDesc" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Add" ElementID="btnAddCategory" ElementProperty="value"/>
+    <Associate MasterKey="Update" ElementID="btnEditCategory" ElementProperty="value"/>
+    <Associate MasterKey="LinkManageCategories" ElementID="LinkManageCategories" ElementProperty="innerHTML"/>
+    <Associate MasterKey="SpanMenuCategoryHeading" ElementID="SpanMenuCategoryHeading" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpanHeaderDesc" ElementID="Lang_SpanHeaderDesc" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpanAvalableCat" ElementID="Lang_SpanAvalableCat" ElementProperty="innerHTML"/>
+
+    <Associate MasterKey="Lang_SpnMenuCategory" ElementID="SpnMenuCategory" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuLinkText" ElementID="SpnMenuLinkText" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuHeader" ElementID="SpnMenuHeader" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuHeaderDesc" ElementID="SpnMenuHeaderDesc" ElementProperty="innerHTML"/>
+    <Associate MasterKey="lang_ToolTipMovUp"  ElementID="lang_ToolTipMovUp" ElementProperty="innerHTML"/>
+    <Associate MasterKey="lang_ToolTipMovDown"  ElementID="lang_ToolTipMovDown" ElementProperty="innerHTML"/>
+
+    <Associate MasterKey="Lang_MenuCategory_Alert" ElementID="Lang_MenuCategory_Alert" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_MenuLinkText_Alert" ElementID="Lang_MenuLinkText_Alert" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_MenuHeader_Alert" ElementID="Lang_MenuHeader_Alert" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_MenuHeaderDesc_Alert" ElementID="Lang_MenuHeaderDesc_Alert" ElementProperty="innerHTML"/>
+
+    <Associate MasterKey="Lang_SpnMenuCategory" ElementID="Head_TabMenuCategory" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuLinkText" ElementID="Head_TabMenuLinkText" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuHeader" ElementID="Head_TabMenuHeader" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_SpnMenuHeaderDesc" ElementID="Head_TabMenuHeaderDesc" ElementProperty="innerHTML"/>
+    <Associate MasterKey="HowToVideos" ElementID="langHowToVideos" ElementProperty="innerHTML" />
+    <Associate MasterKey="SiteMapMainHeading" ElementID="SiteMapMainHeading" ElementProperty="innerHTML" />
+    <Associate MasterKey="SiteMap" ElementID="langSiteMap" ElementProperty="innerHTML" />    
+</root>

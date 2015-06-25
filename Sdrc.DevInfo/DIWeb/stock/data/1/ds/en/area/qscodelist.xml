@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a id="QS_REG_L2" n="Assam - Level 2" l="2" nid="QS_REG_L2" pnid="2995" dataexists="F" childrencount="4" />
+  <a id="QS_REG003_L3" n="DVS - Level 3" l="3" nid="QS_REG003_L3" pnid="2998" dataexists="F" childrencount="27" />
+  <a id="QS_REG004_L3" n="Health Facility - Level 3" l="3" nid="QS_REG004_L3" pnid="2999" dataexists="F" childrencount="54" />
+  <a id="QS_REG002_L3" n="RVS - Level 3" l="3" nid="QS_REG002_L3" pnid="2997" dataexists="F" childrencount="4" />
+  <a id="QS_REG001_L3" n="SVS - Level 3" l="3" nid="QS_REG001_L3" pnid="2996" dataexists="F" childrencount="1" />
+</AreaList>

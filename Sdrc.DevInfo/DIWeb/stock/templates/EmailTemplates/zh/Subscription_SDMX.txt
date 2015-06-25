@@ -1,0 +1,22 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - 认购成功[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;10px 0 20px;font-family:Arial;">
+    亲爱 [****]USER_NAME[****],
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    您已成功预订， [****]ADAPTATION_NAME[****] - <a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a> 以下详细信息：
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    注册表URN： [****]REGISTRY_URN[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    如果你有任何疑问，您的帐户或Web应用程序，请直接与我们联系  <a href="mailto:[****]EMAILID_DB_ADMIN[****]">[****]EMAILID_DB_ADMIN[****]</a>
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   的问候，
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Web Administrator - [****]ADAPTATION_NAME[****]
+</p>
+</p>

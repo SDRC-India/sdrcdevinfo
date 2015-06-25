@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><CheckIsGlobalAdaptation xmlns="http://DIworldwide/DIWWS/"><gUID>3b242777-0178-477a-a3e0-305e5e162adf</gUID></CheckIsGlobalAdaptation></soap:Body></soap:Envelope>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Bhagwanpur" nID="2874" aID="REG005031001" isGlobal="F" parentID="REG005031" parentName="Kaimur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="478" />
+  <area name="Chainpur" nID="2878" aID="REG005031005" isGlobal="F" parentID="REG005031" parentName="Kaimur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="478" />
+  <area name="Durgawati" nID="2875" aID="REG005031002" isGlobal="F" parentID="REG005031" parentName="Kaimur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="478" />
+  <area name="Kudra" nID="2877" aID="REG005031004" isGlobal="F" parentID="REG005031" parentName="Kaimur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="478" />
+  <area name="Mohania" nID="2876" aID="REG005031003" isGlobal="F" parentID="REG005031" parentName="Kaimur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="478" />
+</AreaList>

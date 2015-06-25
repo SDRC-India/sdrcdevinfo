@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="DVS" id="REG003" nid="2998" pnid="2995" dataexists="T" lnid="0" />
+  <a n="Health Facility" id="REG004" nid="2999" pnid="2995" dataexists="T" lnid="0" />
+  <a n="RVS" id="REG002" nid="2997" pnid="2995" dataexists="T" lnid="0" />
+  <a n="SVS" id="REG001" nid="2996" pnid="2995" dataexists="T" lnid="0" />
+</AreaList>

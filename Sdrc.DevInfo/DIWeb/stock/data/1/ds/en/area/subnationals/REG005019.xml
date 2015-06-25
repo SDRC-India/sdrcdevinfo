@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Kalyanpur" nID="2839" aID="REG005019001" isGlobal="F" parentID="REG005019" parentName="Samastipur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="466" />
+  <area name="Morwa" nID="2840" aID="REG005019002" isGlobal="F" parentID="REG005019" parentName="Samastipur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="466" />
+  <area name="Sarairanjan" nID="2841" aID="REG005019003" isGlobal="F" parentID="REG005019" parentName="Samastipur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="466" />
+</AreaList>

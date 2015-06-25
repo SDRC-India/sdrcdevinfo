@@ -1,0 +1,149 @@
+{
+    "colors":["#827B60","#7F525D","#7F5A58","#C48189","#C11B17","#FF0000","#C24641","#F75D59","#7D2252","#F660AB","#C25283","#EE9A4D","#E78A61","#C47451","#C36241","#F88158","#E55B3C","#C34A2C","#C85A17","#7F462C","#806517","#7F5217","#7E2217","#C35817","#F87217","#F88017","#F87431","#C58917","#FBB117","#827839","#C9BE62","#ADA96E","#AF7817","#C7A317","#D4A017","#FBB917","#EAC117","#EDE275","#FFF380","#FFFC17","#A0C544","#BCE954","#B1FB17","#8AFB17","#7FE817","#5FFB17","#87F717","#00FF00","#C3FDB8","#B5EAAA","#6AFB92","#64E986","#57E964","#54C571","#4CC552","#52D017","#6CC417","#99C68E","#8BB381","#4AA02C","#347235","#4E9258","#387C44","#254117","#306754","#348781","#617C58","#5E7D7E","#5E767E","#95B9C7","#717D7D","#AFC7C7","#CFECEC","#736AFF","#6698FF","#566D7E","#82CAFF","#87AFC7","#A0CFEC","#3EA99F","#307D7E","#3B9C9C","#AFDCEC","#92C7C7","#77BFC7","#43BFC7","#8EEBEC","#9AFEFF","#43C6DB","#817339","#817679","#48CCCD","#4EE2EC","#57FEFF","#52F3FF","#B7CEEC","#C2DFFF","#E0FFFF","#BDEDFF","#ADDFFF","#C6DEFF","#FDEEF4","#E3E4FA","#FCDFFF","#E9CFEC","#C8BBBE","#EBDDE2","#C6AEC7","#D2B9D3","#C38EC7","#B93B8F","#7E354D","#C25A7C","#F778A1","#D16587","#7E587E","#B041FF","#8B31C7","#7D1B7E","#571B7E","#461B7E","#6C2DC7","#6A287E","#A74AC7","#D462FF","#B048B5","#FF00FF","#F535AA","#C12283","#810541","#7D0552","#C12869","#F52887","#98AFC7","#737CA1","#41627E","#659EC7","#5CB3FF","#56A5EC","#488AC7","#728FCE","#9E7BFF","#7A5DC7","#8D38C9","#6960EC","#4863A0","#2B547E","#153E7E","#1569C7","#1589FF","#25587E","#3090C7","#3BB9FF","#2554C7","#2B65EC","#15317E","#151B8D","#463E41","#25383C","#2B3856","#151B54","#4E387E,","#4C787E","#736F6E","#FAF8C6","#FFE87C","#C8B560"],
+    "chart": {
+        "renderTo": "$renderDivId$",
+        "zoomType": "xy",
+        "defaultSeriesType": "scatter",
+        "borderWidth": 0,
+        "borderColor": "#d3d3d3",
+        "backgroundColor": "#ffffff",
+        "plotBackgroundColor": "#ffffff",
+        "plotBorderWidth": 0,
+        "plotBorderColor": "#000000",
+        "spacingBottom": 30,
+        "events": {
+            "load": null
+        }
+    },
+    "xAxis": {
+        "categories": null,
+        "gridLineColor": "#C0C0C0",
+        "gridLineDashStyle": "Solid",
+        "gridLineWidth": 0,
+        "lineColor": "#C0D0E0",
+        "lineWidth": 1,
+        "minorGridLineColor": "#E0E0E0",
+        "minorGridLineDashStyle": "Solid",
+        "minorGridLineWidth": 0,
+        "title": {
+            "text": "$xAxisTitle$",
+            "style": {
+                "font": "normal 11px arial",
+                "color": "#A0A0A0",
+                "fontWeight": "normal",
+                "textDecoration": "none",
+                "width": "500px"
+            }
+        },
+        "maxZoom": 2,
+        "labels": {
+            "formatter": null,
+            "enabled": true,
+            "rotation": 360,
+            "align": "center",
+            "style": {
+                "font": "normal 12px Arial",
+                "color": "#000000",
+                "fontWeight": "normal",
+                "textDecoration": "none",
+                "width": "100px"
+            },
+            "x": 0,
+            "y": 20
+        }
+    },
+    "yAxis": {
+        "gridLineColor": "#C0C0C0",
+        "gridLineDashStyle": "Solid",
+        "gridLineWidth": 0,
+        "lineColor": "#C0D0E0",
+        "lineWidth": 1,
+        "minorGridLineColor": "#E0E0E0",
+        "minorGridLineDashStyle": "Solid",
+        "minorGridLineWidth": 0,
+        "title": {
+            "text": "$yAxisTitle$",
+            "style": {
+                "font": "normal 11px arial",
+                "color": "#A0A0A0",
+                "fontWeight": "normal",
+                "textDecoration": "none",
+                "width": "300px"
+            }
+        },
+        "maxZoom": 2,
+        "labels": {
+            "formatter": null,
+            "enabled": true,
+            "rotation": 0,
+            "align": "right",
+            "style": {
+                "font": "normal 12px Arial",
+                "color": "#000000",
+                "fontWeight": "normal",
+                "textDecoration": "none",
+                "width": "100px"
+            },
+            "x": -10,
+            "y": 5
+        }
+    },
+    "title": {
+        "text": "$chartTitle$",
+        "style": {
+            "font": "normal 15px Arial",
+            "color": "#000000",
+            "fontWeight": "normal",
+            "textDecoration": "none",
+            "width": "600px"
+        }
+    },
+    "subtitle": {
+        "text": "$chartSubTitle$",
+        "style": {
+            "font": "normal 13px arial",
+            "color": "#A0A0A0",
+            "fontWeight": "normal",
+            "textDecoration": "none",
+            "width": "500px"
+        },
+		"y":50
+    },
+    "legend": {
+        "borderWidth": 0,
+        "align": "right",
+        "verticalAlign": "top",
+        "backgroundColor": "#ffffff",
+        "enabled": true,
+        "floating": false,
+        "itemStyle": {
+            "font": "normal 11px Arial",
+            "color": "#000000",
+            "fontWeight": "normal",
+            "textDecoration": "none",
+            "width": "150px"
+        },
+        "symbolWidth": 10,
+        "itemWidth": null,
+        "labelFormatter": null,
+        "x": 0,
+        "y": 25
+    },
+    "tooltip": {
+        "backgroundColor": "rgba(255, 255, 255, .85)",
+        "borderRadius": 5,
+        "borderWidth": 2,
+        "formatter": null,
+        "shared": false,
+        "style": {
+            "color": "#333333",
+			"width":"500px"
+        }
+    },
+    "plotOptions": $plotOptionId$,
+    "series": $seriesData$,
+    "exporting": {
+        "enabled": false,
+        "url": "ExportUsingBatik.aspx"
+    }
+}

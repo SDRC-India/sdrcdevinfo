@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Kachugaon  BPHC" id="IND018001001" l="3" nid="3038" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kalaigaon SD" id="IND018027001" l="3" nid="3079" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kalain CHC" id="IND018017002" l="3" nid="3080" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kalinagar BPHC" id="IND018019001" l="3" nid="3044" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kamalpur PHC" id="IND018022002" l="3" nid="3033" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kamargaon SD" id="IND018004002" l="3" nid="3049" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kamrup metropolitan" id="IND018023" l="3" nid="3023" pnid="2998" dataexists="T" isblock="F" lnid="593" />
+  <a n="Kamrup-Rural" id="IND018022" l="3" nid="3022" pnid="2998" dataexists="T" isblock="F" lnid="592" />
+  <a n="Karbi Anglong" id="IND018015" l="3" nid="3015" pnid="2998" dataexists="T" isblock="F" lnid="585" />
+  <a n="Karia MPHC" id="IND018024002" l="3" nid="3051" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Karimganj" id="IND018018" l="3" nid="3018" pnid="2998" dataexists="T" isblock="F" lnid="588" />
+  <a n="Katlicherra BPHC" id="IND018019002" l="3" nid="3045" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kauripathar SD" id="IND018007002" l="3" nid="3081" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Khakandaguri MPHC" id="IND018014002" l="3" nid="3061" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="KHS SDH Nazira" id="IND018012002" l="3" nid="3073" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kokrajhar" id="IND018001" l="3" nid="3001" pnid="2998" dataexists="T" isblock="F" lnid="572" />
+  <a n="Kothalguri" id="IND018010001" l="3" nid="3054" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Krishnai MPHC" id="IND018003002" l="3" nid="3085" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+</AreaList>

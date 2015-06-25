@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="DBManagement_Page_Title" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Maintenance_Agency_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="List_Of_Databases" ElementID="lang_List_Of_Databases" ElementProperty="innerHTML" />
+  <Associate MasterKey="Generate_SDMX_Artefacts_From_Database" ElementID="btnGenerateSDMXArtefacts" ElementProperty="value" />
+  <Associate MasterKey="Upload_DSD_MSD_coln" ElementID="lang_Upload_DSD_MSD_coln" ElementProperty="innerHTML" />
+  <Associate MasterKey="Upload_New_DSD" ElementID="btnAddNew" ElementProperty="value" />
+  <Associate MasterKey="List_Of_DSDs_coln" ElementID="lang_List_Of_DSDs" ElementProperty="innerHTML" />
+  <Associate MasterKey="List_Of_MSDs_coln" ElementID="lang_List_Of_MSDs" ElementProperty="innerHTML" />
+  <Associate MasterKey="Assosciated_Database" ElementID="lang_Assosciated_Database" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_Assosciated_Database" ElementID="lang_Select_Assosciated_Database" ElementProperty="innerHTML" />
+  <Associate MasterKey="Upload_DSD" ElementID="btnUploadDSDFromAdmin" ElementProperty="value" />
+  <Associate MasterKey="Assosciated_Database" ElementID="lang_Assosciated_Database_Edit_Delete" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_Assosciated_Database" ElementID="lang_Select_Assosciated_Database_Edit_Delete" ElementProperty="innerHTML" />
+  <Associate MasterKey="Selected_DSD" ElementID="lang_Selected_DSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_DSD" ElementID="lang_Select_DSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Update_Your_DSD_MSD" ElementID="lang_Update_Your_DSD_MSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Update_DSD" ElementID="btnUpdateDSDFromAdmin" ElementProperty="value" />
+  <Associate MasterKey="Delete_DSD" ElementID="btnDeleteDSDFromAdmin" ElementProperty="value" />
+  <Associate MasterKey="Connection_Name" ElementID="hConnectionName" ElementProperty="value" />
+  <Associate MasterKey="Database_Type" ElementID="hDatabaseType" ElementProperty="value" />
+  <Associate MasterKey="Created_On" ElementID="hCreatedOn" ElementProperty="value" />
+  <Associate MasterKey="Publisher" ElementID="hPublisher" ElementProperty="value" />
+  <Associate MasterKey="SNo" ElementID="hSNo" ElementProperty="value" />
+  <Associate MasterKey="Id" ElementID="hId" ElementProperty="value" />
+  <Associate MasterKey="Agency_Id" ElementID="hAgencyId" ElementProperty="value" />
+  <Associate MasterKey="Version" ElementID="hVersion" ElementProperty="value" />
+  <Associate MasterKey="Assosciated_Database" ElementID="hAssosciatedDatabase" ElementProperty="value" />
+  <Associate MasterKey="Details" ElementID="hDetails" ElementProperty="value" />
+  <Associate MasterKey="Action" ElementID="hAction" ElementProperty="value" />
+  <Associate MasterKey="Assosciated_DSD_Id_AgencyId_Version" ElementID="hAssosciatedDSD" ElementProperty="value" />
+  <Associate MasterKey="View" ElementID="hView" ElementProperty="value" />
+  <Associate MasterKey="Download" ElementID="hDownload" ElementProperty="value" />
+  <Associate MasterKey="Edit" ElementID="hEdit" ElementProperty="value" />
+  <Associate MasterKey="Delete" ElementID="hDelete" ElementProperty="value" />
+  <Associate MasterKey="DefaultDSD" ElementID="lang_Default_DSD_Update" ElementProperty="innerHTML" />
+  <Associate MasterKey="DefaultDSD" ElementID="lang_Default_DSD_Upload" ElementProperty="innerHTML" />
+  <Associate MasterKey="lang_ArtifactsGeneratedSuccessfully" ElementID="hArtifactsGeneratedSuccessfully" ElementProperty="value" />
+  <Associate MasterKey="lang_UploadedSuccessfully" ElementID="hUploadedSuccessfully" ElementProperty="value" />
+  <Associate MasterKey="lang_ErrorWhileUploading" ElementID="hErrorWhileUploading" ElementProperty="value" />
+  <Associate MasterKey="lang_UpdatedSuccessfully" ElementID="hUpdatedSuccessfully" ElementProperty="value" />
+  <Associate MasterKey="lang_ErrorWhileUpdating" ElementID="hErrorWhileUpdating" ElementProperty="value" />
+  <Associate MasterKey="lang_DeletedSuccessfully" ElementID="hDeletedSuccessfully" ElementProperty="value" />
+  <Associate MasterKey="lang_ErrorWhileDeleting" ElementID="hErrorWhileDeleting" ElementProperty="value" />
+  <Associate MasterKey="lang_ArtifactsNotFound" ElementID="hArtifactsNotFound" ElementProperty="value" />
+  <Associate MasterKey="lang_SameVersionUploaded" ElementID="hSameVersionUploaded" ElementProperty="value" />
+  
+  <Associate MasterKey="lang_SelectAssociatedDatabase" ElementID="hSelectAssociatedDatabase" ElementProperty="value" />
+</root>

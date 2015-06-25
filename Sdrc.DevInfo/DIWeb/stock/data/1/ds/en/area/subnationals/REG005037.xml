@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Ghosi" nID="2952" aID="REG005037003" isGlobal="F" parentID="REG005037" parentName="Jehanabad" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="484" />
+  <area name="Hulasganj" nID="2951" aID="REG005037002" isGlobal="F" parentID="REG005037" parentName="Jehanabad" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="484" />
+  <area name="Jehanabad" nID="2950" aID="REG005037001" isGlobal="F" parentID="REG005037" parentName="Jehanabad" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="484" />
+</AreaList>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="WebServiceDemo_Page_Title" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="WebServiceDemo_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="WebServiceFunctions" ElementID="lang_WebServiceFunctions" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_a_function" ElementID="lang_Select_a_function" ElementProperty="innerHTML" />
+  <Associate MasterKey="Id" ElementID="lang_Id" ElementProperty="innerHTML" />
+  <Associate MasterKey="AgencyId" ElementID="lang_AgencyId" ElementProperty="innerHTML" />
+  <Associate MasterKey="Version" ElementID="lang_Version" ElementProperty="innerHTML" />
+  <Associate MasterKey="APIURL_coln" ElementID="lang_APIUrl" ElementProperty="innerHTML" />
+  <Associate MasterKey="Name_of_the_Method" ElementID="lang_Name_of_the_Method" ElementProperty="innerHTML" />
+  <Associate MasterKey="Generate_API_Call" ElementID="btnGenerateApiCall" ElementProperty="value" />
+  <Associate MasterKey="Request" ElementID="spanRequest" ElementProperty="innerHTML" />
+  <Associate MasterKey="Response" ElementID="spanResponse" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download" ElementID="aDownloadRequest" ElementProperty="innerHTML" />
+  <Associate MasterKey="Copy" ElementID="aCopyRequest" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download" ElementID="aDownloadResponse" ElementProperty="innerHTML" />
+  <Associate MasterKey="Copy" ElementID="aCopyResponse" ElementProperty="innerHTML" />
+  <Associate MasterKey="View" ElementID="aViewRequest" ElementProperty="innerHTML" />
+  <Associate MasterKey="View" ElementID="aViewResponse" ElementProperty="innerHTML" />
+  <Associate MasterKey="SampleValues" ElementID="spanSampleValues" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="Notification_Mail" ElementID="lang_Notification_Mail" ElementProperty="innerHTML" />
+  <Associate MasterKey="SOAP_Protocol" ElementID="lang_SOAP_Protocol" ElementProperty="innerHTML" />
+  <Associate MasterKey="Notification_HTTP" ElementID="lang_Notification_HTTP" ElementProperty="innerHTML" />
+  <Associate MasterKey="Validity_Period" ElementID="lang_Validity_Period" ElementProperty="innerHTML" />
+  <Associate MasterKey="Start_Date" ElementID="lang_Start_Date" ElementProperty="innerHTML" />
+  <Associate MasterKey="End_Date" ElementID="lang_End_Date" ElementProperty="innerHTML" />
+  <Associate MasterKey="Event_Selector" ElementID="lang_Event_Selector" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data_Registration" ElementID="lang_Data_Registration" ElementProperty="innerHTML" />
+  <Associate MasterKey="Metadata_Registration" ElementID="lang_Metadata_Registration" ElementProperty="innerHTML" />
+  <Associate MasterKey="Structural_Metadata_Registration" ElementID="lang_Structural_Metadata_Registration" ElementProperty="innerHTML" />
+  <Associate MasterKey="Category" ElementID="lang_Category" ElementProperty="innerHTML" />
+  <Associate MasterKey="Metadata_Flows" ElementID="lang_Metadata_Flows" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_MFD" ElementID="lang_Select_MFD" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="IsMetadata" ElementID="lang_IsMetadata" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_DM_Flows" ElementID="lang_Select_DM_Flows" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_DFD_MFD" ElementID="lang_Select_DFD_MFD" ElementProperty="innerHTML" />
+  <Associate MasterKey="File_R_URL" ElementID="spanFileURL" ElementProperty="innerHTML" />
+  <Associate MasterKey="Lang_preference" ElementID="lang_preference" ElementProperty="innerHTML" />
+</root>

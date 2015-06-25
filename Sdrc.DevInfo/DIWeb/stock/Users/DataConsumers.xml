@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<message:Structure xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:structurespecific="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:query="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/query" xmlns:registry="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/registry" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message">
+  <message:Header>
+    <message:ID>Header_Id</message:ID>
+    <message:Test>true</message:Test>
+    <message:Prepared>2013-09-05T12:38:57+05:30</message:Prepared>
+    <message:Sender id="Sender_Id">
+      <common:Name xml:lang="en">Sender_Name</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en">Sender</common:Name>
+        <message:Department xml:lang="en">Sender_Department</message:Department>
+        <message:Role xml:lang="en">Sender_Role</message:Role>
+        <message:Telephone>Sender_Telephone</message:Telephone>
+        <message:Email>Sender_Email</message:Email>
+        <message:Fax>Sender_Fax</message:Fax>
+      </message:Contact>
+    </message:Sender>
+    <message:Receiver id="Receiver_Id">
+      <common:Name xml:lang="en">Receiver_Name</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en">Receiver</common:Name>
+        <message:Department xml:lang="en">Receiver_Department</message:Department>
+        <message:Role xml:lang="en">Receiver_Role</message:Role>
+        <message:Telephone>Receiver_Telephone</message:Telephone>
+        <message:Email>Receiver_Email</message:Email>
+        <message:Fax>Receiver_Fax</message:Fax>
+      </message:Contact>
+    </message:Receiver>
+  </message:Header>
+  <message:Structures>
+    <structure:OrganisationSchemes>
+      <structure:DataConsumerScheme id="DATA_CONSUMERS" version="1.0" agencyID="SDMX">
+        <common:Name xml:lang="en">Data Consumer Scheme</common:Name>
+        <common:Description xml:lang="en">Listing of all data consumers.</common:Description>
+        <structure:DataConsumer id="DC_2">
+          <common:Name xml:lang="en">Neha </common:Name>
+        </structure:DataConsumer>
+        <structure:DataConsumer id="DC_8">
+          <common:Name xml:lang="en">Avalon </common:Name>
+        </structure:DataConsumer>
+        <structure:DataConsumer id="DC_496">
+          <common:Name xml:lang="en">Mansi </common:Name>
+        </structure:DataConsumer>
+      </structure:DataConsumerScheme>
+    </structure:OrganisationSchemes>
+  </message:Structures>
+</message:Structure>

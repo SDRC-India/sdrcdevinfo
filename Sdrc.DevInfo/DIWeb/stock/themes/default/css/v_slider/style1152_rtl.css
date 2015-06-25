@@ -1,0 +1,21 @@
+/* Home Video Panel ...starts*
+.hm_vid_pnl{ left:0; right:0; }
+/* Home Video Panel ...ends*/
+
+/* From home_slider.css ...starts*
+#slider { right: 6px !important }
+:root #slider{ right: -2px \0/IE9 !important; }
+
+.li_img_pos{ position:relative; left:18px; padding-left: 0; *padding-left:0; padding-left: 0\9; }
+:root .li_img_pos{ left:0\0/IE9; margin:0 0 0 -20px\0/IE9; }
+.win.gecko .li_img_pos{ padding-left:0; }
+
+div.anythingSlider .anythingControls ul{ *position:relative; *right:83% !important }
+
+
+/* From home_slider.css ...ends*/
+
+/* Home Slider Expand/Collapse ...starts *
+:root #hm_main_exp_colp{ right:-8% \0/IE9; }
+/* Home Slider Expand/Collapse ...ends */
+

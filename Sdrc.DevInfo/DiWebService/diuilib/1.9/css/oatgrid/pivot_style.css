@@ -1,0 +1,121 @@
+/*
+ *  $Id: style.css,v 1.10 2007/12/04 14:59:04 source Exp $
+ *
+ *  This file is part of the OpenLink Software Ajax Toolkit (OAT) project.
+ *
+ *  Copyright (C) 2005-2007 OpenLink Software
+ *
+ *  See LICENSE file for details.
+ */
+/*@import url("menu.css");
+@import url("styles/webdav.css");*/
+/*@import url("styles/grid.css");*/
+@import url("styles/pivot.css");
+/*@import url("styles/timeline.css");*/
+
+#pivot 
+{
+	z-index:250;
+}
+
+#throbber_content {
+	visibility: hidden;
+}
+
+#throbber {
+	text-align: left;
+}
+
+body {
+	font-family: arial;
+	font-size:11px;
+}
+
+#content {
+	border: 0px solid #A6C9E2;
+	/*padding: 1em;*/
+}
+
+h3 {
+	margin-top: 0px;
+}
+
+#source_content {
+	font-family:arial;
+	font-size:12px;
+	background-color: #dde;
+	padding: 1em;
+}
+
+#timeline_content {
+	width: 100%;
+}
+
+#dataTitle 
+{
+	font-size: 24px;
+	font-weight:bold;
+	padding-bottom: 5px;
+}
+
+#dataSubTitle
+{
+	font-size: 14px;
+	font-weight:normal;
+	padding-bottom: 15px;
+}
+
+/*-------------- charts -----------*/
+
+#chart_1, #chart_2 {
+	width: 500px;
+	height: 200px;
+	background-color: #ccc;
+	
+}
+
+#chart_1 .legend, #chart_2 .legend {
+	font-size: 80%;
+}
+
+.chart {
+	height: 200px;
+	background-color: #aaa;
+
+}
+
+.legend {
+	background-color: #fff;
+	border: 1px solid #000;
+	font-size: 90%;
+	padding: 1px;
+}
+
+.legend_box {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #000;
+	margin: 2px;
+	float: left;
+	font-size: 0px;
+}
+
+.textX {
+	font-size:12px;
+	text-align: center;
+}
+
+.textY {
+	font-size:12px;
+}
+
+/* pie chart */
+#pie_content {
+	width: 700px;
+	height: 300px;
+}
+
+#pivot_chart {
+	background-color: #aaa;
+	margin-top:10px;
+}

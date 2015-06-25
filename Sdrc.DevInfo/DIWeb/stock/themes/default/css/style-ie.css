@@ -1,0 +1,429 @@
+﻿.MainContent{ margin-top: -19px\9; }
+:root .MainContent{ margin-top: -18px\0/IE9; } 
+.MainContent_glbl{ padding-top:0 !important } 
+
+#MainContent{ padding-top:18px\9; }
+:root #MainContent{ padding-top:16px\0/IE9; }
+
+#pnlRegistry .heading1
+{
+	padding-top:20px; /* IE7 hack too */
+}
+.di_info_sec
+{
+	*width:24%;
+}
+
+
+:root #header{
+margin-bottom:-10px \0/IE9;
+}
+
+/* Top Links ...starts*/
+
+:root .headerlink1  
+{
+    line-height:21px \0/IE9; 
+    padding-bottom:4px \0/IE9; 
+} 
+.headerlink1  
+{
+    line-height:21px\9;
+    padding-bottom:4px\9; 
+}
+
+.headerlink1 li a
+{
+	*margin:0 4px 0 0px;
+}
+
+#aGoto{
+}  /*IE7 SPECIFIC */
+
+/* Navigation Links ...starts*/
+#top_menu_link2 li{
+/* padding-top:7px\9;/* IE8 */
+	line-height:58px\9; /* IE8 */
+	padding-top:2px\9; /* IE8 */
+	*line-height:59px; /* IE7 */	
+}
+:root #top_menu_link2 li{
+	line-height:59px \0/IE9; /* IE9 only */
+ 	padding-top:2px \0/IE9; /* IE9 */
+ 	padding-bottom:2px \0/IE9; /* IE9 */
+}
+
+/*.glb_lnk_txt{ top:24px\9; right:23px\9; *top:25px; *right:23px }  IE & rtl-o 
+:root .glb_lnk_txt{ top:25px \0/IE9; right: 22px \0/IE9; }*/
+.glb_lnk_txt{ right:23px\9; *right:23px }  /*IE & rtl-o */
+:root .glb_lnk_txt{ right: 22px \0/IE9; }
+/* Navigation Links ...ends*/
+
+/* Top Links ...ends*/
+
+/* Slider Area ...starts */
+/* Home Video Panel ...starts*/
+.hm_vid_pnl_contnr{ *padding-top:0; } /* IE7 */
+:root .hm_vid_pnl_contnr{ padding-top:12px \0/IE9 }
+#sh_slider{ *padding-top:0 }
+.hm_vid_pnl_contnr_exp_pos{ padding-top:3px\9 !important }
+:root .hm_vid_pnl_contnr_exp_pos{ padding-top:4px\0/IE9 !important }
+
+/* Home Video Panel ...ends*/
+
+/*
+#slider_area{
+	/*width:111.2%; /* this for IE7 scroll
+}*/
+/* For New Slider ...starts commenting */
+/*
+#slider 
+{
+	min-width:997px\9; /* IE8 
+	*width:106.5%; 
+	*left:-30px;
+	*min-width:950px; /* For all IE KEEP 1003px 
+}
+:root #slider 
+{
+	min-width:997px \0/IE9; /* IE8 
+}
+/* For New Slider ...ends commenting */
+/*
+:root .panel_table_hm_sldr{
+	padding-top:7px \0/IE9;
+}
+#slider 
+{
+	min-width:898px\9; /* IE8 
+	*width:99.4%; 
+	*min-width:898px; /* For all IE KEEP 1003px 
+}
+:root #slider 
+{
+	min-width:997px \0/IE9; /* IE8 
+}
+*/
+/* Mid Section - Slider Area ...starts
+/* Mid Section - Slider Area ...ends*/	
+
+/* Right Section - Slider Arrow ...starts*/
+#if_arrow_rt_box{
+*margin-left:3px;
+*width:0%;
+}
+#if_arrow_rt_box:hover{
+*margin-left:3px;
+*width:0%;
+}
+/* Right Section - Slider Arrow ...ends*/
+
+/* Slider Area ...ends */
+
+/* Header Area ...starts*
+:root .header
+{
+	margin-bottom:10px \0/IE9; /* IE9 only*
+}
+/* Header Area ...ends*/
+
+/* Navigation Links ...starts*/
+/* Navigation Links ...ends*/
+
+:root .site_caption
+{
+	padding-bottom:31px \0/IE9; /* IE9 only*/
+}
+:root .heading1_dbname
+{
+	line-height:9px \0/IE9; 
+	padding-bottom:6px \0/IE9; /* IE9 only*/
+}
+/* DBS & QDS Search Box ...starts*/
+/* For Database Search Box ...starts*/
+:root .heading1_dbs
+{
+	padding-top:3px \0/IE9; /* IE9 only*/
+}	
+
+/* For Database Search Box ...ends*/
+
+/* For Quick Data Search Box ...starts*/
+:root .heading1_qds
+{
+	padding-top:3px \0/IE9; /* IE9 only*/
+}
+/* For Quick Data Search Box ...ends*/
+/* DBS & QDS Search Box ...ends*/
+	
+/* Slider Area ...starts */
+
+.pagination
+{
+*margin:0px 95px 0px 0px;	
+}
+/*
+@-moz-document url-prefix(){
+.pagination{ margin:0px 95px 0px 0px; } 
+}
+@media screen {
+		/* Webkit-specific CSS here 
+.pagination {margin:0px 95px 0px 0px;}
+}*/
+/* Slider Area ...ends */
+
+/* For QDS & DBS Search Boxes Container ...starts*/
+.or_txt, .or_txt_ta{ *line-height:20px; *top:56px }/* IE7 too */
+.or_txt_ta{ *top:28px }
+/* For QDS & DBS Search Boxes Container ...ends*/
+
+/* Advanced Search Box ...starts*/
+:root a.adv_search, a:hover.adv_search { bottom: -6px \0/IE9; }
+a.adv_search, a:hover.adv_search { /*padding-top:3px\9;*/ *bottom: -3px }
+/* Advanced Search Box ...ends*/
+/*
+:root .tab_panel_selected
+{
+		/*height:55px \0/IE9; 
+}*/
+
+.adv_src_dvdr_spc{ *height:4px }
+
+.tab_panel_pg
+{
+	min-width:179px\9;
+	top:-3px\9;
+	*min-width:179px;
+	*top:3px;
+	*padding:12px 0 9px 0;	
+}
+/*:root .tab_panel
+{
+	top:5px \0/IE9;
+}
+*/
+h1#langBrowseF_D_B
+{
+	*position:relative; *top:13px
+}
+
+.comp_box_brd, .comp_box_brd_ar
+{
+	/*margin-top:77px;*/
+	*margin-top:-19px;
+	*padding:5px 12px 12px
+}
+
+
+/* DevInfo Logo and follow icons ...starts*/
+#lo_icon_main
+{
+	*margin-top:-20px;
+}
+
+
+/* For Gallery(/QDS) Page popups ...starts*/
+#popup_db_details
+{
+	*height: 476px
+}
+:root #popup_db_details{
+	height:460px \0/IE9;
+}
+/* For Gallery(/QDS) Page popups ...ends*/
+
+/*Popup for Advanced Search ...starts*/
+/*.adv_src_tab_blw_spc{ *margin-bottom:19px }*/
+.comp_box_brd_ppup, .comp_box_brd_ar_ppup
+{
+	*margin-top:0px;
+}
+.tab_panel, .tab_panel_selected
+{
+    *padding-bottom:8px
+}
+/*Popup for Advanced Search ...ends*/
+
+/*--------(Database selection component)/Popups start-----------*/
+/*--Making IE6 Understand Fixed Positioning--*/
+*html #fade{
+	position:absolute;
+}
+*html .popup_block{
+	position:absolute;
+}
+
+h1.popup_heading, h1.popup_wid_subhdn{
+	*padding-top:2px !important;
+}
+/* Input Details pages for Popups ...ends */ 	
+	.adm_upd_bttn_lgin_ppup{
+		*margin-left:180px; /* rtl-o */
+	}	
+/* Input Details pages for Popups ...ends */
+ 
+/*Popup for Share ...starts*/
+#divEmbeddLink
+{
+	*height:395px;
+}
+.shr_popup_rgt_bttn
+{
+	*margin-top:-57px;
+}
+/*Popup for Share ...ends*/
+
+/*Popup for Registration StructuralMD(view) ...starts*/
+.reg_subs_ppup_inp_spc
+{
+	*height:2px;
+	height:0\9;
+}
+:root reg_subs_ppup_inp_spc
+{
+	height:0 \0/IE9; /* IE9 */
+}
+/*Popup for Registration StructuralMD(view) ...ends*/
+
+/*Popup for Registration Providers ...starts*/
+:root #divArtefacts
+{
+	height:470px \0/IE9;
+}
+/*Popup for Registration Providers ...ends*/
+
+/*--------(Database selection component)/Popups end-----------*/
+
+/* For Registry page ...starts*/
+/* Registry Navigation Tab ...starts */
+:root ul#reg_nav_tab li a
+{
+	padding:3px 12px 4px 12px \0/IE9; /* IE9 */
+}
+ul#reg_nav_tab li a.reg_nav_tab_active
+{
+ 	*line-height:26px; /* IE7 SPECIFIC */
+} 
+/* Registry Navigation Tab ...ends */
+/* For Registry page ...ends*/
+
+
+/* Admin Page Css ...starts */
+	/* Left Sec Admin ...starts*/
+	#lft_sec_adm ul li
+		{
+			*height:13px !important;
+		}		
+	#lft_sec_adm ul li a
+	{
+		*top:-3px;
+	}			
+	/* Left Sec Admin ...ends*/	
+		
+	/* Right Sec Admin ...starts*/
+	#rgt_sec_adm h1, #rgt_sec_adm_catlg h1{
+		*line-height:17px !important; /* IE7 only */
+	}
+	.confg_frm_inp_bx_chkbx_lgn{
+		*height:22px;
+		height:22px\9;
+	}
+
+	.confg_frm_inp_bx_txt{
+		margin-bottom:4px\9; /* Detecting IE8&9 Both */
+		*margin-bottom:4px;
+	}
+	.confg_frm_inp_bx_txt_dd
+	{
+		margin-bottom:4px\9; /* Detecting IE8&9 Both */
+		*margin-bottom:4px;
+	}	
+	.confg_frm_inp_bx_txt_sml{
+		margin-bottom:4px\9; /* Detecting IE8&9 Both */	
+		*margin-bottom:4px;
+	}		
+	.confg_frm_inp_bx_txt_big{
+		margin-bottom:4px\9; /* Detecting IE8&9 Both */	
+		*margin-bottom:4px;
+	}	
+
+	/* Right Sec Admin ...ends*/	
+	.adm_upd_bttn{
+		*margin-left:137px !important; /* rtl-o */
+	}
+	
+	.adm_upd_bttn_lgin{
+		*margin-left:229px; /* rtl-o */
+	}	
+	/* For Login page ...starts*/	
+	.adm_upd_bttn_lginpg{
+		*margin-left:115px; /* rtl-o */
+	}		
+	/* For Login page ...ends*/	
+	
+	.adm_upd-rgt_bttn{
+		*margin-left:155px; /* rtl-o */
+	}	
+	:root .adm_upd-rgt_bttn ul li.first
+	{
+		margin:0 0 0 1px \0/IE9;
+	}		
+	:root .adm_upd-rgt_bttn ul li
+	{
+		margin:0 0 0 -16px \0/IE9;
+	}	
+	/* For TxtBox display on click in Input field ...starts*/
+	.CategoryListDiv_pos
+	{
+		*position:absolute; 
+		*left:-500px; /* IE7 too */
+	}		
+	/* For TxtBox display on click in Input field ...ends*/		
+	
+/* For Default Area page ...starts */	
+.co_hdin_txt{ *line-height:56px !important; }
+/* For Default Area page ...ends */		
+	
+/* Admin Page Css ...ends */	
+
+/* For Catalog Page ...starts*/
+/* Side Filters ...starts */
+.cata_side_fltr_inp_bx_sec{ *width: auto } /* IE7 too */
+
+.cata_side_fltr_inp_bx{ *width: 85% } /* IE7 too */
+#imgSearchArea{ *position:relative; *top:-30px } /* IE7 SPECIFIC */
+/* Side Filters ...ends */
+
+/* Right Section ...starts */
+.global_heading{ width:69%\9; } 
+.global_heading_txt{ *width:90% /**width:85%  IE7 too */ }
+/* Right Section ...ends */
+/* For Catalog Page ...ends*/
+
+/* rtl-SPECIFIC Css ...starts */
+
+/* Component - Button View Data ...starts*/
+#butViewData{
+*min-width:137px;
+}
+/* Component - Button View Data ...ends*/
+
+/* Component - Button Search Data ...starts*/
+#bttn_hide{
+*min-width:132px;
+}
+/* Component - Button Search Data ...ends*/
+
+/* Component - Button Select Area ...starts*/
+#butSelectAreas{
+*min-width:131px;
+}
+/* Component - Button Select Area ...ends*/
+
+/* Component - Button Select Indicator ...starts*/
+#butSelectIndicators{
+*min-width:131px;
+}
+/* Component - Button Select Indicator ...ends*/
+
+/* rtl-SPECIFIC Css ...ends */

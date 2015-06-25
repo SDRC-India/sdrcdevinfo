@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://DIworldwide/DIWWS/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://DIworldwide/DIWWS/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://DIworldwide/DIWWS/">
+      <s:element name="GetM49Countries">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetM49CountriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetM49CountriesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetCatalog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="adaptationName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="description" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isDesktop" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="isWeb" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="webURL" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="areaCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="iusCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="timePeriodsCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dataValuesCount" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="startYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastModifiedOn" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="areaNId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="subNation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="catalogImageURL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbAdmName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbAdmInstitution" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbAdmEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unicefRegion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adaptationYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbLanguages" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="langCode_CSVFiles" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Adapted_For" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Date_Created" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetCatalogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetCatalogResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCatalog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCatalogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCatalogResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CatalogExists">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CatalogExistsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CatalogExistsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteCatalog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="adaptationNid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteCatalogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteCatalogResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCatalog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="adaptationNid" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="adaptationName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="description" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isDesktop" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="isWeb" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="webURL" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="areaCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="iusCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="timePeriodsCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dataValuesCount" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="startYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastModifiedOn" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="areaNId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="subNation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="catalogImageURL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbAdmName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbAdmInstitution" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbAdmEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unicefRegion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adaptationYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbLanguages" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCatalogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateCatalogResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCatalogInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="adaptationName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="webURL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastModifiedOn" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="areaNId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="subNation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbAdmName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbAdmInstitution" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dbAdmEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unicefRegion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adaptationYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptedFor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCatalogInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateCatalogInfoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_LangCode_CSVFiles_Catalog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LangCode_CSVFiles" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_LangCode_CSVFiles_CatalogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_LangCode_CSVFiles_CatalogResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJsonAdaptations">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJsonAdaptationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetJsonAdaptationsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJsonM49CountriesFile">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetJsonM49CountriesFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetJsonM49CountriesFileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateIndexedAreas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="adaptationGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateIndexedAreasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateIndexedAreasResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateIndexedIndicators">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDataSet">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="adaptationGUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateIndexedIndicatorsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateIndexedIndicatorsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCatalogCacheResults">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="searchAreas" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="searchIndicators" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCatalogCacheResultsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCatalogCacheResultsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCatalogMatchedResults">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="searchAreas" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="searchIndicators" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="langCodeDb" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCatalogMatchedResultsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCatalogMatchedResultsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdaptationVersions">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAdaptationVersionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAdaptationVersionsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDisclaimerText">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDisclaimerTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDisclaimerTextResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckIsGlobalAdaptation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckIsGlobalAdaptationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckIsGlobalAdaptationResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdaptationURL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdaptationURLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAdaptationURLResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdaptationInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdaptationInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAdaptationInfoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDBMetaData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDBMetaDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDBMetaDataResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckIsDI7ORGAdaptation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckIsDI7ORGAdaptationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckIsDI7ORGAdaptationResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGlobalMasterWebUrl">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetGlobalMasterWebUrlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGlobalMasterWebUrlResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDateCreated">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDateCreatedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDateCreatedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetM49CountriesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetM49Countries" />
+  </wsdl:message>
+  <wsdl:message name="GetM49CountriesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetM49CountriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetCatalogSoapIn">
+    <wsdl:part name="parameters" element="tns:SetCatalog" />
+  </wsdl:message>
+  <wsdl:message name="SetCatalogSoapOut">
+    <wsdl:part name="parameters" element="tns:SetCatalogResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCatalogSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCatalog" />
+  </wsdl:message>
+  <wsdl:message name="GetCatalogSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCatalogResponse" />
+  </wsdl:message>
+  <wsdl:message name="CatalogExistsSoapIn">
+    <wsdl:part name="parameters" element="tns:CatalogExists" />
+  </wsdl:message>
+  <wsdl:message name="CatalogExistsSoapOut">
+    <wsdl:part name="parameters" element="tns:CatalogExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteCatalogSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteCatalog" />
+  </wsdl:message>
+  <wsdl:message name="DeleteCatalogSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteCatalogResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCatalogSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateCatalog" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCatalogSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateCatalogResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCatalogInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateCatalogInfo" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCatalogInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateCatalogInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_LangCode_CSVFiles_CatalogSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_LangCode_CSVFiles_Catalog" />
+  </wsdl:message>
+  <wsdl:message name="Update_LangCode_CSVFiles_CatalogSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_LangCode_CSVFiles_CatalogResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetJsonAdaptationsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetJsonAdaptations" />
+  </wsdl:message>
+  <wsdl:message name="GetJsonAdaptationsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetJsonAdaptationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetJsonM49CountriesFileSoapIn">
+    <wsdl:part name="parameters" element="tns:GetJsonM49CountriesFile" />
+  </wsdl:message>
+  <wsdl:message name="GetJsonM49CountriesFileSoapOut">
+    <wsdl:part name="parameters" element="tns:GetJsonM49CountriesFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateIndexedAreasSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateIndexedAreas" />
+  </wsdl:message>
+  <wsdl:message name="UpdateIndexedAreasSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateIndexedAreasResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateIndexedIndicatorsSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateIndexedIndicators" />
+  </wsdl:message>
+  <wsdl:message name="UpdateIndexedIndicatorsSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateIndexedIndicatorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCatalogCacheResultsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCatalogCacheResults" />
+  </wsdl:message>
+  <wsdl:message name="GetCatalogCacheResultsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCatalogCacheResultsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCatalogMatchedResultsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCatalogMatchedResults" />
+  </wsdl:message>
+  <wsdl:message name="GetCatalogMatchedResultsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCatalogMatchedResultsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationVersionsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAdaptationVersions" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationVersionsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAdaptationVersionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDisclaimerTextSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDisclaimerText" />
+  </wsdl:message>
+  <wsdl:message name="GetDisclaimerTextSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDisclaimerTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsGlobalAdaptationSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckIsGlobalAdaptation" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsGlobalAdaptationSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckIsGlobalAdaptationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationURLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAdaptationURL" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationURLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAdaptationURLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAdaptationInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAdaptationInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDBMetaDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDBMetaData" />
+  </wsdl:message>
+  <wsdl:message name="GetDBMetaDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDBMetaDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsDI7ORGAdaptationSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckIsDI7ORGAdaptation" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsDI7ORGAdaptationSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckIsDI7ORGAdaptationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGlobalMasterWebUrlSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGlobalMasterWebUrl" />
+  </wsdl:message>
+  <wsdl:message name="GetGlobalMasterWebUrlSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGlobalMasterWebUrlResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDateCreatedSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDateCreated" />
+  </wsdl:message>
+  <wsdl:message name="GetDateCreatedSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDateCreatedResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CatalogSoap">
+    <wsdl:operation name="GetM49Countries">
+      <wsdl:input message="tns:GetM49CountriesSoapIn" />
+      <wsdl:output message="tns:GetM49CountriesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCatalog">
+      <wsdl:input message="tns:SetCatalogSoapIn" />
+      <wsdl:output message="tns:SetCatalogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCatalog">
+      <wsdl:input message="tns:GetCatalogSoapIn" />
+      <wsdl:output message="tns:GetCatalogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CatalogExists">
+      <wsdl:input message="tns:CatalogExistsSoapIn" />
+      <wsdl:output message="tns:CatalogExistsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCatalog">
+      <wsdl:input message="tns:DeleteCatalogSoapIn" />
+      <wsdl:output message="tns:DeleteCatalogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCatalog">
+      <wsdl:input message="tns:UpdateCatalogSoapIn" />
+      <wsdl:output message="tns:UpdateCatalogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCatalogInfo">
+      <wsdl:input message="tns:UpdateCatalogInfoSoapIn" />
+      <wsdl:output message="tns:UpdateCatalogInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_LangCode_CSVFiles_Catalog">
+      <wsdl:input message="tns:Update_LangCode_CSVFiles_CatalogSoapIn" />
+      <wsdl:output message="tns:Update_LangCode_CSVFiles_CatalogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJsonAdaptations">
+      <wsdl:input message="tns:GetJsonAdaptationsSoapIn" />
+      <wsdl:output message="tns:GetJsonAdaptationsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJsonM49CountriesFile">
+      <wsdl:input message="tns:GetJsonM49CountriesFileSoapIn" />
+      <wsdl:output message="tns:GetJsonM49CountriesFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIndexedAreas">
+      <wsdl:input message="tns:UpdateIndexedAreasSoapIn" />
+      <wsdl:output message="tns:UpdateIndexedAreasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIndexedIndicators">
+      <wsdl:input message="tns:UpdateIndexedIndicatorsSoapIn" />
+      <wsdl:output message="tns:UpdateIndexedIndicatorsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCatalogCacheResults">
+      <wsdl:input message="tns:GetCatalogCacheResultsSoapIn" />
+      <wsdl:output message="tns:GetCatalogCacheResultsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCatalogMatchedResults">
+      <wsdl:input message="tns:GetCatalogMatchedResultsSoapIn" />
+      <wsdl:output message="tns:GetCatalogMatchedResultsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationVersions">
+      <wsdl:input message="tns:GetAdaptationVersionsSoapIn" />
+      <wsdl:output message="tns:GetAdaptationVersionsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDisclaimerText">
+      <wsdl:input message="tns:GetDisclaimerTextSoapIn" />
+      <wsdl:output message="tns:GetDisclaimerTextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsGlobalAdaptation">
+      <wsdl:input message="tns:CheckIsGlobalAdaptationSoapIn" />
+      <wsdl:output message="tns:CheckIsGlobalAdaptationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationURL">
+      <wsdl:input message="tns:GetAdaptationURLSoapIn" />
+      <wsdl:output message="tns:GetAdaptationURLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationInfo">
+      <wsdl:input message="tns:GetAdaptationInfoSoapIn" />
+      <wsdl:output message="tns:GetAdaptationInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBMetaData">
+      <wsdl:input message="tns:GetDBMetaDataSoapIn" />
+      <wsdl:output message="tns:GetDBMetaDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsDI7ORGAdaptation">
+      <wsdl:input message="tns:CheckIsDI7ORGAdaptationSoapIn" />
+      <wsdl:output message="tns:CheckIsDI7ORGAdaptationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGlobalMasterWebUrl">
+      <wsdl:input message="tns:GetGlobalMasterWebUrlSoapIn" />
+      <wsdl:output message="tns:GetGlobalMasterWebUrlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDateCreated">
+      <wsdl:input message="tns:GetDateCreatedSoapIn" />
+      <wsdl:output message="tns:GetDateCreatedSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CatalogSoap" type="tns:CatalogSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetM49Countries">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetM49Countries" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCatalog">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/SetCatalog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCatalog">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetCatalog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CatalogExists">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/CatalogExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCatalog">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/DeleteCatalog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCatalog">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/UpdateCatalog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCatalogInfo">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/UpdateCatalogInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_LangCode_CSVFiles_Catalog">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/Update_LangCode_CSVFiles_Catalog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJsonAdaptations">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetJsonAdaptations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJsonM49CountriesFile">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetJsonM49CountriesFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIndexedAreas">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/UpdateIndexedAreas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIndexedIndicators">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/UpdateIndexedIndicators" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCatalogCacheResults">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetCatalogCacheResults" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCatalogMatchedResults">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetCatalogMatchedResults" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationVersions">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetAdaptationVersions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDisclaimerText">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetDisclaimerText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsGlobalAdaptation">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/CheckIsGlobalAdaptation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationURL">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetAdaptationURL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationInfo">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetAdaptationInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBMetaData">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetDBMetaData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsDI7ORGAdaptation">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/CheckIsDI7ORGAdaptation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGlobalMasterWebUrl">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetGlobalMasterWebUrl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDateCreated">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetDateCreated" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CatalogSoap12" type="tns:CatalogSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetM49Countries">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetM49Countries" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCatalog">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/SetCatalog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCatalog">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetCatalog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CatalogExists">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/CatalogExists" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCatalog">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/DeleteCatalog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCatalog">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/UpdateCatalog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCatalogInfo">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/UpdateCatalogInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_LangCode_CSVFiles_Catalog">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/Update_LangCode_CSVFiles_Catalog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJsonAdaptations">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetJsonAdaptations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJsonM49CountriesFile">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetJsonM49CountriesFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIndexedAreas">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/UpdateIndexedAreas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIndexedIndicators">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/UpdateIndexedIndicators" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCatalogCacheResults">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetCatalogCacheResults" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCatalogMatchedResults">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetCatalogMatchedResults" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationVersions">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetAdaptationVersions" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDisclaimerText">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetDisclaimerText" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsGlobalAdaptation">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/CheckIsGlobalAdaptation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationURL">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetAdaptationURL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationInfo">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetAdaptationInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBMetaData">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetDBMetaData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsDI7ORGAdaptation">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/CheckIsDI7ORGAdaptation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGlobalMasterWebUrl">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetGlobalMasterWebUrl" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDateCreated">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetDateCreated" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Catalog">
+    <wsdl:port name="CatalogSoap" binding="tns:CatalogSoap">
+      <soap:address location="http://localhost:9990/Catalog.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CatalogSoap12" binding="tns:CatalogSoap12">
+      <soap12:address location="http://localhost:9990/Catalog.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

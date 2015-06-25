@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+
+	<Input1>
+		<ID>MD_IND_1</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/1/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Definition</Caption>
+		<Caption lang="fr">Definition</Caption>
+		<Caption lang="zh">Definition</Caption>
+		<Caption lang="ar">Definition</Caption>
+		<Caption lang="es">Definition</Caption>
+		<Caption lang="ru">Definition</Caption>
+	</Input1>
+
+	<Input2>
+		<ID>MD_IND_2</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/2/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Method of Computation</Caption>
+		<Caption lang="fr">Method of Computation</Caption>
+		<Caption lang="zh">Method of Computation</Caption>
+		<Caption lang="ar">Method of Computation</Caption>
+		<Caption lang="es">Method of Computation</Caption>
+		<Caption lang="ru">Method of Computation</Caption>
+	</Input2>
+
+	<Input3>
+		<ID>MD_IND_3</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/3/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Overview</Caption>
+		<Caption lang="fr">Overview</Caption>
+		<Caption lang="zh">Overview</Caption>
+		<Caption lang="ar">Overview</Caption>
+		<Caption lang="es">Overview</Caption>
+		<Caption lang="ru">Overview</Caption>
+	</Input3>
+
+	<Input4>
+		<ID>MD_IND_4</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/4/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Comments and Limitations</Caption>
+		<Caption lang="fr">Comments and Limitations</Caption>
+		<Caption lang="zh">Comments and Limitations</Caption>
+		<Caption lang="ar">Comments and Limitations</Caption>
+		<Caption lang="es">Comments and Limitations</Caption>
+		<Caption lang="ru">Comments and Limitations</Caption>
+	</Input4>
+
+	<Input5>
+		<ID>MD_IND_5</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/5/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Data Collection for Global Monitoring</Caption>
+		<Caption lang="fr">Data Collection for Global Monitoring</Caption>
+		<Caption lang="zh">Data Collection for Global Monitoring</Caption>
+		<Caption lang="ar">Data Collection for Global Monitoring</Caption>
+		<Caption lang="es">Data Collection for Global Monitoring</Caption>
+		<Caption lang="ru">Data Collection for Global Monitoring</Caption>
+	</Input5>
+
+	<Input6>
+		<ID>MD_IND_6</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/6/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Obtaining Data</Caption>
+		<Caption lang="fr">Obtaining Data</Caption>
+		<Caption lang="zh">Obtaining Data</Caption>
+		<Caption lang="ar">Obtaining Data</Caption>
+		<Caption lang="es">Obtaining Data</Caption>
+		<Caption lang="ru">Obtaining Data</Caption>
+	</Input6>
+
+
+	<Input7>
+		<ID>MD_IND_7</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/7/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Data Availability</Caption>
+		<Caption lang="fr">Data Availability</Caption>
+		<Caption lang="zh">Data Availability</Caption>
+		<Caption lang="ar">Data Availability</Caption>
+		<Caption lang="es">Data Availability</Caption>
+		<Caption lang="ru">Data Availability</Caption>
+	</Input7>
+
+	<Input8>
+		<ID>MD_IND_8</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/8/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Treatment of Missing Values</Caption>
+		<Caption lang="fr">Treatment of Missing Values</Caption>
+		<Caption lang="zh">Treatment of Missing Values</Caption>
+		<Caption lang="ar">Treatment of Missing Values</Caption>
+		<Caption lang="es">Treatment of Missing Values</Caption>
+		<Caption lang="ru">Treatment of Missing Values</Caption>
+	</Input8>
+
+	<Input9>
+		<ID>MD_IND_9</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/9/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Regional and Global Estimates</Caption>
+		<Caption lang="fr">Regional and Global Estimates</Caption>
+		<Caption lang="zh">Regional and Global Estimates</Caption>
+		<Caption lang="ar">Regional and Global Estimates</Caption>
+		<Caption lang="es">Regional and Global Estimates</Caption>
+		<Caption lang="ru">Regional and Global Estimates</Caption>
+	</Input9>
+
+
+</root>

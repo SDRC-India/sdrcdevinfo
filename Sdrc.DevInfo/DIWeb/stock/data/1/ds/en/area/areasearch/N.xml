@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="KHS SDH Nazira" id="IND018012002" l="3" nid="3073" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Nagaon" id="IND018006" l="3" nid="3006" pnid="2998" dataexists="T" isblock="F" lnid="577" />
+  <a n="Naharkatia PHC" id="IND018011001" l="3" nid="3082" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Nalbari" id="IND018024" l="3" nid="3024" pnid="2998" dataexists="T" isblock="F" lnid="594" />
+  <a n="Naokata MPHC" id="IND018025002" l="3" nid="3035" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Nilambazar BPHC " id="IND018018001" l="3" nid="3042" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="North Lakhimpur CH" id="IND018008001" l="3" nid="3056" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="R.K. Nagar PHC" id="IND018018002" l="3" nid="3043" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+</AreaList>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Bariyarpur" nID="2821" aID="REG005024003" isGlobal="F" parentID="REG005024" parentName="Munger" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="471" />
+  <area name="Kharagpur" nID="2820" aID="REG005024001" isGlobal="F" parentID="REG005024" parentName="Munger" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="471" />
+  <area name="Munger Sadar" nID="2822" aID="REG005024008" isGlobal="F" parentID="REG005024" parentName="Munger" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="471" />
+</AreaList>

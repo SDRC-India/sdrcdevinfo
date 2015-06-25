@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Buxar Sadar" nID="2923" aID="REG005030006" isGlobal="F" parentID="REG005030" parentName="Buxar" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="477" />
+  <area name="Itarhi" nID="2921" aID="REG005030001" isGlobal="F" parentID="REG005030" parentName="Buxar" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="477" />
+  <area name="Rajpur" nID="2922" aID="REG005030003" isGlobal="F" parentID="REG005030" parentName="Buxar" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="477" />
+</AreaList>

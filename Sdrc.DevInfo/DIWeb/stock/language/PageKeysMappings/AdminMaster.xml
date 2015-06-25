@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="Agency_Id" ElementID="liAgencyId" ElementProperty="innerHTML" />
+  <Associate MasterKey="Provider_Id" ElementID="liProviderID" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Logout" ElementID="langLogout" ElementProperty="innerHTML" />
+  <Associate MasterKey="LastLoggedOn" ElementID="langLastLoggedOn" ElementProperty="innerHTML" />
+  <Associate MasterKey="ApplicationSettings" ElementID="aConfig" ElementProperty="innerHTML" />
+  <Associate MasterKey="DatabaseSettings" ElementID="aDbConnec" ElementProperty="innerHTML" />
+  <Associate MasterKey="LanguageSettings" ElementID="aLangSetngs" ElementProperty="innerHTML" />
+  <Associate MasterKey="User" ElementID="aUser" ElementProperty="innerHTML" />
+  <Associate MasterKey="Catalog" ElementID="aCatalog" ElementProperty="innerHTML" />
+  <Associate MasterKey="UserManagement" ElementID="aAdapUser" ElementProperty="innerHTML" />
+  <Associate MasterKey="Lang_aLogFile" ElementID="aLogFile" ElementProperty="innerHTML" />
+  <Associate MasterKey ="Lang_aHeaderDetails" ElementID="aHeaderDetails" ElementProperty ="innerHTML"/>
+</root>

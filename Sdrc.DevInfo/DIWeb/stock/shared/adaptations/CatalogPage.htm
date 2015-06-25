@@ -1,0 +1,73 @@
+﻿<!-- Side Filters ...starts -->
+<div class='cata_side_fltr'>
+    <ul>
+        <li id="liCountries">            
+            <label for="chk_region_country" id='lang_Region_Country'><!--Region / Country--></label>
+            <br />
+            <span>
+                <a id="ankSelectAll" onclick="toggle_region_country(true);" class="slct_clr_all cur_pointr"><!--Select All--></a> <span class="slct_clr_all"> | </span> <a id="ankClearall" onclick="toggle_region_country(false);" class="slct_clr_all cur_pointr"><!--Clear All--></a>
+            </span>
+
+            <span class="roundedcorners_thin cata_side_fltr_inp_bx_sec">
+                <input type="text" id="txtAreaSearch" class="cata_side_fltr_inp_bx" onkeyup="SelectMatchAreas(event);" style="border:none;" /><img id="imgSearchArea" class="flt_rgt cur_pointr" alt='' src="" onclick="ClearAreaSearchTxt();" />
+            </span>
+            <ul id='cata_reg_country' class='ovrflw_lst'>
+            </ul>
+        </li>
+        <li style="display:none"><span id='lang_Availability'>
+            <!--Availability-->
+        </span>
+            <ul id='cata_availbty'>
+                <li>                    
+                    <ul id='ulFilterAdaptationVersions'>                        
+                    </ul>
+                </li>
+                <li>
+                    <input type='checkbox' id='chk_cata_avlb_devinfo' value='' onclick='renderFilteredAdaptations();' /><label
+                        id='lang_Available_ODevinfo'><!--Available on Devinfo.org--></label></li>
+                <li>
+                    <input type='checkbox' id='chk_cata_aval_onln' value='' onclick='renderFilteredAdaptations();' /><label
+                        id='lang_Available_Online'><!--Available Online--></label></li>
+            </ul>
+        </li>        
+    </ul>
+    <br />
+    <div><a id="aGotoGlobalCatalog" runat="server"><!--Go to Devinfo.org Catalog--></a>
+    <p id="lang_box_blw_txt_GCatalog" class="qds_box_blw_txt" style="display:none"><!--View various DevInfo adaptations either by location or by DevInfo version--></p>   
+    </div> 
+</div>
+<!-- Side Filters ...End -->
+<!-- Global Component ...starts-->
+<div id='global_div' style="min-height:400px;">
+</div>
+<!-- Global Component ...ends--
+            <div class='clear'></div>
+
+            <!-- Call Out Tool Tip    ...starts-->
+<div id='divCallout_cata' class='callout_cata border-callout-cata'>
+    <ul>
+        <li id="liDetails1">
+            <span id='spnAdaptationName' class="cata_adpt_cllout"></span> <span id="spnRegions"  class="cata_adpt_cllout_sub"></span>       
+        </li>     
+        <li id="liDetails2">
+            <span id="spnDbAdmNameInstitution"  class="cata_adpt_cllout_crdtals"></span>
+            <span id="spnDbAdmEmail"  class="cata_adpt_cllout_crdtals"></span>
+        </li>        
+        <li id="liDetails3" class="cata_adpt_cllout_info">  
+        <span id="spnAdaptationYear"><!--Adaptation year--></span>: <span id="spnAdaptationYearVal"></span><br />
+            <span id="spnDatabaseLanguages"><!--Database languages--></span>: <span id="spnDatabaseLanguagesVal"></span><br /> 
+            <span id="spnUnciefRegion"><!--Unicef region--></span> <span id="spnUnciefRegionVal"></span><br />
+            
+        </li>
+        <li><span id='lang_CO_Theme'><!--Theme --></span>
+            <ul class="flt_lft">                
+                <li id='liCallout_AvailableDI' class='divCallout_icn_tck'><!--Available on DevInfo.info--></li>
+                <li id='liCallout_AvailableOnline' class='divCallout_icn_crss'><!--Available Online--></li>
+            </ul>
+            <ul id='ulAdaptationVersions' class="ulAdaptationVersions flt_lft">
+            </ul>
+        </li>
+     </ul>    
+    <b class='border-notch notch'></b><b class='notch'></b>
+</div>
+<!-- Call Out Tool Tip ...ends-->

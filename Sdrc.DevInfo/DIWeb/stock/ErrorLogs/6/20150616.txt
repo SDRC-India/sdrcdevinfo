@@ -1,0 +1,358 @@
+ 16-06-2015 10:17:36 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.1f0dfziy
+[****]Stacktrace:    at Global.GetLanguageKeyValue(String keyName) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2385
+[****]Exception Time: 16-06-2015 10:17:36
+=====================================================================================================================================================
+
+16-06-2015 10:17:37 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.1f0dfziy
+[****]Stacktrace:    at Global.GetLanguageKeyValue(String keyName) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2385
+[****]Exception Time: 16-06-2015 10:17:37
+=====================================================================================================================================================
+
+16-06-2015 10:17:37 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.1f0dfziy
+[****]Stacktrace:    at Global.GetLanguageKeyValue(String keyName) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2385
+[****]Exception Time: 16-06-2015 10:17:37
+=====================================================================================================================================================
+
+16-06-2015 10:17:37 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.1f0dfziy
+[****]Stacktrace:    at Global.GetLanguageKeyValue(String keyName) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2385
+[****]Exception Time: 16-06-2015 10:17:37
+=====================================================================================================================================================
+
+16-06-2015 10:17:37 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.1f0dfziy
+[****]Stacktrace:    at Global.GetLanguageKeyValue(String keyName) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2385
+[****]Exception Time: 16-06-2015 10:17:37
+=====================================================================================================================================================
+
+16-06-2015 10:17:37 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.1f0dfziy
+[****]Stacktrace:    at Global.GetLanguageKeyValue(String keyName) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2385
+[****]Exception Time: 16-06-2015 10:17:37
+=====================================================================================================================================================
+
+16-06-2015 10:17:37 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Code.1f0dfziy
+[****]Stacktrace:    at Global.GetLanguageKeyValue(String keyName) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 2385
+[****]Exception Time: 16-06-2015 10:17:37
+=====================================================================================================================================================
+
+16-06-2015 10:17:41 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: Index was outside the bounds of the array.
+[****]Source: App_Code.1f0dfziy
+[****]Stacktrace:    at Callback.GetDataView(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\DataViewCallback.cs:line 75
+   at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 388
+[****]Exception Time: 16-06-2015 10:17:41
+=====================================================================================================================================================
+
+16-06-2015 10:20:53 >> Exception Found:
+[****]Type: System.Reflection.ReflectionTypeLoadException
+[****]Message: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at spr830..cctor()
+[****]Exception Time: 16-06-2015 10:20:53
+=====================================================================================================================================================
+
+16-06-2015 10:20:53 >> Exception Found:
+[****]Type: System.TypeInitializationException
+[****]Message: The type initializer for 'spr830' threw an exception.
+[****]Source: Spire.XLS
+[****]Stacktrace:    at spr830..ctor()
+   at spr3613..ctor()
+   at spr5297..ctor()
+   at Spire.Xls.Workbook..ctor()
+   at exceltopng.ExceltoPngFormat(String folderStructure, String RetVal) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\exceltopng.cs:line 13
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1033
+[****]Exception Time: 16-06-2015 10:20:53
+
+=====================================================================================================================================================
+
+16-06-2015 10:22:37 >> Exception Found:
+[****]Type: System.Reflection.ReflectionTypeLoadException
+[****]Message: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at spr830..cctor()
+[****]Exception Time: 16-06-2015 10:22:37
+=====================================================================================================================================================
+
+16-06-2015 10:22:37 >> Exception Found:
+[****]Type: System.TypeInitializationException
+[****]Message: The type initializer for 'spr830' threw an exception.
+[****]Source: Spire.XLS
+[****]Stacktrace:    at spr830..ctor()
+   at spr3613..ctor()
+   at spr5297..ctor()
+   at Spire.Xls.Workbook..ctor()
+   at exceltopng.ExceltoPngFormat(String folderStructure, String RetVal) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\exceltopng.cs:line 13
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1032
+[****]Exception Time: 16-06-2015 10:22:37
+
+=====================================================================================================================================================
+
+16-06-2015 10:43:46 >> Exception Found:
+[****]Type: System.Reflection.ReflectionTypeLoadException
+[****]Message: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at spr830..cctor()
+[****]Exception Time: 16-06-2015 10:43:46
+=====================================================================================================================================================
+
+16-06-2015 10:43:46 >> Exception Found:
+[****]Type: System.TypeInitializationException
+[****]Message: The type initializer for 'spr830' threw an exception.
+[****]Source: Spire.XLS
+[****]Stacktrace:    at spr830..ctor()
+   at spr3613..ctor()
+   at spr5297..ctor()
+   at Spire.Xls.Workbook..ctor()
+   at exceltopng..ctor() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\exceltopng.cs:line 11
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1032
+[****]Exception Time: 16-06-2015 10:43:46
+
+=====================================================================================================================================================
+
+16-06-2015 10:45:07 >> Exception Found:
+[****]Type: System.Reflection.ReflectionTypeLoadException
+[****]Message: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at spr833..cctor()
+[****]Exception Time: 16-06-2015 10:45:07
+=====================================================================================================================================================
+
+16-06-2015 10:45:07 >> Exception Found:
+[****]Type: System.TypeInitializationException
+[****]Message: The type initializer for 'spr833' threw an exception.
+[****]Source: Spire.XLS
+[****]Stacktrace:    at spr833..ctor()
+   at spr3611..ctor()
+   at spr5297..ctor()
+   at Spire.Xls.Workbook..ctor()
+   at exceltopng..ctor() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\exceltopng.cs:line 11
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1032
+[****]Exception Time: 16-06-2015 10:45:07
+
+=====================================================================================================================================================
+
+16-06-2015 10:46:27 >> Exception Found:
+[****]Type: System.Reflection.ReflectionTypeLoadException
+[****]Message: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at spr833..cctor()
+[****]Exception Time: 16-06-2015 10:46:27
+=====================================================================================================================================================
+
+16-06-2015 10:46:27 >> Exception Found:
+[****]Type: System.TypeInitializationException
+[****]Message: The type initializer for 'spr833' threw an exception.
+[****]Source: Spire.XLS
+[****]Stacktrace:    at spr833..ctor()
+   at spr3611..ctor()
+   at spr5297..ctor()
+   at Spire.Xls.Workbook..ctor()
+   at exceltopng..ctor() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\exceltopng.cs:line 11
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1032
+[****]Exception Time: 16-06-2015 10:46:27
+
+=====================================================================================================================================================
+
+16-06-2015 11:02:13 >> Exception Found:
+[****]Type: System.Reflection.ReflectionTypeLoadException
+[****]Message: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at spr833..cctor()
+[****]Exception Time: 16-06-2015 11:02:13
+=====================================================================================================================================================
+
+16-06-2015 11:02:13 >> Exception Found:
+[****]Type: System.TypeInitializationException
+[****]Message: The type initializer for 'spr833' threw an exception.
+[****]Source: Spire.XLS
+[****]Stacktrace:    at spr833..ctor()
+   at spr3611..ctor()
+   at spr5297..ctor()
+   at Spire.Xls.Workbook..ctor()
+   at exceltopng.ExceltoPngFormat(String folderStructure, String RetVal) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\exceltopng.cs:line 24
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1033
+[****]Exception Time: 16-06-2015 11:02:13
+
+=====================================================================================================================================================
+
+16-06-2015 12:06:37 >> Exception Found:
+[****]Type: System.Reflection.ReflectionTypeLoadException
+[****]Message: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at spr833..cctor()
+[****]Exception Time: 16-06-2015 12:06:37
+=====================================================================================================================================================
+
+16-06-2015 12:06:37 >> Exception Found:
+[****]Type: System.TypeInitializationException
+[****]Message: The type initializer for 'spr833' threw an exception.
+[****]Source: Spire.XLS
+[****]Stacktrace:    at spr833..ctor()
+   at spr3611..ctor()
+   at spr5297..ctor()
+   at Spire.Xls.Workbook..ctor()
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1036
+[****]Exception Time: 16-06-2015 12:06:37
+
+=====================================================================================================================================================
+
+16-06-2015 12:20:04 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Web_s3aktzqv
+[****]Stacktrace:    at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 347
+[****]Exception Time: 16-06-2015 12:20:04
+=====================================================================================================================================================
+
+16-06-2015 13:53:14 >> Exception Found:
+[****]Type: System.NullReferenceException
+[****]Message: Object reference not set to an instance of an object.
+[****]Source: App_Web_rspdc5l3
+[****]Stacktrace:    at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 347
+[****]Exception Time: 16-06-2015 13:53:14
+=====================================================================================================================================================
+
+16-06-2015 14:10:54 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: Access is denied
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 16-06-2015 14:10:54
+=====================================================================================================================================================
+
+16-06-2015 14:10:54 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 16-06-2015 14:10:54
+
+=====================================================================================================================================================
+
+16-06-2015 14:51:16 >> Application_Error
+=====================================================================================================================================================
+
+16-06-2015 14:59:29 >> Exception Found:
+[****]Type: System.Threading.ThreadAbortException
+[****]Message: Thread was being aborted.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at libraries_aspx_SDMX_sdmx_Download.downloadFile(String filePath, String newFileName, String fileType) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Download.aspx.cs:line 102
+[****]Exception Time: 16-06-2015 14:59:29
+=====================================================================================================================================================
+
+16-06-2015 15:14:05 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: Index was outside the bounds of the array.
+[****]Source: App_Code.ixkcefhf
+[****]Stacktrace:    at Callback.GetDataView(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\DataViewCallback.cs:line 73
+   at libraries_aspx_Callback.HandleCallBack() in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Callback.aspx.cs:line 388
+[****]Exception Time: 16-06-2015 15:14:05
+=====================================================================================================================================================
+
+16-06-2015 15:47:48 >> Exception Found:
+[****]Type: System.ComponentModel.Win32Exception
+[****]Message: The wait operation timed out
+[****]Source: 
+[****]Stacktrace: 
+[****]Exception Time: 16-06-2015 15:47:48
+=====================================================================================================================================================
+
+16-06-2015 15:47:48 >> Exception Found:
+[****]Type: System.ApplicationException
+[****]Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=79; handshake=14944; 
+[****]Source: DI7_LibDAL
+[****]Stacktrace:    at DevInfo.Lib.DI_LibDAL.ExceptionHandler.ExceptionFacade.ThrowException(Exception ex)
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection.InitializeConnectionObject()
+   at DevInfo.Lib.DI_LibDAL.Connection.DIConnection..ctor(DIServerType serverType, String serverName, String portNo, String databaseName, String userName, String password)
+   at Global.GetDbConnection(Int32 dbNid) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\Global.cs:line 788
+[****]Exception Time: 16-06-2015 15:47:48
+
+=====================================================================================================================================================
+
+16-06-2015 15:57:05 >> Exception Found:
+[****]Type: System.Threading.ThreadAbortException
+[****]Message: Thread was being aborted.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at libraries_aspx_SDMX_sdmx_Download.downloadFile(String filePath, String newFileName, String fileType) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\aspx\Download.aspx.cs:line 102
+[****]Exception Time: 16-06-2015 15:57:05
+=====================================================================================================================================================
+
+16-06-2015 17:06:07 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 16-06-2015 17:06:07
+=====================================================================================================================================================
+
+16-06-2015 17:06:07 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 16-06-2015 17:06:07
+=====================================================================================================================================================
+

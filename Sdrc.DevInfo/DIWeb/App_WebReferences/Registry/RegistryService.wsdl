@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.devinfo.info/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.devinfo.info/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.devinfo.info/">
+      <s:element name="GetStructureSpecificMetadata">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStructureSpecificMetadataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitStructure">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitStructureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReportingTaxonomy">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReportingTaxonomyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStructureSet">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStructureSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProcess">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProcessResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHierarchicalCodelist">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHierarchicalCodelistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSchema">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSchemaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMetadataSchema">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMetadataSchemaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataflow">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataflowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMetadataflow">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMetadataflowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataStructure">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataStructureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMetadataStructure">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMetadataStructureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCategoryScheme">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCategorySchemeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCategorisation">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCategorisationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetConceptScheme">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetConceptSchemeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCodelist">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCodelistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrganisationScheme">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrganisationSchemeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProvisionAgreement">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProvisionAgreementResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetConstraint">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetConstraintResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStructures">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStructuresResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitSubscription">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+            <s:element minOccurs="0" maxOccurs="1" name="langPrefNid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitSubscriptionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuerySubscription">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuerySubscriptionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitRegistration">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+            <s:element minOccurs="0" maxOccurs="1" name="SDMXFileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="langPrefNid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitRegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryRegistration">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+            <s:element minOccurs="0" maxOccurs="1" name="languageNid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryRegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGenericData">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGenericDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGenericTimeSeriesData">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGenericTimeSeriesDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStructureSpecificData">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStructureSpecificDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStructureSpecificTimeSeriesData">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStructureSpecificTimeSeriesDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGenericMetadata">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGenericMetadataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="1" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetStructureSpecificMetadataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStructureSpecificMetadata" />
+  </wsdl:message>
+  <wsdl:message name="GetStructureSpecificMetadataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStructureSpecificMetadataResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitStructureSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitStructure" />
+  </wsdl:message>
+  <wsdl:message name="SubmitStructureSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitStructureResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReportingTaxonomySoapIn">
+    <wsdl:part name="parameters" element="tns:GetReportingTaxonomy" />
+  </wsdl:message>
+  <wsdl:message name="GetReportingTaxonomySoapOut">
+    <wsdl:part name="parameters" element="tns:GetReportingTaxonomyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStructureSetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStructureSet" />
+  </wsdl:message>
+  <wsdl:message name="GetStructureSetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStructureSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProcessSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProcess" />
+  </wsdl:message>
+  <wsdl:message name="GetProcessSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProcessResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHierarchicalCodelistSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHierarchicalCodelist" />
+  </wsdl:message>
+  <wsdl:message name="GetHierarchicalCodelistSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHierarchicalCodelistResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSchemaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataSchema" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSchemaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataSchemaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMetadataSchemaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMetadataSchema" />
+  </wsdl:message>
+  <wsdl:message name="GetMetadataSchemaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMetadataSchemaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataflowSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataflow" />
+  </wsdl:message>
+  <wsdl:message name="GetDataflowSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataflowResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMetadataflowSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMetadataflow" />
+  </wsdl:message>
+  <wsdl:message name="GetMetadataflowSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMetadataflowResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataStructureSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataStructure" />
+  </wsdl:message>
+  <wsdl:message name="GetDataStructureSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataStructureResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMetadataStructureSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMetadataStructure" />
+  </wsdl:message>
+  <wsdl:message name="GetMetadataStructureSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMetadataStructureResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCategorySchemeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCategoryScheme" />
+  </wsdl:message>
+  <wsdl:message name="GetCategorySchemeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCategorySchemeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCategorisationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCategorisation" />
+  </wsdl:message>
+  <wsdl:message name="GetCategorisationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCategorisationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetConceptSchemeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetConceptScheme" />
+  </wsdl:message>
+  <wsdl:message name="GetConceptSchemeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetConceptSchemeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCodelistSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCodelist" />
+  </wsdl:message>
+  <wsdl:message name="GetCodelistSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCodelistResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrganisationSchemeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrganisationScheme" />
+  </wsdl:message>
+  <wsdl:message name="GetOrganisationSchemeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrganisationSchemeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProvisionAgreementSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProvisionAgreement" />
+  </wsdl:message>
+  <wsdl:message name="GetProvisionAgreementSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProvisionAgreementResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetConstraintSoapIn">
+    <wsdl:part name="parameters" element="tns:GetConstraint" />
+  </wsdl:message>
+  <wsdl:message name="GetConstraintSoapOut">
+    <wsdl:part name="parameters" element="tns:GetConstraintResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStructuresSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStructures" />
+  </wsdl:message>
+  <wsdl:message name="GetStructuresSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStructuresResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitSubscriptionSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitSubscription" />
+  </wsdl:message>
+  <wsdl:message name="SubmitSubscriptionSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitSubscriptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="QuerySubscriptionSoapIn">
+    <wsdl:part name="parameters" element="tns:QuerySubscription" />
+  </wsdl:message>
+  <wsdl:message name="QuerySubscriptionSoapOut">
+    <wsdl:part name="parameters" element="tns:QuerySubscriptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitRegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitRegistration" />
+  </wsdl:message>
+  <wsdl:message name="SubmitRegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryRegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryRegistration" />
+  </wsdl:message>
+  <wsdl:message name="QueryRegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGenericDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGenericData" />
+  </wsdl:message>
+  <wsdl:message name="GetGenericDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGenericDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGenericTimeSeriesDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGenericTimeSeriesData" />
+  </wsdl:message>
+  <wsdl:message name="GetGenericTimeSeriesDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGenericTimeSeriesDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStructureSpecificDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStructureSpecificData" />
+  </wsdl:message>
+  <wsdl:message name="GetStructureSpecificDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStructureSpecificDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStructureSpecificTimeSeriesDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStructureSpecificTimeSeriesData" />
+  </wsdl:message>
+  <wsdl:message name="GetStructureSpecificTimeSeriesDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStructureSpecificTimeSeriesDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGenericMetadataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGenericMetadata" />
+  </wsdl:message>
+  <wsdl:message name="GetGenericMetadataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGenericMetadataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RegistryServiceSoap">
+    <wsdl:operation name="GetStructureSpecificMetadata">
+      <wsdl:input message="tns:GetStructureSpecificMetadataSoapIn" />
+      <wsdl:output message="tns:GetStructureSpecificMetadataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitStructure">
+      <wsdl:input message="tns:SubmitStructureSoapIn" />
+      <wsdl:output message="tns:SubmitStructureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingTaxonomy">
+      <wsdl:input message="tns:GetReportingTaxonomySoapIn" />
+      <wsdl:output message="tns:GetReportingTaxonomySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStructureSet">
+      <wsdl:input message="tns:GetStructureSetSoapIn" />
+      <wsdl:output message="tns:GetStructureSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProcess">
+      <wsdl:input message="tns:GetProcessSoapIn" />
+      <wsdl:output message="tns:GetProcessSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHierarchicalCodelist">
+      <wsdl:input message="tns:GetHierarchicalCodelistSoapIn" />
+      <wsdl:output message="tns:GetHierarchicalCodelistSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSchema">
+      <wsdl:input message="tns:GetDataSchemaSoapIn" />
+      <wsdl:output message="tns:GetDataSchemaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMetadataSchema">
+      <wsdl:input message="tns:GetMetadataSchemaSoapIn" />
+      <wsdl:output message="tns:GetMetadataSchemaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataflow">
+      <wsdl:input message="tns:GetDataflowSoapIn" />
+      <wsdl:output message="tns:GetDataflowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMetadataflow">
+      <wsdl:input message="tns:GetMetadataflowSoapIn" />
+      <wsdl:output message="tns:GetMetadataflowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataStructure">
+      <wsdl:input message="tns:GetDataStructureSoapIn" />
+      <wsdl:output message="tns:GetDataStructureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMetadataStructure">
+      <wsdl:input message="tns:GetMetadataStructureSoapIn" />
+      <wsdl:output message="tns:GetMetadataStructureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCategoryScheme">
+      <wsdl:input message="tns:GetCategorySchemeSoapIn" />
+      <wsdl:output message="tns:GetCategorySchemeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCategorisation">
+      <wsdl:input message="tns:GetCategorisationSoapIn" />
+      <wsdl:output message="tns:GetCategorisationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConceptScheme">
+      <wsdl:input message="tns:GetConceptSchemeSoapIn" />
+      <wsdl:output message="tns:GetConceptSchemeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCodelist">
+      <wsdl:input message="tns:GetCodelistSoapIn" />
+      <wsdl:output message="tns:GetCodelistSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganisationScheme">
+      <wsdl:input message="tns:GetOrganisationSchemeSoapIn" />
+      <wsdl:output message="tns:GetOrganisationSchemeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProvisionAgreement">
+      <wsdl:input message="tns:GetProvisionAgreementSoapIn" />
+      <wsdl:output message="tns:GetProvisionAgreementSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConstraint">
+      <wsdl:input message="tns:GetConstraintSoapIn" />
+      <wsdl:output message="tns:GetConstraintSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStructures">
+      <wsdl:input message="tns:GetStructuresSoapIn" />
+      <wsdl:output message="tns:GetStructuresSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitSubscription">
+      <wsdl:input message="tns:SubmitSubscriptionSoapIn" />
+      <wsdl:output message="tns:SubmitSubscriptionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QuerySubscription">
+      <wsdl:input message="tns:QuerySubscriptionSoapIn" />
+      <wsdl:output message="tns:QuerySubscriptionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitRegistration">
+      <wsdl:input message="tns:SubmitRegistrationSoapIn" />
+      <wsdl:output message="tns:SubmitRegistrationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryRegistration">
+      <wsdl:input message="tns:QueryRegistrationSoapIn" />
+      <wsdl:output message="tns:QueryRegistrationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGenericData">
+      <wsdl:input message="tns:GetGenericDataSoapIn" />
+      <wsdl:output message="tns:GetGenericDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGenericTimeSeriesData">
+      <wsdl:input message="tns:GetGenericTimeSeriesDataSoapIn" />
+      <wsdl:output message="tns:GetGenericTimeSeriesDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStructureSpecificData">
+      <wsdl:input message="tns:GetStructureSpecificDataSoapIn" />
+      <wsdl:output message="tns:GetStructureSpecificDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStructureSpecificTimeSeriesData">
+      <wsdl:input message="tns:GetStructureSpecificTimeSeriesDataSoapIn" />
+      <wsdl:output message="tns:GetStructureSpecificTimeSeriesDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGenericMetadata">
+      <wsdl:input message="tns:GetGenericMetadataSoapIn" />
+      <wsdl:output message="tns:GetGenericMetadataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="RegistryServiceHttpGet" />
+  <wsdl:portType name="RegistryServiceHttpPost" />
+  <wsdl:binding name="RegistryServiceSoap" type="tns:RegistryServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetStructureSpecificMetadata">
+      <soap:operation soapAction="http://www.devinfo.info/GetStructureSpecificMetadata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitStructure">
+      <soap:operation soapAction="http://www.devinfo.info/SubmitStructure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingTaxonomy">
+      <soap:operation soapAction="http://www.devinfo.info/GetReportingTaxonomy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStructureSet">
+      <soap:operation soapAction="http://www.devinfo.info/GetStructureSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProcess">
+      <soap:operation soapAction="http://www.devinfo.info/GetProcess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHierarchicalCodelist">
+      <soap:operation soapAction="http://www.devinfo.info/GetHierarchicalCodelist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSchema">
+      <soap:operation soapAction="http://www.devinfo.info/GetDataSchema" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMetadataSchema">
+      <soap:operation soapAction="http://www.devinfo.info/GetMetadataSchema" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataflow">
+      <soap:operation soapAction="http://www.devinfo.info/GetDataflow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMetadataflow">
+      <soap:operation soapAction="http://www.devinfo.info/GetMetadataflow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataStructure">
+      <soap:operation soapAction="http://www.devinfo.info/GetDataStructure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMetadataStructure">
+      <soap:operation soapAction="http://www.devinfo.info/GetMetadataStructure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategoryScheme">
+      <soap:operation soapAction="http://www.devinfo.info/GetCategoryScheme" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategorisation">
+      <soap:operation soapAction="http://www.devinfo.info/GetCategorisation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConceptScheme">
+      <soap:operation soapAction="http://www.devinfo.info/GetConceptScheme" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCodelist">
+      <soap:operation soapAction="http://www.devinfo.info/GetCodelist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganisationScheme">
+      <soap:operation soapAction="http://www.devinfo.info/GetOrganisationScheme" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProvisionAgreement">
+      <soap:operation soapAction="http://www.devinfo.info/GetProvisionAgreement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConstraint">
+      <soap:operation soapAction="http://www.devinfo.info/GetConstraint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStructures">
+      <soap:operation soapAction="http://www.devinfo.info/GetStructures" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitSubscription">
+      <soap:operation soapAction="http://www.devinfo.info/SubmitSubscription" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuerySubscription">
+      <soap:operation soapAction="http://www.devinfo.info/QuerySubscription" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitRegistration">
+      <soap:operation soapAction="http://www.devinfo.info/SubmitRegistration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryRegistration">
+      <soap:operation soapAction="http://www.devinfo.info/QueryRegistration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenericData">
+      <soap:operation soapAction="http://www.devinfo.info/GetGenericData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenericTimeSeriesData">
+      <soap:operation soapAction="http://www.devinfo.info/GetGenericTimeSeriesData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStructureSpecificData">
+      <soap:operation soapAction="http://www.devinfo.info/GetStructureSpecificData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStructureSpecificTimeSeriesData">
+      <soap:operation soapAction="http://www.devinfo.info/GetStructureSpecificTimeSeriesData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenericMetadata">
+      <soap:operation soapAction="http://www.devinfo.info/GetGenericMetadata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RegistryServiceSoap12" type="tns:RegistryServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetStructureSpecificMetadata">
+      <soap12:operation soapAction="http://www.devinfo.info/GetStructureSpecificMetadata" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitStructure">
+      <soap12:operation soapAction="http://www.devinfo.info/SubmitStructure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportingTaxonomy">
+      <soap12:operation soapAction="http://www.devinfo.info/GetReportingTaxonomy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStructureSet">
+      <soap12:operation soapAction="http://www.devinfo.info/GetStructureSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProcess">
+      <soap12:operation soapAction="http://www.devinfo.info/GetProcess" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHierarchicalCodelist">
+      <soap12:operation soapAction="http://www.devinfo.info/GetHierarchicalCodelist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSchema">
+      <soap12:operation soapAction="http://www.devinfo.info/GetDataSchema" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMetadataSchema">
+      <soap12:operation soapAction="http://www.devinfo.info/GetMetadataSchema" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataflow">
+      <soap12:operation soapAction="http://www.devinfo.info/GetDataflow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMetadataflow">
+      <soap12:operation soapAction="http://www.devinfo.info/GetMetadataflow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataStructure">
+      <soap12:operation soapAction="http://www.devinfo.info/GetDataStructure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMetadataStructure">
+      <soap12:operation soapAction="http://www.devinfo.info/GetMetadataStructure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategoryScheme">
+      <soap12:operation soapAction="http://www.devinfo.info/GetCategoryScheme" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategorisation">
+      <soap12:operation soapAction="http://www.devinfo.info/GetCategorisation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConceptScheme">
+      <soap12:operation soapAction="http://www.devinfo.info/GetConceptScheme" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCodelist">
+      <soap12:operation soapAction="http://www.devinfo.info/GetCodelist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrganisationScheme">
+      <soap12:operation soapAction="http://www.devinfo.info/GetOrganisationScheme" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProvisionAgreement">
+      <soap12:operation soapAction="http://www.devinfo.info/GetProvisionAgreement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConstraint">
+      <soap12:operation soapAction="http://www.devinfo.info/GetConstraint" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStructures">
+      <soap12:operation soapAction="http://www.devinfo.info/GetStructures" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitSubscription">
+      <soap12:operation soapAction="http://www.devinfo.info/SubmitSubscription" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuerySubscription">
+      <soap12:operation soapAction="http://www.devinfo.info/QuerySubscription" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitRegistration">
+      <soap12:operation soapAction="http://www.devinfo.info/SubmitRegistration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryRegistration">
+      <soap12:operation soapAction="http://www.devinfo.info/QueryRegistration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenericData">
+      <soap12:operation soapAction="http://www.devinfo.info/GetGenericData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenericTimeSeriesData">
+      <soap12:operation soapAction="http://www.devinfo.info/GetGenericTimeSeriesData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStructureSpecificData">
+      <soap12:operation soapAction="http://www.devinfo.info/GetStructureSpecificData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStructureSpecificTimeSeriesData">
+      <soap12:operation soapAction="http://www.devinfo.info/GetStructureSpecificTimeSeriesData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenericMetadata">
+      <soap12:operation soapAction="http://www.devinfo.info/GetGenericMetadata" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RegistryServiceHttpGet" type="tns:RegistryServiceHttpGet">
+    <http:binding verb="GET" />
+  </wsdl:binding>
+  <wsdl:binding name="RegistryServiceHttpPost" type="tns:RegistryServiceHttpPost">
+    <http:binding verb="POST" />
+  </wsdl:binding>
+  <wsdl:service name="RegistryService">
+    <wsdl:port name="RegistryServiceSoap" binding="tns:RegistryServiceSoap">
+      <soap:address location="http://localhost:1890/libraries/ws/RegistryService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RegistryServiceSoap12" binding="tns:RegistryServiceSoap12">
+      <soap12:address location="http://localhost:1890/libraries/ws/RegistryService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RegistryServiceHttpGet" binding="tns:RegistryServiceHttpGet">
+      <http:address location="http://localhost:1890/libraries/ws/RegistryService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RegistryServiceHttpPost" binding="tns:RegistryServiceHttpPost">
+      <http:address location="http://localhost:1890/libraries/ws/RegistryService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

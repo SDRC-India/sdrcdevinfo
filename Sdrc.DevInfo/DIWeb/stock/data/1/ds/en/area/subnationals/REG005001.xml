@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Lauriya" nID="2855" aID="REG005001003" isGlobal="F" parentID="REG005001" parentName="Champaran West" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="446" />
+  <area name="Majhaulia" nID="2853" aID="REG005001001" isGlobal="F" parentID="REG005001" parentName="Champaran West" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="446" />
+  <area name="Narkatiaganj" nID="2854" aID="REG005001002" isGlobal="F" parentID="REG005001" parentName="Champaran West" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="446" />
+</AreaList>

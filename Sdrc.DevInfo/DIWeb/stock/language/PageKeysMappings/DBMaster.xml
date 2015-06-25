@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="New" ElementID="langNew" ElementProperty="innerHTML" />
+  <Associate MasterKey="Edit" ElementID="langEdit" ElementProperty="innerHTML" />
+  <Associate MasterKey="Delete" ElementID="langDelete" ElementProperty="innerHTML" />
+  <Associate MasterKey="DatabaseSettings" ElementID="lang_db_DatabaseSettings" ElementProperty="innerHTML" />
+  <Associate MasterKey="AddMod_DCDH" ElementID="lang_db_AddMod_DCDH" ElementProperty="innerHTML" />  
+  <Associate MasterKey="AvailableConnections" ElementID="langAvailableConnections" ElementProperty="innerHTML" />
+  <Associate MasterKey="NewConnectionCheck" ElementID="langNewConnectionCheck" ElementProperty="value" />
+
+</root>

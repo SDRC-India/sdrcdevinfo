@@ -1,0 +1,2358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message"
+xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common"
+xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact"
+xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross"
+xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic"
+xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query"
+xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure"
+xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+
+  <Header>
+    <ID>CountryData_DSD_v_0_9</ID>
+    <Test>true</Test>
+    <Name xml:lang="en">Data Structure Definition for CountryData</Name>
+    <Prepared>2012-01-30T15:38:19.917Z</Prepared>
+    <Sender id="UNSD">
+      <Name xml:lang="en">UNSD</Name>
+      <Contact>
+        <Name xml:lang="en">Contact person in SENDER agency</Name>
+        <Department xml:lang="en">Department of SENDER agency</Department>
+        <Role xml:lang="en">Role of contact person in SENDER agency</Role>
+        <Telephone>Telephone number of contact person in SENDER agency</Telephone>
+        <Fax>Fax number of contact person in SENDER agency</Fax>
+        <Email>Email address of contact person in SENDER agency</Email>
+      </Contact>
+    </Sender>
+    <Receiver id="receiver">
+      <Name xml:lang="en"></Name>
+      <Contact>
+        <Name xml:lang="en"></Name>
+        <Department xml:lang="en"></Department>
+        <Role xml:lang="en"></Role>
+        <Telephone></Telephone>
+        <Fax></Fax>
+        <Email></Email>
+      </Contact>
+    </Receiver>
+  </Header>
+
+
+
+  <CodeLists>
+
+
+    <structure:CodeList id="CL_FREQ_MDG" agencyID="IAEG" isFinal="true" version="1.0">
+      <structure:Name xml:lang="en">Frequency code list</structure:Name>
+      <structure:Code value = "A">
+        <structure:Description xml:lang="en">Annual</structure:Description>
+      </structure:Code>
+      <structure:Code value = "2A">
+        <structure:Description xml:lang="en">Two-year average</structure:Description>
+      </structure:Code>
+      <structure:Code value = "3A">
+        <structure:Description xml:lang="en">Three-year average</structure:Description>
+      </structure:Code>
+      <structure:Code value = "S">
+        <structure:Description xml:lang="en">Half-yearly, semester</structure:Description>
+      </structure:Code>
+      <structure:Code value = "Q">
+        <structure:Description xml:lang="en">Quarterly</structure:Description>
+      </structure:Code>
+      <structure:Code value = "M">
+        <structure:Description xml:lang="en">Monthly</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+
+
+    <structure:CodeList id="CL_LOCATION_MDG" agencyID="IAEG" isFinal="true" version="1.0">
+      <structure:Name xml:lang="en">Location code list</structure:Name>
+      <structure:Code value = "T">
+        <structure:Description xml:lang="en">Total (national level)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "U">
+        <structure:Description xml:lang="en">Urban</structure:Description>
+      </structure:Code>
+      <structure:Code value = "R">
+        <structure:Description xml:lang="en">Rural</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+
+
+    <structure:CodeList id="CL_NATURE_MDG" agencyID="IAEG" isFinal="true" version="1.0">
+      <structure:Name xml:lang="en">Nature code list</structure:Name>
+      <structure:Code value = "C">
+        <structure:Description xml:lang="en">Country Data</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CA">
+        <structure:Description xml:lang="en">Country Adjusted</structure:Description>
+      </structure:Code>
+      <structure:Code value = "E">
+        <structure:Description xml:lang="en">Estimated</structure:Description>
+      </structure:Code>
+      <structure:Code value = "M">
+        <structure:Description xml:lang="en">Modeled</structure:Description>
+      </structure:Code>
+      <structure:Code value = "G">
+        <structure:Description xml:lang="en">Global monitoring data</structure:Description>
+      </structure:Code>
+      <structure:Code value = "N">
+        <structure:Description xml:lang="en">Non-relevant</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NA">
+        <structure:Description xml:lang="en">Not Available</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+
+
+    <structure:CodeList id="CL_REF_AREA_MDG" agencyID="IAEG" version="4.0" isFinal="true">
+      <structure:Name xml:lang="en">Reference area code list</structure:Name>
+      <structure:Code value = "CAN">
+        <structure:Description xml:lang="en">Canada</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CPV">
+        <structure:Description xml:lang="en">Cape Verde</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CYM">
+        <structure:Description xml:lang="en">Cayman Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CAF">
+        <structure:Description xml:lang="en">Central African Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TCD">
+        <structure:Description xml:lang="en">Chad</structure:Description>
+      </structure:Code>
+      <structure:Code value = "830">
+        <structure:Description xml:lang="en">Channel Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CHL">
+        <structure:Description xml:lang="en">Chile</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CHN">
+        <structure:Description xml:lang="en">China</structure:Description>
+      </structure:Code>
+      <structure:Code value = "HKG">
+        <structure:Description xml:lang="en">Hong Kong Special Administrative Region of China</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MAC">
+        <structure:Description xml:lang="en">Macao Special Administrative Region of China</structure:Description>
+      </structure:Code>
+      <structure:Code value = "COL">
+        <structure:Description xml:lang="en">Colombia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "COM">
+        <structure:Description xml:lang="en">Comoros</structure:Description>
+      </structure:Code>
+      <structure:Code value = "COG">
+        <structure:Description xml:lang="en">Congo</structure:Description>
+      </structure:Code>
+      <structure:Code value = "COK">
+        <structure:Description xml:lang="en">Cook Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CRI">
+        <structure:Description xml:lang="en">Costa Rica</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CIV">
+        <structure:Description xml:lang="en">Côte d'Ivoire</structure:Description>
+      </structure:Code>
+      <structure:Code value = "HRV">
+        <structure:Description xml:lang="en">Croatia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CUB">
+        <structure:Description xml:lang="en">Cuba</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CYP">
+        <structure:Description xml:lang="en">Cyprus</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CZE">
+        <structure:Description xml:lang="en">Czech Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PRK">
+        <structure:Description xml:lang="en">Democratic People's Republic of Korea</structure:Description>
+      </structure:Code>
+      <structure:Code value = "COD">
+        <structure:Description xml:lang="en">Democratic Republic of the Congo</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DNK">
+        <structure:Description xml:lang="en">Denmark</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DJI">
+        <structure:Description xml:lang="en">Djibouti</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DMA">
+        <structure:Description xml:lang="en">Dominica</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DOM">
+        <structure:Description xml:lang="en">Dominican Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ECU">
+        <structure:Description xml:lang="en">Ecuador</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EGY">
+        <structure:Description xml:lang="en">Egypt</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SLV">
+        <structure:Description xml:lang="en">El Salvador</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GNQ">
+        <structure:Description xml:lang="en">Equatorial Guinea</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ERI">
+        <structure:Description xml:lang="en">Eritrea</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EST">
+        <structure:Description xml:lang="en">Estonia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ETH">
+        <structure:Description xml:lang="en">Ethiopia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "FRO">
+        <structure:Description xml:lang="en">Faeroe Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "FLK">
+        <structure:Description xml:lang="en">Falkland Islands (Malvinas)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "FJI">
+        <structure:Description xml:lang="en">Fiji</structure:Description>
+      </structure:Code>
+      <structure:Code value = "FIN">
+        <structure:Description xml:lang="en">Finland</structure:Description>
+      </structure:Code>
+      <structure:Code value = "FRA">
+        <structure:Description xml:lang="en">France</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GUF">
+        <structure:Description xml:lang="en">French Guiana</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PYF">
+        <structure:Description xml:lang="en">French Polynesia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GAB">
+        <structure:Description xml:lang="en">Gabon</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GMB">
+        <structure:Description xml:lang="en">Gambia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GEO">
+        <structure:Description xml:lang="en">Georgia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DEU">
+        <structure:Description xml:lang="en">Germany</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GHA">
+        <structure:Description xml:lang="en">Ghana</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GIB">
+        <structure:Description xml:lang="en">Gibraltar</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GRC">
+        <structure:Description xml:lang="en">Greece</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GRL">
+        <structure:Description xml:lang="en">Greenland</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GRD">
+        <structure:Description xml:lang="en">Grenada</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GLP">
+        <structure:Description xml:lang="en">Guadeloupe</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GUM">
+        <structure:Description xml:lang="en">Guam</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GTM">
+        <structure:Description xml:lang="en">Guatemala</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GGY">
+        <structure:Description xml:lang="en">Guernsey</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GIN">
+        <structure:Description xml:lang="en">Guinea</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GNB">
+        <structure:Description xml:lang="en">Guinea-Bissau</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GUY">
+        <structure:Description xml:lang="en">Guyana</structure:Description>
+      </structure:Code>
+      <structure:Code value = "HTI">
+        <structure:Description xml:lang="en">Haiti</structure:Description>
+      </structure:Code>
+      <structure:Code value = "VAT">
+        <structure:Description xml:lang="en">Holy See</structure:Description>
+      </structure:Code>
+      <structure:Code value = "HND">
+        <structure:Description xml:lang="en">Honduras</structure:Description>
+      </structure:Code>
+      <structure:Code value = "HUN">
+        <structure:Description xml:lang="en">Hungary</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ISL">
+        <structure:Description xml:lang="en">Iceland</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IND">
+        <structure:Description xml:lang="en">India</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IDN">
+        <structure:Description xml:lang="en">Indonesia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IRN">
+        <structure:Description xml:lang="en">Iran (Islamic Republic of)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IRQ">
+        <structure:Description xml:lang="en">Iraq</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IRL">
+        <structure:Description xml:lang="en">Ireland</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IMN">
+        <structure:Description xml:lang="en">Isle of Man</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ISR">
+        <structure:Description xml:lang="en">Israel</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ITA">
+        <structure:Description xml:lang="en">Italy</structure:Description>
+      </structure:Code>
+      <structure:Code value = "JAM">
+        <structure:Description xml:lang="en">Jamaica</structure:Description>
+      </structure:Code>
+      <structure:Code value = "AFG">
+        <structure:Description xml:lang="en">Afghanistan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ALA">
+        <structure:Description xml:lang="en">Åland Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ALB">
+        <structure:Description xml:lang="en">Albania</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DZA">
+        <structure:Description xml:lang="en">Algeria</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ASM">
+        <structure:Description xml:lang="en">American Samoa</structure:Description>
+      </structure:Code>
+      <structure:Code value = "AND">
+        <structure:Description xml:lang="en">Andorra</structure:Description>
+      </structure:Code>
+      <structure:Code value = "AGO">
+        <structure:Description xml:lang="en">Angola</structure:Description>
+      </structure:Code>
+      <structure:Code value = "AIA">
+        <structure:Description xml:lang="en">Anguilla</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ATG">
+        <structure:Description xml:lang="en">Antigua and Barbuda</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ARG">
+        <structure:Description xml:lang="en">Argentina</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ARM">
+        <structure:Description xml:lang="en">Armenia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ABW">
+        <structure:Description xml:lang="en">Aruba</structure:Description>
+      </structure:Code>
+      <structure:Code value = "AUS">
+        <structure:Description xml:lang="en">Australia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "AUT">
+        <structure:Description xml:lang="en">Austria</structure:Description>
+      </structure:Code>
+      <structure:Code value = "AZE">
+        <structure:Description xml:lang="en">Azerbaijan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BHS">
+        <structure:Description xml:lang="en">Bahamas</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BHR">
+        <structure:Description xml:lang="en">Bahrain</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BGD">
+        <structure:Description xml:lang="en">Bangladesh</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BRB">
+        <structure:Description xml:lang="en">Barbados</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BLR">
+        <structure:Description xml:lang="en">Belarus</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BEL">
+        <structure:Description xml:lang="en">Belgium</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BLZ">
+        <structure:Description xml:lang="en">Belize</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BEN">
+        <structure:Description xml:lang="en">Benin</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BMU">
+        <structure:Description xml:lang="en">Bermuda</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BTN">
+        <structure:Description xml:lang="en">Bhutan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BOL">
+        <structure:Description xml:lang="en">Bolivia (Plurinational State of)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BIH">
+        <structure:Description xml:lang="en">Bosnia and Herzegovina</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BWA">
+        <structure:Description xml:lang="en">Botswana</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BRA">
+        <structure:Description xml:lang="en">Brazil</structure:Description>
+      </structure:Code>
+      <structure:Code value = "VGB">
+        <structure:Description xml:lang="en">British Virgin Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BRN">
+        <structure:Description xml:lang="en">Brunei Darussalam</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BGR">
+        <structure:Description xml:lang="en">Bulgaria</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BFA">
+        <structure:Description xml:lang="en">Burkina Faso</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BDI">
+        <structure:Description xml:lang="en">Burundi</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KHM">
+        <structure:Description xml:lang="en">Cambodia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CMR">
+        <structure:Description xml:lang="en">Cameroon</structure:Description>
+      </structure:Code>
+      <structure:Code value = "JPN">
+        <structure:Description xml:lang="en">Japan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "JEY">
+        <structure:Description xml:lang="en">Jersey</structure:Description>
+      </structure:Code>
+      <structure:Code value = "JOR">
+        <structure:Description xml:lang="en">Jordan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KAZ">
+        <structure:Description xml:lang="en">Kazakhstan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KEN">
+        <structure:Description xml:lang="en">Kenya</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KIR">
+        <structure:Description xml:lang="en">Kiribati</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KWT">
+        <structure:Description xml:lang="en">Kuwait</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KGZ">
+        <structure:Description xml:lang="en">Kyrgyzstan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LAO">
+        <structure:Description xml:lang="en">Lao People's Democratic Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LVA">
+        <structure:Description xml:lang="en">Latvia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LBN">
+        <structure:Description xml:lang="en">Lebanon</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LSO">
+        <structure:Description xml:lang="en">Lesotho</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LBR">
+        <structure:Description xml:lang="en">Liberia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LBY">
+        <structure:Description xml:lang="en">Libyan Arab Jamahiriya</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LIE">
+        <structure:Description xml:lang="en">Liechtenstein</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LTU">
+        <structure:Description xml:lang="en">Lithuania</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LUX">
+        <structure:Description xml:lang="en">Luxembourg</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MDG">
+        <structure:Description xml:lang="en">Madagascar</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MWI">
+        <structure:Description xml:lang="en">Malawi</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MYS">
+        <structure:Description xml:lang="en">Malaysia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MDV">
+        <structure:Description xml:lang="en">Maldives</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MLI">
+        <structure:Description xml:lang="en">Mali</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MLT">
+        <structure:Description xml:lang="en">Malta</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MHL">
+        <structure:Description xml:lang="en">Marshall Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MTQ">
+        <structure:Description xml:lang="en">Martinique</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MRT">
+        <structure:Description xml:lang="en">Mauritania</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MUS">
+        <structure:Description xml:lang="en">Mauritius</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MYT">
+        <structure:Description xml:lang="en">Mayotte</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MEX">
+        <structure:Description xml:lang="en">Mexico</structure:Description>
+      </structure:Code>
+      <structure:Code value = "FSM">
+        <structure:Description xml:lang="en">Micronesia (Federated States of)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MDA">
+        <structure:Description xml:lang="en">Republic of Moldova</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MCO">
+        <structure:Description xml:lang="en">Monaco</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MNG">
+        <structure:Description xml:lang="en">Mongolia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MNE">
+        <structure:Description xml:lang="en">Montenegro</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MSR">
+        <structure:Description xml:lang="en">Montserrat</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MAR">
+        <structure:Description xml:lang="en">Morocco</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MOZ">
+        <structure:Description xml:lang="en">Mozambique</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MMR">
+        <structure:Description xml:lang="en">Myanmar</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NAM">
+        <structure:Description xml:lang="en">Namibia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NRU">
+        <structure:Description xml:lang="en">Nauru</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NPL">
+        <structure:Description xml:lang="en">Nepal</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NLD">
+        <structure:Description xml:lang="en">Netherlands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ANT">
+        <structure:Description xml:lang="en">Netherlands Antilles</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NCL">
+        <structure:Description xml:lang="en">New Caledonia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NZL">
+        <structure:Description xml:lang="en">New Zealand</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NIC">
+        <structure:Description xml:lang="en">Nicaragua</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NER">
+        <structure:Description xml:lang="en">Niger</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NGA">
+        <structure:Description xml:lang="en">Nigeria</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NIU">
+        <structure:Description xml:lang="en">Niue</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NFK">
+        <structure:Description xml:lang="en">Norfolk Island</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MNP">
+        <structure:Description xml:lang="en">Northern Mariana Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NOR">
+        <structure:Description xml:lang="en">Norway</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PSE">
+        <structure:Description xml:lang="en">State of Palestine</structure:Description>
+      </structure:Code>
+      <structure:Code value = "OMN">
+        <structure:Description xml:lang="en">Oman</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PAK">
+        <structure:Description xml:lang="en">Pakistan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PLW">
+        <structure:Description xml:lang="en">Palau</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PAN">
+        <structure:Description xml:lang="en">Panama</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PNG">
+        <structure:Description xml:lang="en">Papua New Guinea</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PRY">
+        <structure:Description xml:lang="en">Paraguay</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PER">
+        <structure:Description xml:lang="en">Peru</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PHL">
+        <structure:Description xml:lang="en">Philippines</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PCN">
+        <structure:Description xml:lang="en">Pitcairn</structure:Description>
+      </structure:Code>
+      <structure:Code value = "POL">
+        <structure:Description xml:lang="en">Poland</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PRT">
+        <structure:Description xml:lang="en">Portugal</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PRI">
+        <structure:Description xml:lang="en">Puerto Rico</structure:Description>
+      </structure:Code>
+      <structure:Code value = "QAT">
+        <structure:Description xml:lang="en">Qatar</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KOR">
+        <structure:Description xml:lang="en">Republic of Korea</structure:Description>
+      </structure:Code>
+      <structure:Code value = "REU">
+        <structure:Description xml:lang="en">Réunion</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ROU">
+        <structure:Description xml:lang="en">Romania</structure:Description>
+      </structure:Code>
+      <structure:Code value = "RUS">
+        <structure:Description xml:lang="en">Russian Federation</structure:Description>
+      </structure:Code>
+      <structure:Code value = "RWA">
+        <structure:Description xml:lang="en">Rwanda</structure:Description>
+      </structure:Code>
+      <structure:Code value = "BLM">
+        <structure:Description xml:lang="en">Saint-Barthélemy</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SHN">
+        <structure:Description xml:lang="en">Saint Helena</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KNA">
+        <structure:Description xml:lang="en">Saint Kitts and Nevis</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LCA">
+        <structure:Description xml:lang="en">Saint Lucia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MAF">
+        <structure:Description xml:lang="en">Saint-Martin (French part)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SPM">
+        <structure:Description xml:lang="en">Saint Pierre and Miquelon</structure:Description>
+      </structure:Code>
+      <structure:Code value = "VCT">
+        <structure:Description xml:lang="en">Saint Vincent and the Grenadines</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WSM">
+        <structure:Description xml:lang="en">Samoa</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SMR">
+        <structure:Description xml:lang="en">San Marino</structure:Description>
+      </structure:Code>
+      <structure:Code value = "STP">
+        <structure:Description xml:lang="en">Sao Tome and Principe</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SAU">
+        <structure:Description xml:lang="en">Saudi Arabia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SEN">
+        <structure:Description xml:lang="en">Senegal</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SRB">
+        <structure:Description xml:lang="en">Serbia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SYC">
+        <structure:Description xml:lang="en">Seychelles</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SLE">
+        <structure:Description xml:lang="en">Sierra Leone</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SGP">
+        <structure:Description xml:lang="en">Singapore</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SVK">
+        <structure:Description xml:lang="en">Slovakia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SVN">
+        <structure:Description xml:lang="en">Slovenia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SLB">
+        <structure:Description xml:lang="en">Solomon Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SOM">
+        <structure:Description xml:lang="en">Somalia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ZAF">
+        <structure:Description xml:lang="en">South Africa</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SSD">
+        <structure:Description xml:lang="en">South Sudan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ESP">
+        <structure:Description xml:lang="en">Spain</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LKA">
+        <structure:Description xml:lang="en">Sri Lanka</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SDN">
+        <structure:Description xml:lang="en">Sudan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SUR">
+        <structure:Description xml:lang="en">Suriname</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SJM">
+        <structure:Description xml:lang="en">Svalbard and Jan Mayen Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SWZ">
+        <structure:Description xml:lang="en">Swaziland</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SWE">
+        <structure:Description xml:lang="en">Sweden</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CHE">
+        <structure:Description xml:lang="en">Switzerland</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SYR">
+        <structure:Description xml:lang="en">Syrian Arab Republic</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TJK">
+        <structure:Description xml:lang="en">Tajikistan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "THA">
+        <structure:Description xml:lang="en">Thailand</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MKD">
+        <structure:Description xml:lang="en">The former Yugoslav Republic of Macedonia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TLS">
+        <structure:Description xml:lang="en">Timor-Leste</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TGO">
+        <structure:Description xml:lang="en">Togo</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TKL">
+        <structure:Description xml:lang="en">Tokelau</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TON">
+        <structure:Description xml:lang="en">Tonga</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TTO">
+        <structure:Description xml:lang="en">Trinidad and Tobago</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TUN">
+        <structure:Description xml:lang="en">Tunisia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TUR">
+        <structure:Description xml:lang="en">Turkey</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TKM">
+        <structure:Description xml:lang="en">Turkmenistan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TCA">
+        <structure:Description xml:lang="en">Turks and Caicos Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TUV">
+        <structure:Description xml:lang="en">Tuvalu</structure:Description>
+      </structure:Code>
+      <structure:Code value = "UGA">
+        <structure:Description xml:lang="en">Uganda</structure:Description>
+      </structure:Code>
+      <structure:Code value = "UKR">
+        <structure:Description xml:lang="en">Ukraine</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ARE">
+        <structure:Description xml:lang="en">United Arab Emirates</structure:Description>
+      </structure:Code>
+      <structure:Code value = "GBR">
+        <structure:Description xml:lang="en">United Kingdom of Great Britain and Northern Ireland</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TZA">
+        <structure:Description xml:lang="en">United Republic of Tanzania</structure:Description>
+      </structure:Code>
+      <structure:Code value = "USA">
+        <structure:Description xml:lang="en">United States of America</structure:Description>
+      </structure:Code>
+      <structure:Code value = "VIR">
+        <structure:Description xml:lang="en">United States Virgin Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "URY">
+        <structure:Description xml:lang="en">Uruguay</structure:Description>
+      </structure:Code>
+      <structure:Code value = "UZB">
+        <structure:Description xml:lang="en">Uzbekistan</structure:Description>
+      </structure:Code>
+      <structure:Code value = "VUT">
+        <structure:Description xml:lang="en">Vanuatu</structure:Description>
+      </structure:Code>
+      <structure:Code value = "VEN">
+        <structure:Description xml:lang="en">Venezuela (Bolivarian Republic of)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "VNM">
+        <structure:Description xml:lang="en">Viet Nam</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WLF">
+        <structure:Description xml:lang="en">Wallis and Futuna Islands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ESH">
+        <structure:Description xml:lang="en">Western Sahara</structure:Description>
+      </structure:Code>
+      <structure:Code value = "YEM">
+        <structure:Description xml:lang="en">Yemen</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ZMB">
+        <structure:Description xml:lang="en">Zambia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ZWE">
+        <structure:Description xml:lang="en">Zimbabwe</structure:Description>
+      </structure:Code>
+      <structure:Code value = "MDG_WORLD">
+        <structure:Description xml:lang="en">MDG_World</structure:Description>
+      </structure:Code>
+
+
+      <structure:Code value="MDG_DEVELOPED_REG">
+        <structure:Description>MDG_Developed regions</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_DEVELOPED_REGION_COUNTRIES</common:AnnotationTitle>
+            <common:AnnotationText>Andorra,Greenland,Portugal,Australia,Hungary,Romania,Austria,Iceland,San Marino,Belgium,Ireland,Slovakia,Bermuda,Isle of Man,Slovenia,Bulgaria,Israel,Spain,Canada,Italy,Sweden,Channel Islands,Japan,Switzerland,Croatia,Latvia,United Kingdom,Cyprus,Liechtenstein,United States,Czech Republic, Lithuania, Albania, Denmark, Luxembourg, Belarus, Estonia,Malta,Bosnia and Herzegovina,Faeroe Islands,Monaco,Montenegro,Finland,Netherlands,Republic of Moldova,France,New Zealand,Russian Federation,Germany,Norway,Serbia,Greece,Poland,TFYR of Macedonia,Ukraine</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value="MDG_DEVELOPING_REG">
+        <structure:Description>MDG_Developing regions</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_DEVELOPING_REGIONS</common:AnnotationTitle>
+            <common:AnnotationText>Northern Africa, Sub-Saharan Africa, Latin America and Carribean, Caucas and Central Asia, Eastern Asia, Southern Asia, South-eastern Asia, Western Asia</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value="CAU_CEN_ASIA">
+        <structure:Description>MDG_Caucasus and Central Asia</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Caucasus and Central Asia_COUNTRIES</common:AnnotationTitle>
+            <common:AnnotationText>Armenia,Kazakhstan,Turkmenistan,Azerbaijan,Kyrgyzstan,Uzbekistan,Georgia,Tajikistan</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+
+
+      <structure:Code value="MDG_NAFR">
+        <structure:Description>MDG_Northern Africa</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_NORTHERN AFRICA_COUNTRIES</common:AnnotationTitle>
+            <common:AnnotationText>Algeria,Libyan Arab Jamahiriya,Tunisia,Egypt,Morocco,Western Sahara</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+
+      <structure:Code value="MDG_SSA">
+        <structure:Description>MDG_Sub-Saharan Africa</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Sub-Saharan Africa_COUNTRIES</common:AnnotationTitle>
+            <common:AnnotationText>Angola,Gabon,Nigeria,Benin,Gambia,Réunion,Botswana,Ghana,Rwanda,Burkina Faso,Guinea,Sao Tome and Principe,Burundi,Guinea-Bissau,Senegal,Cameroon,Kenya,Seychelles,Cape Verde,Lesotho,Sierra Leone,Central African Rep,Liberia,Somalia,Chad,Madagascar,South Africa,Comoros,Malawi,Sudan,South Sudan,Congo,Mali,Swaziland,Cote d'Ivoire,Mauritania,Togo,Dem Rep of the Congo,Mauritius,Uganda,Djibouti,Mayotte,U. Rep of Tanzania,Equatorial Guinea,Mozambique,Zambia,Eritrea,Namibia,Zimbabwe,Ethiopia,Niger</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value = "MDG_LAC">
+        <structure:Description xml:lang="en">MDG_Latin America and the Caribbean</structure:Description>
+      </structure:Code>
+
+      <structure:Code value = "MDG_LAC_LA">
+        <structure:Description xml:lang="en">MDG_Latin America</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Latin America</common:AnnotationTitle>
+            <common:AnnotationText>Argentina,El Salvador,Panama,Belize,Falkland Is (Malvinas),Paraguay,Bolivia,French Guiana,Peru,Brazil,Guatemala,Suriname,Chile,Guyana,Uruguay,Colombia,Honduras,Venezuela R.B.,Costa Rica,Mexico,Ecuador,Nicaragua</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value = "MDG_LAC_CAR">
+        <structure:Description xml:lang="en">MDG_Caribbean</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Caribbean_COUNTRIES</common:AnnotationTitle>
+            <common:AnnotationText>Anguilla,Dominica,Netherlands Antilles,Antigua and Barbuda,Dominican Republic,Puerto Rico,Aruba,Grenada,Saint Kitts and Nevis,Bahamas,Guadeloupe,Saint Lucia,Barbados,Haiti,St Vincent and the Grenadines,British Virgin Islands,Jamaica,Trinidad and Tobago,Cayman Islands,Martinique,Turks and Caicos Islands,Cuba,Montserrat,US Virgin Islands</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+
+      <structure:Code value = "MDG_EAS">
+        <structure:Description xml:lang="en">MDG_Eastern Asia</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Eastern Asia_COUNTRIES</common:AnnotationTitle>
+            <common:AnnotationText>China,Macao SAR of China,Korea, Rep of,Hong Kong SAR of China,Korea, Dem People's Rep of,Mongolia</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value = "MDG_EAS_NOCHINA">
+        <structure:Description xml:lang="en">MDG_Eastern Asia excluding China</structure:Description>
+      </structure:Code>
+
+      <structure:Code value = "MDG_SAS">
+        <structure:Description xml:lang="en">MDG_Southern Asia</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Southern Asia_COUNTRIES</common:AnnotationTitle>
+            <common:AnnotationText>Afghanistan,India,Nepal,Bangladesh,Iran(Islamic_Republic_of),Pakistan,Bhutan,Maldives,Sri_Lanka</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value = "MDG_SAS_NOINDIA">
+        <structure:Description xml:lang="en">MDG_Southern Asia excluding India</structure:Description>
+      </structure:Code>
+
+      <structure:Code value = "MDG_SEAS">
+        <structure:Description xml:lang="en">MDG_South-eastern Asia</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_South-eastern Asia_COUNTRIES</common:AnnotationTitle>
+            <common:AnnotationText>Brunei Darussalam,Malaysia,Thailand,Cambodia,Myanmar,Timor-Leste,Indonesia,Philippines,Viet Nam,Lao People's Dem Republic,Singapore</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value = "MDG_WEST_AS">
+        <structure:Description xml:lang="en">MDG_Western Asia</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Western Asia_COUNTRIES</common:AnnotationTitle>
+            <common:AnnotationText>Bahrain,State of Palestine,Turkey,Iraq,Oman,United Arab Emirates, Jordan,Qatar,Yemen, Kuwait,Saudi Arabia,Lebanon,Syrian Arab Republic</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value = "MDG_LLDC">
+        <structure:Description xml:lang="en">MDG_Landlocked developing countries</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Landlocked developing countries</common:AnnotationTitle>
+            <common:AnnotationText>Afghanistan,Kazakhstan, Rwanda,Armenia, Kyrgyzstan, Swaziland,Azerbaijan,Lao People's Democratic Republic,Tajikistan,Bhutan, Lesotho, The former Yugoslav Republic of Macedonia,Bolivia (Plurinational State of),Malawi, Turkmenistan,Botswana, Mali, Uganda,Burkina Faso ,Mongolia, Uzbekistan,Burundi, Nepal, Zambia,Central African Republic, Niger, Zimbabwe,Chad, Paraguay, Ethiopia, Republic of Moldova</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value = "MDG_OCE">
+        <structure:Description xml:lang="en">MDG_Oceania</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Ocenia</common:AnnotationTitle>
+            <common:AnnotationText>American Samoa,Micronesia (Fed States of),Samoa,Cook Islands,Nauru,Solomon Islands,Fiji,Niue,Tokelau,French Polynesia,New Caledonia,Tonga,Guam,Northern Mariana Is,Tuvalu,Kiribati,Palau,Vanuatu,Marshall Islands,Papua New Guinea</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value = "MDG_SIDS">
+        <structure:Description xml:lang="en">MDG_Small island developing States</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Small island developing States</common:AnnotationTitle>
+            <common:AnnotationText>American Samoa,Guam,Papua New Guinea,Anguilla,Guinea-Bissau,Puerto Rico,Antigua and Barbuda,Guyana,Saint Kitts and Nevis, Aruba,Haiti,Saint Lucia, Bahamas,Jamaica,Samoa, Barbados,Kiribati,Sao Tome and Principe, Belize,Maldives,Seychelles, British Virgin Islands,Marshall Islands,Singapore,Cape Verde,Mauritius,Solomon Islands,Comoros,Micronesia (Federated States of),Saint Vincent and the Grenadines ,Cook Islands,Montserrat,Suriname,Cuba,Nauru,Timor-Leste,Dominica,Netherland Antilles,Tonga,Dominican Republic, New Caledonia,Trinidad and Tobago,Fiji,Niue,Tuvalu,French Polynesia,Northern Mariana Islands,United States Virgin Islands,Grenada,Palau,Vanuatu</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+      <structure:Code value = "MDG_LDC">
+        <structure:Description xml:lang="en">MDG_Least developed countries</structure:Description>
+        <structure:Annotations>
+          <common:Annotation>
+            <common:AnnotationTitle>MDG_Least developed countries</common:AnnotationTitle>
+            <common:AnnotationText>Afghanistan,Gambia,Rwanda,Angola,Guinea,Samoa,Bangladesh,Guinea Bissau,Sao Tome and Principe,Benin,Haiti,Senegal,Bhutan,Kiribati,Sierra Leone, Burkina Faso,Lao People's Dem Republic,Solomon Islands,Burundi,Lesotho,Somalia,Cambodia,Liberia,Sudan,South Sudan,Central African Republic, Madagascar,Timor-Leste,Chad,Malawi,Togo,Comoros,Mali,Tuvalu,D. R of the Congo, Mauritania,Uganda,Djibouti,Mozambique,United Republic of Tanzania,Equatorial Guinea, Myanmar,Vanuatu,Eritrea,Nepal,Yemen,Ethiopia,Niger,Zambia</common:AnnotationText>
+          </common:Annotation>
+        </structure:Annotations>
+      </structure:Code>
+
+
+      <structure:Code value = "WB_WORLD">
+        <structure:Description xml:lang="en">WB_World</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_EAP">
+        <structure:Description xml:lang="en">WB_East Asia and Pacific</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_ECA">
+        <structure:Description xml:lang="en">WB_Europe and Central Asia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_LAC">
+        <structure:Description xml:lang="en">WB_Latin America and the Caribbean</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_MNA">
+        <structure:Description xml:lang="en">WB_Middle East and North Africa</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_SAS">
+        <structure:Description xml:lang="en">WB_South Asia</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_SSA">
+        <structure:Description xml:lang="en">WB_Sub-Saharan Africa</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_LIC">
+        <structure:Description xml:lang="en">WB_Low income</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_LMC">
+        <structure:Description xml:lang="en">WB_Lower middle income</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_UMC">
+        <structure:Description xml:lang="en">WB_Upper middle income</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_LMY">
+        <structure:Description xml:lang="en">WB_Low and middle income economies</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WB_HIC">
+        <structure:Description xml:lang="en">WB_High income</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+
+    <structure:CodeList id="CL_SEX_MDG" agencyID="IAEG" isFinal="true" version="2.1">
+      <structure:Name xml:lang="en">Sex code list</structure:Name>
+      <structure:Code value = "NA">
+        <structure:Description xml:lang="en">Not applicable</structure:Description>
+      </structure:Code>
+      <structure:Code value = "F">
+        <structure:Description xml:lang="en">Female</structure:Description>
+      </structure:Code>
+      <structure:Code value = "M">
+        <structure:Description xml:lang="en">Male</structure:Description>
+      </structure:Code>
+      <structure:Code value = "T">
+        <structure:Description xml:lang="en">Both sexes</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+
+
+    <structure:CodeList id="CL_SOURCE_TYPE_MDG" agencyID="IAEG" isFinal="true" version="2.0">
+      <structure:Name xml:lang="en">Source Type Code List</structure:Name>
+      <structure:Code value = "S">
+        <structure:Description xml:lang="en">Household based surveys</structure:Description>
+      </structure:Code>
+      <structure:Code value = "R">
+        <structure:Description xml:lang="en">Administrative records</structure:Description>
+      </structure:Code>
+      <structure:Code value = "C">
+        <structure:Description xml:lang="en">Census</structure:Description>
+      </structure:Code>
+      <structure:Code value = "O">
+        <structure:Description xml:lang="en">Other</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NA">
+        <structure:Description xml:lang="en">Not available</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+
+
+    <structure:CodeList id="CL_UNIT_MULT_SDMX" agencyID="IAEG" isFinal="true" version="1.0">
+      <structure:Name xml:lang="en">Units multipliers code list</structure:Name>
+      <structure:Code value = "0">
+        <structure:Description xml:lang="en">Units</structure:Description>
+      </structure:Code>
+      <structure:Code value = "1">
+        <structure:Description xml:lang="en">Tens</structure:Description>
+      </structure:Code>
+      <structure:Code value = "2">
+        <structure:Description xml:lang="en">Hundreds</structure:Description>
+      </structure:Code>
+      <structure:Code value = "3">
+        <structure:Description xml:lang="en">Thousands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "4">
+        <structure:Description xml:lang="en">Tens of thousands</structure:Description>
+      </structure:Code>
+      <structure:Code value = "6">
+        <structure:Description xml:lang="en">Millions</structure:Description>
+      </structure:Code>
+      <structure:Code value = "9">
+        <structure:Description xml:lang="en">Billions</structure:Description>
+      </structure:Code>
+      <structure:Code value = "12">
+        <structure:Description xml:lang="en">Trillions</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+
+
+
+    <structure:CodeList id="CL_AGE_GROUP_COUNTRY_DATA" agencyID="UNSD" version="0.9" isFinal="true">
+      <structure:Name xml:lang="en">Age group code list</structure:Name>
+      <structure:Code value = "NA">
+        <structure:Description xml:lang="en">Not applicable</structure:Description>
+      </structure:Code>
+      <structure:Code value = "000_099_Y">
+        <structure:Description xml:lang="en">All age ranges</structure:Description>
+      </structure:Code>
+      <structure:Code value = "000_005_Y">
+        <structure:Description xml:lang="en">under 5 year olds</structure:Description>
+      </structure:Code>
+      <structure:Code value = "000_001_Y">
+        <structure:Description xml:lang="en">under 1 year olds</structure:Description>
+      </structure:Code>
+      <structure:Code value = "000_018_Y">
+        <structure:Description xml:lang="en">under 18 year olds</structure:Description>
+      </structure:Code>
+      <structure:Code value = "010_005_Y">
+        <structure:Description xml:lang="en">10-14 year olds</structure:Description>
+      </structure:Code>
+      <structure:Code value = "015_005_Y">
+        <structure:Description xml:lang="en">15-19 year olds</structure:Description>
+      </structure:Code>
+      <structure:Code value = "015_010_Y">
+        <structure:Description xml:lang="en">15-24 year olds</structure:Description>
+      </structure:Code>
+      <structure:Code value = "015_035_Y">
+        <structure:Description xml:lang="en">15-49 year olds</structure:Description>
+      </structure:Code>
+
+      <!-- CountryData-specific age groups below -->
+      <structure:Code value="000_006_Y">
+        <structure:Description xml:lang="en">under 6 year olds</structure:Description>
+      </structure:Code>
+      <structure:Code value="006_054_M">
+        <structure:Description xml:lang="en">6-59 months old</structure:Description>
+      </structure:Code>
+      <structure:Code value="006_009_Y">
+        <structure:Description xml:lang="en">6-14 year olds</structure:Description>
+      </structure:Code>
+      <structure:Code value="005_013_Y">
+        <structure:Description xml:lang="en">5-17 year olds</structure:Description>
+      </structure:Code>
+
+      <!-- Added Nov 2012 -->
+      <structure:Code value="000_006_M">
+        <structure:Description xml:lang="en">under 6 month olds</structure:Description>
+      </structure:Code>
+      <structure:Code value="015_050_Y">
+        <structure:Description xml:lang="en">15-64 year olds</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+    <structure:CodeList id="CL_SERIES_COUNTRY_DATA" agencyID="UNSD" version="0.9" isFinal="true">
+      <structure:Name xml:lang="en">Series code list</structure:Name>
+
+
+      <!-- MDG Series below -->
+      <structure:Code value = "SI_POV_DAY1">
+        <structure:Description xml:lang="en">Population below USD 1 (PPP) per day</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SI_POV_NAHC">
+        <structure:Description xml:lang="en">Population below national poverty line</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PA_NUS_PPP">
+        <structure:Description xml:lang="en">Purchasing power parities (PPP) conversion factor</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SI_POV_GAP1">
+        <structure:Description xml:lang="en">Poverty gap ratio at USD 1 a day (PPP) </structure:Description>
+      </structure:Code>
+      <structure:Code value = "SI_DST_1QNT">
+        <structure:Description xml:lang="en">Poorest quintile's share in national income or consumption</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SL_EMP_PCAP">
+        <structure:Description xml:lang="en">Growth rate of GDP per person employed</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SL_EMP_TOTL">
+        <structure:Description xml:lang="en">Employment-to-population ratio</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SL_EMP_1DAY">
+        <structure:Description xml:lang="en">Employed people living below USD 1 (PPP) per day</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SL_EMP_OACF">
+        <structure:Description xml:lang="en">Proportion of own-account and contributing family workers in total employment </structure:Description>
+      </structure:Code>
+      <structure:Code value = "SL_UEM_1524">
+        <structure:Description xml:lang="en">Youth unemployment rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SL_UEM_YTOA">
+        <structure:Description xml:lang="en">Ratio of youth unemployment rate to adult unemployment rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SL_UEM_YTOT">
+        <structure:Description xml:lang="en">Share of youth unemployed in total unemployed</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SL_UEM_YTOY">
+        <structure:Description xml:lang="en">Share of youth unemployed in youth population</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SN_STA_MALN">
+        <structure:Description xml:lang="en">Children moderately or severely underweight</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SN_STA_MALS">
+        <structure:Description xml:lang="en">Children severely underweight</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SN_ITK_DEFC">
+        <structure:Description xml:lang="en">Population undernourished</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_PRM_NENR">
+        <structure:Description xml:lang="en">Total net enrolment ratio in primary education</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_PRM_PRSL">
+        <structure:Description xml:lang="en">Pupils starting grade 1 who reach last grade of primary</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_PRM_CMPL">
+        <structure:Description xml:lang="en">Primary completion rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_ADT_1524">
+        <structure:Description xml:lang="en">Literacy rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_ADT_GPI">
+        <structure:Description xml:lang="en">Women to men parity index, as ratio of literacy rates</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_PRM_GPI">
+        <structure:Description xml:lang="en">Gender Parity Index in primary level enrolment</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_SEC_GPI">
+        <structure:Description xml:lang="en">Gender Parity Index in secondary level enrolment</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_TER_GPI">
+        <structure:Description xml:lang="en">Gender Parity Index in tertiary level enrolment</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SL_EMP_NAGR">
+        <structure:Description xml:lang="en">Share women in wage employment in the non-agricultural sector</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SG_GEN_PARL">
+        <structure:Description xml:lang="en">Seats in national parliament</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_DYN_MORT">
+        <structure:Description xml:lang="en">Under-five mortality rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_DYN_IMRT">
+        <structure:Description xml:lang="en">Infant mortality rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_IMM_MEAS">
+        <structure:Description xml:lang="en">Children immunized against measles</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_STA_MORT">
+        <structure:Description xml:lang="en">Maternal mortality ratio</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_STA_BRTC">
+        <structure:Description xml:lang="en">Births attended by skilled health personnel</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SP_DYN_CONU">
+        <structure:Description xml:lang="en">Contraceptive use among married women, any method</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SP_DYN_CONM">
+        <structure:Description xml:lang="en">Contraceptive use among married women, modern methods</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SP_DYN_CONC">
+        <structure:Description xml:lang="en">Contraceptive use among married women, condom</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SP_DYN_CCON">
+        <structure:Description xml:lang="en">Condom use to overall contraceptive use among currently married women </structure:Description>
+      </structure:Code>
+      <structure:Code value = "SP_DYN_ADKL">
+        <structure:Description xml:lang="en">Adolescent birth rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_STA_ANV1">
+        <structure:Description xml:lang="en">Antenatal care coverage, at least one visit</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_STA_ANV4">
+        <structure:Description xml:lang="en">Antenatal care coverage, at least four visits</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_FPL_UNMT">
+        <structure:Description xml:lang="en">Unmet need for family planning</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_FPL_UNMS">
+        <structure:Description xml:lang="en">Unmet need for family planning, spacing</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_FPL_UNML">
+        <structure:Description xml:lang="en">Unmet need for family planning, limiting</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_HIV_1524">
+        <structure:Description xml:lang="en">HIV prevalence rate (superseded by SH_HIV_TOTL)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_HIV_TOTL_LB">
+        <structure:Description xml:lang="en">People living with HIV (lower bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_HIV_TOTL">
+        <structure:Description xml:lang="en">People living with HIV</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_HIV_TOTL_UB">
+        <structure:Description xml:lang="en">People living with HIV (upper bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_HIV_INCD_LB">
+        <structure:Description xml:lang="en">HIV incidence rate (lower bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_HIV_INCD">
+        <structure:Description xml:lang="en">HIV incidence rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_HIV_INCD_UB">
+        <structure:Description xml:lang="en">HIV incidence rate (upper bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_DYN_AIDS_LB">
+        <structure:Description xml:lang="en">AIDS deaths (lower bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_DYN_AIDS">
+        <structure:Description xml:lang="en">AIDS deaths</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_DYN_AIDS_UB">
+        <structure:Description xml:lang="en">AIDS deaths (upper bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_CON_HRSX">
+        <structure:Description xml:lang="en">Condom use at last high-risk sex</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_HIV_KNOW">
+        <structure:Description xml:lang="en">Population with comprehensive correct knowledge of HIV/AIDS</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_ENR_ORPHR">
+        <structure:Description xml:lang="en">Ratio of school attendance rate of orphans to school attendance rate of non-orphans</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_ENR_ORPH">
+        <structure:Description xml:lang="en">School attendance rate of orphans </structure:Description>
+      </structure:Code>
+      <structure:Code value = "SE_ENR_NORPH">
+        <structure:Description xml:lang="en">School attendance rate of children both of whose parents are alive and who live with at least one parent</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_HIV_ORPH">
+        <structure:Description xml:lang="en">AIDS orphans</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_ARV_ACCS_LB">
+        <structure:Description xml:lang="en">Antiretroviral therapy coverage among people with advanced HIV infection (lower bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_ARV_ACCS">
+        <structure:Description xml:lang="en">Antiretroviral therapy coverage among people with advanced HIV infection</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_ARV_ACCS_UB">
+        <structure:Description xml:lang="en">Antiretroviral therapy coverage among people with advanced HIV infection (upper bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_ARV_MTCT_LB">
+        <structure:Description xml:lang="en">HIV-infected pregnant women who received antiretroviral drugs to reduce the risk for mother-to-child transmission (lower bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_ARV_MTCT">
+        <structure:Description xml:lang="en">HIV-infected pregnant women who received antiretroviral drugs to reduce the risk for mother-to-child transmission</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_ARV_MTCT_UB">
+        <structure:Description xml:lang="en">HIV-infected pregnant women who received antiretroviral drugs to reduce the risk for mother-to-child transmission (upper bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_STA_MALR">
+        <structure:Description xml:lang="en">Notified cases of malaria</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_MLR_MORT">
+        <structure:Description xml:lang="en">Malaria death rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_MLR_NETS">
+        <structure:Description xml:lang="en">Children sleeping under insecticide-treated bed nets</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_MLR_TRET">
+        <structure:Description xml:lang="en">Children with fever being treated with anti-malarial drugs</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_INCD_LB">
+        <structure:Description xml:lang="en">Tuberculosis incidence rate (lower bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_INCD">
+        <structure:Description xml:lang="en">Tuberculosis incidence rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_INCD_UB">
+        <structure:Description xml:lang="en">Tuberculosis incidence rate (upper bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_PREV_LB">
+        <structure:Description xml:lang="en">Tuberculosis prevalence rate (lower bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_PREV">
+        <structure:Description xml:lang="en">Tuberculosis prevalence rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_PREV_UB">
+        <structure:Description xml:lang="en">Tuberculosis prevalence rate (upper bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_MORT_LB">
+        <structure:Description xml:lang="en">Tuberculosis death rate (lower bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_MORT">
+        <structure:Description xml:lang="en">Tuberculosis death rate</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_MORT_UB">
+        <structure:Description xml:lang="en">Tuberculosis death rate (upper bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_DOTS_LB">
+        <structure:Description xml:lang="en">Tuberculosis detection rate under DOTS (lower bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_DOTS">
+        <structure:Description xml:lang="en">Tuberculosis detection rate under DOTS</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_DOTS_UB">
+        <structure:Description xml:lang="en">Tuberculosis detection rate under DOTS (upper bound)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_TBS_CURE">
+        <structure:Description xml:lang="en">Tuberculosis treatment success rate under DOTS</structure:Description>
+      </structure:Code>
+      <structure:Code value = "AG_LND_FRST">
+        <structure:Description xml:lang="en">Land area covered by forest</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EN_ATM_CO2PC_CDIAC">
+        <structure:Description xml:lang="en">Carbon dioxide emissions per capita (CDIAC)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EN_ATM_CO2PC">
+        <structure:Description xml:lang="en">Carbon dioxide emissions per capita</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EN_ATM_CO2_CDIAC">
+        <structure:Description xml:lang="en">Carbon dioxide emissions (CDIAC)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EN_ATM_CO2">
+        <structure:Description xml:lang="en">Carbon dioxide emissions</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EN_ATM_CFC">
+        <structure:Description xml:lang="en">Consumption of ozone-depleting CFCs</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EN_ATM_ODS">
+        <structure:Description xml:lang="en">Consumption of all ozone-depleting substances</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EG_USE_COMM">
+        <structure:Description xml:lang="en">Energy use</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EG_USE_SLFL">
+        <structure:Description xml:lang="en">Population using solid fuels</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ER_H2O_FWTL">
+        <structure:Description xml:lang="en">Fish stocks within safe biological limits</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NR_WTR_WITH">
+        <structure:Description xml:lang="en">Total water resources used</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ER_LND_TPA">
+        <structure:Description xml:lang="en">Terrestrial areas protected</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ER_MRN_MPA">
+        <structure:Description xml:lang="en">Marine areas protected</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ER_LND_TMPA">
+        <structure:Description xml:lang="en">Terrestrial and marine areas protected</structure:Description>
+      </structure:Code>
+      <structure:Code value = "ER_SPC_STE">
+        <structure:Description xml:lang="en">Species threatened with extinction</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_H2O_IMPR">
+        <structure:Description xml:lang="en">Population using improved drinking water sources</structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_SAN_IMPR">
+        <structure:Description xml:lang="en">Population using improved sanitation facilities</structure:Description>
+      </structure:Code>
+      <structure:Code value = "EN_LND_SLUM">
+        <structure:Description xml:lang="en">Urban population living in slums</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_ODA_TOTL">
+        <structure:Description xml:lang="en">Net ODA</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_ODA_TOTG">
+        <structure:Description xml:lang="en">Net ODA as a percentage of OECD/DAC donors' GNI</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_ODA_LDCS">
+        <structure:Description xml:lang="en">Net ODA to LDCs</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_ODA_LDCG">
+        <structure:Description xml:lang="en">Net ODA to LDCs as a percentage of OECD/DAC donors' GNI</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_ODA_SOCL">
+        <structure:Description xml:lang="en">ODA to basic social services</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_ODA_SOCP">
+        <structure:Description xml:lang="en">ODA to basic social services as a percentage of sector-allocable ODA</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_ODA_UNTD">
+        <structure:Description xml:lang="en">ODA that is untied</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_AID_LLDC">
+        <structure:Description xml:lang="en">ODA received in landlocked developing countries</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_AID_LLDCG">
+        <structure:Description xml:lang="en">ODA received in landlocked developing countries as a percentage of their GNI</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_AID_SIDS">
+        <structure:Description xml:lang="en">ODA received in small island developing states</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_AID_SIDSG">
+        <structure:Description xml:lang="en">ODA received in small island developing states as a percentage of their GNI</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TM_VAL_DCDF">
+        <structure:Description xml:lang="en">Developed country imports from developing countries, admitted duty free</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TM_VAL_LDDF">
+        <structure:Description xml:lang="en">Developed country imports from the LDCs, admitted duty free</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TM_TRF_AGRI">
+        <structure:Description xml:lang="en">Average tariffs imposed by developed countries on agricultural products from developing countries</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TM_TRF_CLOT">
+        <structure:Description xml:lang="en">Average tariffs imposed by developed countries on clothings from developing countries</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TM_TRF_TXTL">
+        <structure:Description xml:lang="en">Average tariffs imposed by developed countries on textiles from developing countries</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TT_ASE_TOTL">
+        <structure:Description xml:lang="en">Agricultural support estimate for OECD countries</structure:Description>
+      </structure:Code>
+      <structure:Code value = "TT_ASE_TOTG">
+        <structure:Description xml:lang="en">Agricultural support estimate for OECD countries as a percentage of their GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_ODA_TCAP">
+        <structure:Description xml:lang="en">ODA provided to help build trade capacity</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_HPC_STTS">
+        <structure:Description xml:lang="en">Countries that have reached their HIPC decision points and countries that have reached their HIPC completion points (cumulative)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_HPC_COMR">
+        <structure:Description xml:lang="en">Debt relief committed under HIPC Initiative, cumulative</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DC_HPC_MDRI">
+        <structure:Description xml:lang="en">Debt relief delivered in full under MDRI initiative, cumulative</structure:Description>
+      </structure:Code>
+      <structure:Code value = "DT_TDS_DECT">
+        <structure:Description xml:lang="en">Debt service as percentage of exports of goods and services and net income </structure:Description>
+      </structure:Code>
+      <structure:Code value = "SH_ACC_DRUG">
+        <structure:Description xml:lang="en">Population with access to essential drugs</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IT_SUB_ii91">
+        <structure:Description xml:lang="en">Telephone lines</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IT_SUB_i911">
+        <structure:Description xml:lang="en">Mobile cellular telephone subscriptions</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IT_USE_ii99">
+        <structure:Description xml:lang="en">Internet users</structure:Description>
+      </structure:Code>
+      <structure:Code value = "IT_CMP_i981">
+        <structure:Description xml:lang="en">Personal computers</structure:Description>
+      </structure:Code>
+
+
+      <!-- Updated Cambodia indicator codes below -->
+      <structure:Code value="AG_LND_CFICT">
+        <structure:Description>Land and property conflicts</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_CMNPL">
+        <structure:Description>Land use plans, commune</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_CONSS">
+        <structure:Description>Social land concessions to low income families</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_CPAD">
+        <structure:Description>Agricultural land cultivated for paddy</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_CROPS">
+        <structure:Description>Agricultural land covered by all crops</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_CRUB">
+        <structure:Description>Agricultural land cultivated for rubber</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_DTRPL">
+        <structure:Description>Land use plans, district authorities</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_FRSTC">
+        <structure:Description>Forestry communities</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_FRSTD">
+        <structure:Description>Forest area, boundary demarcation</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_INDGT">
+        <structure:Description>Land titles to indigenous communities</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_IRIG">
+        <structure:Description>Agricultural irrigated land</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_METPL">
+        <structure:Description>Land use plans, metropolitian areas</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_PDYD">
+        <structure:Description>Rice paddy yield</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_RESV">
+        <structure:Description>Land dispute resolution (of all land disputes)</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_RFRST">
+        <structure:Description>Reforestation </structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_LND_TTLE">
+        <structure:Description>Agricultural land titled to farmers</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_PRD_DRUB">
+        <structure:Description>Dried rubber production</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_PRD_FISH">
+        <structure:Description>Fish production</structure:Description>
+      </structure:Code>
+      <structure:Code value="AG_PRD_LVSKC">
+        <structure:Description>Cattle production</structure:Description>
+      </structure:Code>
+      <structure:Code value="BG_GSR_TOTG">
+        <structure:Description>Trade in goods as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="BN_CAB_XOKA_GD_ZS">
+        <structure:Description>Current account balance as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="BX_KLT_DINV">
+        <structure:Description>Foreign direct investment, as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="DC_ODA_CSUSE">
+        <structure:Description>Use of country system, as a percentage of ODA</structure:Description>
+      </structure:Code>
+      <structure:Code value="DC_ODA_PBUSE">
+        <structure:Description>Use of Programme-based Approach, as a percentage of ODA</structure:Description>
+      </structure:Code>
+      <structure:Code value="EG_ELC_PROD">
+        <structure:Description>Electricity production</structure:Description>
+      </structure:Code>
+      <structure:Code value="EG_IMP_ELC">
+        <structure:Description>Electricity imported</structure:Description>
+      </structure:Code>
+      <structure:Code value="EG_USE_ELEC">
+        <structure:Description>Electric power consumption</structure:Description>
+      </structure:Code>
+      <structure:Code value="EG_USE_FWOOD">
+        <structure:Description>Fuel wood dependency ratio</structure:Description>
+      </structure:Code>
+      <structure:Code value="ER_LND_CPA">
+        <structure:Description>Community protected areas</structure:Description>
+      </structure:Code>
+      <structure:Code value="ER_LND_RSAR">
+        <structure:Description>Terrestrial areas protected, ramsar sites</structure:Description>
+      </structure:Code>
+      <structure:Code value="ER_LND_TPAM">
+        <structure:Description>Terrestrial areas protected, demarcation and mapping</structure:Description>
+      </structure:Code>
+      <structure:Code value="ER_LND_TPAR">
+        <structure:Description>Terrestrial areas protected, rangers employed</structure:Description>
+      </structure:Code>
+      <structure:Code value="ER_LND_TPAZ">
+        <structure:Description>Terrestrial areas protected, zones</structure:Description>
+      </structure:Code>
+      <structure:Code value="ER_MRN_FSHC">
+        <structure:Description>Fishery communities </structure:Description>
+      </structure:Code>
+      <structure:Code value="ER_MRN_FSHL">
+        <structure:Description>Fishing lots to local communities</structure:Description>
+      </structure:Code>
+      <structure:Code value="ER_PSV_SITES">
+        <structure:Description>Preservation of historical ruins and archaeological sites  </structure:Description>
+      </structure:Code>
+      <structure:Code value="FB_CBK_DPTR">
+        <structure:Description>Deposits with commercial banks</structure:Description>
+      </structure:Code>
+      <structure:Code value="FB_CBK_SINVG">
+        <structure:Description>Savings and investment as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="FI_RES_XGLD">
+        <structure:Description>Total reserves minus gold</structure:Description>
+      </structure:Code>
+      <structure:Code value="FP_CPI_TOTL">
+        <structure:Description>Inflation, consumer prices (annual percentage)</structure:Description>
+      </structure:Code>
+      <structure:Code value="FS_AST_PRVT">
+        <structure:Description>Domestic credit to private sector</structure:Description>
+      </structure:Code>
+      <structure:Code value="GC_BAL_CTOTG">
+        <structure:Description>Current budget surplus/deficit as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="GC_BAL_TOTG">
+        <structure:Description>Total budget surplus/deficit as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="GC_BEN_NSF">
+        <structure:Description>Beneficiaries of the social security fund </structure:Description>
+      </structure:Code>
+      <structure:Code value="GC_CIV_RETIN">
+        <structure:Description>Retirees and invalid people who are former civil servants</structure:Description>
+      </structure:Code>
+      <structure:Code value="GC_REV_TOTG">
+        <structure:Description>Total government revenues as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="GC_VET_PENS">
+        <structure:Description>Veterans receiving pensions</structure:Description>
+      </structure:Code>
+      <structure:Code value="GC_XPN_TOTG">
+        <structure:Description>Total government expenditure as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="IC_BUS_NREG">
+        <structure:Description>New businesses registered, all</structure:Description>
+      </structure:Code>
+      <structure:Code value="IC_BUS_NREGF">
+        <structure:Description>New businesses registered, foreign subsidiary</structure:Description>
+      </structure:Code>
+      <structure:Code value="IC_BUS_NREGP">
+        <structure:Description>New businesses registered, sole proprietorship</structure:Description>
+      </structure:Code>
+      <structure:Code value="IC_BUS_NREGS">
+        <structure:Description>New businesses registration, services</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_AIR_DFLTS">
+        <structure:Description>Air transport, domestic flights</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_AIR_DGOOD">
+        <structure:Description>Air transport, domestic freight</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_AIR_DPSGR">
+        <structure:Description>Air transport, domestic passengers carried</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_AIR_IFLTS">
+        <structure:Description>Air transport, international flights</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_AIR_IGOOD">
+        <structure:Description>Air transport, international freight</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_AIR_IPSGR">
+        <structure:Description>Air transport, international passengers carried</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_AIR_OVER">
+        <structure:Description>Air transport, overflight receipts</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_ROD_NRHAB">
+        <structure:Description>Roads, constructed and rehabilitated</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_ROD_PAVE">
+        <structure:Description>Roads, paved</structure:Description>
+      </structure:Code>
+      <structure:Code value="IS_RRS_NRHAB">
+        <structure:Description>Rail lines, constructed and repaired</structure:Description>
+      </structure:Code>
+      <structure:Code value="IT_CLT_TOTL">
+        <structure:Description>Fixed and Mobile telephone subscriptions</structure:Description>
+      </structure:Code>
+      <structure:Code value="IT_PRT_ACSS">
+        <structure:Description>Access to print media</structure:Description>
+      </structure:Code>
+      <structure:Code value="IT_TVR_ACSS">
+        <structure:Description>Access to television and radio</structure:Description>
+      </structure:Code>
+      <structure:Code value="NE_EXP_GTOTG">
+        <structure:Description>Export of goods as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="NE_IMP_GTOTG">
+        <structure:Description>Import of goods as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="NE_TRD_GNFS_ZS">
+        <structure:Description>Trade as a percentage of GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value="NV_AGR_TOTL">
+        <structure:Description>Agriculture, value added (as a percentage of GDP)</structure:Description>
+      </structure:Code>
+      <structure:Code value="NV_CST_TOTKG">
+        <structure:Description>Construction, value added (annual percentage growth)</structure:Description>
+      </structure:Code>
+      <structure:Code value="NV_IND_MNFKG">
+        <structure:Description>Manufacturing, value added (annual percentage growth)</structure:Description>
+      </structure:Code>
+      <structure:Code value="NV_IND_TOTL">
+        <structure:Description>Industry, value added (as a percentage of GDP)</structure:Description>
+      </structure:Code>
+      <structure:Code value="NV_SRV_TETC">
+        <structure:Description>Services, value added (as a percentage of GDP)</structure:Description>
+      </structure:Code>
+      <structure:Code value="NY_GDP_MKTP_CP">
+        <structure:Description>GDP (current prices)</structure:Description>
+      </structure:Code>
+      <structure:Code value="NY_GDP_MKTP_KD_ZG">
+        <structure:Description>GDP growth (annual percentage)</structure:Description>
+      </structure:Code>
+      <structure:Code value="NY_GDP_MKTP_KP">
+        <structure:Description>GDP (constant prices)</structure:Description>
+      </structure:Code>
+      <structure:Code value="NY_GDP_PCAP_CP">
+        <structure:Description>GDP per capita (current prices)</structure:Description>
+      </structure:Code>
+      <structure:Code value="PA_NUS_FCRF">
+        <structure:Description>Official exchange rate (LCU per US$, period average)</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE_LSC_CMPL">
+        <structure:Description>Lower secondary completion rate</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE_LSC_ENRR">
+        <structure:Description>Enrolment in lower secondary education</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE_LSC_GPI">
+        <structure:Description>Gender Parity Index in lower secondary level enrolment</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE_LSC_PRSL">
+        <structure:Description>Pupils starting grade 1 who reach last grade of lower secondary school</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE_LSC_REPT">
+        <structure:Description>Repeaters, lower secondary level</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE_PRM_NADMT">
+        <structure:Description>Net admissions, primary level</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE_PRM_REPT">
+        <structure:Description>Repeaters, primary level (percentage of total enrolment)</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE_PRM_UNER">
+        <structure:Description>Children out of school, primary</structure:Description>
+      </structure:Code>
+      <structure:Code value="SE_USC_GPI">
+        <structure:Description>Gender Parity Index in upper secondary level enrolment</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_CIVIL">
+        <structure:Description>Female employment in civil service</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_CMNC">
+        <structure:Description>Seats held by women in commune councils </structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_DPRGV">
+        <structure:Description>Female deputy provincial governors</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_DTRBD">
+        <structure:Description>Female members of Board of Governors of districts</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_DTRC">
+        <structure:Description>Female members of District Councils</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_GMAG">
+        <structure:Description>Ministries &amp; institutions with Gender Mainstreaming Action Groups</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_GMAP">
+        <structure:Description>Ministries &amp; institutions with the Gender Mainstreaming Action Plan implemented</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_GOVT">
+        <structure:Description>Female members of the Royal Government </structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_LEGIS">
+        <structure:Description>Seats held by women in Senate</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_METBD">
+        <structure:Description>Female members of Board of Governors of provinces</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_METC">
+        <structure:Description>Female members of Provincial Councils</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_MIN">
+        <structure:Description>Female ministers</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_PRGV">
+        <structure:Description>Female provincial governors</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_SOS">
+        <structure:Description>Female secretaries of state</structure:Description>
+      </structure:Code>
+      <structure:Code value="SG_GEN_USS">
+        <structure:Description>Female under secretaries of state</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_AMA_PREGN">
+        <structure:Description>Pregnant women with iron deficiency anaemia</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_AMA_PREV">
+        <structure:Description>Anaemia prevalence rate</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_CON_LCSX">
+        <structure:Description>Condom use among commercial sex workers during last commercial sexual intercourse</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_DGE_MORT">
+        <structure:Description>Deaths associated with dengue fever</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_HIV_PRGAC">
+        <structure:Description>HIV prevalence among pregnant women visiting antenatal care clinics</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_IMM_IDPT">
+        <structure:Description>Children immunized against DPT</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_MLR_FATAL">
+        <structure:Description>Malaria death rate amoung cases reported by public health facilities</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_MLR_NETS_HRISK">
+        <structure:Description>High risk population sleeping under insecticide-treated bednets</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_STA_ANV2">
+        <structure:Description>Antenatal care coverage, at least two visits</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_STA_BFED">
+        <structure:Description>Exclusive breastfeeding (percentage of children)</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_STA_STNT">
+        <structure:Description>Children moderately or severely stunted</structure:Description>
+      </structure:Code>
+      <structure:Code value="SH_STA_WAST">
+        <structure:Description>Children moderately or severely wasted</structure:Description>
+      </structure:Code>
+      <structure:Code value="SI_POV_FOOD">
+        <structure:Description>Population below food poverty line</structure:Description>
+      </structure:Code>
+      <structure:Code value="SL_EMP_ABRD">
+        <structure:Description>Workers employed abroad</structure:Description>
+      </structure:Code>
+      <structure:Code value="SL_EMP_AGR">
+        <structure:Description>Share women in wage employment in agriculture sector </structure:Description>
+      </structure:Code>
+      <structure:Code value="SL_EMP_IND">
+        <structure:Description>Share women in wage employment in industry sector</structure:Description>
+      </structure:Code>
+      <structure:Code value="SL_EMP_SRV">
+        <structure:Description>Share women in wage employment in service sector</structure:Description>
+      </structure:Code>
+      <structure:Code value="SL_EMP_TOTL_AGR">
+        <structure:Description>Employment rate in agriculture sector </structure:Description>
+      </structure:Code>
+      <structure:Code value="SL_EMP_TOTL_IND">
+        <structure:Description>Employment rate in industry sector</structure:Description>
+      </structure:Code>
+      <structure:Code value="SL_EMP_TOTL_SRV">
+        <structure:Description>Employment rate in service sector</structure:Description>
+      </structure:Code>
+      <structure:Code value="SL_TLF_0714">
+        <structure:Description>Economically active children, total (percentage of children)</structure:Description>
+      </structure:Code>
+      <structure:Code value="SL_WGE_NSKIL">
+        <structure:Description>Wages of unskilled workers per day</structure:Description>
+      </structure:Code>
+      <structure:Code value="SN_ITK_SALT">
+        <structure:Description>Consumption of iodized salt, as percentage of households</structure:Description>
+      </structure:Code>
+      <structure:Code value="SN_ITK_VITA">
+        <structure:Description>Vitamin A supplementation coverage rate</structure:Description>
+      </structure:Code>
+      <structure:Code value="SP_DYN_TFRT">
+        <structure:Description>Fertility rate, total</structure:Description>
+      </structure:Code>
+      <structure:Code value="ST_INT_ACCOM">
+        <structure:Description>Hotels and guest houses, accommodation (rooms)</structure:Description>
+      </structure:Code>
+      <structure:Code value="ST_INT_ARVL">
+        <structure:Description>International tourism, arrivals</structure:Description>
+      </structure:Code>
+      <structure:Code value="ST_INT_EMP">
+        <structure:Description>Employment in tourism sector</structure:Description>
+      </structure:Code>
+      <structure:Code value="ST_INT_RCPT">
+        <structure:Description>International tourism, receipts</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_CRM_INCD">
+        <structure:Description>Incidence of serious crime</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_CRM_OTHE">
+        <structure:Description>Crime reported to an other authority to total reported crime</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_CRM_PERT">
+        <structure:Description>Perception of safety from crime and violence</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_CRM_POLI">
+        <structure:Description>Crime reported to the police to total reported crime</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_CRM_VILL">
+        <structure:Description>Crime reported to the village leader to total reported crime</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_DMV_AWAR">
+        <structure:Description>Awareness that violence against women is a crime </structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_DMV_CONSU">
+        <structure:Description>Domestic violence victims who receive counseling</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_DMV_INCD">
+        <structure:Description>Incidence of domestic violence</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_DMV_PROT">
+        <structure:Description>Protection orders issued by courts</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_UXO_CLRD">
+        <structure:Description>Suspected mined areas cleared</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_UXO_CLTS">
+        <structure:Description>Civilian casualties from mines/UXO</structure:Description>
+      </structure:Code>
+      <structure:Code value="VC_VLN_INCD">
+        <structure:Description>Incidence of violence</structure:Description>
+      </structure:Code>
+
+    </structure:CodeList>
+
+    <structure:CodeList id="CL_UNIT_COUNTRY_DATA" agencyID="UNSD" version="0.9" isFinal="true">
+      <structure:Name xml:lang="en">Units code list</structure:Name>
+      <structure:Code value = "NA">
+        <structure:Description xml:lang="en">Not applicable</structure:Description>
+      </structure:Code>
+      <structure:Code value = "CUR_LCU">
+        <structure:Description xml:lang="en">Local currency</structure:Description>
+      </structure:Code>
+      <structure:Code value = "USD">
+        <structure:Description xml:lang="en">USD</structure:Description>
+      </structure:Code>
+      <structure:Code value = "NUMBER">
+        <structure:Description xml:lang="en">Number</structure:Description>
+      </structure:Code>
+      <structure:Code value = "RATIO">
+        <structure:Description xml:lang="en">Ratio</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PERCENT">
+        <structure:Description xml:lang="en">Percent</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LCU_PPP_USD">
+        <structure:Description xml:lang="en">Local currency per USD (PPP)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PV_USD">
+        <structure:Description xml:lang="en">USD in end-2006 net present value terms</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PV_USD_2009">
+        <structure:Description xml:lang="en">USD in end-2009 net present value terms</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KG_CO2_PER_GDP_CON_PPP_USD">
+        <structure:Description xml:lang="en">kg CO2 equivalent per USD1 constant 2005 PPP GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KG_OE_PER_GDP_CON_PPP_USD">
+        <structure:Description xml:lang="en">kg oil equivalent per USD1,000 constant 2005 PPP GDP</structure:Description>
+      </structure:Code>
+      <structure:Code value = "KM2">
+        <structure:Description xml:lang="en">Square kilometers</structure:Description>
+      </structure:Code>
+      <structure:Code value = "T">
+        <structure:Description xml:lang="en">Metric Tons</structure:Description>
+      </structure:Code>
+      <structure:Code value = "USD_GDP_PPP">
+        <structure:Description xml:lang="en">Per 1 USD GDP (PPP)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PER_100_LIVE_BIRTHS">
+        <structure:Description xml:lang="en">Per 100 live births</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PER_100_POP">
+        <structure:Description xml:lang="en">Per 100 population</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PER_1000_LIVE_BIRTHS">
+        <structure:Description xml:lang="en">Per 1,000 live births</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PER_1000_POP">
+        <structure:Description xml:lang="en">Per 1,000 population</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PER_100000_LIVE_BIRTHS">
+        <structure:Description xml:lang="en">Per 100,000 live births</structure:Description>
+      </structure:Code>
+      <structure:Code value = "PER_100000_POP">
+        <structure:Description xml:lang="en">Per 100,000 population</structure:Description>
+      </structure:Code>
+      <structure:Code value = "POP">
+        <structure:Description xml:lang="en">Population (deprecated)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "WOMEN">
+        <structure:Description xml:lang="en">Women (deprecated)</structure:Description>
+      </structure:Code>
+      <structure:Code value = "LIVE_BIRTHS">
+        <structure:Description xml:lang="en">Live births (deprecated)</structure:Description>
+      </structure:Code>
+
+
+      <!-- CountryData-specific units below -->
+      <structure:Code value="HA">
+        <structure:Description xml:lang="en">Hectare</structure:Description>
+      </structure:Code>
+      <structure:Code value="T_HA">
+        <structure:Description xml:lang="en">Metric tons per hectare</structure:Description>
+      </structure:Code>
+      <structure:Code value="KWH">
+        <structure:Description xml:lang="en">Kilowatt-hour</structure:Description>
+      </structure:Code>
+      <structure:Code value="KM">
+        <structure:Description xml:lang="en">Kilometer</structure:Description>
+      </structure:Code>
+      <structure:Code value="CON_LCU_2000">
+        <structure:Description xml:lang="en">Local currency, constant 2000 prices</structure:Description>
+      </structure:Code>
+    </structure:CodeList>
+
+
+
+
+
+  </CodeLists>
+
+  <Concepts>
+
+    <structure:ConceptScheme agencyID="IAEG" id="MDG_DATA_CONCEPTS" version="1.0" isFinal="true">
+      <structure:Name xml:lang="en">Data Concepts for MDG Indicators</structure:Name>
+      <structure:Concept id="AGE_GROUP" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Age group</structure:Name>
+        <structure:Description xml:lang="en">Age - or age range - of the individuals the observation refers to.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="FOOTNOTES" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Footnotes</structure:Name>
+        <structure:Description xml:lang="en">Additional information on specific aspects of each observation, such as how the observation was computed/estimated or details that could affect the comparability of this data point with others in a time series.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="FREQ" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Frequency</structure:Name>
+        <structure:Description xml:lang="en">Indicates rate of recurrence at which observations occur (e.g. monthly, yearly, biannually, etc.).</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="LOCATION" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Location</structure:Name>
+        <structure:Description xml:lang="en">Refers to a disaggregation within the Reference Area the data alludes; normally National (total), Urban or Rural - although additional disaggregations are possible within an area (e.g. subUrban).</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="NATURE" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Nature of data points</structure:Name>
+        <structure:Description xml:lang="en">Information on the production and dissemination of the data (e.g.: if the figure has been produced and disseminated by the country, estimated by international agencies, etc.)</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="REF_AREA" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Reference Area</structure:Name>
+        <structure:Description xml:lang="en">Reference Area: Specific areas (e.g. Country, Regional Grouping, etc)  the observed values refer to. Reference areas can be determined according to different criteria (e.g.: geographical, economic, etc.).</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="SERIES" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Series</structure:Name>
+        <structure:Description xml:lang="en">The phenomenon or phenomena to be measured in the data set. The word SERIES is used for consistency with the term used in the MDG Database. SERIES are all the official MDG series and background series currently in the MDG Database.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="SEX" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Sex</structure:Name>
+        <structure:Description xml:lang="en">Gender condition: male or female. This dimension applies only if data can be dissaggregated by sex. </structure:Description>
+      </structure:Concept>
+      <structure:Concept id="SOURCE_DETAIL" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Source details</structure:Name>
+        <structure:Description xml:lang="en">Information on the name and specific details of each observation's data source. Both the sources for the numerator and denominator could be specified here.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="SOURCE_TYPE" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Source type</structure:Name>
+        <structure:Description xml:lang="en">Type of data source: survey, administrative records, census or other. Details about the source, if available, could be provided in the free-text attribute SOURCE_DETAIL.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="TIME_DETAIL" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Time period details</structure:Name>
+        <structure:Description xml:lang="en">When TIME_PERIOD refers to a date range, this attribute is used to provide METADATA on the actual range the observation refers to (e.g. for period '2001-2003' TIME_PERIOD would be 2002 but the actual dates --2001-2003-- would be expressed here).</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="TIME_PERIOD" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Time period</structure:Name>
+        <structure:Description xml:lang="en">Reference date - or date range - the observed value refers to (usually different from the dates of data production or dissemination). For MDG data exchange it is usually expressed as a four-digit year (e.g.: 1995) so, if the observation refers to a period of time (range), details about such period should be specified in the attribute TIME_DETAIL</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="UNIT" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Units of measurement</structure:Name>
+        <structure:Description xml:lang="en">Dimension by which the series are described (e.g.: percentage, USD, etc.)</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="UNIT_MULT" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Unit multiplier</structure:Name>
+        <structure:Description xml:lang="en">Exponent in base 10 that multiplied by the observation numeric value gives the result expressed in the unit of measure.</structure:Description>
+      </structure:Concept>
+      <structure:Concept id="OBS_VALUE" agencyID="IAEG" version="1.0">
+        <structure:Name xml:lang="en">Observation Value</structure:Name>
+        <structure:Description xml:lang="en">Observation value</structure:Description>
+      </structure:Concept>
+    </structure:ConceptScheme>
+
+	
+	<ConceptScheme xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" id="MDG_CONCEPTS" agencyID="IAEG" version="1.0">
+		<Name>MDG Metadata Concepts</Name>
+		<Concept id="CONTACT" agencyID="IAEG">
+			<Name>Contact point in international agency</Name>
+			<Description>Provide information of person (or generic e-mail addresses of contact points) to be contacted by users for additional information.</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="CONTACT_NAME" agencyID="IAEG">
+			<Name>Contact name</Name>
+			<Description>The name of the contact points for the data or metadata</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="CONTACT_FUNCT" agencyID="IAEG">
+			<Name>Contact job title</Name>
+			<Description>The area of technical responsibility of the contact, such as "methodology", "database management" or "dissemination".</Description>
+		</Concept>
+		<Concept id="ORGANISATION_UNIT" agencyID="IAEG">
+			<Name>Contact organisation unit</Name>
+			<Description>An addressable subdivision of an organisation</Description>
+		</Concept>
+		<Concept id="CONTACT_ORGANISATION" agencyID="IAEG">
+			<Name>Contact organisation</Name>
+			<Description>The name of the organisation of the contact points for the data or metadata.</Description>
+		</Concept>
+		<Concept id="CONTACT_MAIL" agencyID="IAEG">
+			<Name>Contact mail address</Name>
+			<Description>The postal address of the contact points for the data or metadata</Description>
+		</Concept>
+		<Concept id="CONTACT_PHONE" agencyID="IAEG">
+			<Name>Contact phone number</Name>
+			<Description>The telephone number of the contact points for the data or metadata.</Description>
+		</Concept>
+		<Concept id="CONTACT_FAX" agencyID="IAEG">
+			<Name>Contact fax number</Name>
+			<Description>Fax number of the contact points for the data or metadata</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="CONTACT_EMAIL" agencyID="IAEG">
+			<Name>Contact e-mail address</Name>
+			<Description>E-mail address of the contact points for the data or metadata</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="CONTACT_WEBSITE" agencyID="IAEG">
+			<Name>Contact website</Name>
+			<Description>Website(s) of the contact points for the data or metadata</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="STAT_CONC_DEF" agencyID="IAEG">
+			<Name>Definition of the MDG official indicator or background series provided</Name>
+			<Description>Describes the basic definition and includes references to standards and classifications and clarification of technical terms included in the definition. </Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="METHOD_COMP" agencyID="IAEG">
+			<Name>Method of computation</Name>
+			<Description>Describes the algorithm used in the calculation of the indicator, providing the mathematical formula (if applicable). Identifies all statistics used to derive the indicator such as normalizing and weighting variables (for instance, the population). List different methods used by country or agency to compute the indicator and includes hyperlinks to references to the agency methodology if available.</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="COMMENTS_LIMITATIONS" agencyID="IAEG">
+			<Name>Comments and limitations</Name>
+			<Description>Describes comments and limitations of the indicators including issues such as: comparability, sex disaggregating if applicable, presence of wide confidence intervals (such as for maternal mortality ratios). Provides further details on additional non-official indicators commonly used together with the official MDG indicator.</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="DISCREPANCIES" agencyID="IAEG">
+			<Name>Sources of discrepancies between global and national figures</Name>
+			<Description>Describes the main reasons for discrepancy between data and metadata used for national and global monitoring to improve understanding by users of the differences between country-level data disseminated through the MDGs global database and those available in country MDGs databases.</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="COLL_METHOD" agencyID="IAEG">
+			<Name>Process of obtaining data</Name>
+			<Description>Describes the mechanism for gathering data from countries including: (i) the government counterpart at the country level; (ii) description of the existing process of validation and consultation with countries. Describes the process of adjusting country data to allow international comparability. This includes adjustments such as: to a standard classification, age group or to comply with a specific international definition.</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="MISSING_VALUES" agencyID="IAEG">
+			<Name>Treatment of missing values</Name>
+			<Description>Describes the process and provides the mathematical formula to produce the estimates for the indicator when country data are not available.</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="COVERAGE" agencyID="IAEG">
+			<Name>Data availability</Name>
+			<Description>Describes (a) country coverage; (b) universe/population of interest; (c) time lag between reference year and actual production of data series; (d) overview of frequency of data production.</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="REGIONAL_GLOBAL" agencyID="IAEG">
+			<Name>Regional and global estimates</Name>
+			<Description>Provides the mathematical formula and describes the method used for the calculation of the regional/global aggregates from the country values. Specifies what types of weights are used for aggregating country indicator values to regional level.</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+		<Concept id="REL_CAL_POLICY" agencyID="IAEG">
+			<Name>Expected time of release</Name>
+			<Description>Provide the expected calendar of release for new data for each indicator, by the specialized agencies.</Description>
+			<TextFormat textType="String"/>
+		</Concept>
+	</ConceptScheme>
+	
+
+	
+	
+  </Concepts>
+
+
+<MetadataStructureDefinitions>
+		<MetadataStructureDefinition xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" id="CountryData_MSD" agencyID="UNSD" version="1.0">
+			<Name>Metadata Structure Definition for CountryData Indicators</Name>
+			<TargetIdentifiers>
+				<FullTargetIdentifier id="SERIES_REF_AREA">
+					<Name>Country-supplied Indicator</Name>
+					<IdentifierComponent id="SERIES">
+						<Name>Code of the CountryData indicator for which metadata is provided</Name>
+						<TargetObjectClass>Dimension</TargetObjectClass>
+						<RepresentationScheme representationSchemeType="Codelist" representationSchemeAgency="UNSD" representationScheme="CountryData_SERIES"/>
+					</IdentifierComponent>
+					<IdentifierComponent id="REF_AREA">
+						<Name>Code of Reference Area for which metadata is provided</Name>
+						<TargetObjectClass>Dimension</TargetObjectClass>
+						<RepresentationScheme representationSchemeType="Codelist" representationSchemeAgency="UNSD" representationScheme="Country_REF_AREA"/>
+					</IdentifierComponent>
+				</FullTargetIdentifier>
+			</TargetIdentifiers>
+			<ReportStructure id="CountryData_METADATA_REPORT" target="SERIES_REF_AREA">
+				<Name>Contact Report</Name>
+				<MetadataAttribute conceptRef="CONTACT" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<MetadataAttribute conceptRef="CONTACT_NAME" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Conditional">
+						<TextFormat textType="String"/>
+					</MetadataAttribute>
+					<MetadataAttribute conceptRef="CONTACT_FUNCT" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Conditional">
+						<TextFormat textType="String"/>
+					</MetadataAttribute>
+					<MetadataAttribute conceptRef="ORGANISATION_UNIT" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+						<TextFormat textType="String"/>
+					</MetadataAttribute>
+					<MetadataAttribute conceptRef="CONTACT_ORGANISATION" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+						<TextFormat textType="String"/>
+					</MetadataAttribute>
+					<MetadataAttribute conceptRef="CONTACT_MAIL" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+						<TextFormat textType="String"/>
+					</MetadataAttribute>
+					<MetadataAttribute conceptRef="CONTACT_PHONE" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Conditional">
+						<TextFormat textType="String"/>
+					</MetadataAttribute>
+					<MetadataAttribute conceptRef="CONTACT_FAX" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Conditional">
+						<TextFormat textType="String"/>
+					</MetadataAttribute>
+					<MetadataAttribute conceptRef="CONTACT_EMAIL" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+						<TextFormat textType="String"/>
+					</MetadataAttribute>
+					<MetadataAttribute conceptRef="CONTACT_WEBSITE" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Conditional">
+						<TextFormat textType="String"/>
+					</MetadataAttribute>
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+				<MetadataAttribute conceptRef="STAT_CONC_DEF" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+				<MetadataAttribute conceptRef="METHOD_COMP" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+				<MetadataAttribute conceptRef="COMMENTS_LIMITATIONS" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+				<MetadataAttribute conceptRef="DISCREPANCIES" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+				<MetadataAttribute conceptRef="COLL_METHOD" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+				<MetadataAttribute conceptRef="MISSING_VALUES" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+				<MetadataAttribute conceptRef="COVERAGE" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+				<MetadataAttribute conceptRef="REGIONAL_GLOBAL" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+				<MetadataAttribute conceptRef="REL_CAL_POLICY" conceptSchemeRef="MDG_CONCEPTS" conceptSchemeAgency="IAEG" usageStatus="Mandatory">
+					<TextFormat textType="String"/>
+				</MetadataAttribute>
+			</ReportStructure>
+		</MetadataStructureDefinition>
+	</MetadataStructureDefinitions>
+
+
+
+  <KeyFamilies>
+    <structure:KeyFamily agencyID="UNSD" id="CountryData" version="1.4" isFinal="true">
+      <structure:Name xml:lang="en">SDMX-CountryData</structure:Name>
+      <structure:Components>
+        <structure:Dimension codelist="CL_FREQ_MDG" codelistAgency="IAEG" codelistVersion="1.0" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="FREQ" conceptVersion="1.0" isFrequencyDimension="true"/>
+        <structure:Dimension codelist="CL_SERIES_COUNTRY_DATA" codelistAgency="UNSD" codelistVersion="0.9" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="SERIES" conceptVersion="1.0"/>
+        <structure:Dimension codelist="CL_UNIT_COUNTRY_DATA" codelistAgency="UNSD" codelistVersion="0.9" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="UNIT" conceptVersion="1.0"/>
+        <structure:Dimension codelist="CL_LOCATION_MDG" codelistAgency="IAEG" codelistVersion="1.0" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="LOCATION" conceptVersion="1.0"/>
+        <structure:Dimension codelist="CL_AGE_GROUP_COUNTRY_DATA" codelistAgency="UNSD" codelistVersion="0.9" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="AGE_GROUP" conceptVersion="1.0"/>
+        <structure:Dimension codelist="CL_SEX_MDG" codelistAgency="IAEG" codelistVersion="2.1" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="SEX" conceptVersion="1.0"/>
+        <structure:Dimension codelist="CL_REF_AREA_MDG" codelistAgency="IAEG" codelistVersion="4.0" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="REF_AREA" conceptVersion="1.0"/>
+        <structure:Dimension codelist="CL_SOURCE_TYPE_MDG" codelistAgency="IAEG" codelistVersion="2.0" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="SOURCE_TYPE" conceptVersion="1.0"/>
+        <structure:TimeDimension conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="TIME_PERIOD" conceptVersion="1.0">
+          <structure:TextFormat/>
+        </structure:TimeDimension>
+        <structure:PrimaryMeasure conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="OBS_VALUE" conceptVersion="1.0"/>
+        <structure:Attribute assignmentStatus="Mandatory" attachmentLevel="Observation" codelist="CL_UNIT_MULT_SDMX" codelistAgency="IAEG" codelistVersion="1.0" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="UNIT_MULT" conceptVersion="1.0"/>
+        <structure:Attribute assignmentStatus="Conditional" attachmentLevel="Observation" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="TIME_DETAIL" conceptVersion="1.0">
+          <structure:TextFormat/>
+        </structure:Attribute>
+        <structure:Attribute assignmentStatus="Conditional" attachmentLevel="Observation" codelist="CL_NATURE_MDG" codelistAgency="IAEG" codelistVersion="1.0" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="NATURE" conceptVersion="1.0"/>
+        <structure:Attribute assignmentStatus="Conditional" attachmentLevel="Observation" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="SOURCE_DETAIL" conceptVersion="1.0">
+          <structure:TextFormat/>
+        </structure:Attribute>
+        <structure:Attribute assignmentStatus="Conditional" attachmentLevel="Observation" conceptSchemeAgency="IAEG" conceptSchemeRef="MDG_DATA_CONCEPTS" conceptRef="FOOTNOTES" conceptVersion="1.0">
+          <structure:TextFormat/>
+        </structure:Attribute>
+      </structure:Components>
+    </structure:KeyFamily>
+  </KeyFamilies>
+</Structure>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ic n="Assam_EVM_2014" nid="34" isG="F">
+  <iu in="C0 : Overall score" inid="18" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="18" dataexists="T" />
+  <iu in="C1 : Buildings" inid="10" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="10" dataexists="T" />
+  <iu in="C2 : Capacity" inid="11" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="11" dataexists="T" />
+  <iu in="C3 : Equipment" inid="12" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="12" dataexists="T" />
+  <iu in="C4 : Management" inid="13" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="13" dataexists="T" />
+  <iu in="C5 : Repairs/maintenance" inid="14" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="14" dataexists="T" />
+  <iu in="C6 : Training" inid="15" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="15" dataexists="T" />
+  <iu in="C7 : Vehicles" inid="16" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="16" dataexists="T" />
+  <iu in="E0 : Overall score" inid="17" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="17" dataexists="T" />
+  <iu in="E1 : Vaccine Arrival" inid="1" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="1" dataexists="T" />
+  <iu in="E2 : Temperature" inid="2" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="2" dataexists="T" />
+  <iu in="E3 : Storage Capacity" inid="3" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="3" dataexists="T" />
+  <iu in="E4 : Buildings, equipment, transport" inid="4" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="4" dataexists="T" />
+  <iu in="E5 : Maintenance" inid="5" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="5" dataexists="T" />
+  <iu in="E6 : Stock management" inid="6" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="6" dataexists="T" />
+  <iu in="E7 : Distribution" inid="7" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="7" dataexists="T" />
+  <iu in="E8 : Vaccine management" inid="8" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="8" dataexists="T" />
+  <iu in="E9 : MIS, supportive functions" inid="9" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="9" dataexists="T" />
+</ic>

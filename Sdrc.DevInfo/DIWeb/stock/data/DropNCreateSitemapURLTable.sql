@@ -1,0 +1,15 @@
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SitemapUrl]') AND type in (N'U'))
+BEGIN
+DROP TABLE [dbo].[SitemapUrl]
+END
+
+CREATE TABLE [dbo].[SitemapUrl](
+ [URL] [nvarchar](300) NOT NULL,
+ [QueryString] [nvarchar](500) NOT NULL,
+ CONSTRAINT [PK_SitemapUrl] PRIMARY KEY CLUSTERED 
+(
+ [URL] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+

@@ -1,0 +1,34 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - Data provider request[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Dear Admin,
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    You have received a request for data provider rights with the following details:
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    User Id: <a href="mailto:[****]USER_EMAILID[****]">[****]USER_EMAILID[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    User Name: [****]USER_NAME[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Country: [****]COUNTRY[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>Please note:</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    In order to grant the data provider rights to the user, please login as the administrator on [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Use Registry interface to access the list of all registered users and assign them the rights for data provider.
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Regards,
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Webmaster - [****]ADAPTATION_NAME[****]
+</p>
+</p>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<iul>
+  <iu in="C0 : Overall score" inid="18" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="C1 : Buildings" inid="10" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="C2 : Capacity" inid="11" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="C3 : Equipment" inid="12" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="C4 : Management" inid="13" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="C5 : Repairs/maintenance" inid="14" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="C6 : Training" inid="15" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="C7 : Vehicles" inid="16" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E3 : Storage Capacity" inid="3" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="Category Scores" inid="3" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Category Scores" inid="6" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Category Scores" inid="9" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Category Scores" inid="12" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Criteria Scores" inid="2" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Criteria Scores" inid="5" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Criteria Scores" inid="8" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Criteria Scores" inid="11" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+</iul>

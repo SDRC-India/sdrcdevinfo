@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Andhratharhi" nID="2834" aID="REG005005003" isGlobal="F" parentID="REG005005" parentName="Madhubani" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="450" />
+  <area name="Pandaul" nID="2833" aID="REG005005001" isGlobal="F" parentID="REG005005" parentName="Madhubani" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="450" />
+</AreaList>

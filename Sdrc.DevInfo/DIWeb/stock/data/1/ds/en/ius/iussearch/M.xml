@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<iul>
+  <iu in="C4 : Management" inid="13" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E5 : Maintenance" inid="5" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E6 : Stock management" inid="6" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E8 : Vaccine management" inid="8" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E9 : MIS, supportive functions" inid="9" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+</iul>

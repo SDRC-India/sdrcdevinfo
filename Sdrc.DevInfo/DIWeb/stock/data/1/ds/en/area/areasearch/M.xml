@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Barbang MPHC" id="IND018004001" l="3" nid="3048" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Bikali MPHC" id="IND018003001" l="3" nid="3076" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Chamuapara MPHC" id="IND018026001" l="3" nid="3052" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Dekapam MPHC" id="IND018009001" l="3" nid="3058" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Fulbari MPHC" id="IND018017001" l="3" nid="3078" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Harangajao MPHC" id="IND018016001" l="3" nid="3046" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kamrup metropolitan" id="IND018023" l="3" nid="3023" pnid="2998" dataexists="T" isblock="F" lnid="593" />
+  <a n="Karia MPHC" id="IND018024002" l="3" nid="3051" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Khakandaguri MPHC" id="IND018014002" l="3" nid="3061" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Krishnai MPHC" id="IND018003002" l="3" nid="3085" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Laluk MPHC" id="IND018008002" l="3" nid="3057" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Manikpur BPHC" id="IND018020001" l="3" nid="3070" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Mathurapur MPHC" id="IND018012001" l="3" nid="3072" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Morigaon" id="IND018005" l="3" nid="3005" pnid="2998" dataexists="T" isblock="F" lnid="576" />
+  <a n="Naokata MPHC" id="IND018025002" l="3" nid="3035" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Rainadabari MPHC" id="IND018001002" l="3" nid="3039" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+</AreaList>

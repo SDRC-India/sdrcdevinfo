@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<iul>
+  <iu in="E1 : Vaccine Arrival" inid="1" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="Assam" inid="33" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SR" />
+  <iu in="Assam_EVM_2014" inid="34" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SR" />
+</iul>

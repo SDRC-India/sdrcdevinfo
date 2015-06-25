@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appsettings>
+    <item n="adaptation_name" v="CAM Info" />
+    <item n="adapted_for" v="global" />
+    <item n="area_nid" v="-1" />
+    <item n="sub_nation" v="" />
+    <item n="default_lng" v="en" />
+    <item n="app_version" v="1" />
+    <item n="diuilib_version" v="1.9" />
+    <item v="http://192.168.1.11/qa/di7uilibservices/diuilib/" n="diuilib_url" />
+    <item v="http://localhost:8080/diweb/stock/themes/default/css/diuilibcommon.css" n="diuilib_theme_css" />
+    <item n="fbAppID" v="216129048440356" />
+    <item n="fbAppSecret" v="441f6c7cc2265142da928d420538d8af" />
+    <item n="twAppID" v="mUY6N88BEkkxfrYbnYSCFg" />
+    <item n="twAppSecret" v="nrhyD7d1mD7LbJgXbJ0q8BwEtjOi37XWephm9JdC4N4" />
+    <item n="show_sliders" v="true" />
+    <item n="dvMrdThreshold" v="500" />
+    <item n="dvHideSource" v="true" />
+    <item n="enableQDSGallery" v="true" />
+    <item n="googleapikey" v="ABQIAAAAtIfAxjNwUTlYuC9Jbz8hLxT0GwCmyEu22tnOuXN__4GBYGcNLhRD86Mzzf9AuX1jccu_gES84jYv5Q" />
+    <item n="isQdsGeneratedForDensedQS_Areas" v="true" />
+    <item n="enableDSDSelection" v="true" />
+    <item n="showdisputed" v="false" />
+    <item n="standalone_registry" v="false" />
+    <item n="registryAreaLevel" v="2" />
+    <item n="registryMSDAreaId" v="RWA" />
+    <item n="registryNotifyViaEmail" v="true" />
+    <item n="visible_sliders_count" v="5" />
+    <item n="contact_db_adm_name" v="Support" />
+    <item n="contact_db_adm_institution" v="Ins" />
+    <item n="contact_db_adm_email" v="support@devinfo.info" />
+    <item n="adaptation_year" v="2011" />
+    <item n="unicef_region" v="South Asia" />
+    <item n="is_desktop_version_available" v="false" />
+    <item n="registryMappingAgeDefaultValue" v="NA" />
+    <item n="registryMappingSexDefaultValue" v="NA" />
+    <item n="registryMappingLocationDefaultValue" v="T" />
+    <item n="registryMappingFrequencyDefaultValue" v="A" />
+    <item n="registryMappingSourceTypeDefaultValue" v="NA" />
+    <item n="registryMappingNatureDefaultValue" v="NA" />
+    <item n="registryMappingUnitMultDefaultValue" v="0" />
+    <item n="show_cloud" v="true" />
+    <item v="true" n="isInnovationsMenuVisible" />
+    <item v="true" n="isNewsMenuVisible" />
+    <item v="true" n="isContactUsMenuVisible" />
+    <item v="true" n="isSupportMenuVisible" />
+    <item v="15" n="AdapUserPageSize" />
+    <item v="false" n="isWorkingOnIP" />
+    <item n="js_version" v="1" />
+    <item v="true" n="isDownloadsLinkVisible" />
+    <item v="true" n="isTrainingLinkVisible" />
+    <item v="true" n="isMapLibraryLinkVisible" />
+    <item v="false" n="isRSSFeedsLinkVisible" />
+    <item n="Country" v="global" />
+    <item n="gaUniqueID" v="fd" />
+    <item v="10" n="GalleryPageSize" />
+    <item v="GENERAL" n="customParams" />
+    <item n="registryPagingRows" v="10" />
+    <item n="sliders_list" v="01,02" />
+    <item n="SliderAnimationSpeed" v="5" />
+    <item n="CategoryScheme" v="SC" />
+    <item n="GUID" v="5149da6d-bf2a-45df-a30a-3ba0df4788c3" />
+    <item n="isShowMapServer" v="true" />
+    <item n="islangFAQVisible" v="true" />
+    <item n="HowToVideoData" v="{'en':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'','Visualizerlink':''}],'fr':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'','Visualizerlink':''}],'es':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'','Visualizerlink':''}],'zh':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'','Visualizerlink':''}],'ru':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'','Visualizerlink':''}],'ar':[{'HomeVisible':'false','VisualizerVisible':'false','Homelink':'','Visualizerlink':''}]}" />
+    <item n="isHowToVideoVisible" v="true" />
+    <item n="isSitemapVisible" v="true" />
+    <item n="CmsDbCreationFile" v="stock\data\CmsDbCreation.sql" />
+    <item n="CmsTableDefinition" v="stock\data\CmsTableDefinition.sql" />
+    <item n="DropNCreateSitemapURLTable" v="stock\data\DropNCreateSitemapURLTable.sql" />
+    <item n="CmsDataBasePath" v="C:\Program Files\Microsoft SQL Server\MSSQL10.MSSQLSERVER\MSSQL\DATA" />
+    <item n="MaxArticlesCount" v="10" />
+    <item v="false" n="isDiWorldWideLinkVisible" />
+    <item n="MetaTag_Desc" v="Sitemap is a place of All Devinfo links" />
+    <item n="MetaTag_Kw" v="sitemao,fsdf,fsdf,sdfsd,fsdf,sd" />
+    <item n="islangKBVisible" v="true" />
+</appsettings>

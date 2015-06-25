@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="lang_HeaderSettings" ElementID="lang_HeaderSettings" ElementProperty="innerHTML" />
+  <Associate MasterKey="lang_HeaderSet_Desc" ElementID="lang_HeaderSet_Desc" ElementProperty="innerHTML" />
+  <Associate MasterKey="Update" ElementID="langUpdate" ElementProperty="innerHTML" />
+  <Associate MasterKey="Sender_Detail_Head_Text" ElementID="Sender_Detail_Head_Text" ElementProperty="innerHTML" />
+  <Associate MasterKey="Reciever_Detail_Head_Text"  ElementID="Reciever_Detail_Head_Text" ElementProperty="innerHTML" />
+  <Associate MasterKey="Sender_Name" ElementID="Sender_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Reciever_Name" ElementID="Reciever_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Sender_Id" ElementID="Sender_Id" ElementProperty="innerHTML" />
+  <Associate MasterKey="Reciever_Id" ElementID="Reciever_Id" ElementProperty="innerHTML" />
+  <Associate MasterKey ="Header_Contact_Detail" ElementID ="Sender_Contact_Detail" ElementProperty="innerHTML"/>
+  <Associate MasterKey ="Header_Contact_Detail" ElementID ="Reciever_Contact_Detail" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Header_Contact_Name" ElementID="Reciever_Contact_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Dept" ElementID="Reciever_Contact_Dept" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Role" ElementID="Reciever_Contact_Role" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Fax" ElementID="Reciever_Contact_Fax" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Phone" ElementID="Reciever_Contact_Phone" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Email" ElementID="Reciever_Contact_Email" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Name" ElementID="Sender_Contact_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Dept" ElementID="Sender_Contact_Dept" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Role" ElementID="Sender_Contact_Role" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Fax" ElementID="Sender_Contact_Fax" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Phone" ElementID="Sender_Contact_Phone" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Email" ElementID="Sender_Contact_Email" ElementProperty="innerHTML" />
+  <Associate MasterKey="langHeaderUpdateSuccess" ElementID="langHeaderUpdateSuccess" ElementProperty="innerHTML"/>
+  <Associate MasterKey="langHeaderUpdateFailure" ElementID="langHeaderUpdateFailure" ElementProperty="innerHTML"/>
+
+</root>

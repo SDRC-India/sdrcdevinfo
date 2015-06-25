@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SetStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Online" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="WorldwideUserGId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetStatusResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WorldwideUserGId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStatusResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="anyType" nillable="true" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SetStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:SetStatus" />
+  </wsdl:message>
+  <wsdl:message name="SetStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:SetStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetStatusHttpGetIn">
+    <wsdl:part name="Online" type="s:string" />
+    <wsdl:part name="WorldwideUserGId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetStatusHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="GetStatusHttpGetIn">
+    <wsdl:part name="WorldwideUserGId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStatusHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="SetStatusHttpPostIn">
+    <wsdl:part name="Online" type="s:string" />
+    <wsdl:part name="WorldwideUserGId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetStatusHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="GetStatusHttpPostIn">
+    <wsdl:part name="WorldwideUserGId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStatusHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:portType name="UserOnlineStatusSoap">
+    <wsdl:operation name="SetStatus">
+      <wsdl:input message="tns:SetStatusSoapIn" />
+      <wsdl:output message="tns:SetStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <wsdl:input message="tns:GetStatusSoapIn" />
+      <wsdl:output message="tns:GetStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="UserOnlineStatusHttpGet">
+    <wsdl:operation name="SetStatus">
+      <wsdl:input message="tns:SetStatusHttpGetIn" />
+      <wsdl:output message="tns:SetStatusHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <wsdl:input message="tns:GetStatusHttpGetIn" />
+      <wsdl:output message="tns:GetStatusHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="UserOnlineStatusHttpPost">
+    <wsdl:operation name="SetStatus">
+      <wsdl:input message="tns:SetStatusHttpPostIn" />
+      <wsdl:output message="tns:SetStatusHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <wsdl:input message="tns:GetStatusHttpPostIn" />
+      <wsdl:output message="tns:GetStatusHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UserOnlineStatusSoap" type="tns:UserOnlineStatusSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SetStatus">
+      <soap:operation soapAction="http://tempuri.org/SetStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <soap:operation soapAction="http://tempuri.org/GetStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UserOnlineStatusSoap12" type="tns:UserOnlineStatusSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SetStatus">
+      <soap12:operation soapAction="http://tempuri.org/SetStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <soap12:operation soapAction="http://tempuri.org/GetStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UserOnlineStatusHttpGet" type="tns:UserOnlineStatusHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="SetStatus">
+      <http:operation location="/SetStatus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <http:operation location="/GetStatus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UserOnlineStatusHttpPost" type="tns:UserOnlineStatusHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="SetStatus">
+      <http:operation location="/SetStatus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStatus">
+      <http:operation location="/GetStatus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserOnlineStatus">
+    <wsdl:port name="UserOnlineStatusSoap" binding="tns:UserOnlineStatusSoap">
+      <soap:address location="http://www.devinfo.info/DI6WorldWideWebService/UserOnlineStatus.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UserOnlineStatusSoap12" binding="tns:UserOnlineStatusSoap12">
+      <soap12:address location="http://www.devinfo.info/DI6WorldWideWebService/UserOnlineStatus.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UserOnlineStatusHttpGet" binding="tns:UserOnlineStatusHttpGet">
+      <http:address location="http://www.devinfo.info/DI6WorldWideWebService/UserOnlineStatus.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UserOnlineStatusHttpPost" binding="tns:UserOnlineStatusHttpPost">
+      <http:address location="http://www.devinfo.info/DI6WorldWideWebService/UserOnlineStatus.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

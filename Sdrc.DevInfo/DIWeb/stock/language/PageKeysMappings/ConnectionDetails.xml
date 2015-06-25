@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="DatabaseSettings" ElementID="langDatabaseSettings" ElementProperty="innerHTML" />
+  <Associate MasterKey="AddMod_DCDH" ElementID="langAddMod_DCDH" ElementProperty="innerHTML" />
+  <Associate MasterKey="ConnectionDetails" ElementID="langConnectionDetails" ElementProperty="innerHTML" />  
+  <Associate MasterKey="ConnectionName" ElementID="langConnectionName" ElementProperty="innerHTML" />
+  <Associate MasterKey="TestConnection" ElementID="btnTestConnection" ElementProperty="value" />
+  <Associate MasterKey="DatabaseType" ElementID="langDatabaseType" ElementProperty="innerHTML" />
+  <Associate MasterKey="ServerHostName" ElementID="langServerHostName" ElementProperty="innerHTML" />
+  <Associate MasterKey="DatabaseName" ElementID="langDatabaseName" ElementProperty="innerHTML" />
+  <Associate MasterKey="UserName" ElementID="langUserName" ElementProperty="innerHTML" />
+  <Associate MasterKey="Password" ElementID="langPassword" ElementProperty="innerHTML" />
+  <Associate MasterKey="Description" ElementID="langDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="DefaultDatabase" ElementID="lang_cd_DefaultDatabase" ElementProperty="innerHTML" />
+  <Associate MasterKey="Register" ElementID="btnConDetRegisterDb" ElementProperty="value" />
+  <Associate MasterKey="Update" ElementID="btnConDetUpdate" ElementProperty="value" />
+  <Associate MasterKey="Clear" ElementID="btnlangClear" ElementProperty="value" />
+  <Associate MasterKey="Back" ElementID="btnlangBack" ElementProperty="value" />
+  <Associate MasterKey="Next" ElementID="btnConDetNext" ElementProperty="value" />
+  <Associate MasterKey="RegisterInCatalog" ElementID="lang_cd_RegCatalog" ElementProperty="innerHTML" />
+  <Associate MasterKey="LangUpdateNote" ElementID="LangUpdateNote" ElementProperty="innerHTML" />
+  <Associate MasterKey="AdapUser_ChangePassword" ElementID="aChangePassword" ElementProperty="innerHTML" />
+  <Associate MasterKey="Old_Password" ElementID="lngOPWD" ElementProperty="innerHTML" />
+  <Associate MasterKey="New_Password" ElementID="lngNPWD" ElementProperty="innerHTML" />
+  <Associate MasterKey="ConfirmNewPassword" ElementID="lngNPWDR" ElementProperty="innerHTML" />
+  <Associate MasterKey="OK" ElementID="btnOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnCancel" ElementProperty="value" />
+</root>

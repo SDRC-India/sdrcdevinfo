@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Lahorighat BPHC" id="IND018005002" l="3" nid="3029" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Lakhimpur" id="IND018008" l="3" nid="3008" pnid="2998" dataexists="T" isblock="F" lnid="579" />
+  <a n="Laluk MPHC" id="IND018008002" l="3" nid="3057" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Lokhara SD" id="IND018023001" l="3" nid="3030" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="North Lakhimpur CH" id="IND018008001" l="3" nid="3056" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+</AreaList>

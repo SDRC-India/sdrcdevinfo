@@ -1,0 +1,37 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - 数据供应商授予的权利[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    亲爱 [****]USER_NAME[****],
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    您已经成功的数据供应商授予的权利 [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    请注意，您的数据提供者的ID在下面的详细信息：
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    用户名： <a href="mailto:[****]USER_EMAILID[****]">[****]USER_EMAILID[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   用户名： [****]USER_NAME[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+  数据供应商ID： [****]DATA_PROVIDER_ID[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>请注意：</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    现在，您可以使用这些细节开始登记数据使用SDMX注册表服务 [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    如果你有任何疑问，您的帐户或Web应用程序，请直接与我们联系 <a href="mailto:[****]EMAILID_DB_ADMIN[****]">[****]EMAILID_DB_ADMIN[****]</a>
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   的问候，
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Webmaster - [****]ADAPTATION_NAME[****]
+</p>
+</p>

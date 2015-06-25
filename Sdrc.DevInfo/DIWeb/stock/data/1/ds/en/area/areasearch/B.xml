@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Baksa" id="IND018025" l="3" nid="3025" pnid="2998" dataexists="T" isblock="F" lnid="595" />
+  <a n="Barbang MPHC" id="IND018004001" l="3" nid="3048" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Barpeta" id="IND018004" l="3" nid="3004" pnid="2998" dataexists="T" isblock="F" lnid="575" />
+  <a n="Bezera CHC" id="IND018022001" l="3" nid="3032" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Bhogamukh BPHC" id="IND018013001" l="3" nid="3074" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Bijan SD" id="IND018021001" l="3" nid="3068" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Bikali MPHC" id="IND018003001" l="3" nid="3076" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Bilasipara SHC" id="IND018002001" l="3" nid="3040" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Bongaigaon" id="IND018020" l="3" nid="3020" pnid="2998" dataexists="T" isblock="F" lnid="590" />
+  <a n="Bongaigaon PHC" id="IND018020002" l="3" nid="3071" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Daboka BPHC" id="IND018006002" l="3" nid="3037" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Dhekiajuli BPHC" id="IND018007001" l="3" nid="3077" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Gunjung BPHC" id="IND018016002" l="3" nid="3047" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Jonai BPHC" id="IND018009002" l="3" nid="3059" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kachugaon  BPHC" id="IND018001001" l="3" nid="3038" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kalinagar BPHC" id="IND018019001" l="3" nid="3044" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Katlicherra BPHC" id="IND018019002" l="3" nid="3045" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Lahorighat BPHC" id="IND018005002" l="3" nid="3029" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Manikpur BPHC" id="IND018020001" l="3" nid="3070" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Nilambazar BPHC " id="IND018018001" l="3" nid="3042" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Sissia Bokulani SD" id="IND018011002" l="3" nid="3084" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Solmora BPHC" id="IND018013002" l="3" nid="3075" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+</AreaList>

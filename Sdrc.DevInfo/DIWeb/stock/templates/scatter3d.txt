@@ -1,0 +1,46 @@
+{
+"title":{
+	"text":"$chartTitle$",
+	"style":{
+		"fontSize":14,
+		"color":"0x0f0f0f",
+		"fontWeight":"n",
+		"textDecoration":"n",
+		"italic":"n"
+		}
+	},
+"subtitle":{
+	"text":"$chartSubTitle$",
+	"style":{
+		"fontSize":14,
+		"color":"0x0f0f0f",
+		"fontWeight":"n",
+		"textDecoration":"n",
+		"italic":"n"
+		}
+	},
+"source":{
+	"text":"$chartSource$",
+	"style":{
+		"fontSize":14,
+		"color":"0x0f0f0f",
+		"fontWeight":"n",
+		"textDecoration":"n",
+		"italic":"n"
+		},
+	"position":{"x":0,"y":0}
+	},
+"note":{
+	"text":"",
+	"style":{
+		"fontSize":14,
+		"color":"0x0f0f0f",
+		"fontWeight":"n",
+		"textDecoration":"n",
+		"italic":"n"
+		},
+	"position":{"x":0,"y":0}
+	},
+"data":null,
+"swfURL":""
+}

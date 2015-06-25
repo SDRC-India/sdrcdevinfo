@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="Data_Structure_Page_Title" ElementID="spanDataPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data_Structure_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data_Structure_Definition" ElementID="lang_Data_Structure_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data_Flow_Definition" ElementID="lang_Data_Flow_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="DSD_Concept_Scheme" ElementID="lang_Concept_Scheme_DSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="MSD_Concept_Scheme" ElementID="lang_Concept_Scheme_MSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Codelists" ElementID="lang_Codelists" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download_DSD" ElementID="lnkDSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download_Concept_Scheme" ElementID="lnkConceptSch" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download_All" ElementID="lnkDownloadAll" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download_Report" ElementID="lnkDownloadRpt" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Structure_Definition_Title" ElementID="span_Help_Data_Structure_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Structure_Definition_Desc" ElementID="i_Help_Data_Structure_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Flow_Definition_Title" ElementID="span_Help_Data_Flow_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Flow_Definition_Desc" ElementID="i_Help_Data_Flow_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Concept_Scheme_Title" ElementID="span_Help_Concept_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Concept_Scheme_Desc" ElementID="i_Help_Concept_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Codelist_Title" ElementID="span_Help_Codelist" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Codelist_Desc" ElementID="i_Help_Codelist" ElementProperty="innerHTML" />
+  <Associate MasterKey="Dimensions" ElementID="lang_Dimensions" ElementProperty="innerHTML" />
+  <Associate MasterKey="Attributes" ElementID="lang_Attributes" ElementProperty="innerHTML" />
+  <Associate MasterKey="Measure" ElementID="lang_Measure" ElementProperty="innerHTML" />
+  <Associate MasterKey="View" ElementID="hView" ElementProperty="value" />
+  <Associate MasterKey="Download" ElementID="hDownload" ElementProperty="value" />
+  <Associate MasterKey="Attachment_Level" ElementID="hAttachmentLevel" ElementProperty="value" />
+  <Associate MasterKey="Mandatory" ElementID="hMandatory" ElementProperty="value" />
+  <Associate MasterKey="Yes" ElementID="hYes" ElementProperty="value" />
+  <Associate MasterKey="No" ElementID="hNo" ElementProperty="value" />
+  <Associate MasterKey="lang_Error_Occurred" ElementID="hErrorOccurred" ElementProperty="value" />
+  <Associate MasterKey="lang_File_Not_Found" ElementID="hFileNotFound" ElementProperty="value" />
+
+
+  <Associate MasterKey="Metadata_Structure_Page_Title" ElementID="spanMetaPageTitle" ElementProperty="innerHTML" />
+  <!-- <Associate MasterKey="Metadata_Structure_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />-->
+<Associate MasterKey="Metadata_Structure_Definition" ElementID="lang_Metadata_Structure_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Metadata_Flow_Definition" ElementID="lang_Metadata_Flow_Definition" ElementProperty="innerHTML" />
+  <!-- <Associate MasterKey="Concept_Scheme" ElementID="lang_Concept_Scheme" ElementProperty="innerHTML" />-->
+  <Associate MasterKey="Metadata_Structure_Definition"  ElementID="hMSD" ElementProperty="value" />
+  <Associate MasterKey="Metadata_Flow_Definition"  ElementID="hMFD" ElementProperty="value" />
+  <Associate MasterKey="Concept_Scheme_MSD" ElementID="hCS" ElementProperty="value" />
+  <Associate MasterKey="Select_MSD" ElementID="lang_Select_MSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download_MSD" ElementID="lnkMSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download_Concept_Scheme" ElementID="lnkMSDConceptSch" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="Help_Metadata_Structure_Definition_Title" ElementID="span_Help_Metadata_Structure_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Metadata_Structure_Definition_Desc" ElementID="i_Help_Metadata_Structure_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Metadata_Flow_Definition_Title" ElementID="span_Help_Metadata_Flow_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Metadata_Flow_Definition_Desc" ElementID="i_Help_Metadata_Flow_Definition" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Concept_Scheme_Title" ElementID="span_Help_Concept_Scheme_msd" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Concept_Scheme_Desc" ElementID="i_Help_Concept_Scheme_msd" ElementProperty="innerHTML" />
+ 
+  <Associate MasterKey="Target" ElementID="hTarget" ElementProperty="value" />
+  <Associate MasterKey="Report_Structure" ElementID="hReportStructure" ElementProperty="value" />
+
+  <Associate MasterKey="Object_Type" ElementID="hObjectType" ElementProperty="value" />
+  <Associate MasterKey="Presentational" ElementID="hPresentational" ElementProperty="value" />
+
+
+  <Associate MasterKey="Provision_Agreement" ElementID="lang_Provision_Agreement" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data_Provider" ElementID="lang_Data_Provider" ElementProperty="innerHTML" />
+  <Associate MasterKey="lang_Provision_Agreement" ElementID="hProvisionAgreement" ElementProperty="value" />
+  <Associate MasterKey="lang_Data_Provider" ElementID="hDataProvider" ElementProperty="value" />
+  <Associate MasterKey="lang_Id" ElementID="hId" ElementProperty="value" />
+
+
+  <Associate MasterKey="Downloads" ElementID="lang_Downloads" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Provider_Scheme_Title" ElementID="span_Help_Data_Provider_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Provider_Scheme_Desc" ElementID="i_Help_Data_Provider_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Maintenance_Agency_Scheme_Title" ElementID="span_Help_Maintenance_Agency_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Maintenance_Agency_Scheme_Desc" ElementID="i_Help_Maintenance_Agency_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Providers_Title" ElementID="span_Help_Providers" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Providers_Desc" ElementID="i_Help_Providers" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_PA_Title" ElementID="span_Help_PA" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_PA_Desc" ElementID="i_Help_PA" ElementProperty="innerHTML" />
+  <Associate MasterKey="Provider" ElementID="hProvider" ElementProperty="value" />
+  <Associate MasterKey="Help_Data_Provider_Scheme_Title" ElementID="heading_Data_Provider_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Maintenance_Agency_Scheme_Title" ElementID="heading_Maintenance_Agency_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Provision_Agreement_Title" ElementID="heading_PA" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_Your_MSD" ElementID="SelectYourMSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Structure_Title" ElementID="span_Help_Structures" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Structure_Desc" ElementID="i_Help_Structures" ElementProperty="innerHTML" />
+  
+
+</root>

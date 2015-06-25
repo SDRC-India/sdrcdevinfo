@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="DatabaseSettings" ElementID="lang_db_DatabaseSettings" ElementProperty="innerHTML" />
+  <Associate MasterKey="AddMod_DCDH" ElementID="lang_db_AddMod_DCDH" ElementProperty="innerHTML" />
+  <Associate MasterKey="OptimizingDatabase" ElementID="langOptimizingDatabase" ElementProperty="innerHTML" />
+  <Associate MasterKey="XMLGeneration" ElementID="langXMLGeneration" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectAll" ElementID="langSelectAll" ElementProperty="innerHTML" />
+  <Associate MasterKey="Area" ElementID="langArea" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Order_By" ElementID="lngOrderBy" ElementProperty="innerHTML" />
+  <Associate MasterKey="Area_Name" ElementID="langAreaName" ElementProperty="innerHTML" />
+  <Associate MasterKey="Area_Id" ElementID="langAreaId" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Footnotes" ElementID="langFootnotes" ElementProperty="innerHTML" />
+  <Associate MasterKey="IC" ElementID="langIC" ElementProperty="innerHTML" />
+  <Associate MasterKey="ICIUS" ElementID="langICIUS" ElementProperty="innerHTML" />
+  <Associate MasterKey="IUS" ElementID="langIUS" ElementProperty="innerHTML" />
+  <Associate MasterKey="Metadata" ElementID="langMetadata" ElementProperty="innerHTML" />
+  <Associate MasterKey="QuickSearch" ElementID="langQuickSearch" ElementProperty="innerHTML" />
+  <Associate MasterKey="Immediate" ElementID="langImmediate" ElementProperty="innerHTML" />
+  <Associate MasterKey="All" ElementID="langAll" ElementProperty="innerHTML" />
+  <Associate MasterKey="None" ElementID="langNone" ElementProperty="innerHTML" />
+  <Associate MasterKey="TimePeriods" ElementID="langTimePeriods" ElementProperty="innerHTML" />
+  <Associate MasterKey="MapFilesGeneration" ElementID="langMapFilesGeneration" ElementProperty="innerHTML" />  
+  <Associate MasterKey="SDMXArtifactsGeneration" ElementID="langSDMXArtifactsGeneration" ElementProperty="innerHTML" />
+  <Associate MasterKey="SDMXMLGeneration" ElementID="langSDMXMLGeneration" ElementProperty="innerHTML" />
+  <Associate MasterKey="MetadataGeneration" ElementID="langMetadataGeneration" ElementProperty="innerHTML" />
+  <Associate MasterKey="GenerateCacheResults" ElementID="langGenerateCacheResults" ElementProperty="innerHTML" />
+  <Associate MasterKey="SDMXMLRegistration" ElementID="langSDMXMLRegistration" ElementProperty="innerHTML" />
+  <Associate MasterKey="MRRegistration" ElementID="langMRRegistration" ElementProperty="innerHTML" />
+  <Associate MasterKey="UpdateDBSchema" ElementID="langUpdateDBSchema" ElementProperty="innerHTML" />  
+  <Associate MasterKey="OptimizeDatabase" ElementID="langOptimizeDatabase" ElementProperty="value" />
+  <Associate MasterKey="Back" ElementID="btnlang_db_Back" ElementProperty="value" />  
+  <Associate MasterKey="Next" ElementID="btnOptDbNext" ElementProperty="value" />
+  <Associate MasterKey="Admin_CustomParams" ElementID="langAdminCustomParams" ElementProperty="value" />
+  <Associate MasterKey="GenerateCSVFile" ElementID="LangGenerateCSVFile" ElementProperty="innerHTML" />
+  <Associate MasterKey="LangPublishSDMXDataDI" ElementID ="LangPublishSDMXDataDI" ElementProperty="innerHTML"/>
+  <Associate MasterKey="LangPublishSDMXDataCD" ElementID ="LangPublishSDMXDataCD" ElementProperty="innerHTML"/>
+  
+</root>

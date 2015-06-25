@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<message:GenericMetadata xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:query="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/query" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:structurespecific="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:registry="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message">
+  <message:Header>
+    <message:ID>Header_Id</message:ID>
+    <message:Test>true</message:Test>
+    <message:Prepared>2014-10-17T01:40:54+05:30</message:Prepared>
+    <message:Sender id="Sender_Id">
+      <common:Name xml:lang="en">Sender_Name</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en">Sender</common:Name>
+        <message:Department xml:lang="en">Sender_Department</message:Department>
+        <message:Role xml:lang="en">Sender_Role</message:Role>
+        <message:Telephone>Sender_Telephone</message:Telephone>
+        <message:Email>Sender_Email</message:Email>
+        <message:Fax>Sender_Fax</message:Fax>
+      </message:Contact>
+    </message:Sender>
+    <message:Receiver id="Receiver_Id">
+      <common:Name xml:lang="en">Receiver_Name</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en">Receiver</common:Name>
+        <message:Department xml:lang="en">Receiver_Department</message:Department>
+        <message:Role xml:lang="en">Receiver_Role</message:Role>
+        <message:Telephone>Receiver_Telephone</message:Telephone>
+        <message:Email>Receiver_Email</message:Email>
+        <message:Fax>Receiver_Fax</message:Fax>
+      </message:Contact>
+    </message:Receiver>
+    <message:Structure structureID="MSD_Source_DevInfo">
+      <common:Structure xsi:type="common:MetadataStructureReferenceType">
+        <Ref xsi:type="common:MetadataStructureRefType" agencyID="MDAgency" id="MSD_Source_DevInfo" version="7.0" local="false" class="MetadataStructure" package="metadatastructure" />
+      </common:Structure>
+    </message:Structure>
+  </message:Header>
+  <message:MetadataSet structureRef="MSD_Source_DevInfo">
+    <Report id="RS_Source" xmlns="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic">
+      <Target id="Target_Source">
+        <ReferenceValue id="IO_Target_Source">
+          <ObjectReference>
+            <Ref xsi:type="common:ObjectRefType" agencyID="MDAgency" maintainableParentID="CS_SR" maintainableParentVersion="7.0" id="20" class="Category" package="categoryscheme" xmlns="" />
+          </ObjectReference>
+        </ReferenceValue>
+      </Target>
+      <AttributeSet>
+        <ReportedAttribute id="PUBLISHER_42" name="Publisher" />
+        <ReportedAttribute id="PUBLICATION_DATE_43" name="Publication Date" />
+        <ReportedAttribute id="ABSTRACT_44" name="Abstract" />
+        <ReportedAttribute id="RESEARCH_PERIOD_45" name="Research Period" />
+        <ReportedAttribute id="RESEARCH_TEAM_46" name="Research Team" />
+        <ReportedAttribute id="FUNDING_SOURCE_47" name="Funding Source" />
+        <ReportedAttribute id="RESEARCH_GEOGRAPHIC_AREA_48" name="Research Geographic Area" />
+        <ReportedAttribute id="METHODOLOGY_DESIGN_49" name="Methodology Design" />
+        <ReportedAttribute id="DATA_QUALITY_ISSUES_50" name="Data Quality Issues" />
+        <ReportedAttribute id="DATA_ESTIMATE_51" name="Data Estimate" />
+        <ReportedAttribute id="DATA_CLASSIFICATION_52" name="Data Classification" />
+        <ReportedAttribute id="SECONDARY_SOURCE_53" name="Secondary Source" />
+        <ReportedAttribute id="TERTIARY_SOURCE_54" name="Tertiary Source" />
+      </AttributeSet>
+    </Report>
+  </message:MetadataSet>
+</message:GenericMetadata>

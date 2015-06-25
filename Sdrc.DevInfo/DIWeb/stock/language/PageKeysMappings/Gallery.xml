@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="What" ElementID="langQdsIndCaption" ElementProperty="value" />
+  <Associate MasterKey="Where" ElementID="langQdsAreaCaption" ElementProperty="value" />
+  <Associate MasterKey="QDS_Ind_Default" ElementID="langQdsIndDefText" ElementProperty="value" />
+  <Associate MasterKey="QDS_Area_Default" ElementID="langQdsAreaDefText" ElementProperty="value" />
+  <Associate MasterKey="Search" ElementID="langQdsSerchBtnText" ElementProperty="value" />
+  <Associate MasterKey="Subregion" ElementID="langQdsAreaBlockText" ElementProperty="value" />
+  
+  <Associate MasterKey="QuickDataSearch" ElementID="langQuickDataSearch" ElementProperty="innerHTML" />
+  <Associate MasterKey="All" ElementID="aGalleryAll" ElementProperty="innerHTML" />
+  <Associate MasterKey="Tables" ElementID="aGalleryTables" ElementProperty="innerHTML" />
+  <Associate MasterKey="Graphs" ElementID="aGalleryGraphs" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Maps" ElementID="aGalleryMaps" ElementProperty="innerHTML" /> 
+  <Associate MasterKey="ShowTitle" ElementID="showTitleChk" ElementProperty="innerHTML" />
+  <Associate MasterKey="Download_PNG" ElementID="lang_Download_PNG" ElementProperty="value" />
+  <Associate MasterKey="Download_SVG" ElementID="lang_Download_SVG" ElementProperty="value" />
+  <Associate MasterKey="Download_XLS" ElementID="lang_Download_XLS" ElementProperty="value" />  
+  <Associate MasterKey="Download_Image" ElementID="lang_Download_Image" ElementProperty="value" />  
+  <Associate MasterKey="Download_KML" ElementID="lang_Download_KML" ElementProperty="value" />
+  <Associate MasterKey="Next" ElementID="lang_ppup_Next" ElementProperty="value" />
+  <Associate MasterKey="Previous" ElementID="lang_ppup_Prev" ElementProperty="value" />
+  <Associate MasterKey="Keywords" ElementID="langkeywords" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Search" ElementID="lngSearch" ElementProperty="innerHTML"/>
+  <Associate MasterKey="SearchBoxKeywords" ElementID="keyword_txt" ElementProperty="value"/>
+  <Associate MasterKey="Delete_Confirmation" ElementID="delete_confirmation_txt" ElementProperty="value"/>
+  <Associate MasterKey="Delete_Presentation" ElementID="delete_presentation_txt" ElementProperty="value"/>
+  <Associate MasterKey="Delete_Right" ElementID="delete_right_txt" ElementProperty="value"/>
+  
+  <Associate MasterKey="Gallery_Results" ElementID="langGalleryResults" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_TimeTaken" ElementID="langGalleryTimeTaken" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_Seconds" ElementID="langGallerySeconds" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_OR" ElementID="langOR" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Gallery_moreAreas" ElementID="langmoreAreas" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_moreIndicators" ElementID="langmoreIndicators" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_moreUDKs" ElementID="langmoreUDKs" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_More" ElementID="langGalleryMore" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_ModOn" ElementID="langGalleryModifiedOn" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_Description" ElementID="langGalleryDescription" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_View" ElementID="GalView" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_Download" ElementID="GalDownload" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_Share" ElementID="GalShare" ElementProperty="value"/>
+  <Associate MasterKey="Gallery_Delete" ElementID="GalDelete" ElementProperty="value"/>
+
+</root>

@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>QDS_TITLE</title>
+    <link type="text/css" href="../../themes/default/css/style.css" rel="stylesheet" />
+</head>
+<body style="background: none; width: 100%;">
+
+<!--REGION FOR DECLARING HIDDEN INPUT FIELDS FOR LANGUAGE HANDLING OF AREA & INDICATOR COMPONENTS-->
+<input type="hidden" id="langHiddenBoth" value="" />
+<input type="hidden" id="langHiddenTree" value="" />
+<input type="hidden" id="langHiddenAtoZ" value="" />
+<input type="hidden" id="langHiddenSearch" value="" />
+<input type="hidden" id="langHiddenViewselections" value="" />
+<input type="hidden" id="langHiddenSector" value="" />
+<input type="hidden" id="langHiddenGoal" value="" />
+<input type="hidden" id="langHiddenSource" value="" />
+<input type="hidden" id="langHiddenInstitution" value="" />
+<input type="hidden" id="langHiddenTheme" value="" />
+<input type="hidden" id="langHiddenConvention" value="" />
+<input type="hidden" id="langHiddenConceptualFramework" value="" />
+<input type="hidden" id="langHiddenselectsubgroup" value="" />
+<input type="hidden" id="langHiddenSelectAll" value="" />
+<input type="hidden" id="langHiddenShowwheredataexist" value="" />
+<input type="hidden" id="langHiddenOK" value="" />
+<input type="hidden" id="langHiddenClear" value="" />
+<input type="hidden" id="langHiddenClose" value="" />
+<input type="hidden" id="langHiddenSubgroupDimensions" value="" />
+<input type="hidden" id="langHiddenMore" value="" />
+<input type="hidden" id="langHiddenMetadata" value="" />
+
+<input type="hidden" id="langHiddenSelectarealevel" value="" />
+<input type="hidden" id="langHiddenByTree" value="" />
+<input type="hidden" id="langHiddenListAtoZ" value="" />
+<input type="hidden" id="langHiddenAlphabetically" value="" />
+<input type="hidden" id="langHiddenByMap" value="" />
+<input type="hidden" id="langHiddenFirst" value="" />
+<input type="hidden" id="langHiddenBack" value="" />
+<input type="hidden" id="langHiddenNext" value="" />
+<input type="hidden" id="langHiddenLast" value="" />
+<input type="hidden" id="langHiddenPage" value="" />	
+
+<input type="hidden" id="langQdsIndCaption" value="" />
+<input type="hidden" id="langQdsAreaCaption" value="" />
+<input type="hidden" id="langQdsIndDefText" value="" />
+<input type="hidden" id="langQdsAreaDefText" value="" />
+<input type="hidden" id="langQdsSerchBtnText" value="" />
+<input type="hidden" id="langQdsAreaBlockText" value="" />
+
+<input type="hidden" id="langIndicators" value="" />
+<input type="hidden" id="langAreas" value="" />
+<input type="hidden" id="langSources" value="" />
+<input type="hidden" id="langDataValues" value="" />
+<input type="hidden" id="langUpdatedOn" value="" />
+<input type="hidden" id="langSubGroup" value="" />
+
+<input type="hidden" id="langResultsTimePeriod" value="" />
+<input type="hidden" id="langResultsDimensions" value="langHomeDimensions" />
+<input type="hidden" id="langResultsDataValues" value="langHomedatavalues" />
+<input type="hidden" id="langResultsCloudView" value="langHomeCloudview" />
+<input type="hidden" id="langResultsAddToCart" value="Add to cart" />
+<input type="hidden" id="langResultsVisualize" value="langHomeVisualize" />
+<input type="hidden" id="langResultsShare" value="Share" />
+<input type="hidden" id="langMRDFor" value="langHomeMRDFor" />
+
+<input type="hidden" id="langMin" value="Minimum" />
+<input type="hidden" id="langMax" value="Maximum" />
+
+<div id='PopupOuterBox' class="popup_block">
+<div id="popupContent"></div>
+</div>
+<div id='PopupMoreBox' class="popup_block">
+<div id="moreContent"></div>
+</div>
+
+<input type="hidden" id="GalleryXML" value="GALLERY_XML_DATA" />
+<span id="langkeywords" style="display:none">Keyword</span>
+<input id="lang_Download_PNG" value="Download as PNG" type="hidden" />
+<input id="lang_Download_SVG" value="Download as SVG" type="hidden" />
+<input id="lang_Download_XLS" value="Download as XLS" type="hidden" />
+<input id="lang_Download_Image" value="Download as Image" type="hidden" />
+<input id="lang_Download_KML" value="Download as KML" type="hidden" />            
+<input id="lang_ppup_Next" value="langGalleryNext" type="hidden" />
+<input id="lang_ppup_Prev" value="langGalleryPrevious" type="hidden" />
+<input type="hidden" id="delete_confirmation_txt" value="Do you want to delete presentation?" />
+<input type="hidden" id="delete_presentation_txt" value="Current presentation has been deleted." />
+<input type="hidden" id="delete_right_txt" value="You dont have right to delete" />
+<input type="hidden" id="langmoreAreas" value="langGalleryAreas" />
+<input type="hidden" id="langmoreIndicators" value="langGalleryIndicators" />
+<input type="hidden" id="langmoreUDKs" value="langGalleryKeywords" />
+<input type="hidden" id="langGalleryMore" value="morelangGallery" />
+<input type="hidden" id="langGalleryModifiedOn" value="ModOnlangGallery" />
+<input type="hidden" id="langGalleryDescription" value="DeslangGallery" />
+<input id="GalView" value="langGalleryView" type="hidden" />
+<input id="GalDownload" value="langGalleryDownload" type="hidden" />
+<input id="GalShare" value="langGalleryShare" type="hidden" />
+<input id="GalDelete" value="langGalleryDelete" type="hidden" />
+<input type="hidden" id="show_cloud" value="setShowCloud" />
+    <table cellpadding="10" cellspacing="10" style="width: 100%;" >
+        <tr>
+            <td>
+                <div id= "divForQdsResult"></div>
+                <div>
+                <a id="a_Qds_Template_HomePage" href="../../../libraries/aspx/home.aspx"></a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="divCallout" style="z-index: 1200; position: absolute; width: 200px; display: none"
+                    class="callout border-callout">
+                    <div id="divCalloutText" class="content">
+                    </div>
+                    <b class="border-notch notch"></b><b class="notch"></b>                    
+                </div>                
+                <div id="divCallout_qds" class="callout_cata border-callout-cata">
+                    <ul id="divDimensionsList">
+            
+                    </ul>
+                    <b class="border-notch notch"></b><b class="notch"></b>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!--<div id='divCloudOuter' class="popup_block" style="width: 700px; height: 350px;">
+                    <table>
+                        <tr>
+                            <th>
+                                <div id="divCloudHeader">
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="divCloud" style="width: 700px; height: 350px; position: relative;">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>-->
+            </td>
+        </tr>
+    </table>
+    
+     <script type="text/javascript">
+         var di_components = "DIVC";
+         var di_vctype = "Column,Line";
+         var di_component_version = 'DI_COMPONENT_VERSION';
+         var di_theme_css = 'DI_THEME_CSS';
+         var di_diuilib_url = 'DI_DIUILIB_URL';
+         document.write("<script type='text/javascript' src='" + di_diuilib_url + "diuilibincludes.js'" + "><\/script>");
+         document.write("<script type='text/javascript' src='" + di_diuilib_url + "diuilibcommon.js'" + "><\/script>");
+     </script>
+
+
+    <div id="divCloudOuter" class="popup_block">
+        <div id="divCloudHeader">
+        </div>
+        <div id="divCloud">
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="../../../libraries/js/common.js"></script>
+    <script type="text/javascript" src="../../../libraries/js/QDS.js"></script>
+    <script type="text/javascript" src="../../../libraries/js/NGallery.js"></script>
+
+    <script type="text/javascript">
+
+//        var strJsonData = 'QDS_DIV';
+//        var JsonResultData = di_jq.parseJSON(strJsonData);
+
+        onPageLoadOfQDS(QDS_hdsby, QDS_hdbnid, QDS_hselarea, QDS_hselind, QDS_hlngcode, QDS_db_hlngcode, QDS_o_hselind, QDS_o_hselarea, "", "", "true", QDS_DIV);
+        var AdaptationUrl = getAbsURL('');
+        var intPosition = 0;
+        intPosition = AdaptationUrl.indexOf('/stock/shared/qds/');
+        AdaptationUrl = AdaptationUrl.substr(0, intPosition);
+        //AdaptationUrl = AdaptationUrl.replace("http://", "");
+        z('a_Qds_Template_HomePage').innerHTML = AdaptationUrl;
+        di_jq('.sparkline').sparkline('html', { type: 'bar' });
+
+        di_jq(document).click(function (e) {
+            // call function to hide opened divs
+            HideDimentionsCallOutDiv(e);
+        });
+    
+    </script>
+
+</body>
+</html>
+

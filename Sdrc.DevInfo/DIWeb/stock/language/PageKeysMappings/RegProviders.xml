@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="Users_Page_Title" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Users_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Downloads" ElementID="lang_Downloads" ElementProperty="innerHTML" />
+  <Associate MasterKey="List_of_Providers_And_their_Provision_Agreements" ElementID="lang_List_of_Providers_And_their_Provision_Agreements" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Provider_Scheme_Title" ElementID="span_Help_Data_Provider_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Data_Provider_Scheme_Desc" ElementID="i_Help_Data_Provider_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Maintenance_Agency_Scheme_Title" ElementID="span_Help_Maintenance_Agency_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Maintenance_Agency_Scheme_Desc" ElementID="i_Help_Maintenance_Agency_Scheme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Providers_Title" ElementID="span_Help_Providers" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_Providers_Desc" ElementID="i_Help_Providers" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_PA_Title" ElementID="span_Help_PA" ElementProperty="innerHTML" />
+  <Associate MasterKey="Help_PA_Desc" ElementID="i_Help_PA" ElementProperty="innerHTML" />
+  <Associate MasterKey="First_Name_Registry" ElementID="langFirstName" ElementProperty="innerHTML" />
+  <Associate MasterKey="Last_Name" ElementID="langLastName" ElementProperty="innerHTML" />
+  <Associate MasterKey="Country" ElementID="langCountry" ElementProperty="innerHTML" />
+  <Associate MasterKey="Email" ElementID="langEmail" ElementProperty="innerHTML" />
+  <Associate MasterKey="Provision_Agreement_For" ElementID="langProvisionAgreementFor" ElementProperty="innerHTML" />
+  <Associate MasterKey="View" ElementID="hView" ElementProperty="value" />
+  <Associate MasterKey="Download" ElementID="hDownload" ElementProperty="value" />
+  <Associate MasterKey="List_of_Users" ElementID="lang_List_of_Users" ElementProperty="innerHTML" />
+  <Associate MasterKey="Email" ElementID="hEmail" ElementProperty="value" />
+  <Associate MasterKey="Name" ElementID="hName" ElementProperty="value" />
+  <Associate MasterKey="Country" ElementID="hCountry" ElementProperty="value" />
+  <Associate MasterKey="Provider" ElementID="hProvider" ElementProperty="value" />
+  <Associate MasterKey="Update" ElementID="btnUpdate" ElementProperty="value" />
+  <Associate MasterKey="Reset" ElementID="btnReset" ElementProperty="value" />
+  <Associate MasterKey="lang_UpdatedSuccessfully" ElementID="hUpdatedSuccess" ElementProperty="value" />
+  <Associate MasterKey="lang_ArtifactsNotFound" ElementID="hArtifactNotFound" ElementProperty="value" />
+</root>
+
+

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+    <!ELEMENT root ANY>
+    <!ELEMENT Associate ANY>
+    <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+    <!ATTLIST Associate ElementID ID #REQUIRED >
+    <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+    <Associate MasterKey="What" ElementID="langQdsIndCaption" ElementProperty="value" />
+    <Associate MasterKey="Where" ElementID="langQdsAreaCaption" ElementProperty="value" />
+    <Associate MasterKey="QDS_Ind_Default" ElementID="langQdsIndDefText" ElementProperty="value" />
+    <Associate MasterKey="QDS_Area_Default" ElementID="langQdsAreaDefText" ElementProperty="value" />
+    <Associate MasterKey="Search" ElementID="langQdsSerchBtnText" ElementProperty="value" />
+    <Associate MasterKey="Subregion" ElementID="langQdsAreaBlockText" ElementProperty="value" />
+
+    <Associate MasterKey="INDICATORS" ElementID="langIndicators" ElementProperty="value" />
+    <Associate MasterKey="AREAS" ElementID="langAreas" ElementProperty="value" />
+    <Associate MasterKey="SOURCES" ElementID="langSources" ElementProperty="value" />
+    <Associate MasterKey="SUBGROUP" ElementID="langSubGroup" ElementProperty="value" />
+    <Associate MasterKey="DATA_VaLUES" ElementID="langDataValues" ElementProperty="value" />
+    <Associate MasterKey="UPDATED_ON" ElementID="langUpdatedOn" ElementProperty="value" />
+    <Associate MasterKey="AreasColon" ElementID="langAreasColon" ElementProperty="value" />
+    <Associate MasterKey="SourcesColon" ElementID="langSourcesColon" ElementProperty="value" />
+
+    <Associate MasterKey="TimePeriods" ElementID="langResultsTimePeriod" ElementProperty="value" />
+    <Associate MasterKey="DIMENSIONS" ElementID="langResultsDimensions" ElementProperty="value" />
+    <Associate MasterKey="DATAVALUE" ElementID="langResultsDataValues" ElementProperty="value" />
+    <Associate MasterKey="CLOUD_VIEW" ElementID="langResultsCloudView" ElementProperty="value" />
+    <Associate MasterKey="ADD_TO_CART" ElementID="langResultsAddToCart" ElementProperty="value" />
+    <Associate MasterKey="VISUALIZE" ElementID="langResultsVisualize" ElementProperty="value" />
+    <Associate MasterKey="SHARING" ElementID="langResultsShare" ElementProperty="value" />
+    <Associate MasterKey="ADD_ALL_TO_CART" ElementID="spanAddAllToCart" ElementProperty="innerHTML" />
+    <Associate MasterKey="REMOVE_ALL_FROM_CART" ElementID="spanRemoveAllFromCart" ElementProperty="innerHTML" />
+    <Associate MasterKey="MULTIPLE_DB_SEARCH" ElementID="spanMultipleDbSearch" ElementProperty="innerHTML" />
+    <Associate MasterKey="REMOVE_FROM_DATA_CART" ElementID="langREMOVE_FROM_DATA_CART" ElementProperty="value" />
+
+    <Associate MasterKey="HIDECOLUMN" ElementID="langHideColumn" ElementProperty="innerHTML" />
+    <Associate MasterKey="AREA" ElementID="langArea" ElementProperty="innerHTML" />
+    <Associate MasterKey="TOPIC" ElementID="langTopic" ElementProperty="innerHTML" />
+    <Associate MasterKey="TIMEPERIOD" ElementID="langTimePeriod" ElementProperty="innerHTML" />
+    <Associate MasterKey="MOSTRECENT" ElementID="langMostRecent" ElementProperty="innerHTML" />
+    <Associate MasterKey="SOURCE" ElementID="langSource" ElementProperty="innerHTML" />
+    <Associate MasterKey="DATAFILTER" ElementID="langDataFilter" ElementProperty="innerHTML" />
+    <Associate MasterKey="SORTORDER" ElementID="langSortOrder" ElementProperty="innerHTML" />
+    <Associate MasterKey="DATAFILTER" ElementID="langDataFilterHead" ElementProperty="innerHTML" />
+    <Associate MasterKey="FROM" ElementID="langFrom" ElementProperty="innerHTML" />
+    <Associate MasterKey="TO" ElementID="langTo" ElementProperty="innerHTML" />
+    <Associate MasterKey="TABLE" ElementID="langTable" ElementProperty="innerHTML" />
+    <Associate MasterKey="LINE" ElementID="langLine" ElementProperty="innerHTML" />
+    <Associate MasterKey="COLUMN" ElementID="langColumn" ElementProperty="innerHTML" />
+    <Associate MasterKey="BAR" ElementID="langBar" ElementProperty ="innerHTML" />
+    <Associate MasterKey="AREA" ElementID="langAreaBar" ElementProperty="innerHTML" />
+    <Associate MasterKey="Pie" ElementID="langPie" ElementProperty="innerHTML" />
+    <Associate MasterKey="Radar" ElementID="langRadar" ElementProperty="innerHTML" />
+    <Associate MasterKey="Scatter" ElementID="langScatter" ElementProperty="innerHTML" />
+    <Associate MasterKey="Pyramid" ElementID="langPyramid" ElementProperty="innerHTML" />
+    <Associate MasterKey="Treemap" ElementID="langTreemap" ElementProperty="innerHTML" />
+    <Associate MasterKey="Cloud" ElementID="langCloud" ElementProperty="innerHTML" />
+    <Associate MasterKey="both" ElementID="langHiddenBoth" ElementProperty="value" />
+    <Associate MasterKey="Tree" ElementID="langHiddenTree" ElementProperty="value" />
+    <Associate MasterKey="ListAtoZ" ElementID="langHiddenAtoZ" ElementProperty="value" />
+    <Associate MasterKey="ListAlphabetically" ElementID="langHiddenAlphabetically" ElementProperty="value" />
+    <Associate MasterKey="Search" ElementID="langHiddenSearch" ElementProperty="value" />
+    <Associate MasterKey="ViewSelections" ElementID="langHiddenViewselections" ElementProperty="value" />
+    <Associate MasterKey="Sector" ElementID="langHiddenSector" ElementProperty="value" />
+    <Associate MasterKey="Goal" ElementID="langHiddenGoal" ElementProperty="value" />
+    <Associate MasterKey="SOURCE" ElementID="langHiddenSource" ElementProperty="value" />
+    <Associate MasterKey="Institution" ElementID="langHiddenInstitution" ElementProperty="value" />
+    <Associate MasterKey="Theme" ElementID="langHiddenTheme" ElementProperty="value" />
+    <Associate MasterKey="Convention" ElementID="langHiddenConvention" ElementProperty="value" />
+    <Associate MasterKey="Conceptual_Framework" ElementID="langHiddenConceptualFramework" ElementProperty="value" />
+    <Associate MasterKey="SelectSubgroup" ElementID="langHiddenselectsubgroup" ElementProperty="value" />
+    <Associate MasterKey="SelectAll" ElementID="langHiddenSelectAll" ElementProperty="value" />
+    <Associate MasterKey="ShowWhereDataExist" ElementID="langHiddenShowwheredataexist" ElementProperty="value" />
+    <Associate MasterKey="OK" ElementID="langHiddenOK" ElementProperty="value" />
+    <Associate MasterKey="Clear" ElementID="langHiddenClear" ElementProperty="value" />
+    <Associate MasterKey="Close" ElementID="langHiddenClose" ElementProperty="value" />
+    <Associate MasterKey="SubgroupDimensions" ElementID="langHiddenSubgroupDimensions" ElementProperty="value" />
+    <Associate MasterKey="More" ElementID="langHiddenMore" ElementProperty="value" />
+    <Associate MasterKey="Metadata" ElementID="langHiddenMetadata" ElementProperty="value" />
+    <Associate MasterKey="SelectTopic" ElementID="langSelectTopic" ElementProperty="innerHTML" />
+    <Associate MasterKey="OK" ElementID="indOk" ElementProperty="value" />
+    <Associate MasterKey="Cancel" ElementID="indCancel" ElementProperty="value" />
+
+    <Associate MasterKey="SelectAreaLevel" ElementID="langHiddenSelectarealevel" ElementProperty="value" />
+    <Associate MasterKey="ByTree" ElementID="langHiddenByTree" ElementProperty="value" />
+    <Associate MasterKey="ListAtoZ" ElementID="langHiddenListAtoZ" ElementProperty="value" />
+    <Associate MasterKey="ByMap" ElementID="langHiddenByMap" ElementProperty="value" />
+    <Associate MasterKey="First" ElementID="langHiddenFirst" ElementProperty="value" />
+    <Associate MasterKey="Back" ElementID="langHiddenBack" ElementProperty="value" />
+    <Associate MasterKey="Next" ElementID="langHiddenNext" ElementProperty="value" />
+    <Associate MasterKey="Last" ElementID="langHiddenLast" ElementProperty="value" />
+    <Associate MasterKey="Page" ElementID="langHiddenPage" ElementProperty="value" />
+    <Associate MasterKey="AboutDI" ElementID="lang_AboutDI" ElementProperty="innerHTML" />
+    <Associate MasterKey="AboutDI_para" ElementID="lang_AboutDI_para" ElementProperty="innerHTML" />
+    <Associate MasterKey="more" ElementID="lang_more" ElementProperty="innerHTML" />
+    <Associate MasterKey="QuickDataSearch" ElementID="langQuickDataSearch" ElementProperty="innerHTML" />
+    <Associate MasterKey="AdvancedSearch" ElementID="langAdvancedSearch" ElementProperty="innerHTML" />
+    <Associate MasterKey="BrowseF_D_B" ElementID="langBrowseF_D_B" ElementProperty="innerHTML" />
+    <Associate MasterKey="SearchB_SGTI" ElementID="langSearchB_SGTI" ElementProperty="innerHTML" />
+    <Associate MasterKey="SearchB_CPD" ElementID="langSearchB_CPD" ElementProperty="innerHTML" />
+    <Associate MasterKey="Datacart" ElementID="lang_Datacart" ElementProperty="innerHTML" />
+    <Associate MasterKey="Data" ElementID="lang_Data" ElementProperty="innerHTML" />
+    <Associate MasterKey="SelectArea" ElementID="langSelectArea" ElementProperty="innerHTML" />
+    <Associate MasterKey="OK" ElementID="areaOk" ElementProperty="value" />
+    <Associate MasterKey="Cancel" ElementID="areaCancel" ElementProperty="value" />
+    <Associate MasterKey="SelectTopic" ElementID="lang_SelectTopic" ElementProperty="innerHTML" />
+    <Associate MasterKey="AdvancedSearch" ElementID="lang_AdvancedSearch" ElementProperty="innerHTML" />
+    <Associate MasterKey="Topic" ElementID="lang_ppup_Topic" ElementProperty="innerHTML" />
+    <Associate MasterKey="SearchB_SGTI" ElementID="lang_ppup_SearchB_SGTI" ElementProperty="innerHTML" />
+    <Associate MasterKey="Area" ElementID="lang_ppup_Area" ElementProperty="innerHTML" />
+    <Associate MasterKey="SearchB_CPD" ElementID="lang_ppup_SearchB_CPD" ElementProperty="innerHTML" />
+    <Associate MasterKey="DefaultAreasSelected" ElementID="langDefaultAreasSelected" ElementProperty="innerHTML" />
+    <Associate MasterKey="Submit" ElementID="lang_Submit" ElementProperty="value" />
+    <Associate MasterKey="Cancel" ElementID="lang_Cancel" ElementProperty="value" />
+
+    <Associate MasterKey="Data" ElementID="langData" ElementProperty="innerHTML" />
+    <Associate MasterKey="Search" ElementID="langSearch" ElementProperty="innerHTML" />
+    <Associate MasterKey="SelectAr" ElementID="langSelectAr" ElementProperty="innerHTML" />
+    <Associate MasterKey="Select" ElementID="langSelect" ElementProperty="innerHTML" />
+    <Associate MasterKey="Indicator" ElementID="langIndicator" ElementProperty="innerHTML" />
+    <Associate MasterKey="diMon_desc" ElementID="langdiMon_desc" ElementProperty="innerHTML" />
+    <Associate MasterKey="diProf_desc" ElementID="langdiProf_desc" ElementProperty="innerHTML" />
+    <Associate MasterKey="diVid_desc" ElementID="langdiVid_desc" ElementProperty="innerHTML" />
+    <Associate MasterKey="diBook_desc" ElementID="langdiBook_desc" ElementProperty="innerHTML" />
+    <Associate MasterKey="diSMS_desc" ElementID="langdiSMS_desc" ElementProperty="innerHTML" />
+    <Associate MasterKey="diEmgInfo_desc" ElementID="langdiEmgInfo_desc" ElementProperty="innerHTML" />
+    <Associate MasterKey="diDBoard_desc" ElementID="langdiDBoard_desc" ElementProperty="innerHTML" />
+    <Associate MasterKey="diGallery_desc" ElementID="langdiGallery_desc" ElementProperty="innerHTML" />
+    <Associate MasterKey="DefaultAreas" ElementID="langDefaultAreas" ElementProperty="innerHTML" />
+    <Associate MasterKey="ChangeAreaSelection" ElementID="langChangeAreaSelection" ElementProperty="value" />
+    <Associate MasterKey="DF_Popp_Ok" ElementID="langDF_Popp_Ok" ElementProperty="value" />
+
+    <Associate MasterKey="Contact_Database_Administrator" ElementID="langLblContactDbAdm" ElementProperty="value" />
+    <Associate MasterKey="NameColon" ElementID="langLblDbAdmName" ElementProperty="value" />
+    <Associate MasterKey="InstitutionColon" ElementID="langLblDbAdmInstitution" ElementProperty="value" />
+    <Associate MasterKey="EmailColon" ElementID="langLblDbAdmEmail" ElementProperty="value" />
+
+    <Associate MasterKey="Hide" ElementID="langHide" ElementProperty="value" />
+    <Associate MasterKey="Show" ElementID="langShow" ElementProperty="value" />
+
+    <Associate MasterKey="QDS_Min" ElementID="langMin" ElementProperty="value" />
+    <Associate MasterKey="QDS_Max" ElementID="langMax" ElementProperty="value" />
+    <Associate MasterKey="Download_PNG" ElementID="lang_Download_PNG" ElementProperty="value" />
+    <Associate MasterKey="Download_SVG" ElementID="lang_Download_SVG" ElementProperty="value" />
+    <Associate MasterKey="Download_XLS" ElementID="lang_Download_XLS" ElementProperty="value" />
+    <Associate MasterKey="Download_Image" ElementID="lang_Download_Image" ElementProperty="value" />
+    <Associate MasterKey="Download_KML" ElementID="lang_Download_KML" ElementProperty="value" />
+    <Associate MasterKey="Next" ElementID="lang_ppup_Next" ElementProperty="value" />
+    <Associate MasterKey="Previous" ElementID="lang_ppup_Prev" ElementProperty="value" />
+    <Associate MasterKey="Keywords" ElementID="langkeywords" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Search" ElementID="lngSearch" ElementProperty="innerHTML"/>
+    <Associate MasterKey="SearchBoxKeywords" ElementID="keyword_txt" ElementProperty="value"/>
+    <Associate MasterKey="Delete_Confirmation" ElementID="delete_confirmation_txt" ElementProperty="value"/>
+    <Associate MasterKey="Delete_Presentation" ElementID="delete_presentation_txt" ElementProperty="value"/>
+    <Associate MasterKey="Delete_Right" ElementID="delete_right_txt" ElementProperty="value"/>
+    <Associate MasterKey="QDS_Results" ElementID="langQDSResults" ElementProperty="value"/>
+    <Associate MasterKey="QDS_TimeTaken" ElementID="langQDSTimeTaken" ElementProperty="value"/>
+    <Associate MasterKey="QDS_Seconds" ElementID="langQDSSeconds" ElementProperty="value"/>
+
+    <Associate MasterKey="SearchingDatabase" ElementID="langSearchingDatabase" ElementProperty="value"/>
+    <Associate MasterKey="LoadingResults" ElementID="langLoadingResults" ElementProperty="value"/>
+    <Associate MasterKey="Gallery_moreAreas" ElementID="langmoreAreas" ElementProperty="value"/>
+    <Associate MasterKey="Gallery_moreIndicators" ElementID="langmoreIndicators" ElementProperty="value"/>
+    <Associate MasterKey="Gallery_moreUDKs" ElementID="langmoreUDKs" ElementProperty="value"/>
+    <Associate MasterKey="Gallery_More" ElementID="langGalleryMore" ElementProperty="value"/>
+    <Associate MasterKey="Gallery_ModOn" ElementID="langGalleryModifiedOn" ElementProperty="value"/>
+    <Associate MasterKey="Gallery_Description" ElementID="langGalleryDescription" ElementProperty="value"/>
+    <Associate MasterKey="NoRecordsFound" ElementID="NoRecordsFound" ElementProperty="value"/>
+    <Associate MasterKey="Home_View" ElementID="GalView" ElementProperty="value"/>
+    <Associate MasterKey="Home_Download" ElementID="GalDownload" ElementProperty="value"/>
+    <Associate MasterKey="Home_Share" ElementID="GalShare" ElementProperty="value"/>
+    <Associate MasterKey="Home_Delete" ElementID="GalDelete" ElementProperty="value"/>
+    <Associate MasterKey="MRDFor" ElementID="langMRDFor" ElementProperty="value"/>
+    <Associate MasterKey="DownloadCSVFile" ElementID="langDownloadCSVFile" ElementProperty="value"/>
+    <Associate MasterKey="Gallery_OR" ElementID="langOR" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Gallery_OR" ElementID="langOR1" ElementProperty="innerHTML"/>
+    <Associate MasterKey="Lang_ToolTipShowVideo" ElementID="Lang_ToolTipShowVideo" ElementProperty ="value"/>
+</root>

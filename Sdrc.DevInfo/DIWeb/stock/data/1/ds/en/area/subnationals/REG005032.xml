@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Dehri Rural" nID="2882" aID="REG005032007" isGlobal="F" parentID="REG005032" parentName="Rohtas" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="479" />
+  <area name="Sasaram Rural" nID="2881" aID="REG005032005" isGlobal="F" parentID="REG005032" parentName="Rohtas" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="479" />
+  <area name="Sheosagar" nID="2879" aID="REG005032001" isGlobal="F" parentID="REG005032" parentName="Rohtas" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="479" />
+  <area name="Tilouthu" nID="2880" aID="REG005032004" isGlobal="F" parentID="REG005032" parentName="Rohtas" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="479" />
+</AreaList>

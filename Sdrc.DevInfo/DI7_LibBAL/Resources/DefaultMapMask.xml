@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+
+	<Input1>
+		<ID>MD_AREA_1</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/1/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Dataset Title</Caption>
+		<Caption lang="fr">Dataset Title</Caption>
+		<Caption lang="zh">Dataset Title</Caption>
+		<Caption lang="ar">Dataset Title</Caption>
+		<Caption lang="es">Dataset Title</Caption>
+		<Caption lang="ru">Dataset Title</Caption>
+	</Input1>
+
+	<Input2>
+		<ID>MD_AREA_2</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/2/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Theme Keywords</Caption>
+		<Caption lang="fr">Theme Keywords</Caption>
+		<Caption lang="zh">Theme Keywords</Caption>
+		<Caption lang="ar">Theme Keywords</Caption>
+		<Caption lang="es">Theme Keywords</Caption>
+		<Caption lang="ru">Theme Keywords</Caption>
+	</Input2>
+
+	<Input3>
+		<ID>MD_AREA_3</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/3/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Dataset Topic Category (ISO)</Caption>
+		<Caption lang="fr">Dataset Topic Category (ISO)</Caption>
+		<Caption lang="zh">Dataset Topic Category (ISO)</Caption>
+		<Caption lang="ar">Dataset Topic Category (ISO)</Caption>
+		<Caption lang="es">Dataset Topic Category (ISO)</Caption>
+		<Caption lang="ru">Dataset Topic Category (ISO)</Caption>
+	</Input3>
+
+	<Input4>
+		<ID>MD_AREA_4</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/4/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Geographic Location</Caption>
+		<Caption lang="fr">Geographic Location</Caption>
+		<Caption lang="zh">Geographic Location</Caption>
+		<Caption lang="ar">Geographic Location</Caption>
+		<Caption lang="es">Geographic Location</Caption>
+		<Caption lang="ru">Geographic Location</Caption>
+	</Input4>
+
+	<Input5>
+		<ID>MD_AREA_5</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/5/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Dataset Reference Date</Caption>
+		<Caption lang="fr">Dataset Reference Date</Caption>
+		<Caption lang="zh">Dataset Reference Date</Caption>
+		<Caption lang="ar">Dataset Reference Date</Caption>
+		<Caption lang="es">Dataset Reference Date</Caption>
+		<Caption lang="ru">Dataset Reference Date</Caption>
+	</Input5>
+
+
+	<Input6>
+		<ID>MD_AREA_6</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/6/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Representativity</Caption>
+		<Caption lang="fr">Representativity</Caption>
+		<Caption lang="zh">Representativity</Caption>
+		<Caption lang="ar">Representativity</Caption>
+		<Caption lang="es">Representativity</Caption>
+		<Caption lang="ru">Representativity</Caption>
+	</Input6>
+
+
+	<Input7>
+		<ID>MD_AREA_7</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/7/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Abstract</Caption>
+		<Caption lang="fr">Abstract</Caption>
+		<Caption lang="zh">Abstract</Caption>
+		<Caption lang="ar">Abstract</Caption>
+		<Caption lang="es">Abstract</Caption>
+		<Caption lang="ru">Abstract</Caption>
+	</Input7>
+
+	<Input8>
+		<ID>MD_AREA_8</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/8/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Supplemental Information</Caption>
+		<Caption lang="fr">Supplemental Information</Caption>
+		<Caption lang="zh">Supplemental Information</Caption>
+		<Caption lang="ar">Supplemental Information</Caption>
+		<Caption lang="es">Supplemental Information</Caption>
+		<Caption lang="ru">Supplemental Information</Caption>
+	</Input8>
+
+
+	<Input9>
+		<ID>MD_AREA_9</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/9/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Dataset Edition</Caption>
+		<Caption lang="fr">Dataset Edition</Caption>
+		<Caption lang="zh">Dataset Edition</Caption>
+		<Caption lang="ar">Dataset Edition</Caption>
+		<Caption lang="es">Dataset Edition</Caption>
+		<Caption lang="ru">Dataset Edition</Caption>
+	</Input9>
+
+	<Input10>
+		<ID>MD_AREA_10</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/10/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Data Quality Comments</Caption>
+		<Caption lang="fr">Data Quality Comments</Caption>
+		<Caption lang="zh">Data Quality Comments</Caption>
+		<Caption lang="ar">Data Quality Comments</Caption>
+		<Caption lang="es">Data Quality Comments</Caption>
+		<Caption lang="ru">Data Quality Comments</Caption>
+	</Input10>
+
+	<Input11>
+		<ID>MD_AREA_11</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/11/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Source Map Format</Caption>
+		<Caption lang="fr">Source Map Format</Caption>
+		<Caption lang="zh">Source Map Format</Caption>
+		<Caption lang="ar">Source Map Format</Caption>
+		<Caption lang="es">Source Map Format</Caption>
+		<Caption lang="ru">Source Map Format</Caption>
+	</Input11>
+
+	<Input12>
+		<ID>MD_AREA_12</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/12/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Source Map Name</Caption>
+		<Caption lang="fr">Source Map Name</Caption>
+		<Caption lang="zh">Source Map Name</Caption>
+		<Caption lang="ar">Source Map Name</Caption>
+		<Caption lang="es">Source Map Name</Caption>
+		<Caption lang="ru">Source Map Name</Caption>
+	</Input12>
+
+	<Input13>
+		<ID>MD_AREA_13</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/13/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Distributor</Caption>
+		<Caption lang="fr">Distributor</Caption>
+		<Caption lang="zh">Distributor</Caption>
+		<Caption lang="ar">Distributor</Caption>
+		<Caption lang="es">Distributor</Caption>
+		<Caption lang="ru">Distributor</Caption>
+	</Input13>
+
+	<Input14>
+		<ID>MD_AREA_14</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/14/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Lineage</Caption>
+		<Caption lang="fr">Lineage</Caption>
+		<Caption lang="zh">Lineage</Caption>
+		<Caption lang="ar">Lineage</Caption>
+		<Caption lang="es">Lineage</Caption>
+		<Caption lang="ru">Lineage</Caption>
+	</Input14>
+
+	<Input15>
+		<ID>MD_AREA_15</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/15/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Spatial representation type</Caption>
+		<Caption lang="fr">Spatial representation type</Caption>
+		<Caption lang="zh">Spatial representation type</Caption>
+		<Caption lang="ar">Spatial representation type</Caption>
+		<Caption lang="es">Spatial representation type</Caption>
+		<Caption lang="ru">Spatial representation type</Caption>
+	</Input15>
+
+	<Input16>
+		<ID>MD_AREA_16</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/16/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Geometric object type</Caption>
+		<Caption lang="fr">Geometric object type</Caption>
+		<Caption lang="zh">Geometric object type</Caption>
+		<Caption lang="ar">Geometric object type</Caption>
+		<Caption lang="es">Geometric object type</Caption>
+		<Caption lang="ru">Geometric object type</Caption>
+	</Input16>
+
+	<Input17>
+		<ID>MD_AREA_17</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/17/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Map projection</Caption>
+		<Caption lang="fr">Map projection</Caption>
+		<Caption lang="zh">Map projection</Caption>
+		<Caption lang="ar">Map projection</Caption>
+		<Caption lang="es">Map projection</Caption>
+		<Caption lang="ru">Map projection</Caption>
+	</Input17>
+
+	<Input18>
+		<ID>MD_AREA_18</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/18/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Reference System</Caption>
+		<Caption lang="fr">Reference System</Caption>
+		<Caption lang="zh">Reference System</Caption>
+		<Caption lang="ar">Reference System</Caption>
+		<Caption lang="es">Reference System</Caption>
+		<Caption lang="ru">Reference System</Caption>
+	</Input18>
+
+	<Input19>
+		<ID>MD_AREA_19</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/19/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Geographic Box</Caption>
+		<Caption lang="fr">Geographic Box</Caption>
+		<Caption lang="zh">Geographic Box</Caption>
+		<Caption lang="ar">Geographic Box</Caption>
+		<Caption lang="es">Geographic Box</Caption>
+		<Caption lang="ru">Geographic Box</Caption>
+	</Input19>
+
+	<Input20>
+		<ID>MD_AREA_20</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/20/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Data exchange format</Caption>
+		<Caption lang="fr">Data exchange format</Caption>
+		<Caption lang="zh">Data exchange format</Caption>
+		<Caption lang="ar">Data exchange format</Caption>
+		<Caption lang="es">Data exchange format</Caption>
+		<Caption lang="ru">Data exchange format</Caption>
+	</Input20>
+
+	<Input21>
+		<ID>MD_AREA_21</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/21/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Restrictions</Caption>
+		<Caption lang="fr">Restrictions</Caption>
+		<Caption lang="zh">Restrictions</Caption>
+		<Caption lang="ar">Restrictions</Caption>
+		<Caption lang="es">Restrictions</Caption>
+		<Caption lang="ru">Restrictions</Caption>
+	</Input21>
+
+	<Input22>
+		<ID>MD_AREA_22</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/22/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Acknowledgements</Caption>
+		<Caption lang="fr">Acknowledgements</Caption>
+		<Caption lang="zh">Acknowledgements</Caption>
+		<Caption lang="ar">Acknowledgements</Caption>
+		<Caption lang="es">Acknowledgements</Caption>
+		<Caption lang="ru">Acknowledgements</Caption>
+	</Input22>
+
+	<Input23>
+		<ID>MD_AREA_23</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/23/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Validation Institution</Caption>
+		<Caption lang="fr">Validation Institution</Caption>
+		<Caption lang="zh">Validation Institution</Caption>
+		<Caption lang="ar">Validation Institution</Caption>
+		<Caption lang="es">Validation Institution</Caption>
+		<Caption lang="ru">Validation Institution</Caption>
+	</Input23>
+
+	<Input24>
+		<ID>MD_AREA_24</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/24/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Online Linkage</Caption>
+		<Caption lang="fr">Online Linkage</Caption>
+		<Caption lang="zh">Online Linkage</Caption>
+		<Caption lang="ar">Online Linkage</Caption>
+		<Caption lang="es">Online Linkage</Caption>
+		<Caption lang="ru">Online Linkage</Caption>
+	</Input24>
+
+	<Input25>
+		<ID>MD_AREA_25</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/25/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Dataset Language</Caption>
+		<Caption lang="fr">Dataset Language</Caption>
+		<Caption lang="zh">Dataset Language</Caption>
+		<Caption lang="ar">Dataset Language</Caption>
+		<Caption lang="es">Dataset Language</Caption>
+		<Caption lang="ru">Dataset Language</Caption>
+	</Input25>
+
+	<Input26>
+		<ID>MD_AREA_26</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/26/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Dataset Character Set</Caption>
+		<Caption lang="fr">Dataset Character Set</Caption>
+		<Caption lang="zh">Dataset Character Set</Caption>
+		<Caption lang="ar">Dataset Character Set</Caption>
+		<Caption lang="es">Dataset Character Set</Caption>
+		<Caption lang="ru">Dataset Character Set</Caption>
+	</Input26>
+
+	<Input27>
+		<ID>MD_AREA_27</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/27/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Metadata Provider</Caption>
+		<Caption lang="fr">Metadata Provider</Caption>
+		<Caption lang="zh">Metadata Provider</Caption>
+		<Caption lang="ar">Metadata Provider</Caption>
+		<Caption lang="es">Metadata Provider</Caption>
+		<Caption lang="ru">Metadata Provider</Caption>
+	</Input27>
+
+	<Input28>
+		<ID>MD_AREA_28</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/28/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Metadata Contact</Caption>
+		<Caption lang="fr">Metadata Contact</Caption>
+		<Caption lang="zh">Metadata Contact</Caption>
+		<Caption lang="ar">Metadata Contact</Caption>
+		<Caption lang="es">Metadata Contact</Caption>
+		<Caption lang="ru">Metadata Contact</Caption>
+	</Input28>
+
+	<Input29>
+		<ID>MD_AREA_29</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/29/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Metadata Date</Caption>
+		<Caption lang="fr">Metadata Date</Caption>
+		<Caption lang="zh">Metadata Date</Caption>
+		<Caption lang="ar">Metadata Date</Caption>
+		<Caption lang="es">Metadata Date</Caption>
+		<Caption lang="ru">Metadata Date</Caption>
+	</Input29>
+
+	<Input30>
+		<ID>MD_AREA_30</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/30/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Metadata Language</Caption>
+		<Caption lang="fr">Metadata Language</Caption>
+		<Caption lang="zh">Metadata Language</Caption>
+		<Caption lang="ar">Metadata Language</Caption>
+		<Caption lang="es">Metadata Language</Caption>
+		<Caption lang="ru">Metadata Language</Caption>
+	</Input30>
+
+	<Input31>
+		<ID>MD_AREA_31</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/31/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Metadata Character Set</Caption>
+		<Caption lang="fr">Metadata Character Set</Caption>
+		<Caption lang="zh">Metadata Character Set</Caption>
+		<Caption lang="ar">Metadata Character Set</Caption>
+		<Caption lang="es">Metadata Character Set</Caption>
+		<Caption lang="ru">Metadata Character Set</Caption>
+	</Input31>
+
+	<Input32>
+		<ID>MD_AREA_32</ID>
+		<Path>Indicator_Info/Row1/FLD_VAL/RowData/temp1</Path>
+		<Position>1/32/1/n/1</Position>
+		<Type>Element</Type>
+		<Caption lang="en">Metadata Standard</Caption>
+		<Caption lang="fr">Metadata Standard</Caption>
+		<Caption lang="zh">Metadata Standard</Caption>
+		<Caption lang="ar">Metadata Standard</Caption>
+		<Caption lang="es">Metadata Standard</Caption>
+		<Caption lang="ru">Metadata Standard</Caption>
+	</Input32>
+</root>

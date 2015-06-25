@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Cachar" nID="3064" aID="RVS_001" isGlobal="F" parentID="REG002" parentName="RVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="567" />
+  <area name="Dibrugarh" nID="3065" aID="RVS_002" isGlobal="F" parentID="REG002" parentName="RVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="569" />
+  <area name="Goalpara" nID="3066" aID="RVS_003" isGlobal="F" parentID="REG002" parentName="RVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="570" />
+  <area name="Sonitpur" nID="3067" aID="RVS_004" isGlobal="F" parentID="REG002" parentName="RVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="571" />
+</AreaList>

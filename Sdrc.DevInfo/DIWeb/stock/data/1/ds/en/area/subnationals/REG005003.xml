@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Piprarhi" nID="2842" aID="REG005003001" isGlobal="F" parentID="REG005003" parentName="Sheohar" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="448" />
+  <area name="Purnahiya" nID="2844" aID="REG005003003" isGlobal="F" parentID="REG005003" parentName="Sheohar" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="448" />
+  <area name="Sheohar" nID="2843" aID="REG005003002" isGlobal="F" parentID="REG005003" parentName="Sheohar" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="448" />
+</AreaList>

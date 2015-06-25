@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Araria" nID="2743" aID="REG005007" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="529" />
+  <area name="Arwal" nID="2768" aID="REG005038" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="564" />
+  <area name="Aurangaabad" nID="2767" aID="REG005033" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="556" />
+  <area name="Banka" nID="2750" aID="REG005023" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="546" />
+  <area name="Begusarai" nID="2770" aID="REG005020" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="543" />
+  <area name="Bhagalpur" nID="2749" aID="REG005022" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="545" />
+  <area name="Bhojpur" nID="2775" aID="REG005029" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="552" />
+  <area name="Buxar" nID="2776" aID="REG005030" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="553" />
+  <area name="Champaran East" nID="2761" aID="REG005002" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="487" />
+  <area name="Champaran West" nID="2760" aID="REG005001" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="486" />
+  <area name="Darbhanga" nID="2755" aID="REG005013" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="536" />
+  <area name="Gaya" nID="2777" aID="REG005034" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="557" />
+  <area name="Gopalganj" nID="2762" aID="REG005015" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="538" />
+  <area name="Jamui" nID="2753" aID="REG005036" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="559" />
+  <area name="Jehanabad" nID="2779" aID="REG005037" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="565" />
+  <area name="Kaimur" nID="2765" aID="REG005031" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="554" />
+  <area name="Katihar" nID="2746" aID="REG005010" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="532" />
+  <area name="Khagaria" nID="2771" aID="REG005021" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="544" />
+  <area name="Kishanganj" nID="2744" aID="REG005008" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="530" />
+  <area name="Lakhisarai" nID="2752" aID="REG005025" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="548" />
+  <area name="Madhepura" nID="2747" aID="REG005011" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="533" />
+  <area name="Madhubani" nID="2754" aID="REG005005" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="515" />
+  <area name="Munger" nID="2751" aID="REG005024" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="547" />
+  <area name="Muzaffarpur" nID="2759" aID="REG005014" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="537" />
+  <area name="Nalanda" nID="2773" aID="REG005027" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="550" />
+  <area name="Nawada" nID="2778" aID="REG005035" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="558" />
+  <area name="Patna" nID="2774" aID="REG005028" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="551" />
+  <area name="Purnia" nID="2745" aID="REG005009" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="531" />
+  <area name="Rohtas" nID="2766" aID="REG005032" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="555" />
+  <area name="Saharsa" nID="2748" aID="REG005012" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="535" />
+  <area name="Samastipur" nID="2756" aID="REG005019" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="542" />
+  <area name="Saran" nID="2764" aID="REG005017" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="540" />
+  <area name="Sheikhpura" nID="2772" aID="REG005026" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="549" />
+  <area name="Sheohar" nID="2757" aID="REG005003" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="488" />
+  <area name="Sitamarhi" nID="2758" aID="REG005004" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="489" />
+  <area name="Siwan" nID="2763" aID="REG005016" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="539" />
+  <area name="Supaul" nID="2742" aID="REG005006" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="528" />
+  <area name="Vaishali" nID="2769" aID="REG005018" isGlobal="F" parentID="REG005" parentName="Districts" lvl="3" dataexists="T" subNational="T" isblock="F" lnid="541" />
+</AreaList>

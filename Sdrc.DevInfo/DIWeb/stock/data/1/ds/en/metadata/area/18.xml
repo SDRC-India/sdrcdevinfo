@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<message:GenericMetadata xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:query="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/query" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:structurespecific="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:registry="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message">
+  <message:Header>
+    <message:ID>Header_Id</message:ID>
+    <message:Test>true</message:Test>
+    <message:Prepared>2015-04-13T04:45:49+05:30</message:Prepared>
+    <message:Sender id="Sender_Id">
+      <common:Name xml:lang="en">Sender_Name</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en">Sender</common:Name>
+        <message:Department xml:lang="en">Sender_Department</message:Department>
+        <message:Role xml:lang="en">Sender_Role</message:Role>
+        <message:Telephone>Sender_Telephone</message:Telephone>
+        <message:Email>Sender_Email</message:Email>
+        <message:Fax>Sender_Fax</message:Fax>
+      </message:Contact>
+    </message:Sender>
+    <message:Receiver id="Receiver_Id">
+      <common:Name xml:lang="en">Receiver_Name</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en">Receiver</common:Name>
+        <message:Department xml:lang="en">Receiver_Department</message:Department>
+        <message:Role xml:lang="en">Receiver_Role</message:Role>
+        <message:Telephone>Receiver_Telephone</message:Telephone>
+        <message:Email>Receiver_Email</message:Email>
+        <message:Fax>Receiver_Fax</message:Fax>
+      </message:Contact>
+    </message:Receiver>
+    <message:Structure structureID="MSD_Area_DevInfo">
+      <common:Structure xsi:type="common:MetadataStructureReferenceType">
+        <Ref xsi:type="common:MetadataStructureRefType" agencyID="MDAgency" id="MSD_Area_DevInfo" version="7.0" local="false" class="MetadataStructure" package="metadatastructure" />
+      </common:Structure>
+    </message:Structure>
+  </message:Header>
+  <message:MetadataSet structureRef="MSD_Area_DevInfo">
+    <Report id="RS_Area" xmlns="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic">
+      <Target id="Target_Area">
+        <ReferenceValue id="IO_Target_Area">
+          <ObjectReference>
+            <Ref xsi:type="common:ObjectRefType" agencyID="MDAgency" maintainableParentID="CL_AREA" maintainableParentVersion="7.0" id="18" class="Code" package="codelist" xmlns="" />
+          </ObjectReference>
+        </ReferenceValue>
+      </Target>
+      <AttributeSet>
+        <ReportedAttribute id="DATASET_TITLE_10" name="Dataset Title" />
+        <ReportedAttribute id="THEME_KEYWORDS_11" name="Theme Keywords" />
+        <ReportedAttribute id="DATASET_TOPIC_CATEGORY__ISO__12" name="Dataset Topic Category (ISO)" />
+        <ReportedAttribute id="GEOGRAPHIC_LOCATION_13" name="Geographic Location" />
+        <ReportedAttribute id="DATASET_REFERENCE_DATE_14" name="Dataset Reference Date" />
+        <ReportedAttribute id="REPRESENTATIVITY_15" name="Representativity" />
+        <ReportedAttribute id="ABSTRACT_16" name="Abstract" />
+        <ReportedAttribute id="SUPPLEMENTAL_INFORMATION_17" name="Supplemental Information" />
+        <ReportedAttribute id="DATASET_EDITION_18" name="Dataset Edition" />
+        <ReportedAttribute id="DATA_QUALITY_COMMENTS_19" name="Data Quality Comments" />
+        <ReportedAttribute id="SOURCE_MAP_FORMAT_20" name="Source Map Format" />
+        <ReportedAttribute id="SOURCE_MAP_NAME_21" name="Source Map Name" />
+        <ReportedAttribute id="DISTRIBUTOR_22" name="Distributor" />
+        <ReportedAttribute id="LINEAGE_23" name="Lineage" />
+        <ReportedAttribute id="SPATIAL_REPRESENTATION_TYPE_24" name="Spatial representation type" />
+        <ReportedAttribute id="GEOMETRIC_OBJECT_TYPE_25" name="Geometric object type" />
+        <ReportedAttribute id="MAP_PROJECTION_26" name="Map projection" />
+        <ReportedAttribute id="REFERENCE_SYSTEM_27" name="Reference System" />
+        <ReportedAttribute id="GEOGRAPHIC_BOX_28" name="Geographic Box" />
+        <ReportedAttribute id="DATA_EXCHANGE_FORMAT_29" name="Data exchange format" />
+        <ReportedAttribute id="RESTRICTIONS_30" name="Restrictions" />
+        <ReportedAttribute id="ACKNOWLEDGEMENTS_31" name="Acknowledgements" />
+        <ReportedAttribute id="VALIDATION_INSTITUTION_32" name="Validation Institution" />
+        <ReportedAttribute id="ONLINE_LINKAGE_33" name="Online Linkage" />
+        <ReportedAttribute id="DATASET_LANGUAGE_34" name="Dataset Language" />
+        <ReportedAttribute id="DATASET_CHARACTER_SET_35" name="Dataset Character Set" />
+        <ReportedAttribute id="METADATA_PROVIDER_36" name="Metadata Provider" />
+        <ReportedAttribute id="METADATA_CONTACT_37" name="Metadata Contact" />
+        <ReportedAttribute id="METADATA_DATE_38" name="Metadata Date" />
+        <ReportedAttribute id="METADATA_LANGUAGE_39" name="Metadata Language" />
+        <ReportedAttribute id="METADATA_CHARACTER_SET_40" name="Metadata Character Set" />
+        <ReportedAttribute id="METADATA_STANDARD_41" name="Metadata Standard" />
+      </AttributeSet>
+    </Report>
+  </message:MetadataSet>
+</message:GenericMetadata>

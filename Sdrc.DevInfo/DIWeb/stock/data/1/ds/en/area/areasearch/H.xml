@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Dima Hasao" id="IND018016" l="3" nid="3016" pnid="2998" dataexists="T" isblock="F" lnid="586" />
+  <a n="Hailakandi" id="IND018019" l="3" nid="3019" pnid="2998" dataexists="T" isblock="F" lnid="589" />
+  <a n="Harangajao MPHC" id="IND018016001" l="3" nid="3046" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Hassak" id="IND018010002" l="3" nid="3055" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Hatinamati SD" id="IND018024001" l="3" nid="3050" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Health Facility" id="REG004" l="2" nid="2999" pnid="2995" dataexists="T" isblock="F" lnid="0" />
+  <a n="Health Facility - Level 3" id="QS_REG004_L3" l="3" nid="QS_REG004_L3" pnid="2999" dataexists="F" isblock="F" lnid="0" />
+</AreaList>

@@ -1,0 +1,34 @@
+/* Home Video Panel ...starts
+.hm_vid_pnl_contnr{ right:-12px !important }
+:root .hm_vid_pnl_contnr{ width:98% \0/IE9;}
+.hm_vid_pnl{ left:0; right:0; }
+:root .hm_vid_pnl{ left:0; right:-27px \0/IE9; }
+/* Home Video Panel ...ends*/
+
+
+/* From home_slider.css ...starts
+#slider { right: 7px !important }
+:root #slider{ right: -28px \0/IE9 !important; width:98% \0/IE9; }
+
+.li_img_pos{ position:relative; left:15px; padding-left: 0; *padding-left:0 !important; *left:20px; padding-left: 0\9; }
+:root .li_img_pos{ padding-left:0 \0/IE9; left:-7px \0/IE9; }
+.win.gecko .li_img_pos{ padding-left:0; }
+
+
+div.anythingSlider .anythingControls ul{ *position:relative; *right:85% !important }
+
+:root .anythingBase .panel{ margin:0 0 0 5px\0/IE9 } /* rtl SPECIFIC */
+
+/* From home_slider.css ...ends*/
+
+/* Home Slider Expand/Collapse ...starts *
+:root #hm_main_exp_colp{ right:-8% \0/IE9; }
+/* Home Slider Expand/Collapse ...ends */
+
+
+
+/* From home_slider.css ...starts*/
+.li_img_pos{margin-right: -0.3%; margin-right: -0.3%\9; *margin-right: -2.0%;}
+:root .li_img_pos{ left: -0.8% \0/IE9 }
+.win.gecko .li_img_pos{ margin-right: -0.3% }
+/* From home_slider.css ...ends*/

@@ -1,0 +1,19 @@
+/* Home Video Panel ...starts
+.hm_vid_pnl_contnr{ right:20px }
+.hm_vid_pnl{ left:7px; }
+/* Home Video Panel ...ends*/
+
+/* From home_slider.css ...starts
+#slider { width:96% }
+.li_img_pos{ padding-left: 15px; *padding-left: 20px !important; padding-left: 15px\9; }
+:root .li_img_pos{ padding-left:15px \0/IE9 }
+.win.gecko .li_img_pos{ padding-left: 15px; }
+/* From home_slider.css ...ends*/
+
+
+/* From home_slider.css ...starts*/
+/*.li_img_pos{ padding-left: 2.5%\9; }
+:root .li_img_pos{ padding-left: 2% \0/IE9; }*/
+.li_img_pos{ padding-left: 0.5%\9; }
+:root .li_img_pos{ padding-left: 0.5% \0/IE9; }
+/* From home_slider.css ...ends*/

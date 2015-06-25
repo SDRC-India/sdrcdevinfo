@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Barari" nID="2803" aID="REG005010002" isGlobal="F" parentID="REG005010" parentName="Katihar" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="455" />
+  <area name="Hasanganj" nID="2802" aID="REG005010001" isGlobal="F" parentID="REG005010" parentName="Katihar" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="455" />
+  <area name="Korha" nID="2804" aID="REG005010003" isGlobal="F" parentID="REG005010" parentName="Katihar" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="455" />
+</AreaList>

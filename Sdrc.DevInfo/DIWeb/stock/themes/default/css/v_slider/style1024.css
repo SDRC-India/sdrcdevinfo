@@ -1,0 +1,14 @@
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Webkit-specific CSS here */
+    
+    /* Home Video Panel ...starts*
+    .hm_vid_pnl_contnr{ right:0 }
+    .hm_vid_pnl{ left: 34px; }
+    /* Home Video Panel ...ends*
+    
+    /* From home_slider.css ...starts*
+    #slider { width:90% }
+    .li_img_pos{ padding-left: 2px; }
+    /* From home_slider.css ...ends*/    
+
+}

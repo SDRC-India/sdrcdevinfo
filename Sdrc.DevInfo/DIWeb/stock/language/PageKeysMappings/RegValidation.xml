@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="Validate_Page_Title" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Validate_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Validate_SDF" ElementID="lang_Validate_SDF" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_SDF" ElementID="lang_Select_SDF" ElementProperty="innerHTML" />
+  <Associate MasterKey="ValidateSDMXML" ElementID="btnValidateSDMXML" ElementProperty="value" />
+  <Associate MasterKey="Validate_YDSDA" ElementID="lang_Validate_YDSDA" ElementProperty="innerHTML" />
+  <Associate MasterKey="DSD" ElementID="lang_DSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectDSD" ElementID="lang_SelectDSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Validate_DSD" ElementID="btnValidateDSD" ElementProperty="value" />
+  <Associate MasterKey="Error_Details" ElementID="lang_Error_Details" ElementProperty="innerHTML" />
+  <Associate MasterKey="Validate_MR" ElementID="lang_Validate_MR" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_MR" ElementID="lang_Select_MR" ElementProperty="innerHTML" />
+  <Associate MasterKey="ValidateMetadataReportFile" ElementID="btnValidateMetadataReportFile" ElementProperty="value" />
+  
+  <Associate MasterKey="lang_Error_Occurred" ElementID="hErrorOccurred" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Validate_SDMXML" ElementID="hMsgValidateSDMXML" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Validate_DSD" ElementID="hMsgValidateDSD" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Validate_Metadata" ElementID="hMsgValidateMetadata" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_SDMXML_Validation_Scenarios" ElementID="hMsgSDMXMLValidationScenarios" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_SDMXML_Validation_Status" ElementID="hMsgSDMXMLValidationStatus" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_DSD_Validation_Scenarios" ElementID="hMsgDSDValidationScenarios" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_DSD_Validation_Status" ElementID="hMsgDSDValidationStatus" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Metadata_Report_Validation_Scenarios" ElementID="hMsgMetadataReportValidationScenarios" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Metadata_Report_Validation_Status" ElementID="hMsgMetadataReportValidationStatus" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Error_Details_Not_Found" ElementID="hMsgErrorDetailsNotFound" ElementProperty="value" />
+
+</root>

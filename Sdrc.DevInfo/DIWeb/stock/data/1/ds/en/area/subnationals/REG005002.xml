@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Chiraiya" nID="2857" aID="REG005002003" isGlobal="F" parentID="REG005002" parentName="Champaran East" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="447" />
+  <area name="Dhaka" nID="2856" aID="REG005002002" isGlobal="F" parentID="REG005002" parentName="Champaran East" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="447" />
+  <area name="Mehshi" nID="2859" aID="REG005002013" isGlobal="F" parentID="REG005002" parentName="Champaran East" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="447" />
+  <area name="Motihari Sadar" nID="2860" aID="REG005002014" isGlobal="F" parentID="REG005002" parentName="Champaran East" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="447" />
+  <area name="Paharpur" nID="2858" aID="REG005002004" isGlobal="F" parentID="REG005002" parentName="Champaran East" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="447" />
+</AreaList>

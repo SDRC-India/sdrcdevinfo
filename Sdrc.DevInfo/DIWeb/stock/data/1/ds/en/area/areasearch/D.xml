@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Daboka BPHC" id="IND018006002" l="3" nid="3037" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Darrang" id="IND018026" l="3" nid="3026" pnid="2998" dataexists="T" isblock="F" lnid="596" />
+  <a n="Dekapam MPHC" id="IND018009001" l="3" nid="3058" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Dentaghat CHC" id="IND018015002" l="3" nid="3063" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Deomornai CHC" id="IND018026002" l="3" nid="3053" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Dharmasala " id="IND018002002" l="3" nid="3041" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Dhekiajuli BPHC" id="IND018007001" l="3" nid="3077" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Dhemaji" id="IND018009" l="3" nid="3009" pnid="2998" dataexists="T" isblock="F" lnid="580" />
+  <a n="Dhubri" id="IND018002" l="3" nid="3002" pnid="2998" dataexists="T" isblock="F" lnid="573" />
+  <a n="Dibrugarh" id="IND018011" l="3" nid="3011" pnid="2998" dataexists="T" isblock="F" lnid="581" />
+  <a n="Dibrugarh" id="RVS_002" l="3" nid="3065" pnid="2997" dataexists="T" isblock="F" lnid="569" />
+  <a n="Dima Hasao" id="IND018016" l="3" nid="3016" pnid="2998" dataexists="T" isblock="F" lnid="586" />
+  <a n="DVS" id="REG003" l="2" nid="2998" pnid="2995" dataexists="T" isblock="F" lnid="0" />
+  <a n="DVS - Level 3" id="QS_REG003_L3" l="3" nid="QS_REG003_L3" pnid="2998" dataexists="F" isblock="F" lnid="0" />
+</AreaList>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="DatabaseSettings" ElementID="lang_pd_DatabaseSettings" ElementProperty="innerHTML" />
+  <Associate MasterKey="AddMod_DCDH" ElementID="lang_pd_AddMod_DCDH" ElementProperty="innerHTML" />  
+  <Associate MasterKey="ProviderDetails" ElementID="langProviderDetails" ElementProperty="innerHTML" />
+  <Associate MasterKey="UserId" ElementID="langUserId" ElementProperty="innerHTML" />
+  <Associate MasterKey="Name" ElementID="langName" ElementProperty="innerHTML" />
+  <Associate MasterKey="Description" ElementID="langDescription" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Department" ElementID="langDepartment" ElementProperty="innerHTML" />
+  <Associate MasterKey="Email" ElementID="langEmail" ElementProperty="innerHTML" />
+  <Associate MasterKey="Role" ElementID="langRole" ElementProperty="innerHTML" />
+  <Associate MasterKey="Fax" ElementID="langFax" ElementProperty="innerHTML" />
+  <Associate MasterKey="Telephone" ElementID="langTelephone" ElementProperty="innerHTML" />
+  <Associate MasterKey="Save" ElementID="lang_pd_Save" ElementProperty="value" />
+  <Associate MasterKey="Back" ElementID="btnlang_pd_Back" ElementProperty="value" />
+  <Associate MasterKey="Next" ElementID="btnOptDb_pd_Next" ElementProperty="value" />
+</root>

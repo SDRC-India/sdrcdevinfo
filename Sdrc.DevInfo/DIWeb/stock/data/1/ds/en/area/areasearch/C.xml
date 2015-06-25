@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Bezera CHC" id="IND018022001" l="3" nid="3032" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Cachar" id="IND018017" l="3" nid="3017" pnid="2998" dataexists="T" isblock="F" lnid="587" />
+  <a n="Cachar" id="RVS_001" l="3" nid="3064" pnid="2997" dataexists="T" isblock="F" lnid="567" />
+  <a n="Chamuapara MPHC" id="IND018026001" l="3" nid="3052" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Charingia" id="IND018014001" l="3" nid="3060" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Chirang" id="IND018021" l="3" nid="3021" pnid="2998" dataexists="T" isblock="F" lnid="591" />
+  <a n="Dentaghat CHC" id="IND018015002" l="3" nid="3063" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Deomornai CHC" id="IND018026002" l="3" nid="3053" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kalain CHC" id="IND018017002" l="3" nid="3080" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="North Lakhimpur CH" id="IND018008001" l="3" nid="3056" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+</AreaList>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<iul>
+  <iu in="C0 : Overall score" inid="18" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E0 : Overall score" inid="17" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E3 : Storage Capacity" inid="3" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E6 : Stock management" inid="6" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E9 : MIS, supportive functions" inid="9" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="Category Scores" inid="3" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Category Scores" inid="6" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Category Scores" inid="9" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Category Scores" inid="12" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Criteria Scores" inid="2" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Criteria Scores" inid="5" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Criteria Scores" inid="8" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="Criteria Scores" inid="11" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+  <iu in="SVS" inid="1" iisG="F" md="" un="" unid="" uisG="" defsgn="" defsgnid="" defsgisG="" dataexists="T" t="IC_SC" />
+</iul>

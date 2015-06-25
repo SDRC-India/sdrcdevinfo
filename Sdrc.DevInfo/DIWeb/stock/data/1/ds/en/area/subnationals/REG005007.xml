@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Araria Rural" nID="2786" aID="REG005007005" isGlobal="F" parentID="REG005007" parentName="Araria" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="452" />
+  <area name="Bhargama" nID="2783" aID="REG005007002" isGlobal="F" parentID="REG005007" parentName="Araria" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="452" />
+  <area name="Jokihat" nID="2785" aID="REG005007004" isGlobal="F" parentID="REG005007" parentName="Araria" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="452" />
+  <area name="Raniganj" nID="2784" aID="REG005007003" isGlobal="F" parentID="REG005007" parentName="Araria" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="452" />
+</AreaList>

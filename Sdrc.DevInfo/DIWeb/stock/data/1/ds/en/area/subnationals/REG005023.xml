@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Amarpur" nID="2819" aID="REG005023003" isGlobal="F" parentID="REG005023" parentName="Banka" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="470" />
+  <area name="Rajaun" nID="2817" aID="REG005023001" isGlobal="F" parentID="REG005023" parentName="Banka" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="470" />
+  <area name="Shambhuganj" nID="2818" aID="REG005023002" isGlobal="F" parentID="REG005023" parentName="Banka" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="470" />
+</AreaList>

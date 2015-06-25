@@ -1,0 +1,260 @@
+﻿/* Header Area ...starts*/
+#header
+{
+    width: 90%;
+    padding: 0;
+    margin: 0 auto;
+}
+.header
+{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto /********* 	*margin-bottom:0; 	********* */;
+}
+
+.headerlink1_adm
+{
+    color: #5c86ad; /*text-align:right;  rtl-o */
+    float: right; /* rtl-o */ /*width:80px;  rtl-o */
+    padding-top: 4px;
+}
+
+.content_containers
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navls_top_pg
+{
+    /*padding-top:9px*/
+    padding-top: 10px;
+}
+.inner_content_container
+{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+#rgt_sec_adm
+{
+    /*font-family:"ColaborateLight", "Trebuchet MS";  rtl-o */ /*width:77.2%; 		min-width:697px; */
+    width: 77%;
+    min-width: 696px;
+    margin: 35px 0 0 10px; /* rtl-o */
+    float: left /* rtl-o */;
+}
+#rgt_sec_adm h1
+{
+    /*font-size:19px;*/
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 0 23px; /* rtl-o */ /* *line-height:17px; IE7 only */
+}
+
+
+.adm_db_flt_lft
+{
+    float: left; /* rtl-o */
+    padding-left: 43px; /* rtl-o */
+}
+
+
+.adm_o_db_subtxt
+{
+    padding: 2px 0 0 77px; /* rtl-o */
+}
+
+
+.main_logo
+{
+    float: left; /* rtl-o */
+    width: 240px;
+    position: relative /* Added to keep logo top of wisp */ /*background:url(../images/home-sprite.png) no-repeat 1px 15px*/;
+}
+.clear
+{
+    clear: both;
+}
+
+.MainContent
+{
+    background: url(../images/bg_gradient.jpg) repeat-x;
+    margin-top: -14px;
+}
+/* Moz & IE too */
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: -100;
+    background: url(../images/bg_gradient.jpg) repeat-x 0px 75px;
+    color: #404141;
+}
+/* Left Sec Admin ...starts*/
+#lft_sec_adm
+{
+    /*width:19.3%; 		font-family:"ColaborateLight", "Trebuchet MS";*/
+    width: 169px;
+    padding-left: 6px; /* rtl-o */
+    margin-right: 20px; /* rtl-o */
+    border-right: 1px solid #dadada; /* rtl-o */
+    float: left /* rtl-o */;
+}
+#lft_sec_adm ul
+{
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+#lft_sec_adm ul li
+{
+    border-bottom: 1px solid #dadada;
+    position: relative;
+    height: 16px; /* IE7 too */
+    margin: 0;
+    padding: 6px 0 6px 17px;
+}
+#lft_sec_adm ul li a
+{
+    position: absolute;
+    top: 0; /* IE7 too */
+    left: 0; /* rtl-o */
+    width: 185px;
+    height: 30px;
+    font-size: 14px; /* rtl-o */
+    color: #656565;
+    padding: 6px 0 6px 17px /* rtl-o */;
+}
+#lft_sec_adm ul li a.adm_lft_nav_seld
+{
+    background: url(../images/adm_lft_nav_arrw.png) no-repeat; /* rtl-o */
+    color: #8f8f91;
+    text-decoration: none;
+}
+#lft_sec_adm ul li a:hover
+{
+    background: url(../images/adm_lft_nav_arrw.png) no-repeat; /* rtl-o */
+    text-decoration: none;
+    color: #8f8f91;
+    cursor: pointer;
+}
+
+
+/* Start Masking  and loader css */
+#MaskedDiv
+{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    z-index: 100;
+    background-image: url('../images/mask.png'); /* ieWin only stuff */
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/mask.png');
+}
+
+#rgt_sec_adm h4 {
+    border-bottom: 2px dotted #C7C7C7;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    padding: 12px 0 5px 23px;
+}
+
+#rgt_sec_adm h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0 0 43px;
+}
+
+.adm_o_db_txt, .adm_o_db_subtxt, .adm_o_db_sub_subtxt {
+    clear: right;
+    font-size: 12px;
+    margin-bottom: 7px;
+    padding: 2px 0 0 63px;
+}
+
+
+.adm_upd_bttn {
+    float: left;
+    margin-left: 200px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+    width: 400px;
+}
+
+.di_gui_button {
+    background: url("../images/submit_but_bg.gif") repeat-x scroll center bottom transparent;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    color: #666666;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 9pt;
+    font-weight: bold;
+    margin-left: 5px;
+    min-width: 100px;
+    overflow: visible;
+    padding: 4px 7px;
+    width: auto !important;
+}
+
+.confg_Adm_box {
+    padding: 19px 10px 10px;
+}
+
+.pddn_tp_fftn {
+    padding-top: 15px !important;
+}
+h1 {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+ .win.gecko .MainContent{ margin-top:-18px }
+    .win.gecko .MainContent_glbl{ padding-top:0 !important }
+    .win.gecko #MainContent{ padding-top:17px }
+    
+    
+.headerlink1_adm ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.headerlink1_adm li {
+    display: inline;
+    float: left;
+    padding-left: 5px;
+}
+
+
+.headerlink1_adm li a {
+    color: #5C86AD;
+    font-size: 10px;
+    text-decoration: none;
+}
+a {
+    color: #5C86AD;
+    font-size: 12px;
+    font-weight: normal;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.PatchInsl_loglnk{ position: relative; float: right;font-size: 10px;padding-right: 30px;top: -21px;}

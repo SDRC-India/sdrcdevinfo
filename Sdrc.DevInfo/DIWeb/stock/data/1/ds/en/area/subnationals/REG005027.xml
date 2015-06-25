@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Chandi" nID="2907" aID="REG005027002" isGlobal="F" parentID="REG005027" parentName="Nalanda" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="474" />
+  <area name="Ekangarsarai" nID="2909" aID="REG005027004" isGlobal="F" parentID="REG005027" parentName="Nalanda" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="474" />
+  <area name="Noorsarai" nID="2908" aID="REG005027003" isGlobal="F" parentID="REG005027" parentName="Nalanda" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="474" />
+  <area name="Rahui" nID="2906" aID="REG005027001" isGlobal="F" parentID="REG005027" parentName="Nalanda" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="474" />
+</AreaList>

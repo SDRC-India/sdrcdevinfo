@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  
+  <Associate MasterKey="StructuralMetadata_D" ElementID="aStructuralMetadata" ElementProperty="innerHTML" />
+  <Associate MasterKey="StructuralMetadata_M" ElementID="aStructuralMetadataMetadata" ElementProperty="innerHTML" />
+  <Associate MasterKey="Subscription" ElementID="aSubscription" ElementProperty="innerHTML" />
+  <Associate MasterKey="PublishData" ElementID="aPublishData" ElementProperty="innerHTML" />
+  <Associate MasterKey="Provisioning_Metadata" ElementID="aProviders" ElementProperty="innerHTML" />
+  <Associate MasterKey="Validate" ElementID="aValidate" ElementProperty="innerHTML" />
+  <Associate MasterKey="Compare" ElementID="aCompare" ElementProperty="innerHTML" />
+  <Associate MasterKey="Discover" ElementID="aDiscover" ElementProperty="innerHTML" />
+  <Associate MasterKey="WebServices" ElementID="aWSDemo" ElementProperty="innerHTML" />
+  <Associate MasterKey="Mapping" ElementID="aMapping" ElementProperty="innerHTML" />
+  <Associate MasterKey="MaintenanceAgency" ElementID="aMaintenanceAgency" ElementProperty="innerHTML" />
+  <Associate MasterKey="DataProvider" ElementID="aDataProvider" ElementProperty="innerHTML" />
+  <Associate MasterKey="Content_UTHAODPTU" ElementID="lang_Content_UTHAODPTU" ElementProperty="innerHTML" />
+  <Associate MasterKey="Request_exclmtn" ElementID="aNotaProvider" ElementProperty="innerHTML" />
+  <Associate MasterKey="WDP_credentials" ElementID="lang_WDP_credentials" ElementProperty="innerHTML" />
+  <Associate MasterKey="Content_UTHALU" ElementID="lang_Content_UTHALU" ElementProperty="innerHTML" />
+  <Associate MasterKey="Login_exclmtn" ElementID="aNotLoggedIn" ElementProperty="innerHTML" />
+  <Associate MasterKey="Registry" ElementID="cphMainContent_spanRegistry" ElementProperty="innerHTML" />
+  <Associate MasterKey="DSDInUse" ElementID="cphMainContent_spanDSDInUse" ElementProperty="innerHTML" />
+  <Associate MasterKey="DSDInUse_Sub_Heading" ElementID="cphMainContent_iDSDInUse" ElementProperty="innerHTML" />
+  <Associate MasterKey="Content_UTHAOAU" ElementID="lang_Content_UTHAOAU" ElementProperty="innerHTML" />
+  <Associate MasterKey="Login_exclmtn" ElementID="aNotanAdmin" ElementProperty="innerHTML" />
+  <Associate MasterKey="WA_credentials" ElementID="lang_WA_credentials" ElementProperty="innerHTML" />
+  <Associate MasterKey="Discover_Registrations_Page_Title" ElementID="aDiscoverRegistrations" ElementProperty="innerHTML" />
+  <Associate MasterKey="StructuralMetadata_DM" ElementID="aStructure" ElementProperty="innerHTML" />
+  <Associate MasterKey="Tools" ElementID="aTools" ElementProperty="innerHTML" />
+  <Associate MasterKey="DBManagement" ElementID="aDatabaseManagement" ElementProperty="innerHTML" />
+  <Associate MasterKey="Upload" ElementID="aUpload" ElementProperty="innerHTML" />
+  <Associate MasterKey="RegData_Page_Title" ElementID="aData" ElementProperty="innerHTML" />
+ </root>

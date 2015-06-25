@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Ahatguri SHC" nID="3028" aID="IND018005001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Ambagan SHC" nID="3036" aID="IND018006001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Barbang MPHC" nID="3048" aID="IND018004001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Bezera CHC" nID="3032" aID="IND018022001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Bhogamukh BPHC" nID="3074" aID="IND018013001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Bijan SD" nID="3068" aID="IND018021001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Bikali MPHC" nID="3076" aID="IND018003001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Bilasipara SHC" nID="3040" aID="IND018002001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Bongaigaon PHC" nID="3071" aID="IND018020002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Chamuapara MPHC" nID="3052" aID="IND018026001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Charingia" nID="3060" aID="IND018014001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Daboka BPHC" nID="3037" aID="IND018006002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Dekapam MPHC" nID="3058" aID="IND018009001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Dentaghat CHC" nID="3063" aID="IND018015002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Deomornai CHC" nID="3053" aID="IND018026002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Dharmasala " nID="3041" aID="IND018002002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Dhekiajuli BPHC" nID="3077" aID="IND018007001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Fulbari MPHC" nID="3078" aID="IND018017001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Gandhibari " nID="3034" aID="IND018025001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Garubhasa SD" nID="3069" aID="IND018021002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Gunjung BPHC" nID="3047" aID="IND018016002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Harangajao MPHC" nID="3046" aID="IND018016001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Hassak" nID="3055" aID="IND018010002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Hatinamati SD" nID="3050" aID="IND018024001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Jonai BPHC" nID="3059" aID="IND018009002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Kachugaon  BPHC" nID="3038" aID="IND018001001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Kalaigaon SD" nID="3079" aID="IND018027001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Kalain CHC" nID="3080" aID="IND018017002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Kalinagar BPHC" nID="3044" aID="IND018019001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Kamalpur PHC" nID="3033" aID="IND018022002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Kamargaon SD" nID="3049" aID="IND018004002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Karia MPHC" nID="3051" aID="IND018024002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Katlicherra BPHC" nID="3045" aID="IND018019002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Kauripathar SD" nID="3081" aID="IND018007002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Khakandaguri MPHC" nID="3061" aID="IND018014002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="KHS SDH Nazira" nID="3073" aID="IND018012002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Kothalguri" nID="3054" aID="IND018010001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Krishnai MPHC" nID="3085" aID="IND018003002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Lahorighat BPHC" nID="3029" aID="IND018005002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Laluk MPHC" nID="3057" aID="IND018008002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Lokhara SD" nID="3030" aID="IND018023001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Manikpur BPHC" nID="3070" aID="IND018020001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Mathurapur MPHC" nID="3072" aID="IND018012001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Naharkatia PHC" nID="3082" aID="IND018011001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Naokata MPHC" nID="3035" aID="IND018025002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Nilambazar BPHC " nID="3042" aID="IND018018001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="North Lakhimpur CH" nID="3056" aID="IND018008001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Orang PHC" nID="3083" aID="IND018027002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Pandu PHC" nID="3031" aID="IND018023002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="R.K. Nagar PHC" nID="3043" aID="IND018018002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Rainadabari MPHC" nID="3039" aID="IND018001002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Rongmongwe PHC" nID="3062" aID="IND018015001" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Sissia Bokulani SD" nID="3084" aID="IND018011002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+  <area name="Solmora BPHC" nID="3075" aID="IND018013002" isGlobal="F" parentID="REG004" parentName="Health Facility" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="0" />
+</AreaList>

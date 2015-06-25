@@ -1,0 +1,42 @@
+ 12-06-2015 16:31:07 >> Exception Found:
+[****]Type: System.IO.FileNotFoundException
+[****]Message: Could not find file 'D:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\svg_rasterizer\54.png'.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1086
+[****]Exception Time: 12-06-2015 16:31:07
+=====================================================================================================================================================
+
+12-06-2015 18:18:38 >> Exception Found:
+[****]Type: System.Exception
+[****]Message: InkscapeCmdLine from config file is empty. exeLocationFromConfigFile=
+[****]Source: SvgToPng
+[****]Stacktrace:    at SvgToPngLibrary.SvgToPng..ctor(String nonDefaultConfigFileName) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\SvgToPng\SvgToPng.cs:line 31
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1074
+[****]Exception Time: 12-06-2015 18:18:38
+=====================================================================================================================================================
+
+12-06-2015 19:28:43 >> Exception Found:
+[****]Type: System.IO.FileNotFoundException
+[****]Message: Could not find file 'D:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\svg_rasterizer\56.png'.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1105
+[****]Exception Time: 12-06-2015 19:28:43
+=====================================================================================================================================================
+
+12-06-2015 19:30:39 >> Exception Found:
+[****]Type: System.IO.FileNotFoundException
+[****]Message: Could not find file 'D:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\libraries\svg_rasterizer\57.png'.
+[****]Source: mscorlib
+[****]Stacktrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at Callback.SaveGalleryItem(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\GalleryCallback.cs:line 1105
+[****]Exception Time: 12-06-2015 19:30:39
+=====================================================================================================================================================
+

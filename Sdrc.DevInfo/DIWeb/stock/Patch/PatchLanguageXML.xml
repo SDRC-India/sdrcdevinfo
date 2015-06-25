@@ -1,0 +1,1260 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+  <Row key="LANGUAGE_NAME" value="DI_English [en]" />
+  <Row key="LANGUAGE_CODE" value="en" />
+  <Row key="PAGEDIRECTION" value="ltr" />
+  <Row key="FILE_VERSION" value="1.0" />
+  <Row key="PROD_ACKNOWLEDGEMENT" value="This database software has been developed with the cooperation of the UN system.  The product has been adapted from UNICEF ChildInfo technology. a1 = UNICEF/HQ02-0222/ NICOLE TOUTOUNJI, a5 = UNICEF/HQ03-0508/ SHEHZAD NOORANI, a6 = UNICEF/HQ02-0208/ NICOLE" />
+  <Row key="PROD_DISCLAIMER" value="This product is provided with no representations about the software or content and its suitability for any purpose. It is provided 'as is' without express or implied warranty. This product is provided with no responsibility for impacts resulting from the " />
+  <Row key="SearchSite" value="Search Site" />
+  <Row key="Login" value="Login" />
+  <Row key="Logout" value="Logout" />
+  <Row key="Support" value="Support" />
+  <Row key="ContactUs" value="Contact Us" />
+  <Row key="HIDECOLUMN" value="Hide Column" />
+  <Row key="AREA" value="Area" />
+  <Row key="TOPIC" value="Topic" />
+  <Row key="TIMEPERIOD" value="Time Period" />
+  <Row key="MOSTRECENT" value="Most Recent" />
+  <Row key="SOURCE" value="Source" />
+  <Row key="DATAFILTER" value="Data Filter" />
+  <Row key="SORTORDER" value="Sort Order" />
+  <Row key="FROM" value="From " />
+  <Row key="TO" value="To" />
+  <Row key="TABLE" value="Table" />
+  <Row key="LINE" value="Line" />
+  <Row key="COLUMN" value="Column" />
+  <Row key="BAR" value="Bar" />
+  <Row key="Pie" value="Pie" />
+  <Row key="Radar" value="Radar" />
+  <Row key="Map" value="Map" />
+  <Row key="Scatter" value="Scatter" />
+  <Row key="Pyramid" value="Pyramid" />
+  <Row key="Treemap" value="Treemap" />
+  <Row key="Cloud" value="Cloud" />
+  <Row key="both" value="both" />
+  <Row key="Tree" value="Tree" />
+  <Row key="ListAtoZ" value="List Alphabetically by" />
+  <Row key="ListAlphabetically" value="List Alphabetically" />
+  <Row key="Search" value="Search" />
+  <Row key="ViewSelections" value="View selections" />
+  <Row key="Sector" value="Sector" />
+  <Row key="Goal" value="Goal" />
+  <Row key="Institution" value="Institution" />
+  <Row key="Theme" value="Theme" />
+  <Row key="Convention" value="Convention" />
+  <Row key="Conceptual_Framework" value="Conceptual Framework" />
+  <Row key="SelectSubgroup" value="select subgroup" />
+  <Row key="SelectAll" value="Select all" />
+  <Row key="ShowWhereDataExist" value="Show where data exist" />
+  <Row key="OK" value="OK" />
+  <Row key="Clear" value="Clear" />
+  <Row key="Close" value="Close" />
+  <Row key="SubgroupDimensions" value="Subgroup Dimensions" />
+  <Row key="More" value="More" />
+  <Row key="Metadata" value="Metadata" />
+  <Row key="SelectTopic" value="Select Topic" />
+  <Row key="Cancel" value="Cancel" />
+  <Row key="Home" value="Home" />
+  <Row key="Data" value="Data" />
+  <Row key="Gallery" value="Gallery" />
+  <Row key="News" value="News" />
+  <Row key="Innovations" value="Innovations" />
+  <Row key="Mydata" value="My Data" />
+  <Row key="Catalog" value="Catalog" />
+  <Row key="What" value="What?" />
+  <Row key="Where" value="Where?" />
+  <Row key="QDS_Ind_Default" value="(Topic, indicator, keyword)" />
+  <Row key="QDS_Area_Default" value="(Optional: country, province)" />
+  <Row key="SelectAreaLevel" value="Select area level" />
+  <Row key="ByTree" value="By Tree" />
+  <Row key="ByMap" value="By Map" />
+  <Row key="First" value="First" />
+  <Row key="Back" value="Back" />
+  <Row key="Next" value="Next" />
+  <Row key="Last" value="Last" />
+  <Row key="Page" value="Page" />
+  <Row key="AboutDI" value="About DevInfo 7.0" />
+  <Row key="AboutDI_para" value="DevInfo is a database system endorsed by the United Nations Development Group for monitoring human development. It is a tool for organizing, storing and presenting data in a uniform way to facilitate data sharing at the country level across government dep" />
+  <Row key="more" value="more" />
+  <Row key="QuickDataSearch" value="Quick Data Search" />
+  <Row key="AdvancedSearch" value="Advanced Search" />
+  <Row key="BrowseF_D_B" value="Browse for data by" />
+  <Row key="Topic" value="Topic" />
+  <Row key="SearchB_SGTI" value="Search by sector, goal, theme or indicator name" />
+  <Row key="Area" value="Area" />
+  <Row key="SearchB_CPD" value="Search by country, province or district" />
+  <Row key="Datacart" value="Data cart" />
+  <Row key="Submit" value="Submit" />
+  <Row key="DefaultAreasSelected" value="Default Areas Selected" />
+  <Row key="SelectAr" value="Select" />
+  <Row key="Select" value="Select" />
+  <Row key="Indicator" value="Indicator" />
+  <Row key="OtherVisualizations" value="Other Visualizations" />
+  <Row key="diMon_desc" value="Web-based data management application to facilitate the tracking progress of development plans." />
+  <Row key="diProf_desc" value="Customized country profile snapshots on the status of human development worldwide." />
+  <Row key="diVid_desc" value="Gallery of videos featuring streaming video presentations on human development and evidence-based decision making." />
+  <Row key="diBook_desc" value="Animated flipbooks created using di Book including Millennium Development Goals Reports and similar publications." />
+  <Row key="diSMS_desc" value="Access the latest human development data on your mobile device" />
+  <Row key="diEmgInfo_desc" value="Decision support system for data capture and rapid assessments in emergency situations" />
+  <Row key="diDBoard_desc" value="Animated dashboards providing consolidated view of multiple human development indicators" />
+  <Row key="diGallery_desc" value="Online gallery of presentation objects created using DevInfo technology including colourful tables, graphs and maps." />
+  <Row key="SelectOption" value="Select Option" />
+  <Row key="Column" value="Column" />
+  <Row key="Line" value="Line" />
+  <Row key="Bar" value="Bar" />
+  <Row key="DefaultAreas" value="Default Areas" />
+  <Row key="ChangeAreaSelection" value="Change Area Selection" />
+  <Row key="DF_Popp_Ok" value="OK" />
+  <Row key="FollowUsOn" value="Follow us on" />
+  <Row key="DevInfo" value="DevInfo" />
+  <Row key="WI_DevInfo" value="What is DevInfo?" />
+  <Row key="DI7Features" value="DevInfo 7 Features" />
+  <Row key="DataSearch" value="Data Search" />
+  <Row key="ByKTGA" value="By Keywords, Topic, Geographic Area" />
+  <Row key="Registry" value="Registry" />
+  <Row key="Galleries" value="Galleries" />
+  <Row key="Overview" value="Overview" />
+  <Row key="SearchGalleries" value="Search Galleries" />
+  <Row key="diNews" value="News" />
+  <Row key="diShowcase" value="di Showcase" />
+  <Row key="diGallery" value="Gallery" />
+  <Row key="DevInfoinAction" value="DevInfo in Action" />
+  <Row key="FactOTWeek" value="Facts of the Week" />
+  <Row key="Innovation" value="Innovation" />
+  <Row key="DataQueryService" value="Data Query Service" />
+  <Row key="diMonitoring" value="di Monitoring" />
+  <Row key="diProfile" value="di Profile" />
+  <Row key="diGameworks" value="di Gameworks" />
+  <Row key="diDashboard" value="di Dashboard" />
+  <Row key="Downloads" value="Downloads" />
+  <Row key="Worldwide" value="Worldwide" />
+  <Row key="AboutUs" value="About us" />
+  <Row key="DevInfoTeam" value="DevInfo Team" />
+  <Row key="Awards" value="Awards" />
+  <Row key="Partnerships" value="Partnerships" />
+  <Row key="Careers" value="Careers" />
+  <Row key="Emailto" value="Email to" />
+  <Row key="UCTSMEmailids" value="use comma to separate multiple email ids" />
+  <Row key="Email" value="Email" />
+  <Row key="ShareonTwitter" value="Share on Twitter" />
+  <Row key="Tweet" value="Tweet" />
+  <Row key="ShareonFacebook" value="Share on Facebook" />
+  <Row key="WallPost" value="Wall Post" />
+  <Row key="Embedd_oy_page" value="Embed on your page" />
+  <Row key="CalloutText" value="Callout text" />
+  <Row key="All" value="All" />
+  <Row key="Tables" value="Tables" />
+  <Row key="Graphs" value="Graphs" />
+  <Row key="Maps" value="Maps" />
+  <Row key="ShowTitle" value="Show Title" />
+  <Row key="Admin" value="Admin" />
+  <Row key="User" value="User" />
+  <Row key="LastLoggedOn" value="Last logged on : xxx" />
+  <Row key="ApplicationSettings" value="Application Settings" />
+  <Row key="DatabaseSettings" value="Database Settings" />
+  <Row key="LanguageSettings" value="Language Settings" />
+  <Row key="Set_GASH" value="Set general application settings here" />
+  <Row key="Application" value="Application" />
+  <Row key="AdaptationName" value="Adaptation Name" />
+  <Row key="DefaultLanguage" value="Default Language" />
+  <Row key="ShowDatabaseSelection" value="Show database selection" />
+  <Row key="Yes" value="Yes" />
+  <Row key="No" value="No" />
+  <Row key="ShowSliders" value="Show sliders" />
+  <Row key="WebComponents" value="Web Components" />
+  <Row key="ComponentVersion" value="Component Version" />
+  <Row key="ComponentLibraryURL" value="Component Library URL" />
+  <Row key="Share" value="Share" />
+  <Row key="FacebookApplicationId" value="Facebook Application Id" />
+  <Row key="FacebookApplicationSK" value="Facebook Application Secret Key" />
+  <Row key="TwitterApplicationId" value="Twitter Application Id" />
+  <Row key="TwitterApplicationSK" value="Twitter Application Secret Key" />
+  <Row key="Update" value="Update" />
+  <Row key="AddMod_DCDH" value="Modify database connection details here" />
+  <Row key="DefaultIndicator" value="Default Indicator" />
+  <Row key="Selected" value="Selected" />
+  <Row key="ConnectionDetails" value="Connection Details" />
+  <Row key="Category" value="Category" />
+  <Row key="ConnectionName" value="Connection Name" />
+  <Row key="TestConnection" value="Test Connection" />
+  <Row key="DatabaseType" value="Database Type" />
+  <Row key="ServerHostName" value="Server/Host Name" />
+  <Row key="DatabaseName" value="Database Name" />
+  <Row key="UserName" value="User Name" />
+  <Row key="Password" value="Password" />
+  <Row key="Description" value="Description" />
+  <Row key="DefaultDatabase" value="Default Database" />
+  <Row key="Register" value="Register" />
+  <Row key="New" value="New" />
+  <Row key="Edit" value="Edit" />
+  <Row key="Delete" value="Delete" />
+  <Row key="AvailableConnections" value="Database connection details" />
+  <Row key="SelectArea" value="Select Area" />
+  <Row key="SetDefaultArea" value="Set default area" />
+  <Row key="Save" value="Save" />
+  <Row key="Finish" value="Finish" />
+  <Row key="Configure_Site_MLang" value="Configure your site in multiple languages" />
+  <Row key="AvailableLanguages" value="Available Languages" />
+  <Row key="GeneratePageXMLs" value="Generate Page XMLs" />
+  <Row key="LanguageTranslation" value="Language Translation" />
+  <Row key="SourceLanguage" value="Source Language" />
+  <Row key="TargetLanguage" value="Target Language" />
+  <Row key="Language" value="Language" />
+  <Row key="Language_Name" value="Language Name" />
+  <Row key="Language_Code" value="Language Code" />
+  <Row key="Right-to-Left" value="Right-to-Left" />
+  <Row key="OptimizingDatabase" value="Optimizing Database" />
+  <Row key="XMLGeneration" value="Generate master files" />
+  <Row key="Footnotes" value="Footnotes" />
+  <Row key="IC" value="IC" />
+  <Row key="ICIUS" value="IC IUS" />
+  <Row key="IUS" value="IUS" />
+  <Row key="QuickSearch" value="Quick Search" />
+  <Row key="Immediate" value="Immediate" />
+  <Row key="None" value="None" />
+  <Row key="TimePeriods" value="Time Periods" />
+  <Row key="MapFilesGeneration" value="Generate Map Files" />
+  <Row key="SDMXArtifactsGeneration" value="Generate SDMX Artifacts" />
+  <Row key="SDMXMLGeneration" value="SDMX ML Files Generation" />
+  <Row key="MetadataGeneration" value="Metadata Report Generation" />
+  <Row key="GenerateCacheResults" value="Generate QDS search results" />
+  <Row key="SDMXMLRegistration" value="SDMX ML Files Registration And Constraint Creation" />
+  <Row key="MRRegistration" value="Metadata Report Registration" />
+  <Row key="UpdateDBSchema" value="Update Database Schema" />
+  <Row key="OptimizeDatabase" value="Optimize Database" />
+  <Row key="ProviderDetails" value="Provider Details" />
+  <Row key="UserId" value="User Id" />
+  <Row key="Name" value="Name" />
+  <Row key="Department" value="Department" />
+  <Row key="Role" value="Role" />
+  <Row key="Fax" value="Fax" />
+  <Row key="Telephone" value="Telephone" />
+  <Row key="MissingValue" value="Missing Value" />
+  <Row key="MapDisclaimerText" value="Note: The boundaries and the names shown and the designations used on these maps do not imply official endorsement or acceptance by the United Nations." />
+  <Row key="MrdThreshold" value="MRD Threshold Value" />
+  <Row key="HideSourceColumn" value="Hide Source Column" />
+  <Row key="Create_YOV" value="Create your own visualization" />
+  <Row key="Upload_DFF" value="1. Upload data from file" />
+  <Row key="Upload_DFile_Formats" value="Upload data from the following file formats: CSV, DevInfo Data Entry, SDMX-ML." />
+  <Row key="CopyP_TData_BB" value="OR Copy and paste tabular data into the box below" />
+  <Row key="Identify_AID_Aname" value="2. Identify Area IDs or Area Names (Optional)" />
+  <Row key="Create_Map_LngDscption" value="To create a map from your data, the data must be linked to the Area IDs contained in the database. To link your data, identify the column which contains Area IDs. If your data set does not contain DevInfo Area IDs, then identify which column has geographi" />
+  <Row key="DDataColumn_HCT" value="Does data column headers contain timeperiod?" />
+  <Row key="Matching_Area_Names" value="3. Match Area Names" />
+  <Row key="SAreaIDs_AreaNames_LngDscption" value="Some Area IDs or Area Names did not match with those available in the database. Select the best match for each one below." />
+  <Row key="All_Area_matched" value="All Area matched. Click on Data View to view map." />
+  <Row key="View_Global_CC" value="View catalog" />
+  <Row key="Region_Country" value="Countries" />
+  <Row key="Availability" value="Availability" />
+  <Row key="Version7" value="Version 7" />
+  <Row key="Available_ODevinfo" value="Available on Devinfo.org" />
+  <Row key="Available_Online" value="Available Online" />
+  <Row key="Others" value="Others" />
+  <Row key="Add_New_Adaptation" value="Add New Adaptation" />
+  <Row key="Add_Adaptation_Detail" value="Add Adaptation Detail" />
+  <Row key="Edit_Adaptation_Detail" value="Edit Adaptation Detail" />
+  <Row key="DevInfo_Version" value="DevInfo Version" />
+  <Row key="Available_on_platform" value="Available on platform" />
+  <Row key="Desktop" value="Desktop" />
+  <Row key="Web" value="Web" />
+  <Row key="Web_URL" value="Web URL" />
+  <Row key="Counts" value="Counts" />
+  <Row key="Time_Periods" value="Time Periods" />
+  <Row key="Data_Values_AC" value="Data Values" />
+  <Row key="Time_range" value="Time range" />
+  <Row key="Start_Year" value="Start Year" />
+  <Row key="End_Year" value="End Year" />
+  <Row key="Last_modified_on" value="Last modified on" />
+  <Row key="Adapted_for" value="Adapted for" />
+  <Row key="Global" value="Global" />
+  <Row key="National" value="National" />
+  <Row key="Sub-national" value="Sub-national" />
+  <Row key="Specify_sub-nation_IA" value="Specify sub-nation if any" />
+  <Row key="Catalog_image" value="Catalog image" />
+  <Row key="Upload" value="Upload" />
+  <Row key="dimentions_135_105" value="dimensions 135x105" />
+  <Row key="Save_Adaptation" value="Save Adaptation" />
+  <Row key="Update_Adaptation" value="Update Adaptation" />
+  <Row key="Select_country" value="Select Country" />
+  <Row key="Loading_Data" value="Loading Data..." />
+  <Row key="Callout_text" value="Callout text" />
+  <Row key="Download_PNG" value="Download as PNG" />
+  <Row key="Download_SVG" value="Download as SVG" />
+  <Row key="Download_XLS" value="Download as XLS" />
+  <Row key="Download_Image" value="Download as Image" />
+  <Row key="Download_KML" value="Download as KML" />
+  <Row key="Visualization" value="Visualization" />
+  <Row key="Settings" value="Settings" />
+  <Row key="Show_Border" value="Show Border" />
+  <Row key="GridLnX" value="Gridlines [X-Axis]" />
+  <Row key="GridLnY" value="Gridlines [Y-Axis]" />
+  <Row key="Data_Labels" value="Label" />
+  <Row key="Legend" value="Legend" />
+  <Row key="General" value="General" />
+  <Row key="XPos" value="X-Pos." />
+  <Row key="YPos" value="Y-Pos." />
+  <Row key="Show" value="Show" />
+  <Row key="Decimals" value="Decimals" />
+  <Row key="U_1000separator" value="Use 1,000 separator" />
+  <Row key="Titles_Labels" value="Titles/Labels" />
+  <Row key="Series" value="Series" />
+  <Row key="Borders" value="Borders" />
+  <Row key="North_symbol" value="North symbol" />
+  <Row key="Scale" value="Scale" />
+  <Row key="Title" value="Title" />
+  <Row key="Data_Label" value="Label Row 1" />
+  <Row key="Legend_Title" value="Legend Title" />
+  <Row key="Legend_Body" value="Legend Body" />
+  <Row key="Select_Theme" value="Select Theme" />
+  <Row key="Select_Series" value="Select Series" />
+  <Row key="Show_Theme" value="Show Theme" />
+  <Row key="Break_Type" value="Break Type" />
+  <Row key="Equal_Count" value="Equal Count" />
+  <Row key="Equal_Size" value="Equal Size" />
+  <Row key="Continuous" value="Continuous" />
+  <Row key="Discontinuous" value="Discontinuous" />
+  <Row key="Break_Count" value="Break Count" />
+  <Row key="Width" value="Width" />
+  <Row key="Height" value="Height" />
+  <Row key="Marker_Style" value="Marker Style" />
+  <Row key="Marker_Size" value="Marker Size" />
+  <Row key="Marker_Color" value="Marker Color" />
+  <Row key="Marker_Value" value="Marker Value" />
+  <Row key="Pivoting" value="Pivoting" />
+  <Row key="Select_Area" value="Select Area" />
+  <Row key="Show_keywords_here" value="Show keywords here" />
+  <Row key="Keywords" value="Keywords" />
+  <Row key="Modify_YSH" value="Modify your settings here" />
+  <Row key="Apply" value="Apply" />
+  <Row key="Symbol" value="Symbol" />
+  <Row key="Marker_Font" value="Marker Font" />
+  <Row key="Color" value="Color" />
+  <Row key="Size" value="Size" />
+  <Row key="Opacity" value="Opacity" />
+  <Row key="Webdings" value="Webdings" />
+  <Row key="Wingdings" value="Wingdings" />
+  <Row key="Image_Settings" value="Image Settings" />
+  <Row key="Show_Legend" value="Show Legend" />
+  <Row key="Image_Format" value="Image Format" />
+  <Row key="PNG" value="PNG" />
+  <Row key="JPG" value="JPG" />
+  <Row key="GIF" value="GIF" />
+  <Row key="INDICATORS" value="Indicators" />
+  <Row key="AREAS" value="areas" />
+  <Row key="SOURCES" value="sources" />
+  <Row key="DATA_VaLUES" value="Data Values" />
+  <Row key="UPDATED_ON" value="Updated on" />
+  <Row key="SUBGROUP" value="sub groups" />
+  <Row key="DIMENSIONS" value="Dimensions" />
+  <Row key="DATAVALUE" value="data values" />
+  <Row key="CLOUD_VIEW" value="Cloud view" />
+  <Row key="ADD_TO_CART" value="Add to cart" />
+  <Row key="VISUALIZE" value="Visualize" />
+  <Row key="SHARING" value="Share" />
+  <Row key="ADD_ALL_TO_CART" value="Add all to cart" />
+  <Row key="REMOVE_ALL_FROM_CART" value="Remove all from cart" />
+  <Row key="MULTIPLE_DB_SEARCH" value="Click here to search through multiple databases" />
+  <Row key="Query_Data" value="Query Data" />
+  <Row key="Make_queries_RDVF" value="Make queries and retrieve data in various formats." />
+  <Row key="Language_coln" value="Language" />
+  <Row key="Indicator_coln" value="Indicator" />
+  <Row key="SelectIndicator" value="Select Indicator" />
+  <Row key="Area_coln" value="Area" />
+  <Row key="Most_Recent_Data_coln" value="Most recent data" />
+  <Row key="OR" value="OR" />
+  <Row key="Time_coln" value="Time" />
+  <Row key="SelectTime" value="Select Time" />
+  <Row key="Source" value="Source" />
+  <Row key="RequestFormat_coln" value="Request Format" />
+  <Row key="SOAP" value="SOAP" />
+  <Row key="REST" value="REST" />
+  <Row key="HTTP" value="HTTP" />
+  <Row key="ResponseFormat_coln" value="Response Format" />
+  <Row key="SDMX" value="SDMX" />
+  <Row key="JSON" value="JSON" />
+  <Row key="XML" value="XML" />
+  <Row key="Generic" value="Generic" />
+  <Row key="Generic_Time_Series" value="Generic Time Series" />
+  <Row key="Structure_Specific" value="Structure Specific" />
+  <Row key="Structure_Specific_TS" value="Structure Specific Time Series" />
+  <Row key="Generate_API_Call" value="Generate API Call" />
+  <Row key="APIURL_coln" value="API URL" />
+  <Row key="SoapMethod_coln" value="Soap Method" />
+  <Row key="Request" value="Request" />
+  <Row key="Response" value="Response" />
+  <Row key="Download" value="Download" />
+  <Row key="Copy" value="Copy" />
+  <Row key="SelectSource" value="Select Source" />
+  <Row key="StructuralMetadata_D" value="Data Structure" />
+  <Row key="StructuralMetadata_M" value="Metadata Structure" />
+  <Row key="Subscription" value="Subscribe" />
+  <Row key="PublishData" value="Register" />
+  <Row key="Provisioning_Metadata" value="Users" />
+  <Row key="Validate" value="Validate" />
+  <Row key="Compare" value="Compare" />
+  <Row key="Discover" value="Discover" />
+  <Row key="WebServices" value="Web Services" />
+  <Row key="Mapping" value="Mapping" />
+  <Row key="MaintenanceAgency" value="Maintenance Agency" />
+  <Row key="DataProvider" value="Publish Data" />
+  <Row key="Content_UTHAODPTU" value="Content under this heading is available only to a data provider type of user. To access this content please" />
+  <Row key="Login_exclmtn" value="Login!" />
+  <Row key="WDP_credentials" value="admin for data provider rights!" />
+  <Row key="Content_UTHALU" value="Content under this heading is available only to a logged in user. Please" />
+  <Row key="DSDInUse" value="Data Structure Definition In Use " />
+  <Row key="DSDInUse_Sub_Heading" value="Id[AgencyId, Version] - Name" />
+  <Row key="Content_UTHAOAU" value="Content under this heading is available only to an admin user. To access this content please" />
+  <Row key="WA_credentials" value="with an admin's credentials!" />
+  <Row key="Data_Structure_Page_Title" value="Data Structure" />
+  <Row key="Data_Structure_Page_Desc" value="Data Structure is a repository of all such sdmx artifacts which define rules of data - as to how it is structured." />
+  <Row key="Data_Structure_Definition" value="Data Structure Definition" />
+  <Row key="Data_Flow_Definition" value="Data Flow Definition" />
+  <Row key="Concept_Scheme" value="Concept Scheme" />
+  <Row key="Codelists" value="Codelists" />
+  <Row key="Download_DSD" value="Download DSD" />
+  <Row key="Download_Concept_Scheme" value="Download Concept Scheme" />
+  <Row key="Download_All" value="Download All" />
+  <Row key="Download_Report" value="Download Report" />
+  <Row key="Dimensions" value="Dimensions" />
+  <Row key="Attributes" value="Attributes" />
+  <Row key="Measure" value="Measure" />
+  <Row key="View" value="View" />
+  <Row key="Attachment_Level" value="Attachment Level  " />
+  <Row key="Mandatory" value="Mandatory  " />
+  <Row key="Metadata_Structure_Page_Title" value="Metadata Structure" />
+  <Row key="Metadata_Structure_Page_Desc" value="Metadata Repository is a repository of all such sdmx artifacts which define rules of metadata - as to how it is structured." />
+  <Row key="Metadata_Structure_Definition" value="Metadata Structure Definition" />
+  <Row key="Metadata_Flow_Definition" value="Metadata Flow Definition" />
+  <Row key="Select_MSD" value="-----------------------Select MSD---------------------" />
+  <Row key="Download_MSD" value="Download MSD" />
+  <Row key="Target" value="Target" />
+  <Row key="Report_Structure" value="Report Structure" />
+  <Row key="Object_Type" value="Object Type  " />
+  <Row key="Presentational" value="Presentational  " />
+  <Row key="Subscribe_Page_Title" value="Subscribe" />
+  <Row key="Subscribe_Page_Desc" value="Manage your Subscription details here." />
+  <Row key="Add_New_Subscription" value="Add New Subscription" />
+  <Row key="List_of_Subscriptions" value="List of Subscriptions" />
+  <Row key="Subscription_Details" value="Subscription Details" />
+  <Row key="Notification_Mail" value="Notification Mail" />
+  <Row key="SOAP_Protocol" value="SOAP Protocol" />
+  <Row key="Notification_HTTP" value="Notification HTTP" />
+  <Row key="Validity_Period" value="Validity Period" />
+  <Row key="Start_Date" value="Start Date" />
+  <Row key="End_Date" value="End Date" />
+  <Row key="Event_Selector" value="Event Selector" />
+  <Row key="Data_Registration" value="Data Registration" />
+  <Row key="Metadata_Registration" value="Metadata Registration" />
+  <Row key="Structural_Metadata_Registration" value="Structural Metadata Registration" />
+  <Row key="Metadata_Flows" value="Metadata Flows" />
+  <Row key="Select_MFD" value="-----------------------Select MFD---------------------" />
+  <Row key="Add" value="Add" />
+  <Row key="Delete_Subscription" value="Delete Subscription" />
+  <Row key="lang_Subscription" value="Subscription" />
+  <Row key="lang_Email" value="Email" />
+  <Row key="lang_Web_Service_Address" value="Web Service Address" />
+  <Row key="Event_Type" value="Event Type" />
+  <Row key="lang_Action" value="Action" />
+  <Row key="Register_Page_Title" value="Register" />
+  <Row key="Register_Page_Desc" value="Manage your Data Repository Registration details here." />
+  <Row key="Add_New_DM_Registration" value="Add New Data/Metadata Registration" />
+  <Row key="List_of_Registrations_And_Constraints" value="List of Registrations And Constraints" />
+  <Row key="Registration_Details" value="Registration Details" />
+  <Row key="Queryable_DRD" value="Queryable Data Repository Details" />
+  <Row key="WebServiceURL" value="Web Service URL" />
+  <Row key="REST_Protocol" value="REST Protocol" />
+  <Row key="WADL_URL" value="WADL URL" />
+  <Row key="WSDL_URL" value="WSDL URL" />
+  <Row key="IsMetadata" value="Is Metadata" />
+  <Row key="Select_DM_Flows" value="Select Data/Metadata Flows" />
+  <Row key="Select_DFD_MFD" value="-----------------------Select DFD/MFD---------------------" />
+  <Row key="Simple_DM_Repository_Details" value="Simple Data/Metadata Repository Details" />
+  <Row key="File_R_URL" value="SDMX-ML File/Metadata Report URL" />
+  <Row key="Add_Send_Notifications" value="Add and Send Notifications" />
+  <Row key="Update_Send_Notifications" value="Update and Send Notifications" />
+  <Row key="Delete_Registration" value="Delete Registration" />
+  <Row key="Send_Notifications" value="Send Notifications" />
+  <Row key="lang_Id" value="Id" />
+  <Row key="lang_Queryable_Data" value="Queryable Data" />
+  <Row key="lang_WADL" value="WADL" />
+  <Row key="lang_WSDL" value="WSDL" />
+  <Row key="lang_Simple_Data" value="Simple Data" />
+  <Row key="lang_Data_Metadata" value="Data/Metadata" />
+  <Row key="lang_DFD_MFD" value="Data Flow/ Metadata Flow Definition" />
+  <Row key="lang_Constraints" value="Constraints" />
+  <Row key="Users_Page_Title" value="Users" />
+  <Row key="Users_Page_Desc" value="Retrieval of Information regarding different types of users in registry and sdmx artifacts for maintaining such information." />
+  <Row key="List_of_Providers_And_their_Provision_Agreements" value="List of Providers and their Provision Agreements" />
+  <Row key="First_Name_Registry" value="First Name" />
+  <Row key="Last_Name" value="Last Name" />
+  <Row key="Provision_Agreement_For" value="Provision Agreement For " />
+  <Row key="Validate_Page_Title" value="Validate" />
+  <Row key="Validate_Page_Desc" value="Validate your DSD, SDMX-ML data and Metadata Report files." />
+  <Row key="Validate_SDF" value="Validate your SDMX-ML Data Files" />
+  <Row key="Select_SDF" value="Select SDMX-ML Data Files" />
+  <Row key="ValidateSDMXML" value="Validate SDMX-ML" />
+  <Row key="Validate_YDSDA" value="Validate your DSD against" />
+  <Row key="DSD" value="DSD" />
+  <Row key="SelectDSD" value="Select DSD" />
+  <Row key="Validate_DSD" value="Validate DSD" />
+  <Row key="Error_Details" value="Error Details" />
+  <Row key="Validate_MR" value="Validate your Metadata Report Files" />
+  <Row key="Select_MR" value="Select Metadata Report Files" />
+  <Row key="ValidateMetadataReportFile" value="Validate Metadata Report" />
+  <Row key="Compare_Page_Title" value="Compare" />
+  <Row key="Compare_Page_Desc" value="Compare your DSD for Structural differences and codes." />
+  <Row key="Compare_ATDSD" value="Compare any two DSDs" />
+  <Row key="DSD1" value="DSD1" />
+  <Row key="DSD2" value="DSD2" />
+  <Row key="Compare_YDSDA" value="Compare your DSD against" />
+  <Row key="DSD_Compare" value="DSD to compare" />
+  <Row key="SignOrRegister" value="Sign in OR Register" />
+  <Row key="Please_login_BTC" value="Please login below to continue" />
+  <Row key="Email_Address" value="E-Mail Address" />
+  <Row key="IA_HavePassword" value="I already have a password" />
+  <Row key="INT_Register" value="I need to register" />
+  <Row key="First_Name" value="Name" />
+  <Row key="Country" value="Country" />
+  <Row key="P_alphanumeric_password" value="Provide an alphanumeric password" />
+  <Row key="A8C_Long" value="at least 8 characters long" />
+  <Row key="Confirm_Password" value="Confirm Password" />
+  <Row key="Register_MAD_Provider" value="Request dataprovider rights" />
+  <Row key="Sign_up" value="Sign up" />
+  <Row key="IH_forgotten_password" value="I've forgotten my password" />
+  <Row key="Note" value="Note" />
+  <Row key="Notification_ESI_S_Update" value="A notification email will be sent to your inbox on signup/update." />
+  <Row key="Maintenance_Agency_Page_Title" value="Maintenance Agency" />
+  <Row key="Maintenance_Agency_Page_Desc" value="Synchronizing Artifacts From Database as well as DSD and MSD Uploading." />
+  <Row key="List_Of_Databases" value="List Of Databases  " />
+  <Row key="Generate_SDMX_Artefacts_From_Database" value="Generate SDMX Artifacts From Database" />
+  <Row key="Upload_DSD_MSD_coln" value="Upload Your DSD And MSD " />
+  <Row key="Upload_New_DSD" value="Upload New DSD and MSD" />
+  <Row key="List_Of_DSDs_coln" value="List Of DSDs " />
+  <Row key="List_Of_MSDs_coln" value="List Of MSDs " />
+  <Row key="Assosciated_Database" value="Associated Database " />
+  <Row key="Select_Assosciated_Database" value="Select Associated Database" />
+  <Row key="Selected_DSD" value="Selected DSD  " />
+  <Row key="Upload_DSD" value="Upload DSD" />
+  <Row key="Update_Your_DSD_MSD" value="Update Your DSD And MSD " />
+  <Row key="Select_DSD" value="---------------------Select DSD-------------------" />
+  <Row key="Update_DSD" value="Update DSD" />
+  <Row key="Delete_DSD" value="Delete DSD" />
+  <Row key="User_Settings" value="User Settings" />
+  <Row key="Add_MUDH" value="Add and Modify user details here" />
+  <Row key="Available_Users" value="Available Users" />
+  <Row key="NewUser" value="New User" />
+  <Row key="EditUser" value="Edit User" />
+  <Row key="EMail_Address" value="E-Mail Address" />
+  <Row key="Is_Admin" value="Is Admin" />
+  <Row key="Forgot_Password" value="Forgot Password" />
+  <Row key="Save_Presentation" value="Save Presentation" />
+  <Row key="Save_Presentation_Desc" value="Enter inputs to save presentation into gallery" />
+  <Row key="Previous" value="Previous" />
+  <Row key="Subregion" value="Subregion" />
+  <Row key="Agency_Id" value="Agency Id " />
+  <Row key="Provider_Id" value="Provider Id " />
+  <Row key="Enable_DSD_Selection" value="Enable DSD Selection" />
+  <Row key="QDS_Cache" value="QDS Cache For Densed Areas" />
+  <Row key="DIB" value="Disputed International Boundries" />
+  <Row key="Adaptation_Mode" value="Adaptation Mode" />
+  <Row key="DI7" value="DI7" />
+  <Row key="Standalone_Registry" value="Standalone Registry" />
+  <Row key="Application_Version" value="Application Version" />
+  <Row key="MyData_Info" value="Content of first row shall be treated as column header" />
+  <Row key="Order_By" value="Order By" />
+  <Row key="Area_Name" value="Area Name" />
+  <Row key="Area_Id" value="Area Id" />
+  <Row key="Help_Data_Structure_Definition_Title" value="Data Structure Definition" />
+  <Row key="Help_Data_Structure_Definition_Desc" value="Data Structure Definition(DSD) defines the dimensions,measures and attributes of a dataset and their valid value set." />
+  <Row key="Help_Data_Flow_Definition_Title" value="Data Flow Definition" />
+  <Row key="Help_Data_Flow_Definition_Desc" value="DataFlow Definition(DFD) is a subset or view of a DSD which allows some restriction of content." />
+  <Row key="Help_Concept_Scheme_Title" value="Concept Scheme" />
+  <Row key="Help_Concept_Scheme_Desc" value="Concept Scheme is the descriptive information for an arrangement or division of concepts into groups based on characteristics, which the objects have in common." />
+  <Row key="Help_Codelist_Title" value="Codelist" />
+  <Row key="Help_Codelist_Desc" value="Codelist is a list from which some statistical concepts (coded concepts) take their values." />
+  <Row key="Help_Metadata_Structure_Definition_Title" value="Metadata Structure Definition" />
+  <Row key="Help_Metadata_Structure_Definition_Desc" value="Metadata Structure Definition defines the attributes and presentational arrangement of a metadataset  and their valid values and content." />
+  <Row key="Help_Metadata_Flow_Definition_Title" value="Metadata Flow Definition" />
+  <Row key="Help_Metadata_Flow_Definition_Desc" value="MetadataFlow Definition is a subset or view of a MSD which allows some restriction of content." />
+  <Row key="Help_Data_Provider_Scheme_Title" value="Data Provider Scheme" />
+  <Row key="Help_Data_Provider_Scheme_Desc" value="A maintained collection of Data Providers." />
+  <Row key="Help_Maintenance_Agency_Scheme_Title" value="Maintenance Agency Scheme" />
+  <Row key="Help_Maintenance_Agency_Scheme_Desc" value="Maintenance Agency Scheme is a collection of maintenance agencies which is a responsible agency for maintaining artifacts such as statistical classifications, glossaries, structural metadata such as Data and Metadata Structure Definitions, Concepts and Co" />
+  <Row key="Help_Providers_Title" value="Provider" />
+  <Row key="Help_Providers_Desc" value="An organisation that produces data or reference metadata." />
+  <Row key="Help_PA_Title" value="Provision Agreement" />
+  <Row key="Help_PA_Desc" value="Provision Agreement links the Data Provider to the relevant Structure Usage (e.g. Dataflow Definition or Metadataflow Definition) for which the provider supplies data or metadata The agreement may constrain the scope of the data or metadata that can be pr" />
+  <Row key="Help_Add_Subscription_Title" value="Add Subscription" />
+  <Row key="Help_Add_Subscription_Desc" value="A user can subscribe to receive notifications - on email or through HTTP Posts - on occurence of certain events on Registry. Depending on the events selected by user for a subscription, the user will receive notification when Data is registered or when Me" />
+  <Row key="Help_Subscription_Title" value="Subscription" />
+  <Row key="Help_Subscription_Desc" value="Subscription is an activity by which a user can submit a subscription in the registry that defines which events are of interest, and either an email and/or an HTTP address to which a notification of qualifying events will be delivered." />
+  <Row key="Help_Notification_Mail_Title" value="Notification Mail" />
+  <Row key="Help_Notification_Mail_Desc" value="Notification Mail is email address specified by the subscribed user to recieve notification for data/metadata registration by a data provider." />
+  <Row key="Help_Notification_HTTP_Title" value="Notification HTTP" />
+  <Row key="Help_Notification_HTTP_Desc" value="An HTTP Post Notification will be sent to subscribed users at a specified HTTP address announcing all published data that meets the criteria contained in the subscription request." />
+  <Row key="Help_SOAP_Protocol_Subscription_Title" value="SOAP Protocol" />
+  <Row key="Help_SOAP_Protocol_Subscription_Desc" value="If Subsciption is done with SOAP protocol then the subscribed users receive Notifications wrapped in SOAP Envelopes." />
+  <Row key="Help_Event_Selector_Title" value="Event Selector" />
+  <Row key="Help_Event_Selector_Desc" value="An Event Selector specifies which type of events are of interest for subscription.There are four types of events for which a user can subscribe. Structural Repository Event - A change in Maintainable artifacts in the Structural Meatadata Repository.Data R" />
+  <Row key="Help_Add_Registration_Title" value="Add Registration" />
+  <Row key="Help_Add_Registration_Desc" value="A user can register his data/metadata. The data can be in the form of a file accessible over web i.e. a simple datasource or in the form of a sdmx compliant webservice i.e a queryable data source. Registry validates the data, and on successful validation " />
+  <Row key="Help_Registration_Title" value="Registration" />
+  <Row key="Help_Registration_Desc" value="Registration is an activity by which a data Provider publishes a new dataset conforming to an existing Dataflow Definition(and hence Data Structure Definition).Similarly data provider can also publish his metadataset conforming to existing MetadataFlow De" />
+  <Row key="Help_Constraint_Title" value="Constraint" />
+  <Row key="Help_Constraint_Desc" value="Constraint specifies a sub set of the definition of the allowable or actual content of a data or metadata source that can be derived from the Structure that defines code lists and other valid content." />
+  <Row key="Help_WebService_URL_Title" value="Web Service URL" />
+  <Row key="Help_WebService_URL_Desc" value="This is the URL of the queryable datasource i.e. SDMX compliant Web Service - hosted by the data provider - whither data and metadata can be queried." />
+  <Row key="Help_Rest_Protocol_Title" value="Rest Protocol" />
+  <Row key="Help_Rest_Protocol_Desc" value="The Rest Protocol attribute indicates, if true, that the queryable data source is accessible via the REST protocol." />
+  <Row key="Help_WADL_URL_Title" value="WADL URL" />
+  <Row key="Help_WADL_URL_Desc" value="WADL URL provides the location of a WADL instance on the internet which describes the REST protocol of the queryable data source." />
+  <Row key="Help_SOAP_Protocol_Registration_Title" value="SOAP Protocol" />
+  <Row key="Help_SOAP_Protocol_Registration_Desc" value="The SOAP Protocol attribute indicates, if true, that the queryable data source is accessible via the SOAP protocol." />
+  <Row key="Help_WSDL_URL_Title" value="WSDL URL" />
+  <Row key="Help_WSDL_URL_Desc" value="WSDL URL provides the location of a WSDL instance on the internet which describes the queryable data source." />
+  <Row key="Help_Queryable_Data_Repository_Title" value="Queryable Data Repository" />
+  <Row key="Help_Queryable_Data_Repository_Desc" value="Queryable Data Repository describes a data source that must be able to accept an SDMX-ML Query Message, and respond appropriately." />
+  <Row key="Help_Simple_Data_Metadata_Repository_Title" value="Simple Data/Metadata Repository" />
+  <Row key="Help_Simple_Data_Metadata_Repository_Desc" value="Simple Data/Metadata Repository describes a data source that is an SDMX-ML data or metadata message. It requires only the URL of the data." />
+  <Row key="WebServiceDemo_Page_Title" value="Web Services" />
+  <Row key="WebServiceDemo_Page_Desc" value="Explore the Request and Response for calling Registry Web Service Functions." />
+  <Row key="WebServiceFunctions" value="Web Service Functions  " />
+  <Row key="Select_a_function" value="----------------------Select a function--------------------" />
+  <Row key="Id" value="Id  " />
+  <Row key="AgencyId" value="Agency Id  " />
+  <Row key="Version" value="Version  " />
+  <Row key="Name_of_the_Method" value="Name of the Method  " />
+  <Row key="ARRANGE" value="Arrange" />
+  <Row key="PIVOT" value="Pivot" />
+  <Row key="SWAP" value="Swap" />
+  <Row key="Disclaimer" value="Disclaimer" />
+  <Row key="GOTOPARENT" value="Go to parent" />
+  <Row key="CATALOG_COUNT" value="Count " />
+  <Row key="SampleValues" value="Sample Values" />
+  <Row key="Help_Register_Provider" value="This will send a mail to the admin for granting data provider rights to the user. As a data provider a user can register data/metadata in the registry." />
+  <Row key="Border" value="Border" />
+  <Row key="Radius" value="Radius" />
+  <Row key="Custom" value="Custom" />
+  <Row key="Standard" value="Standard" />
+  <Row key="Gridlines" value="Gridlines" />
+  <Row key="Sel_Gridl_Axis" value="Select Gridlines Axis" />
+  <Row key="Maj_Gridlines" value="Major Gridlines" />
+  <Row key="Style" value="Style" />
+  <Row key="Min_Gridlines" value="Minor Gridlines" />
+  <Row key="Chart_Area" value="Chart Area" />
+  <Row key="Background_Color" value="Background Color" />
+  <Row key="No_Fill" value="No Fill" />
+  <Row key="Solid_Fill" value="Solid Fill" />
+  <Row key="Gradient_Fill" value="Gradient Fill" />
+  <Row key="Fill_Color" value="Fill Color" />
+  <Row key="Plot_Area" value="Plot Area" />
+  <Row key="Border_Width" value="Border Width" />
+  <Row key="Border_Color" value="Border Color" />
+  <Row key="Border_Radius" value="Border Radius" />
+  <Row key="Font_Size" value="Font Size" />
+  <Row key="Floating" value="Floating" />
+  <Row key="Fixed" value="Fixed" />
+  <Row key="Legend_Width" value="Legend Width" />
+  <Row key="Auto" value="Auto" />
+  <Row key="Series_Option" value="Series Option" />
+  <Row key="Overlap" value="Overlap" />
+  <Row key="Gap" value="Gap" />
+  <Row key="Fill" value="Fill" />
+  <Row key="Border_Style" value="Border Style" />
+  <Row key="Label_On" value="Label On" />
+  <Row key="Data_Value" value="Data Value" />
+  <Row key="Multi-row" value="Multi-row" />
+  <Row key="Indented" value="Indented" />
+  <Row key="Show_w_data_exists" value="Show where data exists" />
+  <Row key="Effects" value="Effects" />
+  <Row key="Effect_Type" value="Effect Type" />
+  <Row key="Depth" value="Depth" />
+  <Row key="Layer" value="Layer" />
+  <Row key="Base" value="Base" />
+  <Row key="Feature" value="Feature" />
+  <Row key="Themes" value="Themes" />
+  <Row key="Theme_Name" value="Theme Name" />
+  <Row key="Theme_Type" value="Theme Type" />
+  <Row key="Min" value="Min" />
+  <Row key="Max" value="Max" />
+  <Row key="Caption" value="Caption" />
+  <Row key="Range" value="Range" />
+  <Row key="From" value="From" />
+  <Row key="To_coln_les" value="To" />
+  <Row key="Count" value="Count" />
+  <Row key="Smooth" value="Smooth" />
+  <Row key="Upload_Settings" value="Upload Settings" />
+  <Row key="Download_Settings" value="Download Settings" />
+  <Row key="Option" value="Option" />
+  <Row key="Series_Type" value="Series Type" />
+  <Row key="Radial_Axis" value="Radial Axis" />
+  <Row key="Forms" value="Forms" />
+  <Row key="Chart_Type" value="Chart Type" />
+  <Row key="Circular" value="Circular" />
+  <Row key="Polygonal" value="Polygonal" />
+  <Row key="Position" value="Position" />
+  <Row key="Catalog_Filtered_Text" value="Search through multiple databases that you have filtered below" />
+  <Row key="Shadow" value="Shadow" />
+  <Row key="Embossed" value="Embossed" />
+  <Row key="Block" value="Block" />
+  <Row key="Gradient" value="Gradient" />
+  <Row key="Reflect" value="Reflect" />
+  <Row key="Up" value="Up" />
+  <Row key="Down" value="Down" />
+  <Row key="Disputed_Boundries" value="Disputed Boundries" />
+  <Row key="Chart_Settings" value="Chart Settings" />
+  <Row key="Hatch" value="Hatch" />
+  <Row key="Dot_Density" value="Dot Density" />
+  <Row key="Chart" value="Chart" />
+  <Row key="View_Data_Value" value="View Data Value" />
+  <Row key="Time_Series" value="Time Series" />
+  <Row key="Clearall" value="Clear all" />
+  <Row key="Selectall" value="Select all" />
+  <Row key="Sorting" value="Sorting" />
+  <Row key="Hide_Col" value="Hide Columns" />
+  <Row key="X_Axis" value="X-Axis" />
+  <Row key="Y_Axis" value="Y-Axis" />
+  <Row key="Color_2" value="Color 2" />
+  <Row key="Horizontal" value="Horizontal" />
+  <Row key="Vertical" value="Vertical" />
+  <Row key="Segment" value="Segment" />
+  <Row key="Curve" value="Curve" />
+  <Row key="Left" value="Left" />
+  <Row key="Right" value="Right" />
+  <Row key="Top" value="Top" />
+  <Row key="Bottom" value="Bottom" />
+  <Row key="Add_Theme" value="Add Theme" />
+  <Row key="Select_Style" value="Select Style" />
+  <Row key="Solid" value="Solid" />
+  <Row key="ShortDash" value="ShortDash" />
+  <Row key="ShortDot" value="ShortDot" />
+  <Row key="ShortDashDot" value="ShortDashDot" />
+  <Row key="ShortDashDotDot" value="ShortDashDotDot" />
+  <Row key="Dot" value="Dot" />
+  <Row key="Dash" value="Dash" />
+  <Row key="LongDash" value="LongDash" />
+  <Row key="DashDot" value="DashDot" />
+  <Row key="LongDashDot" value="LongDashDot" />
+  <Row key="LongDashDotDot" value="LongDashDotDot" />
+  <Row key="Left_Top" value="Left top" />
+  <Row key="Left_Middle" value="Left middle" />
+  <Row key="Left_Bottom" value="Left bottom" />
+  <Row key="Right_Top" value="Right top" />
+  <Row key="Right_Middle" value="Right middle" />
+  <Row key="Right_Bottom" value="Right bottom" />
+  <Row key="Top_To_Bottom" value="Top to bottom" />
+  <Row key="Bottom_To_Top" value="Bottom to top" />
+  <Row key="Left_To_Right" value="Left to right" />
+  <Row key="Right_To_Left" value="Right to left" />
+  <Row key="SaveAs" value="Save As" />
+  <Row key="Chart_Title" value="Chart Title" />
+  <Row key="Chart_Subtitle" value="Chart Subtitle" />
+  <Row key="X_Axis_Title" value="X Axis Title" />
+  <Row key="X_Axis_Label" value="X Axis Label" />
+  <Row key="Y_Axis_Title" value="Y Axis Title" />
+  <Row key="Y_Axis_Label" value="Y Axis Label" />
+  <Row key="DataLabels" value="DataLabels" />
+  <Row key="Send_DevInfo_Updates" value="Send DevInfo Updates" />
+  <Row key="Request_exclmtn" value="Request!" />
+  <Row key="Slider_count" value="Slider Count" />
+  <Row key="Contact_Database_Administrator" value="Contact of Database Administrator" />
+  <Row key="NameColon" value="Name" />
+  <Row key="InstitutionColon" value="Institution" />
+  <Row key="EmailColon" value="Email" />
+  <Row key="AreasColon" value="Areas" />
+  <Row key="SourcesColon" value="Sources" />
+  <Row key="MRDTooltip" value="Threshold for showing most recent data in dataview" />
+  <Row key="HideSourceColoumnTooltip" value="Hide source column by default in dataview" />
+  <Row key="DIBTooltip" value="Disputed map boundries" />
+  <Row key="SearchBoxKeywords" value="(Keywords)" />
+  <Row key="Hide" value="Hide" />
+  <Row key="Number_Of" value="Number of" />
+  <Row key="Geographical_Areas" value="Geographical areas" />
+  <Row key="Variables" value="Variables" />
+  <Row key="Last_Updated" value="Last updated" />
+  <Row key="Preview_Data" value="Preview data" />
+  <Row key="GoTo_Data" value="Goto data" />
+  <Row key="Unicef_Region" value="Unicef region" />
+  <Row key="Adaptation_Year" value="Adaptation year" />
+  <Row key="Database_Languages" value="Database Languages" />
+  <Row key="the_data_from_file" value="the data from file" />
+  <Row key="Create_your_own" value="Create your own" />
+  <Row key="it_with_the_community" value="it with the community" />
+  <Row key="Delete_Confirmation" value="Do you want to delete presentation?" />
+  <Row key="Delete_Presentation" value="Current presentation has been deleted." />
+  <Row key="Delete_Right" value="You dont have right to delete" />
+  <Row key="DataProvider_Page_Title" value="Publish Data" />
+  <Row key="DataProvider_Page_Desc" value="Generation and Registration of SDMX-ML and Metadata Reports." />
+  <Row key="Country_Catalog" value="Country Catalog" />
+  <Row key="Goto_Global_URL" value="DevInfo Worldwide" />
+  <Row key="QDS_Min" value="Minimum" />
+  <Row key="QDS_Max" value="Maximum" />
+  <Row key="NameNotBlank" value="Name should not be blank" />
+  <Row key="Plz_Select_Country" value="Please select a country" />
+  <Row key="EmailId_Password" value="Please enter Email ID and password" />
+  <Row key="AccountNotActivated" value="Your account has not been activated yet. Kindly click on the activation link in the mail to verify your Email ID." />
+  <Row key="Successfully_login" value="Successfully login" />
+  <Row key="Regenerate_Link" value="Email verification time has been expired. Please regenerate the activation link by clicking on below link. An email will be sent to you click on the link in the email to verify your Email ID." />
+  <Row key="Invalid_Credentials" value="Invalid Credentials" />
+  <Row key="Internal_Error" value="Server Error" />
+  <Row key="Please_verify" value="Sign up process is successful. Please verify your Email ID by clicking on the activation link in the email." />
+  <Row key="Details_Updated" value="Your details have been updated." />
+  <Row key="Enter_EmailId" value="Please enter Email ID." />
+  <Row key="EmailId_Mandatory" value="Email ID is a mandatory field." />
+  <Row key="EmailId_Format" value="Invalid Email ID format" />
+  <Row key="Name_Mandatory" value="Name is a mandatory field" />
+  <Row key="Enter_Password" value="Please enter the password" />
+  <Row key="Password_Length" value="Please enter a password longer than 8 characters" />
+  <Row key="Confirm_Password_Msg" value="Please confirm the password" />
+  <Row key="ReEnter_Password" value="Password and confirm password did not match" />
+  <Row key="AccountActivation" value="Congratulation! Your account has been activated." />
+  <Row key="Time_Expire" value="Verification time for your Email ID has been expired." />
+  <Row key="Token_Expire" value="Given Email ID is already verified." />
+  <Row key="ID_Not_Registered" value="Given Email ID is not registered" />
+  <Row key="OldPassword_Wrong" value="Old password is wrong." />
+  <Row key="Password_Changed" value="Password has been changed." />
+  <Row key="Account_Not_Exist" value="Email ID does not exist in our records." />
+  <Row key="Db_Adm_Name" value="Database administrator Name" />
+  <Row key="Db_Adm_Institution" value="Database administrator Institution" />
+  <Row key="Db_Adm_Email" value="Database administrator Email" />
+  <Row key="Desktop_Ver_Avl" value="Desktop version available" />
+  <Row key="Old_Password" value="Old Password" />
+  <Row key="New_Password" value="New Password" />
+  <Row key="Hide_Data" value="Hide Data" />
+  <Row key="Enable_QDS_Gallery" value="Enable Gallery in QDS" />
+  <Row key="REMOVE_FROM_DATA_CART" value="Remove" />
+  <Row key="Color_1" value="Color 1" />
+  <Row key="Dataview" value="Data View" />
+  <Row key="LineChartHelpText" value="&amp;lt;b&amp;gt;Not getting the line visualization you want? Make sure you've :&amp;lt;/b&amp;gt;&amp;lt;BR&amp;gt;&amp;lt;BR&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;BR&amp;gt;&amp;lt;BR&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Total count of data values less than 1000&amp;lt;BR&amp;gt;&amp;lt;BR&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;" />
+  <Row key="box_blw_txt_one" value="The Catalog section allows users to scroll through the various DevInfo adaptations either by location or by DevInfo version." />
+  <Row key="box_blw_txt_two" value="Basic information for each adaptation such as the number of geographical areas, time period, and contact information will be provided (for the latter, click on the “i” next to the adaptation name)." />
+  <Row key="box_blw_txt_thr" value="If an adaptation is available online, users will be able to access them by clicking directly on the adaptation name." />
+  <Row key="QDS_Results" value="Results" />
+  <Row key="QDS_TimeTaken" value="Time taken" />
+  <Row key="QDS_Seconds" value="seconds" />
+  <Row key="Mapping_Page_Title" value="Mapping" />
+  <Row key="Mapping_Page_Desc" value="Mapping of DevInfo Codes and Concepts against UNSD Codes and Concepts, to help generate SDMX-ML/Metadata Reports from DevInfo database that are compliant against UNSD\'s DSD/MSD." />
+  <Row key="Codelist" value="Codelist" />
+  <Row key="Mapping_Of_DevInfo_And_UNSD_Codelists" value="Mapping of DevInfo against UNSD Codelists" />
+  <Row key="Mapping_Of_DevInfo_And_UNSD_Codelists_Desc" value="Mapping of DevInfo Codelists' codes against UNSD Codelists' codes. The indicators mapped here govern the number of I-U-S that are shown on IUS Mapping screen. These mappings are also used to preselect values on IUS Mapping screen." />
+  <Row key="IndicatorMapping" value="Indicator Mapping " />
+  <Row key="UnitMapping" value="Unit Mapping " />
+  <Row key="AgeMapping" value="Age Mapping " />
+  <Row key="SexMapping" value="Sex Mapping " />
+  <Row key="LocationMapping" value="Location Mapping " />
+  <Row key="Mapping_Of_DevInfo_And_UNSD_IUS" value="Mapping of DevInfo I-U-S against UNSD Codelists" />
+  <Row key="Mapping_Of_DevInfo_And_UNSD_IUS_Desc" value="Mapping of DevInfo I-U-S combinations against UNSD Codelists' codes. This mapping is used to generate SDMX-ML files from DevInfo database that are compliant against UNSD's DSD. The mappings done on Codelist mapping screen are used to pre select values, bu" />
+  <Row key="IUS_Mapping" value="IUS Mapping " />
+  <Row key="Mapping_Of_DevInfo_And_UNSD_Metadata" value="Mapping of DevInfo against UNSD Metadata Concepts" />
+  <Row key="Mapping_Of_DevInfo_And_UNSD_Metadata_Desc" value="Mapping of DevInfo Metadata Concept Schemes' concepts against UNSD Metadata Concept Schemes' concepts. This mapping is used to generate Metadata Reports from DevInfo database that are compliant against UNSD's MSD." />
+  <Row key="Metadata_Mapping" value="Metadata Mapping " />
+  <Row key="Show_All" value="Show All" />
+  <Row key="Mapped" value="Mapped" />
+  <Row key="UnMapped" value="UnMapped" />
+  <Row key="UnSaved" value="UnSaved" />
+  <Row key="DevInfo_Indicator" value="DevInfo Indicator" />
+  <Row key="Indicator_GIds" value="Indicator GIds" />
+  <Row key="UNSD_Indicator" value="UNSD Indicator" />
+  <Row key="Indicator_Ids" value="Indicator Ids" />
+  <Row key="Search_Indicator" value="Search Indicator" />
+  <Row key="Filter_Indicator_Lists" value="Filter Indicator Lists" />
+  <Row key="DevInfo_Unit" value="DevInfo Unit" />
+  <Row key="Unit_GIds" value="Unit GIds" />
+  <Row key="UNSD_Unit" value="UNSD Unit" />
+  <Row key="Unit_Ids" value="Unit Ids" />
+  <Row key="Search_Unit" value="Search Unit" />
+  <Row key="Filter_Unit_Lists" value="Filter Unit Lists" />
+  <Row key="DevInfo_Age" value="DevInfo Age" />
+  <Row key="Age_GIds" value="Age GIds" />
+  <Row key="UNSD_Age" value="UNSD Age" />
+  <Row key="Age_Ids" value="Age Ids" />
+  <Row key="Search_Age" value="Search Age" />
+  <Row key="Filter_Age_Lists" value="Filter Age Lists" />
+  <Row key="DevInfo_Sex" value="DevInfo Sex" />
+  <Row key="Sex_GIds" value="Sex GIds" />
+  <Row key="UNSD_Sex" value="UNSD Sex" />
+  <Row key="Sex_Ids" value="Sex Ids" />
+  <Row key="Search_Sex" value="Search Sex" />
+  <Row key="Filter_Sex_Lists" value="Filter Sex Lists" />
+  <Row key="DevInfo_Location" value="DevInfo Location" />
+  <Row key="Location_GIds" value="Location GIds" />
+  <Row key="UNSD_Location" value="UNSD Location" />
+  <Row key="Location_Ids" value="Location Ids" />
+  <Row key="Search_Location" value="Search Location" />
+  <Row key="Filter_Location_Lists" value="Filter Location Lists" />
+  <Row key="Search_IUS" value="Search IUS" />
+  <Row key="Unit" value="Unit" />
+  <Row key="Subgroup" value="Subgroup" />
+  <Row key="Age" value="Age" />
+  <Row key="Sex" value="Sex" />
+  <Row key="Location" value="Location" />
+  <Row key="Frequency" value="Frequency" />
+  <Row key="Source_Type" value="Source Type" />
+  <Row key="Nature" value="Nature" />
+  <Row key="Unit_Multiplier" value="Unit Multiplier" />
+  <Row key="DevInfo_Metadata" value="DevInfo Metadata" />
+  <Row key="Category_GIds" value="Category GIds" />
+  <Row key="UNSD_Metadata" value="UNSD Metadata" />
+  <Row key="Concept_Ids" value="Concept Ids" />
+  <Row key="Search_Metadata" value="Search Metadata" />
+  <Row key="Filter_Metadata_Lists" value="Filter Metadata Lists" />
+  <Row key="List_of_Users" value="List of Users" />
+  <Row key="Provider" value="Provider" />
+  <Row key="Reset" value="Reset" />
+  <Row key="lang_View" value="View" />
+  <Row key="lang_Edit" value="Edit" />
+  <Row key="lang_Delete" value="Delete" />
+  <Row key="lang_Download" value="Download" />
+  <Row key="lang_Data" value="Data" />
+  <Row key="lang_Metadata" value="Metadata" />
+  <Row key="Connection_Name" value="Connection Name" />
+  <Row key="Database_Type" value="Database Type" />
+  <Row key="Created_On" value="Created On" />
+  <Row key="Publisher" value="Publisher" />
+  <Row key="SNo" value="S.No." />
+  <Row key="Details" value="Details" />
+  <Row key="Action" value="Action" />
+  <Row key="Assosciated_DSD_Id_AgencyId_Version" value="Associated DSD(Id-AgencyId-Version)" />
+  <Row key="Admin_CustomParams" value="Custom Parameters (--Optional--)" />
+  <Row key="Area_Level" value="Area Level" />
+  <Row key="MSD_Area_Id" value="MSD Area Id" />
+  <Row key="Notify_Via_Email" value="Notify Via Email" />
+  <Row key="Default_Value_Of_Age_For_Mapping" value="Default Value Of Age For Mapping" />
+  <Row key="Default_Value_Of_Sex_For_Mapping" value="Default Value Of Sex For Mapping" />
+  <Row key="Default_Value_Of_Location_For_Mapping" value="Default Value Of Location For Mapping" />
+  <Row key="Default_Value_Of_Frequency_For_Mapping" value="Default Value Of Frequency For Mapping)" />
+  <Row key="Default_Value_Of_Source_For_Mapping" value="Default Value Of Source For Mapping" />
+  <Row key="Default_Value_Of_Nature_For_Mapping" value="Default Value Of Nature For Mapping" />
+  <Row key="Default_Value_Of_UnitMult_For_Mapping" value="Default Value Of Unit Multiplier For Mapping" />
+  <Row key="Discover_Registrations_Page_Title" value="Discover Registrations" />
+  <Row key="Discover_Registrations_Page_Desc" value="Discover Registrations corresponding to Data Flow Definition, Metadata Flow Definition, Provision Agreement and Data Providers." />
+  <Row key="View_Registrations_by" value="View Registrations by  " />
+  <Row key="Provision_Agreement" value="Provision Agreement" />
+  <Row key="Data_Provider" value="Data Provider" />
+  <Row key="DefaultDSD" value="Default DSD" />
+  <Row key="lang_Provision_Agreement" value="Provision Agreement" />
+  <Row key="lang_Data_Provider" value="Data Provider" />
+  <Row key="lang_DFD_MFD_Short_Form" value="DFD/MFD  " />
+  <Row key="lang_Provider" value="Provider  " />
+  <Row key="lang_No_Registration_Found" value="No Registration Found" />
+  <Row key="lang_Next" value="Next" />
+  <Row key="lang_Previous" value="Previous" />
+  <Row key="Label_Row_2" value="Label Row 2" />
+  <Row key="Leader_Line" value="Leader Line" />
+  <Row key="Straight_line" value="Straight line" />
+  <Row key="Fields" value="Fields" />
+  <Row key="SearchingDatabase" value="Searching Database" />
+  <Row key="LoadingResults" value="Loading Results" />
+  <Row key="Gallery_Results" value="Results" />
+  <Row key="Gallery_TimeTaken" value="Time taken" />
+  <Row key="Gallery_Seconds" value="seconds" />
+  <Row key="Gallery_OR" value="Or" />
+  <Row key="DVTotalRecords" value="Total Records  " />
+  <Row key="DVSource" value="Source  " />
+  <Row key="Gallery_moreAreas" value="Areas" />
+  <Row key="Gallery_moreIndicators" value="Indicators" />
+  <Row key="Gallery_moreUDKs" value="Keywords" />
+  <Row key="Gallery_More" value="more" />
+  <Row key="Gallery_ModOn" value="Modified on " />
+  <Row key="Gallery_Description" value="Description " />
+  <Row key="SaveGalleryPopUp" value="Saving..." />
+  <Row key="LoadGalleryPopUp" value="Loading..." />
+  <Row key="LoadVisualization" value="Loading Visualization..." />
+  <Row key="LoadData" value="Loading Data..." />
+  <Row key="DatabaseWithColon" value="Database" />
+  <Row key="DSD_Id_Version_AgencyId" value="DSD[Id(Version, AgencyId)]" />
+  <Row key="ActionWithColon" value="Action" />
+  <Row key="SelectOne" value="--Select One--" />
+  <Row key="GenerateSDMXML" value="Generate SDMX-ML" />
+  <Row key="RegisterSDMXML" value="Register SDMX-ML" />
+  <Row key="GenerateMetadata" value="Generate Metadata" />
+  <Row key="RegisterMetadata" value="Register Metadata" />
+  <Row key="GenerateSDMXMLDescription" value="Generate SDMX-ML files from databases or in case of uploaded DSDs from associated databases." />
+  <Row key="RegisterSDMXMLDescription" value="Register already generated SDMX-ML files." />
+  <Row key="GenerateMetadataDescription" value="Generate Metadata Reports from databases or in case of uploaded DSDs from associated databases." />
+  <Row key="RegisterMetadataDescription" value="Register already generated Metadata Reports." />
+  <Row key="IndicatorWithColon" value="Indicator" />
+  <Row key="AreaWithColon" value="Area" />
+  <Row key="TimeWithColon" value="Time" />
+  <Row key="SourceWithColon" value="Source" />
+  <Row key="SelectDatabase" value="Select Database" />
+  <Row key="Ok" value="Ok" />
+  <Row key="Database" value="Database" />
+  <Row key="EmailSent" value="Email Sent" />
+  <Row key="DVLine" value="Line" />
+  <Row key="DVStackLine" value="Stack line" />
+  <Row key="DVStackLine100" value="Stack line 100%" />
+  <Row key="DVColumn" value="Column" />
+  <Row key="DVStackColumn" value="Stack column" />
+  <Row key="DVStackColumn100" value="Stack column 100%" />
+  <Row key="DVBar" value="Bar" />
+  <Row key="DVStackBar" value="Stack bar" />
+  <Row key="DVStackBar100" value="Stack bar 100%" />
+  <Row key="DVArea" value="Area" />
+  <Row key="DVStackArea" value="Stack area" />
+  <Row key="DVStackArea100" value="Stack area 100%" />
+  <Row key="DVSingleThemeMap" value="Single theme" />
+  <Row key="DVMultipleThemeMap" value="Multiple theme" />
+  <Row key="DVGoogleMap2d" value="Google map 2D" />
+  <Row key="DVGoogleMap3d" value="Google map 3D" />
+  <Row key="DVmapNull" value="Default" />
+  <Row key="DVmapFull" value="Full Extent" />
+  <Row key="DVmapZext" value="Zoom in frame" />
+  <Row key="DVmapZin" value="Zoom In" />
+  <Row key="DVmapZout" value="Zoom Out" />
+  <Row key="DVmapPan" value="Pan" />
+  <Row key="DVmapNud" value="Nudge" />
+  <Row key="ShareYSCTO" value="You should check this out!" />
+  <Row key="ShareDevinfo" value="DevInfo" />
+  <Row key="LineChartDisabled" value="Line chart is disabled when total number of data values are more than 1000" />
+  <Row key="ColumnChartDisabled" value="Column chart is disabled when total number of cells in data grid are greater than 2500" />
+  <Row key="BarChartDisabled" value="Bar chart is disabled when total number of cells in data grid are greater than 2500" />
+  <Row key="AreaChartDisabled" value="Area chart is disabled when total number of cells in data grid are greater than 2500" />
+  <Row key="PieChartDisabled" value="Pie chart is disabled when rows count in data grid is more than 100" />
+  <Row key="MapChartDisabled" value="Map is disabled when area information is not available." />
+  <Row key="PyramidChartDisabled" value="Pyramid is disabled when only one column is available or rows count is greater than 100, in data grid." />
+  <Row key="TreeMapChartDisabled" value="Tree Map is disabled when there are more than 100 distinct values for first column of data grid." />
+  <Row key="RadarChartDisabled" value="Radar is disabled when data columns in grid are lesser than three." />
+  <Row key="ScatterChartDisabled" value="2d Scatter is disabled when data columns are lesser than 2." />
+  <Row key="DefaultDisabled" value="Visualization is disabled." />
+  <Row key="NoRecordsFound" value="No Records Found. " />
+  <Row key="Gallery_View" value="View" />
+  <Row key="Gallery_Download" value="Download" />
+  <Row key="Gallery_Share" value="Share" />
+  <Row key="Gallery_Delete" value="Delete" />
+  <Row key="Home_View" value="View" />
+  <Row key="Home_Download" value="Download" />
+  <Row key="Home_Share" value="Share" />
+  <Row key="Home_Delete" value="Delete" />
+  <Row key="CSI_CSVf" value="Create, Save and Import in CSV format" />
+  <Row key="IOUD_string" value="In order to upload data from an Excel file into DevInfo, it must first be saved as a CSV file. CSV (Comma Separated Value) format simplifies the data entry process for large volumes of data, which are typically disaggregated in numerous ways as well as by" />
+  <Row key="FEDE_string" value="First, enter your data in an Excel spreadsheet using the following format. Note that you can have as many Indicators | Units | Subgroups as you wish." />
+  <Row key="TClickon" value="Then, click on" />
+  <Row key="ASCSV_string" value="and select 'Comma Separated Values (.csv).' You are now able to upload your data in the My Data Section" />
+  <Row key="lang_NoRegistrationsFound" value="No Registrations Found" />
+  <Row key="lang_Message" value="message " />
+  <Row key="lang_Error_Occurred" value="Error Occurred" />
+  <Row key="lang_Msg_Registry_URN" value="Enter value in Registry URN." />
+  <Row key="lang_Msg_NotificationMail_HTTP" value="Atleast one field should contain value Notification Mail or Notification HTTP." />
+  <Row key="lang_Msg_Subscriber_Assigned_Id" value="Enter value in Subscriber Assigned Id." />
+  <Row key="lang_Msg_Start_Date" value="Please Select Start Date." />
+  <Row key="lang_Msg_End_Date" value="Please Select End Date." />
+  <Row key="lang_Msg_Invalid_Email" value="Please enter valid Email Id." />
+  <Row key="lang_Msg_Category" value="Select atleast one category." />
+  <Row key="lang_Msg_MFD" value="Select atleast one Metadata Flow from the list." />
+  <Row key="lang_Msg_Subcription_Details_Cannot_Be_Retrieved" value="Subscription Details cannot be retrieved." />
+  <Row key="lang_Msg_Delete_Subscription" value="Do you really want to delete this subscription?" />
+  <Row key="lang_File_Not_Found" value="File Not Found" />
+  <Row key="lang_Delete_Registration_Confirmation" value="Do you really want to delete this registration?" />
+  <Row key="lang_WADL_Required" value="For a REST Web Service WADL URL is required!" />
+  <Row key="lang_WSDL_Required" value="For a SOAP Web Service WSDL URL is required!" />
+  <Row key="lang_Select_Data_Metadata_Flow" value="Select Data/Metadata Flows!" />
+  <Row key="lang_Provide_WS_Url_Or_SDMXML_File_Url" value="Atleast provide one of Web Service URL or SDMX-ML File URL!" />
+  <Row key="lang_Registration_With_Id" value="Registration With Id  " />
+  <Row key="lang_Deleted_Successfully" value=" deleted Successfully" />
+  <Row key="lang_Msg_Validate_SDMXML" value="Please browse a SDMX-ML file and then click on Validate SDMX-ML button.!" />
+  <Row key="lang_Msg_Validate_DSD" value="Please browse a DSD file and then click on Validate DSD button." />
+  <Row key="lang_Msg_Validate_Metadata" value="Please browse a Metadata Report file and then click on Validate Metadata Report button." />
+  <Row key="lang_Msg_SDMXML_Validation_Scenarios" value="SDMX-ML Validation Scenarios" />
+  <Row key="lang_Msg_SDMXML_Validation_Status" value="SDMX-ML Validation Status" />
+  <Row key="lang_Msg_DSD_Validation_Scenarios" value="DSD Validation Scenarios" />
+  <Row key="lang_Msg_DSD_Validation_Status" value="DSD Validation Status" />
+  <Row key="lang_Msg_Metadata_Report_Validation_Scenarios" value="Metadata Report Validation Scenarios" />
+  <Row key="lang_Msg_Metadata_Report_Validation_Status" value="Metadata Report Validation Status" />
+  <Row key="lang_Msg_Error_Details_Not_Found" value="Error Details Not Found" />
+  <Row key="lang_Msg_Please_Browse_DSD" value="Please browse a DSD to Compare against Master DSD." />
+  <Row key="lang_Msg_Please_Browse_DSD1_And_DSD2" value="Metadata Report Validation Status" />
+  <Row key="lang_Msg_Generating_Report" value="Generating  Report...." />
+  <Row key="lang_Msg_Report_Successfully_Generated" value="Report generated sucessfully.Please download it by clicking on Download Report button." />
+  <Row key="AdapUser_Settings" value="Adaptation User Settings" />
+  <Row key="AdapUser_ChangePassword" value="Change Password" />
+  <Row key="AdapUser_NewPassword" value="New Password" />
+  <Row key="AdapUser_ConfirmPassword" value="Confirm Password" />
+  <Row key="AdapUser_PopChangePassword" value="Change Password" />
+  <Row key="AdapManageUser" value="Manage Adaptation Users" />
+  <Row key="ChooseAdaptation" value="Choose Adaptation" />
+  <Row key="AdapUser_SetAsAdmin" value="Set As Admin" />
+  <Row key="AdapUser_CreateAdminAccount" value="Create Admin Account " />
+  <Row key="NewsMenu" value="Enable News in Menu" />
+  <Row key="InnovationsMenu" value="Enable Innovations in Menu" />
+  <Row key="QDS_Cloud" value="Enable Cloud View in QDS Search" />
+  <Row key="ContactUsMenu" value="Enable Contact us in secondary menu" />
+  <Row key="SupportMenu" value="Enable Support in secondary menu" />
+  <Row key="Activate_UserRegistration" value="User Registration" />
+  <Row key="Activate_AccountActivated" value="Please click on the links below to login to the site" />
+  <Row key="Activate_AccountActivatedSuccess" value="Your account has been activated successfully." />
+  <Row key="Activate_AccountActivatedFailure" value="Some Error Occurred. Please try later" />
+  <Row key="Activate_Login" value="Please click here to login." />
+  <Row key="Activate_Home" value="Please click here to go to the home page" />
+  <Row key="SelectCodeList" value="Select DevInfo Codelist" />
+  <Row key="SelectLocationCodeList" value="Select DevInfo Codelist" />
+  <Row key="MRDFor" value="Most Recent Data For " />
+  <Row key="MailSent" value="A mail has been sent to your Email Id!" />
+  <Row key="IDNotRegistered" value="This Email Id is not registered!" />
+  <Row key="IDRegistered" value="Email Id has been registered." />
+  <Row key="RegisteredForDifferentUser" value="This email id is already registered for a different user!" />
+  <Row key="UserNIDBlank" value="User Nid is blank(Internal Error)" />
+  <Row key="AdminUserNotDeleted" value="Admin user can't be deleted!" />
+  <Row key="InvalidUserNId" value="Invalid UserNId!" />
+  <Row key="UserManagement" value="User Management" />
+  <Row key="GenerateCSVFile" value="Generate CSV File" />
+  <Row key="MenuHomeToolTip" value="Database system endorsed by the United Nations Development Group that enables you to browse, upload, visualize, and share socio-economic data." />
+  <Row key="MenuGalleryToolTip" value="Browse, search, download, and share visualization objects." />
+  <Row key="MenuNewsToolTip" value="Stay up to date with the latest developments, stories from the field, quick facts on development, and webinars." />
+  <Row key="MenuMyDataToolTip" value="Upload your own data or simply copy/paste it to instantly generate visualization objects without creating a database." />
+  <Row key="MenuCatalogToolTip" value="The Catalog section allows users to scroll through the various DevInfo adaptations either by location or by DevInfo version." />
+  <Row key="MenuInnovationsToolTip" value="Download new and emerging DevInfo tools." />
+  <Row key="URL_Share" value="Page URL" />
+  <Row key="DownloadCSVFile" value="Download data in CSV format" />
+  <Row key="RegisterInCatalog" value="Register in Catalog" />
+  <Row key="NewConnectionCheck" value="There can only be one connection associated with the adaptation. Please either remove/edit the existing connection." />
+  <Row key="UpdateUserDetails" value="Update User Details  " />
+  <Row key="Please_UUD" value="Please update your details. " />
+  <Row key="Data_Catalog" value="Data Catalog" />
+  <Row key="GlobalCatalog" value="Global Catalog" />
+  <Row key="langCaptionGCatalog" value="View various DevInfo adaptations either by location or by DevInfo version" />
+  <Row key="Mapping_Not_Found" value="Mapping Not Found" />
+  <Row key="No_Data_Found" value="No Data Found" />
+  <Row key="aGotoDesc" value="Go to the DevInfo home page" />
+  <Row key="aGlobalNewsDesc" value="Explore DevInfo databases from around the world" />
+  <Row key="aGlobalInnovationsDesc" value="See the latest updates on DevInfo" />
+  <Row key="aGlobalCatalogDesc" value="Download new and emerging DevInfo tools" />
+  <Row key="langCountryMenuDevinfo" value="DevInfo" />
+  <Row key="langCountryMenuWorldWide" value="WorldWide" />
+  <Row key="DevInfo_Area" value="DevInfo Area" />
+  <Row key="Area_GIds" value="Area GIds" />
+  <Row key="UNSD_Area" value="UNSD Area" />
+  <Row key="Area_Ids" value="Area Ids" />
+  <Row key="Search_Area" value="Search Area" />
+  <Row key="Filter_Area_Lists" value="Filter Area Lists" />
+  <Row key="AreaMapping" value="Area Mapping" />
+  <Row key="DI7Downloads" value="di Downloads" />
+  <Row key="DI7Training" value="di Training" />
+  <Row key="DI7MapLibrary" value="di Digital Map Library" />
+  <Row key="DI7Worldiwide" value="di Worldwide" />
+  <Row key="DownloadsMenu" value="Enable Downloads in footer" />
+  <Row key="TrainingMenu" value="Enable Training in footer" />
+  <Row key="MapLibraryMenu" value="Enable Map Library in footer" />
+  <Row key="RSSFeedsMenu" value="Enable RSS Feeds" />
+  <Row key="JS_Version" value="JS Version" />
+  <Row key="DiWorldWideMenu" value="Enable DiWorldwide in footer" />
+  <Row key="GoogleAnalyticsID" value="Google Analytics ID" />
+  <Row key="PleaseSelect" value="Please select" />
+  <Row key="NDFFCS" value="No data found for current selections" />
+  <Row key="SWWS" value="Oops! Something is wrong with the selections. Please check the selections!" />
+  <Row key="ImportXML" value="Import XLS File" />
+  <Row key="ExportXML" value="Export XLS File" />
+  <Row key="lang_BtnUploadXLS" value="Upload" />
+  <Row key="Lang_aLogFile" value="Log File" />
+  <Row key="langAboutInfo" value="About DevInfo"/>
+  <Row key="langAboutInfoFeatures" value= "DevInfo Features"/>
+  <Row key="SlideAnimationTime" value="Animation Time (Seconds)" />
+  <Row key="LangToolTipBold" value="Bold" />
+  <Row key="LangToolTipItalic" value="Italic" />
+  <Row key="LangToolTipUnderline" value="Underline" />
+  <Row key="LangToolTipIncreaseFontSize" value="Increase Font Size" />
+  <Row key="LangToolTipDecreaseFontSize" value="Decrease Font Size" />
+  <Row key="LangToolTipFontColor" value="Font Color" />
+  <Row key="LangToolTipFillColor" value="Fill Color" />
+  <Row key="LangToolTipBarsBorderColor" value="Bars Border Color" />
+  <Row key="LangToolTipBarBorderLineWidth" value="Bar's Border Line Width" />
+  <Row key="LangToolTipDashType" value="Dash Type" />
+  <Row key="LangToolTipNoBorderIcon" value="No Border Icon"/>
+  <Row key="LangToolTipFillColor1" value="Fill Color1" />
+  <Row key="LangToolTipChangeSeriesColor" value="Change Series Color" />
+  <Row key="LangToolTipChangeThemeColor" value="Change Theme Color" />
+  <Row key="LangToolTipCustomTextDirection45Text" value="45° Text Direction" />
+  <Row key="LangToolTipCustomTextDirectionMinus45Text" value="-45° Text Direction" />
+  <Row key="LangToolTipCustomTextDirection90Text" value="90° Text Direction" />
+  <Row key="LangToolTipCustomTextDirectionMinus90Text" value="-90° Text Direction " />
+  <Row key="LangToolTipCustomTextHorizontal" value="Horizontal Text Direction" />
+  <Row key="LangToolTipHideSettingBar" value="Hide Setting Bar" />
+  <Row key ="LangToolTipShowSettingBar" value ="Show Setting Bar"/>
+  <Row key="LangToolTipHideFilterpanel" value="Hide Filter Panel" />
+  <Row key="LangToolTipShowFilterPanel" value="Show Filter Panel" />
+  <Row key="LangToolTipSortAtoZ" value="Sort A to Z" />
+  <Row key="LangToolTipSortZtoA" value="Sort Z to A" />
+  <Row key="LangTooltipRSS" value="RSS" />
+  <Row key="LangToolTipExpandGeneralSetting" value="Expand General Setting" />
+  <Row key="LangToolTipExpandFormatSetting" value="Expand Format Setting " />
+  <Row key="LangToolTipToolTipExpandSeriesSetting" value="Expand Theme Setting" />
+  <Row key="LangGenerateSiteMap" value="Generate Site Map"/>
+  <Row key="LangUpdateNote" value="Updation will reuire, optimization of database in next the step" />
+  <Row key="Lang_preference" value="Language Preference" />
+  <Row key="Help_Lang_Pref_Title" value="Language Preference" />
+  <Row key="Help_Lang_Pref_Desc" value="Select the preferred language for the notification(s)" />
+  <Row key="langDBLanguage" value="Database Language"/>
+  <Row key="langCountryName" value="Country"/>
+  <Row key="langRegionName" value="Region" />
+  <Row key="langAdaptationYear" value="Adaptation Year" />
+  <Row key="LangDbAdminContact" value="Contact Of Database Administrator" />
+  <Row key="LangEmail" value="Email" />
+
+  <Row key="UseMapServer" value="Use Map Server" />
+  <Row key="FAQ" value="FAQ" />
+  <Row key="GeneralFAQ" value="General" />
+  <Row key="AppSpecificFAQ" value="Application Specific" />
+  <Row key="AppSettingFAQ" value="Show FAQ in footer" />
+  <Row key="MapServerToolTip" value="It seems there are some areas in your data which do not have matching area names and maps in the database. Use Map Server database to find your areas and maps." />
+  <Row key="MapSHeading" value="Unmatched areas found" />
+  <Row key="MapSDesc1" value="It seems there are some areas in your data which do not have matching area names and maps in the database. You may also try 'Map server database' to find your areas and maps." />
+  <Row key="MapSDesc2" value="Use Map server database ?" />
+  <Row key="LangNewsHeaderDesc" value="Latest database releases and important announcements." />
+  <Row key="LangActionHeaderDesc" value="Stories from the field highlighting use of DevInfo." />
+  <Row key="LangFactsHeaderDesc" value="Facts relating to the Millennium Development Goals" />
+  <Row key="Lang_HddEdit" value="Edit Menu Category"/>
+  <Row key="Lang_HddAdd" value="Add Menu Category" />
+  <Row key ="Lang_SpnMenuCategory" value="Menu Category"/>
+  <Row key ="Lang_SpnMenuLinkText" value ="Left Link Text"/>
+  <Row key="Lang_SpnMenuHeader" value="Header Text" />
+  <Row key ="Lang_SpnMenuHeaderDesc" value="Header Description"/>
+  <Row key ="LinkManageCategories" value="Manage Categories"/>
+  <Row key ="SpanMenuCategoryHeading" value="Menu Categories Settings"/>
+  <Row key ="Lang_SpanHeaderDesc" value="Manage menu categories"/>
+  <Row key ="Lang_SpanAvalableCat" value="Available Menu Categories"/>
+  <Row key ="lang_ToolTipMovDown" value="Move menu categories Down"/>
+  <Row key ="lang_ToolTipMovUp" value="Move menu categories Up"/>
+  <Row key ="Mydata_LangAreaName" value="Area Name"/>
+  <Row key ="Mydata_LangTimePeriod" value="Time Period"/>
+  <Row key ="Mydata_LangAreaId" value="Area Id"/>
+  <Row key="langHowToVideo" value="How to video" />
+  <Row key="ShowHowToVideoOnHome" value="Show on home page" />
+  <Row key="ShowHowToVideoOnVisualizer" value="Show on visualizer page" />
+  <Row key="Texten" value="English" />
+  <Row key="Textfr" value="French" />
+  <Row key="Textes" value="Spanish" />
+  <Row key="Textru" value="Russian" />
+  <Row key="Textzh" value="Chinese" />
+  <Row key="Textar" value="Arabic" />
+  <Row key="Lang_ToolTipShowVideo" value="How To Video"/>
+  <Row key="Lang_MenuCategory_Alert" value="Menu Category is empty"/>
+  <Row key="Lang_MenuLinkText_Alert" value="left link is empty"/>
+  <Row key="Lang_MenuHeader_Alert" value="header is empty"/>
+  <Row key="Lang_MenuHeaderDesc_Alert" value="Desc is empty"/>
+  <Row key="Subscribe" value="Subscribe"/>
+  <Row key="WorldwideH1" value="di Worldwide"/>
+  <Row key="WorldwideH2" value="di Adaptations"/>
+  <Row key="WorldwideH3" value="Countries using DevInfo"/>
+  <Row key="WorldwideH4" value="Others using DevInfo"/>
+  <Row key="HowToVideo_DataView" value="How to video"/>
+  <Row key="HowToVideos" value="How to videos"/>
+  <Row key="ShowHowToVideo" value="Enable How to video in footer"/> 
+  <Row key="SiteMapMainHeading" value="Sitemap" />
+  <Row key="SiteMapMainHeading" value="Show sitemap in footer" />
+  <Row key="timeLineChkBoxValue" value="Timeline Animator Enabled" />
+  <Row key="disabledTimelineChkBoxTitle" value="Enable Timeline Animator" />
+  <Row key="enabledTimelineChkBoxTitle" value="Disable Timeline Animator" />
+  <Row key="playAnimatorBtnTitle" value="Play Timeline Animator" />
+  <Row key="stopAnimatorBtnTitle" value="Stop Timeline Animator" />
+<Row key="LangMetaTags" value="Meta Tags" />
+<Row key="Lang_Meta_Sitemap" value="Sitemap" />
+<Row key="Lang_MetaTag_Desc" value="Description" />
+<Row key="Lang_MetaTag_Kw" value="Key Word" />
+<Row key="AppSettingKB" value="Show Knowledge Base in footer" />
+<Row key="KnowledgeBase" value="Knowledge Base" />
+<Row key="ChangePassword" value="Change Password" />
+<Row key="ChangeDBPassword" value="Change Database Password" />
+<Row key="ConfirmNewPassword" value="Confirm new password" />  
+<Row key="Enter_Old_Password" value="Please enter the old password" />
+</root>

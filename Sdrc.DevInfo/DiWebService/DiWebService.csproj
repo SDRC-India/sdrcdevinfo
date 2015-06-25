@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4532BAE-9380-4C50-BACE-2A642F73370D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DiWebService</RootNamespace>
+    <AssemblyName>DiWebService</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IncludeIisSettings>false</IncludeIisSettings>
+    <PublishDatabases>true</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="di Worldwide, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\di Worldwide.dll</HintPath>
+    </Reference>
+    <Reference Include="DI_CommonControl, Version=6.1.0.13, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\DI_CommonControl.dll</HintPath>
+    </Reference>
+    <Reference Include="DI_LibBAL, Version=6.1.0.14, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\DI_LibBAL.dll</HintPath>
+    </Reference>
+    <Reference Include="DI_LibDAL, Version=6.1.0.4, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bin\DI_LibDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdaptationUsers.asmx" />
+    <Content Include="AdaptationUsers.asmx.vb" />
+    <Content Include="aspx\PatchInstaller.aspx" />
+    <Content Include="aspx\PatchInstaller.aspx.designer.vb" />
+    <Content Include="aspx\PatchInstaller.aspx.vb" />
+    <Content Include="Catalog.asmx" />
+    <Content Include="Catalog.asmx.vb" />
+    <Content Include="DIClasses\Constants.vb" />
+    <Content Include="DIClasses\DIConnection.vb" />
+    <Content Include="DIClasses\DIUtility.vb" />
+    <Content Include="DIClasses\KMLGen.vb" />
+    <Content Include="DIClasses\PatchInstall.vb" />
+    <Content Include="DIClasses\Queries.vb" />
+    <Content Include="DIClasses\XLSLogGenerator.vb" />
+    <Content Include="DIDBIndexServer\DIDBConstants.vb" />
+    <Content Include="DIDBIndexServer\DIDBSqlOperations.vb" />
+    <Content Include="DIDBIndexServer\Enums.vb" />
+    <Content Include="DIDBIndexServer\Queries\RegisteredDatabases\DeleteQuery.vb" />
+    <Content Include="DIDBIndexServer\Queries\RegisteredDatabases\InsertQuery.vb" />
+    <Content Include="DIDBIndexServer\Queries\RegisteredDatabases\SelectQuery.vb" />
+    <Content Include="DIDBIndexServer\Queries\RegisteredDatabases\UpdateQuery.vb" />
+    <Content Include="DIIndexUtility.asmx" />
+    <Content Include="DIIndexUtility.asmx.vb" />
+    <Content Include="DIOnlineDatabases.asmx" />
+    <Content Include="DIOnlineDatabases.asmx.vb" />
+    <Content Include="diuilib\1.9\css\area\di.ar.ui.custom.css" />
+    <Content Include="diuilib\1.9\css\area\di.area.tree.min.css" />
+    <Content Include="diuilib\1.9\css\dbs\di.dbs.css" />
+    <Content Include="diuilib\1.9\css\diuilibcommon.css" />
+    <Content Include="diuilib\1.9\css\divc\col1.png" />
+    <Content Include="diuilib\1.9\css\divc\col2.png" />
+    <Content Include="diuilib\1.9\css\divc\di.base.css" />
+    <Content Include="diuilib\1.9\css\divc\di.cloud.css" />
+    <Content Include="diuilib\1.9\css\divc\di.divc.css" />
+    <Content Include="diuilib\1.9\css\divc\di.treemap.css" />
+    <Content Include="diuilib\1.9\css\jcpicker\di.mooRainbow.css" />
+    <Content Include="diuilib\1.9\css\jqcp\di.jq.colorpicker.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\pivot_style.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\grid.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\hover.htc" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\pivot.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\rdftabs.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\timeline.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\webclip.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\webdav.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\winmac.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\winms.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\winods.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\winrect.css" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\winround.css" />
+    <Content Include="diuilib\1.9\css\qds\di.qds.css" />
+    <Content Include="diuilib\1.9\css\search\di.search.css" />
+    <Content Include="diuilib\1.9\images\#close.gif" />
+    <Content Include="diuilib\1.9\images\ajax-loader.gif" />
+    <Content Include="diuilib\1.9\images\areamap_mode.png" />
+    <Content Include="diuilib\1.9\images\bigfont.PNG" />
+    <Content Include="diuilib\1.9\images\bold.PNG" />
+    <Content Include="diuilib\1.9\images\btn_list.gif" />
+    <Content Include="diuilib\1.9\images\bttn_left_cornor.PNG" />
+    <Content Include="diuilib\1.9\images\bttn_middle_cornor.PNG" />
+    <Content Include="diuilib\1.9\images\bttn_midle_cornor1.PNG" />
+    <Content Include="diuilib\1.9\images\bttn_right_cornor.PNG" />
+    <Content Include="diuilib\1.9\images\callout-tip.png" />
+    <Content Include="diuilib\1.9\images\close.png" />
+    <Content Include="diuilib\1.9\images\close_h.png" />
+    <Content Include="diuilib\1.9\images\close_icon.gif" />
+    <Content Include="diuilib\1.9\images\color.PNG" />
+    <Content Include="diuilib\1.9\images\cross.gif" />
+    <Content Include="diuilib\1.9\images\cross.png" />
+    <Content Include="diuilib\1.9\images\di_close_bttn.png" />
+    <Content Include="diuilib\1.9\images\di_search_sprite.png" />
+    <Content Include="diuilib\1.9\images\down-arrow.png" />
+    <Content Include="diuilib\1.9\images\downArrow.gif" />
+    <Content Include="diuilib\1.9\images\fallback-cont_box_bg.jpg" />
+    <Content Include="diuilib\1.9\images\font_style_img.jpg" />
+    <Content Include="diuilib\1.9\images\font_style_img.PNG" />
+    <Content Include="diuilib\1.9\images\icon_axislabels.jpg" />
+    <Content Include="diuilib\1.9\images\icon_axislabels.PNG" />
+    <Content Include="diuilib\1.9\images\icon_cpicker.PNG" />
+    <Content Include="diuilib\1.9\images\icon_cross.gif" />
+    <Content Include="diuilib\1.9\images\icon_seriessetting.PNG" />
+    <Content Include="diuilib\1.9\images\icon_vcposition.PNG" />
+    <Content Include="diuilib\1.9\images\imeta.png" />
+    <Content Include="diuilib\1.9\images\italic.PNG" />
+    <Content Include="diuilib\1.9\images\jcpicker\blank.gif" />
+    <Content Include="diuilib\1.9\images\jcpicker\moor_arrows.gif" />
+    <Content Include="diuilib\1.9\images\jcpicker\moor_boverlay.png" />
+    <Content Include="diuilib\1.9\images\jcpicker\moor_cursor.gif" />
+    <Content Include="diuilib\1.9\images\jcpicker\moor_slider.png" />
+    <Content Include="diuilib\1.9\images\jcpicker\moor_woverlay.png" />
+    <Content Include="diuilib\1.9\images\jcpicker\submit_but_bg.gif" />
+    <Content Include="diuilib\1.9\images\jqcp\bg.gif" />
+    <Content Include="diuilib\1.9\images\jqcp\blank.gif" />
+    <Content Include="diuilib\1.9\images\jqcp\colormap.gif" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_background.png" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_hex.png" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_hsb_b.png" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_hsb_h.png" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_hsb_s.png" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_indic.gif" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_overlay.png" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_rgb_b.png" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_rgb_g.png" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_rgb_r.png" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_select.gif" />
+    <Content Include="diuilib\1.9\images\jqcp\colorpicker_submit.png" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_background.png" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_hex.png" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_hsb_b.png" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_hsb_h.png" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_hsb_s.png" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_indic.gif" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_rgb_b.png" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_rgb_g.png" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_rgb_r.png" />
+    <Content Include="diuilib\1.9\images\jqcp\custom_submit.png" />
+    <Content Include="diuilib\1.9\images\jqcp\select.png" />
+    <Content Include="diuilib\1.9\images\jqcp\select2.png" />
+    <Content Include="diuilib\1.9\images\jqcp\slider.png" />
+    <Content Include="diuilib\1.9\images\jqcp\submit_but_bg.gif" />
+    <Content Include="diuilib\1.9\images\jscolor\arrow.gif" />
+    <Content Include="diuilib\1.9\images\jscolor\cross.gif" />
+    <Content Include="diuilib\1.9\images\jscolor\hs.png" />
+    <Content Include="diuilib\1.9\images\layouts.PNG" />
+    <Content Include="diuilib\1.9\images\left_play_hover.png" />
+    <Content Include="diuilib\1.9\images\left_play_normal.png" />
+    <Content Include="diuilib\1.9\images\list_view_icon.gif" />
+    <Content Include="diuilib\1.9\images\loading_img.gif" />
+    <Content Include="diuilib\1.9\images\PagingFirst.gif" />
+    <Content Include="diuilib\1.9\images\PagingLast.gif" />
+    <Content Include="diuilib\1.9\images\PagingNext.gif" />
+    <Content Include="diuilib\1.9\images\PagingPrev.gif" />
+    <Content Include="diuilib\1.9\images\position.gif" />
+    <Content Include="diuilib\1.9\images\print.PNG" />
+    <Content Include="diuilib\1.9\images\print_compn.PNG" />
+    <Content Include="diuilib\1.9\images\print_h.png" />
+    <Content Include="diuilib\1.9\images\rightArrow.gif" />
+    <Content Include="diuilib\1.9\images\right_play_hover.png" />
+    <Content Include="diuilib\1.9\images\right_play_normal.png" />
+    <Content Include="diuilib\1.9\images\rot_1.PNG" />
+    <Content Include="diuilib\1.9\images\rot_2.PNG" />
+    <Content Include="diuilib\1.9\images\rot_3.PNG" />
+    <Content Include="diuilib\1.9\images\rot_4.PNG" />
+    <Content Include="diuilib\1.9\images\rot_5.PNG" />
+    <Content Include="diuilib\1.9\images\rot_6.PNG" />
+    <Content Include="diuilib\1.9\images\rounded.gif" />
+    <Content Include="diuilib\1.9\images\rtl\ar\ui-icons_222222_256x240.png" />
+    <Content Include="diuilib\1.9\images\save_gallery.png" />
+    <Content Include="diuilib\1.9\images\search.gif" />
+    <Content Include="diuilib\1.9\images\search.png" />
+    <Content Include="diuilib\1.9\images\searchBox.gif" />
+    <Content Include="diuilib\1.9\images\searchbox.jpg" />
+    <Content Include="diuilib\1.9\images\search_middle.png" />
+    <Content Include="diuilib\1.9\images\select_menubg.gif" />
+    <Content Include="diuilib\1.9\images\sformat.gif" />
+    <Content Include="diuilib\1.9\images\sformat.PNG" />
+    <Content Include="diuilib\1.9\images\share.png" />
+    <Content Include="diuilib\1.9\images\share_compn.PNG" />
+    <Content Include="diuilib\1.9\images\share_h.png" />
+    <Content Include="diuilib\1.9\images\SliderGrip.gif" />
+    <Content Include="diuilib\1.9\images\spacer.gif" />
+    <Content Include="diuilib\1.9\images\srch_bg.gif" />
+    <Content Include="diuilib\1.9\images\srch_l.gif" />
+    <Content Include="diuilib\1.9\images\srch_r.gif" />
+    <Content Include="diuilib\1.9\images\submit_but_bg.gif" />
+    <Content Include="diuilib\1.9\images\submit_but_bg.png" />
+    <Content Include="diuilib\1.9\images\tab_bg.jpg" />
+    <Content Include="diuilib\1.9\images\tab_bg_blue.gif" />
+    <Content Include="diuilib\1.9\images\tab_bg_red.gif" />
+    <Content Include="diuilib\1.9\images\tab_bg_red_hover.gif" />
+    <Content Include="diuilib\1.9\images\tree_enlarge_icon.gif" />
+    <Content Include="diuilib\1.9\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="diuilib\1.9\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="diuilib\1.9\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="diuilib\1.9\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="diuilib\1.9\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="diuilib\1.9\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="diuilib\1.9\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="diuilib\1.9\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="diuilib\1.9\images\ui-icons_222222_256x240.png" />
+    <Content Include="diuilib\1.9\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="diuilib\1.9\images\ui-icons_454545_256x240.png" />
+    <Content Include="diuilib\1.9\images\ui-icons_888888_256x240.png" />
+    <Content Include="diuilib\1.9\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="diuilib\1.9\images\underline.PNG" />
+    <Content Include="diuilib\1.9\images\up_arrow.png" />
+    <Content Include="diuilib\1.9\images\view Selection.JPG" />
+    <Content Include="diuilib\1.9\images\view_sel.PNG" />
+    <Content Include="diuilib\1.9\js\area\di.area.js" />
+    <Content Include="diuilib\1.9\js\area\di.areabymap.js" />
+    <Content Include="diuilib\1.9\js\dbs\di.dbs.js" />
+    <Content Include="diuilib\1.9\js\dbs\di.jquery.jcarousel.js" />
+    <Content Include="diuilib\1.9\js\di.easytooltip.js" />
+    <Content Include="diuilib\1.9\js\di.jquery-1.4.4.js" />
+    <Content Include="diuilib\1.9\js\di.jquery-ui-1.8.12.custom.min.js" />
+    <Content Include="diuilib\1.9\js\di.jquery.form.js" />
+    <Content Include="diuilib\1.9\js\di.jquery.transform.js" />
+    <Content Include="diuilib\1.9\js\di.json2.js" />
+    <Content Include="diuilib\1.9\js\di.ui.tree.js" />
+    <Content Include="diuilib\1.9\js\diuilibcommon.js" />
+    <Content Include="diuilib\1.9\js\divc\#di.map.js" />
+    <Content Include="diuilib\1.9\js\divc\di.area.js" />
+    <Content Include="diuilib\1.9\js\divc\di.bar.js" />
+    <Content Include="diuilib\1.9\js\divc\di.cbl.js" />
+    <Content Include="diuilib\1.9\js\divc\di.cloud.js" />
+    <Content Include="diuilib\1.9\js\divc\di.column.js" />
+    <Content Include="diuilib\1.9\js\divc\di.donut.js" />
+    <Content Include="diuilib\1.9\js\divc\di.exporting.js" />
+    <Content Include="diuilib\1.9\js\divc\di.highcharts.js" />
+    <Content Include="diuilib\1.9\js\divc\di.jit.js" />
+    <Content Include="diuilib\1.9\js\divc\di.jscolor.js" />
+    <Content Include="diuilib\1.9\js\divc\di.line.js" />
+    <Content Include="diuilib\1.9\js\divc\di.map.js" />
+    <Content Include="diuilib\1.9\js\divc\di.map25April_2013.js" />
+    <Content Include="diuilib\1.9\js\divc\di.pd.js" />
+    <Content Include="diuilib\1.9\js\divc\di.pie.js" />
+    <Content Include="diuilib\1.9\js\divc\di.pyramid.js" />
+    <Content Include="diuilib\1.9\js\divc\di.radar.js" />
+    <Content Include="diuilib\1.9\js\divc\di.scatter.js" />
+    <Content Include="diuilib\1.9\js\divc\di.scatter3d.js" />
+    <Content Include="diuilib\1.9\js\divc\di.swfobject.js" />
+    <Content Include="diuilib\1.9\js\divc\di.treemap.js" />
+    <Content Include="diuilib\1.9\js\ind\di.indicator.js" />
+    <Content Include="diuilib\1.9\js\jcpicker\di.mooRainbow.js" />
+    <Content Include="diuilib\1.9\js\jcpicker\di.mootools.v1.11.js" />
+    <Content Include="diuilib\1.9\js\jcpicker\mootools-core-1.4.1-full-nocompat.js" />
+    <Content Include="diuilib\1.9\js\jqcp\di.jq.colorpicker.js" />
+    <Content Include="diuilib\1.9\js\jqcp\di.jq.colorpicker.min.js" />
+    <Content Include="diuilib\1.9\js\jqcp\di.jq.eye.js" />
+    <Content Include="diuilib\1.9\js\jquery-latest.js" />
+    <Content Include="diuilib\1.9\js\lsc\di.lsc.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\#pivot.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\ajax.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\ajax2.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\anchor.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\animation.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\barchart.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\bezier.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\bindings.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\bootstrap.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\calendar.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\canvas.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\color.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\combobox.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\combobutton.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\combolist.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\connection.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\Copy of pivot.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\crypto.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\customGoogleLoader.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\customYahooLoader.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\datasource.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\dav.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\declarative.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\dereference.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\dialog.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\dimmer.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\dock.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\drag.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\dstransport.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\fisheye.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\form.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\formobject.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\fresnel.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\geometry.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\ghostdrag.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\gmapapi.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\graph.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\graphsidebar.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\graphsvg.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\grid.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\instant.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\jsobj.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\json.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\keyboard.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\layers.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\linechart.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\loader.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\macwin.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\map.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\menu.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\msapi.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\mswin.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\n3.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\notify.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\OpenLayers.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\panelbar.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\piechart.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\pivot - 20Jun12.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\pivot - Copy - Old.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\pivot - Copy.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\pivot.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\profiler.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\quickedit.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\rdf.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\rdfbrowser.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\rdfmini.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\rdfstore.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\rdftabs.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\rectwin.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\resize.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\rotator.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\roundwin.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\rssreader.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\schema.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\simplefx.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\slidebar.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\slider.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\soap.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\sparkline.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\sparql.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\sqlquery.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\statistics.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\svg.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\svgsparql.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\tab.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\tagcloud.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\ticker.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\timeline.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\tlscale.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\toolbar.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\tree.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\upload.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\validation.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\webclip.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\webclipbinding.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\win.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\window.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\ws.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\xml.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\xmla.js" />
+    <Content Include="diuilib\1.9\js\oatgrid\ymapapi.js" />
+    <Content Include="diuilib\1.9\js\qds\di.qds.js" />
+    <Content Include="diuilib\1.9\js\saveSvgAsPng.js" />
+    <Content Include="diuilib\1.9\js\search\di.search.js" />
+    <Content Include="diuilib\1.9\js\sg\di.subgroup.js" />
+    <Content Include="diuilib\1.9\js\swfobject.js" />
+    <Content Include="diuilib\1.9\swf\RadarChart.swf" />
+    <Content Include="diuilib\diuilibcommon.js" />
+    <Content Include="diuilib\diuilibincludes.js" />
+    <Content Include="js\browsr_selector.js" />
+    <Content Include="js\di.jquery-1.4.4.js" />
+    <Content Include="js\PatchInstaller.js" />
+    <Content Include="Library\aspx\PatchInstaller.aspx" />
+    <Content Include="Library\aspx\PatchInstaller.aspx.designer.vb" />
+    <Content Include="Library\aspx\PatchInstaller.aspx.vb" />
+    <Content Include="Library\js\browsr_selector.js" />
+    <Content Include="Library\js\di.jquery-1.4.4.js" />
+    <Content Include="Library\js\PatchInstaller.js" />
+    <Content Include="My Project\Application.Designer.vb" />
+    <Content Include="My Project\Application.myapp" />
+    <Content Include="My Project\AssemblyInfo.vb" />
+    <Content Include="My Project\Resources.Designer.vb" />
+    <Content Include="My Project\Settings.Designer.vb" />
+    <Content Include="PatchInstaller.aspx" />
+    <Content Include="PatchInstaller.aspx.designer.vb" />
+    <Content Include="PatchInstaller.aspx.vb" />
+    <Content Include="SharedFunctions.vb" />
+    <Content Include="Stock\AppSettings.xml" />
+    <Content Include="Stock\css\StatsHTML.css" />
+    <Content Include="Stock\css\Style.css" />
+    <Content Include="Stock\DI7_WebService_Script.sql" />
+    <Content Include="Stock\Images\adm_lft_nav_arrw.png" />
+    <Content Include="Stock\Images\bg_gradient.jpg" />
+    <Content Include="Stock\Images\bg_gradient.png" />
+    <Content Include="Stock\Images\error.png" />
+    <Content Include="Stock\Images\logo.png" />
+    <Content Include="Stock\Images\mask.png" />
+    <Content Include="Stock\Images\processing.gif" />
+    <Content Include="Stock\Images\submit_but_bg.gif" />
+    <Content Include="Stock\Images\tickmark.png" />
+    <Content Include="Stock\Images\tickmark_grey.png" />
+    <Content Include="Stock\jsonM49Countries.txt" />
+    <Content Include="Stock\Patch\PatchInstalMessages.xml" />
+    <Content Include="Stock\Patch\Script_GetAdapt_Areas.sql" />
+    <Content Include="Stock\Patch\Script_GetCatlog_ShowSpecific.sql" />
+    <Content Include="Stock\Patch\Script_GetCatlog_Sorted.sql" />
+    <Content Include="Stock\Patch\Script_GUID_Changes.sql" />
+    <Content Include="Stock\SQLScripts\Adaptations.sql" />
+    <Content Include="Stock\SQLScripts\Areas.sql" />
+    <Content Include="Stock\SQLScripts\FullScript.sql" />
+    <Content Include="Stock\SQLScripts\IndexedAreas.sql" />
+    <Content Include="Stock\SQLScripts\IndexedIndicators.sql" />
+    <Content Include="Stock\SQLScripts\SP_DELETE_CATALOG.sql" />
+    <Content Include="Stock\SQLScripts\SP_GET_ADAPTATION_AREAS.sql" />
+    <Content Include="Stock\SQLScripts\SP_GET_ADAPTATION_NID_AND_DELETE_INDEXED.sql" />
+    <Content Include="Stock\SQLScripts\SP_GET_ADAPTATION_VERSIONS.sql" />
+    <Content Include="Stock\SQLScripts\SP_GET_CATALOG.sql" />
+    <Content Include="Stock\SQLScripts\SP_GET_CATALOG_CACHE_RESULTS_EN.sql" />
+    <Content Include="Stock\SQLScripts\SP_GET_M49_COUNTRIES.sql" />
+    <Content Include="Stock\SQLScripts\SP_GET_MATCHED_INDEXED_AREAS.sql" />
+    <Content Include="Stock\SQLScripts\SP_GET_MATCHED_INDEXED_INDICATORS.sql" />
+    <Content Include="Stock\SQLScripts\SP_INSERT_CATALOG.sql" />
+    <Content Include="Stock\SQLScripts\SP_UPDATE_CATALOG.sql" />
+    <Content Include="UpdateUserOnlineStatus.aspx" />
+    <Content Include="UpdateUserOnlineStatus.aspx.designer.vb" />
+    <Content Include="UpdateUserOnlineStatus.aspx.vb" />
+    <Content Include="UserLoginInformation.asmx" />
+    <Content Include="UserLoginInformation.asmx.vb" />
+    <Content Include="UserOnlineStatus.asmx" />
+    <Content Include="UserOnlineStatus.asmx.vb" />
+    <Content Include="UserRegistration.asmx" />
+    <Content Include="UserRegistration.asmx.vb" />
+    <Content Include="Utility.asmx" />
+    <Content Include="Utility.asmx.vb" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ws.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="diuilib\1.9\css\oatgrid\styles\Makefile.am" />
+    <Content Include="diuilib\1.9\css\oatgrid\styles\Makefile.in" />
+    <Content Include="diuilib\1.9\images\jcpicker\Thumbs.db" />
+    <Content Include="diuilib\1.9\images\jqcp\Thumbs.db" />
+    <Content Include="diuilib\1.9\images\jscolor\Thumbs.db" />
+    <Content Include="diuilib\1.9\images\rtl\ar\Thumbs.db" />
+    <Content Include="diuilib\1.9\images\Thumbs.db" />
+    <Content Include="diuilib\1.9\js\divc\di.area.js.bak" />
+    <Content Include="diuilib\1.9\js\divc\di.bar.js.bak" />
+    <Content Include="diuilib\1.9\js\divc\di.column.js.bak" />
+    <Content Include="diuilib\1.9\js\divc\di.line.js.bak" />
+    <Content Include="diuilib\1.9\js\divc\di.map.js.bak" />
+    <Content Include="diuilib\1.9\js\divc\di.pyramid.js.bak" />
+    <Content Include="diuilib\1.9\js\divc\di.scatter.js.bak" />
+    <Content Include="diuilib\1.9\js\divc\di.treemap.js.bak" />
+    <Content Include="diuilib\1.9\js\divc\Thumbs.db" />
+    <Content Include="diuilib\1.9\js\oatgrid\Makefile.am" />
+    <Content Include="diuilib\1.9\js\oatgrid\Makefile.in" />
+    <Content Include="diuilib\1.9\js\oatgrid\pivot.js.bak" />
+    <Content Include="diuilib\1.9\js\qds\di.qds.js.bak" />
+    <None Include="My Project\Settings.settings" />
+    <Content Include="Stock\CSVLogs\DI7WS_PatchUpdate_LogFile.xls" />
+    <None Include="Properties\PublishProfiles\devinfo.pubxml" />
+    <None Include="Properties\PublishProfiles\DiWeb.pubxml" />
+    <None Include="Properties\PublishProfiles\DiWebServices.pubxml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\PublishProfiles\sdrcinfowebservices.pubxml" />
+    <None Include="Properties\PublishProfiles\test.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2579</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9990/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:9990/</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <servers defaultServer="">
+            <server name="SelfHostServer" exePath="" cmdArgs="" url="http://localhost:9990/" workingDir="" />
+          </servers>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

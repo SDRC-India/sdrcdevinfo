@@ -1,0 +1,99 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="RegistryMaster.master.cs"
+    Inherits="libraries_aspx_RegistryMaster" MasterPageFile="~/libraries/aspx/HomeMaster.master" %>
+    
+<asp:Content ID="Content1" ContentPlaceHolderID="cphHeadContent" runat="Server">
+<script type="text/javascript">
+    var featureList = ["tab", "panelbar", "dialog"];
+</script>
+<script type="text/javascript">
+    var isFiltersRedrawNeeded = true;
+
+    function ReDrawFiltersPanel() {
+
+    }
+
+    //    equalHeight($(".column"));
+</script>
+
+
+<script type="text/javascript" src="<%=Global.diuilib_url%>/<%=Global.diuilib_version%>/js/oatgrid/loader.js"></script>
+ <link href="../../stock/themes/default/css/chosen.css" rel="stylesheet" type="text/css"/>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="cphMainContent" runat="Server">
+<div id="divRegistryMaster" style="display:none">
+    <script type="text/javascript" src="../js/common.js?v=<%=Global.js_version%>"></script>         
+   <script type="text/javascript" src="../js/sdmx/RegistryMaster.js?v=<%=Global.js_version%>"></script>
+             <div class="content_containers">
+   
+		<h1 class="reg_hdin_main">
+        <span id="spanRegistry" runat="server"><%--Registry--%></span>
+        <span id="spanDSDInUse" runat="server"><%--Data Structure Definition In Use: --%></span>
+        <select id="selectDSDInUse" runat="server" onchange="SelectedDSDChange();"></select>
+        <span><i id="iDSDInUse" runat="server" class="content"><%--Id[AgencyId, Version] - Name--%></i></span></h1>
+        
+        <!-- Registry Navigation Tabs ...starts-->
+        <ul id="reg_nav_tab">
+            <li><a id="aStructure" href="RegStructure.aspx"><%--Data Structure--%></a></li>
+            <li><a id="aData" href="RegData.aspx"><%--Data--%></a></li>
+            <li><a id="aUpload" href="RegUpload.aspx"><%--Upload--%></a></li>   
+            <li><a id="aMapping" href="RegMapping.aspx"><%--Mapping--%></a></li>
+            <li><a id="aPublishData" href="RegPublishData.aspx"><%--class="reg_spcf_bg"Register--%></a></li>
+            <li><a id="aSubscription" href="RegSubscription.aspx"><%--Subscribe--%></a></li>
+            <li><a id="aWSDemo" href="RegWebServiceDemo.aspx"><%--Web Services--%></a></li>            
+            <li><a id="aProviders" href="RegProviders.aspx"><%--Users--%></a></li>
+            <li><a id="aDatabaseManagement" href="RegDatabaseManagement.aspx"><%--Database Management--%></a></li>   
+            <li><a id="aTools" href="RegTools.aspx"><%--Tools--%></a></li> 
+
+            <li style="display:none;"><a id="aStructuralMetadata" href="RegStructure.aspx"><%--Data Structure--%></a></li>
+            <li style="display:none;"><a id="aStructuralMetadataMetadata" href="RegStructuralMD-Metadata.aspx"><%--Metadata Structure--%></a></li>            
+            <li style="display:none;"><a id="aDiscover" href="RegDiscover.aspx" style="display:none;"><%--Discover--%></a></li>
+            <li style="display:none;"><a id="aValidate" href="RegValidation.aspx"><%--Validate--%></a></li>
+            <li style="display:none;"><a id="aCompare" href="RegComparison.aspx"><%--Compare--%></a></li>
+            <li style="display:none;"><a id="aMaintenanceAgency" href="RegMaintenanceAgency.aspx"><%--Maintenance Agency--%></a></li>          
+            <li style="display:none;"><a id="aDataProvider" href="RegDataProvider.aspx"><%-- %>Data Provider--%></a></li>
+            <li style="display:none;"><a id="aDiscoverRegistrations" href="RegDiscoverRegistrations.aspx"><%--Discover Registrations--%></a></li>
+          
+       
+        </ul>
+        <!-- Registry Navigation Tabs ...ends-->
+	<%--	<div class="clear"></div>--%>
+		<!-- Registry Content Area ...starts-->
+		<div id="reg_content_containers" style="width:100%">
+	<%--	<br />--%>
+         <%--   <h2 id="spanPageTitle"></h2><br />--%>
+			<h5 id="pPageDescription"></h5>
+			
+            <!-- Text Alert ...starts-->    
+            <div class="content_logn_txt" id="divNotanAdmin" style="display:none;">
+            <span id="lang_Content_UTHAOAU"><%--Content under this heading is available only to an admin user. To access this content please--%>
+            </span> 
+            <a id="aNotanAdmin" class="content_logn_txt" style="cursor:pointer;" onclick="NotanAdminRedirectToLogin()"><%--Login--%></a>
+            <span id="lang_WA_credentials"><%--with an admin's credentials!--%></span>
+            </div>
+
+            <!-- Text Alert ...starts-->    
+            <div class="content_logn_txt" id="divNotaProvider" style="display:none;"><span id="lang_Content_UTHAODPTU"><!--You are not a dataprovider.--></span> 
+            <a id="aNotaProvider" class="content_logn_txt" style="cursor:pointer;" onclick="RequestAdminForDataProviderRights()"><!--Request--></a> <span id="lang_WDP_credentials"><!-- admin for data provider rights.!--></span></div>
+            
+            <div class="content_logn_txt" id="divNotLoggedIn" style="display:none;"><span id="lang_Content_UTHALU"><!--Content under this heading is available only to a logged in user. Please--> </span>
+            <a id="aNotLoggedIn" class="content_logn_txt" style="cursor:pointer;"><!--Login!--></a></div>	
+            <!-- Text Alert ...ends-->  
+            	  			
+	        <div id="divMainContentContainer" style="display:none;" ><%--//style="display:none;changed on 15 march"--%>
+                <asp:ContentPlaceHolder ID="cphRegistryMainContent" runat="server">
+                </asp:ContentPlaceHolder>		
+	        </div>
+
+		</div>
+		<!-- Registry Content Area ...ends-->
+    </div>
+
+    <script type="text/javascript">
+        LoadLanguage(readCookie("hlngcode"));
+        LoadLanguage(readCookie("hlngcode"), "HomeMaster");
+        LoadLanguage(readCookie("hlngcode"), "RegistryMaster");
+    </script>
+</div>
+
+</asp:Content>
+

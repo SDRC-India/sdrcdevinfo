@@ -1,0 +1,1 @@
+Dear USERNAME,<br /><br />You have been successfully registered to ADAPTATIONNAME ( ADAPTATIONURL ). Go to given link to activate your account.<br /><br /> ACTIVATIONLINK <br /><br />Thank You.<br /><br />With Best Regards,<br /><br />Admin<br /><br />ADAPTATIONNAME

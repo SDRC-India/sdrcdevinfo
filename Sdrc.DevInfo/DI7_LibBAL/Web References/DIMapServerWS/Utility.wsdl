@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://DIworldwide/DIWWS/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://DIworldwide/DIWWS/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://DIworldwide/DIWWS/">
+      <s:element name="GetCountryListValues">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCountryListValuesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCountryListValuesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterAllUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="organization" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="country" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="firstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="contactDetails" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterAllUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegisterAllUserResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCountryFactInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="countryName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FocalPoint" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FocalPointEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementingAgency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HomepageURL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Databases" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Website" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastUpdated" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="countryFactSheetURL" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCountryFactInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateCountryFactInfoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateKML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KMLType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateKMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateKMLResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCountry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Country_Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Country_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Longitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Latitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CountryFlag_URL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CountryFactSheet_URL" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCountryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateCountryResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCountryAdaptation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CountryName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptationName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdaptationVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FocalPoint" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FocalPointEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImplementingAgency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HomepageURL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Databases" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Website" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastUpdated" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCountryAdaptationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateCountryAdaptationResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateAdaptation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Adaptation_Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Adaptation_Ver" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateAdaptationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateAdaptationResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdaptationCount">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAdaptationCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetAdaptationCountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOnlineUserCount">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetOnlineUserCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetOnlineUserCountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetActivationCount">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetActivationCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetActivationCountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GenerateStatsHTML">
+        <s:complexType />
+      </s:element>
+      <s:element name="GenerateStatsHTMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateStatsHTMLResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDIFTPInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FTPType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="FTPReturnObject">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="FTPHost" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FTPUserName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FTPPassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FTPDirectory" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetDIFTPInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDIFTPInfoResult" type="tns:FTPReturnObject" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSDMXRegistryURL">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSDMXRegistryURLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSDMXRegistryURLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDatabaseDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DBType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DbDetailsReturnObject">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ServerType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PortNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DatabaseName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetDatabaseDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDatabaseDetailsResult" type="tns:DbDetailsReturnObject" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetValueByKey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetValueByKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetValueByKeyResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExtractShapeInfoXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="databaseServerPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="outputServerPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tempServerFolder" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExtractShapeInfoXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ExtractShapeInfoXMLResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMapServerConnection">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMapServerConnectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMapServerConnectionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMapServerDirectory">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMapServerDirectoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMapServerDirectoryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="boolean" type="s:boolean" />
+      <s:element name="anyType" nillable="true" />
+      <s:element name="int" type="s:int" />
+      <s:element name="FTPReturnObject" nillable="true" type="tns:FTPReturnObject" />
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DbDetailsReturnObject" nillable="true" type="tns:DbDetailsReturnObject" />
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCountryListValuesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCountryListValues" />
+  </wsdl:message>
+  <wsdl:message name="GetCountryListValuesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCountryListValuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterAllUserSoapIn">
+    <wsdl:part name="parameters" element="tns:RegisterAllUser" />
+  </wsdl:message>
+  <wsdl:message name="RegisterAllUserSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterAllUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCountryFactInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateCountryFactInfo" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCountryFactInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateCountryFactInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateKMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateKML" />
+  </wsdl:message>
+  <wsdl:message name="GenerateKMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateKMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountrySoapIn">
+    <wsdl:part name="parameters" element="tns:CreateCountry" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountrySoapOut">
+    <wsdl:part name="parameters" element="tns:CreateCountryResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryAdaptationSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateCountryAdaptation" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryAdaptationSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateCountryAdaptationResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateAdaptationSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateAdaptation" />
+  </wsdl:message>
+  <wsdl:message name="CreateAdaptationSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateAdaptationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationCountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAdaptationCount" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationCountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAdaptationCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOnlineUserCountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOnlineUserCount" />
+  </wsdl:message>
+  <wsdl:message name="GetOnlineUserCountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOnlineUserCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetActivationCountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetActivationCount" />
+  </wsdl:message>
+  <wsdl:message name="GetActivationCountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetActivationCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateStatsHTMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateStatsHTML" />
+  </wsdl:message>
+  <wsdl:message name="GenerateStatsHTMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateStatsHTMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDIFTPInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDIFTPInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetDIFTPInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDIFTPInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSDMXRegistryURLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSDMXRegistryURL" />
+  </wsdl:message>
+  <wsdl:message name="GetSDMXRegistryURLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSDMXRegistryURLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDatabaseDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDatabaseDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetDatabaseDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDatabaseDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetValueByKeySoapIn">
+    <wsdl:part name="parameters" element="tns:GetValueByKey" />
+  </wsdl:message>
+  <wsdl:message name="GetValueByKeySoapOut">
+    <wsdl:part name="parameters" element="tns:GetValueByKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExtractShapeInfoXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:ExtractShapeInfoXML" />
+  </wsdl:message>
+  <wsdl:message name="ExtractShapeInfoXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:ExtractShapeInfoXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMapServerConnectionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMapServerConnection" />
+  </wsdl:message>
+  <wsdl:message name="GetMapServerConnectionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMapServerConnectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMapServerDirectorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetMapServerDirectory" />
+  </wsdl:message>
+  <wsdl:message name="GetMapServerDirectorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetMapServerDirectoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCountryListValuesHttpGetIn" />
+  <wsdl:message name="GetCountryListValuesHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="RegisterAllUserHttpGetIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="organization" type="s:string" />
+    <wsdl:part name="country" type="s:string" />
+    <wsdl:part name="firstName" type="s:string" />
+    <wsdl:part name="lastName" type="s:string" />
+    <wsdl:part name="contactDetails" type="s:string" />
+    <wsdl:part name="type" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RegisterAllUserHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCountryFactInfoHttpGetIn">
+    <wsdl:part name="countryName" type="s:string" />
+    <wsdl:part name="FocalPoint" type="s:string" />
+    <wsdl:part name="FocalPointEmail" type="s:string" />
+    <wsdl:part name="ImplementingAgency" type="s:string" />
+    <wsdl:part name="HomepageURL" type="s:string" />
+    <wsdl:part name="Databases" type="s:string" />
+    <wsdl:part name="Website" type="s:string" />
+    <wsdl:part name="LastUpdated" type="s:string" />
+    <wsdl:part name="countryFactSheetURL" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCountryFactInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GenerateKMLHttpGetIn">
+    <wsdl:part name="KMLType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GenerateKMLHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryHttpGetIn">
+    <wsdl:part name="Country_Name" type="s:string" />
+    <wsdl:part name="Country_ID" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="CountryFlag_URL" type="s:string" />
+    <wsdl:part name="CountryFactSheet_URL" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryAdaptationHttpGetIn">
+    <wsdl:part name="CountryName" type="s:string" />
+    <wsdl:part name="AdaptationName" type="s:string" />
+    <wsdl:part name="AdaptationVersion" type="s:string" />
+    <wsdl:part name="FocalPoint" type="s:string" />
+    <wsdl:part name="FocalPointEmail" type="s:string" />
+    <wsdl:part name="ImplementingAgency" type="s:string" />
+    <wsdl:part name="HomepageURL" type="s:string" />
+    <wsdl:part name="Databases" type="s:string" />
+    <wsdl:part name="Website" type="s:string" />
+    <wsdl:part name="LastUpdated" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryAdaptationHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="CreateAdaptationHttpGetIn">
+    <wsdl:part name="Adaptation_Name" type="s:string" />
+    <wsdl:part name="Adaptation_Ver" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateAdaptationHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationCountHttpGetIn" />
+  <wsdl:message name="GetAdaptationCountHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetOnlineUserCountHttpGetIn" />
+  <wsdl:message name="GetOnlineUserCountHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetActivationCountHttpGetIn" />
+  <wsdl:message name="GetActivationCountHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GenerateStatsHTMLHttpGetIn" />
+  <wsdl:message name="GenerateStatsHTMLHttpGetOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="GetDIFTPInfoHttpGetIn">
+    <wsdl:part name="FTPType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDIFTPInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:FTPReturnObject" />
+  </wsdl:message>
+  <wsdl:message name="GetSDMXRegistryURLHttpGetIn" />
+  <wsdl:message name="GetSDMXRegistryURLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDatabaseDetailsHttpGetIn">
+    <wsdl:part name="DBType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDatabaseDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DbDetailsReturnObject" />
+  </wsdl:message>
+  <wsdl:message name="GetValueByKeyHttpGetIn">
+    <wsdl:part name="key" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetValueByKeyHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="ExtractShapeInfoXMLHttpGetIn">
+    <wsdl:part name="databaseServerPath" type="s:string" />
+    <wsdl:part name="outputServerPath" type="s:string" />
+    <wsdl:part name="tempServerFolder" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ExtractShapeInfoXMLHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetMapServerConnectionHttpGetIn" />
+  <wsdl:message name="GetMapServerConnectionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMapServerDirectoryHttpGetIn" />
+  <wsdl:message name="GetMapServerDirectoryHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCountryListValuesHttpPostIn" />
+  <wsdl:message name="GetCountryListValuesHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="RegisterAllUserHttpPostIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="organization" type="s:string" />
+    <wsdl:part name="country" type="s:string" />
+    <wsdl:part name="firstName" type="s:string" />
+    <wsdl:part name="lastName" type="s:string" />
+    <wsdl:part name="contactDetails" type="s:string" />
+    <wsdl:part name="type" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RegisterAllUserHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCountryFactInfoHttpPostIn">
+    <wsdl:part name="countryName" type="s:string" />
+    <wsdl:part name="FocalPoint" type="s:string" />
+    <wsdl:part name="FocalPointEmail" type="s:string" />
+    <wsdl:part name="ImplementingAgency" type="s:string" />
+    <wsdl:part name="HomepageURL" type="s:string" />
+    <wsdl:part name="Databases" type="s:string" />
+    <wsdl:part name="Website" type="s:string" />
+    <wsdl:part name="LastUpdated" type="s:string" />
+    <wsdl:part name="countryFactSheetURL" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCountryFactInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GenerateKMLHttpPostIn">
+    <wsdl:part name="KMLType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GenerateKMLHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryHttpPostIn">
+    <wsdl:part name="Country_Name" type="s:string" />
+    <wsdl:part name="Country_ID" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="CountryFlag_URL" type="s:string" />
+    <wsdl:part name="CountryFactSheet_URL" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryAdaptationHttpPostIn">
+    <wsdl:part name="CountryName" type="s:string" />
+    <wsdl:part name="AdaptationName" type="s:string" />
+    <wsdl:part name="AdaptationVersion" type="s:string" />
+    <wsdl:part name="FocalPoint" type="s:string" />
+    <wsdl:part name="FocalPointEmail" type="s:string" />
+    <wsdl:part name="ImplementingAgency" type="s:string" />
+    <wsdl:part name="HomepageURL" type="s:string" />
+    <wsdl:part name="Databases" type="s:string" />
+    <wsdl:part name="Website" type="s:string" />
+    <wsdl:part name="LastUpdated" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateCountryAdaptationHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="CreateAdaptationHttpPostIn">
+    <wsdl:part name="Adaptation_Name" type="s:string" />
+    <wsdl:part name="Adaptation_Ver" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateAdaptationHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="GetAdaptationCountHttpPostIn" />
+  <wsdl:message name="GetAdaptationCountHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetOnlineUserCountHttpPostIn" />
+  <wsdl:message name="GetOnlineUserCountHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetActivationCountHttpPostIn" />
+  <wsdl:message name="GetActivationCountHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GenerateStatsHTMLHttpPostIn" />
+  <wsdl:message name="GenerateStatsHTMLHttpPostOut">
+    <wsdl:part name="Body" element="tns:anyType" />
+  </wsdl:message>
+  <wsdl:message name="GetDIFTPInfoHttpPostIn">
+    <wsdl:part name="FTPType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDIFTPInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:FTPReturnObject" />
+  </wsdl:message>
+  <wsdl:message name="GetSDMXRegistryURLHttpPostIn" />
+  <wsdl:message name="GetSDMXRegistryURLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDatabaseDetailsHttpPostIn">
+    <wsdl:part name="DBType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDatabaseDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DbDetailsReturnObject" />
+  </wsdl:message>
+  <wsdl:message name="GetValueByKeyHttpPostIn">
+    <wsdl:part name="key" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetValueByKeyHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="ExtractShapeInfoXMLHttpPostIn">
+    <wsdl:part name="databaseServerPath" type="s:string" />
+    <wsdl:part name="outputServerPath" type="s:string" />
+    <wsdl:part name="tempServerFolder" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ExtractShapeInfoXMLHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetMapServerConnectionHttpPostIn" />
+  <wsdl:message name="GetMapServerConnectionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMapServerDirectoryHttpPostIn" />
+  <wsdl:message name="GetMapServerDirectoryHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="UtilitySoap">
+    <wsdl:operation name="GetCountryListValues">
+      <wsdl:input message="tns:GetCountryListValuesSoapIn" />
+      <wsdl:output message="tns:GetCountryListValuesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterAllUser">
+      <wsdl:input message="tns:RegisterAllUserSoapIn" />
+      <wsdl:output message="tns:RegisterAllUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCountryFactInfo">
+      <wsdl:input message="tns:UpdateCountryFactInfoSoapIn" />
+      <wsdl:output message="tns:UpdateCountryFactInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateKML">
+      <wsdl:input message="tns:GenerateKMLSoapIn" />
+      <wsdl:output message="tns:GenerateKMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountry">
+      <wsdl:input message="tns:CreateCountrySoapIn" />
+      <wsdl:output message="tns:CreateCountrySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountryAdaptation">
+      <wsdl:input message="tns:CreateCountryAdaptationSoapIn" />
+      <wsdl:output message="tns:CreateCountryAdaptationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAdaptation">
+      <wsdl:input message="tns:CreateAdaptationSoapIn" />
+      <wsdl:output message="tns:CreateAdaptationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationCount">
+      <wsdl:input message="tns:GetAdaptationCountSoapIn" />
+      <wsdl:output message="tns:GetAdaptationCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOnlineUserCount">
+      <wsdl:input message="tns:GetOnlineUserCountSoapIn" />
+      <wsdl:output message="tns:GetOnlineUserCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetActivationCount">
+      <wsdl:input message="tns:GetActivationCountSoapIn" />
+      <wsdl:output message="tns:GetActivationCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateStatsHTML">
+      <wsdl:input message="tns:GenerateStatsHTMLSoapIn" />
+      <wsdl:output message="tns:GenerateStatsHTMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDIFTPInfo">
+      <wsdl:input message="tns:GetDIFTPInfoSoapIn" />
+      <wsdl:output message="tns:GetDIFTPInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSDMXRegistryURL">
+      <wsdl:input message="tns:GetSDMXRegistryURLSoapIn" />
+      <wsdl:output message="tns:GetSDMXRegistryURLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDatabaseDetails">
+      <wsdl:input message="tns:GetDatabaseDetailsSoapIn" />
+      <wsdl:output message="tns:GetDatabaseDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetValueByKey">
+      <wsdl:input message="tns:GetValueByKeySoapIn" />
+      <wsdl:output message="tns:GetValueByKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExtractShapeInfoXML">
+      <wsdl:input message="tns:ExtractShapeInfoXMLSoapIn" />
+      <wsdl:output message="tns:ExtractShapeInfoXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerConnection">
+      <wsdl:input message="tns:GetMapServerConnectionSoapIn" />
+      <wsdl:output message="tns:GetMapServerConnectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerDirectory">
+      <wsdl:input message="tns:GetMapServerDirectorySoapIn" />
+      <wsdl:output message="tns:GetMapServerDirectorySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="UtilityHttpGet">
+    <wsdl:operation name="GetCountryListValues">
+      <wsdl:input message="tns:GetCountryListValuesHttpGetIn" />
+      <wsdl:output message="tns:GetCountryListValuesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterAllUser">
+      <wsdl:input message="tns:RegisterAllUserHttpGetIn" />
+      <wsdl:output message="tns:RegisterAllUserHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCountryFactInfo">
+      <wsdl:input message="tns:UpdateCountryFactInfoHttpGetIn" />
+      <wsdl:output message="tns:UpdateCountryFactInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateKML">
+      <wsdl:input message="tns:GenerateKMLHttpGetIn" />
+      <wsdl:output message="tns:GenerateKMLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountry">
+      <wsdl:input message="tns:CreateCountryHttpGetIn" />
+      <wsdl:output message="tns:CreateCountryHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountryAdaptation">
+      <wsdl:input message="tns:CreateCountryAdaptationHttpGetIn" />
+      <wsdl:output message="tns:CreateCountryAdaptationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAdaptation">
+      <wsdl:input message="tns:CreateAdaptationHttpGetIn" />
+      <wsdl:output message="tns:CreateAdaptationHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationCount">
+      <wsdl:input message="tns:GetAdaptationCountHttpGetIn" />
+      <wsdl:output message="tns:GetAdaptationCountHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOnlineUserCount">
+      <wsdl:input message="tns:GetOnlineUserCountHttpGetIn" />
+      <wsdl:output message="tns:GetOnlineUserCountHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetActivationCount">
+      <wsdl:input message="tns:GetActivationCountHttpGetIn" />
+      <wsdl:output message="tns:GetActivationCountHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateStatsHTML">
+      <wsdl:input message="tns:GenerateStatsHTMLHttpGetIn" />
+      <wsdl:output message="tns:GenerateStatsHTMLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDIFTPInfo">
+      <wsdl:input message="tns:GetDIFTPInfoHttpGetIn" />
+      <wsdl:output message="tns:GetDIFTPInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSDMXRegistryURL">
+      <wsdl:input message="tns:GetSDMXRegistryURLHttpGetIn" />
+      <wsdl:output message="tns:GetSDMXRegistryURLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDatabaseDetails">
+      <wsdl:input message="tns:GetDatabaseDetailsHttpGetIn" />
+      <wsdl:output message="tns:GetDatabaseDetailsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetValueByKey">
+      <wsdl:input message="tns:GetValueByKeyHttpGetIn" />
+      <wsdl:output message="tns:GetValueByKeyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExtractShapeInfoXML">
+      <wsdl:input message="tns:ExtractShapeInfoXMLHttpGetIn" />
+      <wsdl:output message="tns:ExtractShapeInfoXMLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerConnection">
+      <wsdl:input message="tns:GetMapServerConnectionHttpGetIn" />
+      <wsdl:output message="tns:GetMapServerConnectionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerDirectory">
+      <wsdl:input message="tns:GetMapServerDirectoryHttpGetIn" />
+      <wsdl:output message="tns:GetMapServerDirectoryHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="UtilityHttpPost">
+    <wsdl:operation name="GetCountryListValues">
+      <wsdl:input message="tns:GetCountryListValuesHttpPostIn" />
+      <wsdl:output message="tns:GetCountryListValuesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterAllUser">
+      <wsdl:input message="tns:RegisterAllUserHttpPostIn" />
+      <wsdl:output message="tns:RegisterAllUserHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCountryFactInfo">
+      <wsdl:input message="tns:UpdateCountryFactInfoHttpPostIn" />
+      <wsdl:output message="tns:UpdateCountryFactInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateKML">
+      <wsdl:input message="tns:GenerateKMLHttpPostIn" />
+      <wsdl:output message="tns:GenerateKMLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountry">
+      <wsdl:input message="tns:CreateCountryHttpPostIn" />
+      <wsdl:output message="tns:CreateCountryHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountryAdaptation">
+      <wsdl:input message="tns:CreateCountryAdaptationHttpPostIn" />
+      <wsdl:output message="tns:CreateCountryAdaptationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAdaptation">
+      <wsdl:input message="tns:CreateAdaptationHttpPostIn" />
+      <wsdl:output message="tns:CreateAdaptationHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationCount">
+      <wsdl:input message="tns:GetAdaptationCountHttpPostIn" />
+      <wsdl:output message="tns:GetAdaptationCountHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOnlineUserCount">
+      <wsdl:input message="tns:GetOnlineUserCountHttpPostIn" />
+      <wsdl:output message="tns:GetOnlineUserCountHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetActivationCount">
+      <wsdl:input message="tns:GetActivationCountHttpPostIn" />
+      <wsdl:output message="tns:GetActivationCountHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateStatsHTML">
+      <wsdl:input message="tns:GenerateStatsHTMLHttpPostIn" />
+      <wsdl:output message="tns:GenerateStatsHTMLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDIFTPInfo">
+      <wsdl:input message="tns:GetDIFTPInfoHttpPostIn" />
+      <wsdl:output message="tns:GetDIFTPInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSDMXRegistryURL">
+      <wsdl:input message="tns:GetSDMXRegistryURLHttpPostIn" />
+      <wsdl:output message="tns:GetSDMXRegistryURLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDatabaseDetails">
+      <wsdl:input message="tns:GetDatabaseDetailsHttpPostIn" />
+      <wsdl:output message="tns:GetDatabaseDetailsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetValueByKey">
+      <wsdl:input message="tns:GetValueByKeyHttpPostIn" />
+      <wsdl:output message="tns:GetValueByKeyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExtractShapeInfoXML">
+      <wsdl:input message="tns:ExtractShapeInfoXMLHttpPostIn" />
+      <wsdl:output message="tns:ExtractShapeInfoXMLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerConnection">
+      <wsdl:input message="tns:GetMapServerConnectionHttpPostIn" />
+      <wsdl:output message="tns:GetMapServerConnectionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerDirectory">
+      <wsdl:input message="tns:GetMapServerDirectoryHttpPostIn" />
+      <wsdl:output message="tns:GetMapServerDirectoryHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UtilitySoap" type="tns:UtilitySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCountryListValues">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetCountryListValues" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterAllUser">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/RegisterAllUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCountryFactInfo">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/UpdateCountryFactInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateKML">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GenerateKML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountry">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/CreateCountry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountryAdaptation">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/CreateCountryAdaptation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAdaptation">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/CreateAdaptation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationCount">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetAdaptationCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnlineUserCount">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetOnlineUserCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActivationCount">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetActivationCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateStatsHTML">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GenerateStatsHTML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDIFTPInfo">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetDIFTPInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSDMXRegistryURL">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetSDMXRegistryURL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDatabaseDetails">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetDatabaseDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetValueByKey">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetValueByKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtractShapeInfoXML">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/ExtractShapeInfoXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerConnection">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetMapServerConnection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerDirectory">
+      <soap:operation soapAction="http://DIworldwide/DIWWS/GetMapServerDirectory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UtilitySoap12" type="tns:UtilitySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCountryListValues">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetCountryListValues" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterAllUser">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/RegisterAllUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCountryFactInfo">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/UpdateCountryFactInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateKML">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GenerateKML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountry">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/CreateCountry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountryAdaptation">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/CreateCountryAdaptation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAdaptation">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/CreateAdaptation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationCount">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetAdaptationCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnlineUserCount">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetOnlineUserCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActivationCount">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetActivationCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateStatsHTML">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GenerateStatsHTML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDIFTPInfo">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetDIFTPInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSDMXRegistryURL">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetSDMXRegistryURL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDatabaseDetails">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetDatabaseDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetValueByKey">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetValueByKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtractShapeInfoXML">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/ExtractShapeInfoXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerConnection">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetMapServerConnection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerDirectory">
+      <soap12:operation soapAction="http://DIworldwide/DIWWS/GetMapServerDirectory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UtilityHttpGet" type="tns:UtilityHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetCountryListValues">
+      <http:operation location="/GetCountryListValues" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterAllUser">
+      <http:operation location="/RegisterAllUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCountryFactInfo">
+      <http:operation location="/UpdateCountryFactInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateKML">
+      <http:operation location="/GenerateKML" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountry">
+      <http:operation location="/CreateCountry" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountryAdaptation">
+      <http:operation location="/CreateCountryAdaptation" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAdaptation">
+      <http:operation location="/CreateAdaptation" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationCount">
+      <http:operation location="/GetAdaptationCount" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnlineUserCount">
+      <http:operation location="/GetOnlineUserCount" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActivationCount">
+      <http:operation location="/GetActivationCount" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateStatsHTML">
+      <http:operation location="/GenerateStatsHTML" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDIFTPInfo">
+      <http:operation location="/GetDIFTPInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSDMXRegistryURL">
+      <http:operation location="/GetSDMXRegistryURL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDatabaseDetails">
+      <http:operation location="/GetDatabaseDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetValueByKey">
+      <http:operation location="/GetValueByKey" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtractShapeInfoXML">
+      <http:operation location="/ExtractShapeInfoXML" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerConnection">
+      <http:operation location="/GetMapServerConnection" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerDirectory">
+      <http:operation location="/GetMapServerDirectory" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UtilityHttpPost" type="tns:UtilityHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetCountryListValues">
+      <http:operation location="/GetCountryListValues" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterAllUser">
+      <http:operation location="/RegisterAllUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCountryFactInfo">
+      <http:operation location="/UpdateCountryFactInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateKML">
+      <http:operation location="/GenerateKML" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountry">
+      <http:operation location="/CreateCountry" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCountryAdaptation">
+      <http:operation location="/CreateCountryAdaptation" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAdaptation">
+      <http:operation location="/CreateAdaptation" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdaptationCount">
+      <http:operation location="/GetAdaptationCount" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnlineUserCount">
+      <http:operation location="/GetOnlineUserCount" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActivationCount">
+      <http:operation location="/GetActivationCount" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateStatsHTML">
+      <http:operation location="/GenerateStatsHTML" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDIFTPInfo">
+      <http:operation location="/GetDIFTPInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSDMXRegistryURL">
+      <http:operation location="/GetSDMXRegistryURL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDatabaseDetails">
+      <http:operation location="/GetDatabaseDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetValueByKey">
+      <http:operation location="/GetValueByKey" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtractShapeInfoXML">
+      <http:operation location="/ExtractShapeInfoXML" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerConnection">
+      <http:operation location="/GetMapServerConnection" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMapServerDirectory">
+      <http:operation location="/GetMapServerDirectory" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Utility">
+    <wsdl:port name="UtilitySoap" binding="tns:UtilitySoap">
+      <soap:address location="http://www.devinfo.org/di7webservices/Utility.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UtilitySoap12" binding="tns:UtilitySoap12">
+      <soap12:address location="http://www.devinfo.org/di7webservices/Utility.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UtilityHttpGet" binding="tns:UtilityHttpGet">
+      <http:address location="http://www.devinfo.org/di7webservices/Utility.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UtilityHttpPost" binding="tns:UtilityHttpPost">
+      <http:address location="http://www.devinfo.org/di7webservices/Utility.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<iul>
+  <iu in="C1 : Buildings" inid="10" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+  <iu in="E4 : Buildings, equipment, transport" inid="4" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" dataexists="T" t="IND" />
+</iul>

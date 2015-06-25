@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Karpi" nID="2889" aID="REG005038003" isGlobal="F" parentID="REG005038" parentName="Arwal" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="485" />
+  <area name="Kurtha" nID="2888" aID="REG005038002" isGlobal="F" parentID="REG005038" parentName="Arwal" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="485" />
+  <area name="Sadar Arwal" nID="2887" aID="REG005038001" isGlobal="F" parentID="REG005038" parentName="Arwal" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="485" />
+</AreaList>

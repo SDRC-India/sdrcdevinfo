@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="ApplicationSettings" ElementID="langApplicationSetting" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Set_GASH" ElementID="langSet_GASH" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Application" ElementID="langApplication" ElementProperty="innerHTML" />   
+  <Associate MasterKey="AdaptationName" ElementID="langAdaptationName" ElementProperty="innerHTML" /> 
+  <Associate MasterKey="DefaultLanguage" ElementID="langDefaultLanguage" ElementProperty="innerHTML" /> 
+  <Associate MasterKey="Theme" ElementID="langTheme" ElementProperty="innerHTML" />   
+  <Associate MasterKey="ShowSliders" ElementID="langShowSliders" ElementProperty="innerHTML" />
+  <Associate MasterKey="Slider_count" ElementID="langSliderCount" ElementProperty="innerHTML" />  
+  <Associate MasterKey="WebComponents" ElementID="langWebComponents" ElementProperty="innerHTML" />  
+  <Associate MasterKey="ComponentVersion" ElementID="langComponentVersion" ElementProperty="innerHTML" />   
+  <Associate MasterKey="ComponentLibraryURL" ElementID="langComponentLibraryURL" ElementProperty="innerHTML" />   
+  <Associate MasterKey="Share" ElementID="langShare" ElementProperty="innerHTML" /> 
+  <Associate MasterKey="FacebookApplicationId" ElementID="langFacebookApplicationId" ElementProperty="innerHTML" />  
+  <Associate MasterKey="FacebookApplicationSK" ElementID="langFacebookApplicationSK" ElementProperty="innerHTML" /> 
+  <Associate MasterKey="TwitterApplicationId" ElementID="langTwitterApplicationId" ElementProperty="innerHTML" />  
+  <Associate MasterKey="TwitterApplicationSK" ElementID="langTwitterApplicationSK" ElementProperty="innerHTML" />
+  <Associate MasterKey="Update" ElementID="langUpdate" ElementProperty="value" />
+  <Associate MasterKey="MrdThreshold" ElementID="lngMrdThreshold" ElementProperty="innerHTML" />
+  <Associate MasterKey="HideSourceColumn" ElementID="lngHideSourceColumn" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Enable_DSD_Selection" ElementID="lngDSDSel" ElementProperty="innerHTML" />  
+  <Associate MasterKey="QDS_Cache" ElementID="lngQDSCache" ElementProperty="innerHTML" />  
+  <Associate MasterKey="DIB" ElementID="lngDIB" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Adaptation_Mode" ElementID="lngAdpMode" ElementProperty="innerHTML" />
+  <Associate MasterKey="DI7" ElementID="langAdpModeDI7" ElementProperty="innerHTML" />
+  <Associate MasterKey="Standalone_Registry" ElementID="langAdpModeRegistry" ElementProperty="innerHTML" />
+  <Associate MasterKey="Application_Version" ElementID="lngAppVer" ElementProperty="innerHTML" />
+  <Associate MasterKey="Adapted_for" ElementID="lang_Adapted_for" ElementProperty="innerHTML" />
+  <Associate MasterKey="Global" ElementID="lang_Global" ElementProperty="innerHTML" />
+  <Associate MasterKey="National" ElementID="lang_National" ElementProperty="innerHTML" />
+  <Associate MasterKey="Sub-national" ElementID="lang_Sub-national" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_country" ElementID="lang_Select_country" ElementProperty="innerHTML" />
+  <Associate MasterKey="Specify_sub-nation_IA" ElementID="lang_Specify_sub-nation_IA" ElementProperty="innerHTML" />
+  <Associate MasterKey="Adaptation_Year" ElementID="lngAdptYear" ElementProperty="innerHTML" />
+  <Associate MasterKey="Unicef_Region" ElementID="lngUnicefRegion" ElementProperty="innerHTML" />
+  <Associate MasterKey="Desktop_Ver_Avl" ElementID="lngDesktopVerAvl" ElementProperty="innerHTML" />
+  <Associate MasterKey="Name" ElementID="lngName" ElementProperty="innerHTML" />
+  <Associate MasterKey="Institution" ElementID="lngInstitution" ElementProperty="innerHTML" />
+  <Associate MasterKey="Email" ElementID="lngEmail" ElementProperty="innerHTML" />
+  <Associate MasterKey="Enable_QDS_Gallery" ElementID="lngQDSGallery" ElementProperty="innerHTML" />
+  <Associate MasterKey="Area_Level" ElementID="langRegistryAreaLevel" ElementProperty="innerHTML" />
+  <Associate MasterKey="MSD_Area_Id" ElementID="langRegistryMSDAreaId" ElementProperty="innerHTML" />
+  <Associate MasterKey="Notify_Via_Email" ElementID="langNotifyViaEmail" ElementProperty="innerHTML" />
+  <Associate MasterKey="Default_Value_Of_Age_For_Mapping" ElementID="langMappingAgeDefaultValue" ElementProperty="innerHTML" />
+  <Associate MasterKey="Default_Value_Of_Sex_For_Mapping" ElementID="langMappingSexDefaultValue" ElementProperty="innerHTML" />
+  <Associate MasterKey="Default_Value_Of_Location_For_Mapping" ElementID="langMappingLocationDefaultValue" ElementProperty="innerHTML" />
+  <Associate MasterKey="Default_Value_Of_Frequency_For_Mapping" ElementID="langMappingFrequencyDefaultValue" ElementProperty="innerHTML" />
+  <Associate MasterKey="Default_Value_Of_Source_For_Mapping" ElementID="langMappingSourceDefaultValue" ElementProperty="innerHTML" />
+  <Associate MasterKey="Default_Value_Of_Nature_For_Mapping" ElementID="langMappingNatureDefaultValue" ElementProperty="innerHTML" />
+  <Associate MasterKey="Default_Value_Of_UnitMult_For_Mapping" ElementID="langMappingUnitMultDefaultValue" ElementProperty="innerHTML" />
+  <Associate MasterKey="NewsMenu" ElementID="lngNewsMenu" ElementProperty="innerHTML" />
+  <Associate MasterKey="InnovationsMenu" ElementID="lngInnovationsMenu" ElementProperty="innerHTML" />
+  <Associate MasterKey="QDS_Cloud" ElementID="lngQDSCloud" ElementProperty="innerHTML" />
+  <Associate MasterKey="ContactUsMenu" ElementID="lngContactUsMenu" ElementProperty="innerHTML" />
+  <Associate MasterKey="SupportMenu" ElementID="lngSupportMenu" ElementProperty="innerHTML" />
+  <Associate MasterKey="DownloadsMenu" ElementID="lngDownloadsMenu" ElementProperty="innerHTML" />
+  <Associate MasterKey="TrainingMenu" ElementID="lngTrainingMenu" ElementProperty="innerHTML" />
+  <Associate MasterKey="MapLibraryMenu" ElementID="lngMapLibraryMenu" ElementProperty="innerHTML" />
+  <Associate MasterKey="RSSFeedsMenu" ElementID="lngRSSFeedsMenu" ElementProperty="innerHTML" />
+  <Associate MasterKey="JS_Version" ElementID="lngJSVer" ElementProperty="innerHTML" />
+  <Associate MasterKey="DiWorldWideMenu" ElementID="lngDIWorldWideMenu" ElementProperty="innerHTML" />
+    <Associate MasterKey="ShowHowToVideo" ElementID="lngHowToVideo" ElementProperty="innerHTML" />
+  <Associate MasterKey="GoogleAnalyticsID" ElementID="langGoogleAnalyticsId" ElementProperty="innerHTML" />
+  <Associate MasterKey="SlideAnimationTime" ElementID="lblAnimationTime" ElementProperty="innerHTML"/>
+  <Associate MasterKey="AppSettingFAQ" ElementID="lngFAQ" ElementProperty="innerHTML" />
+  <Associate MasterKey="ShowSitemap" ElementID="lngSitemapLink" ElementProperty="innerHTML" />    
+</root>

@@ -1,0 +1,22 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - सफल पंजीकरण[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;10px 0 20px;font-family:Arial;">
+    प्रिय [****]USER_NAME[****],
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    आपने सफलतापूर्वक / डेटा और मेटाडेटा पंजीकृत [****]ADAPTATION_NAME[****] - <a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a> निम्नलिखित विवरण के साथ:
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    पंजीकरण क्रं: [****]REGISTRATION_ID[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    यदि आप किसी भी अपने खाते या वेब अनुप्रयोग के बारे में प्रश्न है, तो कृपया हमसे सीधे संपर्क करें  <a href="mailto:[****]EMAILID_DB_ADMIN[****]">[****]EMAILID_DB_ADMIN[****]</a>
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    सादर,
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Web Administrator - [****]ADAPTATION_NAME[****]
+</p>
+</p>

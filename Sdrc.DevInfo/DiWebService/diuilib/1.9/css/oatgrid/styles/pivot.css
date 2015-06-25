@@ -1,0 +1,70 @@
+/*
+ *  $Id: pivot.css,v 1.3 2007/05/18 12:03:39 source Exp $
+ *
+ *  This file is part of the OpenLink Software Ajax Toolkit (OAT) project.
+ *
+ *  Copyright (C) 2005-2007 OpenLink Software
+ *
+ *  See LICENSE file for details.
+ */
+.pivot_table {
+	border-collapse: collapse;
+	/*margin: 1em;*/
+}
+
+.pivot_table th, .pivot_table td {
+	border: 1px solid #888;
+	padding: 3px;
+}
+/*changes done here*/
+.pivot_table th {
+	font-weight: bold;
+	font-size: 11px;
+	height:25px;
+}
+
+.pivot_table td {
+	text-align: right;
+}
+
+.pivot_table td.gtotal {
+	background-color: #F3F3F3;
+}
+
+.pivot_table td.total {
+	background-color: #fdd;
+}
+
+.pivot_table td.subtotal {
+	background-color: #fee;
+}
+/*changes done here*/
+.pivot_table .odd {
+	background-color: #e0fcff;
+	font-size: 11px;
+}
+
+.pivot_table .even {
+	background-color: #fff;
+	font-size: 11px;
+}
+/*changes done here*/
+.pivot_table th.h1 {
+	background-color: #e9e9e9;
+	text-align:left;
+}
+/*changes done here*/
+.pivot_table th.h2 {
+	background-color: #f7f7f7;
+	font-weight:normal;
+	text-align:left;
+	font-size: 11px;
+}
+.pivot_table td:hover {
+	background-color: #ddd;
+}
+.pivot_chart, .pivot_row_chart, .pivot_col_chart {
+	height: 200px;
+	margin-bottom: 1.5em;
+	margin-top: 0.5em;
+}

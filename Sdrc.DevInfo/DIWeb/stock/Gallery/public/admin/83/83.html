@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script type="text/javascript" src="http://localhost:1891/DiWebService/diuilib/1.9/js/di.jquery-1.4.4.js"></script>
+
+<!-- Start Pivoting related files -->
+<script type="text/javascript" >
+	var featureList=["tab","panelbar","dialog"];
+</script>
+
+<script type="text/javascript" src="http://localhost:1891/DiWebService/diuilib/1.9/js/oatgrid/loader.js"></script>	
+	
+<link rel="stylesheet" type="text/css" href="../../../../themes/default/css/style.css" />
+<link rel="stylesheet" type="text/css" href="../../../../themes/default/css/style_dataview.css" />
+
+<!-- End Pivoting related files -->
+<script type="text/javascript">
+
+
+    function z(ElementID) {
+        var tmpElement = document.getElementById(ElementID);
+        return tmpElement;
+    }
+
+    function ShowCallout(divID, calloutText, evt) {
+        var divCallout = z(divID);
+
+        evt = evt || window.event;
+        z(divID + "Text").innerHTML = calloutText;
+
+        SetCalloutPosition(evt, divCallout, 20, 0);
+
+        divCallout.style.display = "block";
+    }
+
+    function HideCallout(divID) {
+
+        if (divID == undefined) divID = 'divCallout';
+        z(divID).style.display = "none";
+    }
+
+
+    function SetCalloutPosition(sEvent, divCallOut, marginLeft, marginTop) {
+        if (divCallOut) {
+            // Get x and y coordinates to show callout at mouse position    
+            var xPos = 0; var yPos = 0;
+            if (sEvent.pageX || sEvent.pageY) {
+                xPos = sEvent.pageX;
+                yPos = sEvent.pageY;
+            }
+            else if (sEvent.clientX || sEvent.clientY) {
+                xPos = sEvent.clientX + document.documentElement.scrollLeft + 10;
+                yPos = sEvent.clientY + document.documentElement.scrollTop;
+            }
+
+            divCallOut.style.left = xPos - marginLeft + "px";
+            divCallOut.style.top = yPos - marginTop + "px";
+        }
+    }
+
+
+    /* function to load footnotes for any FootNoteNid*/
+    function getFootNote(FootNoteNid, event) {
+        var Result = '';
+        var FootPath = '../../data/1/ds/en/footnotes/'; //getAbsURL('stock') + 
+        var di_return_first_ic_type_val = '';
+        di_jq.ajax({
+            type: "GET",
+            url: FootPath + FootNoteNid + ".xml",
+            dataType: "xml",
+            async: false,
+            success: function (xml) {
+                try {
+                    var tmpFootNoteVal = xml.lastChild.text || xml.lastChild.textContent;
+                    if (tmpFootNoteVal != '') {
+                        Result = tmpFootNoteVal.toString();
+                        ShowCallout('divCallout', Result, event);
+                    }
+                    else {
+                        //alert("Blank");
+                    }
+
+                }
+                catch (ex) {
+                    //ShowProgressBar(false);
+                    //alert("Error : " + ex.message);
+                }
+            },
+            error: function () {
+                //ShowProgressBar(false);
+                //alert("Error occured");
+            },
+            cache: false
+        });
+
+    }
+
+
+// create pivoting object
+var header = [];
+var data = [];
+
+var strHeader = '["Area","Indicator","Area ID","isMRD","Data Value"]';
+var strData = '[["DVS","C1 : Buildings - Percent","REG003","1","70"],["Kokrajhar","C2 : Capacity - Percent","IND018001","1","80"],["Dhubri","C2 : Capacity - Percent","IND018002","1","43"],["Goalpara","C2 : Capacity - Percent","IND018003","1","100"],["Barpeta","C2 : Capacity - Percent","IND018004","1","97"],["Morigaon","C2 : Capacity - Percent","IND018005","1","65"],["Nagaon","C2 : Capacity - Percent","IND018006","1","78"],["Sonitpur","C2 : Capacity - Percent","IND018007","1","83"],["Lakhimpur","C2 : Capacity - Percent","IND018008","1","20"],["Dhemaji","C2 : Capacity - Percent","IND018009","1","100"],["Tinsukia","C2 : Capacity - Percent","IND018010","1","60"],["Dibrugarh","C2 : Capacity - Percent","IND018011","1","100"],["Sivasagar","C2 : Capacity - Percent","IND018012","1","78"],["Jorhat","C2 : Capacity - Percent","IND018013","1","80"],["Golaghat","C2 : Capacity - Percent","IND018014","1","60"],["Karbi Anglong","C2 : Capacity - Percent","IND018015","1","78"],["Dima Hasao","C2 : Capacity - Percent","IND018016","1","100"],["Cachar","C2 : Capacity - Percent","IND018017","1","100"],["Karimganj","C2 : Capacity - Percent","IND018018","1","100"],["Hailakandi","C2 : Capacity - Percent","IND018019","1","96"],["Bongaigaon","C2 : Capacity - Percent","IND018020","1","92"],["Chirang","C2 : Capacity - Percent","IND018021","1","53"],["Kamrup-Rural","C2 : Capacity - Percent","IND018022","1","83"],["Kamrup metropolitan","C2 : Capacity - Percent","IND018023","1","92"],["Nalbari","C2 : Capacity - Percent","IND018024","1","80"],["Baksa","C2 : Capacity - Percent","IND018025","1","88"],["Darrang","C2 : Capacity - Percent","IND018026","1","100"],["Udalguri","C2 : Capacity - Percent","IND018027","1","80"],["Kokrajhar","C3 : Equipment - Percent","IND018001","1","91"],["Dhubri","C3 : Equipment - Percent","IND018002","1","72"],["Goalpara","C3 : Equipment - Percent","IND018003","1","75"],["Barpeta","C3 : Equipment - Percent","IND018004","1","84"],["Morigaon","C3 : Equipment - Percent","IND018005","1","96"],["Nagaon","C3 : Equipment - Percent","IND018006","1","56"],["Sonitpur","C3 : Equipment - Percent","IND018007","1","69"],["Lakhimpur","C3 : Equipment - Percent","IND018008","1","88"],["Dhemaji","C3 : Equipment - Percent","IND018009","1","85"],["Tinsukia","C3 : Equipment - Percent","IND018010","1","82"],["Dibrugarh","C3 : Equipment - Percent","IND018011","1","81"],["Sivasagar","C3 : Equipment - Percent","IND018012","1","82"],["Jorhat","C3 : Equipment - Percent","IND018013","1","82"],["Golaghat","C3 : Equipment - Percent","IND018014","1","81"],["Karbi Anglong","C3 : Equipment - Percent","IND018015","1","94"],["Dima Hasao","C3 : Equipment - Percent","IND018016","1","80"],["Cachar","C3 : Equipment - Percent","IND018017","1","70"],["Karimganj","C3 : Equipment - Percent","IND018018","1","87"],["Hailakandi","C3 : Equipment - Percent","IND018019","1","82"],["Bongaigaon","C3 : Equipment - Percent","IND018020","1","88"],["Chirang","C3 : Equipment - Percent","IND018021","1","73"],["Kamrup-Rural","C3 : Equipment - Percent","IND018022","1","100"],["Kamrup metropolitan","C3 : Equipment - Percent","IND018023","1","88"],["Nalbari","C3 : Equipment - Percent","IND018024","1","75"],["Baksa","C3 : Equipment - Percent","IND018025","1","88"],["Darrang","C3 : Equipment - Percent","IND018026","1","64"],["Udalguri","C3 : Equipment - Percent","IND018027","1","85"],["Kokrajhar","C4 : Management - Percent","IND018001","1","48"],["Dhubri","C4 : Management - Percent","IND018002","1","46"],["Goalpara","C4 : Management - Percent","IND018003","1","59"],["Barpeta","C4 : Management - Percent","IND018004","1","59"],["Morigaon","C4 : Management - Percent","IND018005","1","68"],["Nagaon","C4 : Management - Percent","IND018006","1","63"],["Sonitpur","C4 : Management - Percent","IND018007","1","69"],["Lakhimpur","C4 : Management - Percent","IND018008","1","65"],["Dhemaji","C4 : Management - Percent","IND018009","1","69"],["Tinsukia","C4 : Management - Percent","IND018010","1","28"],["Dibrugarh","C4 : Management - Percent","IND018011","1","71"],["Sivasagar","C4 : Management - Percent","IND018012","1","58"],["Jorhat","C4 : Management - Percent","IND018013","1","68"],["Golaghat","C4 : Management - Percent","IND018014","1","63"],["Karbi Anglong","C4 : Management - Percent","IND018015","1","52"],["Dima Hasao","C4 : Management - Percent","IND018016","1","53"],["Cachar","C4 : Management - Percent","IND018017","1","58"],["Karimganj","C4 : Management - Percent","IND018018","1","58"],["Hailakandi","C4 : Management - Percent","IND018019","1","48"],["Bongaigaon","C4 : Management - Percent","IND018020","1","40"],["Chirang","C4 : Management - Percent","IND018021","1","67"],["Kamrup-Rural","C4 : Management - Percent","IND018022","1","72"],["Kamrup metropolitan","C4 : Management - Percent","IND018023","1","63"],["Nalbari","C4 : Management - Percent","IND018024","1","65"],["Baksa","C4 : Management - Percent","IND018025","1","55"],["Darrang","C4 : Management - Percent","IND018026","1","48"],["Udalguri","C4 : Management - Percent","IND018027","1","46"]]';
+header = di_jq.parseJSON(strHeader);
+data = di_jq.parseJSON(strData);
+
+var totc="";
+	var lastcol = header.length-1;
+	var sublist = [];
+	var mainlist = [];
+	
+	mainlist = di_jq.parseJSON('[0,1]');
+	sublist = di_jq.parseJSON('[]');
+
+var DEMO = {};
+window.cal = false;
+
+DEMO.pivot = {
+	panel:1,
+	tab:0,
+	div:"pivot",
+	needs:["pivot","statistics"],
+	cb:function() {
+		var pivot = new OAT.Pivot("pivot_content","","pivot_page",header,data,mainlist,sublist,[],lastcol,{showChart:0,showEmpty:0});
+	}
+}
+// initiation function for the pivoting
+function init(){	
+   /* tabs */
+	var tab = new OAT.Tab ("content");
+	for (var p in DEMO) {
+		var name = DEMO[p].div;
+		tab.add ("tab_" + name, name);
+	}
+
+	/* panelbar_content */
+	var pb = new OAT.Panelbar("panelbar",10);
+	pb.addPanel("pb_1","pb_11");
+	
+	/* create dimmer element */
+	var dimmerElm = OAT.Dom.create("div",{border:"2px solid #000",padding:"1em",position:"absolute",backgroundColor:"#fff"});
+	dimmerElm.innerHTML = "Data loading...";
+	document.body.appendChild(dimmerElm);
+	OAT.Dom.hide(dimmerElm);
+	
+	for (var p in DEMO) { DEMO[p].drawn = false; } 
+	tab.options.goCallback = function(oldIndex,newIndex) {
+		var oldName, newName;
+		for (var p in DEMO) {
+			var v = DEMO[p];
+			if (v.tab == oldIndex) { oldName = p; }
+			if (v.tab == newIndex) { newName = p; }
+		}
+		
+		var obj = DEMO[newName]; 
+		OAT.Dimmer.show(dimmerElm);
+		OAT.Dom.center(dimmerElm,1,1);
+		var ref = function() {  
+			if (!window.location.href.match(/:source/)) { OAT.Dimmer.hide(); }
+			obj.cb(); // calling again
+			obj.drawn = false; 
+		}
+		OAT.Loader.loadFeatures(obj.needs,ref);
+		
+	}
+	pb.go(0);
+	tab.go(0);
+}
+ function GetBaseURL() {
+    var RetVal;
+    var Pathname = window.location.pathname;
+    var SiteName = Pathname.split("/")[1];
+    RetVal = "http://" + window.location.hostname;
+    if (window.location.href.indexOf("localhost") != -1) {
+        RetVal += ":" + window.location.port;
+    }
+    RetVal += "/" + SiteName + "/" + Pathname.split("/")[2];
+    return RetVal;
+}
+
+jQuery(document).ready(function () {
+   jQuery('head').append('<meta property="og:image" content="' + GetBaseURL() + "/stock/templates/fb_table.png" + '">');
+});
+</script>
+ <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+    <meta property="og:title" content="Dev Info" />
+    <meta property="og:description" content="Powered By DevInfo" />
+</head>
+<body style="background: none;">
+
+<div id="divCallout" style="z-index:1200;position:absolute;width:200px;display:none;" class="callout border-callout">
+        <div id="divCalloutText" class="content">Callout text</div>
+        <b class="border-notch notch"></b>
+        <b class="notch"></b>
+</div>
+
+<table cellspacing="6" cellpadding="0" border="0">
+ <tr>
+  <td>
+   <div class="heading2" id="dataTitle">
+   
+   2014.12
+   </div><br />
+   <div id="dataSubTitle">
+   
+   
+   </div>
+  </td>
+ </tr>
+ <tr>
+ <td>
+  <div id="panelbar">
+	<div id="pb_1"></div>
+	<div id="pb_11">
+	</div>
+  </div> 
+  <div id="content"></div>
+  <div id="pivot">
+   <div id="pivot_page" style="display:none;"></div>
+   <div id="pivot_content"></div>
+   <div id="pivot_chart"></div>
+   
+   <div id="divCountDataRows" style="font-size: 10px;">
+   </div>
+    <div style="font-size: 10px; margin-top: 8px;" id="divSingleSource">
+    </div>
+  </div>
+	
+</td>
+</tr>
+</table>
+	
+</body>
+</html>

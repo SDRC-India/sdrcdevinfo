@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Baksa" nID="3025" aID="IND018025" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="595" />
+  <area name="Barpeta" nID="3004" aID="IND018004" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="575" />
+  <area name="Bongaigaon" nID="3020" aID="IND018020" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="590" />
+  <area name="Cachar" nID="3017" aID="IND018017" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="587" />
+  <area name="Chirang" nID="3021" aID="IND018021" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="591" />
+  <area name="Darrang" nID="3026" aID="IND018026" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="596" />
+  <area name="Dhemaji" nID="3009" aID="IND018009" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="580" />
+  <area name="Dhubri" nID="3002" aID="IND018002" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="573" />
+  <area name="Dibrugarh" nID="3011" aID="IND018011" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="581" />
+  <area name="Dima Hasao" nID="3016" aID="IND018016" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="586" />
+  <area name="Goalpara" nID="3003" aID="IND018003" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="574" />
+  <area name="Golaghat" nID="3014" aID="IND018014" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="584" />
+  <area name="Hailakandi" nID="3019" aID="IND018019" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="589" />
+  <area name="Jorhat" nID="3013" aID="IND018013" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="583" />
+  <area name="Kamrup metropolitan" nID="3023" aID="IND018023" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="593" />
+  <area name="Kamrup-Rural" nID="3022" aID="IND018022" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="592" />
+  <area name="Karbi Anglong" nID="3015" aID="IND018015" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="585" />
+  <area name="Karimganj" nID="3018" aID="IND018018" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="588" />
+  <area name="Kokrajhar" nID="3001" aID="IND018001" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="572" />
+  <area name="Lakhimpur" nID="3008" aID="IND018008" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="579" />
+  <area name="Morigaon" nID="3005" aID="IND018005" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="576" />
+  <area name="Nagaon" nID="3006" aID="IND018006" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="577" />
+  <area name="Nalbari" nID="3024" aID="IND018024" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="594" />
+  <area name="Sivasagar" nID="3012" aID="IND018012" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="582" />
+  <area name="Sonitpur" nID="3007" aID="IND018007" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="578" />
+  <area name="Tinsukia" nID="3010" aID="IND018010" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="600" />
+  <area name="Udalguri" nID="3027" aID="IND018027" isGlobal="F" parentID="REG003" parentName="DVS" lvl="3" dataexists="T" subNational="F" isblock="F" lnid="597" />
+</AreaList>

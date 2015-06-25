@@ -1,0 +1,54 @@
+ 17-06-2015 12:41:31 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 17-06-2015 12:41:31
+=====================================================================================================================================================
+
+17-06-2015 12:41:31 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 17-06-2015 12:41:31
+=====================================================================================================================================================
+
+17-06-2015 12:50:23 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1829
+[****]Exception Time: 17-06-2015 12:50:23
+=====================================================================================================================================================
+
+17-06-2015 12:50:23 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1871
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1503
+[****]Exception Time: 17-06-2015 12:50:23
+=====================================================================================================================================================
+

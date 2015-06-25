@@ -1,0 +1,71 @@
+﻿[^^^^]DevInfo.org – Catalog – Entry Modified -  [****]ADAPTATION_NAME[****] - Visible - [****]ADAPTATION_VISIBILITY[****][^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;"><font face="Arial" size="2">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Dear DSG,
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+   An entry has been updated in the Catalog database with the following details:
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>Adaptation</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Adaptation Name: [****]ADAPTATION_NAME[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Adaptation URL: [****]ADAPTATION_URL[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+   Visible: [****]ADAPTATION_VISIBLE[****]
+</p>
+
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>Database Administrator details</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Name: [****]DB_NAME[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Institution: [****]DB_INSTITUTION[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+  Email: [****]DB_EMAIL[****]
+</p>
+
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>Adapted for</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Adapted for:  [****]ADAPTED_FOR[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   Country:  [****]COUNTRY[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+  SubNational:  [****]SUBNATIONAL[****]
+</p>
+
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>Date/time modified</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Date time created:   [****]DATE_CREATED[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+   Date time modified:  [****]DATE_MODIFIED[****]
+</p>
+
+
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Thank you.
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    With best regards,
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <a href="www.devinfo.org">www.devinfo.org</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   DI7 World Wide Web Services – Catalog and User Management
+</p>
+</font></p>

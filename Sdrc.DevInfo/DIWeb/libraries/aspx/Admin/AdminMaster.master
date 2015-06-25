@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs"
+    Inherits="libraries_aspx_Admin_AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../../../stock/themes/default/css/diuilibcommon.css" rel="stylesheet"
+        type="text/css" />        
+    <link href="../../../stock/themes/default/css/style.css" rel="stylesheet" type="text/css" />
+    <!--<link href="../../../stock/themes/default/css/style_rtl.css" rel="stylesheet" type="text/css" />  -->
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="../../../stock/themes/default/css/style-ie.css" />
+<![endif]-->
+    <link href="../../../stock/themes/default/images/favicon.ico" rel="shortcut icon"
+        type="image/x-icon" />
+    <script type="text/javascript" src="../../js/common.js?v=<%=Global.js_version%>"></script>
+    <script type="text/javascript" src="../../js/di.jquery-1.4.4.js?v=<%=Global.js_version%>"></script>
+    <script type="text/javascript" src="../../js/admin.js?v=<%=Global.js_version%>"></script>
+    <script type="text/javascript" src="../../js/browsr_selector.js?v=<%=Global.js_version%>"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- Header Area ...starts-->
+    <div id="header">
+        <div class="header">
+            <!-- Logo Section ...starts-->
+            <div class="main_logo">
+                <a href="../home.aspx" id="aHeader">
+                    <img src="../../../stock/themes/default/images/cust/logo.png" alt="" width="230"
+                        height="71" /></a></div>
+            <!-- Logo Section ...ends-->
+            <!-- Top Links ...starts-->
+            <div class="headerlink1_adm">
+                <ul>
+                    <li><a id="aLogFile" href="<%=LogfilePath %>"></a></li>
+                    <li>|</li>
+                    <li id="liAgencyId" runat="server">Agencry Id : </li>
+                    <li id="liAgencyIdVal" runat="server"></li>
+                    <li>|</li>
+                    <li id="liProviderID" runat="server">Provider Id :</li>
+                    <li id="liProviderIDVal" runat="server"></li>
+                    <li>|</li>
+                    <%--<li id="li1" runat="server" style="cursor:pointer;"></li>--%>
+                    <li><a id="liUser" href="" runat="server"></a></li>
+                    <li id="liUserPipeline" runat="server">|</li>
+                    <li><a id="langLogout" runat="server" onserverclick="LogoutAdmin">
+                        <!--Logout-->
+                    </a></li>
+                </ul>
+            </div>
+            <div class="headerlink1_adm_logstat" id="langLastLoggedOn" style="display: none;">
+                <!--Last logged on : ->
+            </div>
+            <!-- Top Links ...ends-->
+        </div>
+    </div>
+    <!-- Header Area ...ends-->
+    <!-- Main Container ...starts-->
+    <div class="content_containers">
+        <div class="clear navls_top_pg">
+            &nbsp;</div>
+        <!-- Left Links Section ...starts-->
+        <div id="lft_sec_adm">
+            <ul>
+                <li><a href="AppSettings.aspx" id="aConfig">
+                    <!--Application Settings-->
+                </a></li>
+                <li><a href="DbMaster.aspx" id="aDbConnec">
+                    <!--Database Settings-->
+                </a></li>
+                <li><a href="LanguageMaster.aspx" id="aLangSetngs">
+                    <!--Language Settings-->
+                </a></li>
+                <li id="LiUserCaption" runat="server"><a href="User.aspx" id="aUser">
+                    <!--User-->
+                </a></li>
+                <li id="LiCatalogCaption" runat="server"><a href="AdminCatalog.aspx" id="aCatalog">
+                    <!--Catalog-->
+                </a></li>
+                <li id="LiAdaptationUser" runat="server"><a href="UserManagement.aspx" id="aAdapUser">
+                    <!--User Management-->
+                </a></li>
+                <li id="LiHeaderDetail" runat="server"><a href="RegHeaderDetail.aspx" id="aHeaderDetails">
+                    <!--User Management-->
+                </a></li>
+                <!-- -->
+            </ul>
+        </div>
+        <!-- Left Links Section ...ends-->
+        <!-- Right Config Data Section ...starts-->
+        <div id="rgt_sec_adm">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- Right Config Data Section ...ends-->
+            <div class="clear">
+            </div>
+        </div>
+        <!-- Main Container ...ends-->
+    </div>
+    <div id="MaskedDiv" class="MaskedDiv">
+    </div>
+    <div id="divLoading" class="divLoading">
+    </div>
+    <script type="text/javascript">
+        di_jq(document).ready(function () {
+            //var LogfilePath;
+            // LogfilePath = '<%=LogfilePath %>'.split("stock");
+
+            // z('aLogFile').href = getAbsURL('stock') + LogfilePath[1];
+
+            SetAdaptationModeFromAdmin();
+
+            AppVersion = '<%=Global.js_version%>';
+
+            CookiePostfixStr = '_' + '<%=Global.CookiePostfixStr%>';
+            LoadLanguage(readCookie("hlngcode"), "AdminMaster");
+            LoadLanguage(readCookie("hlngcode"));
+
+
+            onLanguageSelection(true);
+            if (z('liUser') != null && z('liUser') != undefined) {
+                z('liUser').href = "AdminLogin.aspx?Update=UpdateAdmin";
+            }
+//            if (!CheckIfHeaderFileExists()) {
+//                document.getElementById("LiHeaderDetail").style.display = 'none';
+//                //                document.getElementById("LiHeaderDetail").href = 'javascript:void(0);';
+//                //                document.getElementById("LiHeaderDetail").onclick = function () { return false; };
+
+//                //                z("aHeaderDetails").mouseover = function (e) {
+//                //                    e.preventDefault();
+//                //                }
+//            }
+            if ('<%=Global.IsSDMXHeaderCreated %>' == "true") {
+                document.getElementById("LiHeaderDetail").style.display = 'block';
+            }
+        });
+    </script>
+    </form>
+    <div id="rgt_sec_adm_catlg">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

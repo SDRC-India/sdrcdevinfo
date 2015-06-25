@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Pattarghat" nID="2810" aID="REG005012002" isGlobal="F" parentID="REG005012" parentName="Saharsa" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="457" />
+  <area name="Sonbarsa" nID="2812" aID="REG005012004" isGlobal="F" parentID="REG005012" parentName="Saharsa" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="457" />
+  <area name="Sour Bazar" nID="2811" aID="REG005012003" isGlobal="F" parentID="REG005012" parentName="Saharsa" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="457" />
+</AreaList>

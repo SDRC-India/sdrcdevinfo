@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+
+  <Associate MasterKey="What" ElementID="langQdsIndCaption" ElementProperty="value" />
+  <Associate MasterKey="Where" ElementID="langQdsAreaCaption" ElementProperty="value" />
+  <Associate MasterKey="QDS_Ind_Default" ElementID="langQdsIndDefText" ElementProperty="value" />
+  <Associate MasterKey="QDS_Area_Default" ElementID="langQdsAreaDefText" ElementProperty="value" />
+  <Associate MasterKey="Search" ElementID="langQdsSerchBtnText" ElementProperty="value" />
+  <Associate MasterKey="Subregion" ElementID="langQdsAreaBlockText" ElementProperty="value" />
+  
+  
+  <Associate MasterKey="Catalog" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="View_Global_CC" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Region_Country" ElementID="lang_Region_Country" ElementProperty="innerHTML" />
+  <Associate MasterKey="Theme" ElementID="lang_Theme" ElementProperty="innerHTML" />
+  <Associate MasterKey="Availability" ElementID="lang_Availability" ElementProperty="innerHTML" />
+  <Associate MasterKey="Version7" ElementID="lang_ver7" ElementProperty="innerHTML" />
+  <Associate MasterKey="Available_ODevinfo" ElementID="lang_Available_ODevinfo" ElementProperty="innerHTML" />
+  <Associate MasterKey="Available_Online" ElementID="lang_Available_Online" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Available_ODevinfo" ElementID="liCallout_AvailableDI" ElementProperty="innerHTML" />
+  <Associate MasterKey="Available_Online" ElementID="liCallout_AvailableOnline" ElementProperty="innerHTML" />
+  <Associate MasterKey="Others" ElementID="lang_Others" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Availability" ElementID="lang_CO_Availability" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="INDICATORS" ElementID="langIndicators" ElementProperty="value" />
+  <Associate MasterKey="AREAS" ElementID="langAreas" ElementProperty="value" />
+  <Associate MasterKey="SOURCES" ElementID="langSources" ElementProperty="value" />
+  <Associate MasterKey="SUBGROUP" ElementID="langSubGroup" ElementProperty="value" />
+  <Associate MasterKey="DATA_VaLUES" ElementID="langDataValues" ElementProperty="value" />
+  <Associate MasterKey="UPDATED_ON" ElementID="langUpdatedOn" ElementProperty="value" />
+  <Associate MasterKey="TimePeriods" ElementID="langResultsTimePeriod" ElementProperty="value" />
+  <Associate MasterKey="DIMENSIONS" ElementID="langResultsDimensions" ElementProperty="value" />
+  <Associate MasterKey="DATAVALUE" ElementID="langResultsDataValues" ElementProperty="value" />
+  <Associate MasterKey="CLOUD_VIEW" ElementID="langResultsCloudView" ElementProperty="value" />
+  <Associate MasterKey="ADD_TO_CART" ElementID="langResultsAddToCart" ElementProperty="value" />
+  <Associate MasterKey="VISUALIZE" ElementID="langResultsVisualize" ElementProperty="value" />
+  <Associate MasterKey="SHARING" ElementID="langResultsShare" ElementProperty="value" />
+
+  <Associate MasterKey="CATALOG_COUNT" ElementID="langCount" ElementProperty="innerHTML" />
+  <Associate MasterKey="Catalog_Filtered_Text" ElementID="spnFilteredText" ElementProperty="innerHTML" />
+  
+  <Associate MasterKey="Number_Of" ElementID="langNumberOf" ElementProperty="value" />
+  <Associate MasterKey="Geographical_Areas" ElementID="langGeographicalAreas" ElementProperty="value" />
+  <Associate MasterKey="Variables" ElementID="langVariables" ElementProperty="value" />
+  <Associate MasterKey="TIMEPERIOD" ElementID="langTimePeriod" ElementProperty="value" />
+  <Associate MasterKey="Data" ElementID="langData" ElementProperty="value" />
+  <Associate MasterKey="Last_Updated" ElementID="langLastUpdated" ElementProperty="value" />
+  <Associate MasterKey="Keywords" ElementID="langKeywords" ElementProperty="value" />
+  <Associate MasterKey="Preview_Data" ElementID="langPreviewData" ElementProperty="value" />
+  <Associate MasterKey="Hide_Data" ElementID="langHideData" ElementProperty="value" />
+  <Associate MasterKey="GoTo_Data" ElementID="langGotoData" ElementProperty="value" />
+
+  <Associate MasterKey="Unicef_Region" ElementID="spnUnciefRegion" ElementProperty="innerHTML" />
+  <Associate MasterKey="Adaptation_Year" ElementID="spnAdaptationYear" ElementProperty="innerHTML" />
+  <Associate MasterKey="Database_Languages" ElementID="spnDatabaseLanguages" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="Selectall" ElementID="ankSelectAll" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clearall" ElementID="ankClearall" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="QDS_Min" ElementID="langMin" ElementProperty="value" />
+  <Associate MasterKey="QDS_Max" ElementID="langMax" ElementProperty="value" />
+
+  <Associate MasterKey="box_blw_txt_one" ElementID="lang_box_blw_txt_one" ElementProperty="innerHTML" />
+  <Associate MasterKey="box_blw_txt_two" ElementID="lang_box_blw_txt_two" ElementProperty="innerHTML" />
+  <Associate MasterKey="box_blw_txt_thr" ElementID="lang_box_blw_txt_thr" ElementProperty="innerHTML" />
+  <Associate MasterKey="NoRecordsFound" ElementID="NoRecordsFound" ElementProperty="innerHTML" />
+  <Associate MasterKey="MRDFor" ElementID="langMRDFor" ElementProperty="value"/>
+
+  <Associate MasterKey="SearchingDatabase" ElementID="langSearchingDatabase" ElementProperty="value"/>
+  <Associate MasterKey="LoadingResults" ElementID="langLoadingResults" ElementProperty="value"/>
+  <Associate MasterKey="DownloadCSVFile" ElementID="langDownloadCSVFile" ElementProperty="value"/>
+
+  <Associate MasterKey="GlobalCatalog" ElementID="hGotoGlobalCatalog" ElementProperty="value"/>
+  <Associate MasterKey="langCaptionGCatalog" ElementID="lang_box_blw_txt_GCatalog" ElementProperty="innerHTML"/>
+  
+  
+
+  <Associate MasterKey="langDBLanguage" ElementID="langDBLanguage" ElementProperty="value"/>
+  <Associate MasterKey="langCountryName" ElementID="langCountryName" ElementProperty="value"/>
+  <Associate MasterKey="langRegionName" ElementID="langRegionName" ElementProperty="value"/>
+  <Associate MasterKey="langAdaptationYear" ElementID="langAdaptationYear" ElementProperty="value"/>
+  <Associate MasterKey="LangDbAdminContact" ElementID="LangDbAdminContact" ElementProperty="value"/>
+  <Associate MasterKey="LangEmail" ElementID="LangEmail" ElementProperty="value"/>
+</root>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Ahatguri SHC" id="IND018005001" l="3" nid="3028" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Ambagan SHC" id="IND018006001" l="3" nid="3036" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Bijan SD" id="IND018021001" l="3" nid="3068" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Bilasipara SHC" id="IND018002001" l="3" nid="3040" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Garubhasa SD" id="IND018021002" l="3" nid="3069" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Hatinamati SD" id="IND018024001" l="3" nid="3050" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kalaigaon SD" id="IND018027001" l="3" nid="3079" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kamargaon SD" id="IND018004002" l="3" nid="3049" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Kauripathar SD" id="IND018007002" l="3" nid="3081" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="KHS SDH Nazira" id="IND018012002" l="3" nid="3073" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Lokhara SD" id="IND018023001" l="3" nid="3030" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Sissia Bokulani SD" id="IND018011002" l="3" nid="3084" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Sivasagar" id="IND018012" l="3" nid="3012" pnid="2998" dataexists="T" isblock="F" lnid="582" />
+  <a n="Solmora BPHC" id="IND018013002" l="3" nid="3075" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Sonitpur" id="IND018007" l="3" nid="3007" pnid="2998" dataexists="T" isblock="F" lnid="578" />
+  <a n="Sonitpur" id="RVS_004" l="3" nid="3067" pnid="2997" dataexists="T" isblock="F" lnid="571" />
+  <a n="SVS" id="REG001" l="2" nid="2996" pnid="2995" dataexists="T" isblock="F" lnid="0" />
+  <a n="SVS - Level 3" id="QS_REG001_L3" l="3" nid="QS_REG001_L3" pnid="2996" dataexists="F" isblock="F" lnid="0" />
+  <a n="SVS Guwahati" id="IND018" l="3" nid="3000" pnid="2996" dataexists="T" isblock="F" lnid="568" />
+</AreaList>

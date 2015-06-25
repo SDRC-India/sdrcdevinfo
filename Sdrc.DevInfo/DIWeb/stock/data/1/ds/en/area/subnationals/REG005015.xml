@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Barauli" nID="2862" aID="REG005015002" isGlobal="F" parentID="REG005015" parentName="Gopalganj" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="460" />
+  <area name="Hathua" nID="2864" aID="REG005015004" isGlobal="F" parentID="REG005015" parentName="Gopalganj" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="460" />
+  <area name="Manjha" nID="2863" aID="REG005015003" isGlobal="F" parentID="REG005015" parentName="Gopalganj" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="460" />
+  <area name="Thave" nID="2861" aID="REG005015001" isGlobal="F" parentID="REG005015" parentName="Gopalganj" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="460" />
+</AreaList>

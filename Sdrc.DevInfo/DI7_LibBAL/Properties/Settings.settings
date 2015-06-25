@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DevInfo.Lib.DI_LibBAL.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DI_LibBAL_DIWWSRegistration_UserRegistration" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.devinfo.info/DI6WorldWideWebService/UserRegistration.asmx</Value>
+    </Setting>
+    <Setting Name="DI_LibBAL_DIWWSStatus_UserOnlineStatus" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.devinfo.info/DI6WorldWideWebService/UserOnlineStatus.asmx</Value>
+    </Setting>
+    <Setting Name="DI_LibBAL_DIWWSUtility_Utility" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.devinfo.info/DI6WorldWideWebService/Utility.asmx</Value>
+    </Setting>
+    <Setting Name="DI7_LibBAL_DIMapServerWS_Utility" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.devinfo.org/di7webservices/Utility.asmx</Value>
+    </Setting>
+    <Setting Name="DI7_LibBAL_SDMXRegistry_RegistryService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.devinfo.org/libraries/ws/Registryservice.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

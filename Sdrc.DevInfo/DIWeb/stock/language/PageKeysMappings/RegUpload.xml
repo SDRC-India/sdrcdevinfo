@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="Upload" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Upload_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="List_Of_Databases" ElementID="lang_List_Of_Databases" ElementProperty="innerHTML" />
+  <Associate MasterKey="Generate_SDMX_Artefacts_From_Database" ElementID="btnGenerateSDMXArtefacts" ElementProperty="value" />
+  <Associate MasterKey="Struct_Msg_Upload" ElementID="lang_Upload_DSD_MSD_coln" ElementProperty="innerHTML" />
+  <Associate MasterKey="Upload_New_DSD" ElementID="btnAddNew" ElementProperty="value" />
+  <Associate MasterKey="List_Of_DSDs_coln" ElementID="lang_List_Of_DSDs" ElementProperty="innerHTML" />
+  <Associate MasterKey="List_Of_MSDs_coln" ElementID="lang_List_Of_MSDs" ElementProperty="innerHTML" />
+  <Associate MasterKey="Assosciated_Database" ElementID="lang_Assosciated_Database" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_Assosciated_Database" ElementID="lang_Select_Assosciated_Database" ElementProperty="innerHTML" />
+  <Associate MasterKey="Upload_DSD" ElementID="btnUploadDSDFromAdmin" ElementProperty="value" />
+  <Associate MasterKey="Assosciated_Database" ElementID="lang_Assosciated_Database_Edit_Delete" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_Assosciated_Database" ElementID="lang_Select_Assosciated_Database_Edit_Delete" ElementProperty="innerHTML" />
+  <Associate MasterKey="Selected_DSD" ElementID="lang_Selected_DSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_DSD" ElementID="lang_Select_DSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Update_Your_DSD_MSD" ElementID="lang_Update_Your_DSD_MSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Update_DSD" ElementID="btnUpdateDSDFromAdmin" ElementProperty="value" />
+  <Associate MasterKey="Delete_DSD" ElementID="btnDeleteDSDFromAdmin" ElementProperty="value" />
+  <Associate MasterKey="Connection_Name" ElementID="hConnectionName" ElementProperty="value" />
+  <Associate MasterKey="Database_Type" ElementID="hDatabaseType" ElementProperty="value" />
+  <Associate MasterKey="Created_On" ElementID="hCreatedOn" ElementProperty="value" />
+  <Associate MasterKey="Publisher" ElementID="hPublisher" ElementProperty="value" />
+  <Associate MasterKey="SNo" ElementID="hSNo" ElementProperty="value" />
+  <Associate MasterKey="Id" ElementID="hId" ElementProperty="value" />
+  <Associate MasterKey="Agency_Id" ElementID="hAgencyId" ElementProperty="value" />
+  <Associate MasterKey="Version" ElementID="hVersion" ElementProperty="value" />
+  <Associate MasterKey="Assosciated_Database" ElementID="hAssosciatedDatabase" ElementProperty="value" />
+  <Associate MasterKey="Details" ElementID="hDetails" ElementProperty="value" />
+  <Associate MasterKey="Action" ElementID="hAction" ElementProperty="value" />
+  <Associate MasterKey="Assosciated_DSD_Id_AgencyId_Version" ElementID="hAssosciatedDSD" ElementProperty="value" />
+  <Associate MasterKey="View" ElementID="hView" ElementProperty="value" />
+  <Associate MasterKey="Download" ElementID="hDownload" ElementProperty="value" />
+  <Associate MasterKey="Edit" ElementID="hEdit" ElementProperty="value" />
+  <Associate MasterKey="Delete" ElementID="hDelete" ElementProperty="value" />
+  <Associate MasterKey="DefaultDSD" ElementID="lang_Default_DSD_Update" ElementProperty="innerHTML" />
+  <Associate MasterKey="DefaultDSD" ElementID="lang_Default_DSD_Upload" ElementProperty="innerHTML" />
+
+
+  <Associate MasterKey="lang_HeaderSettings" ElementID="lang_HeaderSettings" ElementProperty="innerHTML" />
+  <Associate MasterKey="lang_HeaderSet_Desc" ElementID="lang_HeaderSet_Desc" ElementProperty="innerHTML" />
+  <Associate MasterKey="Update" ElementID="langUpdate" ElementProperty="innerHTML" />
+  <Associate MasterKey="Sender_Detail_Head_Text" ElementID="Sender_Detail_Head_Text" ElementProperty="innerHTML" />
+  <Associate MasterKey="Reciever_Detail_Head_Text"  ElementID="Reciever_Detail_Head_Text" ElementProperty="innerHTML" />
+  <Associate MasterKey="Sender_Name" ElementID="Sender_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Reciever_Name" ElementID="Reciever_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Sender_Id" ElementID="Sender_Id" ElementProperty="innerHTML" />
+  <Associate MasterKey="Reciever_Id" ElementID="Reciever_Id" ElementProperty="innerHTML" />
+  <Associate MasterKey ="Header_Contact_Detail" ElementID ="Sender_Contact_Detail" ElementProperty="innerHTML"/>
+  <Associate MasterKey ="Header_Contact_Detail" ElementID ="Reciever_Contact_Detail" ElementProperty="innerHTML"/>
+  <Associate MasterKey="Header_Contact_Name" ElementID="Reciever_Contact_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Dept" ElementID="Reciever_Contact_Dept" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Role" ElementID="Reciever_Contact_Role" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Fax" ElementID="Reciever_Contact_Fax" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Phone" ElementID="Reciever_Contact_Phone" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Email" ElementID="Reciever_Contact_Email" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Name" ElementID="Sender_Contact_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Dept" ElementID="Sender_Contact_Dept" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Role" ElementID="Sender_Contact_Role" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Fax" ElementID="Sender_Contact_Fax" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Phone" ElementID="Sender_Contact_Phone" ElementProperty="innerHTML" />
+  <Associate MasterKey="Header_Contact_Email" ElementID="Sender_Contact_Email" ElementProperty="innerHTML" />
+  <Associate MasterKey="langHeaderUpdateSuccess" ElementID="langHeaderUpdateSuccess" ElementProperty="innerHTML"/>
+  <Associate MasterKey="langHeaderUpdateFailure" ElementID="langHeaderUpdateFailure" ElementProperty="innerHTML"/>
+  <Associate MasterKey="langHeader" ElementID="lang_Header" ElementProperty="innerHTML" />
+</root>

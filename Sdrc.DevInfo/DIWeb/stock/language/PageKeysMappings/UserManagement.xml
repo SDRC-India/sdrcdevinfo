@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="AdapUser_Settings" ElementID="lang_AdaptationUser_Settings" ElementProperty="innerHTML" />
+  <Associate MasterKey="AdapUser_ChangePassword" ElementID="lang_ChangePassword" ElementProperty="innerHTML" />
+  <Associate MasterKey="AdapUser_NewPassword" ElementID="NewPwdSpanCP" ElementProperty="innerHTML" />
+  <Associate MasterKey="AdapUser_ConfirmPassword" ElementID="ConfirmPwdSpanCP" ElementProperty="innerHTML" />
+  <Associate MasterKey="AdapUser_PopChangePassword" ElementID="btnPwdChange" ElementProperty="value" />
+  <Associate MasterKey="Enter_Password" ElementID="lngEnterPwdMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Password_Length" ElementID="lngPwdLenMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Confirm_Password_Msg" ElementID="lngConfirmPwdMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="ReEnter_Password" ElementID="lngReenterPwdMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="AdapManageUser" ElementID="lang_Add_AdapMUDH" ElementProperty="innerHTML" />
+  <Associate MasterKey="ChooseAdaptation" ElementID="lang_ChooseAdap" ElementProperty="innerHTML" />
+  <Associate MasterKey="AdapUser_SetAsAdmin" ElementID="lang_SetAsAdmin" ElementProperty="innerHTML" />
+  <Associate MasterKey="AdapUser_CreateAdminAccount" ElementID="lang_CreateAdminAccount" ElementProperty="innerHTML" />
+
+ 
+  
+  
+  
+
+
+</root>

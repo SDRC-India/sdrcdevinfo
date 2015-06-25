@@ -1,0 +1,577 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ArticleMaster.master.cs"
+    Inherits="articles_ArticleMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=9;charset=UTF-8;text/html;" />
+    <link href="../stock/themes/default/css/style.css?v=<%=Global.js_version%>" rel="stylesheet" type="text/css" />
+    <!--<link href="../../stock/themes/default/css/style_rtl.css" rel="stylesheet" type="text/css" />-->
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="../../stock/themes/default/css/style-ie.css" />
+<![endif]-->
+    <link href="../stock/themes/default/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript" src="../libraries/js/di.jquery-1.4.4.js"></script>
+    <script type="text/javascript" src="../libraries/js/browsr_selector.js?v=<%=Global.js_version%>"></script>
+    <script type="text/javascript" src="../libraries/js/CMS.js"></script>
+    <script src="../libraries/js/common.js" type="text/javascript"></script>
+    <link rel="alternate" type="application/rss+xml" title="Latest News" href="../libraries/aspx/diorg/rss_news.xml">
+    <link rel="alternate" type="application/rss+xml" title="Fact of the Week" href="../libraries/aspx/diorg/rss_facts.xml">
+    <link rel="alternate" type="application/rss+xml" title="New Online Adaptations" href="../libraries/aspx/diorg/rss_online_adaptations.xml">
+    <link rel="alternate" type="application/rss+xml" title="New Worldwide Adaptations"
+        href="../libraries/aspx/diorg/rss_worldwide_adaptations.xml">
+    <link href="../stock/themes/default/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="DI.ico" />
+    <script language="javascript">        AC_FL_RunContent = 0;</script>
+    <script src="../libraries/aspx/diorg/Scripts/AC_RunActiveContent.js" language="javascript"></script>
+    <script src="../libraries/aspx/diorg/Scripts/reflection.js" language="javascript"></script>
+    <script src="../libraries/aspx/diorg/Scripts/printer_friendly.js" language="javascript"></script>
+    <script src="../libraries/aspx/diorg/Scripts/forward_to_friend.js" language="javascript"></script>
+    <script type="text/javascript">
+        var CatalogText = "";
+        AppVersion = '<%=Global.js_version%>';
+        CatalogText = '<%=CatalogText%>';
+        IsGlobalAdaptation = '<%=IsGlobalAdaptation%>';
+        isInnovationsMenuVisible = '<%=isInnovationsMenuVisible%>';
+        isNewsMenuVisible = '<%=isNewsMenuVisible%>';
+        isContactUsMenuVisible = '<%=isContactUsMenuVisible%>';
+        isSupportMenuVisible = '<%=isSupportMenuVisible%>';
+        isDownloadsLinkVisible = '<%=isDownloadsLinkVisible%>';
+        isTrainingLinkVisible = '<%=isTrainingLinkVisible%>';
+        isMapLibraryLinkVisible = '<%=isMapLibraryLinkVisible%>';
+        isRSSFeedsLinkVisible = '<%=isRSSFeedsLinkVisible%>';
+        isDiWorldWideLinkVisible = '<%=isDiWorldWideLinkVisible%>';
+        islangFAQVisible = '<%=islangFAQVisible%>';
+        isHowtoVideoVisible = '<%=isHowtoVideoVisible%>';
+        isRSSFeedsLinkVisible = '<%=isRSSFeedsLinkVisible%>';
+        isDiWorldWideLinkVisible = '<%=isDiWorldWideLinkVisible%>';
+        isSitemapLinkVisible = '<%=isSitemapLinkVisible%>';
+        var isShowMapServer = '<%=isShowMapServer%>';
+        slideList = '<%=sliders_list%>';
+        mapServerPath = '<%=mapServerPath%>';
+        islangKBVisible = '<%=islangKBVisible%>';              
+    </script>
+    <asp:ContentPlaceHolder ID="cphHeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '<%=gaUniqueID%>']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- Start of StatCounter Code -->
+    <script type="text/javascript">
+        var sc_project = 4986744;
+        var sc_invisible = 1;
+        var sc_partition = 57;
+        var sc_click_stat = 1;
+        var sc_security = "4d9562de";
+    </script>
+    <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+    <noscript>
+        <div class="statcounter">
+            <a title="hits counter" href="http://www.statcounter.com/free_hit_counter.html" target="_blank">
+                <img class="statcounter" src="http://c.statcounter.com/4986744/0/4d9562de/1/" alt="hits counter">
+            </a>
+        </div>
+    </noscript>
+    <!-- End of StatCounter Code -->
+    <!-- Start of Google StatCounter Code -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-8601953-3");
+            pageTracker._trackPageview();
+        } catch (err) { }</script>
+    <!-- End of Google StatCounter Code -->
+</head>
+<body id="body">
+    <!-- Header Area ...starts-->
+    <!-- Top Links ...starts-->
+    <div class="headerlink1" id="headerDIVMenu" style="display: none" runat="server">
+        <div class="top_hdr_sec">
+            <div class="flt_lft" id="divCountryMenu" runat="server">
+                <div id="divCountryMenuMain" runat="server">
+                    <div class="expntry_main_dv flt_lft expntry_main_dv_ww_txt" id="LiGlobalURL" runat="server">
+                        <div id="hvr_ww_txt">
+                            <span class="di_ww_icn" id="di_ww_icn"></span><a id="aGoto" runat="server" class="flt_lft">
+                                <span id="langCountryMenuDevinfo" class=""></span><span id="langCountryMenuWorldWide">
+                                </span></a>
+                        </div>
+                    </div>
+                    <div class="expntry_main_dv_spc flt_lft" id="LiGlobalCatalog" runat="server">
+                        <a id="aGlobalCatalog" runat="server"></a>
+                    </div>
+                    <div class="expntry_main_dv_nws_spc wdth_auto flt_lft" id="LiGlobalNews" runat="server">
+                        <a id="aGlobalNews" runat="server"></a>
+                    </div>
+                    <div class="expntry_main_dv flt_lft" id="LiGlobalInnovations" runat="server">
+                        <a id="aGlobalInnovations" runat="server"></a>
+                    </div>
+                </div>
+                <!-- Hide/Unhide ...starts-->
+                <div class="clear" id="CountryETxt_hs" style="display: none">
+                    <div id="aGotoDesc" runat="server" class="expntry_txt expntry_txt_cntnr flt_lft expntry_sub_ww_txt">
+                    </div>
+                    <div id="aGlobalNewsDesc" runat="server" class="expntry_txt expntry_txt_cntnr expntry_main_dv flt_lft">
+                    </div>
+                    <div id="aGlobalInnovationsDesc" runat="server" class="expntry_txt expntry_txt_cntnr expntry_main_dv expntry_main_nws_txt flt_lft">
+                    </div>
+                    <div id="aGlobalCatalogDesc" runat="server" class="expntry_txt expntry_txt_cntnr expntry_main_dv flt_lft">
+                    </div>
+                </div>
+                <!-- Hide/Unhide ...ends-->
+            </div>
+            <ul class="flt_rgt">
+                <li style="display: none"><a href="#" id="langSearchSite">
+                    <!--Search Site-->
+                </a></li>
+                <li style="display: none">|</li>
+                <li id="liSupport"><a href="mailto:support@devinfo.info" target="_blank" id="LangSupport">
+                    <!--Support-->
+                </a></li>
+                <li id="LanguagePipeSupport">|</li>
+                <li id="liContactUs"><a href="../libraries/aspx/ContactUs.aspx?T=C&PN=diorg/di_contacts.html"
+                    id="LangContactUs">
+                    <!--Contact us-->
+                </a></li>
+                <li id="LanguagePipeLi" style="display: none;">|</li>
+                <li><a id="aLogin" href="../libraries/aspx/Login.aspx">
+                    <!--Login-->
+                </a><a id="aLogout" href="javascript:LoginLogoutUser('', '',true);" style="display: none;">
+                    <!--Logout-->
+                </a></li>
+                <li id="liUser" style="display: none;">|</li>
+                <li><a id="aUser" href="#" style="display: none;"></a></li>
+                <li id="liAdminPanel" style="display: none;">|</li>
+                <li><a id="aAdminPanel" href="../libraries/aspx/Admin/Dbmaster.aspx" style="display: none;"
+                    target="_blank">Admin Panel</a></li>
+                <li id="liUserpeipeLine">|</li>
+                <%--  <li id="liSupport"><a href="http://www.devinfo.org/di-support/users/main.php" target="_blank" id="LangSupport"><!--Support--></a></li>--%>
+                <li>
+                    <!--<a href="#">English</a>-->
+                    <span id="lngcode_div"></span></li>
+            </ul>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <!-- Top Links ...ends-->
+    <div id="header">
+        <div class="header">
+            <!-- Header Bg ...starts-->
+            <div class="bg_image">
+                <img border="0" height="75" class="wdth_ful" src="../stock/themes/default/images/toppanel_background.png"
+                    alt="" />
+            </div>
+            <!-- Logo Section ...starts-->
+            <div class="main_logo">
+                <a id="aHeader" href="../libraries/aspx/Home.aspx">
+                    <img id="img_adaptation_logo" src="../stock/themes/default/images/cust/logo.png"
+                        alt="" width="230" height="71" /></a></div>
+            <!-- Logo Section ...ends-->
+            <div id="top_menu_link2" style="display: none;">
+                <ul>
+                    <li><a id="aHome" class="nav" href="../libraries/aspx/home.aspx">
+                        <!--Home-->
+                    </a>
+                        <div id="divCalloutHomeMenu" class="callout border-callout">
+                            <div id="divCalloutHomeMenuText" class="content txt_algn_lft" style="line-height: normal;">
+                                <!--Callout text-->
+                            </div>
+                            <b class="border-notch notch"></b><b class="notch"></b>
+                        </div>
+                    </li>
+                    <li><a id="aCatalog" class="nav" href="../libraries/aspx/Catalog.aspx">
+                        <!--Catalog-->
+                    </a>
+                        <div id="divCalloutCatalogMenu" class="callout border-callout">
+                            <div id="divCalloutCatalogMenuText" class="content txt_algn_lft" style="line-height: normal;">
+                                <!--Callout text-->
+                            </div>
+                            <b class="border-notch notch"></b><b class="notch"></b>
+                        </div>
+                    </li>
+                    <li id="LiNews"><a id="aNews" class="nav" href="../../articles/news">
+                        <!--News-->
+                    </a>
+                        <div id="divCalloutNewsMenu" class="callout border-callout">
+                            <div id="divCalloutNewsMenuText" class="content txt_algn_lft" style="line-height: normal;">
+                                <!--Callout text-->
+                            </div>
+                            <b class="border-notch notch"></b><b class="notch"></b>
+                        </div>
+                    </li>
+                    <li id="LiInnovations"><a id="aInnovations" class="nav" href="Innovations">
+                        <!--Innovations-->
+                    </a>
+                        <div id="divCalloutInnovationsMenu" class="callout border-callout">
+                            <div id="divCalloutInnovationsMenuText" class="content txt_algn_lft" style="line-height: normal;">
+                                <!--Callout text-->
+                            </div>
+                            <b class="border-notch notch"></b><b class="notch"></b>
+                        </div>
+                    </li>
+                    <li><a id="aMydata" class="nav" href="../libraries/aspx/mydata.aspx">
+                        <!--My Data-->
+                    </a><a id="a1" class="nav" href="../libraries/aspx/Gallery.aspx">
+                        <!--Gallery-->
+                    </a>
+                        <div id="divCalloutMyDataMenu" class="callout border-callout" style="width: auto">
+                            <div id="divCalloutMyDataMenuText" class="content txt_algn_lft" style="line-height: normal;">
+                                <!--Callout text-->
+                            </div>
+                            <b class="border-notch notch"></b><b class="notch"></b>
+                        </div>
+                    </li>
+                    <li><a id="aGalleries" class="nav" href="../libraries/aspx/Gallery.aspx">
+                        <!--Gallery-->
+                    </a>
+                        <div id="divCalloutGalleryMenu" class="callout border-callout" style="width: auto">
+                            <div id="divCalloutGalleryMenuText" class="content txt_algn_lft" style="line-height: normal;">
+                                <!--Callout text-->
+                            </div>
+                            <b class="border-notch notch"></b><b class="notch"></b>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Header Links/Navigation container ...ends-->
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+    <%--</div>--%>
+    <!-- Main Content Area ...starts-->
+    <div class="MainContent">
+        <input type="hidden" id="langMenuHomeToolTip" value="" />
+        <input type="hidden" id="langMenuGalleryToolTip" value="" />
+        <input type="hidden" id="langMenuNewsToolTip" value="" />
+        <input type="hidden" id="langMenuMyDataToolTip" value="" />
+        <input type="hidden" id="langMenuInnovationsToolTip" value="" />
+        <input type="hidden" id="langMenuCatalogToolTip" value="" />
+        <input type="hidden" id="ToolTipRSS" value="" />
+        <!-- Header Area ...ends-->
+        <!-- Div For Hidden Controls for Links in footer -->
+        <div id="divHiddenVaraibles">
+            <input type="hidden" id="hiddenFrmId" />
+            <input type="hidden" id="hiddenPostMethod" />
+        </div>
+        <div id="MainContent">
+            <asp:ContentPlaceHolder ID="cphMainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- DevInfo Logo and follow icons ...starts-->
+            <div id="lo_icon_main">
+                <!-- DevInfo Logo Section ...starts-->
+                <div id="logo_lt_dvinf">
+                    <a id="mastersiteurl" runat="server">
+                        <img src="../stock/themes/default/images/spacer.gif" alt="Powered By DevInfo" width="192"
+                            height="44" /></a></div>
+                <!-- DevInfo Logo Section ...ends-->
+                <!-- Follow Icons Section ...starts-->
+                <div id="icons_rt_fllw">
+                    <span id="lang_FUO">
+                        <!--Follow us on-->
+                    </span><a href="http://www.facebook.com/devinfoweb" target="_blank">
+                        <img src="../stock/themes/default/images/spacer.gif" alt="Facebook" width="32px"
+                            height="32px" class="icons_rt_fllw_fb_icn" /></a><a href="http://twitter.com/DevInfo"
+                                target="_blank"><img src="../stock/themes/default/images/spacer.gif" alt="Twitter"
+                                    width="32px" height="32px" class="icons_rt_fllw_twt_icn" /></a><a id="aRSSFeed" href="../libraries/aspx/RSSFeeds.aspx?T=R&PN=diorg/rss_feeds.html"
+                                        target="_blank"><img src="../stock/themes/default/images/spacer.gif" alt="RSS" width="32px"
+                                            height="32px" class="icons_rt_fllw_rss_icn" /></a>
+                </div>
+                <!-- Follow Icons Section ...ends-->
+            </div>
+            <!-- DevInfo Logo and follow icons ...ends-->
+        </div>
+    </div>
+    <!-- Main Content Area ...ends-->
+    <div class="clear">
+    </div>
+    <!-- Footer Area ...starts-->
+    <div id="footer" style="display: none;">
+        <div id="footer_container">
+            <div class="footer_links">
+                <ul>
+                    <li id="langDevInfo" class="fnt_sz_frten">
+                        <!--DevInfo-->
+                    </li>
+                    <li><a id="langWI_DevInfo" href="../libraries/aspx/AboutDevInfo.aspx?T=ADI&PN=diorg/di_about.html">
+                        <!--What is DevInfo?-->
+                    </a></li>
+                    <li><a id="langDI7Features" href="../libraries/aspx/DevInfoFeatures.aspx?T=DF&PN=diorg/DevInfoFeatures.html">
+                        <!--DevInfo 7 Features-->
+                    </a></li>
+                    <li><a id="langDIDownloads" href="../libraries/aspx/DevInfoDownloads.aspx?T=DL7&PN=diorg/di_downloads_7.html">
+                        <!--Downloads-->
+                    </a></li>
+                    <li><a id="langDITraining" href="../libraries/aspx/DevInfoTraining.aspx?T=TG&PN=diorg/di_training.html">
+                        <!--Training-->
+                    </a></li>
+                    <li><a id="langDIMapLibrary" href="../libraries/aspx/DevInfoMapLibrary.aspx?T=ML&PN=diorg/di_digital_map_library.html">
+                        <!--Map Library-->
+                    </a></li>
+                    <li><a id="langDIWorldWide" href="../libraries/aspx/DevInfoWorldwide.aspx?T=W1&PN=diorg/worldwide.html">
+                        <!--Di Worldwide-->
+                    </a></li>
+                    <li><a id="langFAQ" href="../articles/Faq">
+                        <!-- FAQ -->
+                    </a></li>
+                    <li><a id="langKB" href="../articles/KnowledgeBase">
+                        <!-- FAQ -->
+                    </a></li>
+                    <li><a id="langHowToVideos" href="../articles/HowToVideo">
+                        <!--DevInfo How to video-->
+                    </a></li>
+                </ul>
+            </div>
+            <div class="footer_links">
+                <ul>
+                    <li id="langDataSearch" class="fnt_sz_frten">
+                        <!--Data Search-->
+                    </li>
+                    <li><a id="langByKTGA" href="../libraries/aspx/Home.aspx">
+                        <!--By Keywords, Topic, Geographic Area-->
+                    </a></li>
+                    <li><a id="langCatalog" href="../libraries/aspx/Catalog.aspx">
+                        <!--Catalog-->
+                    </a></li>
+                    <li><a id="langdiGallery" href="../libraries/aspx/Gallery.aspx">
+                        <!--di Gallery-->
+                    </a></li>
+                    <li><a href="../libraries/aspx/RegStructure.aspx" id="langRegistry">
+                        <!--Registry-->
+                    </a></li>
+                    <li><a href="../libraries/aspx/RegDataQuery.aspx" id="langDataQueryService">
+                        <!--Data Query Service-->
+                    </a></li>
+                </ul>
+            </div>
+            <div class="footer_links" id="footerNews" runat="server">
+            </div>
+            <div class="footer_links" id="footerInnovations" runat="server">
+                <ul>
+                    <li id="langInnovation" class="fnt_sz_frten">
+                        <!--Innovation-->
+                    </li>
+                    <li><a id="langdiMonitoring" href="../articles/monitoring">
+                        <!--di Monitoring-->
+                    </a></li>
+                    <li><a id="langdiProfile" href="../articles/profile">
+                        <!--di Profile-->
+                    </a></li>
+                    <li><a id="langdiGameworks" target="_blank" href="http://www.digw.org/">
+                        <!--di Gameworks-->
+                    </a></li>
+                    <li><a id="langdiDashboard" href="../articles/dashboards">
+                        <!--di Dashboard-->
+                    </a></li>
+                </ul>
+            </div>
+            <div class="footer_links">
+                <ul>
+                    <li id="langAboutUs" class="fnt_sz_frten">
+                        <!--About us-->
+                    </li>
+                    <li><a id="langDevInfoTeam" href="../libraries/aspx/ContactUs.aspx?T=C&PN=diorg/di_contacts.html">
+                        <!--DevInfo Team-->
+                    </a></li>
+                    <li><a id="langSiteMap" href="../libraries/aspx/sitemap.aspx">
+                        <!--DevInfo Sitemap-->
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Disclaimer ...starts-->
+        <div class="disclaimer" style="width: 250px">
+            <div class="disclm_cpyr_txt">
+                <a href="../libraries/aspx/Disclaimer.aspx?T=DR&PN=diorg/di_disclaimer.html" id="langDevInfoCopyrt">
+                    <%=DevInfoCopyrt%></a></div>
+            <div class="disclm_pipe">
+                |</div>
+            <div class="disclm_txt">
+                <a href="../libraries/aspx/Disclaimer.aspx?T=DR&PN=diorg/di_disclaimer.html" id="langDisclaimer">
+                    <%=Disclaimer%></a></div>
+            <div class="disclm_pipe">
+                |</div>
+            <div class="disclm_txt" style="width: auto">
+                <a id="langVersion">
+                    <%=applicationVersion%></a></div>
+        </div>
+        <!-- Disclaimer ...ends-->
+    </div>
+    <div id="MaskedDiv" class="MaskedDiv">
+    </div>
+    <div id="divLoading" class="divLoading">
+    </div>
+    <!--Popup for Share ...starts-->
+    <div id="CMSdivEmbeddLink" class="popup_block di_gui_leafnode_label" style="width: 600px;
+        height: 470px;">
+        <input id="valShareLink" type="hidden" value="" />
+        <input type="hidden" id="langShareYSCTO" value="" />
+        <input type="hidden" id="langShareDevinfo" value="" />
+        <input id="Article_News" type="hidden" value="" runat="server" />
+        <input id="Article_Action" type="hidden" value="" runat="server" />
+        <input id="Article_Facts" type="hidden" value="" runat="server" />
+        <input id="Adaptation_News" type="hidden" value="" runat="server" />
+        <input id="Adaptation_Action" type="hidden" value="" runat="server" />
+        <input id="Adaptation_Facts" type="hidden" value="" runat="server" />
+        <input id="valTitle" type="hidden" value="" />
+        <input id="valDesc" type="hidden" value="" />
+        <input id="valPictureLink" type="hidden" value="" />
+        <h1 class="popup_heading" id="langShare">
+            <!--Share-->
+        </h1>
+        <!-- Popup Inside Content ...starts -->
+        <div class="popup_brd">
+            <div class="shr_popup_lft_spcin">
+                <img src="../stock/themes/default/images/email_icon.png" alt="Twitter" height="20"
+                    width="20" />&nbsp; <b id="langEmailto">
+                        <!--Email to-->
+                    </b>( <span id="langUCTSMEmailids">
+                        <!--use comma to separate multiple email ids-->
+                    </span>)<br />
+                <textarea id="txtEmailShare" class="shr_txtar_box" cols="2" rows="2"></textarea>
+                <input type="button" id="langEmail" value="" onclick="javascript:CMSShareByEmail();"
+                    class="di_gui_button shr_popup_rgt_bttn" />
+                <br />
+                <b>
+                    <label id="lblEmailSent" style="display: none;">
+                        <!--Email Sent-->
+                    </label>
+                </b>
+            </div>
+            <div class="shr_popup_lft_spcin">
+                <img src="../stock/themes/default/images/tweet_icon.png" alt="Twitter" height="20"
+                    width="20" />&nbsp; <b id="langShareonTwitter">
+                        <!--Share on Twitter-->
+                    </b>
+                <br />
+                <textarea id="txtTwitterShare" class="shr_txtar_box" cols="2" rows="2"></textarea>
+                <input type="button" id="langTweet" value="" onclick="javascript:CMSTweet();" class="di_gui_button shr_popup_rgt_bttn" />
+            </div>
+            <div class="shr_popup_lft_spcin">
+                <img src="../stock/themes/default/images/fb_icon.png" alt="Facebook" height="20"
+                    width="20" />&nbsp; <b id="langShareonFacebook">
+                        <!--Share on Facebook-->
+                    </b>
+                <br />
+                <textarea id="txtFacebookShare" class="shr_txtar_box" cols="2" rows="2"></textarea>
+                <input type="button" id="langWallPost" value="" onclick="javascript:CMSfbWallPost();"
+                    class="di_gui_button shr_popup_rgt_bttn" />
+            </div>
+            <div class="shr_popup_lft_spcin">
+                <b id="langEmbedd_oy_page">
+                    <!--Embedd on your page-->
+                </b>
+                <br />
+                <textarea id="EmbeddLink" rows="5" cols="25" class="shr_txtar_box" style="overflow: auto;"></textarea>
+            </div>
+            <div class="shr_popup_lft_spcin">
+                <b id="langURL">
+                    <!--URL of the Page-->
+                </b>
+                <br />
+                <textarea id="URL" rows="5" cols="25" class="shr_txtar_box" style="overflow: auto;"></textarea>
+            </div>
+        </div>
+        <!-- Popup Inside Content ...ends-->
+        <!-- Popup Buttons ...starts-->
+        <div class="di_gui_button_pos">
+            <input type="button" name="areaCancel" id="langCancel" value="" onclick="RemoveMaskingDiv();di_jq('#CMSdivEmbeddLink').hide('slow');"
+                class="di_gui_button shr_popup_rgt_cncl_bttn" /></div>
+        <!-- Popup Buttons ...starts-->
+    </div>
+    <!--Popup for Share ...ends-->
+    <script type="text/javascript">
+        di_jq(document).ready(function () {
+            if (isNewsMenuVisible == "true") {
+                CreateTopNFooterArticleLinks(z('Adaptation_News').value, z('aNews'), z('aInnovations'));
+            }
+            //            if (isInnovationsMenuVisible == "true") {
+            //                debugger;
+            //                CreateTopNFooterArticleLinks("Innovations", z('aInnovations'));
+            //            }
+
+            if (GetStandalonRegistryStatus() == "true") {
+                z('aHeader').href = z('aHeader').href.replace("home.aspx", "RegStructure.aspx");
+                di_jq("#top_menu_link2").hide();
+                di_jq("#footer").hide();
+            }
+            else {
+                //di_jq("#aHeader").attr("href", "Home.aspx")
+                di_jq("#top_menu_link2").show();
+                di_jq("#footer").show();
+            }
+            onLanguageSelection();
+
+
+            ShowInnovationHorizontalMenu();
+            CheckIsDI7ORGAdaptation_CMS();
+            document.getElementById("aHome").onmouseover = function (event) {
+                ShowCalloutMenu('divCalloutHomeMenu', z('langMenuHomeToolTip').value, event, 'aHome');
+            };
+            document.getElementById("aHome").onmouseout = function (event) {
+                HideCallout('divCalloutHomeMenu');
+            };
+            document.getElementById("aGalleries").onmouseover = function (event) {
+                ShowCalloutMenu('divCalloutGalleryMenu', z('langMenuGalleryToolTip').value, event, 'aGalleries');
+            };
+            document.getElementById("aGalleries").onmouseout = function (event) {
+                HideCallout('divCalloutGalleryMenu');
+            };
+            document.getElementById("aNews").onmouseover = function (event) {
+                ShowCalloutMenu('divCalloutNewsMenu', z('langMenuNewsToolTip').value, event, 'aNews');
+            };
+            document.getElementById("aNews").onmouseout = function (event) {
+                HideCallout('divCalloutNewsMenu');
+            };
+            document.getElementById("aMydata").onmouseover = function (event) {
+                ShowCalloutMenu('divCalloutMyDataMenu', z('langMenuMyDataToolTip').value, event, 'aMydata');
+            };
+            document.getElementById("aMydata").onmouseout = function (event) {
+                HideCallout('divCalloutMyDataMenu');
+            };
+            document.getElementById("aInnovations").onmouseover = function (event) {
+                ShowCalloutMenu('divCalloutInnovationsMenu', z('langMenuInnovationsToolTip').value, event, 'aInnovations');
+            };
+            document.getElementById("aInnovations").onmouseout = function (event) {
+                HideCallout('divCalloutInnovationsMenu');
+            };
+            document.getElementById("aCatalog").onmouseover = function (event) {
+                ShowCalloutMenu('divCalloutCatalogMenu', z('langMenuCatalogToolTip').value, event, 'aCatalog');
+            };
+            document.getElementById("aCatalog").onmouseout = function (event) {
+                HideCallout('divCalloutCatalogMenu');
+            };
+
+            //For Flexible Footer  
+            var ftr_cntnr = document.getElementById("footer_container");
+            var ftr_lnks_cntnr = ftr_cntnr.getElementsByTagName("div");
+
+            var totalVisFooterItems = 0;
+            di_jq(".footer_links").each(function () {
+                if (di_jq(this).css("display") != "none") {
+                    totalVisFooterItems++;
+                }
+            })
+            var wdth_list = 90 / totalVisFooterItems;
+            var pddn_lft_cntr_txt = wdth_list / 3;
+            di_jq(".footer_links").each(function () {
+                di_jq(this).width((wdth_list - pddn_lft_cntr_txt) + "%");
+                di_jq(this).css("padding-left", pddn_lft_cntr_txt + "%");
+            });
+
+        });        
+
+    </script>
+</body>
+</html>

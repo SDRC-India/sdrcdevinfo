@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Gogari" nID="2901" aID="REG005021003" isGlobal="F" parentID="REG005021" parentName="Khagaria" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="468" />
+  <area name="Mansi" nID="2899" aID="REG005021001" isGlobal="F" parentID="REG005021" parentName="Khagaria" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="468" />
+  <area name="Parbatta" nID="2900" aID="REG005021002" isGlobal="F" parentID="REG005021" parentName="Khagaria" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="468" />
+</AreaList>

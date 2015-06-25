@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="User_Settings" ElementID="lang_User_Settings" ElementProperty="innerHTML" />
+  <Associate MasterKey="Add_MUDH" ElementID="lang_Add_MUDH" ElementProperty="innerHTML" />
+  <Associate MasterKey="Available_Users" ElementID="langAvailableConnections" ElementProperty="innerHTML" />
+  <Associate MasterKey="New" ElementID="lang_New" ElementProperty="innerHTML" />
+  <Associate MasterKey="Edit" ElementID="lang_Edit" ElementProperty="innerHTML" />
+  <Associate MasterKey="Delete" ElementID="lang_Delete" ElementProperty="innerHTML" />
+  <Associate MasterKey="NewUser" ElementID="hdnNewUser" ElementProperty="innerHTML" />
+  <Associate MasterKey="EditUser" ElementID="hdnEditUser" ElementProperty="innerHTML" />
+  <Associate MasterKey="EMail_Address" ElementID="lang_EMail_Address" ElementProperty="innerHTML" />
+  <Associate MasterKey="First_Name" ElementID="lang_First_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Country" ElementID="lang_Country" ElementProperty="innerHTML" />
+  <Associate MasterKey="Password" ElementID="lang_Password" ElementProperty="innerHTML" />
+  <Associate MasterKey="Confirm_Password" ElementID="lang_Confirm_Password" ElementProperty="innerHTML" />  
+  <Associate MasterKey="OK" ElementID="btnNewUser" ElementProperty="value" />
+  <Associate MasterKey="Update" ElementID="btnEditUser" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnCancelUser" ElementProperty="value" />
+  <Associate MasterKey="Forgot_Password" ElementID="hdnForgotPwd" ElementProperty="innerHTML" />
+  <Associate MasterKey="EMail_Address" ElementID="lang_EMail_Address_ppup" ElementProperty="innerHTML" />
+  <Associate MasterKey="OK" ElementID="btnFPOk" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnFPCancel" ElementProperty="value" />
+  <Associate MasterKey="Send_DevInfo_Updates" ElementID="spanSendDevInfoUpdates" ElementProperty="innerHTML" />
+</root>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Imamganj" id="IND010008034017" l="3" nid="2730" pnid="2527" dataexists="T" isblock="F" lnid="438" />
+  <a n="Imamganj" id="REG005034017" l="4" nid="2932" pnid="2777" dataexists="T" isblock="F" lnid="481" />
+  <a n="Itarhi" id="IND010008030001" l="3" nid="2715" pnid="2527" dataexists="T" isblock="F" lnid="297" />
+  <a n="Itarhi" id="REG005030001" l="4" nid="2921" pnid="2776" dataexists="T" isblock="F" lnid="477" />
+</AreaList>

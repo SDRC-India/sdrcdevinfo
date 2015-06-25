@@ -1,0 +1,37 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - Account activation required[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Dear [****]USER_NAME[****],
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    You have been successfully registered to [****]ADAPTATION_NAME[****] - <a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a> with following details:
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    User Id: <a href="mailto:[****]USER_EMAILID[****]">[****]USER_EMAILID[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Registry User Roles: Data Consumer
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    Data Consumer Id: [****]DATA_CONSUMER_ID[****] <i><font color="7F7F7F">(Note: Use this ID for using the SDMX registry services)</font></i>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>Account Activation</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Please click on the link below to activate your account
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    <a href="[****]ACTIVATION_URL[****]">[****]ACTIVATION_URL[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    If you have any questions regarding your account or the web application, please contact us directly at <a href="mailto:[****]EMAILID_DB_ADMIN[****]">[****]EMAILID_DB_ADMIN[****]</a>
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Regards,
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Webmaster - [****]ADAPTATION_NAME[****]
+</p>
+</p>

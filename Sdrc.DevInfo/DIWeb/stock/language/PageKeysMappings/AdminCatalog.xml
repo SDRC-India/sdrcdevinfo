@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="Region_Country" ElementID="lang_Region_Country" ElementProperty="innerHTML" />
+  <Associate MasterKey="Availability" ElementID="lang_Availability" ElementProperty="innerHTML" />
+  <Associate MasterKey="Version7" ElementID="lang_ver7" ElementProperty="innerHTML" />
+  <Associate MasterKey="Available_ODevinfo" ElementID="lang_Available_ODevinfo" ElementProperty="innerHTML" />
+  <Associate MasterKey="Available_Online" ElementID="lang_Available_Online" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Available_ODevinfo" ElementID="liCallout_AvailableDI" ElementProperty="innerHTML" />
+  <Associate MasterKey="Available_Online" ElementID="liCallout_AvailableOnline" ElementProperty="innerHTML" />
+  <Associate MasterKey="Catalog" ElementID="lang_Catalog" ElementProperty="innerHTML" />
+  <Associate MasterKey="Add_New_Adaptation" ElementID="btnAddNewAdpt" ElementProperty="value" />
+  <Associate MasterKey="Add_Adaptation_Detail" ElementID="lang_Add_Adaptation_Details" ElementProperty="innerHTML" />
+  <Associate MasterKey="Edit_Adaptation_Detail" ElementID="lang_Edit_Adaptation_Details" ElementProperty="innerHTML" />
+  <Associate MasterKey="AdaptationName" ElementID="langAdaptationName" ElementProperty="innerHTML" />
+  <Associate MasterKey="Description" ElementID="lang_Description" ElementProperty="innerHTML" />
+  <Associate MasterKey="DevInfo_Version" ElementID="lang_DevInfo_Version" ElementProperty="innerHTML" />
+  <Associate MasterKey="Unicef_Region" ElementID="lang_Unicef_Region" ElementProperty="innerHTML" />
+  <Associate MasterKey="Adaptation_Year" ElementID="lang_Adpt_Year" ElementProperty="innerHTML" />
+  <Associate MasterKey="Database_Languages" ElementID="lang_Db_Lnaguages" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Available_on_platform" ElementID="lang_Available_on_platform" ElementProperty="innerHTML" />
+  <Associate MasterKey="Desktop" ElementID="lang_Desktop" ElementProperty="innerHTML" />
+  <Associate MasterKey="Web" ElementID="lang_Web" ElementProperty="innerHTML" />
+  <Associate MasterKey="Web_URL" ElementID="lang_Web_URL" ElementProperty="innerHTML" />
+  <Associate MasterKey="Counts" ElementID="lang_Counts" ElementProperty="innerHTML" />
+  <Associate MasterKey="Area" ElementID="lang_Area" ElementProperty="innerHTML" />
+  <Associate MasterKey="IUS" ElementID="lang_IUS" ElementProperty="innerHTML" />
+  <Associate MasterKey="Time_Periods" ElementID="lang_Time_Periods" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data_Values_AC" ElementID="lang_Data_Values" ElementProperty="innerHTML" />
+  <Associate MasterKey="Time_range" ElementID="lang_Time_range" ElementProperty="innerHTML" />
+  <Associate MasterKey="Start_Year" ElementID="lang_Start_Year" ElementProperty="innerHTML" />  
+  <Associate MasterKey="End_Year" ElementID="lang_End_Year" ElementProperty="innerHTML" />  
+  <Associate MasterKey="Last_modified_on" ElementID="lang_Last_modified_on" ElementProperty="innerHTML" />
+  <Associate MasterKey="Db_Adm_Name" ElementID="lang_Db_Adm_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Db_Adm_Institution" ElementID="lang_Db_Adm_Institution" ElementProperty="innerHTML" />
+  <Associate MasterKey="Db_Adm_Email" ElementID="lang_Db_Adm_Email" ElementProperty="innerHTML" />
+  <Associate MasterKey="Adapted_for" ElementID="lang_Adapted_for" ElementProperty="innerHTML" />
+  <Associate MasterKey="Global" ElementID="lang_Global" ElementProperty="innerHTML" />
+  <Associate MasterKey="National" ElementID="lang_National" ElementProperty="innerHTML" />
+  <Associate MasterKey="Sub-national" ElementID="lang_Sub-national" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_country" ElementID="lang_Select_country" ElementProperty="innerHTML" />
+  <Associate MasterKey="Specify_sub-nation_IA" ElementID="lang_Specify_sub-nation_IA" ElementProperty="innerHTML" />
+  <Associate MasterKey="Catalog_image" ElementID="lang_Catalog_image" ElementProperty="innerHTML" />
+  <Associate MasterKey="Upload" ElementID="lang_Upload" ElementProperty="value" />
+  <Associate MasterKey="dimentions_135_105" ElementID="lang_dimentions_135_105" ElementProperty="innerHTML" />
+  <Associate MasterKey="Save_Adaptation" ElementID="lang_Save_Adaptation" ElementProperty="value" />
+  <Associate MasterKey="Update_Adaptation" ElementID="lang_Update_Adaptation" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnCancel" ElementProperty="value" />
+  <Associate MasterKey="CATALOG_COUNT" ElementID="langCount" ElementProperty="innerHTML" />
+
+  <Associate MasterKey="Number_Of" ElementID="langNumberOf" ElementProperty="value" />
+  <Associate MasterKey="Geographical_Areas" ElementID="langGeographicalAreas" ElementProperty="value" />
+  <Associate MasterKey="Variables" ElementID="langVariables" ElementProperty="value" />
+  <Associate MasterKey="TIMEPERIOD" ElementID="langTimePeriod" ElementProperty="value" />
+  <Associate MasterKey="Data" ElementID="langData" ElementProperty="value" />
+  <Associate MasterKey="Last_Updated" ElementID="langLastUpdated" ElementProperty="value" />
+  <Associate MasterKey="Keywords" ElementID="langKeywords" ElementProperty="value" />
+  <Associate MasterKey="Preview_Data" ElementID="langPreviewData" ElementProperty="value" />
+  <Associate MasterKey="GoTo_Data" ElementID="langGotoData" ElementProperty="value" />
+
+  <Associate MasterKey="Unicef_Region" ElementID="spnUnciefRegion" ElementProperty="innerHTML" />
+  <Associate MasterKey="Adaptation_Year" ElementID="spnAdaptationYear" ElementProperty="innerHTML" />
+  <Associate MasterKey="Database_Languages" ElementID="spnDatabaseLanguages" ElementProperty="innerHTML" />
+  
+  <Associate MasterKey="Selectall" ElementID="ankSelectAll" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clearall" ElementID="ankClearall" ElementProperty="innerHTML" />
+</root>

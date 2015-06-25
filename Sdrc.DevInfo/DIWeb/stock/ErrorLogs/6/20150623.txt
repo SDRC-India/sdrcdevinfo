@@ -1,0 +1,45 @@
+ 23-06-2015 10:51:38 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1841
+[****]Exception Time: 23-06-2015 10:51:38
+=====================================================================================================================================================
+
+23-06-2015 10:51:39 >> Exception Found:
+[****]Type: System.ArgumentException
+[****]Message: This constraint cannot be enabled as not all values have corresponding parent values.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.ConstraintCollection.AddForeignKeyConstraint(ForeignKeyConstraint constraint)
+   at System.Data.ConstraintCollection.Add(Constraint constraint, Boolean addUniqueWhenAddingForeign)
+   at System.Data.DataRelationCollection.DataSetRelationCollection.AddCore(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(DataRelation relation)
+   at System.Data.DataRelationCollection.Add(String name, DataColumn parentColumn, DataColumn childColumn, Boolean createConstraints)
+   at Callback.AddRecordFromTableWithoutLoop(DataTable TargetTable, DataTable SourceTable, String RelationshipColumnsName, String ColumnNamesToCopyData) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1883
+   at Callback.SetMapLayers(Map diMap, String dbNId, String langCode) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\MapCallback.cs:line 1515
+[****]Exception Time: 23-06-2015 10:51:39
+=====================================================================================================================================================
+
+23-06-2015 13:01:04 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: Cannot find table 0.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Callback.GetCurentAdaptationsUser(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\AdminCallback.cs:line 4142
+[****]Exception Time: 23-06-2015 13:01:04
+=====================================================================================================================================================
+
+23-06-2015 13:01:07 >> Exception Found:
+[****]Type: System.IndexOutOfRangeException
+[****]Message: Cannot find table 0.
+[****]Source: System.Data
+[****]Stacktrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Callback.GetCurentAdaptationsUser(String requestParam) in d:\ProjectUderSourav\Devinfo Source Code (original)\Devinfo new\Sdrc.DevInfo\DIWeb\App_Code\AdminCallback.cs:line 4142
+[****]Exception Time: 23-06-2015 13:01:07
+=====================================================================================================================================================
+

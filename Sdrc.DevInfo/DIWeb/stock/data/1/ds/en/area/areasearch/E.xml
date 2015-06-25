@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Champaran East" id="IND010005002" l="3" nid="2555" pnid="2526" dataexists="T" isblock="F" lnid="40" />
+  <a n="Champaran East" id="REG005002" l="3" nid="2761" pnid="2741" dataexists="T" isblock="F" lnid="487" />
+  <a n="Champaran East - Level 4" id="QS_REG005002_L4" l="4" nid="QS_REG005002_L4" pnid="2761" dataexists="F" isblock="F" lnid="0" />
+  <a n="Ekangarsarai" id="IND010008027004" l="3" nid="2690" pnid="2527" dataexists="T" isblock="F" lnid="330" />
+  <a n="Ekangarsarai" id="REG005027004" l="4" nid="2909" pnid="2773" dataexists="T" isblock="F" lnid="474" />
+  <a n="Purnea East" id="IND010001009004" l="3" nid="2578" pnid="2527" dataexists="T" isblock="F" lnid="112" />
+  <a n="Purnea East" id="REG005009004" l="4" nid="2796" pnid="2745" dataexists="T" isblock="F" lnid="454" />
+  <a n="RVS E.Champaran" id="IND010005" l="3" nid="2533" pnid="2525" dataexists="T" isblock="F" lnid="0" />
+</AreaList>

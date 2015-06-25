@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<presentations>
+  <presentation id="399ae777-e976-4211-a1db-95c45e106c8c">
+    <chartdata>{"id":"root","name":"","data":{"$color":"#CB20B9"},"children":[{"id":"root_DVS","name":"DVS","data":{"playcount":"66.00","$area":"66.00","$color":"#7CF2AF"},"children":[]},{"id":"root_Health Facility","name":"Health Facility","data":{"playcount":"60.00","$area":"60.00","$color":"#8D9C40"},"children":[]},{"id":"root_RVS","name":"RVS","data":{"playcount":"32.00","$area":"32.00","$color":"#679440"},"children":[]},{"id":"root_SVS","name":"SVS","data":{"playcount":"66.00","$area":"66.00","$color":"#ED0364"},"children":[]}]}</chartdata>
+  </presentation>
+</presentations>

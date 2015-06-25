@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Bihpur" nID="2814" aID="REG005022002" isGlobal="F" parentID="REG005022" parentName="Bhagalpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="469" />
+  <area name="Kharik" nID="2815" aID="REG005022003" isGlobal="F" parentID="REG005022" parentName="Bhagalpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="469" />
+  <area name="Sabour" nID="2813" aID="REG005022001" isGlobal="F" parentID="REG005022" parentName="Bhagalpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="469" />
+  <area name="Sultanganj" nID="2816" aID="REG005022004" isGlobal="F" parentID="REG005022" parentName="Bhagalpur" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="469" />
+</AreaList>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Kishanganj Rural" nID="2789" aID="REG005008006" isGlobal="F" parentID="REG005008" parentName="Kishanganj" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="453" />
+  <area name="Kochadhaman" nID="2787" aID="REG005008001" isGlobal="F" parentID="REG005008" parentName="Kishanganj" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="453" />
+  <area name="Pothia" nID="2788" aID="REG005008003" isGlobal="F" parentID="REG005008" parentName="Kishanganj" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="453" />
+</AreaList>

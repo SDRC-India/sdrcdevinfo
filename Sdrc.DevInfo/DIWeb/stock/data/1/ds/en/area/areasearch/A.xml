@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <a n="Ahatguri SHC" id="IND018005001" l="3" nid="3028" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Ambagan SHC" id="IND018006001" l="3" nid="3036" pnid="2999" dataexists="T" isblock="F" lnid="0" />
+  <a n="Assam" id="REG" l="1" nid="2995" pnid="-1" dataexists="F" isblock="F" lnid="598" />
+  <a n="Assam - Level 2" id="QS_REG_L2" l="2" nid="QS_REG_L2" pnid="2995" dataexists="F" isblock="F" lnid="0" />
+  <a n="Karbi Anglong" id="IND018015" l="3" nid="3015" pnid="2998" dataexists="T" isblock="F" lnid="585" />
+</AreaList>

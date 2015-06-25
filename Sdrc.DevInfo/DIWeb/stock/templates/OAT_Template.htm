@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script type="text/javascript" src="STR_DI_UI_LIB1.9/js/di.jquery-1.4.4.js"></script>
+
+<!-- Start Pivoting related files -->
+<script type="text/javascript" >
+	var featureList=["tab","panelbar","dialog"];
+</script>
+
+<script type="text/javascript" src="STR_DI_UI_LIB1.9/js/oatgrid/loader.js"></script>	
+	
+<link rel="stylesheet" type="text/css" href="../../../../themes/default/css/style.css" />
+<link rel="stylesheet" type="text/css" href="../../../../themes/default/css/style_dataview.css" />
+
+<!-- End Pivoting related files -->
+<script type="text/javascript">
+
+
+    function z(ElementID) {
+        var tmpElement = document.getElementById(ElementID);
+        return tmpElement;
+    }
+
+    function ShowCallout(divID, calloutText, evt) {
+        var divCallout = z(divID);
+
+        evt = evt || window.event;
+        z(divID + "Text").innerHTML = calloutText;
+
+        SetCalloutPosition(evt, divCallout, 20, 0);
+
+        divCallout.style.display = "block";
+    }
+
+    function HideCallout(divID) {
+
+        if (divID == undefined) divID = 'divCallout';
+        z(divID).style.display = "none";
+    }
+
+
+    function SetCalloutPosition(sEvent, divCallOut, marginLeft, marginTop) {
+        if (divCallOut) {
+            // Get x and y coordinates to show callout at mouse position    
+            var xPos = 0; var yPos = 0;
+            if (sEvent.pageX || sEvent.pageY) {
+                xPos = sEvent.pageX;
+                yPos = sEvent.pageY;
+            }
+            else if (sEvent.clientX || sEvent.clientY) {
+                xPos = sEvent.clientX + document.documentElement.scrollLeft + 10;
+                yPos = sEvent.clientY + document.documentElement.scrollTop;
+            }
+
+            divCallOut.style.left = xPos - marginLeft + "px";
+            divCallOut.style.top = yPos - marginTop + "px";
+        }
+    }
+
+
+    /* function to load footnotes for any FootNoteNid*/
+    function getFootNote(FootNoteNid, event) {
+        var Result = '';
+        var FootPath = '../../data/STR_DB_NID/ds/en/footnotes/'; //getAbsURL('stock') + 
+        var di_return_first_ic_type_val = '';
+        di_jq.ajax({
+            type: "GET",
+            url: FootPath + FootNoteNid + ".xml",
+            dataType: "xml",
+            async: false,
+            success: function (xml) {
+                try {
+                    var tmpFootNoteVal = xml.lastChild.text || xml.lastChild.textContent;
+                    if (tmpFootNoteVal != '') {
+                        Result = tmpFootNoteVal.toString();
+                        ShowCallout('divCallout', Result, event);
+                    }
+                    else {
+                        //alert("Blank");
+                    }
+
+                }
+                catch (ex) {
+                    //ShowProgressBar(false);
+                    //alert("Error : " + ex.message);
+                }
+            },
+            error: function () {
+                //ShowProgressBar(false);
+                //alert("Error occured");
+            },
+            cache: false
+        });
+
+    }
+
+
+// create pivoting object
+var header = [];
+var data = [];
+
+var strHeader = STR_HEADER;
+var strData = STR_DATA;
+header = di_jq.parseJSON(strHeader);
+data = di_jq.parseJSON(strData);
+
+var totc="";
+	var lastcol = header.length-1;
+	var sublist = [];
+	var mainlist = [];
+	
+	mainlist = di_jq.parseJSON(STR_ROW_CONDITION);
+	sublist = di_jq.parseJSON(STR_COL_CONDITION);
+
+var DEMO = {};
+window.cal = false;
+
+DEMO.pivot = {
+	panel:1,
+	tab:0,
+	div:"pivot",
+	needs:["pivot","statistics"],
+	cb:function() {
+		var pivot = new OAT.Pivot("pivot_content","","pivot_page",header,data,mainlist,sublist,[],lastcol,{showChart:0,showEmpty:0});
+	}
+}
+// initiation function for the pivoting
+function init(){	
+   /* tabs */
+	var tab = new OAT.Tab ("content");
+	for (var p in DEMO) {
+		var name = DEMO[p].div;
+		tab.add ("tab_" + name, name);
+	}
+
+	/* panelbar_content */
+	var pb = new OAT.Panelbar("panelbar",10);
+	pb.addPanel("pb_1","pb_11");
+	
+	/* create dimmer element */
+	var dimmerElm = OAT.Dom.create("div",{border:"2px solid #000",padding:"1em",position:"absolute",backgroundColor:"#fff"});
+	dimmerElm.innerHTML = "Data loading...";
+	document.body.appendChild(dimmerElm);
+	OAT.Dom.hide(dimmerElm);
+	
+	for (var p in DEMO) { DEMO[p].drawn = false; } 
+	tab.options.goCallback = function(oldIndex,newIndex) {
+		var oldName, newName;
+		for (var p in DEMO) {
+			var v = DEMO[p];
+			if (v.tab == oldIndex) { oldName = p; }
+			if (v.tab == newIndex) { newName = p; }
+		}
+		
+		var obj = DEMO[newName]; 
+		OAT.Dimmer.show(dimmerElm);
+		OAT.Dom.center(dimmerElm,1,1);
+		var ref = function() {  
+			if (!window.location.href.match(/:source/)) { OAT.Dimmer.hide(); }
+			obj.cb(); // calling again
+			obj.drawn = false; 
+		}
+		OAT.Loader.loadFeatures(obj.needs,ref);
+		
+	}
+	pb.go(0);
+	tab.go(0);
+}
+ function GetBaseURL() {
+    var RetVal;
+    var Pathname = window.location.pathname;
+    var SiteName = Pathname.split("/")[1];
+    RetVal = "http://" + window.location.hostname;
+    if (window.location.href.indexOf("localhost") != -1) {
+        RetVal += ":" + window.location.port;
+    }
+    RetVal += "/" + SiteName + "/" + Pathname.split("/")[2];
+    return RetVal;
+}
+
+jQuery(document).ready(function () {
+   jQuery('head').append('<meta property="og:image" content="' + GetBaseURL() + "/stock/templates/fb_table.png" + '">');
+});
+</script>
+ <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+    <meta property="og:title" content="Dev Info" />
+    <meta property="og:description" content="Powered By DevInfo" />
+</head>
+<body style="background: none;">
+
+<div id="divCallout" style="z-index:1200;position:absolute;width:200px;display:none;" class="callout border-callout">
+        <div id="divCalloutText" class="content">Callout text</div>
+        <b class="border-notch notch"></b>
+        <b class="notch"></b>
+</div>
+
+<table cellspacing="6" cellpadding="0" border="0">
+ <tr>
+  <td>
+   <div class="heading2" id="dataTitle">
+   
+   STR_TITLE
+   </div><br />
+   <div id="dataSubTitle">
+   
+   STR_SUB_TITLE
+   </div>
+  </td>
+ </tr>
+ <tr>
+ <td>
+  <div id="panelbar">
+	<div id="pb_1"></div>
+	<div id="pb_11">
+	</div>
+  </div> 
+  <div id="content"></div>
+  <div id="pivot">
+   <div id="pivot_page" style="display:none;"></div>
+   <div id="pivot_content"></div>
+   <div id="pivot_chart"></div>
+   
+   <div id="divCountDataRows" style="font-size: 10px;">
+   </div>
+    <div style="font-size: 10px; margin-top: 8px;" id="divSingleSource">
+    </div>
+  </div>
+	
+</td>
+</tr>
+</table>
+	
+</body>
+</html>

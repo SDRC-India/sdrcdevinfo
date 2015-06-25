@@ -1,0 +1,37 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - डेटा प्रदाता का अधिकार दिया[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    प्रिय [****]USER_NAME[****],
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    आपने सफलतापूर्वक किया गया है पर डेटा प्रदाता के लिए अधिकार दिया [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    नीचे दिए गए विवरण में अपने डेटा प्रदाता आईडी कृपया ध्यान दें:
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    प्रयोक्ता आईडी: <a href="mailto:[****]USER_EMAILID[****]">[****]USER_EMAILID[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+   प्रयोक्ता नाम: [****]USER_NAME[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    डेटा प्रदाता आईडी: [****]DATA_PROVIDER_ID[****]
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>कृपया ध्यान दें:</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+  अब आप इन विवरणों का उपयोग करने के लिए शुरू हो सकता है पर SDMX रजिस्ट्री सेवाओं का उपयोग कर डेटा दर्ज [****]ADAPTATION_NAME[****] (<a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a>).
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    यदि आप किसी भी अपने खाते या वेब अनुप्रयोग के बारे में प्रश्न है, तो कृपया हमसे सीधे संपर्क करें <a href="mailto:[****]EMAILID_DB_ADMIN[****]">[****]EMAILID_DB_ADMIN[****]</a>
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    सादर,
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Webmaster - [****]ADAPTATION_NAME[****]
+</p>
+</p>

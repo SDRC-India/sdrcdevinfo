@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="DataProvider_Page_Title" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="DataProvider_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  
+  <Associate MasterKey="DatabaseWithColon" ElementID="spanDatabase" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select" ElementID="aDatabaseSelect" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clear" ElementID="aDatabaseClear" ElementProperty="innerHTML" />
+  <Associate MasterKey="OR" ElementID="spanOR" ElementProperty="innerHTML" />
+  <Associate MasterKey="DSD_Id_Version_AgencyId" ElementID="spanDSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select" ElementID="aDSDSelect" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clear" ElementID="aDSDClear" ElementProperty="innerHTML" />
+  <Associate MasterKey="ActionWithColon" ElementID="spanAction" ElementProperty="innerHTML" />
+  <Associate MasterKey="SelectOne" ElementID="SelectOne" ElementProperty="innerHTML" />
+  <Associate MasterKey="GenerateSDMXML" ElementID="GenerateSDMXML" ElementProperty="innerHTML" />
+  <Associate MasterKey="RegisterSDMXML" ElementID="RegisterSDMXML" ElementProperty="innerHTML" />
+  <Associate MasterKey="GenerateMetadata" ElementID="GenerateMetadata" ElementProperty="innerHTML" />
+  <Associate MasterKey="RegisterMetadata" ElementID="RegisterMetadata" ElementProperty="innerHTML" />
+  <Associate MasterKey="GenerateSDMXMLDescription" ElementID="spanGenerateSDMXMLDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="RegisterSDMXMLDescription" ElementID="spanRegisterSDMXMLDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="GenerateMetadataDescription" ElementID="spanGenerateMetadataDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="RegisterMetadataDescription" ElementID="spanRegisterMetadataDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="IndicatorWithColon" ElementID="spanIndicator" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select" ElementID="aIndicatorSelect" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clear" ElementID="aIndicatorClear" ElementProperty="innerHTML" />
+  <Associate MasterKey="AreaWithColon" ElementID="spanArea" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select" ElementID="aAreaSelect" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clear" ElementID="aAreaClear" ElementProperty="innerHTML" />
+  <Associate MasterKey="TimeWithColon" ElementID="spanTP" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select" ElementID="aTPSelect" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clear" ElementID="aTPClear" ElementProperty="innerHTML" />
+  <Associate MasterKey="SourceWithColon" ElementID="spanSource" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select" ElementID="aSourceSelect" ElementProperty="innerHTML" />
+  <Associate MasterKey="Clear" ElementID="aSourceClear" ElementProperty="innerHTML" />
+  <Associate MasterKey="GenerateSDMXML" ElementID="btnGenerateSDMXML" ElementProperty="value" />
+  <Associate MasterKey="RegisterSDMXML" ElementID="btnRegisterSDMXML" ElementProperty="value" />
+  <Associate MasterKey="GenerateMetadata" ElementID="btnGenerateMetadata" ElementProperty="value" />
+  <Associate MasterKey="RegisterMetadata" ElementID="btnRegisterMetadata" ElementProperty="value" />
+  <Associate MasterKey="SelectDatabase" ElementID="lang_SelectDatabase" ElementProperty="innerHTML" />
+  <Associate MasterKey="Ok" ElementID="btnDatabaseOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnDatabaseCancel" ElementProperty="value" />
+  <Associate MasterKey="SelectDSD" ElementID="lang_SelectDSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Ok" ElementID="btnDSDOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnDSDCancel" ElementProperty="value" />
+  <Associate MasterKey="SelectIndicator" ElementID="lang_SelectIndicator" ElementProperty="innerHTML" />
+  <Associate MasterKey="Ok" ElementID="btnIndicatorOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnIndicatorCancel" ElementProperty="value" />
+  <Associate MasterKey="SelectArea" ElementID="lang_SelectArea" ElementProperty="innerHTML" />
+  <Associate MasterKey="Ok" ElementID="btnAreaOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnAreaCancel" ElementProperty="value" />
+  <Associate MasterKey="SelectTime" ElementID="lang_SelectTime" ElementProperty="innerHTML" />
+  <Associate MasterKey="Ok" ElementID="btnTPOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnTPCancel" ElementProperty="value" />
+  <Associate MasterKey="SelectSource" ElementID="lang_SelectSource" ElementProperty="innerHTML" />
+  <Associate MasterKey="Ok" ElementID="btnSourceOK" ElementProperty="value" />
+  <Associate MasterKey="Cancel" ElementID="btnSourceCancel" ElementProperty="value" />
+  <Associate MasterKey="SelectAll" ElementID="hSelectAll" ElementProperty="value" />
+  <Associate MasterKey="Database" ElementID="hDatabase" ElementProperty="value" />
+  <Associate MasterKey="Publisher" ElementID="hPublisher" ElementProperty="value" />
+  <Associate MasterKey="Id" ElementID="hId" ElementProperty="value" />
+  <Associate MasterKey="Agency_Id" ElementID="hAgencyId" ElementProperty="value" />
+  <Associate MasterKey="Version" ElementID="hVersion" ElementProperty="value" />
+  <Associate MasterKey="Assosciated_Database" ElementID="hAssosciatedDatabase" ElementProperty="value" />
+  <Associate MasterKey="Mapping_Not_Found" ElementID="hdnMappingNotFound" ElementProperty="value" />
+  <Associate MasterKey="No_Data_Found" ElementID="hdnNoDataFound" ElementProperty="value" />
+  
+
+</root>

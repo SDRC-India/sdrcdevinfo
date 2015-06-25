@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ic n="Criteria Scores" nid="11" isG="F">
+  <iu in="E0 : Overall score" inid="17" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="17" dataexists="T" />
+  <iu in="E2 : Temperature" inid="2" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="2" dataexists="T" />
+  <iu in="E3 : Storage Capacity" inid="3" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="3" dataexists="T" />
+  <iu in="E4 : Buildings, equipment, transport" inid="4" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="4" dataexists="T" />
+  <iu in="E5 : Maintenance" inid="5" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="5" dataexists="T" />
+  <iu in="E6 : Stock management" inid="6" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="6" dataexists="T" />
+  <iu in="E7 : Distribution" inid="7" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="7" dataexists="T" />
+  <iu in="E8 : Vaccine management" inid="8" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="8" dataexists="T" />
+  <iu in="E9 : MIS, supportive functions" inid="9" iisG="F" md="F" un="Percent" unid="1" uisG="F" defsgn="Total" defsgnid="1" defsgisG="F" defiusnid="9" dataexists="T" />
+</ic>

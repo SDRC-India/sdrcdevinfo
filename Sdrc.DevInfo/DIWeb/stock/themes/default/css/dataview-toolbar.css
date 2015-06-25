@@ -1,0 +1,37 @@
+
+/* *********************************************************************************** */
+/* DATA VIEW -- TOP TOOLBAR
+/* *********************************************************************************** */
+#iconbar			{position:relative; padding:1px; font-family:arial}
+#iconbar p			{text-align:center; color:#3D3D3D; text-decoration:none; font-size:9px; cursor:pointer; outline:none; display:block; padding-left:2px; padding-bottom:2px}
+
+#iconbar li			{float:left; position:relative; margin-right:2px; border: 0px dashed #ffc0ff; overflow:hidden;}
+#iconbar a			{width:32px; height:32px; color:#bfbfbf; text-decoration:none; font-size:9px; cursor:pointer; outline:none; display:block; padding:5px 10px 5px;}
+#iconbar span		{height:32px; line-height:0px; color:#409BED; position:absolute; display:none; padding-left:9px; padding-right:4px; overflow:hidden; float:left;}
+
+.toolbar-icon1		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -105px -168px no-repeat; float:left}
+.toolbar-icon2		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -33px -165px no-repeat; float:left}
+.toolbar-icon3		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -33px -66px no-repeat; float:left; margin:0 4px;}
+.toolbar-icon4		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -33px -99px no-repeat; float:left; margin:0 4px; }
+.toolbar-icon5		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) 0px -33px no-repeat; float:left}
+.toolbar-icon6		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) 0px 0px no-repeat; float:left; margin:0 4px}
+.toolbar-icon7		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -33px -132px no-repeat; float:left; margin:0 4px}
+.toolbar-icon8		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) 0px -132px no-repeat; float:left}
+.toolbar-icon9		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) 0px -99px no-repeat; float:left; margin:0 4px}
+.toolbar-icon10		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) 0px -66px no-repeat; float:left; margin:0 4px}
+.toolbar-icon11		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -33px -33px no-repeat; float:left}
+.toolbar-icon12		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -33px 0px no-repeat; float:left; margin:0 4px}
+.toolbar-icon13		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -33px -33px no-repeat; float:left; margin:0 4px}
+.toolbar-icon14		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -67px -33px no-repeat; float:left}
+.toolbar-icon15		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -67px -67px no-repeat; float:left; margin:0 4px}
+.toolbar-icon16		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -67px -101px no-repeat; float:left; margin:0 4px}
+.toolbar-icon17		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -105px -1px no-repeat; float:left}
+.toolbar-icon18		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -105px -37px no-repeat; float:left; margin:0 4px}
+.toolbar-icon19		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -105px -73px no-repeat; float:left; margin:0 4px}
+.toolbar-icon20		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -67px 0px no-repeat; float:left}
+.toolbar-icon21		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -68px -168px no-repeat; float:left}
+.toolbar-icon22		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -68px -135px no-repeat; float:left}
+.toolbar-icon23		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -105px -134px no-repeat; float:left}
+.toolbar-icon24		{width:32px; height:32px; background:url(../images/img_sprite_toolbar.png) -142px -1px no-repeat; float:left}
+
+.roundedcorners		{border:2px solid #bfbfbf; border-radius:5px; -moz-border-radius:5px; -webkit-box-radius:5px; margin:auto}

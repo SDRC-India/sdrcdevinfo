@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Manjhi" nID="2872" aID="REG005017002" isGlobal="F" parentID="REG005017" parentName="Saran" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="464" />
+  <area name="Revelganj" nID="2873" aID="REG005017003" isGlobal="F" parentID="REG005017" parentName="Saran" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="464" />
+</AreaList>

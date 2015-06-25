@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Chausa" nID="2809" aID="REG005011007" isGlobal="F" parentID="REG005011" parentName="Madhepura" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="456" />
+  <area name="Gwalpada" nID="2807" aID="REG005011003" isGlobal="F" parentID="REG005011" parentName="Madhepura" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="456" />
+  <area name="Murliganj" nID="2805" aID="REG005011001" isGlobal="F" parentID="REG005011" parentName="Madhepura" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="456" />
+  <area name="Singheshwar" nID="2808" aID="REG005011004" isGlobal="F" parentID="REG005011" parentName="Madhepura" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="456" />
+  <area name="Udakishunganj" nID="2806" aID="REG005011002" isGlobal="F" parentID="REG005011" parentName="Madhepura" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="456" />
+</AreaList>

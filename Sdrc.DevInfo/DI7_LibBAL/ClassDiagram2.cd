@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>UI\UserPreference\Adaptation.cs</FileName>
+      <HashCode>IBEwgoAAAoAoAAgAAAAEACAACAAggBAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation.ApplicationLevelSetting">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\UserPreference\Adaptation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation.DirectorySettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\UserPreference\Adaptation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation.PluginSetting" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\UserPreference\Adaptation.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+        </Compartments>
+      </Class>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation.WebServicesSetting">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\UserPreference\Adaptation.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+          <Compartment Name="Methods" Collapsed="true" />
+        </Compartments>
+      </Class>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation.GeneralSettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\UserPreference\Adaptation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation.CommandButtonsSettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\UserPreference\Adaptation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation.ReportsSetting" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\UserPreference\Adaptation.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+          <Compartment Name="Methods" Collapsed="true" />
+        </Compartments>
+      </Class>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation.GraphicsSettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\UserPreference\Adaptation.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+        </Compartments>
+      </Class>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.UserPreference.Adaptation.ContentSettings">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\UserPreference\Adaptation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+</ClassDiagram>

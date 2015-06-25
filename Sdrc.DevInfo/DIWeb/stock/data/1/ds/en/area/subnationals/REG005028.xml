@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Athmal Gola" nID="2915" aID="REG005028006" isGlobal="F" parentID="REG005028" parentName="Patna" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="475" />
+  <area name="Bikram" nID="2916" aID="REG005028008" isGlobal="F" parentID="REG005028" parentName="Patna" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="475" />
+  <area name="Danapur (Khagaul)" nID="2912" aID="REG005028003" isGlobal="F" parentID="REG005028" parentName="Patna" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="475" />
+  <area name="Daniama" nID="2913" aID="REG005028004" isGlobal="F" parentID="REG005028" parentName="Patna" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="475" />
+  <area name="Dulhin Bazar" nID="2917" aID="REG005028009" isGlobal="F" parentID="REG005028" parentName="Patna" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="475" />
+  <area name="Fatuha" nID="2914" aID="REG005028005" isGlobal="F" parentID="REG005028" parentName="Patna" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="475" />
+  <area name="Naubatpur" nID="2911" aID="REG005028002" isGlobal="F" parentID="REG005028" parentName="Patna" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="475" />
+  <area name="Punpun" nID="2910" aID="REG005028001" isGlobal="F" parentID="REG005028" parentName="Patna" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="475" />
+</AreaList>

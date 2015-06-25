@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+
+  <Associate MasterKey="SignOrRegister" ElementID="spanSignOrRegister" ElementProperty="innerHTML" />
+  <Associate MasterKey="Please_login_BTC" ElementID="spanRequestLogin" ElementProperty="innerHTML" />
+  <Associate MasterKey="Email_Address" ElementID="lang_Email_Address" ElementProperty="innerHTML" />
+  <Associate MasterKey="IA_HavePassword" ElementID="spanHavePassword" ElementProperty="innerHTML" />
+  <Associate MasterKey="INT_Register" ElementID="spanRegister" ElementProperty="innerHTML" />
+  <Associate MasterKey="Login" ElementID="btnLogin" ElementProperty="value" />
+  <Associate MasterKey="First_Name" ElementID="lang_First_Name" ElementProperty="innerHTML" />
+  <Associate MasterKey="Country" ElementID="lang_Country" ElementProperty="innerHTML" />
+  <Associate MasterKey="Password" ElementID="lang_Password" ElementProperty="innerHTML" />
+  <Associate MasterKey="P_alphanumeric_password" ElementID="lang_P_alphanumeric_password" ElementProperty="innerHTML" />
+  <Associate MasterKey="A8C_Long" ElementID="lang_A8C_Long" ElementProperty="innerHTML" />
+  <Associate MasterKey="Confirm_Password" ElementID="lang_Confirm_Password" ElementProperty="innerHTML" />
+  <Associate MasterKey="Register_MAD_Provider" ElementID="spanRegisterProvider" ElementProperty="innerHTML" />
+  <Associate MasterKey="Sign_up" ElementID="btnSignup" ElementProperty="value" />
+  <Associate MasterKey="Update" ElementID="btnUpdate" ElementProperty="value" />
+  <Associate MasterKey="IH_forgotten_password" ElementID="aForgotPassword" ElementProperty="innerHTML" />
+  <Associate MasterKey="Note" ElementID="lang_Note" ElementProperty="innerHTML" />
+  <Associate MasterKey="Notification_ESI_S_Update" ElementID="lang_Notification_ESI_S_Update" ElementProperty="innerHTML" />
+  <Associate MasterKey="Password" ElementID="login_Password" ElementProperty="innerHTML" />
+  <Associate MasterKey="Plz_Select_Country" ElementID="lngSelectCountryMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="EmailId_Password" ElementID="lngIDPasswordMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="AccountNotActivated" ElementID="lngAccountNotActivatedMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Successfully_login" ElementID="lngSuccessfullyLoginMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Regenerate_Link" ElementID="lngRegenerateLinkMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Invalid_Credentials" ElementID="lngInvalidCredentialsMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Internal_Error" ElementID="lngInternalErrorMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Please_verify" ElementID="lngPlzVerifyMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Details_Updated" ElementID="lngDetailsUpdatedMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Enter_EmailId" ElementID="lngEnterIdMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="EmailId_Mandatory" ElementID="lngIdMandatoryMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="EmailId_Format" ElementID="lngIdFormatMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Name_Mandatory" ElementID="lngNameMandatoryMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Enter_Password" ElementID="lngEnterPwdMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Password_Length" ElementID="lngPwdLenMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Confirm_Password_Msg" ElementID="lngConfirmPwdMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="ReEnter_Password" ElementID="lngReenterPwdMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="AccountActivation" ElementID="lngAccountActivationMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Time_Expire" ElementID="lngTimeExpireMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Token_Expire" ElementID="lngTokenExpireMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="ID_Not_Registered" ElementID="lngIdNotRegisterMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="OldPassword_Wrong" ElementID="lngOldPwdWrongMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Password_Changed" ElementID="lngPwdChangedMsg" ElementProperty="innerHTML" />
+  <Associate MasterKey="Account_Not_Exist" ElementID="lngAccountNotExistMsg" ElementProperty="innerHTML" />
+
+</root>

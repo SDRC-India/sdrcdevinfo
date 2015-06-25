@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Bahadurpur" nID="2835" aID="REG005013001" isGlobal="F" parentID="REG005013" parentName="Darbhanga" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="458" />
+  <area name="Baheri" nID="2836" aID="REG005013002" isGlobal="F" parentID="REG005013" parentName="Darbhanga" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="458" />
+  <area name="Benipur (Bahera)" nID="2837" aID="REG005013003" isGlobal="F" parentID="REG005013" parentName="Darbhanga" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="458" />
+</AreaList>

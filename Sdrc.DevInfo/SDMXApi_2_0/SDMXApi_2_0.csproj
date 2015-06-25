@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60958753-0647-4BF2-84F5-9944D413B77C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SDMXApi_2_0</RootNamespace>
+    <AssemblyName>SDMXApi_2_0</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\SDMXCommon.cs" />
+    <Compile Include="Classes\SDMXCompactData.cs" />
+    <Compile Include="Classes\SDMXCrossSectionalData.cs" />
+    <Compile Include="Classes\SDMXGenericData.cs" />
+    <Compile Include="Classes\SDMXGenericMetadata.cs" />
+    <Compile Include="Classes\SDMXMessage.cs" />
+    <Compile Include="Classes\SDMXMetadataReport.cs" />
+    <Compile Include="Classes\SDMXQuery.cs" />
+    <Compile Include="Classes\SDMXRegistry.cs" />
+    <Compile Include="Classes\SDMXStructure.cs" />
+    <Compile Include="Classes\SDMXUtilityData.cs" />
+    <Compile Include="Classes\xml.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Deserializer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Schemas.cs" />
+    <Compile Include="Serializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Schemas\SDMXCommon.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXCommon.xsx">
+      <DependentUpon>SDMXCommon.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\SDMXCompactData.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXCrossSectionalData.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXGenericData.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXGenericMetadata.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXMessage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXMessage.xsx">
+      <DependentUpon>SDMXMessage.xsd</DependentUpon>
+    </None>
+    <None Include="Schemas\SDMXMetadataReport.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXQuery.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXRegistry.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXStructure.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\SDMXUtilityData.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

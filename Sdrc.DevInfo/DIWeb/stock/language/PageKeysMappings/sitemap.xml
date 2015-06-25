@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+    <!ELEMENT root ANY>
+    <!ELEMENT Associate ANY>
+    <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+    <!ATTLIST Associate ElementID ID #REQUIRED >
+    <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+    <Associate MasterKey="DevInfo" ElementID="slangDevInfo" ElementProperty="innerHTML" />
+    <Associate MasterKey="WI_DevInfo" ElementID="slangWI_DevInfo" ElementProperty="innerHTML" />
+    <Associate MasterKey="DI7Features" ElementID="slangDI7Features" ElementProperty="innerHTML" />
+    <Associate MasterKey="DI7Downloads" ElementID="slangDIDownloads" ElementProperty="innerHTML" />
+    <Associate MasterKey="DI7Training" ElementID="slangDITraining" ElementProperty="innerHTML" />
+    <Associate MasterKey="DI7MapLibrary" ElementID="slangDIMapLibrary" ElementProperty="innerHTML" />
+    <Associate MasterKey="FAQ" ElementID="slangFAQ" ElementProperty="innerHTML" />
+    <Associate MasterKey="DI7Worldiwide" ElementID="slangDIWorldWide" ElementProperty="innerHTML" />
+    <Associate MasterKey="HowToVideos" ElementID="slangHowToVideos" ElementProperty="innerHTML" />
+    <Associate MasterKey="DataSearch" ElementID="slangDataSearch" ElementProperty="innerHTML" />
+    <Associate MasterKey="ByKTGA" ElementID="slangByKTGA" ElementProperty="innerHTML" />
+    <Associate MasterKey="Catalog" ElementID="slangCatalog" ElementProperty="innerHTML" />
+    <Associate MasterKey="diGallery" ElementID="langdiGallery" ElementProperty="innerHTML" />
+    <Associate MasterKey="Registry" ElementID="slangRegistry" ElementProperty="innerHTML" />
+    <Associate MasterKey="DataQueryService" ElementID="slangDataQueryService" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="Innovations" ElementID="slangInnovation" ElementProperty="innerHTML" />   
+    <Associate MasterKey="diMonitoring" ElementID="slangdiMonitoring" ElementProperty="innerHTML" />
+    <Associate MasterKey="diProfile" ElementID="slangdiProfile" ElementProperty="innerHTML" />
+    <Associate MasterKey="diGameworks" ElementID="slangdiGameworks" ElementProperty="innerHTML" />
+    <Associate MasterKey="diDashboard" ElementID="slangdiDashboard" ElementProperty="innerHTML" />
+
+    <Associate MasterKey="AboutUs" ElementID="slangAboutUs" ElementProperty="innerHTML" />
+    <Associate MasterKey="DevInfoTeam" ElementID="slangDevInfoTeam" ElementProperty="innerHTML" />
+    <Associate MasterKey="SiteMap" ElementID="slangSiteMap" ElementProperty="innerHTML" />
+</root>

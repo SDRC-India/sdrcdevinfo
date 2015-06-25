@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="DevInfo.Lib.DI_LibBAL.UI.Presentations.Graph.GraphPresentation">
+    <Position X="0.5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <FileName>UI\Presentations\Graph\GraphPresentation.cs</FileName>
+      <HashCode>wgAAgIEC1AAAACAaABQABkAcJFAYwIAACRAAAIgEBhE=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="DevInfo.Lib.DI_LibBAL.UI.Presentations.Graph.GraphPresentation.Position">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\Presentations\Graph\GraphPresentation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.Presentations.Graph.GraphPresentation.LanguageSettings">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\Presentations\Graph\GraphPresentation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DevInfo.Lib.DI_LibBAL.UI.Presentations.Graph.GraphPresentation.Constants">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\Presentations\Graph\GraphPresentation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DevInfo.Lib.DI_LibBAL.UI.Presentations.Graph.GraphTemplateStyle">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>UI\Presentations\Graph\GraphTemplateStyle.cs</FileName>
+      <HashCode>MQAAAAAAAQAAAggAAhAUAEFgAAAMAAAAAQQgIgAiCEE=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="DevInfo.Lib.DI_LibBAL.UI.Presentations.Graph.GraphTemplateStyle.LocationType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\Presentations\Graph\GraphTemplateStyle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+</ClassDiagram>

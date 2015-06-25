@@ -1,0 +1,15 @@
+
+/* *********************************************************************************** */
+/* DATA VIEW -- LEFT SIDE NAVIGATION
+/* *********************************************************************************** */
+.dataview-sidebar-left{ width:5px; height:34px; background:url(../images/img_sprite_nav.png) 1px -1px no-repeat; float:left}
+.dataview-sidebar-right{ width:5px; height:34px; background:url(../images/img_sprite_nav.png) 0px -70px no-repeat; float:left}
+.dataview-sidebar-center{ width:93px; height:34px; background:url(../images/img_sprite_nav.png) 0px -35px repeat-x; float:left;}
+.dataview-sidebar-center .span{ margin-top:7px;}
+.dataview-sidebar-icon1{ width:24px; height:24px; background:url(../images/img_sprite_indicators.png) 0px 0px no-repeat; margin-top:4px}
+.dataview-sidebar-icon2{ width:24px; height:24px; background:url(../images/img_sprite_indicators.png) 0px -25px no-repeat; margin-top:4px}
+.dataview-sidebar-icon3{ width:24px; height:24px; background:url(../images/img_sprite_indicators.png) 0px -50px no-repeat; margin-top:4px}
+.dataview-sidebar-icon4{ width:24px; height:24px; background:url(../images/img_sprite_indicators.png) 0px -75px no-repeat; margin-top:4px}
+.dataview-sidebar-icon5{ width:24px; height:24px; background:url(../images/img_sprite_indicators.png) 0px -100px no-repeat; margin-top:4px}
+.dataview-sidebar-icon6{ width:24px; height:24px; background:url(../images/img_sprite_indicators.png) 0px -125px no-repeat; margin-top:4px}
+.dataview-sidebar-icon7{ width:24px; height:24px; background:url(../images/img_sprite_indicators.png) 0px -150px no-repeat; margin-top:4px}

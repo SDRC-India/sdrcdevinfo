@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+  <Associate MasterKey="Tools_Page_Title" ElementID="spanPageTitle" ElementProperty="innerHTML" />
+  <Associate MasterKey="Tools_Page_Desc" ElementID="pPageDescription" ElementProperty="innerHTML" />
+  <Associate MasterKey="Compare_ATDSD" ElementID="lang_Compare_ATDSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="DSD1" ElementID="lang_DSD1" ElementProperty="innerHTML" />
+  <Associate MasterKey="DSD2" ElementID="lang_DSD2" ElementProperty="innerHTML" />
+  <Associate MasterKey="Compare" ElementID="btnCompare" ElementProperty="value" />
+  <Associate MasterKey="Compare_YDSDA" ElementID="lang_Compare_YDSDA" ElementProperty="innerHTML" />
+  <Associate MasterKey="DSD" ElementID="lang_DSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="DSD_Compare" ElementID="lang_DSD_Compare" ElementProperty="innerHTML" />
+  <Associate MasterKey="Compare" ElementID="btnCompareDSDAgainstDevInfoDSD" ElementProperty="value" />
+  <Associate MasterKey="lang_Error_Occurred" ElementID="hErrorOccurred" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Please_Browse_DSD" ElementID="hMsgPleaseBrowseDSD" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Please_Browse_DSD1_And_DSD2" ElementID="hMsgPleaseBrowseDSD1AndDSD2" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Generating_Report" ElementID="hMsgGeneratingReport" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Report_Successfully_Generated" ElementID="hMsgReportSuccessfullyGenerated" ElementProperty="value" />
+
+  <Associate MasterKey="Validate_SDF" ElementID="lang_Validate_SDF" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_SDF" ElementID="lang_Select_SDF" ElementProperty="innerHTML" />
+  <Associate MasterKey="ValidateSDMXML" ElementID="btnValidateSDMXML" ElementProperty="value" />
+  <Associate MasterKey="Validate_YDSDA" ElementID="lang_Validate_YDSDA" ElementProperty="innerHTML" />
+  
+  <Associate MasterKey="SelectDSD" ElementID="lang_SelectDSD" ElementProperty="innerHTML" />
+  <Associate MasterKey="Validate_DSD" ElementID="btnValidateDSD" ElementProperty="value" />
+  <Associate MasterKey="Error_Details" ElementID="lang_Error_Details" ElementProperty="innerHTML" />
+  <Associate MasterKey="Validate_MR" ElementID="lang_Validate_MR" ElementProperty="innerHTML" />
+  <Associate MasterKey="Select_MR" ElementID="lang_Select_MR" ElementProperty="innerHTML" />
+  <Associate MasterKey="ValidateMetadataReportFile" ElementID="btnValidateMetadataReportFile" ElementProperty="value" />
+
+  <Associate MasterKey="lang_Error_Occurred" ElementID="hErrorOccurred" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Validate_SDMXML" ElementID="hMsgValidateSDMXML" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Validate_DSD" ElementID="hMsgValidateDSD" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Validate_Metadata" ElementID="hMsgValidateMetadata" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_SDMXML_Validation_Scenarios" ElementID="hMsgSDMXMLValidationScenarios" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_SDMXML_Validation_Status" ElementID="hMsgSDMXMLValidationStatus" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_DSD_Validation_Scenarios" ElementID="hMsgDSDValidationScenarios" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_DSD_Validation_Status" ElementID="hMsgDSDValidationStatus" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Metadata_Report_Validation_Scenarios" ElementID="hMsgMetadataReportValidationScenarios" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Metadata_Report_Validation_Status" ElementID="hMsgMetadataReportValidationStatus" ElementProperty="value" />
+  <Associate MasterKey="lang_Msg_Error_Details_Not_Found" ElementID="hMsgErrorDetailsNotFound" ElementProperty="value" />
+  <Associate MasterKey="DSD" ElementID="lang_DSD_cmp" ElementProperty="innerHTML" />
+</root>

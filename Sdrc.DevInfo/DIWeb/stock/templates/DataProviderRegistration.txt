@@ -1,0 +1,1 @@
+Dear USERNAME,<br /><br />You have been successfully registered to ADAPTATIONNAME( ADAPTATIONURL ) with following details.<br /><br />User Id: EMAILID   <br /><br />Registry User Roles: Data Provider<br /><br />Data Provider Id: DATAPROVIDERID<br /><br /><br />Thank You.<br /><br />With Best Regards,<br /><br />Admin"<br /><br /> ADAPTATIONNAME

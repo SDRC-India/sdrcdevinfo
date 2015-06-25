@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="Activate_UserRegistration" ElementID="langRegistration" ElementProperty="innerHTML" />
+  <Associate MasterKey="Activate_AccountActivated" ElementID="hAccountActivated" ElementProperty="innerHTML" />
+  <Associate MasterKey="Activate_AccountActivatedSuccess" ElementID="langAccountActivated" ElementProperty="innerHTML" />
+  <Associate MasterKey="Activate_AccountActivatedFailure" ElementID="langErrorInActivation" ElementProperty="innerHTML" />
+  <Associate MasterKey="Activate_Login" ElementID="aActivationLogin" ElementProperty="innerHTML" />
+  <Associate MasterKey="Activate_Home" ElementID="aActivationHome" ElementProperty="innerHTML" />
+  <Associate MasterKey="Regenerate_Link" ElementID="lngRegenerateLinkMsg" ElementProperty="innerHTML" />
+</root>

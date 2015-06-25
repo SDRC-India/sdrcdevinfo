@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- count="area_ind_src_dvs" dbConn="type||host||dbname||username||pwd"> -->
+<!-- dbType: 1=SQLServer, 2=MySQL, 3-Firebird -->
+<dbinfo def="1" defDSD="">
+  <category name="DevInfo">
+    <db id="1" n="evmassam" sdmxdb="false" count="91_18_01_1,477" deflng="en" defind="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18" defindjson="{'iu':['1~1||E1 : Vaccine Arrival~Percent','2~1||E2 : Temperature~Percent','3~1||E3 : Storage Capacity~Percent','4~1||E4 : Buildings, equipment, transport~Percent','5~1||E5 : Maintenance~Percent','6~1||E6 : Stock management~Percent','7~1||E7 : Distribution~Percent','8~1||E8 : Vaccine management~Percent','9~1||E9 : MIS, supportive functions~Percent','10~1||C1 : Buildings~Percent','11~1||C2 : Capacity~Percent','12~1||C3 : Equipment~Percent','13~1||C4 : Management~Percent','14~1||C5 : Repairs/maintenance~Percent','15~1||C6 : Training~Percent','16~1||C7 : Vehicles~Percent','17~1||E0 : Overall score~Percent','18~1||C0 : Overall score~Percent'],'sg_dim':{},'sg_dim_val':{},'iusnid':{}}" defarea="2995,QS_REG_L2" defareajson="{&quot;area&quot; : {&quot;1&quot; : [&quot;2995|| Assam (REG) - Level 1&quot;],&quot;2&quot; : [&quot;QS_REG_L2|| Assam (REG) - Level 2&quot;]}}" defac="4" dbConn="0||192.168.1.5||evmassam||sa||8pgDWOyVmjHsiHSO0iDS6A==" avllng="en" lastmod="2015-06-17" langcode_csvfiles="en" IsSDMXHeaderCreated="false" desc_en="" />
+  </category>
+</dbinfo>

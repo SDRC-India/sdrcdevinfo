@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root[
+  <!ELEMENT root ANY>
+  <!ELEMENT Associate ANY>
+  <!ATTLIST Associate MasterKey CDATA #REQUIRED >
+  <!ATTLIST Associate ElementID ID #REQUIRED >
+  <!ATTLIST Associate ElementProperty CDATA #REQUIRED >
+]>
+<root>
+  <Associate MasterKey="MissingValue" ElementID="langMissingValue" ElementProperty="innerHTML" />
+  <Associate MasterKey="MapDisclaimerText" ElementID="langMapDisclaimerText" ElementProperty="innerHTML" />
+  <Associate MasterKey="Map" ElementID="langMap" ElementProperty="innerHTML" />
+  <Associate MasterKey="Data" ElementID="langData" ElementProperty="innerHTML" />
+  <Associate MasterKey="SOURCE" ElementID="langSource" ElementProperty="innerHTML" />
+  <Associate MasterKey="Most_Recent_Data_coln" ElementID="langMostRecentData" ElementProperty="innerHTML" />
+  <Associate MasterKey="Theme" ElementID="langTheme" ElementProperty="innerHTML" />
+</root>

@@ -1,0 +1,37 @@
+﻿[^^^^][****]ADAPTATION_NAME[****] - 帐户激活[^^^^]
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+   亲爱 [****]USER_NAME[****],
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    您已经成功注册到[****]ADAPTATION_NAME[****] - <a href="[****]ADAPTATION_URL[****]">[****]ADAPTATION_URL[****]</a> 以下详细信息：
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    用户名： <a href="mailto:[****]USER_EMAILID[****]">[****]USER_EMAILID[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    登录用户角色：数据消费者
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    消费者ID： [****]DATA_CONSUMER_ID[****] <i><font color="7F7F7F">（注：使用此ID使用SDMX注册表服务）</font></i>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    <b>帐号激活</b>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    请点击下面的链接来激活您的帐户
+</p>
+<p style="font-size:9pt;margin:10px 0 20px;font-family:Arial;">
+    <a href="[****]ACTIVATION_URL[****]">[****]ACTIVATION_URL[****]</a>
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    如果你有任何疑问，您的帐户或Web应用程序，请直接与我们联系 <a href="mailto:[****]EMAILID_DB_ADMIN[****]">[****]EMAILID_DB_ADMIN[****]</a>
+</p>
+<br>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    的问候，
+</p>
+<p style="font-size:9pt;margin:10px 0 8px;font-family:Arial;">
+    Webmaster - [****]ADAPTATION_NAME[****]
+</p>
+</p>

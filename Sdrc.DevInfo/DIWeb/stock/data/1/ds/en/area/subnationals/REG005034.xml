@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaList>
+  <area name="Amas" nID="2943" aID="REG005034007" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Atari" nID="2925" aID="REG005034010" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Bankey Bazar" nID="2926" aID="REG005034011" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Barachatti" nID="2927" aID="REG005034012" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Belaganj" nID="2928" aID="REG005034013" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Bodh Gaya" nID="2939" aID="REG005034003" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Dobhi" nID="2935" aID="REG005034002" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Dumaria" nID="2929" aID="REG005034014" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Fatehpur" nID="2941" aID="REG005034005" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Guraru" nID="2930" aID="REG005034015" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Gurua" nID="2931" aID="REG005034016" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Imamganj" nID="2932" aID="REG005034017" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Khijarsarai" nID="2933" aID="REG005034018" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Konch" nID="2945" aID="REG005034009" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Maanpur" nID="2924" aID="REG005034001" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Mohanpur" nID="2934" aID="REG005034019" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Mohara" nID="2936" aID="REG005034020" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Paraiya" nID="2937" aID="REG005034021" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Sherghati" nID="2942" aID="REG005034006" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Tankuppa" nID="2940" aID="REG005034004" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Tekari" nID="2944" aID="REG005034008" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+  <area name="Wazirganj" nID="2938" aID="REG005034022" isGlobal="F" parentID="REG005034" parentName="Gaya" lvl="4" dataexists="T" subNational="F" isblock="F" lnid="481" />
+</AreaList>
