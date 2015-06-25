@@ -1,0 +1,564 @@
+/*
+ * DI Component CSS 1.1
+ *
+ */
+.di_gui_title {
+	font-family: Arial; 
+	font-weight:bold;
+	background-color:#47beeb;
+	padding:6px;
+	color: #ffffff;
+	font-size: 12px;
+	border: 1px solid #aaaaaa; 
+	border-bottom: 0px;
+}
+.di_gui_container { 
+	border: 1px solid #cecece; 
+	background-color: #f8f9fc;
+	display:block;
+}
+.di_gui_controlpanel { 
+	border: 1px solid #cecece; 
+	background-color: #f8f9fc;
+}
+.di_gui_body { 
+	background-color: #f8f9fc;
+	color: #222222;
+	font-family: Arial; 
+	font-size: 15px;
+	overflow:auto;
+	/*position:relative;*/
+	padding-top:8px;
+}
+.di_gui_lists_specialoption { 
+	font-style:italic;
+	color: #9d928e;
+}
+.di_gui_buttonbox {
+	background-color: #f8f9fc;
+	border: 1px solid #cecece; 
+	border-top: 0px;
+	text-align:right;
+}
+.di_gui_button {
+	background-color: #47beeb;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 8pt;
+    padding: 4px;
+}
+.di_gui_button2 {
+	background-color: #87B438;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 8pt;
+    padding: 4px;
+}
+/* button class use for view selection button */
+.di_gui_button3 {
+	font-size:11px; 
+	border: 1px solid #ccc;
+	background-image:url(../images/submit_but_bg.gif); 
+	color:#666;
+	font-weight:bold;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 8pt;
+    padding: 5px;
+}
+.di_gui_button3:hover
+{
+	font-size:11px; 
+	border: 1px solid #ccc;
+	background-image:url(../images/submit_but_bg.gif); 
+	color:#000; 
+	font-weight:bold;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 8pt;
+    padding: 5px;
+}
+
+.di_gui_viewselectionlist {
+	background-color:#f2f2f2;
+	font-family: Arial;
+	font-size: 13px;
+	border:1px solid #d3d3d3;
+	padding:5px;
+	overflow:auto;
+}
+.di_gui_gripbox {
+	background-color:#7388D0;
+	/*background: url("images/SliderGrip.gif") no-repeat scroll;*/
+	cursor:pointer;
+}
+/*.di_grip_img{
+	cursor:pointer;
+}*/
+
+.di_gui_closebutton{
+	font-family: Arial; 
+	font-weight:bold;
+	color: #ffffff;
+	font-size: 12px;
+	cursor:pointer; 
+}
+.di_gui_loadingtext {
+    background-color:#ffffff;
+    border: 1px solid gray;
+    color: gray;
+	font-family: Arial; 
+	font-size: 10px;
+    font-weight: bold;
+    left: 40%;
+    margin: 5px;
+    padding: 6px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: auto;
+    z-index: 949;
+} 
+/* class for heading1 with 18 px font size */
+.di_gui_heading1 {
+	font-size: 18px; 
+	border-width: 0px 0px 1px; 
+	border-style: solid; 
+	border-color: rgb(236, 236, 236);
+}
+/* class for heading1 with 15 px font size */
+.di_gui_heading2 {
+	font-weight: bold; 
+	font-size: 15px; 
+	color: #5C86AD;
+	font-family: Arial;
+	cursor: pointer;
+	height:38px;
+	vertical-align:top;
+}
+/* class for description text */
+.di_gui_description {
+	color: #666;
+	font-weight: normal;
+	font-size:14px;
+	text-align:justify;
+	height:80px;
+	vertical-align:top;
+	padding-top:5px;
+}
+/* class for summary label with grey color and small font-size */
+.di_gui_summary {
+	font-size:11px;
+	line-height:8px;
+	color: #5C86AD;
+	font-family: Arial;
+}
+/* class label of tree for */
+.di_gui_tree_label {
+	cursor:pointer;
+	line-height:21px;
+}
+/* class for child area label*/
+.di_gui_label_indent {  
+	margin-left:-20px;
+}
+.di_gui_label_hover {
+	background-color:#47beeb;
+}
+/* class will be used for hyperlink with small without underline*/
+.di_gui_link
+{ 
+	font-weight:bold;
+	font-size:11px;
+	font-family: Arial;	
+	color:#105998;		
+}
+.di_gui_link:hover
+{ 
+	font-weight:bold;
+	font-size:11px;
+	font-family: Arial;	
+	color:#105998;
+	text-decoration: underline;
+}
+
+/* class will be used for hyperlink with 13 font size and with underline */
+.di_gui_link2
+{
+	font-family: Arial;
+	color:#105998;
+	font-size:13px;
+	text-decoration: underline;
+	cursor:pointer;
+}
+.di_gui_link2:hover
+{
+	text-decoration: none;
+}
+/* class will be used for hyperlink with 13 font size and with underline */
+.di_gui_link3
+{
+	font-size: 13px;
+	font-weight:bold;
+	color: #095495;
+	font-family: Arial;
+	cursor:pointer;
+}
+.di_gui_link3:hover
+{
+	text-decoration: underline;
+}
+/* class is for mode view box such as Tree | List */
+.di_gui_modeview_box {
+	font-family: Arial;
+	font-size:12px;
+	padding:1px;
+	padding-right:10px; /* rtl-o changed for Advanced search popup */
+	text-align:right;
+	text-align:right;
+}
+/* class for leaf node of the tree in italic font style (such as indicator label) */
+.di_gui_leafnode_label
+{
+	font-family: Arial;
+	cursor:pointer;
+	line-height:15px;
+	font-size:15px;
+	font-style:italic;
+}
+/* class for search panel */
+.di_gui_searchpanel {
+    border:1px solid #CCC;
+	margin:6px;
+	margin-bottom:2px;
+	background-color: #FFFFFF;
+}
+/* class for seach box */
+.di_gui_searchbox {
+    width:95%;
+	border:0;
+	border-style:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	height:18px;
+	background: transparent;
+}
+/* class for search left */
+.di_gui_searchleft_box
+{
+	width:27px;
+	text-align:center;
+	/*background-image:url("../images/search.gif");
+	background-repeat: no-repeat;*/
+}
+/* class for search middle */
+.di_gui_searchmiddle_box
+{
+}
+/* class for search right */
+.di_gui_searchright_box
+{
+	width:20px;
+	text-align:right;
+	/*background-image:url("../images/cross.gif");
+	background-repeat: no-repeat;*/
+}
+/* class for default text of search box */
+.di_gui_searchbox_defaulttext {
+    color: #d3d3d3;
+    font-size:12px;
+}
+/* class for normal text of search box */
+.di_gui_searchbox_text {
+	color: #000000;
+    font-size:12px;
+}
+/* class for paging box */
+.di_gui_paging_box {
+    /*padding: 3px;*/
+	font-family: Arial; 
+	font-size: 9px;
+	text-align:center;
+	/*border-top: 1px dotted #80c080*/
+}
+/* class for text of paging menubox */
+.di_gui_paging_text {
+    padding: 4px;
+    text-decoration: none;
+	color:#000000;
+	cursor:pointer;
+}
+/* class for selecting single node when muliselect is false */
+.di_gui_singlenode_selection {
+	color:white;
+	font-weight:normal;
+	border:1px solid #ADADAD;
+	background-color:#47beeb;
+	padding-right:20px;
+}
+/* class for small box panel such as subgroup available and selected box style*/
+.di_gui_smallbox_panel
+{
+	background:#F8F9FC;
+	font-size: 15px;
+	font-family: Arial;
+	line-height: 1.4em;
+	border:1px solid #ccccff;
+	float:left;
+	overflow:auto;
+	padding:5px;
+}
+.di_gui_cursor_pointer {
+	cursor:pointer;
+}
+/* class for dropdown*/
+.di_gui_dropdown {
+	padding:5px;
+	text-align:left;
+	font-family: Arial; 
+	font-size: 12px;
+}
+/* class for 1 px padding */ 
+.di_gui_padding1 {
+    padding: 1px;
+	padding-left:0px;
+}
+/* Css class for gradient panel box used such as Indicator classification menu*/
+.di_gui_gradient_panel_box
+{
+	background-image:url("../images/select_menubg.gif");
+	font-size: 13px;
+	font-weight:bold;
+	font-family: Arial;
+	padding-left:6px; /* rtl-o */
+	padding-bottom:5px;
+	padding-top:3px;
+	border-bottom:1px solid #d3d3d3;
+}
+/* Css class for gradient panel box used such as view selections*/
+.di_gui_gradient_panel_bottombox
+{
+	background-image:url("../images/select_menubg.gif");
+	padding-left:6px;
+	/*padding-bottom:5px;
+	padding-top:3px;*/
+	border-bottom:1px solid #d3d3d3;
+	border-top:1px solid #d3d3d3;
+}
+/* class is used for indicator subgroup bottom footer box */
+.di_gui_action_panel_box
+{
+	width:100%;
+	float:left;
+	padding-top:5px;
+	height:30px;	
+	line-height:20px;
+	text-align:right;
+}
+/* class for view selections box */
+.di_gui_view_selection_bottom_panel {
+	height: 15px;
+	text-align:left;
+	color:#095495;
+	padding:2px;
+	cursor:pointer;
+	font-family: Arial;
+	font-size: 12px;
+	margin-left:12px;
+	margin-right:12px;
+	border-top:1px solid #ececec;
+}
+.di_gui_hanging_button_box {
+	height: auto;
+	text-align:right;
+	cursor:pointer;
+	font-family: Arial;
+	font-size: 10px;
+	margin-left:0px;
+	margin-right:0px;
+	
+}
+.di_gui_hanging_button_right {
+	background-image:url("../images/bttn_right_cornor.png");
+	background-repeat: no-repeat;
+	width:8px;
+	height:22px;
+}
+.di_gui_hanging_button_left {
+	background-image:url("../images/bttn_left_cornor.png");
+	background-repeat: no-repeat;
+	width:7px;
+	height:22px;
+}
+.di_gui_hanging_button_middle {
+	background-image:url("../images/bttn_midle_cornor1.png");
+	font-size:14px;
+	color:#ffffff;
+	height:22px;
+	cursor:pointer;
+}
+/* class for display selection list */
+.di_gui_view_selections_box {
+	background-color:#f2f2f2;
+	font-family: Arial;
+	font-size: 13px;
+	border:1px solid #d3d3d3;
+	padding:5px;
+	overflow:auto;
+}
+/* class used for text-align right and top border (use on view selection bottom button box)*/
+.di_gui_button_footer_style{
+	text-align:right;
+	border-top:1px solid #d3d3d3;
+	padding-top:3px;
+}
+/* class for view metadata outer panel */
+.di_gui_view_metadata_panel {
+	position:absolute;
+	z-index: 1200;
+	border:1px solid #d3d3d3; 
+	background-color:#ececec;
+	height:auto;
+}
+
+/* class for view metadata outer panel */
+.di_gui_metadata_container{
+	height:290px; 
+	overflow:auto; 
+	background:white;
+	padding:3px;
+}
+
+/* class for drop down */
+.di_gui_dropdown1{
+	font-size:11px;
+}
+/* class for selected text */
+.di_gui_seld_txt
+{
+	font-size: 13px;
+	font-weight:bold;
+	color: #000000;
+	font-family: Arial;
+}
+/* class used for view selection list body */
+.di_gui_viewselections_body { 
+	color: #666666;
+	font-family: Arial;
+	font-weight:normal; 
+	font-size: 12px;
+	padding-top:2px;
+	overflow:auto;
+}
+/* class for deactive label */
+.di_gui_deactive_label {
+	color: #d3d3d3;
+}
+
+/* Start Callout classes */
+
+.callout 
+{ 
+	position: relative; 
+	margin: 18px 0; 
+	padding: 18px 20px; 
+	background-color: #eef4f9;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px; 
+	zoom: 1; 
+}
+.callout .notch 
+{ 
+	position: absolute; 
+	top: -10px; 
+	left: 20px; 
+	margin: 0; 
+	border-bottom: 10px solid #eef4f9; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent; 
+	border-top: 0; 
+	padding: 0; 
+	width: 0; 
+	height: 0; 
+	font-size: 0; 
+	line-height: 0; 
+	_border-right-color: pink; 
+	_border-left-color: pink; 
+	_filter: chroma(color=pink); 
+}
+.border-callout 
+{ 
+	border: 1px solid #c5d9e8; 
+	padding: 10px 10px; 
+}
+.border-callout .border-notch 
+{ 
+	border-bottom-color: #c5d9e8; 
+	top: -11px; 
+}
+
+/* End Callout classes */
+
+/* new added */
+/*outer div class of close button on popup*/
+.di_gui_popupclose_div {
+	left:-17px;
+	float:right;
+	position:relative;
+	top:-15px;
+}
+/* css class for close button on the pop-up */
+.di_gui_popupclose {
+    background: url("../images/di_close_bttn.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 30px;
+    margin: 0;
+    position: absolute;
+    width: 30px;
+    z-index: 100;
+}
+/* class for child area label*/
+.di_gui_label_btmbdr {  
+	border-bottom:1px solid #ececec;
+}
+
+
+/* class for the drop down list */
+.di_gui_dd_container {
+	display: none;
+    position: absolute;
+}
+ul.di_gui_dd {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #8C969F;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset, 0 1px 7px #B7B7B7;
+    list-style-type: none;
+    margin: 5px 0 0 123px;
+    max-height: 360px;
+    overflow: hidden;
+    padding: 7px 10px 10px 10px;
+    position: absolute;
+    width: auto;
+    z-index: 1;
+}
+.di_gui_notch {
+    background: url("../images/callout-tip.png") no-repeat scroll 0 0 transparent;
+    height: 10px;
+    left: 145px;
+    margin: -1px 0 0;
+    position: absolute;
+    top: 0px;
+    width: 10px;
+    z-index: 2;
+}
+
+
+
+
+

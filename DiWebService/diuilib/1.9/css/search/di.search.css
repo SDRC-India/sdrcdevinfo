@@ -1,0 +1,51 @@
+/* class for search panel */
+.di_gui_searchpanel {
+    border:1px solid #CCC;
+	margin:6px 6px 2px 6px; /* rtl-o */
+	background-color: #FFFFFF;
+}
+
+/* class for seach box */
+.di_gui_searchbox {
+    width:95%;
+	border:0;
+	border-style:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	height:19px;
+	background: transparent;
+}
+
+/* class for search left */
+.di_gui_searchleft_box
+{
+	/*background-image:url("../images/search.gif");
+	background-repeat: no-repeat;*/
+	width:26px; height:16px;
+	text-align:center;
+	background:url("../../images/di_search_sprite.png") no-repeat 6px 4px; /* rtl-o -- (Moz & IE value remains same) */
+	/*padding-right:8px -- rtl SPECIFIC */	
+}
+
+/* class for search middle */
+.di_gui_searchmiddle_box
+{
+    /* padding-right:3px -- rtl SPECIFIC */
+}
+
+/* class for default text of search box */
+.di_gui_searchbox_defaulttext {
+    color: #d3d3d3;
+    font-size:12px;
+}
+
+/* class for search right */
+.di_gui_searchright_box
+{
+	width:20px;
+	text-align:right;
+	background:url("../../images/di_search_sprite.png") no-repeat 4px -19px;
+	cursor:pointer;
+	/*background-image:url("../images/cross.gif");
+	background-repeat: no-repeat;*/
+}
